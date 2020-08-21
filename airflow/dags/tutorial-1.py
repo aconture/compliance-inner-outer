@@ -1,6 +1,6 @@
 
 """
-### Tutorial Documentation
+### Tutorial Documentation:
 Documentation that goes along with the Airflow tutorial located
 [here](https://airflow.apache.org/tutorial.html)
 """
