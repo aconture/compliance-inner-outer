@@ -132,12 +132,12 @@ def Load_inv(**context):
 
 def naming_inv(**context):
     manual = """
-    Esta funcion modifica el contenido de ciertos campos traidos desde el inventario.
+    Esta funcion modifica el contenido de ciertos campos traidos desde el inventario para que puedan ser comparados con el archivo que trae ansible desde el NE.
     La lectura la realiza de la tabla inv_itf.
     El resultado lo guarda en la tabla par_inv_itf.
 
     Args: 
-      none
+      none 
     Returns:
       none
     """
@@ -155,8 +155,7 @@ def naming_inv(**context):
 
     #filtro1:
     
-    
-    #adecuaciones especificas
+    #adecuaciones especificas para el Inner Core
     for indice in df_inv_itf.index:
         if (df_inv_itf.loc[indice,'shelfname'].startswith('IC1.')) and (df_inv_itf.loc[indice,'bandwidth'] == '10 Gb'):
             df_inv_itf.loc[indice,'userlabel'] = df_inv_itf.loc[indice,'userlabel']+'(100M)'
