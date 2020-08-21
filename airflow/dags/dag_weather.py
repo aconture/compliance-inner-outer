@@ -34,7 +34,7 @@ dag = DAG(
     default_args=default_args
 )
 
-#tasks 1
+#tasks
 t0 	= DummyOperator(task_id='dummy_task', retries=1, dag=dag)
 
 t1	= DisplayClimaOperator(
