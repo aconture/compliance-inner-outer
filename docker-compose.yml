@@ -1,0 +1,62 @@
+version: '3.4'
+services:
+
+  postgres-airflow:
+    container_name: postgres-airflow
+    image: postgres:9.6
+    env_file: env/postgres-airflow.env
+    logging:
+        options:
+          max-size: 10m
+          max-file: "3"
+    volumes:
+        - airflow-postgres-data:/var/lib/postgresql/data
+    networks:
+      - airflow-net 
+
+  webserver:
+    #image: puckel/docker-airflow:1.10.9
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: webserver-airflow
+    extra_hosts:
+      dlcondisdb21: 10.76.32.55
+      ulcondisdb3: 10.76.32.151
+    restart: "no"
+    depends_on:
+      - postgres-airflow
+    env_file: env/webserver-airflow.env
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    volumes:
+      - ./airflow:/usr/local/airflow/
+      - ./airflow/dags:/usr/local/airflow/dags
+      - ./airflow/plugins:/usr/local/airflow/plugins
+    ports:
+      - "8080:8080"
+    command: webserver
+    healthcheck:
+      test: ["CMD-SHELL", "[ -f /usr/local/airflow/airflow-webserver.pid ]"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+    networks:
+      - airflow-net 
+
+  remote-host:
+    container_name: remote-host
+    image: remote-host
+    build:
+      context: centos7
+    networks:
+      - airflow-net 
+
+volumes:
+  airflow-postgres-data:
+    driver: local
+
+networks:
+  airflow-net:

@@ -1,0 +1,54 @@
+Caoss:
+ok:241
+no exist: 11
+revisar: 39 
+
+caso ok:
+ portoperationalstate = up (ne)
+&
+ portoperationalstate = active (lisy)
+
+ portoperationalstate = down (ne)
+&
+ portoperationalstate = not active (lisy)
+
+
+caso 'revisar':
+ portoperationalstate = up (ne)
+&
+ portoperationalstate = not active (lisy)
+
+ portoperationalstate = down (ne)
+&
+ portoperationalstate = active (lisy)
+
+
+caso inexistente:
+itf existe en la red (cualquier estado)
+&
+no existe en el inventario
+
+itf no existe en la red (cualquier estado)
+&
+existe en el inventario
+
+
+4 reportes por separado
+los reportes parten de la tabla de los NE
+
+
+$$$$$$$$$$$$$$$$$$$$$$$
+
+INV: 108,IC1.SLO1,Huawei-NE9000-20,INNER CORE,Available,1/0/59,GE,Available,NaN,Optical,IC1.SLO1GE1/0/59 ==> (userlabel + '(100M)') bandwidth=GE
+NE: 70,IC1.SLO1,GE1/0/59(100M),down,down,},IC1.SLO1GE1/0/59(100M) 
+
+$$$$$$$$$$$$$$$$$$$$$
+
+inventario:
+IC1.HOR1  | Huawei-NE9000-20 | INNER CORE  | Available             | 3/0/0     | 100GE     | Available            | NaN
+                      | Optical | IC1.HOR1100GE3/0/0
+					  
+NE:
+ shelfname |  interface  | portoperationalstate | protocol |                                  info1
+-----------+-------------+----------------------+----------+-------------------------------------------------------------------------
+ IC1.HOR1  | 100GE3/0/0  | up                   | up       | TRK:ENLACE:COE1NA (Hu0/1/0/0) (S1-006 88HOR01 0/20/1) Linea:15009137}
