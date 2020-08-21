@@ -267,9 +267,98 @@ def Caso1_ok(**context):
 
     df_ok = pd.concat ([df_ok1,df_ok2])
 
+    conn.close()
+    
+    logging.info ('\n:::Registros ok: {}'.format(len(df_ok)))
+    df_ok.to_csv('ok.csv')
 
+def _init_crudo():
+    import pandas as pd
+
+    table_A = 'ne'
+    table_B = 'par_inv_itf'
+
+    pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
+    conn = pg_hook.get_conn()
+
+    df_ne = pd.read_sql_query("""select * from {0}
+                                limit 1"""
+                                .format(table_A,table_B),con=conn)
+    
+    df_inventario = pd.read_sql_query("""select * from {1}
+                            limit 1"""
+                            .format(table_A,table_B),con=conn)
+
+    df_ne=df_ne.rename(columns={'portoperationalstate':'EstadoRed','info1':'DescRed' })
+    df_inventario=df_inventario.rename(columns={'portoperationalstate':'EstadoLisy','info1':'DescLisy' })
+
+    list_crudo = [df_ne, df_inventario]
+    df_crudo = pd.concat(list_crudo)
+
+    print (':::COLUMNAS DEL CRUDO:::',df_crudo.columns)
+    print (':::COLUMNAS DEL A',df_ne, '\n\n:::')
+    logging.info (':::')
 
     conn.close()
+    return (df_crudo)
+
+def Caso1_ok_v2(**context):
+    manual = """
+            Esta funcion determina los registros correctamente sincronizados entre el NE y el inventario.
+    Args: 
+      none
+    Returns:
+      none
+    """
+    import pandas as pd
+
+    table_A = 'ne'
+    table_B = 'par_inv_itf'
+
+    pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
+    conn = pg_hook.get_conn()
+
+    #casos ok:
+    #estan en inventario y en NE, caso ok 1:
+    df_ok1 = pd.read_sql_query("""select * from {0} WHERE concat IN
+                                (
+                                select concat from {0} a where portoperationalstate = 'up'
+                                INTERSECT
+                                select concat from {1} b where portoperationalstate IN ('Active')
+                                )"""
+                                .format(table_A,table_B),con=conn)
+
+    #estan en inventario y en NE, caso ok 2:
+    df_ok2 = pd.read_sql_query("""select * from {0} WHERE concat IN 
+                                (
+                                select concat from {0} a where portoperationalstate = 'down'
+                                INTERSECT
+                                select concat from {1} b where portoperationalstate NOT IN ('Active')
+                                )"""
+                                .format(table_A,table_B),con=conn)
+
+    df_ok = pd.concat ([df_ok1,df_ok2])
+
+    #print (df_ok.columns.ravel())
+    #print (df_aux.columns.ravel())
+
+    #empiezo a preparar el crudo con la suma de los campos de ambas tablas.
+    #ojo: a las columnas con mismo nombre, pandas les antepone el prefijo x e y (x=df a la izquierda del merge)
+    df_crudo = _init_crudo()
+    print(df_crudo)
+
+    """
+    df_crudo = pd.merge (df_ok, df_aux, how='left', on='concat')
+    df_crudo['EvEstado'] = ''
+    df_crudo['Tipo'] = ''
+
+    df_crudo = df_crudo [['shelfname_x', 'interface', 'portoperationalstate_x', 'info1_x', 'networkrole', 'hardware', 'bandwidth','portoperationalstate_y','info1_y', 'concat', 'EvEstado', 'Tipo']]
+    print (df_crudo.columns)
+    """
+    conn.close()
+    
+    logging.info ('\n:::Registros ok: {}'.format(len(df_ok)))
+    df_ok.to_csv('ok.csv')
 
 
     #impresiones:
@@ -423,6 +512,7 @@ _adecuar_naming_ne = PythonOperator(
 
 _caso1 = PythonOperator(
     task_id='Caso1_Registros_ok', 
+    #python_callable=Caso1_ok_v2,
     python_callable=Caso1_ok,
     retries=1, dag=dag
     )
