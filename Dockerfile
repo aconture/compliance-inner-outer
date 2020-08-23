@@ -11,7 +11,8 @@ RUN apt-get update -yqq \
 RUN /usr/local/bin/python -m pip install --upgrade pip \
     && pip install ansible==2.9.11 \
 	&& pip install ansible-runner==1.4.6 \
-	&& pip install bottle==0.12.18
+	&& pip install bottle==0.12.18 \
+	&& pip install XlsxWriter==1.2.8
 RUN mkdir /etc/ansible && chmod +755 /etc/ansible
 #RUN mkdir /root/.ssh && chmod 600 /root/.ssh
 COPY ansible/ansible.cfg /etc/ansible
