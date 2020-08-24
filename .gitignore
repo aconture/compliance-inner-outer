@@ -1,6 +1,7 @@
 airflow/*.pid
 airflow/*.html
 airflow/*.csv
+airflow/*.xlsx
 airflow/.bash_history
 airflow/.cache/
 airflow/.local/

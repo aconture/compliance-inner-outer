@@ -282,11 +282,11 @@ def _init_crudo():
     conn = pg_hook.get_conn()
 
     df_ne = pd.read_sql_query("""select * from {0}
-                                limit 1"""
+                                limit 0"""
                                 .format(table_A,table_B),con=conn)
     
     df_inventario = pd.read_sql_query("""select * from {1}
-                            limit 1"""
+                            limit 0"""
                             .format(table_A,table_B),con=conn)
 
     df_ne=df_ne.rename(columns={'portoperationalstate':'EstadoRed','info1':'DescRed' })
@@ -295,12 +295,25 @@ def _init_crudo():
     list_crudo = [df_ne, df_inventario]
     df_crudo = pd.concat(list_crudo)
 
-    print (':::COLUMNAS DEL CRUDO:::',df_crudo.columns)
-    print (':::COLUMNAS DEL A',df_ne, '\n\n:::')
-    logging.info (':::')
+    #print (':::COLUMNAS DEL CRUDO:::',df_crudo.columns)
+    #print (':::COLUMNAS DEL A',df_ne, '\n\n:::')
+    #print (df_crudo)
+    #logging.info (':::')
 
     conn.close()
     return (df_crudo)
+
+def _gen_excel(dataframe):
+    import xlsxwriter
+    import pandas as pd
+
+    with pd.ExcelWriter('ok.xlsx',mode='n',engine='xlsxwriter', date_format="DD-MM-YYYY", datetime_format="DD-MM-YYYY") as escritor:
+        dataframe.to_excel(escritor, sheet_name='crudo', index=None)
+
+def _format_reporte(dataframe):
+    dataframe=dataframe.rename(columns={'portoperationalstate':'EstadoRed','info1':'DescRed' })
+    return(dataframe)
+
 
 def Caso1_ok_v2(**context):
     manual = """
@@ -337,29 +350,43 @@ def Caso1_ok_v2(**context):
                                 )"""
                                 .format(table_A,table_B),con=conn)
 
-    df_ok = pd.concat ([df_ok1,df_ok2])
+    df_ok1_complemento = pd.read_sql_query("""select * from {1} WHERE concat IN
+                                (
+                                select concat from {0} a where portoperationalstate = 'up'
+                                INTERSECT
+                                select concat from {1} b where portoperationalstate IN ('Active')
+                                )"""
+                                .format(table_A,table_B),con=conn)
+
+    df_ok2_complemento = pd.read_sql_query("""select * from {1} WHERE concat IN 
+                                (
+                                select concat from {0} a where portoperationalstate = 'down'
+                                INTERSECT
+                                select concat from {1} b where portoperationalstate NOT IN ('Active')
+                                )"""
+                                .format(table_A,table_B),con=conn)
+
+    df_ok1=_format_reporte(df_ok1)
+    df_ok2=_format_reporte(df_ok2)
+
+    df_ok2 = pd.merge(df_ok2,df_ok2_complemento, how='left', on='concat')
+    df_ok1 = pd.merge(df_ok1,df_ok1_complemento, how='left', on='concat')
 
     #print (df_ok.columns.ravel())
-    #print (df_aux.columns.ravel())
 
     #empiezo a preparar el crudo con la suma de los campos de ambas tablas.
     #ojo: a las columnas con mismo nombre, pandas les antepone el prefijo x e y (x=df a la izquierda del merge)
-    df_crudo = _init_crudo()
-    print(df_crudo)
+    #df_crudo = _init_crudo()
+    #df_ok = pd.concat ([_init_crudo(),df_ok1,df_ok2])
+    df_ok = pd.concat ([df_ok1,df_ok2])
+    df_ok['EvEstado'] = 'ok'
+    #print(df_ok)
 
-    """
-    df_crudo = pd.merge (df_ok, df_aux, how='left', on='concat')
-    df_crudo['EvEstado'] = ''
-    df_crudo['Tipo'] = ''
-
-    df_crudo = df_crudo [['shelfname_x', 'interface', 'portoperationalstate_x', 'info1_x', 'networkrole', 'hardware', 'bandwidth','portoperationalstate_y','info1_y', 'concat', 'EvEstado', 'Tipo']]
-    print (df_crudo.columns)
-    """
     conn.close()
     
     logging.info ('\n:::Registros ok: {}'.format(len(df_ok)))
-    df_ok.to_csv('ok.csv')
 
+    _gen_excel(df_ok)
 
     #impresiones:
     print (len(df_ok))
@@ -399,6 +426,7 @@ def Caso2_revisar(**context):
                                 select concat from {1} b where portoperationalstate IN ('Active')
                                 )"""
                                 .format(table_A,table_B),con=conn)
+
 
     df_rev = pd.concat ([df_rev1,df_rev2])
 
@@ -512,8 +540,8 @@ _adecuar_naming_ne = PythonOperator(
 
 _caso1 = PythonOperator(
     task_id='Caso1_Registros_ok', 
-    #python_callable=Caso1_ok_v2,
-    python_callable=Caso1_ok,
+    python_callable=Caso1_ok_v2,
+    #python_callable=Caso1_ok,
     retries=1, dag=dag
     )
 _caso2 = PythonOperator(
