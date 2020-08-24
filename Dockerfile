@@ -8,11 +8,13 @@ RUN apt-get update -yqq \
 	&& apt-get purge --auto-remove -yqq $buildDeps \
     && apt-get autoremove -yqq --purge \
     && apt-get clean
-RUN /usr/local/bin/python -m pip install --upgrade pip \
-    && pip install ansible==2.9.11 \
-	&& pip install ansible-runner==1.4.6 \
-	&& pip install bottle==0.12.18 \
-	&& pip install XlsxWriter==1.2.8
+RUN /usr/local/bin/python -m pip install --upgrade pip
+
+RUN pip install ansible==2.9.11 \
+	pip install ansible-runner==1.4.6
+	
+RUN	pip install bottle==0.12.18 \
+	&& pip install openpyxl==3.0.3
 RUN mkdir /etc/ansible && chmod +755 /etc/ansible
 #RUN mkdir /root/.ssh && chmod 600 /root/.ssh
 COPY ansible/ansible.cfg /etc/ansible

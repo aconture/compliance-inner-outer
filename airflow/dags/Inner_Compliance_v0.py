@@ -57,12 +57,6 @@ def Load_inv(**context):
     dir=context['dir']
     table=context['table']
 
-    """
-    file=context['params'].get('file')
-    dir=context['params'].get('dir')
-    table=context['params'].get('table')
-    """
-
     if (dir is None) or (table is None):
         logging.info ('\n:::! Error - Falta un argumento de llamada a esta funcion.')
         logging.info (manual)
@@ -230,85 +224,40 @@ def naming_ne(**context):
     conn.commit()
     conn.close()
 
-def Caso1_ok(**context):
-    manual = """
-            Esta funcion determina los registros correctamente sincronizados entre el NE y el inventario.
-    Args: 
-      none
-    Returns:
-      none
-    """
+
+def gen_excel(**context):
+    #import xlsxwriter
+    import openpyxl
     import pandas as pd
 
-    table_A = 'ne'
-    table_B = 'par_inv_itf'
+    dir=context['dir']
+    archivos=os.listdir(os.path.join(os.getcwd(),dir,'auxiliar'))
+    print (archivos)
 
-    pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
-    conn = pg_hook.get_conn()
+    for nom_archivo in archivos:
+        abspath = os.path.join(os.getcwd(),dir,'auxiliar',nom_archivo)
+        solapa = os.path.basename(abspath)
+        dataframe = pd.read_csv(abspath,delimiter=',')
+        archivo_rep = os.path.join(os.getcwd(),dir,'reporte.xlsx')
+        #print (solapa)
+        try:
+          with pd.ExcelWriter(archivo_rep,mode='a',engine='openpyxl', encoding="utf-8-sig") as escritor:
+              dataframe.to_excel(escritor, sheet_name=solapa, index=None)
+        except FileNotFoundError:
+          with pd.ExcelWriter(archivo_rep,mode='n',engine='openpyxl', encoding="utf-8-sig") as escritor:
+              dataframe.to_excel(escritor, sheet_name=solapa, index=None)
+        finally:
+          escritor.save
 
-    #casos ok:
-    #estan en inventario y en NE, caso ok 1:
-    df_ok1 = pd.read_sql_query("""select * from {0} WHERE concat IN
-                                (
-                                select concat from {0} a where portoperationalstate = 'up'
-                                INTERSECT
-                                select concat from {1} b where portoperationalstate IN ('Active')
-                                )"""
-                                .format(table_A,table_B),con=conn)
-
-    #estan en inventario y en NE, caso ok 2:
-    df_ok2 = pd.read_sql_query("""select * from {0} WHERE concat IN 
-                                (
-                                select concat from {0} a where portoperationalstate = 'down'
-                                INTERSECT
-                                select concat from {1} b where portoperationalstate NOT IN ('Active')
-                                )"""
-                                .format(table_A,table_B),con=conn)
-
-    df_ok = pd.concat ([df_ok1,df_ok2])
-
-    conn.close()
     
-    logging.info ('\n:::Registros ok: {}'.format(len(df_ok)))
-    df_ok.to_csv('ok.csv')
+def init_report(**context):
+    import os
+    dir=context['dir']
+    try:
+        os.remove('reporte.xlsx')
+    except FileNotFoundError:
+        pass
 
-def _init_crudo():
-    import pandas as pd
-
-    table_A = 'ne'
-    table_B = 'par_inv_itf'
-
-    pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
-    conn = pg_hook.get_conn()
-
-    df_ne = pd.read_sql_query("""select * from {0}
-                                limit 0"""
-                                .format(table_A,table_B),con=conn)
-    
-    df_inventario = pd.read_sql_query("""select * from {1}
-                            limit 0"""
-                            .format(table_A,table_B),con=conn)
-
-    df_ne=df_ne.rename(columns={'portoperationalstate':'EstadoRed','info1':'DescRed' })
-    df_inventario=df_inventario.rename(columns={'portoperationalstate':'EstadoLisy','info1':'DescLisy' })
-
-    list_crudo = [df_ne, df_inventario]
-    df_crudo = pd.concat(list_crudo)
-
-    #print (':::COLUMNAS DEL CRUDO:::',df_crudo.columns)
-    #print (':::COLUMNAS DEL A',df_ne, '\n\n:::')
-    #print (df_crudo)
-    #logging.info (':::')
-
-    conn.close()
-    return (df_crudo)
-
-def _gen_excel(dataframe):
-    import xlsxwriter
-    import pandas as pd
-
-    with pd.ExcelWriter('ok.xlsx',mode='n',engine='xlsxwriter', date_format="DD-MM-YYYY", datetime_format="DD-MM-YYYY") as escritor:
-        dataframe.to_excel(escritor, sheet_name='crudo', index=None)
 
 def _format_reporte(dataframe):
     dataframe=dataframe.rename(columns={'portoperationalstate':'EstadoRed','info1':'DescRed' })
@@ -386,12 +335,12 @@ def Caso1_ok_v2(**context):
     
     logging.info ('\n:::Registros ok: {}'.format(len(df_ok)))
 
-    _gen_excel(df_ok)
+    #_gen_excel(df_ok,'ok')
 
     #impresiones:
     print (len(df_ok))
 
-    df_ok.to_csv('ok.csv')
+    df_ok.to_csv('reports/auxiliar/ok.csv')
     #df_all.to_json('prueba.json', orient='records', lines=True)
 
 def Caso2_revisar(**context):
@@ -427,13 +376,40 @@ def Caso2_revisar(**context):
                                 )"""
                                 .format(table_A,table_B),con=conn)
 
+    df_rev1_complemento = pd.read_sql_query("""select * from {1} WHERE concat IN 
+                                (
+                                select concat from {0} a where portoperationalstate = 'up'
+                                INTERSECT
+                                select concat from {1} b where portoperationalstate IN ('Available', 'Planned', 'Reserved', 'Undefined', 'Seems to be deleted')
+                                )"""
+                                .format(table_A,table_B),con=conn)
+
+    df_rev2_complemento = pd.read_sql_query("""select * from {1} WHERE concat IN 
+                                (
+                                select concat from {0} a where portoperationalstate = 'down'
+                                INTERSECT
+                                select concat from {1} b where portoperationalstate IN ('Active')
+                                )"""
+                                .format(table_A,table_B),con=conn)
+
+    df_rev1=_format_reporte(df_rev1)
+    df_rev2=_format_reporte(df_rev2)
+
+    df_rev1 = pd.merge(df_rev1,df_rev1_complemento, how='left', on='concat')
+    df_rev2 = pd.merge(df_rev2,df_rev2_complemento, how='left', on='concat')
+
 
     df_rev = pd.concat ([df_rev1,df_rev2])
+    df_rev['EvEstado'] = 'revisar'
 
     conn.close()
 
-    print (len(df_rev))
-    df_rev.to_csv('rev.csv')
+    logging.info ('\n:::Registros a revisar: {}'.format(len(df_rev)))
+
+    #_gen_excel(df_rev,'revisar')
+
+    #print (len(df_rev))
+    df_rev.to_csv('reports/auxiliar/rev.csv')
 
 def Caso3_ne_inv(**context):
     manual = """
@@ -460,10 +436,17 @@ def Caso3_ne_inv(**context):
                                 select concat from {1} b
                                 )"""
                                 .format(table_A,table_B),con=conn)
-    
+
+    df_ex_ne_inv=_format_reporte(df_ex_ne_inv)
+    df_ex_ne_inv['EvEstado'] = 'Falta_en_inventario'
+
     conn.close()
-    print(len(df_ex_ne_inv))
-    df_ex_ne_inv.to_csv('ex_ne_inv.csv')
+
+    logging.info ('\n:::Registros existentes en NE y faltan en Inventario: {}'.format(len(df_ex_ne_inv)))
+
+    #_gen_excel(df_ex_ne_inv,'FaltaEnInv')
+    df_ex_ne_inv.to_csv('reports/auxiliar/df_ex_ne_inv.csv')
+
 
 def Caso4_inv_ne(**context):
     manual = """
@@ -474,6 +457,7 @@ def Caso4_inv_ne(**context):
       none
     """
     import pandas as pd
+    rol=context['rol']
 
     table_A = 'ne'
     table_B = 'par_inv_itf'
@@ -485,14 +469,18 @@ def Caso4_inv_ne(**context):
     #estan en inventario y no estan en NE:
     df_ex_inv_ne = pd.read_sql_query("""select * from {1} where concat IN
                                 (
-                                select concat from {1} a 
+                                select concat from {1} a where networkrole = 'INNER CORE'
                                 EXCEPT
                                 select concat from {0} b)"""
                                 .format(table_A,table_B),con=conn)
     print(len(df_ex_inv_ne))
+    
+    df_ex_inv_ne = _format_reporte(df_ex_inv_ne)
+    #_gen_excel(df_ex_inv_ne,'FaltaEnNE')
+    logging.info ('\n:::Registros existentes en Inventario y faltan en NE: {}'.format(len(df_ex_inv_ne)))
 
     conn.close()
-    df_ex_inv_ne.to_csv('ex_inv_ne.csv')
+    df_ex_inv_ne.to_csv('reports/auxiliar/ex_inv_ne.csv')
 
 
 #########################################################
@@ -541,7 +529,6 @@ _adecuar_naming_ne = PythonOperator(
 _caso1 = PythonOperator(
     task_id='Caso1_Registros_ok', 
     python_callable=Caso1_ok_v2,
-    #python_callable=Caso1_ok,
     retries=1, dag=dag
     )
 _caso2 = PythonOperator(
@@ -558,28 +545,39 @@ _caso3 = PythonOperator(
 
 _caso4 = PythonOperator(
     task_id='Caso4_ExisteInv_NoExisteNE', 
+    op_kwargs={    
+    'rol':'INNER CORE',
+    },
     python_callable=Caso4_inv_ne,
     retries=1, dag=dag
     )
 
 
-_naming_adecuados = DummyOperator(task_id='Naming_Adecuados', retries=1, dag=dag)
+_init_reporting = PythonOperator(
+    task_id='Init_Reporting',
+    op_kwargs={    
+    'dir':'reports',
+    },
+    python_callable=init_report,
+    retries=1, dag=dag)
 
-_imprime_reporte1 = DummyOperator(task_id='Imprime_reporte1', retries=1, dag=dag)
-
-_imprime_reporte2 = DummyOperator(task_id='Imprime_reporte2', retries=1, dag=dag)
-
-_imprime_reporte3 = DummyOperator(task_id='Imprime_reporte3', retries=1, dag=dag)
+_imprime_reporte = PythonOperator(
+    task_id='Genera_Reporte',
+    op_kwargs={    
+    'dir':'reports',
+    },
+    python_callable=gen_excel,
+    retries=1, dag=dag)
 
 #Secuencia
-_extrae_bd_inventario >> _carga_inv_to_db >> _adecuar_naming_inv >> _naming_adecuados
+_extrae_bd_inventario >> _carga_inv_to_db >> _adecuar_naming_inv >> _init_reporting
 
-_extrae_bd_NE >> _carga_ne_to_db >> _adecuar_naming_ne >> _naming_adecuados
+_extrae_bd_NE >> _carga_ne_to_db >> _adecuar_naming_ne >> _init_reporting
 
-_naming_adecuados >> _caso1 >> _imprime_reporte1
+_init_reporting >> _caso1 >> _imprime_reporte
 
-_naming_adecuados >> _caso2 >> _imprime_reporte2
+_init_reporting >> _caso2 >> _imprime_reporte
 
-_naming_adecuados >> _caso3 >> _imprime_reporte2
+_init_reporting >> _caso3 >> _imprime_reporte
 
-_naming_adecuados >> _caso4 >> _imprime_reporte3
+_init_reporting >> _caso4 >> _imprime_reporte
