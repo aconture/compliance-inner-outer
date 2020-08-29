@@ -35,6 +35,14 @@ dag = DAG(
 
 #####################################################################3
 
+def exec_ansible(**context):
+    os.system('sshpass -e ssh u565589@10.9.44.173 \'rm /home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt; cd /home/u565589/desarrollo/irs_cu/mejoras_cu1/yaml/; ansible-playbook main.yaml\'')
+
+def scp_files(**context):
+    #os.system('pwd')
+    os.system('rm /usr/local/airflow/Inner/cu1/interfaces/*.txt')
+    print ('::::::::################ BORRADOS LOS TXT')
+    os.system('sshpass -e scp u565589@10.9.44.173:/home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt /usr/local/airflow/Inner/cu1/interfaces')
 
 def Load_inv(**context):
     manual = """
@@ -42,10 +50,9 @@ def Load_inv(**context):
     
     Args: 
       dir [text]: directorio dentro del home de Airflow, donde se encuentra el archivo o el grupo de archivos a cargar. No debe incluir '/' al final.
+      role [text]: rol definido en el inventario
       table [text]: tabla de la base de datos que se debe cargar.
-      
-      Opcional:
-      file [text]: archivo con la base a cargar. Si no existe este parametro, se cargan todos los archivos del directorio indicado.
+      file [text]: archivo con la base a cargar. Si su valor = '*', se cargan todos los archivos del directorio indicado.      
     
     Returns:
       none
@@ -56,13 +63,14 @@ def Load_inv(**context):
     file=context['file']
     dir=context['dir']
     table=context['table']
+    rol=context['role']
 
-    if (dir is None) or (table is None):
+    if (dir is None) or (table is None) or (rol is None) or (file is None):
         logging.info ('\n:::! Error - Falta un argumento de llamada a esta funcion.')
         logging.info (manual)
         return -1
 
-    if file is None:
+    if file == '*':
         #cargo en una lista todos los archivos del directorio
         archivos=os.listdir(os.path.join(os.getcwd(),dir))
     else:
@@ -89,7 +97,12 @@ def Load_inv(**context):
         abspath = os.path.join(os.getcwd(),dir,nom_archivo)
         try:
             df = pd.read_csv(abspath,delimiter='|')
-            #logging.info ('\n::: Cargando desde Archivo{0}, {1} registros.'.format(nom_archivo,len(df)))
+            if rol != '*':
+                try:
+                  df = df[(df['NetworkRole'] == rol)] #filtro el rol de la base traida del inventario
+                except:
+                  pass
+            logging.info ('\n::: Cargando desde Archivo{0}, {1} registros con el rol \'{2}\'.'.format(nom_archivo,len(df), rol))
             columnas = df.columns.ravel()
             sql_string = 'INSERT INTO {} ('.format(table)+ ', '.join(columnas) + ") (VALUES %s)"
 
@@ -224,9 +237,7 @@ def naming_ne(**context):
     conn.commit()
     conn.close()
 
-
 def gen_excel(**context):
-    #import xlsxwriter
     import openpyxl
     import pandas as pd
 
@@ -249,20 +260,38 @@ def gen_excel(**context):
         finally:
           escritor.save
 
-    
 def init_report(**context):
     import os
     dir=context['dir']
     try:
-        os.remove('reporte.xlsx')
+        os.remove('reports/reporte.xlsx')
     except FileNotFoundError:
         pass
 
-
 def _format_reporte(dataframe):
-    dataframe=dataframe.rename(columns={'portoperationalstate':'EstadoRed','info1':'DescRed' })
+    dataframe = dataframe.rename(columns={
+      'portoperationalstate_x':'EstadoRed',
+      'portoperationalstate_y': 'EstadoLisy',
+      'info1_x':'DescRed',
+      'info1_y':'DescLisy',
+      'shelfname_x':'NE',
+      'concat':'Recurso'
+      })
+    
+    dataframe = dataframe [[
+      'networkrole',
+      'NE',
+      'hardware',
+      'interface',
+      'Recurso',
+      'bandwidth',
+      'EstadoRed',
+      'EstadoLisy',
+      'DescRed',
+      'DescLisy',
+      'EvEstado'
+    ]]
     return(dataframe)
-
 
 def Caso1_ok_v2(**context):
     manual = """
@@ -315,21 +344,15 @@ def Caso1_ok_v2(**context):
                                 )"""
                                 .format(table_A,table_B),con=conn)
 
-    df_ok1=_format_reporte(df_ok1)
-    df_ok2=_format_reporte(df_ok2)
-
     df_ok2 = pd.merge(df_ok2,df_ok2_complemento, how='left', on='concat')
     df_ok1 = pd.merge(df_ok1,df_ok1_complemento, how='left', on='concat')
 
-    #print (df_ok.columns.ravel())
-
-    #empiezo a preparar el crudo con la suma de los campos de ambas tablas.
-    #ojo: a las columnas con mismo nombre, pandas les antepone el prefijo x e y (x=df a la izquierda del merge)
-    #df_crudo = _init_crudo()
-    #df_ok = pd.concat ([_init_crudo(),df_ok1,df_ok2])
     df_ok = pd.concat ([df_ok1,df_ok2])
+
     df_ok['EvEstado'] = 'ok'
-    #print(df_ok)
+    df_ok = _format_reporte(df_ok)
+
+    #print (df_ok.columns.ravel())
 
     conn.close()
     
@@ -392,15 +415,13 @@ def Caso2_revisar(**context):
                                 )"""
                                 .format(table_A,table_B),con=conn)
 
-    df_rev1=_format_reporte(df_rev1)
-    df_rev2=_format_reporte(df_rev2)
-
     df_rev1 = pd.merge(df_rev1,df_rev1_complemento, how='left', on='concat')
     df_rev2 = pd.merge(df_rev2,df_rev2_complemento, how='left', on='concat')
 
-
     df_rev = pd.concat ([df_rev1,df_rev2])
+
     df_rev['EvEstado'] = 'revisar'
+    df_rev = _format_reporte(df_rev)
 
     conn.close()
 
@@ -437,7 +458,7 @@ def Caso3_ne_inv(**context):
                                 )"""
                                 .format(table_A,table_B),con=conn)
 
-    df_ex_ne_inv=_format_reporte(df_ex_ne_inv)
+    #df_ex_ne_inv=_format_reporte(df_ex_ne_inv)
     df_ex_ne_inv['EvEstado'] = 'Falta_en_inventario'
 
     conn.close()
@@ -446,7 +467,6 @@ def Caso3_ne_inv(**context):
 
     #_gen_excel(df_ex_ne_inv,'FaltaEnInv')
     df_ex_ne_inv.to_csv('reports/auxiliar/df_ex_ne_inv.csv')
-
 
 def Caso4_inv_ne(**context):
     manual = """
@@ -475,7 +495,7 @@ def Caso4_inv_ne(**context):
                                 .format(table_A,table_B),con=conn)
     print(len(df_ex_inv_ne))
     
-    df_ex_inv_ne = _format_reporte(df_ex_inv_ne)
+    #df_ex_inv_ne = _format_reporte(df_ex_inv_ne)
     #_gen_excel(df_ex_inv_ne,'FaltaEnNE')
     logging.info ('\n:::Registros existentes en Inventario y faltan en NE: {}'.format(len(df_ex_inv_ne)))
 
@@ -489,7 +509,15 @@ def Caso4_inv_ne(**context):
 #tasks
 _extrae_bd_inventario = DummyOperator(task_id='Extrae_bd_inventario', retries=1, dag=dag)
 
-_extrae_bd_NE = DummyOperator(task_id='Extrae_bd_NE', retries=1, dag=dag)
+_auto_ansible = PythonOperator(
+    task_id='ejecuta_ansible', 
+    python_callable=exec_ansible,
+    dag=dag)
+
+_extrae_bd_NE = PythonOperator(
+    task_id='trae_archivos', 
+    python_callable=scp_files,
+    dag=dag)
 
 _carga_inv_to_db = PythonOperator(
     task_id='Carga_inv_to_db',
@@ -497,6 +525,7 @@ _carga_inv_to_db = PythonOperator(
     op_kwargs={
         'file':'Table-id_2225467905.csv',
         'dir':'Inner',
+        'role': '*',
         'table':'inv_itf'
         },
     provide_context=True,
@@ -508,8 +537,10 @@ _carga_ne_to_db = PythonOperator(
     python_callable=Load_inv,
     op_kwargs={    
         #'file':'huawei_IC1.HOR1_interfaces.txt',
-        'file':'huawei_IC1.SLO1_interfaces.txt',
+        #'file':'huawei_IC1.SLO1_interfaces.txt',
+        'file':'*',
         'dir':'Inner/cu1/interfaces',
+        'role': '*',
         'table':'ne'
         },
     provide_context=True,
@@ -572,7 +603,7 @@ _imprime_reporte = PythonOperator(
 #Secuencia
 _extrae_bd_inventario >> _carga_inv_to_db >> _adecuar_naming_inv >> _init_reporting
 
-_extrae_bd_NE >> _carga_ne_to_db >> _adecuar_naming_ne >> _init_reporting
+_auto_ansible >> _extrae_bd_NE >> _carga_ne_to_db >> _adecuar_naming_ne >> _init_reporting
 
 _init_reporting >> _caso1 >> _imprime_reporte
 
