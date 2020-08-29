@@ -1,10 +1,12 @@
 FROM puckel/docker-airflow:1.10.9
 USER root
+#sshpass para ejecutar comando remoto con la pwd en una variable de entorno
 RUN apt-get update -yqq \
     && apt-get upgrade -yqq \
     && apt-get install -yqq --no-install-recommends \
     iputils-ping \
 	openssh-server \
+	sshpass \
 	&& apt-get purge --auto-remove -yqq $buildDeps \
     && apt-get autoremove -yqq --purge \
     && apt-get clean

@@ -95,6 +95,7 @@ t1	= LisyQueryOperator(
     params={
     },
     metodo = 'Maqueta_sitio_movil', #El nombre de la query creada en Lisy
+    #metodo = 'EthernetPort_con_Slot',
     objeto = 'UnNumeroDeReferencia1234', #==> este es el valor que se usara para filtrar el search en lisy
     dag=dag
 )
