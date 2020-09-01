@@ -40,7 +40,8 @@ def exec_ansible(**context):
 
 def scp_files(**context):
     #os.system('pwd')
-    os.system('rm /usr/local/airflow/Inner/cu1/interfaces/*.txt')
+    #la linea siguiente la comento para no romper produccion
+    #os.system('rm /usr/local/airflow/Inner/cu1/interfaces/*.txt')
     print ('::::::::################ BORRADOS LOS TXT')
     os.system('sshpass -e scp u565589@10.9.44.173:/home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt /usr/local/airflow/Inner/cu1/interfaces')
 
@@ -523,7 +524,7 @@ _carga_inv_to_db = PythonOperator(
     task_id='Carga_inv_to_db',
     python_callable=Load_inv,
     op_kwargs={
-        'file':'Table-id_2225467905.csv',
+        'file':'Table-id_722018305.csv',
         'dir':'Inner',
         'role': '*',
         'table':'inv_itf'
