@@ -35,32 +35,84 @@ dag = DAG(
 
 #####################################################################3
 
-def exec_ansible(**context):
-    """
-    Requiere crear conexion:"ansible_proxy"
-    "host":"ip o hostname del ansible proxy"
-    "user":"id del usuario existente en el ansible proxy"
-    "pass":"pass del usuario en el ansible proxy"
+def call_ansible(**context):
+    manual = """
+    Args: 
+      connection [text]: id de la conexion creada en airflow (Admin->Connections), donde:
+        "host":"ip o hostname del ansible proxy"
+        "user":"id del usuario existente en el ansible proxy"
+        "pass":"pass del usuario en el ansible proxy"
     """
 
     from airflow.hooks.base_hook import BaseHook
 
-    #ansible_proxy='10.9.44.173'
-    connection = BaseHook.get_connection("ansible_proxy")
-    host = connection.host
-    user = connection.login
-    passw = connection.password
+    try:
+        conn_id = context['connection']
+    except:
+        logging.error ('\n\n:::! Error - Falta un argumento de llamada a esta funcion.')
+        logging.error (manual)
+        return -1
 
-    #la linea siguiente la comento para no romper produccion
-    #os.system('sshpass -e ssh u565589@10.9.44.173 \'rm /home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt; cd /home/u565589/desarrollo/irs_cu/mejoras_cu1/yaml/; ansible-playbook main.yaml\'')
-    os.system ('sshpass -p {0} ssh {1}@{2} \'rm /home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt; cd /home/u565589/desarrollo/irs_cu/mejoras_cu1/yaml/; ansible-playbook main.yaml\''.format(passw,user,host))
-    #os.system ('sshpass -p {0} ssh {1}@{2} \'pwd; ls -lrt\''.format(passw,user,host))
+    try:
+        connection = BaseHook.get_connection(conn_id)
+        host = connection.host
+        user = connection.login
+        passw = connection.password
+
+        #la linea siguiente la comento para no romper produccion
+        #os.system('sshpass -e ssh u565589@10.9.44.173 \'rm /home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt; cd /home/u565589/desarrollo/irs_cu/mejoras_cu1/yaml/; ansible-playbook main.yaml\'')
+        os.system ('sshpass -p {0} ssh {1}@{2} \'rm /home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt; cd /home/u565589/desarrollo/irs_cu/mejoras_cu1/yaml/; ansible-playbook main.yaml\''.format(passw,user,host))
+        #os.system ('sshpass -p {0} ssh {1}@{2} \'pwd; ls -lrt\''.format(passw,user,host))
+    except:
+        logging.error ('\n\n:::! Problema en la conexión al servidor remoto.\n')
+        return -1
     
 def scp_files(**context):
-    #os.system('pwd')
-    os.system('rm /usr/local/airflow/Inner/cu1/interfaces/*.txt')
-    print ('::::::::################ BORRADOS LOS TXT')
-    os.system('sshpass -e scp u565589@10.9.44.173:/home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt /usr/local/airflow/Inner/cu1/interfaces')
+    manual = """
+    Args: 
+      connection [text]: id de la conexion creada en airflow (Admin->Connections), donde:
+        "host":"ip o hostname del ansible proxy"
+        "user":"id del usuario existente en el ansible proxy"
+        "pass":"pass del usuario en el ansible proxy"
+      
+      local_dir [text]: path absoluto del directorio remoto.
+        ej: '/usr/local/airflow/Inner/'
+
+      remote_dir [text]: path absoluto del directorio remoto.
+        ej: '/home/u123456/'
+
+    Return:
+      -1 si error
+      none si exitoso
+    """
+    from airflow.hooks.base_hook import BaseHook
+
+    try:
+        conn_id = context['connection']
+        local_dir = context['local_dir']
+        remote_dir = context['remote_dir']
+    except:
+        logging.error ('\n\n:::! Error - Falta un argumento de llamada a esta funcion.\n')
+        logging.error (manual)
+        return -1
+
+    try:
+        connection = BaseHook.get_connection(conn_id)
+        host = connection.host
+        user = connection.login
+        passw = connection.password
+
+        os.system('rm {}*.txt'.format(local_dir))
+        logging.info ('::: Inicializado el directorio de *.txt local: {0}'.format(local_dir))
+        
+        #os.system('sshpass -e scp u565589@10.9.44.173:/home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt /usr/local/airflow/Inner/cu1/interfaces')
+        logging.info ('::: Trayendo archivos *.txt del directorio ansible remoto')
+        os.system('sshpass -p {0} scp {1}@{2}:{3}*.txt {4}'.format(passw,user,host,remote_dir,local_dir))
+        logging.info ('::: Archivos *.txt ansible copiados al directorio local')
+
+    except:
+        logging.error (':::! Problema en la conexión al servidor remoto.\n')
+        return -1
 
 def Load_inv(**context):
     manual = """
@@ -529,12 +581,20 @@ _extrae_bd_inventario = DummyOperator(task_id='Extrae_bd_inventario', retries=1,
 
 _auto_ansible = PythonOperator(
     task_id='ejecuta_ansible', 
-    python_callable=exec_ansible,
+    python_callable=call_ansible,
+    op_kwargs={
+        'connection':'ansible_proxy'
+        },
     dag=dag)
 
 _extrae_bd_NE = PythonOperator(
     task_id='trae_archivos', 
     python_callable=scp_files,
+    op_kwargs={
+        'connection':'ansible_proxy',
+        'local_dir':'/usr/local/airflow/Inner/cu1/interfaces/',
+        'remote_dir':'/home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/'
+        },
     dag=dag)
 
 _carga_inv_to_db = PythonOperator(
