@@ -36,12 +36,29 @@ dag = DAG(
 #####################################################################3
 
 def exec_ansible(**context):
-    os.system('sshpass -e ssh u565589@10.9.44.173 \'rm /home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt; cd /home/u565589/desarrollo/irs_cu/mejoras_cu1/yaml/; ansible-playbook main.yaml\'')
+    """
+    Requiere crear conexion:"ansible_proxy"
+    "host":"ip o hostname del ansible proxy"
+    "user":"id del usuario existente en el ansible proxy"
+    "pass":"pass del usuario en el ansible proxy"
+    """
 
+    from airflow.hooks.base_hook import BaseHook
+
+    #ansible_proxy='10.9.44.173'
+    connection = BaseHook.get_connection("ansible_proxy")
+    host = connection.host
+    user = connection.login
+    passw = connection.password
+
+    #la linea siguiente la comento para no romper produccion
+    #os.system('sshpass -e ssh u565589@10.9.44.173 \'rm /home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt; cd /home/u565589/desarrollo/irs_cu/mejoras_cu1/yaml/; ansible-playbook main.yaml\'')
+    os.system ('sshpass -p {0} ssh {1}@{2} \'rm /home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt; cd /home/u565589/desarrollo/irs_cu/mejoras_cu1/yaml/; ansible-playbook main.yaml\''.format(passw,user,host))
+    #os.system ('sshpass -p {0} ssh {1}@{2} \'pwd; ls -lrt\''.format(passw,user,host))
+    
 def scp_files(**context):
     #os.system('pwd')
-    #la linea siguiente la comento para no romper produccion
-    #os.system('rm /usr/local/airflow/Inner/cu1/interfaces/*.txt')
+    os.system('rm /usr/local/airflow/Inner/cu1/interfaces/*.txt')
     print ('::::::::################ BORRADOS LOS TXT')
     os.system('sshpass -e scp u565589@10.9.44.173:/home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt /usr/local/airflow/Inner/cu1/interfaces')
 
