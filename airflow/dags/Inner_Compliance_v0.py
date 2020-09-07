@@ -338,6 +338,15 @@ def naming_ne(**context):
     conn.close()
 
 def gen_excel(**context):
+    manual = """
+    Esta funcion genera un archivo excel con el contenido de los 'n' archivos csv que lee en el directorio. Requiere que todos los archivos csv tengan los mismos campos, y que el archivo excel no existe previamente, para no duplicar el nombre de la solapa. 
+
+    Args: 
+      none
+    Returns:
+      none
+    """
+
     import openpyxl
     import pandas as pd
 
@@ -345,20 +354,30 @@ def gen_excel(**context):
     archivos=os.listdir(os.path.join(os.getcwd(),dir,'auxiliar'))
     print (archivos)
 
+    dataframe = pd.DataFrame()
     for nom_archivo in archivos:
+        """
         abspath = os.path.join(os.getcwd(),dir,'auxiliar',nom_archivo)
         solapa = os.path.basename(abspath)
         dataframe = pd.read_csv(abspath,delimiter=',')
         archivo_rep = os.path.join(os.getcwd(),dir,'reporte.xlsx')
         #print (solapa)
-        try:
-          with pd.ExcelWriter(archivo_rep,mode='a',engine='openpyxl', encoding="utf-8-sig") as escritor:
-              dataframe.to_excel(escritor, sheet_name=solapa, index=None)
-        except FileNotFoundError:
-          with pd.ExcelWriter(archivo_rep,mode='n',engine='openpyxl', encoding="utf-8-sig") as escritor:
-              dataframe.to_excel(escritor, sheet_name=solapa, index=None)
-        finally:
-          escritor.save
+        """
+        #la proxima version:
+        abspath = os.path.join(os.getcwd(),dir,'auxiliar',nom_archivo)
+        dataframe_aux = pd.read_csv(abspath,delimiter=',')
+        dataframe = pd.concat ([dataframe,dataframe_aux])
+        
+    #print (dataframe)
+    archivo_rep = os.path.join(os.getcwd(),dir,'reporte.xlsx')        
+    try:
+        with pd.ExcelWriter(archivo_rep,mode='a',engine='openpyxl', encoding="utf-8-sig") as escritor:
+            dataframe.to_excel(escritor, sheet_name='crudo', index=None)
+    except FileNotFoundError:
+        with pd.ExcelWriter(archivo_rep,mode='n',engine='openpyxl', encoding="utf-8-sig") as escritor:
+            dataframe.to_excel(escritor, sheet_name='crudo', index=None)
+    finally:
+        escritor.save
 
 def init_report(**context):
     import os
@@ -558,10 +577,24 @@ def Caso3_ne_inv(**context):
                                 )"""
                                 .format(table_A,table_B),con=conn)
 
-    #df_ex_ne_inv=_format_reporte(df_ex_ne_inv)
+    conn.close()
+
     df_ex_ne_inv['EvEstado'] = 'Falta_en_inventario'
 
-    conn.close()
+    #Con esto formateo los campos para que en el excel pueda usar una unica solapa de este resultado junto con los resultados de ok y revisar
+    df_ex_ne_inv['shelfname_x'] = df_ex_ne_inv['shelfname']
+    df_ex_ne_inv['portoperationalstate_x'] = df_ex_ne_inv['portoperationalstate']
+    df_ex_ne_inv['portoperationalstate_y'] = 'N/A' #estado desconocido en el inventario
+    df_ex_ne_inv['info1_x'] = df_ex_ne_inv['info1']
+    df_ex_ne_inv['info1_y'] = 'N/A'
+
+    #voy a tener que llamar a esta función explicitamente para cada networkrole para poder popular los siguientes campos:
+    df_ex_ne_inv['networkrole'] = 'N/A'
+    df_ex_ne_inv['hardware'] = 'N/A'
+
+    df_ex_ne_inv['bandwidth'] = 'N/A' #la conformacion de este dato requiere desarrollo adicional
+
+    df_ex_ne_inv = _format_reporte(df_ex_ne_inv)
 
     logging.info ('\n:::Registros existentes en NE y faltan en Inventario: {}'.format(len(df_ex_ne_inv)))
 
@@ -682,6 +715,9 @@ _caso3 = PythonOperator(
     retries=1, dag=dag
     )
 
+_caso4 = DummyOperator(task_id='Caso4_ExisteInv_NoExisteNE', retries=1, dag=dag)
+
+"""
 _caso4 = PythonOperator(
     task_id='Caso4_ExisteInv_NoExisteNE', 
     op_kwargs={    
@@ -690,7 +726,7 @@ _caso4 = PythonOperator(
     python_callable=Caso4_inv_ne,
     retries=1, dag=dag
     )
-
+"""
 
 _init_reporting = PythonOperator(
     task_id='Init_Reporting',
