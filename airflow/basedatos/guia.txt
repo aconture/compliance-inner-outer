@@ -1,3 +1,27 @@
+NetworkRole	NE		Hardware		Interface	Port			Bandwidth
+OUTER CORE	BEL1NA	Cisco-ASR-9922	Hu0/1/0/0	BEL1NAHu0/1/0/0	100 Gb
+
+
+
+airflow=# select * from inv_itf where UserLabel = '0/4/0/7' and ShelfName = 'BEL1NA';
+ shelfname |    hardware    | networkrole | shelfoperationalstate | userlabel | bandwidth | portoperationalstate | info1 | type
+-----------+----------------+-------------+-----------------------+-----------+-----------+----------------------+-------+------
+ BEL1NA    | Cisco-ASR-9922 | OUTER CORE  | Available             | 0/4/0/7   | 100 Gb    | Available            | NaN   | nil
+(1 row)
+
+airflow=# select * from par_inv_itf where UserLabel = 'Hu0/4/0/7' and ShelfName = 'BEL1NA';
+ shelfname |    hardware    | networkrole | shelfoperationalstate | userlabel | bandwidth | portoperationalstate | info1 | type |        concat
+-----------+----------------+-------------+-----------------------+-----------+-----------+----------------------+-------+------+-----------------------
+ BEL1NA    | Cisco-ASR-9922 | OUTER CORE  | Available             | Hu0/4/0/7 | 100 Gb    | Available            | NaN   | nil  | BEL1NA100 GbHu0/4/0/7
+(1 row)
+
+
+select * from ne where shelfname='BEL1NA' and interface = 'Hu0/4/0/7';
+BEL1NAHu0/4/0/7
+ shelfname | interface | portoperationalstate |  protocol  | info1 |     concat
+-----------+-----------+----------------------+------------+-------+-----------------
+ BEL1NA    | Hu0/4/0/7 | admin-down           | admin-down |       | BEL1NAHu0/4/0/7
+
 Caoss:
 ok:241
 no exist: 11

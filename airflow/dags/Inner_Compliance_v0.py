@@ -233,15 +233,45 @@ def naming_inv(**context):
     #filtro1:
     
     #adecuaciones especificas para el Inner Core
+    ic_mod_label = 0
+    ic_mod_100GE = 0
+    ic_mod_GE = 0
+    oc_mod_100GE = 0
+    oc_mod_10Gb = 0
+
+    #print (df_inv_itf.columns)
     for indice in df_inv_itf.index:
-        if (df_inv_itf.loc[indice,'shelfname'].startswith('IC1.')) and (df_inv_itf.loc[indice,'bandwidth'] == '10 Gb'):
-            df_inv_itf.loc[indice,'userlabel'] = df_inv_itf.loc[indice,'userlabel']+'(100M)'
-            #print (df_inv_itf.loc[indice,'userlabel'])
+        if (df_inv_itf.loc[indice,'networkrole'] == 'INNER CORE'):
+            if (df_inv_itf.loc[indice,'bandwidth'] == '10 Gb'):
+                df_inv_itf.loc[indice,'userlabel'] = df_inv_itf.loc[indice,'userlabel']+'(100M)'
+                #print (df_inv_itf.loc[indice,'userlabel'])
+                ic_mod_label = ic_mod_label + 1
+            if (df_inv_itf.loc[indice,'bandwidth'] == '100 Gb'):
+                df_inv_itf.loc[indice,'bandwidth'] = '100GE'
+                ic_mod_100GE = ic_mod_100GE + 1
+            if (df_inv_itf.loc[indice,'bandwidth'] == '10 Gb'):
+                df_inv_itf.loc[indice,'bandwidth'] = 'GE'
+                ic_mod_GE = ic_mod_GE + 1
+    
+        #adecuaciones especificas para el Outer Core
+        if (df_inv_itf.loc[indice,'networkrole'] == 'OUTER CORE'):
+            if ((df_inv_itf.loc[indice,'bandwidth'] == '100 Gb') or (df_inv_itf.loc[indice,'bandwidth'] == '100GB')):
+                df_inv_itf.loc[indice,'bandwidth'] = 'Hu'
+                oc_mod_100GE = oc_mod_100GE + 1
+            if (df_inv_itf.loc[indice,'bandwidth'] == '10 Gb'):
+                df_inv_itf.loc[indice,'bandwidth'] = 'Te'
+                oc_mod_10Gb = oc_mod_10Gb + 1
+
+    logging.info ('\n::: Labels (100M) modificados para Inner Core: {0}'.format(ic_mod_label))
+    logging.info ('\n::: Label 100GE modificados para Inner Core: {0}'.format(ic_mod_100GE))
+    logging.info ('\n::: Label GE modificados para Inner Core: {0}'.format(ic_mod_GE))
+    logging.info ('\n::: Labels 100 Gb modificados para Outer Core: {0}'.format(oc_mod_100GE))
+    logging.info ('\n::: Labels 10 Gb modificados para Outer Core: {0}'.format(oc_mod_10Gb))
 
 
     #Adecuaciones masivas
-    df_inv_itf['bandwidth'] = df_inv_itf['bandwidth'].str.replace('100 Gb','100GE')
-    df_inv_itf['bandwidth'] = df_inv_itf['bandwidth'].str.replace('10 Gb','GE')
+    #df_inv_itf['bandwidth'] = df_inv_itf['bandwidth'].str.replace('100 Gb','100GE')
+    #df_inv_itf['bandwidth'] = df_inv_itf['bandwidth'].str.replace('10 Gb','GE')
     df_inv_itf['concat'] = df_inv_itf[['shelfname','bandwidth','userlabel']].agg(''.join, axis=1)
 
 
@@ -547,7 +577,7 @@ def Caso4_inv_ne(**context):
       none
     """
     import pandas as pd
-    rol=context['rol']
+    rol=context['role']
 
     table_A = 'ne'
     table_B = 'par_inv_itf'
@@ -655,7 +685,7 @@ _caso3 = PythonOperator(
 _caso4 = PythonOperator(
     task_id='Caso4_ExisteInv_NoExisteNE', 
     op_kwargs={    
-    'rol':'INNER CORE',
+    'role':'INNER CORE',
     },
     python_callable=Caso4_inv_ne,
     retries=1, dag=dag
