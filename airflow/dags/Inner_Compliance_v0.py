@@ -339,7 +339,8 @@ def naming_ne(**context):
 
 def gen_excel(**context):
     manual = """
-    Esta funcion genera un archivo excel con el contenido de los 'n' archivos csv que lee en el directorio. Requiere que todos los archivos csv tengan los mismos campos, y que el archivo excel no existe previamente, para no duplicar el nombre de la solapa. 
+    Esta funcion genera un archivo excel con el contenido de los 'n' archivos csv que lee en el directorio. Requiere que todos los archivos csv tengan los mismos campos.
+    Para que no repita el nombre de la solapa, se debe invocar a la funcion init_report, que borra el excel que existe previamente. 
 
     Args: 
       none
@@ -356,14 +357,6 @@ def gen_excel(**context):
 
     dataframe = pd.DataFrame()
     for nom_archivo in archivos:
-        """
-        abspath = os.path.join(os.getcwd(),dir,'auxiliar',nom_archivo)
-        solapa = os.path.basename(abspath)
-        dataframe = pd.read_csv(abspath,delimiter=',')
-        archivo_rep = os.path.join(os.getcwd(),dir,'reporte.xlsx')
-        #print (solapa)
-        """
-        #la proxima version:
         abspath = os.path.join(os.getcwd(),dir,'auxiliar',nom_archivo)
         dataframe_aux = pd.read_csv(abspath,delimiter=',')
         dataframe = pd.concat ([dataframe,dataframe_aux])

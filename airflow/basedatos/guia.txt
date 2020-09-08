@@ -1,6 +1,3 @@
-NetworkRole	NE		Hardware		Interface	Port			Bandwidth
-OUTER CORE	BEL1NA	Cisco-ASR-9922	Hu0/1/0/0	BEL1NAHu0/1/0/0	100 Gb
-
 
 
 airflow=# select * from inv_itf where UserLabel = '0/4/0/7' and ShelfName = 'BEL1NA';
