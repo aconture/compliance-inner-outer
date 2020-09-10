@@ -741,8 +741,9 @@ _imprime_reporte = PythonOperator(
 _envia_mail1 = EmailOperator(
     task_id='Email_to_canal',
     to="b70919fe.teco.com.ar@amer.teams.ms", #mail del canal de compliance
-    subject="Compliance Inner&Outer - Resultado",
+    subject="Compliance Inner&Outer - Resultado de Ejecucion {{ ds }}",
     html_content="<h3> Esto es una prueba del envio de mail al finalizar la ejecucion del pipe </h3>",
+    files=["/usr/local/airflow/reports/reporte.xlsx"],
     dag=dag
 )
 
