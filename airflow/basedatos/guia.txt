@@ -1,3 +1,7 @@
+Ver ejemplos BEL1NA de diferencias no resueltas:
+en NE:Te0/10/0/7.100
+en Lisy: 0/10/0/7
+
 
 
 airflow=# select * from inv_itf where UserLabel = '0/4/0/7' and ShelfName = 'BEL1NA';
@@ -18,44 +22,4 @@ BEL1NAHu0/4/0/7
  shelfname | interface | portoperationalstate |  protocol  | info1 |     concat
 -----------+-----------+----------------------+------------+-------+-----------------
  BEL1NA    | Hu0/4/0/7 | admin-down           | admin-down |       | BEL1NAHu0/4/0/7
-
-Caoss:
-ok:241
-no exist: 11
-revisar: 39 
-
-caso ok:
- portoperationalstate = up (ne)
-&
- portoperationalstate = active (lisy)
-
- portoperationalstate = down (ne)
-&
- portoperationalstate = not active (lisy)
-
-
-caso 'revisar':
- portoperationalstate = up (ne)
-&
- portoperationalstate = not active (lisy)
-
- portoperationalstate = down (ne)
-&
- portoperationalstate = active (lisy)
-
-
-caso inexistente:
-itf existe en la red (cualquier estado)
-&
-no existe en el inventario
-
-itf no existe en la red (cualquier estado)
-&
-existe en el inventario
-
-
-:::COLUMNAS DEL CRUDO::: Index(['DescLisy', 'DescRed', 'EstadoLisy', 'EstadoRed', 'bandwidth', 'concat',
-       'hardware', 'interface', 'networkrole', 'protocol', 'shelfname',
-       'shelfoperationalstate', 'type', 'userlabel'],
-      dtype='object')
 

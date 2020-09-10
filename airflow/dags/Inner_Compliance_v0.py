@@ -1,6 +1,7 @@
 from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
+from airflow.operators.email_operator import EmailOperator
 
 from airflow.hooks import PostgresHook
 
@@ -737,6 +738,14 @@ _imprime_reporte = PythonOperator(
     python_callable=gen_excel,
     retries=1, dag=dag)
 
+_envia_mail1 = EmailOperator(
+    task_id='Email_to_canal',
+    to="b70919fe.teco.com.ar@amer.teams.ms", #mail del canal de compliance
+    subject="Compliance Inner&Outer - Resultado",
+    html_content="<h3> Esto es una prueba del envio de mail al finalizar la ejecucion del pipe </h3>",
+    dag=dag
+)
+
 #Secuencia
 _extrae_bd_inventario >> _carga_inv_to_db >> _adecuar_naming_inv >> _init_reporting
 
@@ -749,3 +758,5 @@ _init_reporting >> _caso2 >> _imprime_reporte
 _init_reporting >> _caso3 >> _imprime_reporte
 
 _init_reporting >> _caso4 >> _imprime_reporte
+
+_imprime_reporte >> _envia_mail1
