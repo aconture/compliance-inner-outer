@@ -36,8 +36,38 @@ dag = DAG(
 
 #####################################################################3
 
+def _check_vigencia(**context):
+    manual = """
+    
+    Chequea si el directorio esta actualizado. 
+
+
+    args:
+    **context: necesario para determinar la fecha de ejecucion del flujo.
+
+    return:
+    True si la fecha de ejecucion del script es mas actual a la fecha de actualizacion del directorio, eso quiere decir que el directorio se debe actualizar.
+
+    False si la fecha de ejecucion del script es mas vieja a la fecha de actualizacion del directorio, eso quiere decir que el directorio se debe actualizar.
+    """        
+
+    date_exec=context['ds'] #ds contiene la fecha de ejecucion del dag yyyy-mm-dd
+    modTimesinceEpoc = os.path.getmtime('/usr/local/airflow/Inner/cu1/interfaces') #fecha de ultima ejecucion del ansible
+    modificationTime = datetime.fromtimestamp(modTimesinceEpoc).strftime('%Y-%m-%d')
+    
+    if (date_exec > modificationTime):
+        logging.info (':::La base tiene fecha en el pasado: {0}.'.format(modificationTime))
+        return (True)
+
+    else:
+        logging.info (':::Base de datos de NE ya actualizada a la fecha {0}, no es necesario actualizar.\n'.format(modificationTime))
+        return (False)
+
 def call_ansible(**context):
     manual = """
+    Ejecutas ansible en el directorio remoto. 
+    Si el directorio que contiene el resultado de ansible tiene la fecha actual, no se ejecuta ansible.
+
     Args: 
       connection [text]: id de la conexion creada en airflow (Admin->Connections), donde:
         "host":"ip o hostname del ansible proxy"
@@ -54,19 +84,26 @@ def call_ansible(**context):
         logging.error (manual)
         return -1
 
-    try:
-        connection = BaseHook.get_connection(conn_id)
-        host = connection.host
-        user = connection.login
-        passw = connection.password
+    update = _check_vigencia (**context)
 
-        #la linea siguiente la comento para no romper produccion
-        #os.system('sshpass -e ssh u565589@10.9.44.173 \'rm /home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt; cd /home/u565589/desarrollo/irs_cu/mejoras_cu1/yaml/; ansible-playbook main.yaml\'')
-        os.system ('sshpass -p {0} ssh {1}@{2} \'rm /home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt; cd /home/u565589/desarrollo/irs_cu/mejoras_cu1/yaml/; ansible-playbook main.yaml\''.format(passw,user,host))
-        #os.system ('sshpass -p {0} ssh {1}@{2} \'pwd; ls -lrt\''.format(passw,user,host))
-    except:
-        logging.error ('\n\n:::! Problema en la conexión al servidor remoto.\n')
-        return -1
+    if (update):
+        logging.info (':::La base de Network Element tiene fecha en el pasado. Ejecutando Ansible para actualizar.')
+        #logging.info (':::La base de Network Element tiene fecha en el pasado: {0}. Ejecutando Ansible para actualizar.'.format(modificationTime))
+        try:
+            connection = BaseHook.get_connection(conn_id)
+            host = connection.host
+            user = connection.login
+            passw = connection.password
+
+            #la linea siguiente la comento para no romper produccion
+            os.system ('sshpass -p {0} ssh {1}@{2} \'rm /home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt; cd /home/u565589/desarrollo/irs_cu/mejoras_cu1/yaml/; ansible-playbook main.yaml\''.format(passw,user,host))
+            #os.system ('sshpass -p {0} ssh {1}@{2} \'pwd; ls -lrt\''.format(passw,user,host))
+        except:
+            logging.error ('\n\n:::! Problema en la conexión al servidor remoto.\n')
+            return -1
+    else:
+        logging.info (':::Base de datos de NE ya actualizada, no es necesario actualizar.')
+        #logging.info (':::Base de datos de NE ya actualizada a la fecha {0}, no es necesario actualizar.\n'.format(modificationTime))
     
 def scp_files(**context):
     manual = """
@@ -97,23 +134,28 @@ def scp_files(**context):
         logging.error (manual)
         return -1
 
-    try:
-        connection = BaseHook.get_connection(conn_id)
-        host = connection.host
-        user = connection.login
-        passw = connection.password
+    update = _check_vigencia (**context)
 
-        os.system('rm {}*.txt'.format(local_dir))
-        logging.info ('::: Inicializado el directorio de *.txt local: {0}'.format(local_dir))
-        
-        #os.system('sshpass -e scp u565589@10.9.44.173:/home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt /usr/local/airflow/Inner/cu1/interfaces')
-        logging.info ('::: Trayendo archivos *.txt del directorio ansible remoto')
-        os.system('sshpass -p {0} scp {1}@{2}:{3}*.txt {4}'.format(passw,user,host,remote_dir,local_dir))
-        logging.info ('::: Archivos *.txt ansible copiados al directorio local')
+    if (update):
+        try:
+            connection = BaseHook.get_connection(conn_id)
+            host = connection.host
+            user = connection.login
+            passw = connection.password
 
-    except:
-        logging.error (':::! Problema en la conexión al servidor remoto.\n')
-        return -1
+            #os.system('rm {}*.txt'.format(local_dir))
+            logging.info ('::: Inicializado el directorio de *.txt local: {0}'.format(local_dir))
+            
+            logging.info ('::: Trayendo archivos *.txt del directorio ansible remoto')
+            #os.system('sshpass -p {0} scp {1}@{2}:{3}*.txt {4}'.format(passw,user,host,remote_dir,local_dir))
+            logging.info ('::: Archivos *.txt ansible copiados al directorio local')
+
+        except:
+            logging.error (':::! Problema en la conexión al servidor remoto.\n')
+            return -1
+    else:
+        logging.info (':::Base de datos de NE ya actualizada, no es necesario actualizar.')
+        #logging.info (':::Base de datos de NE ya actualizada a la fecha {0}, no es necesario actualizar.\n'.format(modificationTime))
 
 def Load_inv(**context):
     manual = """
@@ -772,8 +814,8 @@ _imprime_reporte = PythonOperator(
 
 _envia_mail1 = EmailOperator(
     task_id='Email_to_canal',
-    to="agconture@teco.com.ar",
-    #to="b70919fe.teco.com.ar@amer.teams.ms", #mail del canal de compliance
+    #to="agconture@teco.com.ar",
+    to="b70919fe.teco.com.ar@amer.teams.ms", #mail del canal de compliance
     subject="Compliance Inner&Outer - Resultado de Ejecucion {{ ds }}",
     #html_content="<h3> Esto es una prueba del envio de mail al finalizar la ejecucion del pipe </h3>",
     html_content=_cuerpo_mail(),
