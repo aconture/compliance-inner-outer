@@ -117,7 +117,7 @@ def scp_files(**context):
 
 def Load_inv(**context):
     manual = """
-    Esta funcion carga los registros leidos del archivo indicado en la base de postgres
+    Esta funcion carga los registros leidos del archivo indicado en la base de postgres.
     
     Args: 
       dir [text]: directorio dentro del home de Airflow, donde se encuentra el archivo o el grupo de archivos a cargar. No debe incluir '/' al final.
@@ -341,7 +341,8 @@ def naming_ne(**context):
 def gen_excel(**context):
     manual = """
     Esta funcion genera un archivo excel con el contenido de los 'n' archivos csv que lee en el directorio. Requiere que todos los archivos csv tengan los mismos campos.
-    Para que no repita el nombre de la solapa, se debe invocar a la funcion init_report, que borra el excel que existe previamente. 
+    
+    Para que no repita el nombre de la solapa, se debe invocar a la funcion init_report, que borra el excel que existe previamente.
 
     Args: 
       none
@@ -360,16 +361,39 @@ def gen_excel(**context):
     for nom_archivo in archivos:
         abspath = os.path.join(os.getcwd(),dir,'auxiliar',nom_archivo)
         dataframe_aux = pd.read_csv(abspath,delimiter=',')
-        dataframe = pd.concat ([dataframe,dataframe_aux])
-        
+        dataframe = pd.concat ([dataframe,dataframe_aux],sort=False) #sort=False para evitar un warning de Pandas
+    
+    # Generacion de la solapa Resumen
+    data_resumen = dataframe.pivot_table(
+		index=['NE'],
+		columns='EvEstado',
+		#values='EvEstado',
+		aggfunc={'EvEstado':len},
+		#margins=True, #crea la columna de 'Totales' que se llama 'All'
+		#margins_name='SubTotal [MM]',
+		fill_value=0
+	)
+    
+    data_resumen.sort_values(
+        by=['NE'],
+        inplace=True,
+        ascending=False
+    )
+
+    #Convierto el pivot en dataframe y lo guardo en html para usarlo en el mail a enviar
+    data_resumen_dataframe = data_resumen.reset_index()
+    data_resumen_dataframe.to_html('reports/auxiliar/resumen.html', index=False)
+
     #print (dataframe)
     archivo_rep = os.path.join(os.getcwd(),dir,'reporte.xlsx')        
     try:
         with pd.ExcelWriter(archivo_rep,mode='a',engine='openpyxl', encoding="utf-8-sig") as escritor:
-            dataframe.to_excel(escritor, sheet_name='crudo', index=None)
+            data_resumen.to_excel(escritor, sheet_name='resumen')
+            dataframe.to_excel(escritor, sheet_name='crudo', index=False)
     except FileNotFoundError:
         with pd.ExcelWriter(archivo_rep,mode='n',engine='openpyxl', encoding="utf-8-sig") as escritor:
-            dataframe.to_excel(escritor, sheet_name='crudo', index=None)
+            data_resumen.to_excel(escritor, sheet_name='resumen')
+            dataframe.to_excel(escritor, sheet_name='crudo', index=False)
     finally:
         escritor.save
 
@@ -476,7 +500,7 @@ def Caso1_ok_v2(**context):
     #impresiones:
     print (len(df_ok))
 
-    df_ok.to_csv('reports/auxiliar/ok.csv')
+    df_ok.to_csv('reports/auxiliar/ok.csv', index=False)
     #df_all.to_json('prueba.json', orient='records', lines=True)
 
 def Caso2_revisar(**context):
@@ -543,7 +567,7 @@ def Caso2_revisar(**context):
     #_gen_excel(df_rev,'revisar')
 
     #print (len(df_rev))
-    df_rev.to_csv('reports/auxiliar/rev.csv')
+    df_rev.to_csv('reports/auxiliar/rev.csv', index=False)
 
 def Caso3_ne_inv(**context):
     manual = """
@@ -583,7 +607,7 @@ def Caso3_ne_inv(**context):
     df_ex_ne_inv['info1_y'] = 'N/A'
 
     #voy a tener que llamar a esta función explicitamente para cada networkrole para poder popular los siguientes campos:
-    df_ex_ne_inv['networkrole'] = 'N/A'
+    df_ex_ne_inv['networkrole'] = '0-Crear en Inventario'
     df_ex_ne_inv['hardware'] = 'N/A'
 
     df_ex_ne_inv['bandwidth'] = 'N/A' #la conformacion de este dato requiere desarrollo adicional
@@ -593,7 +617,7 @@ def Caso3_ne_inv(**context):
     logging.info ('\n:::Registros existentes en NE y faltan en Inventario: {}'.format(len(df_ex_ne_inv)))
 
     #_gen_excel(df_ex_ne_inv,'FaltaEnInv')
-    df_ex_ne_inv.to_csv('reports/auxiliar/df_ex_ne_inv.csv')
+    df_ex_ne_inv.to_csv('reports/auxiliar/df_ex_ne_inv.csv', index=False)
 
 def Caso4_inv_ne(**context):
     manual = """
@@ -627,7 +651,7 @@ def Caso4_inv_ne(**context):
     logging.info ('\n:::Registros existentes en Inventario y faltan en NE: {}'.format(len(df_ex_inv_ne)))
 
     conn.close()
-    df_ex_inv_ne.to_csv('reports/auxiliar/ex_inv_ne.csv')
+    df_ex_inv_ne.to_csv('reports/auxiliar/ex_inv_ne.csv', index=False)
 
 
 #########################################################
@@ -658,7 +682,8 @@ _carga_inv_to_db = PythonOperator(
     task_id='Carga_inv_to_db',
     python_callable=Load_inv,
     op_kwargs={
-        'file':'Table-id_722018305.csv',
+        #'file':'Table-id_722018305.csv',
+        'file':'EthernetPortsByIpShelf.txt',
         'dir':'Inner',
         'role': '*',
         'table':'inv_itf'
