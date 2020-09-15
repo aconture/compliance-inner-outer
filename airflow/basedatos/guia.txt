@@ -23,3 +23,27 @@ BEL1NAHu0/4/0/7
 -----------+-----------+----------------------+------------+-------+-----------------
  BEL1NA    | Hu0/4/0/7 | admin-down           | admin-down |       | BEL1NAHu0/4/0/7
 
+===========================================
+
+[2020-09-15 16:04:03,617] {logging_mixin.py:112} INFO - [2020-09-15 16:04:03,617] {Inner_Compliance_v0.py:266} INFO - 
+::: Labels (100M) modificados para Inner Core: 240
+[2020-09-15 16:04:03,618] {logging_mixin.py:112} INFO - [2020-09-15 16:04:03,617] {Inner_Compliance_v0.py:267} INFO - 
+::: Label 100GE modificados para Inner Core: 320
+[2020-09-15 16:04:03,618] {logging_mixin.py:112} INFO - [2020-09-15 16:04:03,618] {Inner_Compliance_v0.py:268} INFO - 
+::: Label GE modificados para Inner Core: 240
+[2020-09-15 16:04:03,618] {logging_mixin.py:112} INFO - [2020-09-15 16:04:03,618] {Inner_Compliance_v0.py:269} INFO - 
+::: Labels 100 Gb modificados para Outer Core: 1196
+[2020-09-15 16:04:03,619] {logging_mixin.py:112} INFO - [2020-09-15 16:04:03,619] {Inner_Compliance_v0.py:270} INFO - 
+::: Labels 10 Gb modificados para Outer Core: 1808
+[2020-09-15 16:04:14,771] {logging_mixin.py:112} INFO - [2020-09-15 16:04:14,771] {Inner_Compliance_v0.py:282} INFO - 
+::: Tabla par_inv_itf inicializada.
+[2020-09-15 16:04:14,772] {logging_mixin.py:112} INFO - [2020-09-15 16:04:14,772] {Inner_Compliance_v0.py:288} INFO - 
+::: Preparando para ejecutar sql con las columnas detectadas INSERT INTO par_inv_itf (shelfname, hardware, networkrole, shelfoperationalstate, userlabel, bandwidth, portoperationalstate, info1, type, concat)
+(VALUES %s)
+[2020-09-15 16:04:21,933] {logging_mixin.py:112} INFO - [2020-09-15 16:04:21,933] {Inner_Compliance_v0.py:292} INFO - 
+::: Se popula la tabla par_inv_itf con 123096 registros.
+
+===========================================
+
+backup de la BD postgres:
+pg_dump -h localhost -p 5432 -U airflow -b -v -f "/root/base.backup" airflow

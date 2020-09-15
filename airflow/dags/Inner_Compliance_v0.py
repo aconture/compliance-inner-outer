@@ -211,8 +211,9 @@ def Load_inv(**context):
 def naming_inv(**context):
     manual = """
     Esta funcion modifica el contenido de ciertos campos traidos desde el inventario para que puedan ser comparados con el archivo que trae ansible desde el NE.
+
     La lectura la realiza de la tabla inv_itf.
-    El resultado lo guarda en la tabla par_inv_itf.
+    El resultado lo guarda en la tabla par_inv_itf. Esta tabla va a ser un subset de la tabla origen, que va atener solamente los registros que son comparados de acuerdo al 'networkrole'.
 
     Args: 
       none 
@@ -231,7 +232,8 @@ def naming_inv(**context):
 
     df_inv_itf = pd.read_sql_query('select * from {}'.format(table_),con=conn)
 
-    #filtro1:
+    #filtro1: lo aplico para que la tarea corra más rápido
+    df_inv_itf = df_inv_itf[(df_inv_itf['networkrole'] == 'INNER CORE') | (df_inv_itf['networkrole'] == 'OUTER CORE')]
     
     #adecuaciones especificas para el Inner Core
     ic_mod_label = 0
