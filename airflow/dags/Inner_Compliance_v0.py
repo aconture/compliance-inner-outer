@@ -367,13 +367,9 @@ def gen_excel(**context):
     data_resumen = dataframe.pivot_table(
 		index=['NE'],
 		columns='EvEstado',
-		#values='EvEstado',
-		aggfunc={'EvEstado':len},
-		#margins=True, #crea la columna de 'Totales' que se llama 'All'
-		#margins_name='SubTotal [MM]',
+		aggfunc={'EvEstado':'count'},
 		fill_value=0
-	)
-    
+	)    
     data_resumen.sort_values(
         by=['NE'],
         inplace=True,
@@ -396,6 +392,15 @@ def gen_excel(**context):
             dataframe.to_excel(escritor, sheet_name='crudo', index=False)
     finally:
         escritor.save
+
+def _cuerpo_mail():
+    """
+    Lee el resumen generado y almacenado en auxiliar/ para usarlo en el cuerpo del mail de resultado de la operacion.
+    """
+    with open('reports/auxiliar/resumen.html', 'r') as f:
+        html_string = f.read()
+    f.close
+    return (html_string)
 
 def init_report(**context):
     import os
@@ -682,8 +687,8 @@ _carga_inv_to_db = PythonOperator(
     task_id='Carga_inv_to_db',
     python_callable=Load_inv,
     op_kwargs={
-        #'file':'Table-id_722018305.csv',
-        'file':'EthernetPortsByIpShelf.txt',
+        'file':'Table-id_722018305.csv',
+        #'file':'EthernetPortsByIpShelf.txt',
         'dir':'Inner',
         'role': '*',
         'table':'inv_itf'
@@ -765,9 +770,11 @@ _imprime_reporte = PythonOperator(
 
 _envia_mail1 = EmailOperator(
     task_id='Email_to_canal',
-    to="b70919fe.teco.com.ar@amer.teams.ms", #mail del canal de compliance
+    to="agconture@teco.com.ar",
+    #to="b70919fe.teco.com.ar@amer.teams.ms", #mail del canal de compliance
     subject="Compliance Inner&Outer - Resultado de Ejecucion {{ ds }}",
-    html_content="<h3> Esto es una prueba del envio de mail al finalizar la ejecucion del pipe </h3>",
+    #html_content="<h3> Esto es una prueba del envio de mail al finalizar la ejecucion del pipe </h3>",
+    html_content=_cuerpo_mail(),
     files=["/usr/local/airflow/reports/reporte.xlsx"],
     dag=dag
 )

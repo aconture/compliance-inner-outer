@@ -12,7 +12,6 @@ airflow/logs/
 airflow/reports/
 airflow/dags/__pycache__
 airflow/plugins/lisy_plugin/__pycache__/
-airflow/airflow.cfg
 airflow/plugins/clima_plugin/__pycache__/
 airflow/plugins/clima_plugin/hooks/__pycache__/
 airflow/plugins/clima_plugin/operators/__pycache__/
