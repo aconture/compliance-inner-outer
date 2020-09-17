@@ -9,7 +9,7 @@ airflow/.ssh/
 airflow/.vscode-server/
 airflow/Inner/
 airflow/logs/
-airflow/reports/
+airflow/reports/auxiliar
 airflow/dags/__pycache__
 airflow/plugins/lisy_plugin/__pycache__/
 airflow/plugins/clima_plugin/__pycache__/
