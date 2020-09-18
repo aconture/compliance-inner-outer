@@ -212,7 +212,7 @@ def Load_inv(**context):
             df = pd.read_csv(abspath,delimiter='|', warn_bad_lines=True, error_bad_lines=False, encoding='latin-1')
             if rol != '*':
                 try:
-                  df = df[(df['NetworkRole'] == rol)] #filtro el rol de la base traida del inventario
+                  df = df[(df['shelfNetworkRole'] == rol)] #filtro el rol de la base traida del inventario
                 except:
                   pass
             logging.info ('\n::: Cargando desde Archivo {0}, {1} registros con el rol \'{2}\'.'.format(nom_archivo,len(df), rol))
@@ -277,7 +277,7 @@ def naming_inv(**context):
     df_inv_itf = pd.read_sql_query('select * from {}'.format(table_),con=conn)
 
     #filtro1: lo aplico para que la tarea corra más rápido
-    df_inv_itf = df_inv_itf[(df_inv_itf['networkrole'] == 'INNER CORE') | (df_inv_itf['networkrole'] == 'OUTER CORE')]
+    df_inv_itf = df_inv_itf[(df_inv_itf['shelfnetworkrole'] == 'INNER CORE') | (df_inv_itf['shelfnetworkrole'] == 'OUTER CORE')]
     
     #adecuaciones especificas para el Inner Core
     ic_mod_label = 0
@@ -288,7 +288,7 @@ def naming_inv(**context):
 
     #print (df_inv_itf.columns)
     for indice in df_inv_itf.index:
-        if (df_inv_itf.loc[indice,'networkrole'] == 'INNER CORE'):
+        if (df_inv_itf.loc[indice,'shelfnetworkrole'] == 'INNER CORE'):
             if (df_inv_itf.loc[indice,'bandwidth'] == '10 Gb'):
                 df_inv_itf.loc[indice,'userlabel'] = df_inv_itf.loc[indice,'userlabel']+'(100M)'
                 #print (df_inv_itf.loc[indice,'userlabel'])
@@ -301,7 +301,7 @@ def naming_inv(**context):
                 ic_mod_GE = ic_mod_GE + 1
     
         #adecuaciones especificas para el Outer Core
-        if (df_inv_itf.loc[indice,'networkrole'] == 'OUTER CORE'):
+        if (df_inv_itf.loc[indice,'shelfnetworkrole'] == 'OUTER CORE'):
             if ((df_inv_itf.loc[indice,'bandwidth'] == '100 Gb') or (df_inv_itf.loc[indice,'bandwidth'] == '100GB')):
                 df_inv_itf.loc[indice,'bandwidth'] = 'Hu'
                 oc_mod_100GE = oc_mod_100GE + 1
@@ -464,13 +464,14 @@ def _format_reporte_compliance(dataframe):
       'info1_y':'DescLisy',
       'shelfname_x':'NE',
       'concat':'Recurso',
-      'shelfhardware':'shelfHardware' #en la bd de postgres esta en minuscula, y en el dump tiene una mayuscula
+      'shelfhardware':'shelfHardware', #en la bd de postgres esta en minuscula, y en el dump tiene una mayuscula
+      'shelfnetworkrole':'shelfNetworkRole' #en la bd de postgres esta en minuscula, y en el dump tiene una mayuscula
       })
     
     print ('En el formateo:',dataframe.columns)
 
     dataframe = dataframe [[
-      'networkrole', #tomado de Lisy
+      'shelfNetworkRole', #tomado de Lisy
       'NE', #tomado del NE
       'shelfHardware', #tomado de Lisy
       'interface',
@@ -663,7 +664,7 @@ def Caso3_ne_inv(**context):
     df_ex_ne_inv['info1_y'] = 'N/A'
 
     #voy a tener que llamar a esta función explicitamente para cada networkrole para poder popular los siguientes campos:
-    df_ex_ne_inv['networkrole'] = '0-Crear en Inventario'
+    df_ex_ne_inv['shelfNetworkRole'] = '0-Crear en Inventario'
     df_ex_ne_inv['shelfHardware'] = 'N/A' #ombre del campo del dump de Lisy
 
     df_ex_ne_inv['bandwidth'] = 'N/A' #la conformacion de este dato requiere desarrollo adicional
@@ -696,7 +697,7 @@ def Caso4_inv_ne(**context):
     #estan en inventario y no estan en NE:
     df_ex_inv_ne = pd.read_sql_query("""select * from {1} where concat IN
                                 (
-                                select concat from {1} a where networkrole = 'INNER CORE'
+                                select concat from {1} a where shelfnetworkrole = 'INNER CORE'
                                 EXCEPT
                                 select concat from {0} b)"""
                                 .format(table_A,table_B),con=conn)

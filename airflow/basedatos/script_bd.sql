@@ -9,7 +9,7 @@ DROP TABLE inv_itf;
 CREATE TABLE public.par_inv_itf (
     shelfname character varying(50),
     shelfHardware character varying(30),
-    networkrole character varying(25),
+    shelfNetworkRole character varying(25),
     shelfoperationalstate character varying(10),
     userlabel character varying(20),
     bandwidth character varying(20),
@@ -25,7 +25,7 @@ ALTER TABLE public.par_inv_itf OWNER TO airflow;
 CREATE TABLE public.inv_itf (
     shelfname character varying(50),
     shelfHardware character varying(30),
-    networkrole character varying(25),
+    shelfNetworkRole character varying(25),
     shelfoperationalstate character varying(10),
     userlabel character varying(20),
     bandwidth character varying(20),
