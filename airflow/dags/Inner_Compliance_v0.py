@@ -290,8 +290,7 @@ def naming_inv(**context):
     for indice in df_inv_itf.index:
         if (df_inv_itf.loc[indice,'shelfnetworkrole'] == 'INNER CORE'):
             if (df_inv_itf.loc[indice,'bandwidth'] == '10 Gb'):
-                df_inv_itf.loc[indice,'userlabel'] = df_inv_itf.loc[indice,'userlabel']+'(100M)'
-                #print (df_inv_itf.loc[indice,'userlabel'])
+                df_inv_itf.loc[indice,'portinterfacename'] = df_inv_itf.loc[indice,'portinterfacename']+'(100M)'
                 ic_mod_label = ic_mod_label + 1
             if (df_inv_itf.loc[indice,'bandwidth'] == '100 Gb'):
                 df_inv_itf.loc[indice,'bandwidth'] = '100GE'
@@ -319,7 +318,7 @@ def naming_inv(**context):
     #Adecuaciones masivas
     #df_inv_itf['bandwidth'] = df_inv_itf['bandwidth'].str.replace('100 Gb','100GE')
     #df_inv_itf['bandwidth'] = df_inv_itf['bandwidth'].str.replace('10 Gb','GE')
-    df_inv_itf['concat'] = df_inv_itf[['shelfname','bandwidth','userlabel']].agg(''.join, axis=1)
+    df_inv_itf['concat'] = df_inv_itf[['shelfname','bandwidth','portinterfacename']].agg(''.join, axis=1)
 
 
     #init de la base destino
