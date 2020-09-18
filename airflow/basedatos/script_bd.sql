@@ -16,8 +16,8 @@ CREATE TABLE public.par_inv_itf (
     portInterfaceName character varying(20),
     portBandwidth character varying(20),
     portoperationalstate character varying(20),
-    info1 character varying(500),
-    type character varying(20),
+    portInfo1 character varying(500),
+    portType character varying(20),
     concat character varying(90)
 );
 
@@ -32,8 +32,8 @@ CREATE TABLE public.inv_itf (
     portInterfaceName character varying(20),
     portBandwidth character varying(20),
     portoperationalstate character varying(20),
-    info1 character varying(500),
-    type character varying(20)
+    portInfo1 character varying(500),
+    portType character varying(20)
 );
 
 

@@ -457,8 +457,8 @@ def _format_reporte_compliance(dataframe):
     dataframe = dataframe.rename(columns={
       'portoperationalstate_x':'EstadoRed',
       'portoperationalstate_y': 'EstadoLisy',
-      'info1_x':'DescRed',
-      'info1_y':'DescLisy',
+      'info1':'DescRed',
+      'portinfo1':'DescLisy',
       'shelfname_x':'NE',
       'concat':'Recurso',
       'shelfhardware':'shelfHardware', #en la bd de postgres esta en minuscula, y en el dump tiene una mayuscula
@@ -658,8 +658,8 @@ def Caso3_ne_inv(**context):
     df_ex_ne_inv['shelfname_x'] = df_ex_ne_inv['shelfname']
     df_ex_ne_inv['portoperationalstate_x'] = df_ex_ne_inv['portoperationalstate']
     df_ex_ne_inv['portoperationalstate_y'] = 'N/A' #estado desconocido en el inventario
-    df_ex_ne_inv['info1_x'] = df_ex_ne_inv['info1']
-    df_ex_ne_inv['info1_y'] = 'N/A'
+    #df_ex_ne_inv['info1_x'] = df_ex_ne_inv['info1']
+    df_ex_ne_inv['portinfo1'] = 'N/A'
 
     #voy a tener que llamar a esta función explicitamente para cada networkrole para poder popular los siguientes campos:
     df_ex_ne_inv['shelfNetworkRole'] = '0-Crear en Inventario'
