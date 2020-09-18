@@ -206,13 +206,16 @@ def Load_inv(**context):
     for nom_archivo in archivos:
         abspath = os.path.join(os.getcwd(),dir,nom_archivo)
         try:
-            df = pd.read_csv(abspath,delimiter='|')
+            logging.info ('\n::: Iniciando la carga.')
+            #warn_bad_lines=True, error_bad_lines=False evitan error de '|' en campo de datos
+            #encoding='latin-1' evita el error de "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xXX in position YY: invalid continuation byte" que recibia en algunos archivos dump que importados
+            df = pd.read_csv(abspath,delimiter='|', warn_bad_lines=True, error_bad_lines=False, encoding='latin-1')
             if rol != '*':
                 try:
                   df = df[(df['NetworkRole'] == rol)] #filtro el rol de la base traida del inventario
                 except:
                   pass
-            logging.info ('\n::: Cargando desde Archivo{0}, {1} registros con el rol \'{2}\'.'.format(nom_archivo,len(df), rol))
+            logging.info ('\n::: Cargando desde Archivo {0}, {1} registros con el rol \'{2}\'.'.format(nom_archivo,len(df), rol))
             columnas = df.columns.ravel()
             sql_string = 'INSERT INTO {} ('.format(table)+ ', '.join(columnas) + ") (VALUES %s)"
 
@@ -224,10 +227,12 @@ def Load_inv(**context):
             file_ok.append(abspath)
             len_ok.append(len(values))
             #logging.info ('\n::: Populada tabla \'{}\' con {} registros, tomados de {}.'.format(table,len(values),abspath))
+        
         except FileNotFoundError as e:
             logging.info('\n\n:::! Error - No se encuentra el archivo origen {}\n'.format(nom_archivo))
             logging.info('\n{}'.format(manual))
             return
+        
         except Exception as e:
             logging.error ('\n\n:::! Error leyendo registros del archivo {}\n'.format(abspath),exc_info=True)
             file_nok.append(abspath)
@@ -239,12 +244,12 @@ def Load_inv(**context):
     print ('\n--------------------------------')
     print ('::: Resumen de archivos con errores:')
     for i in range(len(file_nok)):
-        print ('::: {}: {}'.format(file_nok[i],len_nok[i]))
+        print ('::: Archivo {0} - Registros: {}'.format(file_nok[i],len_nok[i]))
     
     print ('\n--------------------------------')
     print ('::: Resumen de archivos implementados exitosamente en la tabla \'{}\':'.format(table))
     for i in range(len(file_ok)):
-        print ('::: {}: {}'.format(file_ok[i],len_ok[i]))
+        print (':::Archivo {0} - Registros: {1}'.format(file_ok[i],len_ok[i]))
     print ('\n--------------------------------')
 
 def naming_inv(**context):
@@ -728,8 +733,8 @@ _carga_inv_to_db = PythonOperator(
     task_id='Carga_inv_to_db',
     python_callable=Load_inv,
     op_kwargs={
-        'file':'Table-id_722018305.csv',
-        #'file':'EthernetPortsByIpShelf.txt',
+        #'file':'Table-id_722018305.csv',
+        'file':'EthernetPortsByIpShelf.txt',
         'dir':'Inner',
         'role': '*',
         'table':'inv_itf'
