@@ -397,9 +397,9 @@ def gen_excel(**context):
     import pandas as pd
 
     dir=context['dir']
-    archivos=os.listdir(os.path.join(os.getcwd(),dir,'auxiliar'))
-    print (archivos)
-
+    #archivos=os.listdir(os.path.join(os.getcwd(),dir,'auxiliar'))
+    archivos = [f for f in os.listdir(os.path.join(os.getcwd(),dir,'auxiliar')) if f.endswith('.csv')]
+    
     dataframe = pd.DataFrame()
     for nom_archivo in archivos:
         abspath = os.path.join(os.getcwd(),dir,'auxiliar',nom_archivo)
