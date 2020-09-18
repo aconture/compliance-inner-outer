@@ -6,13 +6,15 @@ DROP TABLE par_inv_itf;
 
 DROP TABLE inv_itf;
 
+DROP TABLE ne;
+
 CREATE TABLE public.par_inv_itf (
     shelfname character varying(50),
     shelfHardware character varying(30),
     shelfNetworkRole character varying(25),
     shelfoperationalstate character varying(10),
     portInterfaceName character varying(20),
-    bandwidth character varying(20),
+    portBandwidth character varying(20),
     portoperationalstate character varying(20),
     info1 character varying(500),
     type character varying(20),
@@ -28,7 +30,7 @@ CREATE TABLE public.inv_itf (
     shelfNetworkRole character varying(25),
     shelfoperationalstate character varying(10),
     portInterfaceName character varying(20),
-    bandwidth character varying(20),
+    portBandwidth character varying(20),
     portoperationalstate character varying(20),
     info1 character varying(500),
     type character varying(20)

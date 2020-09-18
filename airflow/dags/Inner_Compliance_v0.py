@@ -289,23 +289,23 @@ def naming_inv(**context):
     #print (df_inv_itf.columns)
     for indice in df_inv_itf.index:
         if (df_inv_itf.loc[indice,'shelfnetworkrole'] == 'INNER CORE'):
-            if (df_inv_itf.loc[indice,'bandwidth'] == '10 Gb'):
+            if (df_inv_itf.loc[indice,'portbandwidth'] == '10 Gb'):
                 df_inv_itf.loc[indice,'portinterfacename'] = df_inv_itf.loc[indice,'portinterfacename']+'(100M)'
                 ic_mod_label = ic_mod_label + 1
-            if (df_inv_itf.loc[indice,'bandwidth'] == '100 Gb'):
-                df_inv_itf.loc[indice,'bandwidth'] = '100GE'
+            if (df_inv_itf.loc[indice,'portbandwidth'] == '100 Gb'):
+                df_inv_itf.loc[indice,'portbandwidth'] = '100GE'
                 ic_mod_100GE = ic_mod_100GE + 1
-            if (df_inv_itf.loc[indice,'bandwidth'] == '10 Gb'):
-                df_inv_itf.loc[indice,'bandwidth'] = 'GE'
+            if (df_inv_itf.loc[indice,'portbandwidth'] == '10 Gb'):
+                df_inv_itf.loc[indice,'portbandwidth'] = 'GE'
                 ic_mod_GE = ic_mod_GE + 1
     
         #adecuaciones especificas para el Outer Core
         if (df_inv_itf.loc[indice,'shelfnetworkrole'] == 'OUTER CORE'):
-            if ((df_inv_itf.loc[indice,'bandwidth'] == '100 Gb') or (df_inv_itf.loc[indice,'bandwidth'] == '100GB')):
-                df_inv_itf.loc[indice,'bandwidth'] = 'Hu'
+            if ((df_inv_itf.loc[indice,'portbandwidth'] == '100 Gb') or (df_inv_itf.loc[indice,'portbandwidth'] == '100GB')):
+                df_inv_itf.loc[indice,'portbandwidth'] = 'Hu'
                 oc_mod_100GE = oc_mod_100GE + 1
-            if (df_inv_itf.loc[indice,'bandwidth'] == '10 Gb'):
-                df_inv_itf.loc[indice,'bandwidth'] = 'Te'
+            if (df_inv_itf.loc[indice,'portbandwidth'] == '10 Gb'):
+                df_inv_itf.loc[indice,'portbandwidth'] = 'Te'
                 oc_mod_10Gb = oc_mod_10Gb + 1
 
     logging.info ('\n::: Labels (100M) modificados para Inner Core: {0}'.format(ic_mod_label))
@@ -316,9 +316,7 @@ def naming_inv(**context):
 
 
     #Adecuaciones masivas
-    #df_inv_itf['bandwidth'] = df_inv_itf['bandwidth'].str.replace('100 Gb','100GE')
-    #df_inv_itf['bandwidth'] = df_inv_itf['bandwidth'].str.replace('10 Gb','GE')
-    df_inv_itf['concat'] = df_inv_itf[['shelfname','bandwidth','portinterfacename']].agg(''.join, axis=1)
+    df_inv_itf['concat'] = df_inv_itf[['shelfname','portbandwidth','portinterfacename']].agg(''.join, axis=1)
 
 
     #init de la base destino
@@ -464,7 +462,8 @@ def _format_reporte_compliance(dataframe):
       'shelfname_x':'NE',
       'concat':'Recurso',
       'shelfhardware':'shelfHardware', #en la bd de postgres esta en minuscula, y en el dump tiene una mayuscula
-      'shelfnetworkrole':'shelfNetworkRole' #en la bd de postgres esta en minuscula, y en el dump tiene una mayuscula
+      'shelfnetworkrole':'shelfNetworkRole', #en la bd de postgres esta en minuscula, y en el dump tiene una mayuscula
+      'portbandwidth':'portBandwidth'
       })
     
     print ('En el formateo:',dataframe.columns)
@@ -475,7 +474,7 @@ def _format_reporte_compliance(dataframe):
       'shelfHardware', #tomado de Lisy
       'interface',
       'Recurso',
-      'bandwidth',
+      'portBandwidth',
       'EstadoRed',
       'EstadoLisy',
       'DescRed',
@@ -664,9 +663,9 @@ def Caso3_ne_inv(**context):
 
     #voy a tener que llamar a esta función explicitamente para cada networkrole para poder popular los siguientes campos:
     df_ex_ne_inv['shelfNetworkRole'] = '0-Crear en Inventario'
-    df_ex_ne_inv['shelfHardware'] = 'N/A' #ombre del campo del dump de Lisy
+    df_ex_ne_inv['shelfHardware'] = 'N/A' #nombre del campo del dump de Lisy
 
-    df_ex_ne_inv['bandwidth'] = 'N/A' #la conformacion de este dato requiere desarrollo adicional
+    df_ex_ne_inv['portBandwidth'] = 'N/A' #la conformacion de este dato requiere desarrollo adicional
 
     df_ex_ne_inv = _format_reporte_compliance(df_ex_ne_inv)
 
