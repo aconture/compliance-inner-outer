@@ -456,20 +456,23 @@ def init_report(**context):
     except FileNotFoundError:
         pass
 
-def _format_reporte(dataframe):
+def _format_reporte_compliance(dataframe):
     dataframe = dataframe.rename(columns={
       'portoperationalstate_x':'EstadoRed',
       'portoperationalstate_y': 'EstadoLisy',
       'info1_x':'DescRed',
       'info1_y':'DescLisy',
       'shelfname_x':'NE',
-      'concat':'Recurso'
+      'concat':'Recurso',
+      'shelfhardware':'shelfHardware' #en la bd de postgres esta en minuscula, y en el dump tiene una mayuscula
       })
     
+    print ('En el formateo:',dataframe.columns)
+
     dataframe = dataframe [[
-      'networkrole',
-      'NE',
-      'hardware',
+      'networkrole', #tomado de Lisy
+      'NE', #tomado del NE
+      'shelfHardware', #tomado de Lisy
       'interface',
       'Recurso',
       'bandwidth',
@@ -538,7 +541,7 @@ def Caso1_ok_v2(**context):
     df_ok = pd.concat ([df_ok1,df_ok2])
 
     df_ok['EvEstado'] = 'ok'
-    df_ok = _format_reporte(df_ok)
+    df_ok = _format_reporte_compliance(df_ok)
 
     #print (df_ok.columns.ravel())
 
@@ -609,7 +612,8 @@ def Caso2_revisar(**context):
     df_rev = pd.concat ([df_rev1,df_rev2])
 
     df_rev['EvEstado'] = 'revisar'
-    df_rev = _format_reporte(df_rev)
+    print (df_rev.columns)
+    df_rev = _format_reporte_compliance(df_rev)
 
     conn.close()
 
@@ -648,6 +652,7 @@ def Caso3_ne_inv(**context):
 
     conn.close()
 
+    #print (df_ex_ne_inv)
     df_ex_ne_inv['EvEstado'] = 'Falta_en_inventario'
 
     #Con esto formateo los campos para que en el excel pueda usar una unica solapa de este resultado junto con los resultados de ok y revisar
@@ -659,11 +664,11 @@ def Caso3_ne_inv(**context):
 
     #voy a tener que llamar a esta función explicitamente para cada networkrole para poder popular los siguientes campos:
     df_ex_ne_inv['networkrole'] = '0-Crear en Inventario'
-    df_ex_ne_inv['hardware'] = 'N/A'
+    df_ex_ne_inv['shelfHardware'] = 'N/A' #ombre del campo del dump de Lisy
 
     df_ex_ne_inv['bandwidth'] = 'N/A' #la conformacion de este dato requiere desarrollo adicional
 
-    df_ex_ne_inv = _format_reporte(df_ex_ne_inv)
+    df_ex_ne_inv = _format_reporte_compliance(df_ex_ne_inv)
 
     logging.info ('\n:::Registros existentes en NE y faltan en Inventario: {}'.format(len(df_ex_ne_inv)))
 
@@ -697,8 +702,6 @@ def Caso4_inv_ne(**context):
                                 .format(table_A,table_B),con=conn)
     print(len(df_ex_inv_ne))
     
-    #df_ex_inv_ne = _format_reporte(df_ex_inv_ne)
-    #_gen_excel(df_ex_inv_ne,'FaltaEnNE')
     logging.info ('\n:::Registros existentes en Inventario y faltan en NE: {}'.format(len(df_ex_inv_ne)))
 
     conn.close()
