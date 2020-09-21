@@ -1,6 +1,6 @@
-#ShelfName|Hardware|NetworkRole|ShelfOperationalState|UserLabel|Bandwidth|PortOperationalState|Info1|Type
+# docker exec -it <docker postgres> sh
+# psql -U airflow
 
-#shelfName|shelfHardware|shelfNetworkRole|shelfOperationalState|portInterfaceName|portBandwidth|portOperationalState|portInfo1|portType 
 
 DROP TABLE par_inv_itf;
 

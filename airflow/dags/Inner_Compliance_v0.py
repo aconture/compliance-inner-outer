@@ -209,7 +209,11 @@ def Load_inv(**context):
             logging.info ('\n::: Iniciando la carga.')
             #warn_bad_lines=True, error_bad_lines=False evitan error de '|' en campo de datos
             #encoding='latin-1' evita el error de "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xXX in position YY: invalid continuation byte" que recibia en algunos archivos dump que importados
-            df = pd.read_csv(abspath,delimiter='|', warn_bad_lines=True, error_bad_lines=False, encoding='latin-1')
+            df = pd.read_csv(abspath,delimiter='|',
+            warn_bad_lines=True, error_bad_lines=False, encoding='latin-1',
+            dtype={'shelfName':str, 'shelfHardware':str, 'shelfNetworkRole':str, 'shelfOperationalState':str, 'portInterfaceName':str, 'portBandwidth':str, 'portOperationalState':str, 'portInfo1':str, 'portType':str} #evito un warnig de low_memory por dejar decidir a pandas el dtype
+            )
+
             if rol != '*':
                 try:
                   df = df[(df['shelfNetworkRole'] == rol)] #filtro el rol de la base traida del inventario
@@ -422,6 +426,7 @@ def gen_excel(**context):
     #Convierto el pivot en dataframe y lo guardo en html para usarlo en el mail a enviar
     data_resumen_dataframe = data_resumen.reset_index()
     data_resumen_dataframe.to_html('reports/auxiliar/resumen.html', index=False)
+    print ('::::::::',data_resumen_dataframe.columns)
 
     #print (dataframe)
     archivo_rep = os.path.join(os.getcwd(),dir,'reporte.xlsx')        
