@@ -34,7 +34,7 @@ dag = DAG(
     default_args=default_args
 )
 
-#####################################################################3
+#####################################################################
 
 def _check_vigencia(**context):
     manual = """
@@ -153,6 +153,64 @@ def scp_files(**context):
     else:
         logging.info (':::Base de datos de NE ya actualizada, no es necesario copiar.')
 
+def _insert_cursor(dataframe,tabla_postgres, lista_columnas):
+    manual = """
+    Esta funcion inserta registros en la base postgres, usando un cursor.
+    
+    Args: 
+      dataframe [object]: el dataframe que voy a escribir en la base de datos. Tiene que venir un dataframe flat (no tiene que ser multi-index)
+      tabla_postgres [text]: la tabla donde voy a escribir los datos
+      lista_columnas [list]: la lista de columnas de la tabla que se va a escribir
+    
+    Returns:
+      none
+    """
+    from psycopg2.extras import execute_values
+    import pandas as pd
+
+    pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
+    conn = pg_hook.get_conn()
+    pg_cursor = conn.cursor()
+
+    #columnas = dataframe.columns.ravel()
+    #print (columnas)
+    sql_string = 'INSERT INTO {} ('.format(tabla_postgres)+ ', '.join(lista_columnas) + ") (VALUES %s)"
+    logging.info ('::: Insertando en la tabla: {0}'.format(sql_string))
+
+    values = list(dataframe.itertuples(index=False, name=None))
+    logging.info ('::: Los siguientes registros: {0}'.format(values))
+
+    execute_values(pg_cursor, sql_string, values)
+
+    conn.commit()
+    conn.close()
+
+def _delete_cursor(sql_string):
+    manual = """
+    Esta funcion borra registros en la base postgres, usando un cursor.
+    
+    Args: 
+      sql_string [text]: la tabla donde voy a escribir los datos
+      lista_columnas [list]: la lista de columnas de la tabla que se va a escribir
+    
+    Returns:
+      none
+    """
+    from psycopg2.extras import execute_values
+    import pandas as pd
+
+    pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
+    conn = pg_hook.get_conn()
+    pg_cursor = conn.cursor()
+
+    logging.info ('::: Limpiando registros: {0}\n'.format(sql_string))
+
+    #execute_values(pg_cursor, sql_string, values)
+    pg_cursor.execute (sql_string )
+
+    conn.commit()
+    conn.close()
+
 
 def Load_inv(**context):
     manual = """
@@ -228,6 +286,7 @@ def Load_inv(**context):
             values = list(df.itertuples(index=False, name=None))
 
             execute_values(pg_cursor, sql_string, values)
+
             file_ok.append(abspath)
             len_ok.append(len(values))
             #logging.info ('\n::: Populada tabla \'{}\' con {} registros, tomados de {}.'.format(table,len(values),abspath))
@@ -423,10 +482,22 @@ def gen_excel(**context):
         ascending=False
     )
 
+    f_ejecucion=context['ds']
+
     #Convierto el pivot en dataframe y lo guardo en html para usarlo en el mail a enviar
     data_resumen_dataframe = data_resumen.reset_index()
+    data_resumen_dataframe['fecha'] = f_ejecucion
+
     data_resumen_dataframe.to_html('reports/auxiliar/resumen.html', index=False)
-    print ('::::::::',data_resumen_dataframe.columns)
+
+    #Guardo los registos del pivot en una tabla que contiene el historico:
+    tabla = 'core_history'
+    #elimino para evitar registros duplicados de la misma fecha:
+    sql_delete = 'delete from core_history where fecha=\'{0}\''.format(f_ejecucion)
+    _delete_cursor(sql_delete)
+    #registro el resumen en la tabla historico de la base de datos:
+    lista_columnas = ['NE', 'ok', 'revisar', 'finv', 'fecha']
+    _insert_cursor (data_resumen_dataframe, tabla, lista_columnas)
 
     #print (dataframe)
     archivo_rep = os.path.join(os.getcwd(),dir,'reporte.xlsx')        

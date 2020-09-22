@@ -8,6 +8,8 @@ DROP TABLE inv_itf;
 
 DROP TABLE ne;
 
+DROP TABLE core_history;
+
 CREATE TABLE public.par_inv_itf (
     shelfname character varying(50),
     shelfHardware character varying(30),
@@ -50,3 +52,15 @@ CREATE TABLE public.ne (
 
 
 ALTER TABLE public.ne OWNER TO airflow;
+
+
+CREATE TABLE public.core_history (
+    ne character varying(30),
+	ok character varying(5),
+	revisar character varying(5),
+	finv character varying(5),
+	fecha character varying(20)
+);
+
+
+ALTER TABLE public.core_history OWNER TO airflow;
