@@ -178,7 +178,7 @@ def _insert_cursor(dataframe,tabla_postgres, lista_columnas):
     logging.info ('::: Insertando en la tabla: {0}'.format(sql_string))
 
     values = list(dataframe.itertuples(index=False, name=None))
-    logging.info ('::: Los siguientes registros: {0}'.format(values))
+    logging.info ('::: La siguiente cantidad de registros: {0}'.format(len(values)))
 
     execute_values(pg_cursor, sql_string, values)
 
@@ -225,7 +225,6 @@ def Load_inv(**context):
     Returns:
       none
     """
-    from psycopg2.extras import execute_values
     import pandas as pd
 
     file=context['file']
@@ -245,13 +244,9 @@ def Load_inv(**context):
         #lista con el archivo que vino como argumento
         archivos = [file]
     
-    pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
-    conn = pg_hook.get_conn()
-    pg_cursor = conn.cursor()
-
     #init de la base
     sql_delete = 'DELETE FROM {}'.format(table)
-    pg_cursor.execute(sql_delete)
+    _delete_cursor(sql_delete)
     logging.info('\n::: Tabla \'{}\' inicializada.'.format(table))
 
     #var para log:
@@ -265,12 +260,10 @@ def Load_inv(**context):
         abspath = os.path.join(os.getcwd(),dir,nom_archivo)
         try:
             logging.info ('\n::: Iniciando la carga.')
-            #warn_bad_lines=True, error_bad_lines=False evitan error de '|' en campo de datos
+            #los argumentos: warn_bad_lines=True, error_bad_lines=False evitan error de '|' en campo de datos
             #encoding='latin-1' evita el error de "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xXX in position YY: invalid continuation byte" que recibia en algunos archivos dump que importados
             df = pd.read_csv(abspath,delimiter='|',
-            warn_bad_lines=True, error_bad_lines=False, encoding='latin-1',
-            dtype={'shelfName':str, 'shelfHardware':str, 'shelfNetworkRole':str, 'shelfOperationalState':str, 'portInterfaceName':str, 'portBandwidth':str, 'portOperationalState':str, 'portInfo1':str, 'portType':str} #evito un warnig de low_memory por dejar decidir a pandas el dtype
-            )
+            warn_bad_lines=True, error_bad_lines=False, encoding='latin-1')
 
             if rol != '*':
                 try:
@@ -278,41 +271,36 @@ def Load_inv(**context):
                 except:
                   pass
             logging.info ('\n::: Cargando desde Archivo {0}, {1} registros con el rol \'{2}\'.'.format(nom_archivo,len(df), rol))
+            
             columnas = df.columns.ravel()
-            sql_string = 'INSERT INTO {} ('.format(table)+ ', '.join(columnas) + ") (VALUES %s)"
-
-            #logging.info('\n::: Preparando SQL con columnas detectadas: {}'.format(sql_string))
-            #El cursor execute_values necesita un array de tuplas, que lo obtengo de esta manera:
-            values = list(df.itertuples(index=False, name=None))
-
-            execute_values(pg_cursor, sql_string, values)
+            _insert_cursor(df,table,columnas)
 
             file_ok.append(abspath)
-            len_ok.append(len(values))
+            len_ok.append(len(df))
             #logging.info ('\n::: Populada tabla \'{}\' con {} registros, tomados de {}.'.format(table,len(values),abspath))
         
         except FileNotFoundError as e:
-            logging.info('\n\n:::! Error - No se encuentra el archivo origen {}\n'.format(nom_archivo))
+            logging.error ('\n\n:::! Error - No se encuentra el archivo origen {}\n'.format(nom_archivo))
             logging.info('\n{}'.format(manual))
             return
         
         except Exception as e:
             logging.error ('\n\n:::! Error leyendo registros del archivo {}\n'.format(abspath),exc_info=True)
             file_nok.append(abspath)
-            len_nok.append(len(values))
+            len_nok.append(len(df))
 
-    conn.commit()
-    conn.close()
-    
     print ('\n--------------------------------')
     print ('::: Resumen de archivos con errores:')
     for i in range(len(file_nok)):
-        print ('::: Archivo {0} - Registros: {}'.format(file_nok[i],len_nok[i]))
+        pass
+        print ('::: Archivo {0} - Registros: {1}'.format(file_nok[i],len_nok[i]))
     
     print ('\n--------------------------------')
     print ('::: Resumen de archivos implementados exitosamente en la tabla \'{}\':'.format(table))
+    #print (':::::::archivos ok: ',file_ok)
     for i in range(len(file_ok)):
         print (':::Archivo {0} - Registros: {1}'.format(file_ok[i],len_ok[i]))
+        #pass
     print ('\n--------------------------------')
 
 def naming_inv(**context):
@@ -446,10 +434,12 @@ def naming_ne(**context):
 
 def gen_excel(**context):
     manual = """
-    Esta funcion genera un archivo excel con el contenido de los 'n' archivos csv que lee en el directorio. Requiere que todos los archivos csv tengan los mismos campos.
-    
-    Para que no repita el nombre de la solapa, se debe invocar a la funcion init_report, que borra el excel que existe previamente.
+    Esta funcion 
+        -genera un archivo excel con el contenido de los 'n' archivos csv que lee en el directorio. Requiere que todos los archivos csv tengan los mismos campos.
+        Para que no repita el nombre de la solapa, se debe invocar a la funcion init_report, que borra el excel que existe previamente.
 
+        -graba el resumen del resultado en una tabla historica en la base de datos.
+    
     Args: 
       none
     Returns:
@@ -623,8 +613,6 @@ def Caso1_ok_v2(**context):
     conn.close()
     
     logging.info ('\n:::Registros ok: {}'.format(len(df_ok)))
-
-    #_gen_excel(df_ok,'ok')
 
     #impresiones:
     print (len(df_ok))
