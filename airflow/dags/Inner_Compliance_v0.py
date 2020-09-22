@@ -214,14 +214,15 @@ def _delete_cursor(sql_string):
 
 def Load_inv(**context):
     manual = """
-    Esta funcion carga los registros leidos del archivo indicado en la base de postgres.
+    Esta funcion carga los registros leidos del archivo indicado en la tarea, en la tabla de postgres indicada en la tarea.
+    Previamente, inicializa la tabla indicada borrando todos sus registros.
     
     Args: 
       dir [text]: directorio dentro del home de Airflow, donde se encuentra el archivo o el grupo de archivos a cargar. No debe incluir '/' al final.
-      role [text]: rol definido en el inventario
-      table [text]: tabla de la base de datos que se debe cargar.
+      role [text]: rol definido en el inventario. Si su valor = '*', se cargan todos los roles leidos. El 'rol' es una propiedad del inventario.
       file [text]: archivo con la base a cargar. Si su valor = '*', se cargan todos los archivos del directorio indicado.      
-    
+      table [text]: tabla de la base de datos que se debe cargar.    
+
     Returns:
       none
     """
@@ -315,7 +316,6 @@ def naming_inv(**context):
     Returns:
       none
     """
-    from psycopg2.extras import execute_values
     import pandas as pd
 
     table_ = 'inv_itf'
@@ -323,14 +323,13 @@ def naming_inv(**context):
 
     pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
     conn = pg_hook.get_conn()
-    pg_cursor = conn.cursor()    
 
     df_inv_itf = pd.read_sql_query('select * from {}'.format(table_),con=conn)
 
     #filtro1: lo aplico para que la tarea corra más rápido
     df_inv_itf = df_inv_itf[(df_inv_itf['shelfnetworkrole'] == 'INNER CORE') | (df_inv_itf['shelfnetworkrole'] == 'OUTER CORE')]
     
-    #adecuaciones especificas para el Inner Core
+    #inicializo adecuaciones
     ic_mod_label = 0
     ic_mod_100GE = 0
     ic_mod_GE = 0
@@ -339,6 +338,7 @@ def naming_inv(**context):
 
     #print (df_inv_itf.columns)
     for indice in df_inv_itf.index:
+        #adecuaciones especificas para el Inner Core
         if (df_inv_itf.loc[indice,'shelfnetworkrole'] == 'INNER CORE'):
             if (df_inv_itf.loc[indice,'portbandwidth'] == '10 Gb'):
                 df_inv_itf.loc[indice,'portinterfacename'] = df_inv_itf.loc[indice,'portinterfacename']+'(100M)'
@@ -372,21 +372,13 @@ def naming_inv(**context):
 
     #init de la base destino
     sql_delete = 'DELETE FROM {}'.format(table_dest)
-    pg_cursor.execute(sql_delete)
+    _delete_cursor(sql_delete)
     logging.info('\n::: Tabla {} inicializada.'.format(table_dest))
 
     #populo la base destino
     columnas = df_inv_itf.columns.ravel()
-    sql_string = 'INSERT INTO {} ('.format(table_dest)+ ', '.join(columnas) + ")\n(VALUES %s)"
-
-    logging.info('\n::: Preparando para ejecutar sql con las columnas detectadas {}'.format(sql_string))
-    values = list(df_inv_itf.itertuples(index=False, name=None))
-    execute_values(pg_cursor, sql_string, values)
-
-    logging.info ('\n::: Se popula la tabla {} con {} registros.'.format(table_dest,len(values)))
-
-    conn.commit()
-    conn.close()
+    _insert_cursor(df_inv_itf,table_dest,columnas)
+    
 
 def naming_ne(**context):
     manual = """
@@ -399,7 +391,6 @@ def naming_ne(**context):
     Returns:
       none
     """
-    from psycopg2.extras import execute_values
     import pandas as pd
 
     table_ = 'NE'
@@ -416,21 +407,13 @@ def naming_ne(**context):
 
     #init de la base destino
     sql_delete = 'DELETE FROM {}'.format(table_dest)
-    pg_cursor.execute(sql_delete)
+    _delete_cursor(sql_delete)
     logging.info('\n::: Tabla {} inicializada.'.format(table_dest))
 
     #populo la base destino
     columnas = df_ne.columns.ravel()
-    sql_string = 'INSERT INTO {} ('.format(table_dest)+ ', '.join(columnas) + ")\n(VALUES %s)"
-
-    logging.info('\n::: Preparando para ejecutar sql con las columnas detectadas {}'.format(sql_string))
-    values = list(df_ne.itertuples(index=False, name=None))
-    execute_values(pg_cursor, sql_string, values)
-
-    logging.info ('\n::: Se popula la tabla {} con {} registros.'.format(table_dest,len(values)))
-
-    conn.commit()
-    conn.close()
+    _insert_cursor(df_ne,table_dest,columnas)
+    
 
 def gen_excel(**context):
     manual = """
