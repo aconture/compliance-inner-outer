@@ -28,7 +28,7 @@ default_args = {
 
 #dag
 dag = DAG(
-    dag_id='Compliance_Inner', 
+    dag_id='Compliance_Inner_Outer', 
     schedule_interval= None,
     tags=['inventario', 'compliance'],
     default_args=default_args
@@ -234,7 +234,7 @@ def Load_inv(**context):
     rol=context['role']
 
     if (dir is None) or (table is None) or (rol is None) or (file is None):
-        logging.info ('\n:::! Error - Falta un argumento de llamada a esta funcion.')
+        logging.error ('\n:::! Error - Falta un argumento de llamada a esta funcion.')
         logging.info (manual)
         return -1
 
@@ -419,7 +419,7 @@ def gen_excel(**context):
     manual = """
     Esta funcion 
         -genera un archivo excel con el contenido de los 'n' archivos csv que lee en el directorio. Requiere que todos los archivos csv tengan los mismos campos.
-        Para que no repita el nombre de la solapa, se debe invocar a la funcion init_report, que borra el excel que existe previamente.
+        Para que no repita el nombre de la solapa del excel, se debe invocar a la funcion init_report, que borra el excel que existe previamente.
 
         -graba el resumen del resultado en una tabla historica en la base de datos.
     
@@ -487,7 +487,7 @@ def gen_excel(**context):
 
 def _cuerpo_mail():
     """
-    Lee el resumen generado y almacenado en auxiliar/ para usarlo en el cuerpo del mail de resultado de la operacion.
+    Lee el resumen generado y almacenado en reports/auxiliar/ para usarlo en el cuerpo del mail de resultado de la operacion.
     """
     with open('reports/auxiliar/resumen.html', 'r') as f:
         html_string = f.read()
