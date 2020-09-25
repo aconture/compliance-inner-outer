@@ -33,6 +33,8 @@ services:
         max-file: "3"
     volumes:
       - ./airflow:/usr/local/airflow/
+      #- z:/:/usr/local/
+      #- C:\Users\u186814\Desktop\:/usr/local/
     ports:
       - "8080:8080"
     command: webserver
