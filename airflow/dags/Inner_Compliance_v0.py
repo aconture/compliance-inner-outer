@@ -216,6 +216,107 @@ def Load_inv(**context):
     manual = """
     Esta funcion carga los registros leidos del archivo indicado en la tarea, en la tabla de postgres indicada en la tarea.
     Previamente, inicializa la tabla indicada borrando todos sus registros.
+    La tabla indicada tiene que estar previamente creada en la base de datos de destino.
+    
+    Args: 
+      dir [text]: directorio dentro del home de Airflow, donde se encuentra el archivo o el grupo de archivos a cargar. No debe incluir '/' al final.
+      role [text]: rol definido en el inventario. Si su valor = '*', se cargan todos los roles leidos. El 'rol' es una propiedad del inventario.
+      file [text]: archivo con la base a cargar. Si su valor = '*', se cargan todos los archivos del directorio indicado.      
+      table [text]: tabla de la base de datos que se debe cargar.    
+      datatype [text]: tipo de dato que contiene el archivo que se va a importar en la base de datos:
+        'json'
+        'csv'
+
+    Returns:
+      none
+    """
+    import pandas as pd
+
+    try:
+        file=context['file']
+        dir=context['dir']
+        table=context['table']
+        rol=context['role']
+        datatype=context['datatype']
+    except:
+        logging.error ('\n:::! Error - Falta un argumento de llamada a esta funcion.')
+        logging.info (manual)
+        return -1
+
+    if file == '*':
+        #cargo en una lista todos los archivos del directorio
+        archivos=os.listdir(os.path.join(os.getcwd(),dir))
+    else:
+        #lista con el archivo que vino como argumento
+        archivos = [file]
+    
+    #init de la base
+    sql_delete = 'DELETE FROM {}'.format(table)
+    _delete_cursor(sql_delete)
+    logging.info('\n::: Tabla \'{}\' inicializada.'.format(table))
+
+    #var para log:
+    file_ok = []
+    len_ok = []
+    file_nok = []
+    len_nok = []
+    
+    # implementa BD:
+    for nom_archivo in archivos:
+        abspath = os.path.join(os.getcwd(),dir,nom_archivo)
+        try:
+            logging.info ('\n::: Iniciando la carga.')
+            #los argumentos: warn_bad_lines=True, error_bad_lines=False evitan error de '|' en campo de datos
+            #encoding='latin-1' evita el error de "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xXX in position YY: invalid continuation byte" que recibia en algunos archivos dump que importados
+            if datatype == 'json':
+                df = pd.read_json(abspath,orient='columns')
+            if datatype == 'csv':
+                df = pd.read_csv(abspath,delimiter='|',
+                warn_bad_lines=True, error_bad_lines=False, encoding='latin-1')
+
+            if rol != '*':
+                try:
+                  df = df[(df['shelfNetworkRole'] == rol)] #filtro el rol de la base traida del inventario
+                except:
+                  pass
+            logging.info ('\n::: Cargando desde Archivo {0}, {1} registros con el rol \'{2}\'.'.format(nom_archivo,len(df), rol))
+            
+            columnas = df.columns.ravel()
+            _insert_cursor(df,table,columnas)
+
+            file_ok.append(abspath)
+            len_ok.append(len(df))
+            #logging.info ('\n::: Populada tabla \'{}\' con {} registros, tomados de {}.'.format(table,len(values),abspath))
+        
+        except FileNotFoundError as e:
+            logging.error ('\n\n:::! Error - No se encuentra el archivo origen {}\n'.format(nom_archivo))
+            logging.info('\n{}'.format(manual))
+            return
+        
+        except Exception as e:
+            logging.error ('\n\n:::! Error leyendo registros del archivo {}\n'.format(abspath),exc_info=True)
+            file_nok.append(abspath)
+            len_nok.append(len(df))
+
+    print ('\n--------------------------------')
+    print ('::: Resumen de archivos con errores:')
+    for i in range(len(file_nok)):
+        pass
+        print ('::: Archivo {0} - Registros: {1}'.format(file_nok[i],len_nok[i]))
+    
+    print ('\n--------------------------------')
+    print ('::: Resumen de archivos implementados exitosamente en la tabla \'{}\':'.format(table))
+    #print (':::::::archivos ok: ',file_ok)
+    for i in range(len(file_ok)):
+        print (':::Archivo {0} - Registros: {1}'.format(file_ok[i],len_ok[i]))
+        #pass
+    print ('\n--------------------------------')
+
+
+def Load_inv_old(**context):
+    manual = """
+    Esta funcion carga los registros leidos del archivo indicado en la tarea, en la tabla de postgres indicada en la tarea.
+    Previamente, inicializa la tabla indicada borrando todos sus registros.
     
     Args: 
       dir [text]: directorio dentro del home de Airflow, donde se encuentra el archivo o el grupo de archivos a cargar. No debe incluir '/' al final.
@@ -786,7 +887,8 @@ _carga_inv_to_db = PythonOperator(
         'file':'EthernetPortsByIpShelf.txt',
         'dir':'Inner',
         'role': '*',
-        'table':'inv_itf'
+        'table':'inv_itf',
+        'datatype':'csv'
         },
     provide_context=True,
     dag=dag
