@@ -248,7 +248,7 @@ def Load_inv(**context):
         archivos=os.listdir(os.path.join(os.getcwd(),dir))
     else:
         #lista con el archivo que vino como argumento
-        archivos = [file]
+        archivos = file
     
     #init de la base
     sql_delete = 'DELETE FROM {}'.format(table)
