@@ -1,0 +1,51 @@
+---
+########################################################################################################
+#Descripcion: Este playbook entra a equipos de datos Cisco definidos previamente en el archivo inventory
+#             Cisco y ejecuta el comando show int para extraer estado y descripcion de las interfaces. 
+#		Luego lo parsea por FSM. Por cada equipo alcanzado, imprime los datos obtenidos en
+#		un archivo txt y los almacena en el directorio InterfaceTxT.
+#Entradas: 	NE declarados en el archivo de hosts inventory_agg.
+#Salidas:	Archivo txt por cada NE alcanzado, con informacion de sus interfaces.
+#Autor: 	Federico E. Cocca, Carlos Javier Pepe
+#Fecha Creacion: 16/12/19
+#Fecha Modificacion: 13/01/20 --> Inclusion ATN en inventory
+#                    28/02/20 --> Ajustes del archivo inventory, total 488 equipos   
+########################################################################################################
+
+- name: Prueba interfaces OC
+  connection: network_cli
+  gather_facts: false
+  hosts: EQUIPOS
+  vars:
+    comando: show int desc | exclude '"'
+
+  tasks:
+    - name: ASR SHOW INTERFACES
+      cli_command:
+        command: "{{ comando }}"
+      register: command_output_cisco
+      ignore_errors: true
+      when: vendor=="CISCO"
+
+    - debug:
+        msg: "Fallo Loggeo"
+      when:
+        - command_output_cisco is failed
+        - command_output_cisco is search("authentica")
+
+    - name: Creacion de Variables Cisco
+      set_fact:
+        var_cisco: "{{ command_output_cisco.stdout | parse_cli_textfsm('../regexp/cisco_parseo.fsm') }}"
+      when: vendor=="CISCO"
+
+#    - name: Print CISCO
+#      debug:
+#        msg: "{{ var_cisco }}"
+#      when: vendor=="CISCO"
+
+    - name: Render Template Cisco
+      template:
+        src: ../jinja/cisco_jinja.j2
+        dest: "../interfaces/cisco_{{ inventory_hostname }}_interfaces.txt"
+      when: vendor=="CISCO"
+
