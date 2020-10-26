@@ -30,9 +30,6 @@ services:
             - postgres
             - redis
             - statsd-exporter
-        extra_hosts:
-            dlcondisdb21: 10.76.32.55
-            ulcondisdb3: 10.76.32.151
         environment:
             - LOAD_EX=n
             - EXECUTOR=Local
@@ -88,6 +85,9 @@ services:
         volumes:
             - ./dags:/opt/airflow/dags
             #- ./airflow:/usr/local/airflow/dags
+        extra_hosts:
+            dlcondisdb21: 10.76.32.55
+            ulcondisdb3: 10.76.32.151
         environment:
             - LOAD_EX=n
             - EXECUTOR=Local
@@ -106,6 +106,17 @@ services:
             - AIRFLOW__CORE__LOAD_EXAMPLES=False
             - AIRFLOW__CORE__LOAD_DEFAULT_CONNECTIONS=False
         command: bash -c "sleep 30 && airflow scheduler"
+        command: bash -c "apt-get update -yqq && apt-get upgrade -yqq"
+        command: bash -c "apt-get install -yqq --no-install-recommends iputils-ping openssh-server sshpass"
+        command: bash -c "apt-get purge --auto-remove -yqq $buildDeps && apt-get autoremove -yqq --purge && apt-get clean"
+        command: bash -c "pip install --upgrade pip"
+        command: bash -c "pip install ansible==2.9.11"
+        command: bash -c "pip install ansible-runner==1.4.6"
+        command: bash -c "pip install bottle==0.12.18 && pip install openpyxl==3.0.3"
+        command: bash -c "mkdir /etc/ansible && chmod +755 /etc/ansible"
+        command: bash -c "mkdir /etc/ansible && chmod +755 /etc/ansible"
+
+
 
     # worker:
     #     container_name: airflow-worker
@@ -169,13 +180,6 @@ services:
             - ./grafana/volume/dashboards:/grafana/dashboards
             - ./grafana/volume/provisioning:/grafana/provisioning 
         
-    remote-host:
-        container_name: remote-host
-        image: remote-host
-        build:
-            context: centos7
-    
-      
     influxdb:
         image: influxdb
         container_name: influxdb
