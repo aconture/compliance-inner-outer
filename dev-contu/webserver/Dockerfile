@@ -1,4 +1,4 @@
-FROM puckel/docker-airflow:1.10.12
+FROM puckel/docker-airflow:1.10.9
 USER root
 #sshpass para ejecutar comando remoto con la pwd en una variable de entorno
 RUN apt-get update -yqq \

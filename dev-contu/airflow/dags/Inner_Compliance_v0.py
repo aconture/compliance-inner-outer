@@ -39,7 +39,7 @@ dag = DAG(
 def _check_vigencia(**context):
     manual = """
     
-    Chequea si el directorio esta actualizado. 
+    Chequea si el directorio que contiene los datos traídos con Ansible esta actualizado, comparandolo contra la fecha de ejecucion del DAG. 
 
     args:
     **context: necesario para determinar la fecha de ejecucion del flujo.
@@ -51,11 +51,11 @@ def _check_vigencia(**context):
     """        
 
     date_exec=context['ds'] #ds contiene la fecha de ejecucion del dag yyyy-mm-dd
-    modTimesinceEpoc = os.path.getmtime('/usr/local/airflow/Inner/cu1/interfaces') #fecha de ultima ejecucion del ansible
-    modificationTime = datetime.fromtimestamp(modTimesinceEpoc).strftime('%Y-%m-%d')
+    modTimesinceEpoc = os.path.getmtime('/usr/local/airflow/Inner/cu1/interfaces') """la fecha de modificacion del directorio, asumo que es la fecha de ultima ejecucion del ansible. Revisar esta metodologia."""
+    modificationTime = datetime.fromtimestamp(modTimesinceEpoc).strftime('%Y-%m-%d') #Transformo la fecha epoch en formato yyyy-mm-dd
     
     if (date_exec > modificationTime):
-        logging.info (':::La informacion no esta vigente, tiene fecha en el pasado: {0}.'.format(modificationTime))
+        logging.info (':::La informacion no esta vigente, tiene fecha en el pasado {0}, y se ejecutarán los playbook.'.format(modificationTime))
         return (True)
 
     else:
@@ -64,8 +64,9 @@ def _check_vigencia(**context):
 
 def call_ansible(**context):
     manual = """
-    Ejecutas ansible en el directorio remoto. 
-    Si el directorio que contiene el resultado de ansible tiene la fecha actual, no se ejecuta ansible.
+    Ejecuta ansible en un playbook que vive en un servidor remoto. 
+    
+    Antes de ejecutar el playbook realiza un check de 'edad' de la ultima informacion que se trajo con ansible, si es de la misma fecha que la ejecucion del DAG, el playbook no se ejecutará.
 
     Args: 
       connection [text]: id de la conexion creada en airflow (Admin->Connections), donde:
@@ -104,13 +105,17 @@ def call_ansible(**context):
     
 def scp_files(**context):
     manual = """
+    Trae los archivos que tienen el resultado de la ejecución de los playbook, desde el servidor remoto hasta el servidor donde se ejecuta el webserver de airflow.
+
+    Antes de ejecutar la acción realiza un check de 'edad' de la ultima informacion que se trajo con ansible, si es de la misma fecha que la ejecucion del DAG, la acción no se ejecutará.
+
     Args: 
       connection [text]: id de la conexion creada en airflow (Admin->Connections), donde:
         "host":"ip o hostname del ansible proxy"
         "user":"id del usuario existente en el ansible proxy"
         "pass":"pass del usuario en el ansible proxy"
       
-      local_dir [text]: path absoluto del directorio remoto.
+      local_dir [text]: path absoluto del directorio local en el webserver airflow.
         ej: '/usr/local/airflow/Inner/'
 
       remote_dir [text]: path absoluto del directorio remoto.
@@ -133,14 +138,14 @@ def scp_files(**context):
 
     update = _check_vigencia (**context)
 
-    if (update):
+    if (update): #si la info del directorio local es anterior a la fecha de ejecución del DAG
         try:
             connection = BaseHook.get_connection(conn_id)
             host = connection.host
             user = connection.login
             passw = connection.password
 
-            os.system('rm {}*.txt'.format(local_dir))
+            os.system('rm {}*.txt'.format(local_dir)) #borra los archivos viejos en el directorio local
             logging.info ('::: Inicializado el directorio de *.txt local: {0}'.format(local_dir))
             
             logging.info ('::: Trayendo archivos *.txt del directorio ansible remoto')
@@ -155,12 +160,14 @@ def scp_files(**context):
 
 def _insert_cursor(dataframe,tabla_postgres, lista_columnas):
     manual = """
-    Esta funcion inserta registros en la base postgres, usando un cursor.
+    Esta funcion inserta registros en una tabla de la base postgres, usando un cursor.
+    Se puede usar para cargar en la base el resultado de una ejecución, o un dump.
+    Normalmente antes de popular la tabla, se debe invocar a la funcion _delete_cursor desde el dódigo main(), para limpiar los datos pre-existentes.
     
     Args: 
       dataframe [object]: el dataframe que voy a escribir en la base de datos. Tiene que venir un dataframe flat (no tiene que ser multi-index)
-      tabla_postgres [text]: la tabla donde voy a escribir los datos
-      lista_columnas [list]: la lista de columnas de la tabla que se va a escribir
+      tabla_postgres [text]: nombre de la tabla donde voy a escribir los datos. La tabla debe estar previamente creada.
+      lista_columnas [list]: lista de columnas de la tabla que se va a escribir.
     
     Returns:
       none
@@ -177,6 +184,7 @@ def _insert_cursor(dataframe,tabla_postgres, lista_columnas):
     sql_string = 'INSERT INTO {} ('.format(tabla_postgres)+ ', '.join(lista_columnas) + ") (VALUES %s)"
     logging.info ('::: Insertando en la tabla: {0}'.format(sql_string))
 
+    #el formato de los valores (values) que se le pasa al cursor es una lista de tuplas. Cada tupla es un registro de la tabla.
     values = list(dataframe.itertuples(index=False, name=None))
     logging.info ('::: La siguiente cantidad de registros: {0}'.format(len(values)))
 
@@ -187,7 +195,7 @@ def _insert_cursor(dataframe,tabla_postgres, lista_columnas):
 
 def _delete_cursor(sql_string):
     manual = """
-    Esta funcion borra registros en la base postgres, usando un cursor.
+    Esta funcion borra registros en una tabla de la base postgres, usando un cursor.
     
     Args: 
       sql_string [text]: la tabla donde voy a escribir los datos
@@ -216,34 +224,39 @@ def Load_inv(**context):
     manual = """
     Esta funcion carga los registros leidos del archivo indicado en la tarea, en la tabla de postgres indicada en la tarea.
     Previamente, inicializa la tabla indicada borrando todos sus registros.
+    La tabla indicada tiene que estar previamente creada en la base de datos de destino.
     
     Args: 
       dir [text]: directorio dentro del home de Airflow, donde se encuentra el archivo o el grupo de archivos a cargar. No debe incluir '/' al final.
       role [text]: rol definido en el inventario. Si su valor = '*', se cargan todos los roles leidos. El 'rol' es una propiedad del inventario.
       file [text]: archivo con la base a cargar. Si su valor = '*', se cargan todos los archivos del directorio indicado.      
       table [text]: tabla de la base de datos que se debe cargar.    
+      datatype [text]: tipo de dato que contiene el archivo que se va a importar en la base de datos:
+        'json'
+        'csv'
 
     Returns:
       none
     """
     import pandas as pd
 
-    file=context['file']
-    dir=context['dir']
-    table=context['table']
-    rol=context['role']
-
-    if (dir is None) or (table is None) or (rol is None) or (file is None):
+    try:
+        file=context['file']
+        dir=context['dir']
+        table=context['table']
+        rol=context['role']
+        datatype=context['datatype']
+    except:
         logging.error ('\n:::! Error - Falta un argumento de llamada a esta funcion.')
         logging.info (manual)
         return -1
 
     if file == '*':
-        #cargo en una lista todos los archivos del directorio
+        #cargo en una lista todos los archivos del directorio, que tienen los datos a cargar en la tabla
         archivos=os.listdir(os.path.join(os.getcwd(),dir))
     else:
-        #lista con el archivo que vino como argumento
-        archivos = [file]
+        #lista con el/los archivos que vienen como argumento
+        archivos = file
     
     #init de la base
     sql_delete = 'DELETE FROM {}'.format(table)
@@ -263,8 +276,11 @@ def Load_inv(**context):
             logging.info ('\n::: Iniciando la carga.')
             #los argumentos: warn_bad_lines=True, error_bad_lines=False evitan error de '|' en campo de datos
             #encoding='latin-1' evita el error de "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xXX in position YY: invalid continuation byte" que recibia en algunos archivos dump que importados
-            df = pd.read_csv(abspath,delimiter='|',
-            warn_bad_lines=True, error_bad_lines=False, encoding='latin-1')
+            if datatype == 'json':
+                df = pd.read_json(abspath,orient='columns')
+            if datatype == 'csv':
+                df = pd.read_csv(abspath,delimiter='|',
+                warn_bad_lines=True, error_bad_lines=False, encoding='latin-1')
 
             if rol != '*':
                 try:
@@ -303,6 +319,7 @@ def Load_inv(**context):
         print (':::Archivo {0} - Registros: {1}'.format(file_ok[i],len_ok[i]))
         #pass
     print ('\n--------------------------------')
+
 
 def naming_inv(**context):
     manual = """
@@ -786,7 +803,8 @@ _carga_inv_to_db = PythonOperator(
         'file':'EthernetPortsByIpShelf.txt',
         'dir':'Inner',
         'role': '*',
-        'table':'inv_itf'
+        'table':'inv_itf',
+        'datatype':'csv'
         },
     provide_context=True,
     dag=dag
@@ -865,7 +883,7 @@ _imprime_reporte = PythonOperator(
 
 _envia_mail1 = EmailOperator(
     task_id='Email_to_canal',
-    to="mfberetta@teco.com.ar",
+    to="agconture@teco.com.ar",
     #to="b70919fe.teco.com.ar@amer.teams.ms", #mail del canal de compliance
     subject="Compliance Inner&Outer - Resultado de Ejecucion {{ ds }}",
     #html_content="<h3> Esto es una prueba del envio de mail al finalizar la ejecucion del pipe </h3>",

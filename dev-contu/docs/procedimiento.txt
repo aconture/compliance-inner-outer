@@ -1,0 +1,15 @@
+# Crear conecciones
+
+# Crear objetos db Postgres:
+
+
+# Requirements.txt
+pandas
+ansible
+ansible-runner
+bottle
+openpyxl
+
+# paquetes linux
+openssh-server
+sshpass

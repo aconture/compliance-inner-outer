@@ -4,17 +4,11 @@
 
 DROP TABLE par_inv_itf;
 
-DROP TABLE inv_itf;
-
-DROP TABLE ne;
-
-DROP TABLE core_history;
-
 CREATE TABLE public.par_inv_itf (
     shelfname character varying(50),
-    shelfHardware character varying(30),
+    shelfHardware character varying(50),
     shelfNetworkRole character varying(25),
-    shelfoperationalstate character varying(10),
+    shelfoperationalstate character varying(20),
     portInterfaceName character varying(20),
     portBandwidth character varying(20),
     portoperationalstate character varying(20),
@@ -26,11 +20,13 @@ CREATE TABLE public.par_inv_itf (
 
 ALTER TABLE public.par_inv_itf OWNER TO airflow;
 
+DROP TABLE inv_itf;
+
 CREATE TABLE public.inv_itf (
     shelfname character varying(50),
-    shelfHardware character varying(30),
+    shelfHardware character varying(50),
     shelfNetworkRole character varying(25),
-    shelfoperationalstate character varying(10),
+    shelfoperationalstate character varying(20),
     portInterfaceName character varying(20),
     portBandwidth character varying(20),
     portoperationalstate character varying(20),
@@ -40,6 +36,9 @@ CREATE TABLE public.inv_itf (
 
 
 ALTER TABLE public.inv_itf OWNER TO airflow;
+
+
+DROP TABLE ne;
 
 CREATE TABLE public.ne (
     shelfname character varying(50),
@@ -53,6 +52,8 @@ CREATE TABLE public.ne (
 
 ALTER TABLE public.ne OWNER TO airflow;
 
+
+DROP TABLE core_history;
 
 CREATE TABLE public.core_history (
     ne character varying(30),
