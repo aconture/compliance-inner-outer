@@ -50,8 +50,7 @@ services:
             - AIRFLOW__WEBSERVER__WORKERS=2
             - AIRFLOW__WEBSERVER__WORKER_REFRESH_INTERVAL=1800
         volumes:
-            - ./dags:/opt/airflow/dags
-            - ./airflow/reports:/opt/airflow/reports
+            - ./airflow:/opt/airflow/
             
         ports:
             - "8080:8080"
@@ -83,8 +82,7 @@ services:
             - statsd-exporter
             - webserver
         volumes:
-            - ./dags:/opt/airflow/dags
-            - ./airflow/reports:/opt/airflow/reports
+            - ./airflow:/opt/airflow/
             #- ./airflow:/usr/local/airflow/dags
         extra_hosts:
             dlcondisdb21: 10.76.32.55
@@ -116,8 +114,6 @@ services:
         #command: bash -c -u root "pip install bottle==0.12.18 && pip install openpyxl==3.0.3"
         #command: bash -c -u root "mkdir /etc/ansible && chmod +755 /etc/ansible"
         #command: bash -c -u root "mkdir /etc/ansible && chmod +755 /etc/ansible"
-
-
 
     # worker:
     #     container_name: airflow-worker
