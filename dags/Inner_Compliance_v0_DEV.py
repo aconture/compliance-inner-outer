@@ -506,7 +506,7 @@ def _cuerpo_mail():
     """
     Lee el resumen generado y almacenado en reports/auxiliar/ para usarlo en el cuerpo del mail de resultado de la operacion.
     """
-    with open('/home/pdbutera/Automation/v1.0/compliance-inner-outer/reports/auxiliar/resumen.html', 'r') as f:
+    with open('/home/pdbutera/Automation/v1.0/compliance-inner-outer/airflow/reports/auxiliar/resumen.html', 'r') as f:
         html_string = f.read()
     f.close
     return (html_string)
