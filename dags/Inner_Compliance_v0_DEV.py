@@ -889,7 +889,7 @@ _envia_mail1 = EmailOperator(
     #html_content="<h3> Esto es una prueba del envio de mail al finalizar la ejecucion del pipe </h3>",
     html_content=_cuerpo_mail(),
     #files=["/usr/local/airflow/reports/reporte.xlsx"],
-    files=["/home/pdbutera/Automation/v1.0/airflow/reports/reporte.xlsx"],
+    files=["/home/pdbutera/Automation/v1.0/compliance-inner-outer/airflow/reports/reporte.xlsx"],
     dag=dag
 )
 

@@ -163,7 +163,7 @@ _envia_mail1 = EmailOperator(
     html_content=_cuerpo_mail(),
     #files=["/usr/local/airflow/reports/reporte.xlsx"],
     #files=["/mnt/c/Documents\ and\ Settings/pdbutera/Desktop/v1.1/airflow/reports/reporte.xlsx"],
-    files=["/home/pdbutera/Automation/v1.1/airflow/reports/reporte.xlsx"],
+    files=["/home/pdbutera/Automation/v1.0/compliance-inner-outer/airflow/reports/reporte.xlsx"],
     dag=dag
 )
 
