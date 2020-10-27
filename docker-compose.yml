@@ -106,15 +106,15 @@ services:
             - AIRFLOW__CORE__LOAD_EXAMPLES=False
             - AIRFLOW__CORE__LOAD_DEFAULT_CONNECTIONS=False
         command: bash -c -u root "sleep 30 && airflow scheduler"
-        command: bash -c -u root "apt-get update -yqq && apt-get upgrade -yqq"
-        command: bash -c -u root "apt-get install -yqq --no-install-recommends iputils-ping openssh-server sshpass"
-        command: bash -c -u root "apt-get purge --auto-remove -yqq $buildDeps && apt-get autoremove -yqq --purge && apt-get clean"
-        command: bash -c -u root "pip install --upgrade pip"
-        command: bash -c -u root "pip install ansible==2.9.11"
-        command: bash -c -u root "pip install ansible-runner==1.4.6"
-        command: bash -c -u root "pip install bottle==0.12.18 && pip install openpyxl==3.0.3"
-        command: bash -c -u root "mkdir /etc/ansible && chmod +755 /etc/ansible"
-        command: bash -c -u root "mkdir /etc/ansible && chmod +755 /etc/ansible"
+        #command: bash -c -u root "apt-get update -yqq && apt-get upgrade -yqq"
+        #command: bash -c -u root "apt-get install -yqq --no-install-recommends iputils-ping openssh-server sshpass"
+        #command: bash -c -u root "apt-get purge --auto-remove -yqq $buildDeps && apt-get autoremove -yqq --purge && apt-get clean"
+        #command: bash -c -u root "pip install --upgrade pip"
+        #command: bash -c -u root "pip install ansible==2.9.11"
+        #command: bash -c -u root "pip install ansible-runner==1.4.6"
+        #command: bash -c -u root "pip install bottle==0.12.18 && pip install openpyxl==3.0.3"
+        #command: bash -c -u root "mkdir /etc/ansible && chmod +755 /etc/ansible"
+        #command: bash -c -u root "mkdir /etc/ansible && chmod +755 /etc/ansible"
 
 
 
