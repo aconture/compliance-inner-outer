@@ -232,6 +232,9 @@ def Load_inv(**context):
     """
     import pandas as pd
 
+    file=context['file']
+    print (':::::::::::::::',file)
+
     try:
         file=context['file']
         dir=context['dir']
@@ -243,7 +246,7 @@ def Load_inv(**context):
         logging.info (manual)
         return -1
 
-    if file == '*':
+    if file[0] == '*':
         #cargo en una lista todos los archivos del directorio
         archivos=os.listdir(os.path.join(os.getcwd(),dir))
     else:
@@ -264,6 +267,7 @@ def Load_inv(**context):
     # implementa BD:
     for nom_archivo in archivos:
         abspath = os.path.join(os.getcwd(),dir,nom_archivo)
+        print ('PPPPPPPPPPPPPPPPP',nom_archivo)
         try:
             logging.info ('\n::: Iniciando la carga.')
             #los argumentos: warn_bad_lines=True, error_bad_lines=False evitan error de '|' en campo de datos
@@ -289,12 +293,12 @@ def Load_inv(**context):
             #logging.info ('\n::: Populada tabla \'{}\' con {} registros, tomados de {}.'.format(table,len(values),abspath))
         
         except FileNotFoundError as e:
-            logging.error ('\n\n:::! Error - No se encuentra el archivo origen {}\n'.format(nom_archivo))
-            logging.info('\n{}'.format(manual))
+            logging.error ('\n\n:::! Error - No se encuentra el archivo origen {0}\n'.format(nom_archivo))
+            #logging.info('\n{}'.format(manual))
             return
         
         except Exception as e:
-            logging.error ('\n\n:::! Error leyendo registros del archivo {}\n'.format(abspath),exc_info=True)
+            logging.error ('\n\n:::! Error leyendo registros del archivo {0}\n'.format(abspath),exc_info=True)
             file_nok.append(abspath)
             len_nok.append(len(df))
 
@@ -792,7 +796,7 @@ _carga_inv_to_db = PythonOperator(
     python_callable=Load_inv,
     op_kwargs={
         #'file':'Table-id_722018305.csv',
-        'file':'EthernetPortsByIpShelf.txt',
+        'file':['EthernetPortsByIpShelf.txt'],
         'dir':'Inner',
         'role': '*',
         'table':'inv_itf',
@@ -808,10 +812,11 @@ _carga_ne_to_db = PythonOperator(
     op_kwargs={    
         #'file':'huawei_IC1.HOR1_interfaces.txt',
         #'file':'huawei_IC1.SLO1_interfaces.txt',
-        'file':'*',
+        'file':['*'],
         'dir':'Inner/cu1/interfaces',
         'role': '*',
-        'table':'ne'
+        'table':'ne',
+        'datatype':'csv'        
         },
     provide_context=True,
     dag=dag
