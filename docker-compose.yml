@@ -51,7 +51,7 @@ services:
             - AIRFLOW__WEBSERVER__WORKER_REFRESH_INTERVAL=1800
         volumes:
             - ./dags:/opt/airflow/dags
-            #- ./airflow:/usr/local/airflow/dags
+            - ./airflow/reports:/opt/airflow/reports
             
         ports:
             - "8080:8080"
