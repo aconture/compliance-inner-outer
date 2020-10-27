@@ -23,7 +23,10 @@ services:
             - airflow-postgres-data:/var/lib/postgresql/data
     webserver:
         container_name: airflow-webserver
-        image: apache/airflow:1.10.12-python3.7
+        #image: apache/airflow:1.10.12-python3.7
+        build:
+            context: .
+            dockerfile: webserver/Dockerfile
         restart: always
         depends_on:
             - postgres
@@ -49,6 +52,7 @@ services:
             - AIRFLOW__WEBSERVER__WORKERS=2
             - AIRFLOW__WEBSERVER__WORKER_REFRESH_INTERVAL=1800
         volumes:
+            #- ./dags:/usr/local/airflow/dags
             - ./airflow:/usr/local/airflow/
             
         ports:
@@ -62,7 +66,10 @@ services:
 
     flower:
         container_name: airflow-flower
-        image: apache/airflow:1.10.12-python3.7
+        #image: apache/airflow:1.10.12-python3.7
+        build:
+            context: .
+            dockerfile: webserver/Dockerfile
         restart: always
         depends_on:
             - redis
@@ -75,7 +82,10 @@ services:
 
     scheduler:
         container_name: airflow-scheduler
-        image: apache/airflow:1.10.12-python3.7
+        #image: apache/airflow:1.10.12-python3.7
+        build:
+            context: .
+            dockerfile: webserver/Dockerfile
         restart: always
         depends_on:
             - statsd-exporter

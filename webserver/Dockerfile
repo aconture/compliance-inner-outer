@@ -1,4 +1,4 @@
-FROM puckel/docker-airflow:1.10.12
+FROM apache/airflow:1.10.12-python3.7
 USER root
 #sshpass para ejecutar comando remoto con la pwd en una variable de entorno
 RUN apt-get update -yqq \
@@ -21,4 +21,5 @@ RUN mkdir /etc/ansible && chmod +755 /etc/ansible
 #RUN mkdir /root/.ssh && chmod 600 /root/.ssh
 COPY ansible/ansible.cfg /etc/ansible
 COPY ansible/hosts /etc/ansible
+COPY airflow/airflow.cfg /opt/airflow	
 USER airflow
