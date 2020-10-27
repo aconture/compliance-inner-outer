@@ -768,7 +768,7 @@ def Caso4_inv_ne(**context):
     logging.info ('\n:::Registros existentes en Inventario y faltan en NE: {}'.format(len(df_ex_inv_ne)))
 
     conn.close()
-    df_ex_inv_ne.to_csv('reports/auxiliar/ex_inv_ne.csv', index=False)
+    df_ex_inv_ne.to_csv('/airflow/reports/auxiliar/ex_inv_ne.csv', index=False)
 
 
 #########################################################
