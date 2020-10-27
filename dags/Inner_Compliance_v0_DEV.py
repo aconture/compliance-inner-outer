@@ -506,7 +506,7 @@ def _cuerpo_mail():
     """
     Lee el resumen generado y almacenado en reports/auxiliar/ para usarlo en el cuerpo del mail de resultado de la operacion.
     """
-    with open('reports/auxiliar/resumen.html', 'r') as f:
+    with open('/home/pdbutera/Automation/v1.0/compliance-inner-outer/reports/auxiliar/resumen.html', 'r') as f:
         html_string = f.read()
     f.close
     return (html_string)
@@ -617,7 +617,7 @@ def Caso1_ok_v2(**context):
     #impresiones:
     print (len(df_ok))
 
-    df_ok.to_csv('airflow/reports/auxiliar/ok.csv', index=False)
+    df_ok.to_csv('/home/pdbutera/Automation/v1.0/compliance-inner-outer/airflow/reports/auxiliar/ok.csv', index=False)
     #df_all.to_json('prueba.json', orient='records', lines=True)
 
 def Caso2_revisar(**context):
@@ -685,7 +685,7 @@ def Caso2_revisar(**context):
     #_gen_excel(df_rev,'revisar')
 
     #print (len(df_rev))
-    df_rev.to_csv('airflow/reports/auxiliar/rev.csv', index=False)
+    df_rev.to_csv('/home/pdbutera/Automation/v1.0/compliance-inner-outer/airflow/reports/auxiliar/rev.csv', index=False)
 
 def Caso3_ne_inv(**context):
     manual = """
@@ -736,7 +736,7 @@ def Caso3_ne_inv(**context):
     logging.info ('\n:::Registros existentes en NE y faltan en Inventario: {}'.format(len(df_ex_ne_inv)))
 
     #_gen_excel(df_ex_ne_inv,'FaltaEnInv')
-    df_ex_ne_inv.to_csv('airflow/reports/auxiliar/df_ex_ne_inv.csv', index=False)
+    df_ex_ne_inv.to_csv('/home/pdbutera/Automation/v1.0/compliance-inner-outer/airflow/reports/auxiliar/df_ex_ne_inv.csv', index=False)
 
 def Caso4_inv_ne(**context):
     manual = """
@@ -768,7 +768,7 @@ def Caso4_inv_ne(**context):
     logging.info ('\n:::Registros existentes en Inventario y faltan en NE: {}'.format(len(df_ex_inv_ne)))
 
     conn.close()
-    df_ex_inv_ne.to_csv('airflow/reports/auxiliar/ex_inv_ne.csv', index=False)
+    df_ex_inv_ne.to_csv('/home/pdbutera/Automation/v1.0/compliance-inner-outer/airflow/reports/auxiliar/ex_inv_ne.csv', index=False)
 
 
 #########################################################
