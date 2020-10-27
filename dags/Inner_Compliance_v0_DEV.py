@@ -51,7 +51,7 @@ def _check_vigencia(**context):
     """        
 
     date_exec=context['ds'] #ds contiene la fecha de ejecucion del dag yyyy-mm-dd
-    modTimesinceEpoc = os.path.getmtime('/usr/local/airflow/Inner/cu1/interfaces') """la fecha de modificacion del directorio, asumo que es la fecha de ultima ejecucion del ansible. Revisar esta metodologia."""
+    modTimesinceEpoc = os.path.getmtime('/usr/local/airflow/Inner/cu1/interfaces') #la fecha de modificacion del directorio, asumo que es la fecha de ultima ejecucion del ansible. Revisar esta metodologia."""
     modificationTime = datetime.fromtimestamp(modTimesinceEpoc).strftime('%Y-%m-%d') #Transformo la fecha epoch en formato yyyy-mm-dd
     
     if (date_exec > modificationTime):
