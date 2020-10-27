@@ -84,6 +84,7 @@ services:
             - webserver
         volumes:
             - ./dags:/opt/airflow/dags
+            - ./airflow/reports:/opt/airflow/reports
             #- ./airflow:/usr/local/airflow/dags
         extra_hosts:
             dlcondisdb21: 10.76.32.55
@@ -190,10 +191,10 @@ services:
             - influxdb-volume:/vol01/Docker/monitoring
         environment:
             - INFLUXDB_DB=telegraf
-            #- INFLUXDB_USER=telegraf
-            #- INFLUXDB_ADMIN_ENABLED=true
-            #- INFLUXDB_ADMIN_USER=admin
-            #- INFLUXDB_ADMIN_PASSWORD=Welcome1 
+            - INFLUXDB_USER=telegraf
+            - INFLUXDB_ADMIN_ENABLED=true
+            - INFLUXDB_ADMIN_USER=admin
+            - INFLUXDB_ADMIN_PASSWORD=Welcome1 
     telegraf:
         image: telegraf
         container_name: telegraf
