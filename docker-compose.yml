@@ -19,8 +19,8 @@ services:
             - POSTGRES_USER=airflow
             - POSTGRES_PASSWORD=airflow
             - POSTGRES_DB=airflow
-        #volumes:
-        #    - airflow-postgres-data:/var/lib/postgresql/data
+        volumes:
+            - airflow-postgres-data:/var/lib/postgresql/data
 
     webserver:
         container_name: airflow-webserver
@@ -212,7 +212,7 @@ services:
             - /etc:/rootfs/etc:ro
     
 volumes:
-    #airflow-postgres-data:
-    #    driver: local
+    airflow-postgres-data:
+        driver: local
     influxdb-volume:
         driver: local
