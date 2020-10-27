@@ -6,7 +6,6 @@ RUN apt-get update -yqq \
     && apt-get install -yqq --no-install-recommends \
 	openssh-server \
 	sshpass \
-	&& apt-get purge --auto-remove -yqq $buildDeps \
     && apt-get autoremove -yqq --purge \
     && apt-get clean
 RUN /usr/local/bin/python -m pip install --upgrade pip
