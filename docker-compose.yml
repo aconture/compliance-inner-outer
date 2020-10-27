@@ -66,10 +66,10 @@ services:
 
     flower:
         container_name: airflow-flower
-        #image: apache/airflow:1.10.12-python3.7
-        build:
-            context: .
-            dockerfile: webserver/Dockerfile
+        image: apache/airflow:1.10.12-python3.7
+        #build:
+        #    context: .
+        #    dockerfile: webserver/Dockerfile
         restart: always
         depends_on:
             - redis

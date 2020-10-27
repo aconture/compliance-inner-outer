@@ -4,7 +4,6 @@ USER root
 RUN apt-get update -yqq \
     && apt-get upgrade -yqq \
     && apt-get install -yqq --no-install-recommends \
-    iputils-ping \
 	openssh-server \
 	sshpass \
 	&& apt-get purge --auto-remove -yqq $buildDeps \
