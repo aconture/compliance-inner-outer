@@ -19,8 +19,8 @@ services:
             - POSTGRES_USER=airflow
             - POSTGRES_PASSWORD=airflow
             - POSTGRES_DB=airflow
-        #volumes:
-        #    - airflow-postgres-data:/var/lib/postgresql/data
+        volumes:
+            - airflow-postgres-data:/var/lib/postgresql/data
 
     webserver:
         container_name: airflow-webserver
@@ -106,15 +106,15 @@ services:
             - AIRFLOW__CORE__LOAD_EXAMPLES=False
             - AIRFLOW__CORE__LOAD_DEFAULT_CONNECTIONS=False
         command: bash -c "sleep 30 && airflow scheduler"
-        #command: bash -c "apt-get update -yqq && apt-get upgrade -yqq"
-        #command: bash -c "apt-get install -yqq --no-install-recommends iputils-ping openssh-server sshpass"
-        #command: bash -c "apt-get purge --auto-remove -yqq $buildDeps && apt-get autoremove -yqq --purge && apt-get clean"
-        #command: bash -c "pip install --upgrade pip"
-        #command: bash -c "pip install ansible==2.9.11"
-        #command: bash -c "pip install ansible-runner==1.4.6"
-        #command: bash -c "pip install bottle==0.12.18 && pip install openpyxl==3.0.3"
-        #command: bash -c "mkdir /etc/ansible && chmod +755 /etc/ansible"
-        #command: bash -c "mkdir /etc/ansible && chmod +755 /etc/ansible"
+        command: bash -c "apt-get update -yqq && apt-get upgrade -yqq"
+        command: bash -c "apt-get install -yqq --no-install-recommends iputils-ping openssh-server sshpass"
+        command: bash -c "apt-get purge --auto-remove -yqq $buildDeps && apt-get autoremove -yqq --purge && apt-get clean"
+        command: bash -c "pip install --upgrade pip"
+        command: bash -c "pip install ansible==2.9.11"
+        command: bash -c "pip install ansible-runner==1.4.6"
+        command: bash -c "pip install bottle==0.12.18 && pip install openpyxl==3.0.3"
+        command: bash -c "mkdir /etc/ansible && chmod +755 /etc/ansible"
+        command: bash -c "mkdir /etc/ansible && chmod +755 /etc/ansible"
 
 
 
@@ -212,5 +212,7 @@ services:
             - /etc:/rootfs/etc:ro
     
 volumes:
+    airflow-postgres-data:
+        driver: local
     influxdb-volume:
         driver: local
