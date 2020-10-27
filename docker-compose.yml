@@ -105,7 +105,7 @@ services:
             - AIRFLOW__CORE__AIRFLOW_HOME=/opt/airflow/
             - AIRFLOW__CORE__LOAD_EXAMPLES=False
             - AIRFLOW__CORE__LOAD_DEFAULT_CONNECTIONS=False
-        command: bash -c -u root "sleep 30 && airflow scheduler"
+        command: bash -c "sleep 30 && airflow scheduler"
         #command: bash -c -u root "apt-get update -yqq && apt-get upgrade -yqq"
         #command: bash -c -u root "apt-get install -yqq --no-install-recommends iputils-ping openssh-server sshpass"
         #command: bash -c -u root "apt-get purge --auto-remove -yqq $buildDeps && apt-get autoremove -yqq --purge && apt-get clean"
