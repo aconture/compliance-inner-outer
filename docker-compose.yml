@@ -50,7 +50,7 @@ services:
             - AIRFLOW__WEBSERVER__WORKERS=2
             - AIRFLOW__WEBSERVER__WORKER_REFRESH_INTERVAL=1800
         volumes:
-            - ./airflow:/opt/airflow/
+            - ./airflow:/usr/local/airflow/
             
         ports:
             - "8080:8080"
@@ -82,7 +82,7 @@ services:
             - statsd-exporter
             - webserver
         volumes:
-            - ./airflow:/opt/airflow/
+            - ./airflow:/usr/local/airflow/
             #- ./airflow:/usr/local/airflow/dags
         extra_hosts:
             dlcondisdb21: 10.76.32.55
