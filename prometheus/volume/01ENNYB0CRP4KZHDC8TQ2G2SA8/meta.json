@@ -1,0 +1,17 @@
+{
+	"ulid": "01ENNYB0CRP4KZHDC8TQ2G2SA8",
+	"minTime": 1603821600000,
+	"maxTime": 1603828800000,
+	"stats": {
+		"numSamples": 87708,
+		"numSeries": 574,
+		"numChunks": 1013
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01ENNYB0CRP4KZHDC8TQ2G2SA8"
+		]
+	},
+	"version": 1
+}

@@ -17,6 +17,7 @@ RUN pip install ansible==2.9.11
 RUN	pip install bottle==0.12.18 \
 	&& pip install openpyxl==3.0.3
 RUN mkdir /etc/ansible && chmod +755 /etc/ansible
+RUN mkdir /usr/local/airflow && chown -R airflow /usr/local/airflow
 RUN chmod 777 /usr/local/airflow
 #RUN mkdir /root/.ssh && chmod 600 /root/.ssh
 COPY ansible/ansible.cfg /etc/ansible

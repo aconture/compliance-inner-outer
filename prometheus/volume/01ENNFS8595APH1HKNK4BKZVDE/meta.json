@@ -1,0 +1,17 @@
+{
+	"ulid": "01ENNFS8595APH1HKNK4BKZVDE",
+	"minTime": 1603806941707,
+	"maxTime": 1603807200000,
+	"stats": {
+		"numSamples": 2380,
+		"numSeries": 500,
+		"numChunks": 500
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01ENNFS8595APH1HKNK4BKZVDE"
+		]
+	},
+	"version": 1
+}
