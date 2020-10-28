@@ -24,3 +24,4 @@ COPY ansible/ansible.cfg /etc/ansible
 COPY ansible/hosts /etc/ansible
 COPY airflow/airflow.cfg /opt/airflow	
 USER airflow
+WORKDIR /usr/local/airflow
