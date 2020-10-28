@@ -1,0 +1,5 @@
+---
+- name: Creacion de Variables Cisco
+  set_fact:
+    var_cisco: "{{ command_output_cisco.stdout | parse_cli_textfsm('../regexp/cisco_parseo.fsm') }}"
+  when: vendor=="CISCO"
