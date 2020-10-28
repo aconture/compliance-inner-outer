@@ -411,21 +411,21 @@ email_backend = airflow.utils.email.send_email_smtp
 # If you want airflow to send emails on retries, failure, and you want to use
 # the airflow.utils.email.send_email_smtp function, you have to configure an
 # smtp server here
-smtp_host = smtp.gmail.com
-#smtp_host = smptrelay.int.fibertel.com.ar
-#smtp_starttls = False
-smtp_starttls = True
+##smtp_host = smtp.gmail.com
+smtp_host = smptrelay.int.fibertel.com.ar
+smtp_starttls = False
+##smtp_starttls = True
+##smtp_ssl = False
 smtp_ssl = False
-#smtp_ssl = False
 # Example: smtp_user = airflow
-smtp_user = lab.automation.teco@gmail.com
-##smtp_user = airflow
+##smtp_user = lab.automation.teco@gmail.com
+#smtp_user = airflow
 # Example: smtp_password = airflow
-smtp_password = jkjvxsutyikqxplz
-smtp_port = 587
+#smtp_password = jkjvxsutyikqxplz
+##smtp_port = 587
 #smtp_port = 25
-smtp_mail_from = lab.automation.teco@gmail.com
-##smtp_mail_from = MVPAutomation@teco.com.ar
+##smtp_mail_from = lab.automation.teco@gmail.com
+smtp_mail_from = MVPAutomation@teco.com.ar
 
 [sentry]
 

@@ -89,13 +89,13 @@ def call_ansible(**context):
     if (update):
         logging.info (':::La base de Network Element tiene fecha en el pasado. Ejecutando Ansible para actualizar.')
         try:
-            connection = BaseHook.get_connection(conn_id)
-            host = connection.host
-            user = connection.login
-            passw = connection.password
+            #connection = BaseHook.get_connection(conn_id)
+            #host = connection.host
+            #user = connection.login
+            #passw = connection.password
 
             #la linea siguiente la comento para no romper produccion
-            os.system ('cd /usr/local/ansible/mejoras_cu1/yaml; ansible-playbook main.yaml')
+            os.system ('rm /usr/local/ansible/mejoras_cu1/interfaces/*.txt; cd /usr/local/ansible/mejoras_cu1/yaml; ansible-playbook main.yaml')
             #os.system ('sshpass -p {0} ssh {1}@{2} \'rm /home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt; cd /home/u565589/desarrollo/irs_cu/mejoras_cu1/yaml/; ansible-playbook main.yaml\''.format(passw,user,host))
             #os.system ('sshpass -p {0} ssh {1}@{2} \'pwd; ls -lrt\''.format(passw,user,host))
         except:
@@ -137,10 +137,10 @@ def scp_files(**context):
 
     if (update):
         try:
-            connection = BaseHook.get_connection(conn_id)
-            host = connection.host
-            user = connection.login
-            passw = connection.password
+            #connection = BaseHook.get_connection(conn_id)
+            #host = connection.host
+            #user = connection.login
+            #passw = connection.password
 
             os.system('rm {}*.txt'.format(local_dir))
             logging.info ('::: Inicializado el directorio de *.txt local: {0}'.format(local_dir))
@@ -884,7 +884,8 @@ _imprime_reporte = PythonOperator(
 _envia_mail1 = EmailOperator(
     task_id='Email_to_canal',
     #to="agconture@teco.com.ar",
-    to="c23383e8.teco.com.ar@amer.teams.ms",
+    #to="mbaletti@fibertel.com.ar",
+    to="c23383e8.teco.com.ar@amer.teams.ms", #canal teams de in-house
     #to="b70919fe.teco.com.ar@amer.teams.ms", #mail del canal de compliance
     subject="Compliance Inner&Outer - Resultado de Ejecucion {{ ds }}",
     #html_content="<h3> Esto es una prueba del envio de mail al finalizar la ejecucion del pipe </h3>",
