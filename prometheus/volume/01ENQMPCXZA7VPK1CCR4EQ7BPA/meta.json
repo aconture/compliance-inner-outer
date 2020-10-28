@@ -1,0 +1,17 @@
+{
+	"ulid": "01ENQMPCXZA7VPK1CCR4EQ7BPA",
+	"minTime": 1603879200000,
+	"maxTime": 1603886400000,
+	"stats": {
+		"numSamples": 129840,
+		"numSeries": 541,
+		"numChunks": 1082
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01ENQMPCXZA7VPK1CCR4EQ7BPA"
+		]
+	},
+	"version": 1
+}
