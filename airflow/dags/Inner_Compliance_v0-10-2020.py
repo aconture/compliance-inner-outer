@@ -28,7 +28,7 @@ default_args = {
 
 #dag
 dag = DAG(
-    dag_id='Compliance_Inner_Outer-update_Adrian', 
+    dag_id='Compliance_Inner_Outer-10-2020', 
     schedule_interval= None,
     tags=['inventario', 'compliance'],
     default_args=default_args
@@ -60,7 +60,8 @@ def _check_vigencia(**context):
 
     else:
         logging.info (':::La informacion esta vigente, con fecha actual {0}.\n'.format(modificationTime))
-        return (False)
+        #return (False)
+        return (True)
 
 def call_ansible(**context):
     manual = """
@@ -94,7 +95,8 @@ def call_ansible(**context):
             passw = connection.password
 
             #la linea siguiente la comento para no romper produccion
-            os.system ('sshpass -p {0} ssh {1}@{2} \'rm /home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt; cd /home/u565589/desarrollo/irs_cu/mejoras_cu1/yaml/; ansible-playbook main.yaml\''.format(passw,user,host))
+            os.system ('cd /usr/local/ansible/mejoras_cu1/yaml; ansible-playbook main.yaml')
+            #os.system ('sshpass -p {0} ssh {1}@{2} \'rm /home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/*.txt; cd /home/u565589/desarrollo/irs_cu/mejoras_cu1/yaml/; ansible-playbook main.yaml\''.format(passw,user,host))
             #os.system ('sshpass -p {0} ssh {1}@{2} \'pwd; ls -lrt\''.format(passw,user,host))
         except:
             logging.error ('\n\n:::! Problema en la conexión al servidor remoto.\n')
@@ -144,7 +146,8 @@ def scp_files(**context):
             logging.info ('::: Inicializado el directorio de *.txt local: {0}'.format(local_dir))
             
             logging.info ('::: Trayendo archivos *.txt del directorio ansible remoto')
-            os.system('sshpass -p {0} scp {1}@{2}:{3}*.txt {4}'.format(passw,user,host,remote_dir,local_dir))
+            #os.system('sshpass -p {0} scp {1}@{2}:{3}*.txt {4}'.format(passw,user,host,remote_dir,local_dir))
+            os.system('cp -p {0}*.txt {1}'.format(remote_dir,local_dir))
             logging.info ('::: Archivos *.txt ansible copiados al directorio local')
 
         except:
@@ -787,7 +790,7 @@ _extrae_bd_NE = PythonOperator(
     op_kwargs={
         'connection':'ansible_proxy',
         'local_dir':'/usr/local/airflow/Inner/cu1/interfaces/',
-        'remote_dir':'/home/u565589/desarrollo/irs_cu/mejoras_cu1/interfaces/'
+        'remote_dir':'/usr/local/ansible/mejoras_cu1/interfaces/'
         },
     dag=dag)
 
@@ -880,7 +883,8 @@ _imprime_reporte = PythonOperator(
 
 _envia_mail1 = EmailOperator(
     task_id='Email_to_canal',
-    to="agconture@teco.com.ar",
+    #to="agconture@teco.com.ar",
+    to="c23383e8.teco.com.ar@amer.teams.ms",
     #to="b70919fe.teco.com.ar@amer.teams.ms", #mail del canal de compliance
     subject="Compliance Inner&Outer - Resultado de Ejecucion {{ ds }}",
     #html_content="<h3> Esto es una prueba del envio de mail al finalizar la ejecucion del pipe </h3>",

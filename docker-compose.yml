@@ -92,26 +92,29 @@ services:
             - webserver
         volumes:
             - ./airflow:/usr/local/airflow/:rw
+            - ./ansible:/usr/local/ansible/:rw
             #- ./airflow:/usr/local/airflow/dags
         extra_hosts:
             dlcondisdb21: 10.76.32.55
             ulcondisdb3: 10.76.32.151
-            IC1.SLO1:181.89.4.174    
-            IC1.HOR1:181.89.4.173    
-            COE1NA:190.225.250.204 
-            RES1NA:190.225.250.208 
-            IRD1NA:181.88.79.157   
-            RSC1NA:181.88.79.155   
-            CTE1NA:190.225.250.207 
-            BUA1NA:190.225.250.206 
-            BEL1NA:181.88.172.152  
-            ROC2.HOR1:200.89.167.72   
-            ROC2.BEL1:200.89.167.74   
-            ROC2.SLO1:200.89.167.71   
-            ROC2.AVA1:200.89.167.73   
-            MUS1NA:190.225.250.205 
-            MUN1NA:181.88.172.153  
-            CEN1NA:190.225.250.203
+            IC1.SLO1: 181.89.4.174    
+            IC1.HOR1: 181.89.4.173    
+            COE1NA: 190.225.250.204 
+            RES1NA: 190.225.250.208 
+            IRD1NA: 181.88.79.157   
+            RSC1NA: 181.88.79.155   
+            CTE1NA: 190.225.250.207 
+            BUA1NA: 190.225.250.206 
+            BEL1NA: 181.88.172.152  
+            ROC2.HOR1: 200.89.167.72   
+            ROC2.BEL1: 200.89.167.74   
+            ROC2.SLO1: 200.89.167.71   
+            ROC2.AVA1: 200.89.167.73   
+            MUS1NA: 190.225.250.205 
+            MUN1NA: 181.88.172.153  
+            CEN1NA: 190.225.250.203
+            smptrelay.int.fibertel.com.ar: 181.30.139.11
+
         environment:
             - LOAD_EX=n
             - EXECUTOR=Local
