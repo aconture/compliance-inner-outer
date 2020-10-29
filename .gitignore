@@ -7,10 +7,10 @@ airflow/.cache/
 airflow/.local/
 airflow/.ssh/
 airflow/.vscode-server/
-airflow/Inner/
+airflow/Inner/*.txt
+airflow/Inner/cu1/interfaces/*.txt
 airflow/logs/
 airflow/dags/__pycache__
-airflow/prulisy.py
 airflow/remote-key
 airflow/remote-key.pub
 airflow/unittests.cfg
