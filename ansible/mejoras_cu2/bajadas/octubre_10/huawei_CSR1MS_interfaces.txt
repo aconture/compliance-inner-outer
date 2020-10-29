@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+CSR1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+CSR1MS|GigabitEthernet0/2/0|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/0 Interface
+CSR1MS|GigabitEthernet0/2/1|UP|UP|TIP - KARANICOLAS DANIELA CRISTINA - REF: 891312 - LINEA: 2862529 - ACC: CSR1MS 0/2/1
+CSR1MS|GigabitEthernet0/2/2|UP|UP|eNODOB COLONIA_SANTA_ROSA - A23-S020- (447561) NODOB (520585)(520539)
+CSR1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+CSR1MS|GigabitEthernet0/2/4|UP|UP|CONEXION A SSJ4MU Eth-Trunk3.1244.1244 REIP 1DCSR01 - Linea:13004588
+CSR1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+CSR1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+CSR1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+CSR1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+CSR1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+CSR1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+CSR1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+CSR1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+CSR1MS|Vlanif1244|UP|UP|VLAN_GESTION SSJ4MU Eth-Trunk3.1244.1244 - Linea:13004588
+
+

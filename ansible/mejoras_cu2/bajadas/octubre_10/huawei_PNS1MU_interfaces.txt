@@ -1,0 +1,34 @@
+shelfname|interface|portoperationalstate|protocol|info1
+PNS1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+PNS1MU|GE0/1/0|up|down|CONEXION A RE 1LPNS02_2BB_19 - linea.80002393
+PNS1MU|GE0/1/0.1251|up|up|UPLINK A ELD3MU Eth-trunk1.1251 RE 1LPNS02_2BB_19 - DCN-GESTION
+PNS1MU|GE0/1/0.1252|up|up|UPLINK A ELD3MU Eth-trunk1.1252 RE 1LPNS02_2BB_19 - 2G
+PNS1MU|GE0/1/0.1253|up|up|UPLINK A ELD3MU Eth-trunk1.1253 RE 1LPNS02_2BB_19 - 3G
+PNS1MU|GE0/1/0.1254|up|up|UPLINK A ELD3MU Eth-trunk1.1254 RE 1LPNS02_2BB_19 - S1
+PNS1MU|GE0/1/0.1255|up|up|UPLINK A ELD3MU Eth-trunk1.1255 RE 1LPNS02_2BB_19 - S1MME
+PNS1MU|GE0/1/0.1256|up|up|UPLINK A ELD3MU Eth-trunk1.1256 RE 1LPNS02_2BB_19 - GOMRAN
+PNS1MU|GE0/1/0.1257|up|up|UPLINK A ELD3MU Eth-trunk1.1257 RE 1LPNS02_2BB_19 - NGN
+PNS1MU|GE0/1/0.1258|up|up|UPLINK A ELD3MU Eth-trunk1.1258 RE 1LPNS02_2BB_19 - POPUSA
+PNS1MU|GE0/1/0.1259|up|up|UPLINK A ELD3MU Eth-trunk1.1259 RE 1LPNS02_2BB_19 - SDH HUAWEI
+PNS1MU|GE0/1/0.1260|up|up|GESTION - ELD3MU Eth-trunk1.1252- linea.80002393
+PNS1MU|GE0/1/1|down|down|HUAWEI, GigabitEthernet0/1/1 Interface
+PNS1MU|GE0/1/2|down|down|HUAWEI, GigabitEthernet0/1/2 Interface
+PNS1MU|GE0/1/3|down|down|HUAWEI, GigabitEthernet0/1/3 Interface
+PNS1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Interface
+PNS1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Interface
+PNS1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Interface
+PNS1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Interface
+PNS1MU|GE0/2/0|down|down|HUAWEI, GigabitEthernet0/2/0 Interface
+PNS1MU|GE0/2/1|down|down|HUAWEI, GigabitEthernet0/2/1 Interface
+PNS1MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Interface
+PNS1MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Interface
+PNS1MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Interface
+PNS1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Interface
+PNS1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Interface
+PNS1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Interface
+PNS1MU|GE0/3/0|down|down|HUAWEI, GigabitEthernet0/3/0 Interface
+PNS1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Interface
+PNS1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Interface
+PNS1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Interface
+
+

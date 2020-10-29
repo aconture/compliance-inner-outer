@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+VVB1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+VVB1MS|GigabitEthernet0/2/16|UP|UP|CONEXION A RADIO DRAGON WAVE DWVVB01/2BB_19/02 Linea:70001032
+VVB1MS|GigabitEthernet0/2/17|DOWN|DOWN|eNODOB - Estacin Weisburd - SDE3MU Eth-Trunk15.2302 - A12-S016 - (754151) NODOB (754149)(754139)
+VVB1MS|GigabitEthernet0/2/18|UP|UP|INTEGRA PORTA HNOS SA Refe:781322 Lin:2846144 SDE3MU Eth-Trunk15.15450002
+VVB1MS|GigabitEthernet0/2/19|UP|UP|eNODOB - Estacin Weisburd - SDE3MU Eth-Trunk15.2302 - A12-S016 - (754151) NODOB (754149)(754139)
+VVB1MS|GigabitEthernet0/2/20|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/20 Interface
+VVB1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+VVB1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+VVB1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+VVB1MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+VVB1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+VVB1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+VVB1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+VVB1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+VVB1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+VVB1MS|Vlanif1254|UP|UP|GESTION - SDE4MU - Eth-Trunk20.1254 - Linea 70001032
+
+

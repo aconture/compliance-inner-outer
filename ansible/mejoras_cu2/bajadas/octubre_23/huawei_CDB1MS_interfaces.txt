@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+CDB1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+CDB1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A PRS3MU Eth-Trunk13.1245 REIP 1LCDB01 - Linea:80002388
+CDB1MS|GigabitEthernet0/2/1|DOWN|DOWN|eNODOB - A16-S002 Concepcion Del Bermejo  - (527428) NODOB (527469)(527548)
+CDB1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+CDB1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+CDB1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+CDB1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+CDB1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+CDB1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+CDB1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+CDB1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+CDB1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+CDB1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+CDB1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+CDB1MS|Vlanif1245|UP|UP|VLAN_GESTION PRS3MU Eth-Trunk13.1245 - Linea:80002388
+
+

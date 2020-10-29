@@ -1,0 +1,34 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SUG1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+SUG1MU|GE0/1/0|up|down|CONEXION A 1NSUG01 - ZAB3MU 4/0/20.1200 - Linea.70001405
+SUG1MU|GE0/1/0.1200|up|up|ATN950 SUMALAO Linea 70001405
+SUG1MU|GE0/1/0.1202|up|up|UPLINK A ZAB3MU Gi4/0/20.1202 1NSUG01 - 2G
+SUG1MU|GE0/1/0.1203|up|up|UPLINK A ZAB3MU Gi4/0/20.1203 1NSUG01 - 3G
+SUG1MU|GE0/1/0.1204|up|up|UPLINK A ZAB3MU Gi4/0/20.1204 1NSUG01 - S1
+SUG1MU|GE0/1/0.1205|up|up|UPLINK A ZAB3MU Gi4/0/20.1205 1NSUG01 - S1MME
+SUG1MU|GE0/1/0.1206|up|up|UPLINK A ZAB3MU Gi4/0/20.1206 1NSUG01 - GOMRAN
+SUG1MU|GE0/1/0.1207|up|up|UPLINK A ZAB3MU Gi4/0/20.1207 1NSUG01 - POPUSA
+SUG1MU|GE0/1/0.1208|up|up|UPLINK A ZAB3MU Gi4/0/20.1208 1NSUG01 - NGN
+SUG1MU|GE0/1/0.1209|up|up|UPLINK A ZAB3MU Gi4/0/20.1209 1NSUG01 - DCN-GESTION
+SUG1MU|GE0/1/0.1210|up|up|UPLINK A ZAB3MU Gi4/0/20.1210 1NSUG01 - SDH HUAWEI
+SUG1MU|GE0/1/1|down|down|HUAWEI, GigabitEthernet0/1/1 Interface
+SUG1MU|GE0/1/2|down|down|HUAWEI, GigabitEthernet0/1/2 Interface
+SUG1MU|GE0/1/3|down|down|HUAWEI, GigabitEthernet0/1/3 Interface
+SUG1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Interface
+SUG1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Interface
+SUG1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Interface
+SUG1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Interface
+SUG1MU|GE0/2/0|down|down|HUAWEI, GigabitEthernet0/2/0 Interface
+SUG1MU|GE0/2/1|down|down|HUAWEI, GigabitEthernet0/2/1 Interface
+SUG1MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Interface
+SUG1MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Interface
+SUG1MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Interface
+SUG1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Interface
+SUG1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Interface
+SUG1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Interface
+SUG1MU|GE0/3/0|down|down|HUAWEI, GigabitEthernet0/3/0 Interface
+SUG1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Interface
+SUG1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Interface
+SUG1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Interface
+
+

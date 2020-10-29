@@ -1,0 +1,1532 @@
+shelfname|interface|portoperationalstate|protocol|info1
+MAN2MU|BE1|up|up|[ACCESO HSI][BE] MANN01 
+MAN2MU|BE1.6|up|up|IPTV MANN01 IGMP-PIM
+MAN2MU|BE1.7|up|up|[DHCP] [IPTV] MANN01 HUA 5600T [GPON]
+MAN2MU|BE1.14|up|up|[DATOS] MANN01 14 HUA5600T [GPON][L3]
+MAN2MU|BE1.15|up|up|[DATOS] MANN01 15 HUA5600T [GPON][L3]
+MAN2MU|BE1.16|up|up|[DATOS] MANN01 16 HUA5600T [GPON][L3]
+MAN2MU|BE1.16.pppoe2903|up|up| 
+MAN2MU|BE1.16.pppoe4539|up|up| 
+MAN2MU|BE1.16.pppoe5670|up|up| 
+MAN2MU|BE1.16.pppoe9006|up|up| 
+MAN2MU|BE1.16.pppoe9007|up|up| 
+MAN2MU|BE1.16.pppoe9008|up|up| 
+MAN2MU|BE1.16.pppoe9009|up|up| 
+MAN2MU|BE1.16.pppoe9011|up|up| 
+MAN2MU|BE1.16.pppoe9012|up|up| 
+MAN2MU|BE1.16.pppoe9013|up|up| 
+MAN2MU|BE1.16.pppoe9014|up|up| 
+MAN2MU|BE1.16.pppoe9015|up|up| 
+MAN2MU|BE1.16.pppoe9016|up|up| 
+MAN2MU|BE1.16.pppoe9017|up|up| 
+MAN2MU|BE1.16.pppoe9020|up|up| 
+MAN2MU|BE1.16.pppoe9022|up|up| 
+MAN2MU|BE1.16.pppoe9023|up|up| 
+MAN2MU|BE1.16.pppoe9024|up|up| 
+MAN2MU|BE1.16.pppoe9026|up|up| 
+MAN2MU|BE1.16.pppoe9029|up|up| 
+MAN2MU|BE1.16.pppoe9030|up|up| 
+MAN2MU|BE1.16.pppoe9032|up|up| 
+MAN2MU|BE1.16.pppoe9033|up|up| 
+MAN2MU|BE1.16.pppoe9034|up|up| 
+MAN2MU|BE1.16.pppoe9035|up|up| 
+MAN2MU|BE1.16.pppoe9036|up|up| 
+MAN2MU|BE1.16.pppoe9037|up|up| 
+MAN2MU|BE1.16.pppoe9038|up|up| 
+MAN2MU|BE1.16.pppoe9039|up|up| 
+MAN2MU|BE1.16.pppoe9040|up|up| 
+MAN2MU|BE1.16.pppoe9041|up|up| 
+MAN2MU|BE1.16.pppoe9042|up|up| 
+MAN2MU|BE1.16.pppoe9043|up|up| 
+MAN2MU|BE1.16.pppoe9044|up|up| 
+MAN2MU|BE1.16.pppoe9045|up|up| 
+MAN2MU|BE1.16.pppoe9046|up|up| 
+MAN2MU|BE1.16.pppoe9048|up|up| 
+MAN2MU|BE1.16.pppoe9049|up|up| 
+MAN2MU|BE1.16.pppoe9050|up|up| 
+MAN2MU|BE1.16.pppoe9051|up|up| 
+MAN2MU|BE1.16.pppoe9053|up|up| 
+MAN2MU|BE1.16.pppoe9054|up|up| 
+MAN2MU|BE1.16.pppoe9056|up|up| 
+MAN2MU|BE1.16.pppoe9057|up|up| 
+MAN2MU|BE1.16.pppoe9058|up|up| 
+MAN2MU|BE1.16.pppoe9059|up|up| 
+MAN2MU|BE1.16.pppoe9060|up|up| 
+MAN2MU|BE1.16.pppoe9063|up|up| 
+MAN2MU|BE1.16.pppoe9065|up|up| 
+MAN2MU|BE1.16.pppoe9067|up|up| 
+MAN2MU|BE1.16.pppoe9068|up|up| 
+MAN2MU|BE1.16.pppoe9069|up|up| 
+MAN2MU|BE1.16.pppoe9071|up|up| 
+MAN2MU|BE1.16.pppoe9073|up|up| 
+MAN2MU|BE1.16.pppoe9074|up|up| 
+MAN2MU|BE1.16.pppoe9076|up|up| 
+MAN2MU|BE1.16.pppoe9077|up|up| 
+MAN2MU|BE1.16.pppoe9078|up|up| 
+MAN2MU|BE1.16.pppoe9079|up|up| 
+MAN2MU|BE1.16.pppoe9080|up|up| 
+MAN2MU|BE1.16.pppoe9081|up|up| 
+MAN2MU|BE1.16.pppoe9082|up|up| 
+MAN2MU|BE1.16.pppoe9083|up|up| 
+MAN2MU|BE1.16.pppoe9084|up|up| 
+MAN2MU|BE1.16.pppoe9085|up|up| 
+MAN2MU|BE1.16.pppoe9086|up|up| 
+MAN2MU|BE1.16.pppoe9087|up|up| 
+MAN2MU|BE1.16.pppoe9088|up|up| 
+MAN2MU|BE1.16.pppoe9089|up|up| 
+MAN2MU|BE1.16.pppoe9090|up|up| 
+MAN2MU|BE1.16.pppoe9091|up|up| 
+MAN2MU|BE1.16.pppoe9094|up|up| 
+MAN2MU|BE1.16.pppoe9095|up|up| 
+MAN2MU|BE1.16.pppoe9096|up|up| 
+MAN2MU|BE1.16.pppoe9097|up|up| 
+MAN2MU|BE1.16.pppoe9098|up|up| 
+MAN2MU|BE1.16.pppoe9099|up|up| 
+MAN2MU|BE1.16.pppoe9100|up|up| 
+MAN2MU|BE1.16.pppoe9101|up|up| 
+MAN2MU|BE1.16.pppoe9102|up|up| 
+MAN2MU|BE1.16.pppoe9103|up|up| 
+MAN2MU|BE1.16.pppoe9104|up|up| 
+MAN2MU|BE1.16.pppoe9105|up|up| 
+MAN2MU|BE1.16.pppoe9106|up|up| 
+MAN2MU|BE1.16.pppoe9107|up|up| 
+MAN2MU|BE1.16.pppoe9108|up|up| 
+MAN2MU|BE1.16.pppoe9109|up|up| 
+MAN2MU|BE1.16.pppoe9111|up|up| 
+MAN2MU|BE1.16.pppoe9112|up|up| 
+MAN2MU|BE1.16.pppoe9114|up|up| 
+MAN2MU|BE1.16.pppoe9115|up|up| 
+MAN2MU|BE1.16.pppoe9117|up|up| 
+MAN2MU|BE1.16.pppoe9118|up|up| 
+MAN2MU|BE1.16.pppoe9120|up|up| 
+MAN2MU|BE1.16.pppoe9121|up|up| 
+MAN2MU|BE1.16.pppoe9122|up|up| 
+MAN2MU|BE1.16.pppoe9124|up|up| 
+MAN2MU|BE1.16.pppoe9125|up|up| 
+MAN2MU|BE1.16.pppoe9127|up|up| 
+MAN2MU|BE1.16.pppoe9128|up|up| 
+MAN2MU|BE1.16.pppoe9132|up|up| 
+MAN2MU|BE1.16.pppoe9133|up|up| 
+MAN2MU|BE1.16.pppoe9134|up|up| 
+MAN2MU|BE1.16.pppoe9135|up|up| 
+MAN2MU|BE1.16.pppoe9136|up|up| 
+MAN2MU|BE1.16.pppoe9137|up|up| 
+MAN2MU|BE1.16.pppoe9138|up|up| 
+MAN2MU|BE1.16.pppoe9139|up|up| 
+MAN2MU|BE1.16.pppoe9140|up|up| 
+MAN2MU|BE1.16.pppoe9141|up|up| 
+MAN2MU|BE1.16.pppoe9143|up|up| 
+MAN2MU|BE1.16.pppoe9144|up|up| 
+MAN2MU|BE1.16.pppoe9145|up|up| 
+MAN2MU|BE1.16.pppoe9146|up|up| 
+MAN2MU|BE1.16.pppoe9147|up|up| 
+MAN2MU|BE1.16.pppoe9148|up|up| 
+MAN2MU|BE1.16.pppoe9149|up|up| 
+MAN2MU|BE1.16.pppoe9150|up|up| 
+MAN2MU|BE1.16.pppoe9152|up|up| 
+MAN2MU|BE1.16.pppoe9154|up|up| 
+MAN2MU|BE1.16.pppoe9155|up|up| 
+MAN2MU|BE1.16.pppoe9156|up|up| 
+MAN2MU|BE1.16.pppoe9157|up|up| 
+MAN2MU|BE1.16.pppoe9159|up|up| 
+MAN2MU|BE1.16.pppoe9161|up|up| 
+MAN2MU|BE1.16.pppoe9162|up|up| 
+MAN2MU|BE1.16.pppoe9163|up|up| 
+MAN2MU|BE1.16.pppoe9164|up|up| 
+MAN2MU|BE1.16.pppoe9165|up|up| 
+MAN2MU|BE1.16.pppoe9167|up|up| 
+MAN2MU|BE1.16.pppoe9168|up|up| 
+MAN2MU|BE1.16.pppoe9169|up|up| 
+MAN2MU|BE1.16.pppoe9173|up|up| 
+MAN2MU|BE1.16.pppoe9174|up|up| 
+MAN2MU|BE1.16.pppoe9175|up|up| 
+MAN2MU|BE1.16.pppoe9176|up|up| 
+MAN2MU|BE1.16.pppoe9177|up|up| 
+MAN2MU|BE1.16.pppoe9178|up|up| 
+MAN2MU|BE1.16.pppoe9179|up|up| 
+MAN2MU|BE1.16.pppoe9180|up|up| 
+MAN2MU|BE1.16.pppoe9181|up|up| 
+MAN2MU|BE1.16.pppoe9182|up|up| 
+MAN2MU|BE1.16.pppoe9183|up|up| 
+MAN2MU|BE1.16.pppoe9184|up|up| 
+MAN2MU|BE1.16.pppoe9185|up|up| 
+MAN2MU|BE1.16.pppoe9186|up|up| 
+MAN2MU|BE1.16.pppoe9188|up|up| 
+MAN2MU|BE1.16.pppoe9189|up|up| 
+MAN2MU|BE1.16.pppoe9190|up|up| 
+MAN2MU|BE1.16.pppoe9191|up|up| 
+MAN2MU|BE1.16.pppoe9192|up|up| 
+MAN2MU|BE1.16.pppoe9193|up|up| 
+MAN2MU|BE1.16.pppoe9194|up|up| 
+MAN2MU|BE1.16.pppoe9195|up|up| 
+MAN2MU|BE1.16.pppoe9197|up|up| 
+MAN2MU|BE1.16.pppoe9198|up|up| 
+MAN2MU|BE1.16.pppoe9199|up|up| 
+MAN2MU|BE1.16.pppoe9200|up|up| 
+MAN2MU|BE1.16.pppoe9201|up|up| 
+MAN2MU|BE1.16.pppoe9203|up|up| 
+MAN2MU|BE1.16.pppoe9204|up|up| 
+MAN2MU|BE1.16.pppoe9205|up|up| 
+MAN2MU|BE1.16.pppoe9206|up|up| 
+MAN2MU|BE1.16.pppoe9208|up|up| 
+MAN2MU|BE1.16.pppoe9211|up|up| 
+MAN2MU|BE1.16.pppoe9212|up|up| 
+MAN2MU|BE1.16.pppoe9213|up|up| 
+MAN2MU|BE1.16.pppoe9215|up|up| 
+MAN2MU|BE1.16.pppoe9216|up|up| 
+MAN2MU|BE1.16.pppoe9219|up|up| 
+MAN2MU|BE1.16.pppoe9220|up|up| 
+MAN2MU|BE1.16.pppoe9222|up|up| 
+MAN2MU|BE1.16.pppoe9223|up|up| 
+MAN2MU|BE1.16.pppoe9224|up|up| 
+MAN2MU|BE1.16.pppoe9225|up|up| 
+MAN2MU|BE1.16.pppoe9226|up|up| 
+MAN2MU|BE1.16.pppoe9227|up|up| 
+MAN2MU|BE1.16.pppoe9228|up|up| 
+MAN2MU|BE1.16.pppoe9229|up|up| 
+MAN2MU|BE1.16.pppoe9230|up|up| 
+MAN2MU|BE1.16.pppoe9232|up|up| 
+MAN2MU|BE1.16.pppoe9234|up|up| 
+MAN2MU|BE1.16.pppoe9235|up|up| 
+MAN2MU|BE1.16.pppoe9236|up|up| 
+MAN2MU|BE1.16.pppoe9237|up|up| 
+MAN2MU|BE1.16.pppoe9239|up|up| 
+MAN2MU|BE1.16.pppoe9240|up|up| 
+MAN2MU|BE1.16.pppoe9244|up|up| 
+MAN2MU|BE1.16.pppoe9245|up|up| 
+MAN2MU|BE1.16.pppoe9246|up|up| 
+MAN2MU|BE1.16.pppoe9247|up|up| 
+MAN2MU|BE1.16.pppoe9248|up|up| 
+MAN2MU|BE1.16.pppoe9250|up|up| 
+MAN2MU|BE1.16.pppoe9251|up|up| 
+MAN2MU|BE1.16.pppoe9252|up|up| 
+MAN2MU|BE1.16.pppoe9253|up|up| 
+MAN2MU|BE1.16.pppoe9254|up|up| 
+MAN2MU|BE1.16.pppoe9255|up|up| 
+MAN2MU|BE1.16.pppoe9256|up|up| 
+MAN2MU|BE1.16.pppoe9260|up|up| 
+MAN2MU|BE1.16.pppoe9261|up|up| 
+MAN2MU|BE1.16.pppoe9263|up|up| 
+MAN2MU|BE1.16.pppoe9264|up|up| 
+MAN2MU|BE1.16.pppoe9265|up|up| 
+MAN2MU|BE1.16.pppoe9266|up|up| 
+MAN2MU|BE1.16.pppoe9267|up|up| 
+MAN2MU|BE1.16.pppoe9269|up|up| 
+MAN2MU|BE1.16.pppoe9270|up|up| 
+MAN2MU|BE1.16.pppoe9272|up|up| 
+MAN2MU|BE1.16.pppoe9274|up|up| 
+MAN2MU|BE1.16.pppoe9275|up|up| 
+MAN2MU|BE1.16.pppoe9276|up|up| 
+MAN2MU|BE1.16.pppoe9277|up|up| 
+MAN2MU|BE1.16.pppoe9278|up|up| 
+MAN2MU|BE1.16.pppoe9279|up|up| 
+MAN2MU|BE1.16.pppoe9280|up|up| 
+MAN2MU|BE1.16.pppoe9281|up|up| 
+MAN2MU|BE1.16.pppoe9282|up|up| 
+MAN2MU|BE1.16.pppoe9283|up|up| 
+MAN2MU|BE1.16.pppoe9284|up|up| 
+MAN2MU|BE1.16.pppoe9285|up|up| 
+MAN2MU|BE1.16.pppoe9286|up|up| 
+MAN2MU|BE1.16.pppoe9287|up|up| 
+MAN2MU|BE1.16.pppoe9288|up|up| 
+MAN2MU|BE1.16.pppoe9289|up|up| 
+MAN2MU|BE1.16.pppoe9290|up|up| 
+MAN2MU|BE1.16.pppoe9291|up|up| 
+MAN2MU|BE1.16.pppoe9292|up|up| 
+MAN2MU|BE1.16.pppoe9293|up|up| 
+MAN2MU|BE1.16.pppoe9294|up|up| 
+MAN2MU|BE1.16.pppoe9295|up|up| 
+MAN2MU|BE1.16.pppoe9296|up|up| 
+MAN2MU|BE1.16.pppoe9297|up|up| 
+MAN2MU|BE1.16.pppoe9298|up|up| 
+MAN2MU|BE1.16.pppoe9300|up|up| 
+MAN2MU|BE1.16.pppoe9301|up|up| 
+MAN2MU|BE1.16.pppoe9302|up|up| 
+MAN2MU|BE1.16.pppoe9303|up|up| 
+MAN2MU|BE1.16.pppoe9304|up|up| 
+MAN2MU|BE1.16.pppoe9305|up|up| 
+MAN2MU|BE1.16.pppoe9306|up|up| 
+MAN2MU|BE1.16.pppoe9309|up|up| 
+MAN2MU|BE1.16.pppoe9310|up|up| 
+MAN2MU|BE1.16.pppoe9312|up|up| 
+MAN2MU|BE1.16.pppoe9313|up|up| 
+MAN2MU|BE1.16.pppoe9314|up|up| 
+MAN2MU|BE1.16.pppoe9315|up|up| 
+MAN2MU|BE1.16.pppoe9316|up|up| 
+MAN2MU|BE1.16.pppoe9317|up|up| 
+MAN2MU|BE1.16.pppoe9319|up|up| 
+MAN2MU|BE1.16.pppoe9320|up|up| 
+MAN2MU|BE1.16.pppoe9321|up|up| 
+MAN2MU|BE1.16.pppoe9322|up|up| 
+MAN2MU|BE1.16.pppoe9324|up|up| 
+MAN2MU|BE1.16.pppoe9325|up|up| 
+MAN2MU|BE1.16.pppoe9326|up|up| 
+MAN2MU|BE1.16.pppoe9327|up|up| 
+MAN2MU|BE1.16.pppoe9328|up|up| 
+MAN2MU|BE1.16.pppoe9329|up|up| 
+MAN2MU|BE1.16.pppoe9330|up|up| 
+MAN2MU|BE1.16.pppoe9331|up|up| 
+MAN2MU|BE1.16.pppoe9332|up|up| 
+MAN2MU|BE1.16.pppoe9333|up|up| 
+MAN2MU|BE1.16.pppoe9334|up|up| 
+MAN2MU|BE1.16.pppoe9335|up|up| 
+MAN2MU|BE1.16.pppoe9336|up|up| 
+MAN2MU|BE1.16.pppoe9337|up|up| 
+MAN2MU|BE1.16.pppoe9338|up|up| 
+MAN2MU|BE1.16.pppoe9339|up|up| 
+MAN2MU|BE1.16.pppoe9340|up|up| 
+MAN2MU|BE1.16.pppoe9341|up|up| 
+MAN2MU|BE1.16.pppoe9342|up|up| 
+MAN2MU|BE1.16.pppoe9343|up|up| 
+MAN2MU|BE1.16.pppoe9345|up|up| 
+MAN2MU|BE1.16.pppoe9346|up|up| 
+MAN2MU|BE1.16.pppoe9347|up|up| 
+MAN2MU|BE1.16.pppoe9348|up|up| 
+MAN2MU|BE1.16.pppoe9349|up|up| 
+MAN2MU|BE1.16.pppoe9350|up|up| 
+MAN2MU|BE1.16.pppoe9355|up|up| 
+MAN2MU|BE1.16.pppoe9356|up|up| 
+MAN2MU|BE1.16.pppoe9357|up|up| 
+MAN2MU|BE1.16.pppoe9358|up|up| 
+MAN2MU|BE1.16.pppoe9359|up|up| 
+MAN2MU|BE1.16.pppoe9360|up|up| 
+MAN2MU|BE1.16.pppoe9361|up|up| 
+MAN2MU|BE1.16.pppoe9362|up|up| 
+MAN2MU|BE1.16.pppoe9363|up|up| 
+MAN2MU|BE1.16.pppoe9365|up|up| 
+MAN2MU|BE1.16.pppoe9367|up|up| 
+MAN2MU|BE1.16.pppoe9368|up|up| 
+MAN2MU|BE1.16.pppoe9370|up|up| 
+MAN2MU|BE1.16.pppoe9371|up|up| 
+MAN2MU|BE1.16.pppoe9372|up|up| 
+MAN2MU|BE1.16.pppoe9373|up|up| 
+MAN2MU|BE1.16.pppoe9374|up|up| 
+MAN2MU|BE1.16.pppoe9375|up|up| 
+MAN2MU|BE1.16.pppoe9376|up|up| 
+MAN2MU|BE1.16.pppoe9377|up|up| 
+MAN2MU|BE1.16.pppoe9378|up|up| 
+MAN2MU|BE1.16.pppoe9380|up|up| 
+MAN2MU|BE1.16.pppoe9381|up|up| 
+MAN2MU|BE1.16.pppoe9382|up|up| 
+MAN2MU|BE1.16.pppoe9383|up|up| 
+MAN2MU|BE1.16.pppoe9385|up|up| 
+MAN2MU|BE1.16.pppoe9386|up|up| 
+MAN2MU|BE1.16.pppoe9387|up|up| 
+MAN2MU|BE1.16.pppoe9388|up|up| 
+MAN2MU|BE1.16.pppoe9390|up|up| 
+MAN2MU|BE1.16.pppoe9391|up|up| 
+MAN2MU|BE1.16.pppoe9392|up|up| 
+MAN2MU|BE1.16.pppoe9393|up|up| 
+MAN2MU|BE1.16.pppoe9394|up|up| 
+MAN2MU|BE1.16.pppoe9395|up|up| 
+MAN2MU|BE1.16.pppoe9396|up|up| 
+MAN2MU|BE1.16.pppoe9397|up|up| 
+MAN2MU|BE1.16.pppoe9399|up|up| 
+MAN2MU|BE1.16.pppoe9400|up|up| 
+MAN2MU|BE1.16.pppoe9401|up|up| 
+MAN2MU|BE1.16.pppoe9402|up|up| 
+MAN2MU|BE1.16.pppoe9404|up|up| 
+MAN2MU|BE1.16.pppoe9406|up|up| 
+MAN2MU|BE1.16.pppoe9410|up|up| 
+MAN2MU|BE1.16.pppoe9411|up|up| 
+MAN2MU|BE1.16.pppoe9414|up|up| 
+MAN2MU|BE1.16.pppoe9415|up|up| 
+MAN2MU|BE1.16.pppoe9416|up|up| 
+MAN2MU|BE1.16.pppoe9417|up|up| 
+MAN2MU|BE1.16.pppoe9418|up|up| 
+MAN2MU|BE1.16.pppoe9419|up|up| 
+MAN2MU|BE1.16.pppoe9421|up|up| 
+MAN2MU|BE1.16.pppoe9422|up|up| 
+MAN2MU|BE1.16.pppoe9424|up|up| 
+MAN2MU|BE1.16.pppoe9425|up|up| 
+MAN2MU|BE1.16.pppoe9426|up|up| 
+MAN2MU|BE1.16.pppoe9429|up|up| 
+MAN2MU|BE1.16.pppoe9430|up|up| 
+MAN2MU|BE1.16.pppoe9431|up|up| 
+MAN2MU|BE1.16.pppoe9432|up|up| 
+MAN2MU|BE1.16.pppoe9433|up|up| 
+MAN2MU|BE1.16.pppoe9434|up|up| 
+MAN2MU|BE1.16.pppoe9435|up|up| 
+MAN2MU|BE1.16.pppoe9436|up|up| 
+MAN2MU|BE1.16.pppoe9437|up|up| 
+MAN2MU|BE1.16.pppoe9438|up|up| 
+MAN2MU|BE1.16.pppoe9440|up|up| 
+MAN2MU|BE1.16.pppoe9441|up|up| 
+MAN2MU|BE1.16.pppoe9442|up|up| 
+MAN2MU|BE1.16.pppoe9443|up|up| 
+MAN2MU|BE1.16.pppoe9444|up|up| 
+MAN2MU|BE1.16.pppoe9445|up|up| 
+MAN2MU|BE1.16.pppoe9447|up|up| 
+MAN2MU|BE1.16.pppoe9448|up|up| 
+MAN2MU|BE1.16.pppoe9449|up|up| 
+MAN2MU|BE1.16.pppoe9450|up|up| 
+MAN2MU|BE1.16.pppoe9451|up|up| 
+MAN2MU|BE1.16.pppoe9452|up|up| 
+MAN2MU|BE1.16.pppoe9453|up|up| 
+MAN2MU|BE1.16.pppoe9454|up|up| 
+MAN2MU|BE1.16.pppoe9455|up|up| 
+MAN2MU|BE1.16.pppoe9457|up|up| 
+MAN2MU|BE1.16.pppoe9458|up|up| 
+MAN2MU|BE1.16.pppoe9459|up|up| 
+MAN2MU|BE1.16.pppoe9460|up|up| 
+MAN2MU|BE1.16.pppoe9462|up|up| 
+MAN2MU|BE1.16.pppoe9463|up|up| 
+MAN2MU|BE1.16.pppoe9465|up|up| 
+MAN2MU|BE1.16.pppoe9466|up|up| 
+MAN2MU|BE1.16.pppoe9467|up|up| 
+MAN2MU|BE1.16.pppoe9468|up|up| 
+MAN2MU|BE1.16.pppoe9470|up|up| 
+MAN2MU|BE1.16.pppoe9473|up|up| 
+MAN2MU|BE1.16.pppoe9474|up|up| 
+MAN2MU|BE1.16.pppoe9475|up|up| 
+MAN2MU|BE1.16.pppoe9476|up|up| 
+MAN2MU|BE1.16.pppoe9477|up|up| 
+MAN2MU|BE1.16.pppoe9480|up|up| 
+MAN2MU|BE1.16.pppoe9481|up|up| 
+MAN2MU|BE1.16.pppoe9482|up|up| 
+MAN2MU|BE1.16.pppoe9483|up|up| 
+MAN2MU|BE1.16.pppoe9484|up|up| 
+MAN2MU|BE1.16.pppoe9485|up|up| 
+MAN2MU|BE1.16.pppoe9486|up|up| 
+MAN2MU|BE1.16.pppoe9487|up|up| 
+MAN2MU|BE1.16.pppoe9490|up|up| 
+MAN2MU|BE1.16.pppoe9491|up|up| 
+MAN2MU|BE1.16.pppoe9492|up|up| 
+MAN2MU|BE1.16.pppoe9493|up|up| 
+MAN2MU|BE1.16.pppoe9495|up|up| 
+MAN2MU|BE1.16.pppoe9496|up|up| 
+MAN2MU|BE1.16.pppoe9498|up|up| 
+MAN2MU|BE1.16.pppoe9499|up|up| 
+MAN2MU|BE1.16.pppoe9500|up|up| 
+MAN2MU|BE1.16.pppoe9502|up|up| 
+MAN2MU|BE1.16.pppoe9504|up|up| 
+MAN2MU|BE1.16.pppoe9505|up|up| 
+MAN2MU|BE1.16.pppoe9507|up|up| 
+MAN2MU|BE1.16.pppoe9508|up|up| 
+MAN2MU|BE1.16.pppoe9511|up|up| 
+MAN2MU|BE1.16.pppoe9512|up|up| 
+MAN2MU|BE1.16.pppoe9513|up|up| 
+MAN2MU|BE1.16.pppoe9514|up|up| 
+MAN2MU|BE1.16.pppoe9515|up|up| 
+MAN2MU|BE1.16.pppoe9516|up|up| 
+MAN2MU|BE1.16.pppoe9517|up|up| 
+MAN2MU|BE1.16.pppoe9519|up|up| 
+MAN2MU|BE1.16.pppoe9520|up|up| 
+MAN2MU|BE1.16.pppoe9521|up|up| 
+MAN2MU|BE1.16.pppoe9522|up|up| 
+MAN2MU|BE1.16.pppoe9523|up|up| 
+MAN2MU|BE1.16.pppoe9524|up|up| 
+MAN2MU|BE1.16.pppoe9525|up|up| 
+MAN2MU|BE1.16.pppoe9526|up|up| 
+MAN2MU|BE1.16.pppoe9527|up|up| 
+MAN2MU|BE1.16.pppoe9528|up|up| 
+MAN2MU|BE1.16.pppoe9529|up|up| 
+MAN2MU|BE1.16.pppoe9532|up|up| 
+MAN2MU|BE1.16.pppoe9533|up|up| 
+MAN2MU|BE1.16.pppoe9537|up|up| 
+MAN2MU|BE1.16.pppoe9540|up|up| 
+MAN2MU|BE1.16.pppoe9541|up|up| 
+MAN2MU|BE1.16.pppoe9542|up|up| 
+MAN2MU|BE1.16.pppoe9545|up|up| 
+MAN2MU|BE1.16.pppoe9546|up|up| 
+MAN2MU|BE1.16.pppoe9547|up|up| 
+MAN2MU|BE1.16.pppoe9548|up|up| 
+MAN2MU|BE1.16.pppoe9549|up|up| 
+MAN2MU|BE1.16.pppoe9552|up|up| 
+MAN2MU|BE1.16.pppoe9553|up|up| 
+MAN2MU|BE1.16.pppoe9554|up|up| 
+MAN2MU|BE1.16.pppoe9556|up|up| 
+MAN2MU|BE1.16.pppoe9558|up|up| 
+MAN2MU|BE1.16.pppoe9561|up|up| 
+MAN2MU|BE1.16.pppoe9562|up|up| 
+MAN2MU|BE1.16.pppoe9566|up|up| 
+MAN2MU|BE1.16.pppoe9568|up|up| 
+MAN2MU|BE1.16.pppoe9569|up|up| 
+MAN2MU|BE1.16.pppoe9572|up|up| 
+MAN2MU|BE1.16.pppoe9581|up|up| 
+MAN2MU|BE1.16.pppoe9584|up|up| 
+MAN2MU|BE1.16.pppoe9588|up|up| 
+MAN2MU|BE1.16.pppoe9591|up|up| 
+MAN2MU|BE1.16.pppoe9596|up|up| 
+MAN2MU|BE1.16.pppoe9606|up|up| 
+MAN2MU|BE1.16.pppoe9609|up|up| 
+MAN2MU|BE1.16.pppoe9612|up|up| 
+MAN2MU|BE1.16.pppoe9614|up|up| 
+MAN2MU|BE1.16.pppoe9625|up|up| 
+MAN2MU|BE1.16.pppoe9646|up|up| 
+MAN2MU|BE1.16.pppoe9652|up|up| 
+MAN2MU|BE1.16.pppoe9653|up|up| 
+MAN2MU|BE1.16.pppoe9660|up|up| 
+MAN2MU|BE1.16.pppoe9663|up|up| 
+MAN2MU|BE1.16.pppoe9664|up|up| 
+MAN2MU|BE1.16.pppoe9678|up|up| 
+MAN2MU|BE1.16.pppoe9679|up|up| 
+MAN2MU|BE1.16.pppoe9696|up|up| 
+MAN2MU|BE1.16.pppoe9697|up|up| 
+MAN2MU|BE1.16.pppoe9699|up|up| 
+MAN2MU|BE1.16.pppoe9701|up|up| 
+MAN2MU|BE1.16.pppoe9702|up|up| 
+MAN2MU|BE1.16.pppoe9704|up|up| 
+MAN2MU|BE1.16.pppoe9712|up|up| 
+MAN2MU|BE1.16.pppoe9718|up|up| 
+MAN2MU|BE1.16.pppoe9720|up|up| 
+MAN2MU|BE1.16.pppoe9723|up|up| 
+MAN2MU|BE1.16.pppoe9729|up|up| 
+MAN2MU|BE1.16.pppoe9733|up|up| 
+MAN2MU|BE1.16.pppoe9736|up|up| 
+MAN2MU|BE1.16.pppoe9737|up|up| 
+MAN2MU|BE1.16.pppoe9740|up|up| 
+MAN2MU|BE1.16.pppoe9741|up|up| 
+MAN2MU|BE1.16.pppoe9742|up|up| 
+MAN2MU|BE1.16.pppoe9746|up|up| 
+MAN2MU|BE1.16.pppoe9747|up|up| 
+MAN2MU|BE1.16.pppoe9752|up|up| 
+MAN2MU|BE1.16.pppoe9753|up|up| 
+MAN2MU|BE1.16.pppoe9755|up|up| 
+MAN2MU|BE1.16.pppoe9756|up|up| 
+MAN2MU|BE1.16.pppoe9761|up|up| 
+MAN2MU|BE1.16.pppoe9762|up|up| 
+MAN2MU|BE1.16.pppoe9772|up|up| 
+MAN2MU|BE1.16.pppoe9791|up|up| 
+MAN2MU|BE1.16.pppoe9792|up|up| 
+MAN2MU|BE1.16.pppoe9794|up|up| 
+MAN2MU|BE1.16.pppoe9795|up|up| 
+MAN2MU|BE1.16.pppoe9796|up|up| 
+MAN2MU|BE1.16.pppoe9797|up|up| 
+MAN2MU|BE1.16.pppoe9798|up|up| 
+MAN2MU|BE1.16.pppoe9800|up|up| 
+MAN2MU|BE1.16.pppoe9801|up|up| 
+MAN2MU|BE1.16.pppoe9802|up|up| 
+MAN2MU|BE1.16.pppoe9803|up|up| 
+MAN2MU|BE1.16.pppoe9805|up|up| 
+MAN2MU|BE1.16.pppoe9807|up|up| 
+MAN2MU|BE1.16.pppoe9808|up|up| 
+MAN2MU|BE1.16.pppoe9809|up|up| 
+MAN2MU|BE1.16.pppoe9811|up|up| 
+MAN2MU|BE1.16.pppoe9812|up|up| 
+MAN2MU|BE1.16.pppoe9813|up|up| 
+MAN2MU|BE1.16.pppoe9816|up|up| 
+MAN2MU|BE1.16.pppoe9817|up|up| 
+MAN2MU|BE1.16.pppoe9818|up|up| 
+MAN2MU|BE1.16.pppoe9819|up|up| 
+MAN2MU|BE1.16.pppoe9820|up|up| 
+MAN2MU|BE1.16.pppoe9821|up|up| 
+MAN2MU|BE1.16.pppoe9822|up|up| 
+MAN2MU|BE1.16.pppoe9823|up|up| 
+MAN2MU|BE1.16.pppoe9824|up|up| 
+MAN2MU|BE1.16.pppoe9825|up|up| 
+MAN2MU|BE1.16.pppoe9826|up|up| 
+MAN2MU|BE1.16.pppoe9827|up|up| 
+MAN2MU|BE1.16.pppoe9828|up|up| 
+MAN2MU|BE1.16.pppoe9829|up|up| 
+MAN2MU|BE1.16.pppoe9830|up|up| 
+MAN2MU|BE1.16.pppoe9832|up|up| 
+MAN2MU|BE1.16.pppoe9833|up|up| 
+MAN2MU|BE1.16.pppoe9834|up|up| 
+MAN2MU|BE1.16.pppoe9835|up|up| 
+MAN2MU|BE1.16.pppoe9836|up|up| 
+MAN2MU|BE1.16.pppoe9839|up|up| 
+MAN2MU|BE1.16.pppoe9840|up|up| 
+MAN2MU|BE1.16.pppoe9841|up|up| 
+MAN2MU|BE1.16.pppoe9842|up|up| 
+MAN2MU|BE1.16.pppoe9843|up|up| 
+MAN2MU|BE1.16.pppoe9844|up|up| 
+MAN2MU|BE1.16.pppoe9845|up|up| 
+MAN2MU|BE1.16.pppoe9846|up|up| 
+MAN2MU|BE1.16.pppoe9847|up|up| 
+MAN2MU|BE1.16.pppoe9849|up|up| 
+MAN2MU|BE1.16.pppoe9850|up|up| 
+MAN2MU|BE1.16.pppoe9851|up|up| 
+MAN2MU|BE1.16.pppoe9852|up|up| 
+MAN2MU|BE1.16.pppoe9853|up|up| 
+MAN2MU|BE1.16.pppoe9854|up|up| 
+MAN2MU|BE1.16.pppoe9855|up|up| 
+MAN2MU|BE1.16.pppoe9856|up|up| 
+MAN2MU|BE1.16.pppoe9858|up|up| 
+MAN2MU|BE1.16.pppoe9861|up|up| 
+MAN2MU|BE1.16.pppoe9862|up|up| 
+MAN2MU|BE1.16.pppoe9863|up|up| 
+MAN2MU|BE1.16.pppoe9864|up|up| 
+MAN2MU|BE1.16.pppoe9865|up|up| 
+MAN2MU|BE1.16.pppoe9866|up|up| 
+MAN2MU|BE1.16.pppoe9868|up|up| 
+MAN2MU|BE1.16.pppoe9869|up|up| 
+MAN2MU|BE1.16.pppoe9874|up|up| 
+MAN2MU|BE1.16.pppoe9875|up|up| 
+MAN2MU|BE1.16.pppoe9877|up|up| 
+MAN2MU|BE1.16.pppoe9880|up|up| 
+MAN2MU|BE1.16.pppoe9881|up|up| 
+MAN2MU|BE1.16.pppoe9882|up|up| 
+MAN2MU|BE1.16.pppoe9883|up|up| 
+MAN2MU|BE1.16.pppoe9884|up|up| 
+MAN2MU|BE1.16.pppoe9885|up|up| 
+MAN2MU|BE1.16.pppoe9886|up|up| 
+MAN2MU|BE1.16.pppoe9888|up|up| 
+MAN2MU|BE1.16.pppoe9889|up|up| 
+MAN2MU|BE1.16.pppoe9891|up|up| 
+MAN2MU|BE1.16.pppoe9892|up|up| 
+MAN2MU|BE1.16.pppoe9893|up|up| 
+MAN2MU|BE1.16.pppoe9894|up|up| 
+MAN2MU|BE1.16.pppoe9896|up|up| 
+MAN2MU|BE1.16.pppoe9898|up|up| 
+MAN2MU|BE1.16.pppoe9900|up|up| 
+MAN2MU|BE1.16.pppoe9903|up|up| 
+MAN2MU|BE1.16.pppoe9904|up|up| 
+MAN2MU|BE1.16.pppoe9905|up|up| 
+MAN2MU|BE1.16.pppoe9906|up|up| 
+MAN2MU|BE1.16.pppoe9907|up|up| 
+MAN2MU|BE1.16.pppoe9908|up|up| 
+MAN2MU|BE1.16.pppoe9910|up|up| 
+MAN2MU|BE1.16.pppoe9912|up|up| 
+MAN2MU|BE1.16.pppoe9913|up|up| 
+MAN2MU|BE1.16.pppoe9914|up|up| 
+MAN2MU|BE1.16.pppoe9915|up|up| 
+MAN2MU|BE1.16.pppoe9916|up|up| 
+MAN2MU|BE1.16.pppoe9917|up|up| 
+MAN2MU|BE1.16.pppoe9918|up|up| 
+MAN2MU|BE1.16.pppoe9919|up|up| 
+MAN2MU|BE1.16.pppoe9920|up|up| 
+MAN2MU|BE1.16.pppoe9921|up|up| 
+MAN2MU|BE1.16.pppoe9922|up|up| 
+MAN2MU|BE1.16.pppoe9923|up|up| 
+MAN2MU|BE1.16.pppoe9924|up|up| 
+MAN2MU|BE1.16.pppoe9925|up|up| 
+MAN2MU|BE1.16.pppoe9926|up|up| 
+MAN2MU|BE1.16.pppoe9928|up|up| 
+MAN2MU|BE1.16.pppoe9929|up|up| 
+MAN2MU|BE1.16.pppoe9930|up|up| 
+MAN2MU|BE1.16.pppoe9931|up|up| 
+MAN2MU|BE1.16.pppoe9933|up|up| 
+MAN2MU|BE1.16.pppoe9934|up|up| 
+MAN2MU|BE1.16.pppoe9935|up|up| 
+MAN2MU|BE1.16.pppoe9936|up|up| 
+MAN2MU|BE1.16.pppoe9937|up|up| 
+MAN2MU|BE1.16.pppoe9939|up|up| 
+MAN2MU|BE1.16.pppoe9940|up|up| 
+MAN2MU|BE1.16.pppoe9941|up|up| 
+MAN2MU|BE1.16.pppoe9942|up|up| 
+MAN2MU|BE1.16.pppoe9943|up|up| 
+MAN2MU|BE1.16.pppoe9944|up|up| 
+MAN2MU|BE1.16.pppoe9945|up|up| 
+MAN2MU|BE1.16.pppoe9946|up|up| 
+MAN2MU|BE1.16.pppoe9948|up|up| 
+MAN2MU|BE1.16.pppoe9949|up|up| 
+MAN2MU|BE1.16.pppoe9951|up|up| 
+MAN2MU|BE1.16.pppoe9954|up|up| 
+MAN2MU|BE1.16.pppoe9956|up|up| 
+MAN2MU|BE1.16.pppoe9964|up|up| 
+MAN2MU|BE1.16.pppoe9966|up|up| 
+MAN2MU|BE1.16.pppoe9969|up|up| 
+MAN2MU|BE1.16.pppoe9970|up|up| 
+MAN2MU|BE1.16.pppoe9974|up|up| 
+MAN2MU|BE1.16.pppoe9979|up|up| 
+MAN2MU|BE1.16.pppoe9980|up|up| 
+MAN2MU|BE1.16.pppoe9984|up|up| 
+MAN2MU|BE1.16.pppoe9985|up|up| 
+MAN2MU|BE1.16.pppoe9986|up|up| 
+MAN2MU|BE1.16.pppoe9989|up|up| 
+MAN2MU|BE1.16.pppoe9993|up|up| 
+MAN2MU|BE1.16.pppoe9995|up|up| 
+MAN2MU|BE1.16.pppoe10000|up|up| 
+MAN2MU|BE1.16.pppoe10002|up|up| 
+MAN2MU|BE1.16.pppoe10003|up|up| 
+MAN2MU|BE1.16.pppoe10007|up|up| 
+MAN2MU|BE1.16.pppoe10011|up|up| 
+MAN2MU|BE1.16.pppoe10016|up|up| 
+MAN2MU|BE1.16.pppoe10019|up|up| 
+MAN2MU|BE1.16.pppoe10023|up|up| 
+MAN2MU|BE1.16.pppoe10024|up|up| 
+MAN2MU|BE1.16.pppoe10025|up|up| 
+MAN2MU|BE1.16.pppoe10028|up|up| 
+MAN2MU|BE1.16.pppoe10030|up|up| 
+MAN2MU|BE1.16.pppoe10032|up|up| 
+MAN2MU|BE1.16.pppoe10035|up|up| 
+MAN2MU|BE1.16.pppoe10039|up|up| 
+MAN2MU|BE1.16.pppoe10040|up|up| 
+MAN2MU|BE1.16.pppoe10041|up|up| 
+MAN2MU|BE1.16.pppoe10042|up|up| 
+MAN2MU|BE1.16.pppoe10045|up|up| 
+MAN2MU|BE1.16.pppoe10046|up|up| 
+MAN2MU|BE1.16.pppoe10047|up|up| 
+MAN2MU|BE1.16.pppoe10048|up|up| 
+MAN2MU|BE1.16.pppoe10049|up|up| 
+MAN2MU|BE1.16.pppoe10050|up|up| 
+MAN2MU|BE1.16.pppoe10051|up|up| 
+MAN2MU|BE1.16.pppoe10053|up|up| 
+MAN2MU|BE1.16.pppoe10054|up|up| 
+MAN2MU|BE1.16.pppoe10056|up|up| 
+MAN2MU|BE1.16.pppoe10059|up|up| 
+MAN2MU|BE1.16.pppoe10061|up|up| 
+MAN2MU|BE1.16.pppoe10062|up|up| 
+MAN2MU|BE1.16.pppoe10064|up|up| 
+MAN2MU|BE1.16.pppoe10065|up|up| 
+MAN2MU|BE1.16.pppoe10067|up|up| 
+MAN2MU|BE1.16.pppoe10070|up|up| 
+MAN2MU|BE1.16.pppoe10071|up|up| 
+MAN2MU|BE1.16.pppoe10073|up|up| 
+MAN2MU|BE1.16.pppoe10074|up|up| 
+MAN2MU|BE1.16.pppoe10076|up|up| 
+MAN2MU|BE1.16.pppoe10077|up|up| 
+MAN2MU|BE1.16.pppoe10078|up|up| 
+MAN2MU|BE1.16.pppoe10082|up|up| 
+MAN2MU|BE1.16.pppoe10085|up|up| 
+MAN2MU|BE1.16.pppoe10087|up|up| 
+MAN2MU|BE1.16.pppoe10089|up|up| 
+MAN2MU|BE1.16.pppoe10090|up|up| 
+MAN2MU|BE1.16.pppoe10092|up|up| 
+MAN2MU|BE1.16.pppoe10093|up|up| 
+MAN2MU|BE1.16.pppoe10094|up|up| 
+MAN2MU|BE1.16.pppoe10095|up|up| 
+MAN2MU|BE1.16.pppoe10097|up|up| 
+MAN2MU|BE1.16.pppoe10099|up|up| 
+MAN2MU|BE1.16.pppoe10108|up|up| 
+MAN2MU|BE1.16.pppoe10110|up|up| 
+MAN2MU|BE1.16.pppoe10111|up|up| 
+MAN2MU|BE1.16.pppoe10114|up|up| 
+MAN2MU|BE1.16.pppoe10115|up|up| 
+MAN2MU|BE1.16.pppoe10117|up|up| 
+MAN2MU|BE1.16.pppoe10119|up|up| 
+MAN2MU|BE1.16.pppoe10121|up|up| 
+MAN2MU|BE1.16.pppoe10124|up|up| 
+MAN2MU|BE1.16.pppoe10125|up|up| 
+MAN2MU|BE1.16.pppoe10127|up|up| 
+MAN2MU|BE1.16.pppoe10128|up|up| 
+MAN2MU|BE1.16.pppoe10129|up|up| 
+MAN2MU|BE1.16.pppoe10130|up|up| 
+MAN2MU|BE1.16.pppoe10131|up|up| 
+MAN2MU|BE1.16.pppoe10132|up|up| 
+MAN2MU|BE1.16.pppoe10133|up|up| 
+MAN2MU|BE1.16.pppoe10134|up|up| 
+MAN2MU|BE1.16.pppoe10136|up|up| 
+MAN2MU|BE1.16.pppoe10138|up|up| 
+MAN2MU|BE1.16.pppoe10139|up|up| 
+MAN2MU|BE1.16.pppoe10140|up|up| 
+MAN2MU|BE1.16.pppoe10141|up|up| 
+MAN2MU|BE1.16.pppoe10142|up|up| 
+MAN2MU|BE1.16.pppoe10143|up|up| 
+MAN2MU|BE1.16.pppoe10144|up|up| 
+MAN2MU|BE1.16.pppoe10145|up|up| 
+MAN2MU|BE1.16.pppoe10146|up|up| 
+MAN2MU|BE1.16.pppoe10147|up|up| 
+MAN2MU|BE1.16.pppoe10153|up|up| 
+MAN2MU|BE1.16.pppoe10155|up|up| 
+MAN2MU|BE1.16.pppoe10156|up|up| 
+MAN2MU|BE1.16.pppoe10157|up|up| 
+MAN2MU|BE1.16.pppoe10158|up|up| 
+MAN2MU|BE1.16.pppoe10159|up|up| 
+MAN2MU|BE1.16.pppoe10160|up|up| 
+MAN2MU|BE1.16.pppoe10161|up|up| 
+MAN2MU|BE1.16.pppoe10163|up|up| 
+MAN2MU|BE1.16.pppoe10164|up|up| 
+MAN2MU|BE1.16.pppoe10165|up|up| 
+MAN2MU|BE1.16.pppoe10166|up|up| 
+MAN2MU|BE1.16.pppoe10167|up|up| 
+MAN2MU|BE1.16.pppoe10168|up|up| 
+MAN2MU|BE1.16.pppoe10169|up|up| 
+MAN2MU|BE1.16.pppoe10170|up|up| 
+MAN2MU|BE1.16.pppoe10171|up|up| 
+MAN2MU|BE1.16.pppoe10172|up|up| 
+MAN2MU|BE1.2101|up|up|[GESTION] MANN01 HUA 5600_T [GPON]
+MAN2MU|BE1.3101|up|up|[TOIP] MANN01 HUA 5600_T [GPON]
+MAN2MU|BE2|up|up|[ACCESO HSI][BE] MAN11D L:9703120
+MAN2MU|BE2.2101|up|up|[GESTION] MAN11D HUA 5600 [ADS2]
+MAN2MU|BE2.3101|up|up|[TOIP] MAN11D HUA 5600 [ADS2]
+MAN2MU|BE2.3854|up|up|Integra Gold - ALPLA AVELLANEDA S A - Ref:551195 Lin:2757551 Acc:MAN11D 0-14-14/15
+MAN2MU|BE2.4101|up|up|[DATOS] MAN11D HUA 5600 [ADS2][L3]
+MAN2MU|BE3|up|up|[ACCESO HSI][BE] MAN21D L:13000232
+MAN2MU|BE3.2101|up|up|[GESTION] MAN21D HUA 5600 [ADS2]
+MAN2MU|BE3.3101|up|up|[TOIP] MAN21D HUA 5600 [ADS2]
+MAN2MU|BE3.4101|up|up|[DATOS] MAN21D HUA 5600 [ADS2][L3]
+MAN2MU|BE4|up|up|[ACCESO HSI+NGN][BE] 2KAG01
+MAN2MU|BE4.2|up|up|[SIGN] NGN -HUA5600 BARRIO JORRAT 2KAG01-L:13001609
+MAN2MU|BE4.3|up|up|[RTP] NGN -HUA5600 BARRIO JORRAT 2KAG01-L:13001609
+MAN2MU|BE4.4|up|up|[GESTION] IPMB NGN HUA5600 BARRIO JORRAT 2KAG01-L:13001609
+MAN2MU|BE4.3101|up|up|[TOIP] 2KAG01 HUA 5616 [VDS2]
+MAN2MU|BE4.4101|up|up|[DATOS] 2KAG01 HUA 5616 [VDS2][L3]
+MAN2MU|BE4.4101.pppoe984|up|up| 
+MAN2MU|BE4.4101.pppoe989|up|up| 
+MAN2MU|BE4.4101.pppoe992|up|up| 
+MAN2MU|BE4.4101.pppoe994|up|up| 
+MAN2MU|BE4.4101.pppoe997|up|up| 
+MAN2MU|BE4.4101.pppoe999|up|up| 
+MAN2MU|BE4.4101.pppoe1001|up|up| 
+MAN2MU|BE4.4101.pppoe1003|up|up| 
+MAN2MU|BE4.4101.pppoe1006|up|up| 
+MAN2MU|BE4.4101.pppoe1011|up|up| 
+MAN2MU|BE4.4101.pppoe1018|up|up| 
+MAN2MU|BE4.4101.pppoe1021|up|up| 
+MAN2MU|BE4.4101.pppoe1022|up|up| 
+MAN2MU|BE4.4101.pppoe1024|up|up| 
+MAN2MU|BE4.4101.pppoe1025|up|up| 
+MAN2MU|BE4.4101.pppoe1054|up|up| 
+MAN2MU|BE4.4101.pppoe1065|up|up| 
+MAN2MU|BE4.4101.pppoe1085|up|up| 
+MAN2MU|BE4.4101.pppoe1086|up|up| 
+MAN2MU|BE4.4101.pppoe1087|up|up| 
+MAN2MU|BE4.4101.pppoe1098|up|up| 
+MAN2MU|BE4.4101.pppoe1100|up|up| 
+MAN2MU|BE4.4101.pppoe1105|up|up| 
+MAN2MU|BE4.4101.pppoe1109|up|up| 
+MAN2MU|BE4.4101.pppoe1112|up|up| 
+MAN2MU|BE4.4101.pppoe1127|up|up| 
+MAN2MU|BE4.4101.pppoe1133|up|up| 
+MAN2MU|BE4.4101.pppoe1137|up|up| 
+MAN2MU|BE4.4101.pppoe1143|up|up| 
+MAN2MU|BE4.4101.pppoe1154|up|up| 
+MAN2MU|BE4.4101.pppoe1172|up|up| 
+MAN2MU|BE4.4101.pppoe1173|up|up| 
+MAN2MU|BE4.4101.pppoe1175|up|up| 
+MAN2MU|BE4.4101.pppoe1176|up|up| 
+MAN2MU|BE4.4101.pppoe1181|up|up| 
+MAN2MU|BE4.4101.pppoe1186|up|up| 
+MAN2MU|BE4.4101.pppoe1193|up|up| 
+MAN2MU|BE4.4101.pppoe1194|up|up| 
+MAN2MU|BE4.4101.pppoe1196|up|up| 
+MAN2MU|BE4.4101.pppoe1199|up|up| 
+MAN2MU|BE4.4101.pppoe1200|up|up| 
+MAN2MU|BE4.4101.pppoe1202|up|up| 
+MAN2MU|BE4.4101.pppoe1204|up|up| 
+MAN2MU|BE4.4101.pppoe1213|up|up| 
+MAN2MU|BE4.4101.pppoe1215|up|up| 
+MAN2MU|BE4.4101.pppoe1217|up|up| 
+MAN2MU|BE4.4101.pppoe1219|up|up| 
+MAN2MU|BE4.4101.pppoe1221|up|up| 
+MAN2MU|BE4.4101.pppoe1222|up|up| 
+MAN2MU|BE4.4101.pppoe1223|up|up| 
+MAN2MU|BE4.4101.pppoe1224|up|up| 
+MAN2MU|BE4.4101.pppoe1226|up|up| 
+MAN2MU|BE5|up|up|[ACCESO HSI + NGN][BE] 1FYG01 
+MAN2MU|BE5.2|up|up|[SIGN] 1FYG01 HUA 5600_T 13006273 [NGN] 13001108
+MAN2MU|BE5.3|up|up|[RTP] 1FYG01 HUA 5600_T 13006273 [NGN] 13001108
+MAN2MU|BE5.4|up|up|[GESTION] 1FYG01 HUA 5600_T 13006273 [NGN] 13001108
+MAN2MU|BE5.3101|up|up|[TOIP] 1FYG01 HUA 5600_T [VDS2]
+MAN2MU|BE5.4101|up|up|[DATOS] 1FYG01 HUA 5600_T [VDS2][L3]
+MAN2MU|BE5.4101.pppoe5230|up|up| 
+MAN2MU|BE5.4101.pppoe5231|up|up| 
+MAN2MU|BE5.4101.pppoe5233|up|up| 
+MAN2MU|BE5.4101.pppoe5236|up|up| 
+MAN2MU|BE5.4101.pppoe5238|up|up| 
+MAN2MU|BE5.4101.pppoe5242|up|up| 
+MAN2MU|BE5.4101.pppoe5245|up|up| 
+MAN2MU|BE5.4101.pppoe5246|up|up| 
+MAN2MU|BE5.4101.pppoe5248|up|up| 
+MAN2MU|BE5.4101.pppoe5249|up|up| 
+MAN2MU|BE5.4101.pppoe5251|up|up| 
+MAN2MU|BE5.4101.pppoe5265|up|up| 
+MAN2MU|BE5.4101.pppoe5268|up|up| 
+MAN2MU|BE5.4101.pppoe5270|up|up| 
+MAN2MU|BE5.4101.pppoe5271|up|up| 
+MAN2MU|BE5.4101.pppoe5273|up|up| 
+MAN2MU|BE5.4101.pppoe5275|up|up| 
+MAN2MU|BE5.4101.pppoe5277|up|up| 
+MAN2MU|BE5.4101.pppoe5281|up|up| 
+MAN2MU|BE5.4101.pppoe5282|up|up| 
+MAN2MU|BE5.4101.pppoe5288|up|up| 
+MAN2MU|BE5.4101.pppoe5291|up|up| 
+MAN2MU|BE5.4101.pppoe5292|up|up| 
+MAN2MU|BE5.4101.pppoe5293|up|up| 
+MAN2MU|BE5.4101.pppoe5300|up|up| 
+MAN2MU|BE5.4101.pppoe5302|up|up| 
+MAN2MU|BE5.4101.pppoe5304|up|up| 
+MAN2MU|BE5.4101.pppoe5306|up|up| 
+MAN2MU|BE5.4101.pppoe5309|up|up| 
+MAN2MU|BE5.4101.pppoe5311|up|up| 
+MAN2MU|BE5.4101.pppoe5314|up|up| 
+MAN2MU|BE5.4101.pppoe5317|up|up| 
+MAN2MU|BE5.4101.pppoe5318|up|up| 
+MAN2MU|BE5.4101.pppoe5320|up|up| 
+MAN2MU|BE5.4101.pppoe5321|up|up| 
+MAN2MU|BE5.4101.pppoe5324|up|up| 
+MAN2MU|BE5.4101.pppoe5326|up|up| 
+MAN2MU|BE5.4101.pppoe5329|up|up| 
+MAN2MU|BE5.4101.pppoe5332|up|up| 
+MAN2MU|BE5.4101.pppoe5333|up|up| 
+MAN2MU|BE5.4101.pppoe5334|up|up| 
+MAN2MU|BE5.4101.pppoe5337|up|up| 
+MAN2MU|BE5.4101.pppoe5340|up|up| 
+MAN2MU|BE5.4101.pppoe5341|up|up| 
+MAN2MU|BE5.4101.pppoe5343|up|up| 
+MAN2MU|BE5.4101.pppoe5347|up|up| 
+MAN2MU|BE5.4101.pppoe5352|up|up| 
+MAN2MU|BE5.4101.pppoe5354|up|up| 
+MAN2MU|BE5.4101.pppoe5373|up|up| 
+MAN2MU|BE5.4101.pppoe5375|up|up| 
+MAN2MU|BE5.4101.pppoe5378|up|up| 
+MAN2MU|BE5.4101.pppoe5379|up|up| 
+MAN2MU|BE5.4101.pppoe5382|up|up| 
+MAN2MU|BE5.4101.pppoe5383|up|up| 
+MAN2MU|BE5.4101.pppoe5384|up|up| 
+MAN2MU|BE5.4101.pppoe5385|up|up| 
+MAN2MU|BE5.4101.pppoe5389|up|up| 
+MAN2MU|BE5.4101.pppoe5393|up|up| 
+MAN2MU|BE5.4101.pppoe5394|up|up| 
+MAN2MU|BE5.4101.pppoe5395|up|up| 
+MAN2MU|BE5.4101.pppoe5396|up|up| 
+MAN2MU|BE5.4101.pppoe5397|up|up| 
+MAN2MU|BE5.4101.pppoe5398|up|up| 
+MAN2MU|BE5.4101.pppoe5401|up|up| 
+MAN2MU|BE5.4101.pppoe5405|up|up| 
+MAN2MU|BE5.4101.pppoe5409|up|up| 
+MAN2MU|BE5.4101.pppoe5411|up|up| 
+MAN2MU|BE5.4101.pppoe5412|up|up| 
+MAN2MU|BE5.4101.pppoe5413|up|up| 
+MAN2MU|BE5.4101.pppoe5416|up|up| 
+MAN2MU|BE5.4101.pppoe5417|up|up| 
+MAN2MU|BE5.4101.pppoe5424|up|up| 
+MAN2MU|BE5.4101.pppoe5427|up|up| 
+MAN2MU|BE5.4101.pppoe5435|up|up| 
+MAN2MU|BE5.4101.pppoe5442|up|up| 
+MAN2MU|BE5.4101.pppoe5444|up|up| 
+MAN2MU|BE5.4101.pppoe5445|up|up| 
+MAN2MU|BE5.4101.pppoe5449|up|up| 
+MAN2MU|BE5.4101.pppoe5462|up|up| 
+MAN2MU|BE5.4101.pppoe5465|up|up| 
+MAN2MU|BE5.4101.pppoe5469|up|up| 
+MAN2MU|BE5.4101.pppoe5473|up|up| 
+MAN2MU|BE5.4101.pppoe5481|up|up| 
+MAN2MU|BE5.4101.pppoe5485|up|up| 
+MAN2MU|BE5.4101.pppoe5487|up|up| 
+MAN2MU|BE5.4101.pppoe5488|up|up| 
+MAN2MU|BE5.4101.pppoe5489|up|up| 
+MAN2MU|BE5.4101.pppoe5490|up|up| 
+MAN2MU|BE5.4101.pppoe5501|up|up| 
+MAN2MU|BE5.4101.pppoe5502|up|up| 
+MAN2MU|BE5.4101.pppoe5505|up|up| 
+MAN2MU|BE5.4101.pppoe5507|up|up| 
+MAN2MU|BE5.4101.pppoe5508|up|up| 
+MAN2MU|BE5.4101.pppoe5512|up|up| 
+MAN2MU|BE5.4101.pppoe5516|up|up| 
+MAN2MU|BE5.4101.pppoe5517|up|up| 
+MAN2MU|BE5.4101.pppoe5519|up|up| 
+MAN2MU|BE5.4101.pppoe5524|up|up| 
+MAN2MU|BE5.4101.pppoe5534|up|up| 
+MAN2MU|BE5.4101.pppoe5535|up|up| 
+MAN2MU|BE5.4101.pppoe5549|up|up| 
+MAN2MU|BE5.4101.pppoe5551|up|up| 
+MAN2MU|BE5.4101.pppoe5554|up|up| 
+MAN2MU|BE5.4101.pppoe5555|up|up| 
+MAN2MU|BE5.4101.pppoe5556|up|up| 
+MAN2MU|BE5.4101.pppoe5557|up|up| 
+MAN2MU|BE5.4101.pppoe5563|up|up| 
+MAN2MU|BE5.4101.pppoe5566|up|up| 
+MAN2MU|BE5.4101.pppoe5574|up|up| 
+MAN2MU|BE5.4101.pppoe5575|up|up| 
+MAN2MU|BE5.4101.pppoe5584|up|up| 
+MAN2MU|BE5.4101.pppoe5590|up|up| 
+MAN2MU|BE5.4101.pppoe5595|up|up| 
+MAN2MU|BE5.4101.pppoe5622|up|up| 
+MAN2MU|BE5.4101.pppoe5671|up|up| 
+MAN2MU|BE5.4101.pppoe5672|up|up| 
+MAN2MU|BE5.4101.pppoe5692|up|up| 
+MAN2MU|BE5.4101.pppoe5721|up|up| 
+MAN2MU|BE5.4101.pppoe5722|up|up| 
+MAN2MU|BE5.4101.pppoe5798|up|up| 
+MAN2MU|BE5.4101.pppoe5835|up|up| 
+MAN2MU|BE5.4101.pppoe5842|up|up| 
+MAN2MU|BE5.4101.pppoe5870|up|up| 
+MAN2MU|BE5.4101.pppoe5871|up|up| 
+MAN2MU|BE5.4101.pppoe5893|up|up| 
+MAN2MU|BE5.4101.pppoe5896|up|up| 
+MAN2MU|BE5.4101.pppoe5902|up|up| 
+MAN2MU|BE5.4101.pppoe5905|up|up| 
+MAN2MU|BE5.4101.pppoe5953|up|up| 
+MAN2MU|BE5.4101.pppoe5960|up|up| 
+MAN2MU|BE5.4101.pppoe5964|up|up| 
+MAN2MU|BE5.4101.pppoe5965|up|up| 
+MAN2MU|BE5.4101.pppoe5970|up|up| 
+MAN2MU|BE5.4101.pppoe5987|up|up| 
+MAN2MU|BE5.4101.pppoe6013|up|up| 
+MAN2MU|BE5.4101.pppoe6018|up|up| 
+MAN2MU|BE5.4101.pppoe6030|up|up| 
+MAN2MU|BE5.4101.pppoe6041|up|up| 
+MAN2MU|BE5.4101.pppoe6049|up|up| 
+MAN2MU|BE5.4101.pppoe6060|up|up| 
+MAN2MU|BE5.4101.pppoe6090|up|up| 
+MAN2MU|BE5.4101.pppoe6100|up|up| 
+MAN2MU|BE5.4101.pppoe6124|up|up| 
+MAN2MU|BE5.4101.pppoe6129|up|up| 
+MAN2MU|BE5.4101.pppoe6219|up|up| 
+MAN2MU|BE5.4101.pppoe6220|up|up| 
+MAN2MU|BE5.4101.pppoe6236|up|up| 
+MAN2MU|BE5.4101.pppoe6243|up|up| 
+MAN2MU|BE5.4101.pppoe6248|up|up| 
+MAN2MU|BE5.4101.pppoe6252|up|up| 
+MAN2MU|BE5.4101.pppoe6258|up|up| 
+MAN2MU|BE5.4101.pppoe6272|up|up| 
+MAN2MU|BE5.4101.pppoe6294|up|up| 
+MAN2MU|BE5.4101.pppoe6309|up|up| 
+MAN2MU|BE5.4101.pppoe6317|up|up| 
+MAN2MU|BE5.4101.pppoe6339|up|up| 
+MAN2MU|BE5.4101.pppoe6340|up|up| 
+MAN2MU|BE5.4101.pppoe6380|up|up| 
+MAN2MU|BE5.4101.pppoe6387|up|up| 
+MAN2MU|BE5.4101.pppoe6401|up|up| 
+MAN2MU|BE5.4101.pppoe6424|up|up| 
+MAN2MU|BE5.4101.pppoe6426|up|up| 
+MAN2MU|BE5.4101.pppoe6445|up|up| 
+MAN2MU|BE5.4101.pppoe6446|up|up| 
+MAN2MU|BE5.4101.pppoe6453|up|up| 
+MAN2MU|BE5.4101.pppoe6455|up|up| 
+MAN2MU|BE5.4101.pppoe6456|up|up| 
+MAN2MU|BE5.4101.pppoe6482|up|up| 
+MAN2MU|BE5.4101.pppoe6497|up|up| 
+MAN2MU|BE5.4101.pppoe6498|up|up| 
+MAN2MU|BE5.4101.pppoe6501|up|up| 
+MAN2MU|BE5.4101.pppoe6511|up|up| 
+MAN2MU|BE5.4101.pppoe6520|up|up| 
+MAN2MU|BE5.4101.pppoe6524|up|up| 
+MAN2MU|BE5.4101.pppoe6528|up|up| 
+MAN2MU|BE5.4101.pppoe6541|up|up| 
+MAN2MU|BE5.4101.pppoe6542|up|up| 
+MAN2MU|BE5.4101.pppoe6547|up|up| 
+MAN2MU|BE5.4101.pppoe6553|up|up| 
+MAN2MU|BE5.4101.pppoe6554|up|up| 
+MAN2MU|BE5.4101.pppoe6560|up|up| 
+MAN2MU|BE5.4101.pppoe6563|up|up| 
+MAN2MU|BE5.4101.pppoe6569|up|up| 
+MAN2MU|BE5.4101.pppoe6602|up|up| 
+MAN2MU|BE5.4101.pppoe6622|up|up| 
+MAN2MU|BE5.4101.pppoe6623|up|up| 
+MAN2MU|BE5.4101.pppoe6638|up|up| 
+MAN2MU|BE5.4101.pppoe6665|up|up| 
+MAN2MU|BE5.4101.pppoe6668|up|up| 
+MAN2MU|BE5.4101.pppoe6687|up|up| 
+MAN2MU|BE5.4101.pppoe6706|up|up| 
+MAN2MU|BE5.4101.pppoe6713|up|up| 
+MAN2MU|BE5.4101.pppoe6714|up|up| 
+MAN2MU|BE5.4101.pppoe6715|up|up| 
+MAN2MU|BE5.4101.pppoe6718|up|up| 
+MAN2MU|BE5.4101.pppoe6721|up|up| 
+MAN2MU|BE5.4101.pppoe6736|up|up| 
+MAN2MU|BE5.4101.pppoe6739|up|up| 
+MAN2MU|BE5.4101.pppoe6741|up|up| 
+MAN2MU|BE5.4101.pppoe6742|up|up| 
+MAN2MU|BE5.4101.pppoe6753|up|up| 
+MAN2MU|BE5.4101.pppoe6761|up|up| 
+MAN2MU|BE5.4101.pppoe6763|up|up| 
+MAN2MU|BE5.4101.pppoe6764|up|up| 
+MAN2MU|BE5.4101.pppoe6777|up|up| 
+MAN2MU|BE5.4101.pppoe6780|up|up| 
+MAN2MU|BE5.4101.pppoe6783|up|up| 
+MAN2MU|BE5.4101.pppoe6785|up|up| 
+MAN2MU|BE5.4101.pppoe6789|up|up| 
+MAN2MU|BE5.4101.pppoe6790|up|up| 
+MAN2MU|BE5.4101.pppoe6791|up|up| 
+MAN2MU|BE5.4101.pppoe6792|up|up| 
+MAN2MU|BE5.4101.pppoe6794|up|up| 
+MAN2MU|BE5.4101.pppoe6797|up|up| 
+MAN2MU|BE5.4101.pppoe6799|up|up| 
+MAN2MU|BE5.4101.pppoe6804|up|up| 
+MAN2MU|BE5.4101.pppoe6808|up|up| 
+MAN2MU|BE5.4101.pppoe6814|up|up| 
+MAN2MU|BE5.4101.pppoe6815|up|up| 
+MAN2MU|BE5.4101.pppoe6816|up|up| 
+MAN2MU|BE5.4101.pppoe6817|up|up| 
+MAN2MU|BE5.4101.pppoe6820|up|up| 
+MAN2MU|BE5.4101.pppoe6821|up|up| 
+MAN2MU|BE5.4101.pppoe6822|up|up| 
+MAN2MU|BE5.4101.pppoe6823|up|up| 
+MAN2MU|BE5.4101.pppoe6824|up|up| 
+MAN2MU|BE5.4101.pppoe6826|up|up| 
+MAN2MU|BE5.4101.pppoe6835|up|up| 
+MAN2MU|BE5.4101.pppoe6839|up|up| 
+MAN2MU|BE5.4101.pppoe6840|up|up| 
+MAN2MU|BE5.4101.pppoe6841|up|up| 
+MAN2MU|BE5.4101.pppoe6845|up|up| 
+MAN2MU|BE5.4101.pppoe6849|up|up| 
+MAN2MU|BE5.4101.pppoe6850|up|up| 
+MAN2MU|BE5.4101.pppoe6855|up|up| 
+MAN2MU|BE5.4101.pppoe6857|up|up| 
+MAN2MU|BE5.4101.pppoe6863|up|up| 
+MAN2MU|BE5.4101.pppoe6865|up|up| 
+MAN2MU|BE5.4101.pppoe6867|up|up| 
+MAN2MU|BE5.4101.pppoe6868|up|up| 
+MAN2MU|BE5.4101.pppoe6875|up|up| 
+MAN2MU|BE5.4101.pppoe6876|up|up| 
+MAN2MU|BE5.4101.pppoe6879|up|up| 
+MAN2MU|BE5.4101.pppoe6884|up|up| 
+MAN2MU|BE5.4101.pppoe6890|up|up| 
+MAN2MU|BE5.4101.pppoe6891|up|up| 
+MAN2MU|BE5.4101.pppoe6893|up|up| 
+MAN2MU|BE5.4101.pppoe6894|up|up| 
+MAN2MU|BE5.4101.pppoe6900|up|up| 
+MAN2MU|BE5.4101.pppoe6906|up|up| 
+MAN2MU|BE5.4101.pppoe6909|up|up| 
+MAN2MU|BE5.4101.pppoe6910|up|up| 
+MAN2MU|BE5.4101.pppoe6913|up|up| 
+MAN2MU|BE5.4101.pppoe6914|up|up| 
+MAN2MU|BE5.4101.pppoe6915|up|up| 
+MAN2MU|BE5.4101.pppoe6917|up|up| 
+MAN2MU|BE5.4101.pppoe6921|up|up| 
+MAN2MU|BE5.4101.pppoe6922|up|up| 
+MAN2MU|BE5.4101.pppoe6923|up|up| 
+MAN2MU|BE5.4101.pppoe6924|up|up| 
+MAN2MU|BE5.4101.pppoe6932|up|up| 
+MAN2MU|BE5.4101.pppoe6939|up|up| 
+MAN2MU|BE5.4101.pppoe6941|up|up| 
+MAN2MU|BE5.4101.pppoe6944|up|up| 
+MAN2MU|BE5.4101.pppoe6945|up|up| 
+MAN2MU|BE5.4101.pppoe6947|up|up| 
+MAN2MU|BE5.4101.pppoe6950|up|up| 
+MAN2MU|BE5.4101.pppoe6955|up|up| 
+MAN2MU|BE5.4101.pppoe6957|up|up| 
+MAN2MU|BE5.4101.pppoe6963|up|up| 
+MAN2MU|BE5.4101.pppoe6971|up|up| 
+MAN2MU|BE5.4101.pppoe6972|up|up| 
+MAN2MU|BE5.4101.pppoe6978|up|up| 
+MAN2MU|BE5.4101.pppoe6981|up|up| 
+MAN2MU|BE5.4101.pppoe6983|up|up| 
+MAN2MU|BE5.4101.pppoe6984|up|up| 
+MAN2MU|BE5.4101.pppoe6985|up|up| 
+MAN2MU|BE5.4101.pppoe7006|up|up| 
+MAN2MU|BE5.4101.pppoe7009|up|up| 
+MAN2MU|BE5.4101.pppoe7011|up|up| 
+MAN2MU|BE5.4101.pppoe7012|up|up| 
+MAN2MU|BE5.4101.pppoe7013|up|up| 
+MAN2MU|BE5.4101.pppoe7016|up|up| 
+MAN2MU|BE5.4101.pppoe7020|up|up| 
+MAN2MU|BE5.4101.pppoe7023|up|up| 
+MAN2MU|BE5.4101.pppoe7026|up|up| 
+MAN2MU|BE5.4101.pppoe7033|up|up| 
+MAN2MU|BE5.4101.pppoe7034|up|up| 
+MAN2MU|BE5.4101.pppoe7039|up|up| 
+MAN2MU|BE5.4101.pppoe7042|up|up| 
+MAN2MU|BE5.4101.pppoe7048|up|up| 
+MAN2MU|BE5.4101.pppoe7049|up|up| 
+MAN2MU|BE5.4101.pppoe7050|up|up| 
+MAN2MU|BE5.4101.pppoe7051|up|up| 
+MAN2MU|BE5.4101.pppoe7053|up|up| 
+MAN2MU|BE5.4101.pppoe7054|up|up| 
+MAN2MU|BE5.4101.pppoe7055|up|up| 
+MAN2MU|BE5.4101.pppoe7057|up|up| 
+MAN2MU|BE5.4101.pppoe7058|up|up| 
+MAN2MU|BE5.4101.pppoe7059|up|up| 
+MAN2MU|BE6|up|up|[ACCESO HSI][BE] MANM01 13002205
+MAN2MU|BE6.2101|up|up|[GESTION] MANM01 HUA 5600T [ADS2]
+MAN2MU|BE6.3101|up|up|[TOIP] MANM01 HUA 5600T [ADS2]
+MAN2MU|BE6.4101|up|up|[DATOS] MANM01 HUA 5600T [ADS2][L3]
+MAN2MU|BE7|up|up|[ACCESO HSI][BE] 7XMG01 
+MAN2MU|BE7.2|up|up|[SIGN] 7XMG01 HUA 5600_T [NGN] 13002839
+MAN2MU|BE7.3|up|up|[RTP] 7XMG01 HUA 5600_T [NGN] 13002839
+MAN2MU|BE7.4|up|up|[GESTION] 7XMG01 HUA 5600_T [NGN] 13002839
+MAN2MU|BE7.3101|up|up|[TOIP] 7XMG01 HUA 5600_T [VDS2]
+MAN2MU|BE7.4101|up|up|[DATOS] 7XMG01 HUA 5600_T [VDS2][L3]
+MAN2MU|BE7.4101.pppoe3268|up|up| 
+MAN2MU|BE7.4101.pppoe3279|up|up| 
+MAN2MU|BE7.4101.pppoe3289|up|up| 
+MAN2MU|BE7.4101.pppoe3294|up|up| 
+MAN2MU|BE7.4101.pppoe3296|up|up| 
+MAN2MU|BE7.4101.pppoe3301|up|up| 
+MAN2MU|BE7.4101.pppoe3304|up|up| 
+MAN2MU|BE7.4101.pppoe3305|up|up| 
+MAN2MU|BE7.4101.pppoe3307|up|up| 
+MAN2MU|BE7.4101.pppoe3308|up|up| 
+MAN2MU|BE7.4101.pppoe3310|up|up| 
+MAN2MU|BE7.4101.pppoe3313|up|up| 
+MAN2MU|BE7.4101.pppoe3320|up|up| 
+MAN2MU|BE7.4101.pppoe3322|up|up| 
+MAN2MU|BE7.4101.pppoe3325|up|up| 
+MAN2MU|BE7.4101.pppoe3333|up|up| 
+MAN2MU|BE7.4101.pppoe3335|up|up| 
+MAN2MU|BE7.4101.pppoe3338|up|up| 
+MAN2MU|BE7.4101.pppoe3340|up|up| 
+MAN2MU|BE7.4101.pppoe3345|up|up| 
+MAN2MU|BE7.4101.pppoe3346|up|up| 
+MAN2MU|BE7.4101.pppoe3348|up|up| 
+MAN2MU|BE7.4101.pppoe3350|up|up| 
+MAN2MU|BE7.4101.pppoe3355|up|up| 
+MAN2MU|BE7.4101.pppoe3365|up|up| 
+MAN2MU|BE7.4101.pppoe3447|up|up| 
+MAN2MU|BE7.4101.pppoe3448|up|up| 
+MAN2MU|BE7.4101.pppoe3453|up|up| 
+MAN2MU|BE7.4101.pppoe3533|up|up| 
+MAN2MU|BE7.4101.pppoe3607|up|up| 
+MAN2MU|BE7.4101.pppoe3632|up|up| 
+MAN2MU|BE7.4101.pppoe3649|up|up| 
+MAN2MU|BE7.4101.pppoe3850|up|up| 
+MAN2MU|BE7.4101.pppoe3889|up|up| 
+MAN2MU|BE7.4101.pppoe3933|up|up| 
+MAN2MU|BE7.4101.pppoe3970|up|up| 
+MAN2MU|BE7.4101.pppoe3996|up|up| 
+MAN2MU|BE7.4101.pppoe4001|up|up| 
+MAN2MU|BE7.4101.pppoe4041|up|up| 
+MAN2MU|BE7.4101.pppoe4193|up|up| 
+MAN2MU|BE7.4101.pppoe4208|up|up| 
+MAN2MU|BE7.4101.pppoe4216|up|up| 
+MAN2MU|BE7.4101.pppoe4227|up|up| 
+MAN2MU|BE7.4101.pppoe4232|up|up| 
+MAN2MU|BE7.4101.pppoe4239|up|up| 
+MAN2MU|BE7.4101.pppoe4243|up|up| 
+MAN2MU|BE7.4101.pppoe4255|up|up| 
+MAN2MU|BE7.4101.pppoe4264|up|up| 
+MAN2MU|BE7.4101.pppoe4274|up|up| 
+MAN2MU|BE7.4101.pppoe4282|up|up| 
+MAN2MU|BE7.4101.pppoe4285|up|up| 
+MAN2MU|BE7.4101.pppoe4292|up|up| 
+MAN2MU|BE7.4101.pppoe4293|up|up| 
+MAN2MU|BE7.4101.pppoe4308|up|up| 
+MAN2MU|BE7.4101.pppoe4322|up|up| 
+MAN2MU|BE7.4101.pppoe4325|up|up| 
+MAN2MU|BE7.4101.pppoe4333|up|up| 
+MAN2MU|BE7.4101.pppoe4336|up|up| 
+MAN2MU|BE7.4101.pppoe4340|up|up| 
+MAN2MU|BE7.4101.pppoe4358|up|up| 
+MAN2MU|BE7.4101.pppoe4360|up|up| 
+MAN2MU|BE7.4101.pppoe4361|up|up| 
+MAN2MU|BE7.4101.pppoe4363|up|up| 
+MAN2MU|BE7.4101.pppoe4372|up|up| 
+MAN2MU|BE7.4101.pppoe4375|up|up| 
+MAN2MU|BE7.4101.pppoe4377|up|up| 
+MAN2MU|BE7.4101.pppoe4378|up|up| 
+MAN2MU|BE7.4101.pppoe4389|up|up| 
+MAN2MU|BE7.4101.pppoe4391|up|up| 
+MAN2MU|BE7.4101.pppoe4392|up|up| 
+MAN2MU|BE7.4101.pppoe4397|up|up| 
+MAN2MU|BE7.4101.pppoe4399|up|up| 
+MAN2MU|BE7.4101.pppoe4401|up|up| 
+MAN2MU|BE7.4101.pppoe4418|up|up| 
+MAN2MU|BE7.4101.pppoe4428|up|up| 
+MAN2MU|BE7.4101.pppoe4429|up|up| 
+MAN2MU|BE7.4101.pppoe4433|up|up| 
+MAN2MU|BE7.4101.pppoe4436|up|up| 
+MAN2MU|BE7.4101.pppoe4437|up|up| 
+MAN2MU|BE7.4101.pppoe4438|up|up| 
+MAN2MU|BE7.4101.pppoe4439|up|up| 
+MAN2MU|BE7.4101.pppoe4440|up|up| 
+MAN2MU|BE7.4101.pppoe4443|up|up| 
+MAN2MU|BE7.4101.pppoe4449|up|up| 
+MAN2MU|BE7.4101.pppoe4451|up|up| 
+MAN2MU|BE7.4101.pppoe4454|up|up| 
+MAN2MU|BE7.4101.pppoe4457|up|up| 
+MAN2MU|BE7.4101.pppoe4460|up|up| 
+MAN2MU|BE7.4101.pppoe4466|up|up| 
+MAN2MU|BE7.4101.pppoe4469|up|up| 
+MAN2MU|BE7.4101.pppoe4470|up|up| 
+MAN2MU|BE7.4101.pppoe4471|up|up| 
+MAN2MU|BE7.4101.pppoe4480|up|up| 
+MAN2MU|BE7.4101.pppoe4484|up|up| 
+MAN2MU|BE7.4101.pppoe4486|up|up| 
+MAN2MU|BE7.4101.pppoe4497|up|up| 
+MAN2MU|BE7.4101.pppoe4498|up|up| 
+MAN2MU|BE7.4101.pppoe4499|up|up| 
+MAN2MU|BE7.4101.pppoe4500|up|up| 
+MAN2MU|BE7.4101.pppoe4501|up|up| 
+MAN2MU|BE7.4101.pppoe4505|up|up| 
+MAN2MU|BE7.4101.pppoe4511|up|up| 
+MAN2MU|BE7.4101.pppoe4512|up|up| 
+MAN2MU|BE7.4101.pppoe4515|up|up| 
+MAN2MU|BE7.4101.pppoe4516|up|up| 
+MAN2MU|BE7.4101.pppoe4517|up|up| 
+MAN2MU|BE7.4101.pppoe4518|up|up| 
+MAN2MU|BE7.4101.pppoe4519|up|up| 
+MAN2MU|BE7.4101.pppoe4522|up|up| 
+MAN2MU|BE7.4101.pppoe4523|up|up| 
+MAN2MU|BE8|up|up|[ACCESO HSI][BE] MAN31D 13003367
+MAN2MU|BE8.2101|up|up|[GESTION] MAN31D HUA 5600 [ADS2]
+MAN2MU|BE8.3101|up|up|[TOIP] MAN31D HUA 5600 [ADS2]
+MAN2MU|BE8.4101|up|up|[DATOS] MAN31D HUA 5600 [ADS2][L3]
+MAN2MU|BE9|up|up|[ACCESO HSI][BE] MAN41D 
+MAN2MU|BE9.2101|up|up|[GESTION] MAN41D HUA 5600 [ADS2]
+MAN2MU|BE9.3101|up|up|[TOIP] MAN41D HUA 5600 [ADS2]
+MAN2MU|BE9.4101|up|up|[DATOS] MAN41D HUA 5600 [ADS2][L3]
+MAN2MU|BE10|up|up|[ACCESO HSI][BE] MAN51D 
+MAN2MU|BE10.2101|up|up|[GESTION] MAN51D HUA 5600 [ADS2]
+MAN2MU|BE10.3101|up|up|[TOIP] MAN51D HUA 5600 [ADS2]
+MAN2MU|BE10.4101|up|up|[DATOS] MAN51D HUA 5600 [ADS2][L3]
+MAN2MU|BE11|up|up|[ACCESO HSI][BE] SPAG01 
+MAN2MU|BE11.2|up|up|[SIGN] SPAG01 HUA 5600_T [NGN] 13003325
+MAN2MU|BE11.3|up|up|[RTP] SPAG01 HUA 5600_T [NGN] 13003325
+MAN2MU|BE11.4|up|up|[GESTION] SPAG01 HUA 5600_T [NGN] 13003325
+MAN2MU|BE11.3101|up|up|[TOIP] SPAG01 HUA 5600_T [ADSL]
+MAN2MU|BE11.4101|up|up|[DATOS] SPAG01 HUA 5600_T [ADSL][L3]
+MAN2MU|Lo0|up|up|ROUTER-ID
+MAN2MU|Lo1|up|up|IP UNNUMBERED
+MAN2MU|Lo12|up|up|IP UNNUMBERED vpn-tdata-bcorio - VPN BRONZE INTERCARRIER - TASA - Banco rio
+MAN2MU|Lo26|up|up|IP UNNUMBERED VPN-gpba
+MAN2MU|Lo68|up|up|IP UNNUMBERED VPN PRIMA
+MAN2MU|Lo73|up|up|IP UNNUMBERED bonesi-vpn - VPN BRONZE - BONESI SOCIEDAD ANONIMA
+MAN2MU|Lo78|up|up|IP UNNUMBERED vpn-credicoop - VPN BRONZE - BANCO CREDICOOP COOP. LTDO.
+MAN2MU|Lo80|up|up|IP UNNUMBERED VPN JOCKEY
+MAN2MU|Lo85|up|up|IP UNNUMBERED VPN ADVANCE
+MAN2MU|Lo90|up|up|IP UNNUMBERED munisam-vpn - VPN BRONZE - MUNICIPALIDAD DE GRAL. SAN MARTIN SEC. HAC. Y ECONO.
+MAN2MU|Lo100|up|up|Interfaz de gestion ADSL
+MAN2MU|Lo103|up|up|IP UNNUMBERED ospecom-vpn - VPN BRONZE - OSPECOM
+MAN2MU|Lo127|up|up|IP UNNUMERED vpn-vestiditos - VPN BRONZE - VESTIDITOS S.A.
+MAN2MU|Lo147|up|up|IP UNNUMERED darclibertador-vpn
+MAN2MU|Lo149|up|up|IP UNNUMBERED bna-vpn
+MAN2MU|Lo157|up|up|IP UNNUMBERED vpn-williner - VPN BRONZE - SUCESORES DE ALFREDO WILLINER S.A.
+MAN2MU|Lo162|up|up|IP UNNUMBERED hipodromo-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+MAN2MU|Lo182|up|up|garbarino-vpn - VPN BRONZE - GARBARINO
+MAN2MU|Lo198|up|up|IP UNNUMBERED vpn-gire-1 - VPN BRONZE - GIRE S.A.
+MAN2MU|Lo249|up|up|IP UNNUMBERED ncentralarg-vpn - VPN BRONZE - NUEVO CENTRAL ARGENTINO S.A.
+MAN2MU|Lo256|up|up|IP UNNUMBERED sepsa-vpn - VPN BRONZE - SERV.ELECTRONICO DE PAGO S.A.
+MAN2MU|Lo279|up|up|IP UNNUMBERED hsbc-vpn - VPN BRONZE - HSBC BANK ARGENTINA S.A.
+MAN2MU|Lo347|up|up|IP UNNUMBERED bcogalicia-vpn - VPN BRONZE - BANCO DE GALICIA Y BUENOS AIRE S S.A.
+MAN2MU|Lo433|up|up|IP UNNUMBERED hipodromo-3-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+MAN2MU|Lo454|up|up|IP UNNUMBERED poderjudicial-vpn - VPN BRONZE - PODER JUDICIAL DE LA PROVINCIA
+MAN2MU|Lo459|up|up|IP UNNUMERED clama-vpn
+MAN2MU|Lo479|up|up|IP UNNUMBERED solido-vpn - VPN BRONZE - SOLIDO S.R.L.
+MAN2MU|Lo507|up|up|IP UNNUMBERED maxima-vpn - VPN BRONZE - MAXIMA S.A. A.F.J.P.
+MAN2MU|Lo509|up|up|IP UNNUMBERED citibank-vpn - VPN BRONZE - CITIBANK N.A.
+MAN2MU|Lo546|up|up|IP UNNUMBERED ituran-vpn - VPN BRONZE - ITURAN
+MAN2MU|Lo594|up|up|IP UNNUMBERED diaarg-vpn - VPN BRONZE - DIA ARGENTINA S.A.
+MAN2MU|Lo601|up|up|IP UNNUMBERED alpargatas-vpn - VPN BRONZE - ALPARGATAS CALZADOS S.A.
+MAN2MU|Lo653|up|up|IP UNNUMBERED bigbloom-vpn - VPN BRONZE - BIG BLOOM S.A.
+MAN2MU|Lo671|up|up|IP UNNUMBERED siprosa-vpn - VPN BRONZE - SISTEMA PROVINCIAL DE SALUD GO B.DE TUCUMAN
+MAN2MU|Lo707|up|up|IP UNNUMBERED correo-vpn - VPN BRONZE - CORREO OFICIAL DE LA REP.ARG.
+MAN2MU|Lo980|up|up|IP UNNUMBERED cjuleriaque-vpn - VPN BRONZE - CARLOS JULERIAQUE S.R.L.
+MAN2MU|Lo1017|up|up|IP UNNUMBERED asmuprofa-vpn - VPN BRONZE - ASOCIACION MUTUAL DE PROTECCIO N FAMILIAR
+MAN2MU|Lo1059|up|up|fravega-vpn - VPN BRONZE - FRAVEGA
+MAN2MU|Lo1154|up|up|IP UNNUMBERED arcosdora2-vpn
+MAN2MU|Lo1219|up|up|SIMONS DE ARGENTINA SAIC
+MAN2MU|Lo1226|up|up|IP UNNUMERED argentconec-vpn
+MAN2MU|Lo1312|up|up|IP UNNUMBERED wifioffload-vpn
+MAN2MU|Lo1385|up|up|IP UNNUMERED garbacontenidos-vpn - VPN BRONZE - GARBARINO S.A.
+MAN2MU|Lo1471|up|up|IP UNNUMERED unigestopems-vpn - VPN BRONZE - UNIDAD DE GESTION OPERATIVA MITRE SARMIENTO S.A.
+MAN2MU|Lo13143|up|up|IP UNNUMBERED tasabancofrances-vpn - VPN BRONZE INTERCARRIER. - TASA subcliente Bco. Frances
+MAN2MU|Lo57015|up|up|IP UNNUMBERED tasabapro-vpn - VPN BRONZE INTERCARRIER. - Tasa sub
+MAN2MU|Lo191720|up|up| 
+MAN2MU|Lo546056|up|up|prueba
+MAN2MU|Nu0|up|up| 
+MAN2MU|PE4000|down|down|SONDA OOAF - ORIGEN GLF4MU int GE12/1/1.4103
+MAN2MU|PE4000.4101|down|down|SONDA OOAF - ORIGEN GLF4MU int GE12/1/1.4103
+MAN2MU|Mg0/RSP0/CPU0/0|admin-down|admin-down| 
+MAN2MU|Mg0/RSP0/CPU0/1|admin-down|admin-down| 
+MAN2MU|PT0/RSP0/CPU0/0|admin-down|admin-down| 
+MAN2MU|Mg0/RSP1/CPU0/0|admin-down|admin-down| 
+MAN2MU|Mg0/RSP1/CPU0/1|admin-down|admin-down| 
+MAN2MU|PT0/RSP1/CPU0/0|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/0|up|up|eNODOB - TUC_DEPOSITO_EL_MANANTIAL - A11-S195
+MAN2MU|Gi0/0/0/0.1117|up|up|eNODOB - TUC_DEPOSITO_EL_MANANTIAL - A11-S195 - (1) (701278) - S1
+MAN2MU|Gi0/0/0/0.1118|up|up|eNODOB - TUC_DEPOSITO_EL_MANANTIAL - A11-S195 - (2) (701278) - S1MME
+MAN2MU|Gi0/0/0/0.1119|up|up|eNODOB - TUC_DEPOSITO_EL_MANANTIAL - A11-S195 - (3) (701278) - GOMRAN
+MAN2MU|Gi0/0/0/0.1120|up|up|eNODOB - TUC_DEPOSITO_EL_MANANTIAL - A11-S195 - (1) (701279) - 3G
+MAN2MU|Gi0/0/0/0.1121|up|up|eNODOB - TUC_DEPOSITO_EL_MANANTIAL - A11-S195 - (1) (701280) - 2G
+MAN2MU|Gi0/0/0/1|up|up| 
+MAN2MU|Gi0/0/0/1.1006|up|up|eNODOB - TUC_EL_MANANTIAL -  A11-S129 (5688557) (428650) - S1
+MAN2MU|Gi0/0/0/1.1007|up|up|eNODOB - TUC_EL_MANANTIAL -A11-S129 (5688558) (428650) - S1MME
+MAN2MU|Gi0/0/0/1.1008|up|up|eNODOB - TUC_EL_MANANTIAL -  A11-S129 (5688559) (428650) - GOMRAN
+MAN2MU|Gi0/0/0/1.1064|up|up|eNODOB - TUCUMAN_EL_MANANTIAL - - A11-S129 - (1) (523422) - 3G
+MAN2MU|Gi0/0/0/1.1065|up|up|eNODOB - TUCUMAN_EL_MANANTIAL - A11-S129 - (1) (523391) - 2G
+MAN2MU|Gi0/0/0/2|up|up|eNODOB - SAN_PABLO - MAN1MA 5/0/9 - A11-S140
+MAN2MU|Gi0/0/0/2.1112|up|up|eNODOB - SAN_PABLO - MAN1MA 5/0/9 - A11-S140 - (1) (523492) - S1
+MAN2MU|Gi0/0/0/2.1113|up|up|eNODOB - SAN_PABLO - MAN1MA 5/0/9 - A11-S140 - (2) (523492) - S1MME
+MAN2MU|Gi0/0/0/2.1114|up|up|eNODOB - SAN_PABLO - MAN1MA 5/0/9 - A11-S140 - (3) (523492) - GOMRAN
+MAN2MU|Gi0/0/0/2.1115|up|up|NODOB - SAN_PABLO - MAN1MA 5/0/9 - A11-S140 - (1) (523470) - 3G
+MAN2MU|Gi0/0/0/2.1116|up|up|NODOB - SAN_PABLO - MAN1MA 5/0/9 - A11-S140 - (1) (523448) - 2G
+MAN2MU|Gi0/0/0/3|up|up|TUCUMAN_COUNTRY_SAN_PABLO_A11-S308 
+MAN2MU|Gi0/0/0/3.1102|up|up|eNODOB - TUCUMAN_COUNTRY_SAN_PABLO_A11-S308 - (1) (523497) - S1
+MAN2MU|Gi0/0/0/3.1103|up|up|eNODOB - TUCUMAN_COUNTRY_SAN_PABLO_A11-S308 - (2) (523497) - S1MME
+MAN2MU|Gi0/0/0/3.1104|up|up|eNODOB - TUCUMAN_COUNTRY_SAN_PABLO_A11-S308 - (3) (523497) - GOMRAN
+MAN2MU|Gi0/0/0/3.1105|up|up|NODOB - TUCUMAN_COUNTRY_SAN_PABLO_A11-S308 - (1) (523) - 3G
+MAN2MU|Gi0/0/0/3.1106|up|up|NODOB - TUCUMAN_COUNTRY_SAN_PABLO_A11-S308 - (1) (523453) - 2G
+MAN2MU|Gi0/0/0/4|up|up|eNODOB - TUCUMAN_OJO_DE_AGUA - A11-S375
+MAN2MU|Gi0/0/0/4.1050|up|up|eNODOB - TUCUMAN_OJO_DE_AGUA - A11-S375 (1) (519811) - S1
+MAN2MU|Gi0/0/0/4.1051|up|up|eNODOB - TUCUMAN_OJO_DE_AGUA -  A11-S375 (2) (519811) - S1MME
+MAN2MU|Gi0/0/0/4.1052|up|up|eNODOB - TUCUMAN_OJO_DE_AGUA - A11-S375 (3) (519811) - GOMRAN
+MAN2MU|Gi0/0/0/4.1053|up|up|NODOB - TUCUMAN_OJO_DE_AGUA - A11-S375 (0) (519809) - 3G
+MAN2MU|Gi0/0/0/4.1054|up|up|NODOB - TUCUMAN_OJO_DE_AGUA - A11-S375 (1) (519810) - 2G
+MAN2MU|Gi0/0/0/5|up|up| 
+MAN2MU|Gi0/0/0/5.1134|up|up|eNODOB - TUCUMAN_BARRIO_SAN_FELIPE_3 - A11-S572 - (1) (755575) - S1
+MAN2MU|Gi0/0/0/5.1135|up|up|eNODOB - TUCUMAN_BARRIO_SAN_FELIPE_3 - A11-S572 - (2) (755575) - S1MME
+MAN2MU|Gi0/0/0/5.1136|up|up|eNODOB - TUCUMAN_BARRIO_SAN_FELIPE_3 - A11-S572 - (3) (755575) - GOMRAN
+MAN2MU|Gi0/0/0/5.1137|up|up|NODOB - TUCUMAN_BARRIO_SAN_FELIPE_3 - A11-S572 - (1) (755576) - 3G
+MAN2MU|Gi0/0/0/5.1138|up|up|NODOB - TUCUMAN_BARRIO_SAN_FELIPE_3 - A11-S572 - (1) (755577) - 2G
+MAN2MU|Gi0/0/0/6|up|up|[ACCESO HSI][BE] CONEXION 1/2 MAN11D L:9703120
+MAN2MU|Gi0/0/0/7|up|up|[ACCESO HSI][BE]  CONEXION 1/2 MAN21D L:13000232
+MAN2MU|Gi0/0/0/8|up|up|[ACCESO HSI][BE] 2KAG01 
+MAN2MU|Gi0/0/0/9|up|up|[ACCESO NGN HSI][BE] 1FYG01 13001108
+MAN2MU|Gi0/0/0/10|up|up|[ACCESO DSLAM HSI][BE] CONEXION 2/2 MANM01 13002205
+MAN2MU|Gi0/0/0/11|up|up|[ACCESO HSI][BE] 7XMG01 
+MAN2MU|Gi0/0/0/12|up|up|[ACCESO DSLAM HSI][BE] CONEXION 2/2 MAN31D 13003367
+MAN2MU|Gi0/0/0/13|up|up|[ACCESO HSI] CONEXION 1/2 ACCESO ADSL MAN41D 13003368
+MAN2MU|Gi0/0/0/14|up|up|[ACCESO HSI] CONEXION 1/2 ACCESO ADSL A MAN51D 13003369
+MAN2MU|Gi0/0/0/15|up|up|[ACCESO][NGN] SPAG01 
+MAN2MU|Gi0/0/0/16|up|up|LAN TO LAN - SALTA REFRESCOS - REF:917836 
+MAN2MU|Gi0/0/0/16.2|up|up|CONEXION LAN2LAN - SALTA REFRESCOS - REFE:917836
+MAN2MU|Gi0/0/0/16.1001|up|up|GESTION -LAN2LAN - SALTA REFRESCOS - REFE:917836
+MAN2MU|Gi0/0/0/17|up|up|ELAN_93981_GECOMTEL(7990175)(9004695)
+MAN2MU|Gi0/0/0/17.1060|up|up|GECOMTEl Edificio Manantial - Lin: 7990175 <-> MUS1MB - ELAN_93981_1060
+MAN2MU|Gi0/0/0/17.1068|up|up|ELAN_93981_GECOMTEL(9004695)_a_BUA1MB - ELAN_93463_1068
+MAN2MU|Gi0/0/0/18|up|up|VPN PLATINUM - SUCESORES DE ALFREDO WILLINER S.A. - Ref:916056 Lin:2866118
+MAN2MU|Gi0/0/0/18.2|up|up|VPN PLATINUM - SUCESORES DE ALFREDO WILLINER S.A. - Ref:916056 Lin:2866118
+MAN2MU|Gi0/0/0/19|down|down| 
+MAN2MU|Gi0/0/0/19.13|down|down| 
+MAN2MU|Gi0/0/0/20|up|up|-SALTA REFRESCOS S A - Ref:739185 - Lin:2834755
+MAN2MU|Gi0/0/0/20.10|up|up|GESTION SW - SALTA REFRESCOS S A - Ref:739185 - Lin:2834755
+MAN2MU|Gi0/0/0/20.11|up|up|VPN - SALTA REFRESCOS S A - Ref:739185 - Lin:2834755
+MAN2MU|Gi0/0/0/21|up|up|L2LCENTURYLINKMAN_Ref794553
+MAN2MU|Gi0/0/0/21.3208|up|up|L2LCENTURYLINKMAN(2852497)REFE:794553
+MAN2MU|Gi0/0/0/21.4000|up|up|L2L_L2LCENTURYLINKMAN(2852497)REFE:794553
+MAN2MU|Gi0/0/0/22|up|up|VPN + INTEGRA - ASOCIACION ARG DE LOS ADVENTISTAS DEL 7MO.DIA - Ref:784550/946218 Lin:2847801/2869586
+MAN2MU|Gi0/0/0/22.2|up|up|INTEGRA - ASOCIACION ARG DE LOS ADVENTISTAS DEL 7MO.DIA - Ref:946218 Lin:2869586
+MAN2MU|Gi0/0/0/22.15|up|up|VPN-ASOC_ARG_ADVENTISTAS_REF:784550_LIN:2847801
+MAN2MU|Gi0/0/0/23|up|up| 
+MAN2MU|Gi0/0/0/23.14|up|up|INTEGRA_MAGLIONE_REF:787576_LIN:2849240-ACC:MAN1MA_5/0/21
+MAN2MU|Gi0/0/0/23.17|up|up|DDE-IP_MAGLIONE_REF:878615
+MAN2MU|Gi0/0/0/24|up|up| 
+MAN2MU|Gi0/0/0/24.14|up|up|VPN 12M - CERVECERIA QUILMES-Ref:714598-Linea: 2822582 
+MAN2MU|Gi0/0/0/25|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/26|up|up|INTEGRA - FIBERCOM S.R.L. - REF: 940915 - LINEA: 2778340 - ACC: 0/0/0/26
+MAN2MU|Gi0/0/0/26.10|up|up|INTEGRA - FIBERCOM S.R.L. - REF: 940915 - LINEA: 2778340 - ACC: 0/0/0/26
+MAN2MU|Gi0/0/0/27|up|up|VPN PLATINUM - REFE 942158 - LINEA 2868446
+MAN2MU|Gi0/0/0/27.4|up|up|VPN PLATINUM - REFE 942158 - MARIA DE UNA DE CARLETTO - LINEA 2868446 
+MAN2MU|Gi0/0/0/28|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/29|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/30|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/31|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/32|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/33|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/34|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/35|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/36|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/37|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/38|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/39|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/40|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/41|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/42|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/43|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/44|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/45|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/46|admin-down|admin-down| 
+MAN2MU|Gi0/0/0/47|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/0|up|up|[ACCESO HSI][BE] CONEXION 2/2 MAN11D L:9703120
+MAN2MU|Gi0/1/0/1|up|up|[ACCESO HSI][BE]  CONEXION 2/2 MAN21D L:13000232
+MAN2MU|Gi0/1/0/2|up|up|[ACCESO DSLAM HSI][BE] CONEXION 1/2 MANM01 13002205
+MAN2MU|Gi0/1/0/3|up|up|[ACCESO DSLAM HSI][BE] CONEXION 1/2 MAN31D 13003367
+MAN2MU|Gi0/1/0/4|up|up|[ACCESO HSI] CONEXION 2/2 ACCESO ADSL A MAN41D 13003368
+MAN2MU|Gi0/1/0/5|up|up|[ACCESO HSI] CONEXION 2/2 ACCESO ADSL A MAN51D 13003369
+MAN2MU|Gi0/1/0/6|admin-down|admin-down|INTEGRA - FIBERCOM SRL - REF: 941683 - LINEA: 2868344 - ACC: MAN2MU 0/1/0/6
+MAN2MU|Gi0/1/0/6.2|admin-down|admin-down|INTEGRA - FIBERCOM SRL - REF: 941683 - LINEA: 2868344 - ACC: MAN2MU 0/1/0/6
+MAN2MU|Gi0/1/0/7|up|up|[ACCESO DSLAM HSI][BE] CONEXION 3/3 MANM01 13002205
+MAN2MU|Gi0/1/0/8|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/9|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/10|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/11|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/12|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/13|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/14|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/15|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/16|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/17|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/18|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/19|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/20|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/21|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/22|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/23|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/24|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/25|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/26|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/27|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/28|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/29|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/30|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/31|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/32|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/33|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/34|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/35|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/36|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/37|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/38|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/39|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/40|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/41|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/42|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/43|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/44|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/45|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/46|admin-down|admin-down| 
+MAN2MU|Gi0/1/0/47|admin-down|admin-down| 
+MAN2MU|Te0/3/1/0|up|up|INT  FO  10G  MUS1NA  Te0/0/0/22  13006500  EDGE-OCORE  
+MAN2MU|Te0/3/1/1|up|up|INT  FO  10G  MUS1NA  Te0/0/0/23  13006501  EDGE-OCORE  
+MAN2MU|Te0/3/1/2|admin-down|admin-down| 
+MAN2MU|Te0/3/1/3|admin-down|admin-down| 
+MAN2MU|Te0/3/1/4|admin-down|admin-down| 
+MAN2MU|Te0/3/1/5|admin-down|admin-down| 
+MAN2MU|Te0/3/1/6|admin-down|admin-down| 
+MAN2MU|Te0/3/1/7|admin-down|admin-down| 
+MAN2MU|Te0/3/1/8|admin-down|admin-down| 
+MAN2MU|Te0/3/1/9|admin-down|admin-down| 
+MAN2MU|Te0/3/1/10|admin-down|admin-down| 
+MAN2MU|Te0/3/1/11|admin-down|admin-down| 
+MAN2MU|Te0/3/1/12|admin-down|admin-down| 
+MAN2MU|Te0/3/1/13|admin-down|admin-down| 
+MAN2MU|Te0/3/1/14|admin-down|admin-down| 
+MAN2MU|Te0/3/1/15|admin-down|admin-down| 
+MAN2MU|Te0/3/1/16|admin-down|admin-down| 
+MAN2MU|Te0/3/1/17|admin-down|admin-down| 
+MAN2MU|Te0/3/1/18|admin-down|admin-down| 
+MAN2MU|Te0/3/1/19|admin-down|admin-down| 
+MAN2MU|Te0/4/1/0|up|up|INT  FO  10G  BUA1NA  Te0/0/0/18  13006502  EDGE-OCORE  
+MAN2MU|Te0/4/1/1|up|up|INT  FO  10G  BUA1NA  Te0/0/0/19  13006503  EDGE-OCORE  
+MAN2MU|Te0/4/1/2|up|up|[ACCESO HSI][BE] MANN01 
+MAN2MU|Te0/4/1/3|admin-down|admin-down| 
+MAN2MU|Te0/4/1/4|admin-down|admin-down| 
+MAN2MU|Te0/4/1/5|admin-down|admin-down| 
+MAN2MU|Te0/4/1/6|admin-down|admin-down| 
+MAN2MU|Te0/4/1/7|admin-down|admin-down| 
+MAN2MU|Te0/4/1/8|admin-down|admin-down| 
+MAN2MU|Te0/4/1/9|admin-down|admin-down| 
+MAN2MU|Te0/4/1/10|admin-down|admin-down| 
+MAN2MU|Te0/4/1/11|admin-down|admin-down| 
+MAN2MU|Te0/4/1/12|admin-down|admin-down| 
+MAN2MU|Te0/4/1/13|admin-down|admin-down| 
+MAN2MU|Te0/4/1/14|admin-down|admin-down| 
+MAN2MU|Te0/4/1/15|admin-down|admin-down| 
+MAN2MU|Te0/4/1/16|admin-down|admin-down| 
+MAN2MU|Te0/4/1/17|admin-down|admin-down| 
+MAN2MU|Te0/4/1/18|admin-down|admin-down| 
+MAN2MU|Te0/4/1/19|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/0|admin-down|admin-down|VPN GOLD - SUPERMERCADOS MAYORISTAS MAKRO - REF: 615938 - LINEA: 2784654 - ACC: MAN2MU 0/7/0/0.2
+MAN2MU|Gi0/7/0/0.2|admin-down|admin-down|VPN GOLD - SUPERMERCADOS MAYORISTAS MAKRO - REF: 615938 - LINEA: 2784654 - ACC: MAN2MU 0/7/0/0
+MAN2MU|Gi0/7/0/1|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/2|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/3|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/4|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/5|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/6|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/7|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/8|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/9|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/10|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/11|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/12|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/13|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/14|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/15|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/16|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/17|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/18|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/19|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/20|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/21|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/22|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/23|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/24|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/25|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/26|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/27|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/28|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/29|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/30|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/31|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/32|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/33|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/34|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/35|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/36|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/37|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/38|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/39|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/40|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/41|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/42|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/43|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/44|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/45|admin-down|admin-down| 
+MAN2MU|Gi0/7/0/46|admin-down|admin-down| 
+
+

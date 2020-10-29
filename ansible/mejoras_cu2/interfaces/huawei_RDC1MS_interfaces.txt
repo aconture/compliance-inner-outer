@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+RDC1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+RDC1MS|GigabitEthernet0/2/0|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/0 Interface
+RDC1MS|GigabitEthernet0/2/1|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/1 Interface
+RDC1MS|GigabitEthernet0/2/2|UP|UP|INTEGRA MUNICIPALIDAD REDUCCION REF739968-Linea-2835307-RDC1MS_0-2-2
+RDC1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+RDC1MS|GigabitEthernet0/2/4|UP|UP|CONEXION A RE-IP 1RRDC01_IDU UPLINK A RCU3MU - Linea.13004841
+RDC1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+RDC1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+RDC1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+RDC1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+RDC1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+RDC1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+RDC1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+RDC1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+RDC1MS|Vlanif4004|UP|UP|GESTION - VLAN - RCU3MU Eth-trunk5.4004 - Linea.13004841
+
+

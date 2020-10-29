@@ -1,0 +1,1044 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SNG2MU|BE1|up|up|[ACCESO HSI][BE] SNGM01 11002214
+SNG2MU|BE1.2101|up|up|[GESTION] SNGM01 ALU 7302 [ADS2]
+SNG2MU|BE1.3101|up|up|[TOIP] SNGM01 ALU 7302 [ADS2]
+SNG2MU|BE1.4101|up|up|[DATOS] SNGM01 ALU 7302 [ADS2][L3]
+SNG2MU|BE1.4101.pppoe580|up|up| 
+SNG2MU|BE1.4101.pppoe1412|up|up| 
+SNG2MU|BE1.4101.pppoe1812|up|up| 
+SNG2MU|BE1.4101.pppoe1934|up|up| 
+SNG2MU|BE1.4101.pppoe1958|up|up| 
+SNG2MU|BE1.4101.pppoe2098|up|up| 
+SNG2MU|BE1.4101.pppoe2180|up|up| 
+SNG2MU|BE1.4101.pppoe2576|up|up| 
+SNG2MU|BE1.4101.pppoe2939|up|up| 
+SNG2MU|BE1.4101.pppoe3086|up|up| 
+SNG2MU|BE1.4101.pppoe3100|up|up| 
+SNG2MU|BE1.4101.pppoe3271|up|up| 
+SNG2MU|BE1.4101.pppoe3279|up|up| 
+SNG2MU|BE1.4101.pppoe3306|up|up| 
+SNG2MU|BE1.4101.pppoe3410|up|up| 
+SNG2MU|BE1.4101.pppoe3503|up|up| 
+SNG2MU|BE1.4101.pppoe3535|up|up| 
+SNG2MU|BE1.4101.pppoe3558|up|up| 
+SNG2MU|BE1.4101.pppoe3582|up|up| 
+SNG2MU|BE1.4101.pppoe3612|up|up| 
+SNG2MU|BE1.4101.pppoe3641|up|up| 
+SNG2MU|BE1.4101.pppoe3685|up|up| 
+SNG2MU|BE1.4101.pppoe3735|up|up| 
+SNG2MU|BE1.4101.pppoe3766|up|up| 
+SNG2MU|BE1.4101.pppoe3780|up|up| 
+SNG2MU|BE1.4101.pppoe3792|up|up| 
+SNG2MU|BE1.4101.pppoe3856|up|up| 
+SNG2MU|BE1.4101.pppoe3886|up|up| 
+SNG2MU|BE1.4101.pppoe3887|up|up| 
+SNG2MU|BE1.4101.pppoe4021|up|up| 
+SNG2MU|BE1.4101.pppoe4026|up|up| 
+SNG2MU|BE1.4101.pppoe4041|up|up| 
+SNG2MU|BE1.4101.pppoe4054|up|up| 
+SNG2MU|BE1.4101.pppoe4056|up|up| 
+SNG2MU|BE1.4101.pppoe4159|up|up| 
+SNG2MU|BE1.4101.pppoe4176|up|up| 
+SNG2MU|BE1.4101.pppoe4178|up|up| 
+SNG2MU|BE1.4101.pppoe4180|up|up| 
+SNG2MU|BE1.4101.pppoe4185|up|up| 
+SNG2MU|BE1.4101.pppoe4213|up|up| 
+SNG2MU|BE1.4101.pppoe4227|up|up| 
+SNG2MU|BE1.4101.pppoe4231|up|up| 
+SNG2MU|BE1.4101.pppoe4295|up|up| 
+SNG2MU|BE1.4101.pppoe4297|up|up| 
+SNG2MU|BE1.4101.pppoe4347|up|up| 
+SNG2MU|BE1.4101.pppoe4368|up|up| 
+SNG2MU|BE1.4101.pppoe4371|up|up| 
+SNG2MU|BE1.4101.pppoe4404|up|up| 
+SNG2MU|BE1.4101.pppoe4409|up|up| 
+SNG2MU|BE1.4101.pppoe4411|up|up| 
+SNG2MU|BE1.4101.pppoe4417|up|up| 
+SNG2MU|BE1.4101.pppoe4419|up|up| 
+SNG2MU|BE1.4101.pppoe4438|up|up| 
+SNG2MU|BE1.4101.pppoe4450|up|up| 
+SNG2MU|BE1.4101.pppoe4459|up|up| 
+SNG2MU|BE1.4101.pppoe4471|up|up| 
+SNG2MU|BE1.4101.pppoe4472|up|up| 
+SNG2MU|BE1.4101.pppoe4476|up|up| 
+SNG2MU|BE1.4101.pppoe4478|up|up| 
+SNG2MU|BE1.4101.pppoe4486|up|up| 
+SNG2MU|BE1.4101.pppoe4489|up|up| 
+SNG2MU|BE1.4101.pppoe4491|up|up| 
+SNG2MU|BE1.4101.pppoe4493|up|up| 
+SNG2MU|BE1.4101.pppoe4498|up|up| 
+SNG2MU|BE1.4101.pppoe4503|up|up| 
+SNG2MU|BE1.4101.pppoe4507|up|up| 
+SNG2MU|BE1.4101.pppoe4514|up|up| 
+SNG2MU|BE1.4101.pppoe4517|up|up| 
+SNG2MU|BE1.4101.pppoe4520|up|up| 
+SNG2MU|BE1.4101.pppoe4536|up|up| 
+SNG2MU|BE1.4101.pppoe4545|up|up| 
+SNG2MU|BE1.4101.pppoe4547|up|up| 
+SNG2MU|BE1.4101.pppoe4549|up|up| 
+SNG2MU|BE1.4101.pppoe4550|up|up| 
+SNG2MU|BE1.4101.pppoe4552|up|up| 
+SNG2MU|BE1.4101.pppoe4554|up|up| 
+SNG2MU|BE1.4101.pppoe4556|up|up| 
+SNG2MU|BE1.4101.pppoe4561|up|up| 
+SNG2MU|BE1.4101.pppoe4563|up|up| 
+SNG2MU|BE1.4101.pppoe4566|up|up| 
+SNG2MU|BE1.4101.pppoe4571|up|up| 
+SNG2MU|BE1.4101.pppoe4572|up|up| 
+SNG2MU|BE1.4101.pppoe4579|up|up| 
+SNG2MU|BE1.4101.pppoe4585|up|up| 
+SNG2MU|BE1.4101.pppoe4591|up|up| 
+SNG2MU|BE1.4101.pppoe4593|up|up| 
+SNG2MU|BE1.4101.pppoe4594|up|up| 
+SNG2MU|BE1.4101.pppoe4597|up|up| 
+SNG2MU|BE1.4101.pppoe4599|up|up| 
+SNG2MU|BE1.4101.pppoe4601|up|up| 
+SNG2MU|BE1.4101.pppoe4603|up|up| 
+SNG2MU|BE1.4101.pppoe4605|up|up| 
+SNG2MU|BE1.4101.pppoe4608|up|up| 
+SNG2MU|BE1.4101.pppoe4609|up|up| 
+SNG2MU|BE1.4101.pppoe4615|up|up| 
+SNG2MU|BE1.4101.pppoe4618|up|up| 
+SNG2MU|BE1.4101.pppoe4623|up|up| 
+SNG2MU|BE1.4101.pppoe4626|up|up| 
+SNG2MU|BE1.4101.pppoe4627|up|up| 
+SNG2MU|BE1.4101.pppoe4628|up|up| 
+SNG2MU|BE1.4101.pppoe4632|up|up| 
+SNG2MU|BE1.4101.pppoe4634|up|up| 
+SNG2MU|BE1.4101.pppoe4635|up|up| 
+SNG2MU|BE1.4101.pppoe4636|up|up| 
+SNG2MU|BE1.4101.pppoe4639|up|up| 
+SNG2MU|BE1.4101.pppoe4640|up|up| 
+SNG2MU|BE1.4101.pppoe4642|up|up| 
+SNG2MU|BE1.4101.pppoe4643|up|up| 
+SNG2MU|BE1.4101.pppoe4645|up|up| 
+SNG2MU|BE1.4101.pppoe4646|up|up| 
+SNG2MU|BE2|up|up|[ACCESO HSI][BE] SNG41D 11003303
+SNG2MU|BE2.2101|up|up|[GESTION] SNG41D HUA 5600 [ADS2]
+SNG2MU|BE2.3101|up|up|[TOIP] SNG41D HUA 5600 [ADS2]
+SNG2MU|BE2.4101|up|up|[DATOS] SNG41D HUA 5600 [ADS2][L3]
+SNG2MU|BE2.4101.pppoe57|up|up| 
+SNG2MU|BE2.4101.pppoe130|up|up| 
+SNG2MU|BE2.4101.pppoe156|up|up| 
+SNG2MU|BE2.4101.pppoe183|up|up| 
+SNG2MU|BE2.4101.pppoe201|up|up| 
+SNG2MU|BE2.4101.pppoe330|up|up| 
+SNG2MU|BE2.4101.pppoe362|up|up| 
+SNG2MU|BE2.4101.pppoe539|up|up| 
+SNG2MU|BE2.4101.pppoe540|up|up| 
+SNG2MU|BE2.4101.pppoe918|up|up| 
+SNG2MU|BE2.4101.pppoe934|up|up| 
+SNG2MU|BE2.4101.pppoe974|up|up| 
+SNG2MU|BE2.4101.pppoe1067|up|up| 
+SNG2MU|BE2.4101.pppoe1118|up|up| 
+SNG2MU|BE2.4101.pppoe1217|up|up| 
+SNG2MU|BE2.4101.pppoe1255|up|up| 
+SNG2MU|BE2.4101.pppoe1267|up|up| 
+SNG2MU|BE2.4101.pppoe1273|up|up| 
+SNG2MU|BE2.4101.pppoe1317|up|up| 
+SNG2MU|BE2.4101.pppoe1469|up|up| 
+SNG2MU|BE2.4101.pppoe1491|up|up| 
+SNG2MU|BE2.4101.pppoe1546|up|up| 
+SNG2MU|BE2.4101.pppoe1578|up|up| 
+SNG2MU|BE2.4101.pppoe1601|up|up| 
+SNG2MU|BE2.4101.pppoe1635|up|up| 
+SNG2MU|BE2.4101.pppoe1710|up|up| 
+SNG2MU|BE2.4101.pppoe1792|up|up| 
+SNG2MU|BE2.4101.pppoe1825|up|up| 
+SNG2MU|BE2.4101.pppoe1835|up|up| 
+SNG2MU|BE2.4101.pppoe1850|up|up| 
+SNG2MU|BE2.4101.pppoe1859|up|up| 
+SNG2MU|BE2.4101.pppoe1865|up|up| 
+SNG2MU|BE2.4101.pppoe1916|up|up| 
+SNG2MU|BE2.4101.pppoe2004|up|up| 
+SNG2MU|BE2.4101.pppoe2068|up|up| 
+SNG2MU|BE2.4101.pppoe2305|up|up| 
+SNG2MU|BE2.4101.pppoe2378|up|up| 
+SNG2MU|BE2.4101.pppoe2403|up|up| 
+SNG2MU|BE2.4101.pppoe2412|up|up| 
+SNG2MU|BE2.4101.pppoe2523|up|up| 
+SNG2MU|BE2.4101.pppoe2610|up|up| 
+SNG2MU|BE2.4101.pppoe2634|up|up| 
+SNG2MU|BE2.4101.pppoe2644|up|up| 
+SNG2MU|BE2.4101.pppoe2664|up|up| 
+SNG2MU|BE2.4101.pppoe2743|up|up| 
+SNG2MU|BE2.4101.pppoe2804|up|up| 
+SNG2MU|BE2.4101.pppoe2865|up|up| 
+SNG2MU|BE2.4101.pppoe2882|up|up| 
+SNG2MU|BE2.4101.pppoe2953|up|up| 
+SNG2MU|BE2.4101.pppoe3040|up|up| 
+SNG2MU|BE2.4101.pppoe3057|up|up| 
+SNG2MU|BE2.4101.pppoe3110|up|up| 
+SNG2MU|BE2.4101.pppoe3190|up|up| 
+SNG2MU|BE2.4101.pppoe3197|up|up| 
+SNG2MU|BE2.4101.pppoe3224|up|up| 
+SNG2MU|BE2.4101.pppoe3308|up|up| 
+SNG2MU|BE2.4101.pppoe3384|up|up| 
+SNG2MU|BE2.4101.pppoe3417|up|up| 
+SNG2MU|BE2.4101.pppoe3425|up|up| 
+SNG2MU|BE2.4101.pppoe3496|up|up| 
+SNG2MU|BE2.4101.pppoe3503|up|up| 
+SNG2MU|BE2.4101.pppoe3520|up|up| 
+SNG2MU|BE2.4101.pppoe3548|up|up| 
+SNG2MU|BE2.4101.pppoe3560|up|up| 
+SNG2MU|BE2.4101.pppoe3642|up|up| 
+SNG2MU|BE2.4101.pppoe3688|up|up| 
+SNG2MU|BE2.4101.pppoe3731|up|up| 
+SNG2MU|BE2.4101.pppoe3734|up|up| 
+SNG2MU|BE2.4101.pppoe3737|up|up| 
+SNG2MU|BE2.4101.pppoe3738|up|up| 
+SNG2MU|BE2.4101.pppoe3739|up|up| 
+SNG2MU|BE2.4101.pppoe3740|up|up| 
+SNG2MU|BE2.4101.pppoe3744|up|up| 
+SNG2MU|BE2.4101.pppoe3749|up|up| 
+SNG2MU|BE2.4101.pppoe3752|up|up| 
+SNG2MU|BE2.4101.pppoe3755|up|up| 
+SNG2MU|BE2.4101.pppoe3758|up|up| 
+SNG2MU|BE2.4101.pppoe3760|up|up| 
+SNG2MU|BE2.4101.pppoe3766|up|up| 
+SNG2MU|BE2.4101.pppoe3825|up|up| 
+SNG2MU|BE2.4101.pppoe3839|up|up| 
+SNG2MU|BE2.4101.pppoe3849|up|up| 
+SNG2MU|BE2.4101.pppoe3906|up|up| 
+SNG2MU|BE2.4101.pppoe3909|up|up| 
+SNG2MU|BE2.4101.pppoe3914|up|up| 
+SNG2MU|BE2.4101.pppoe3984|up|up| 
+SNG2MU|BE2.4101.pppoe4004|up|up| 
+SNG2MU|BE2.4101.pppoe4028|up|up| 
+SNG2MU|BE2.4101.pppoe4127|up|up| 
+SNG2MU|BE2.4101.pppoe4152|up|up| 
+SNG2MU|BE2.4101.pppoe4180|up|up| 
+SNG2MU|BE2.4101.pppoe4215|up|up| 
+SNG2MU|BE2.4101.pppoe4237|up|up| 
+SNG2MU|BE2.4101.pppoe4246|up|up| 
+SNG2MU|BE2.4101.pppoe4327|up|up| 
+SNG2MU|BE2.4101.pppoe4519|up|up| 
+SNG2MU|BE2.4101.pppoe4525|up|up| 
+SNG2MU|BE2.4101.pppoe4585|up|up| 
+SNG2MU|BE2.4101.pppoe4613|up|up| 
+SNG2MU|BE2.4101.pppoe4703|up|up| 
+SNG2MU|BE2.4101.pppoe4707|up|up| 
+SNG2MU|BE2.4101.pppoe4713|up|up| 
+SNG2MU|BE2.4101.pppoe4742|up|up| 
+SNG2MU|BE2.4101.pppoe4757|up|up| 
+SNG2MU|BE2.4101.pppoe4759|up|up| 
+SNG2MU|BE2.4101.pppoe4770|up|up| 
+SNG2MU|BE2.4101.pppoe4780|up|up| 
+SNG2MU|BE2.4101.pppoe4790|up|up| 
+SNG2MU|BE2.4101.pppoe4813|up|up| 
+SNG2MU|BE2.4101.pppoe4838|up|up| 
+SNG2MU|BE2.4101.pppoe4857|up|up| 
+SNG2MU|BE2.4101.pppoe4880|up|up| 
+SNG2MU|BE2.4101.pppoe4885|up|up| 
+SNG2MU|BE2.4101.pppoe4894|up|up| 
+SNG2MU|BE2.4101.pppoe4926|up|up| 
+SNG2MU|BE2.4101.pppoe4937|up|up| 
+SNG2MU|BE2.4101.pppoe4972|up|up| 
+SNG2MU|BE2.4101.pppoe5094|up|up| 
+SNG2MU|BE2.4101.pppoe5147|up|up| 
+SNG2MU|BE2.4101.pppoe5228|up|up| 
+SNG2MU|BE2.4101.pppoe5257|up|up| 
+SNG2MU|BE2.4101.pppoe5285|up|up| 
+SNG2MU|BE2.4101.pppoe5323|up|up| 
+SNG2MU|BE2.4101.pppoe5335|up|up| 
+SNG2MU|BE2.4101.pppoe5379|up|up| 
+SNG2MU|BE2.4101.pppoe5441|up|up| 
+SNG2MU|BE2.4101.pppoe5473|up|up| 
+SNG2MU|BE2.4101.pppoe5495|up|up| 
+SNG2MU|BE2.4101.pppoe5505|up|up| 
+SNG2MU|BE2.4101.pppoe5522|up|up| 
+SNG2MU|BE2.4101.pppoe5628|up|up| 
+SNG2MU|BE2.4101.pppoe5653|up|up| 
+SNG2MU|BE2.4101.pppoe5785|up|up| 
+SNG2MU|BE2.4101.pppoe5798|up|up| 
+SNG2MU|BE2.4101.pppoe5942|up|up| 
+SNG2MU|BE2.4101.pppoe5946|up|up| 
+SNG2MU|BE2.4101.pppoe5974|up|up| 
+SNG2MU|BE2.4101.pppoe6015|up|up| 
+SNG2MU|BE2.4101.pppoe6045|up|up| 
+SNG2MU|BE2.4101.pppoe6058|up|up| 
+SNG2MU|BE2.4101.pppoe6095|up|up| 
+SNG2MU|BE2.4101.pppoe6285|up|up| 
+SNG2MU|BE2.4101.pppoe6315|up|up| 
+SNG2MU|BE2.4101.pppoe6329|up|up| 
+SNG2MU|BE2.4101.pppoe6401|up|up| 
+SNG2MU|BE2.4101.pppoe6432|up|up| 
+SNG2MU|BE2.4101.pppoe6436|up|up| 
+SNG2MU|BE2.4101.pppoe6441|up|up| 
+SNG2MU|BE2.4101.pppoe6445|up|up| 
+SNG2MU|BE2.4101.pppoe6454|up|up| 
+SNG2MU|BE2.4101.pppoe6459|up|up| 
+SNG2MU|BE2.4101.pppoe6483|up|up| 
+SNG2MU|BE2.4101.pppoe6484|up|up| 
+SNG2MU|BE2.4101.pppoe6487|up|up| 
+SNG2MU|BE2.4101.pppoe6503|up|up| 
+SNG2MU|BE2.4101.pppoe6571|up|up| 
+SNG2MU|BE2.4101.pppoe6631|up|up| 
+SNG2MU|BE2.4101.pppoe6649|up|up| 
+SNG2MU|BE2.4101.pppoe6652|up|up| 
+SNG2MU|BE2.4101.pppoe6664|up|up| 
+SNG2MU|BE2.4101.pppoe6688|up|up| 
+SNG2MU|BE2.4101.pppoe6701|up|up| 
+SNG2MU|BE2.4101.pppoe6707|up|up| 
+SNG2MU|BE2.4101.pppoe6720|up|up| 
+SNG2MU|BE2.4101.pppoe6729|up|up| 
+SNG2MU|BE2.4101.pppoe6733|up|up| 
+SNG2MU|BE2.4101.pppoe6772|up|up| 
+SNG2MU|BE2.4101.pppoe6807|up|up| 
+SNG2MU|BE2.4101.pppoe6815|up|up| 
+SNG2MU|BE2.4101.pppoe6840|up|up| 
+SNG2MU|BE2.4101.pppoe6843|up|up| 
+SNG2MU|BE2.4101.pppoe6845|up|up| 
+SNG2MU|BE2.4101.pppoe6979|up|up| 
+SNG2MU|BE2.4101.pppoe7102|up|up| 
+SNG2MU|BE2.4101.pppoe7111|up|up| 
+SNG2MU|BE2.4101.pppoe7114|up|up| 
+SNG2MU|BE2.4101.pppoe7120|up|up| 
+SNG2MU|BE2.4101.pppoe7126|up|up| 
+SNG2MU|BE2.4101.pppoe7187|up|up| 
+SNG2MU|BE2.4101.pppoe7204|up|up| 
+SNG2MU|BE2.4101.pppoe7214|up|up| 
+SNG2MU|BE2.4101.pppoe7216|up|up| 
+SNG2MU|BE2.4101.pppoe7220|up|up| 
+SNG2MU|BE2.4101.pppoe7231|up|up| 
+SNG2MU|BE2.4101.pppoe7246|up|up| 
+SNG2MU|BE2.4101.pppoe7258|up|up| 
+SNG2MU|BE2.4101.pppoe7259|up|up| 
+SNG2MU|BE2.4101.pppoe7274|up|up| 
+SNG2MU|BE2.4101.pppoe7308|up|up| 
+SNG2MU|BE2.4101.pppoe7328|up|up| 
+SNG2MU|BE2.4101.pppoe7341|up|up| 
+SNG2MU|BE2.4101.pppoe7344|up|up| 
+SNG2MU|BE2.4101.pppoe7348|up|up| 
+SNG2MU|BE2.4101.pppoe7371|up|up| 
+SNG2MU|BE2.4101.pppoe7395|up|up| 
+SNG2MU|BE2.4101.pppoe7397|up|up| 
+SNG2MU|BE2.4101.pppoe7440|up|up| 
+SNG2MU|BE2.4101.pppoe7480|up|up| 
+SNG2MU|BE2.4101.pppoe7482|up|up| 
+SNG2MU|BE2.4101.pppoe7513|up|up| 
+SNG2MU|BE2.4101.pppoe7515|up|up| 
+SNG2MU|BE2.4101.pppoe7530|up|up| 
+SNG2MU|BE2.4101.pppoe7532|up|up| 
+SNG2MU|BE2.4101.pppoe7596|up|up| 
+SNG2MU|BE2.4101.pppoe7603|up|up| 
+SNG2MU|BE2.4101.pppoe7634|up|up| 
+SNG2MU|BE2.4101.pppoe7652|up|up| 
+SNG2MU|BE2.4101.pppoe7663|up|up| 
+SNG2MU|BE2.4101.pppoe7665|up|up| 
+SNG2MU|BE2.4101.pppoe7775|up|up| 
+SNG2MU|BE2.4101.pppoe7842|up|up| 
+SNG2MU|BE2.4101.pppoe7847|up|up| 
+SNG2MU|BE2.4101.pppoe7878|up|up| 
+SNG2MU|BE2.4101.pppoe7892|up|up| 
+SNG2MU|BE2.4101.pppoe7939|up|up| 
+SNG2MU|BE2.4101.pppoe7947|up|up| 
+SNG2MU|BE2.4101.pppoe7967|up|up| 
+SNG2MU|BE2.4101.pppoe8075|up|up| 
+SNG2MU|BE2.4101.pppoe8081|up|up| 
+SNG2MU|BE2.4101.pppoe8109|up|up| 
+SNG2MU|BE2.4101.pppoe8110|up|up| 
+SNG2MU|BE2.4101.pppoe8129|up|up| 
+SNG2MU|BE2.4101.pppoe8156|up|up| 
+SNG2MU|BE2.4101.pppoe8163|up|up| 
+SNG2MU|BE2.4101.pppoe8170|up|up| 
+SNG2MU|BE2.4101.pppoe8179|up|up| 
+SNG2MU|BE2.4101.pppoe8188|up|up| 
+SNG2MU|BE2.4101.pppoe8201|up|up| 
+SNG2MU|BE2.4101.pppoe8232|up|up| 
+SNG2MU|BE2.4101.pppoe8238|up|up| 
+SNG2MU|BE2.4101.pppoe8247|up|up| 
+SNG2MU|BE2.4101.pppoe8252|up|up| 
+SNG2MU|BE2.4101.pppoe8255|up|up| 
+SNG2MU|BE2.4101.pppoe8265|up|up| 
+SNG2MU|BE2.4101.pppoe8279|up|up| 
+SNG2MU|BE2.4101.pppoe8288|up|up| 
+SNG2MU|BE2.4101.pppoe8299|up|up| 
+SNG2MU|BE2.4101.pppoe8306|up|up| 
+SNG2MU|BE2.4101.pppoe8311|up|up| 
+SNG2MU|BE2.4101.pppoe8325|up|up| 
+SNG2MU|BE2.4101.pppoe8337|up|up| 
+SNG2MU|BE2.4101.pppoe8351|up|up| 
+SNG2MU|BE2.4101.pppoe8368|up|up| 
+SNG2MU|BE2.4101.pppoe8380|up|up| 
+SNG2MU|BE2.4101.pppoe8391|up|up| 
+SNG2MU|BE2.4101.pppoe8398|up|up| 
+SNG2MU|BE2.4101.pppoe8405|up|up| 
+SNG2MU|BE2.4101.pppoe8410|up|up| 
+SNG2MU|BE2.4101.pppoe8477|up|up| 
+SNG2MU|BE2.4101.pppoe8497|up|up| 
+SNG2MU|BE2.4101.pppoe8499|up|up| 
+SNG2MU|BE2.4101.pppoe8511|up|up| 
+SNG2MU|BE2.4101.pppoe8528|up|up| 
+SNG2MU|BE2.4101.pppoe8539|up|up| 
+SNG2MU|BE2.4101.pppoe8579|up|up| 
+SNG2MU|BE2.4101.pppoe8608|up|up| 
+SNG2MU|BE2.4101.pppoe8654|up|up| 
+SNG2MU|BE2.4101.pppoe8669|up|up| 
+SNG2MU|BE2.4101.pppoe8704|up|up| 
+SNG2MU|BE2.4101.pppoe8706|up|up| 
+SNG2MU|BE2.4101.pppoe8710|up|up| 
+SNG2MU|BE2.4101.pppoe8714|up|up| 
+SNG2MU|BE2.4101.pppoe8715|up|up| 
+SNG2MU|BE2.4101.pppoe8720|up|up| 
+SNG2MU|BE2.4101.pppoe8771|up|up| 
+SNG2MU|BE2.4101.pppoe8776|up|up| 
+SNG2MU|BE2.4101.pppoe8778|up|up| 
+SNG2MU|BE2.4101.pppoe8794|up|up| 
+SNG2MU|BE2.4101.pppoe8825|up|up| 
+SNG2MU|BE2.4101.pppoe8828|up|up| 
+SNG2MU|BE2.4101.pppoe8844|up|up| 
+SNG2MU|BE2.4101.pppoe8864|up|up| 
+SNG2MU|BE2.4101.pppoe8882|up|up| 
+SNG2MU|BE2.4101.pppoe8900|up|up| 
+SNG2MU|BE2.4101.pppoe8907|up|up| 
+SNG2MU|BE2.4101.pppoe8919|up|up| 
+SNG2MU|BE2.4101.pppoe8924|up|up| 
+SNG2MU|BE2.4101.pppoe8961|up|up| 
+SNG2MU|BE2.4101.pppoe8969|up|up| 
+SNG2MU|BE2.4101.pppoe8970|up|up| 
+SNG2MU|BE2.4101.pppoe8973|up|up| 
+SNG2MU|BE2.4101.pppoe8979|up|up| 
+SNG2MU|BE2.4101.pppoe8981|up|up| 
+SNG2MU|BE2.4101.pppoe8998|up|up| 
+SNG2MU|BE2.4101.pppoe9001|up|up| 
+SNG2MU|BE2.4101.pppoe9018|up|up| 
+SNG2MU|BE2.4101.pppoe9025|up|up| 
+SNG2MU|BE2.4101.pppoe9031|up|up| 
+SNG2MU|BE2.4101.pppoe9033|up|up| 
+SNG2MU|BE2.4101.pppoe9036|up|up| 
+SNG2MU|BE2.4101.pppoe9058|up|up| 
+SNG2MU|BE2.4101.pppoe9060|up|up| 
+SNG2MU|BE2.4101.pppoe9074|up|up| 
+SNG2MU|BE2.4101.pppoe9088|up|up| 
+SNG2MU|BE2.4101.pppoe9120|up|up| 
+SNG2MU|BE2.4101.pppoe9125|up|up| 
+SNG2MU|BE2.4101.pppoe9147|up|up| 
+SNG2MU|BE2.4101.pppoe9159|up|up| 
+SNG2MU|BE2.4101.pppoe9164|up|up| 
+SNG2MU|BE2.4101.pppoe9188|up|up| 
+SNG2MU|BE2.4101.pppoe9198|up|up| 
+SNG2MU|BE2.4101.pppoe9216|up|up| 
+SNG2MU|BE2.4101.pppoe9236|up|up| 
+SNG2MU|BE2.4101.pppoe9238|up|up| 
+SNG2MU|BE2.4101.pppoe9243|up|up| 
+SNG2MU|BE2.4101.pppoe9247|up|up| 
+SNG2MU|BE2.4101.pppoe9249|up|up| 
+SNG2MU|BE2.4101.pppoe9259|up|up| 
+SNG2MU|BE2.4101.pppoe9261|up|up| 
+SNG2MU|BE2.4101.pppoe9263|up|up| 
+SNG2MU|BE2.4101.pppoe9274|up|up| 
+SNG2MU|BE2.4101.pppoe9275|up|up| 
+SNG2MU|BE2.4101.pppoe9285|up|up| 
+SNG2MU|BE2.4101.pppoe9291|up|up| 
+SNG2MU|BE2.4101.pppoe9308|up|up| 
+SNG2MU|BE2.4101.pppoe9314|up|up| 
+SNG2MU|BE2.4101.pppoe9315|up|up| 
+SNG2MU|BE2.4101.pppoe9316|up|up| 
+SNG2MU|BE2.4101.pppoe9347|up|up| 
+SNG2MU|BE2.4101.pppoe9355|up|up| 
+SNG2MU|BE2.4101.pppoe9375|up|up| 
+SNG2MU|BE2.4101.pppoe9379|up|up| 
+SNG2MU|BE2.4101.pppoe9381|up|up| 
+SNG2MU|BE2.4101.pppoe9411|up|up| 
+SNG2MU|BE2.4101.pppoe9416|up|up| 
+SNG2MU|BE2.4101.pppoe9429|up|up| 
+SNG2MU|BE2.4101.pppoe9434|up|up| 
+SNG2MU|BE2.4101.pppoe9435|up|up| 
+SNG2MU|BE2.4101.pppoe9447|up|up| 
+SNG2MU|BE2.4101.pppoe9459|up|up| 
+SNG2MU|BE2.4101.pppoe9472|up|up| 
+SNG2MU|BE2.4101.pppoe9479|up|up| 
+SNG2MU|BE2.4101.pppoe9499|up|up| 
+SNG2MU|BE2.4101.pppoe9506|up|up| 
+SNG2MU|BE2.4101.pppoe9517|up|up| 
+SNG2MU|BE2.4101.pppoe9523|up|up| 
+SNG2MU|BE2.4101.pppoe9529|up|up| 
+SNG2MU|BE2.4101.pppoe9537|up|up| 
+SNG2MU|BE2.4101.pppoe9563|up|up| 
+SNG2MU|BE2.4101.pppoe9580|up|up| 
+SNG2MU|BE2.4101.pppoe9582|up|up| 
+SNG2MU|BE2.4101.pppoe9584|up|up| 
+SNG2MU|BE2.4101.pppoe9591|up|up| 
+SNG2MU|BE2.4101.pppoe9596|up|up| 
+SNG2MU|BE2.4101.pppoe9623|up|up| 
+SNG2MU|BE2.4101.pppoe9631|up|up| 
+SNG2MU|BE2.4101.pppoe9634|up|up| 
+SNG2MU|BE2.4101.pppoe9666|up|up| 
+SNG2MU|BE2.4101.pppoe9673|up|up| 
+SNG2MU|BE2.4101.pppoe9675|up|up| 
+SNG2MU|BE2.4101.pppoe9681|up|up| 
+SNG2MU|BE2.4101.pppoe9690|up|up| 
+SNG2MU|BE2.4101.pppoe9693|up|up| 
+SNG2MU|BE2.4101.pppoe9701|up|up| 
+SNG2MU|BE2.4101.pppoe9702|up|up| 
+SNG2MU|BE2.4101.pppoe9704|up|up| 
+SNG2MU|BE2.4101.pppoe9708|up|up| 
+SNG2MU|BE2.4101.pppoe9710|up|up| 
+SNG2MU|BE2.4101.pppoe9725|up|up| 
+SNG2MU|BE2.4101.pppoe9731|up|up| 
+SNG2MU|BE2.4101.pppoe9733|up|up| 
+SNG2MU|BE2.4101.pppoe9739|up|up| 
+SNG2MU|BE2.4101.pppoe9746|up|up| 
+SNG2MU|BE2.4101.pppoe9747|up|up| 
+SNG2MU|BE2.4101.pppoe9751|up|up| 
+SNG2MU|BE2.4101.pppoe9754|up|up| 
+SNG2MU|BE2.4101.pppoe9756|up|up| 
+SNG2MU|BE2.4101.pppoe9760|up|up| 
+SNG2MU|BE2.4101.pppoe9761|up|up| 
+SNG2MU|BE2.4101.pppoe9782|up|up| 
+SNG2MU|BE2.4101.pppoe9803|up|up| 
+SNG2MU|BE2.4101.pppoe9808|up|up| 
+SNG2MU|BE2.4101.pppoe9815|up|up| 
+SNG2MU|BE2.4101.pppoe9822|up|up| 
+SNG2MU|BE2.4101.pppoe9834|up|up| 
+SNG2MU|BE2.4101.pppoe9840|up|up| 
+SNG2MU|BE2.4101.pppoe9842|up|up| 
+SNG2MU|BE2.4101.pppoe9847|up|up| 
+SNG2MU|BE2.4101.pppoe9860|up|up| 
+SNG2MU|BE2.4101.pppoe9867|up|up| 
+SNG2MU|BE2.4101.pppoe9871|up|up| 
+SNG2MU|BE2.4101.pppoe9886|up|up| 
+SNG2MU|BE2.4101.pppoe9887|up|up| 
+SNG2MU|BE2.4101.pppoe9910|up|up| 
+SNG2MU|BE2.4101.pppoe9911|up|up| 
+SNG2MU|BE2.4101.pppoe9916|up|up| 
+SNG2MU|BE2.4101.pppoe9923|up|up| 
+SNG2MU|BE2.4101.pppoe9928|up|up| 
+SNG2MU|BE2.4101.pppoe9929|up|up| 
+SNG2MU|BE2.4101.pppoe9942|up|up| 
+SNG2MU|BE2.4101.pppoe9947|up|up| 
+SNG2MU|BE2.4101.pppoe9950|up|up| 
+SNG2MU|BE2.4101.pppoe9951|up|up| 
+SNG2MU|BE2.4101.pppoe9954|up|up| 
+SNG2MU|BE2.4101.pppoe9967|up|up| 
+SNG2MU|BE2.4101.pppoe9971|up|up| 
+SNG2MU|BE2.4101.pppoe9974|up|up| 
+SNG2MU|BE2.4101.pppoe9981|up|up| 
+SNG2MU|BE2.4101.pppoe9989|up|up| 
+SNG2MU|BE2.4101.pppoe9991|up|up| 
+SNG2MU|BE3|up|up|[ACCESO HSI][BE] SNG11D 9701529
+SNG2MU|BE3.2101|up|up|[GESTION] SNG11D HUA 5100 [ADSL]
+SNG2MU|BE3.4101|up|up|[DATOS] SNG11D HUA 5100 [ADSL][L3]
+SNG2MU|BE3.4101.pppoe7311|up|up| 
+SNG2MU|BE4|up|up|[ACCESO HSI][BE] SNG31D 11003302
+SNG2MU|BE4.2101|up|up|[GESTION] SNG31D HUA 5600 [ADS2]
+SNG2MU|BE4.3101|up|up|[TOIP] SNG31D HUA 5600 [ADS2]
+SNG2MU|BE4.4101|up|up|[DATOS] SNG31D HUA 5600 [ADS2][L3]
+SNG2MU|BE4.4101.pppoe402|up|up| 
+SNG2MU|BE4.4101.pppoe1913|up|up| 
+SNG2MU|BE4.4101.pppoe2086|up|up| 
+SNG2MU|BE4.4101.pppoe2192|up|up| 
+SNG2MU|BE4.4101.pppoe2255|up|up| 
+SNG2MU|BE4.4101.pppoe2292|up|up| 
+SNG2MU|BE4.4101.pppoe2381|up|up| 
+SNG2MU|BE4.4101.pppoe2969|up|up| 
+SNG2MU|BE4.4101.pppoe3017|up|up| 
+SNG2MU|BE4.4101.pppoe3152|up|up| 
+SNG2MU|BE4.4101.pppoe3396|up|up| 
+SNG2MU|BE4.4101.pppoe3678|up|up| 
+SNG2MU|BE4.4101.pppoe3739|up|up| 
+SNG2MU|BE4.4101.pppoe3773|up|up| 
+SNG2MU|BE4.4101.pppoe4067|up|up| 
+SNG2MU|BE4.4101.pppoe4100|up|up| 
+SNG2MU|BE4.4101.pppoe4117|up|up| 
+SNG2MU|BE4.4101.pppoe4130|up|up| 
+SNG2MU|BE4.4101.pppoe5492|up|up| 
+SNG2MU|BE4.4101.pppoe5606|up|up| 
+SNG2MU|BE4.4101.pppoe5845|up|up| 
+SNG2MU|BE4.4101.pppoe5863|up|up| 
+SNG2MU|BE4.4101.pppoe6074|up|up| 
+SNG2MU|BE4.4101.pppoe6092|up|up| 
+SNG2MU|BE4.4101.pppoe6128|up|up| 
+SNG2MU|BE4.4101.pppoe6166|up|up| 
+SNG2MU|BE4.4101.pppoe6401|up|up| 
+SNG2MU|BE4.4101.pppoe6543|up|up| 
+SNG2MU|BE4.4101.pppoe7159|up|up| 
+SNG2MU|BE4.4101.pppoe7448|up|up| 
+SNG2MU|BE4.4101.pppoe7900|up|up| 
+SNG2MU|BE4.4101.pppoe7909|up|up| 
+SNG2MU|BE4.4101.pppoe8073|up|up| 
+SNG2MU|BE4.4101.pppoe8631|up|up| 
+SNG2MU|BE4.4101.pppoe8725|up|up| 
+SNG2MU|BE4.4101.pppoe9003|up|up| 
+SNG2MU|BE4.4101.pppoe9684|up|up| 
+SNG2MU|BE4.4101.pppoe9761|up|up| 
+SNG2MU|BE4.4101.pppoe9875|up|up| 
+SNG2MU|BE4.4101.pppoe9880|up|up| 
+SNG2MU|BE5|up|up|[ACCESO HSI][BE] SNG21D 9701528
+SNG2MU|BE5.1976|up|up|[ACCESO GHDSL] SNG21D
+SNG2MU|BE5.2101|up|up|[GESTION] SNG21D HUA 5600 [ADS2]
+SNG2MU|BE5.3101|up|up|[TOIP] SNG21D HUA 5600 [ADS2]
+SNG2MU|BE5.3649|up|up|### VPN Head Quarter - NUEVO BANCO DE ENTRE RIOS S.A. - REF.88954 - Lin:2714891 - SNG21D 14/0 ### 
+SNG2MU|BE5.3652|up|up|VPN Gold - CNC - Ref:240746 Lin:2710423 Acc:SNG21D 14-04 
+SNG2MU|BE5.3653|up|up|VPN GOLD - DIA ARGENTINA S.A. - Ref:634584 Lin:2789913 Acc:SNG21D 0/14/05
+SNG2MU|BE5.3654|up|up|VPN GOLD - PAMI - Ref: 673834 - Linea:2811691 - Acc:SNG21D 0/14/6
+SNG2MU|BE5.3844|up|up|-Gestion 888-VPN Gold - CNC - Ref:240746 Lin:2710423 Acc:SNG21D 14-04 
+SNG2MU|BE5.3848|up|up|Integra Light - NEOGAME S A - Ref:533458 Lin:2748617 Acc:SNG21D 00/14/8-9 
+SNG2MU|BE5.4101|up|up|[DATOS] SNG21D HUA 5600 [ADS2][L3]
+SNG2MU|BE5.4101.pppoe163|up|up| 
+SNG2MU|BE5.4101.pppoe168|up|up| 
+SNG2MU|BE5.4101.pppoe233|up|up| 
+SNG2MU|BE5.4101.pppoe1154|up|up| 
+SNG2MU|BE5.4101.pppoe1227|up|up| 
+SNG2MU|BE5.4101.pppoe1643|up|up| 
+SNG2MU|BE5.4101.pppoe2392|up|up| 
+SNG2MU|BE5.4101.pppoe2409|up|up| 
+SNG2MU|BE5.4101.pppoe2470|up|up| 
+SNG2MU|BE5.4101.pppoe2971|up|up| 
+SNG2MU|BE5.4101.pppoe3356|up|up| 
+SNG2MU|BE5.4101.pppoe3384|up|up| 
+SNG2MU|BE5.4101.pppoe3556|up|up| 
+SNG2MU|BE5.4101.pppoe3911|up|up| 
+SNG2MU|BE5.4101.pppoe3929|up|up| 
+SNG2MU|BE5.4101.pppoe3986|up|up| 
+SNG2MU|BE5.4101.pppoe4177|up|up| 
+SNG2MU|BE5.4101.pppoe4191|up|up| 
+SNG2MU|BE5.4101.pppoe4217|up|up| 
+SNG2MU|BE5.4101.pppoe4251|up|up| 
+SNG2MU|BE5.4101.pppoe4312|up|up| 
+SNG2MU|BE5.4101.pppoe4499|up|up| 
+SNG2MU|BE5.4101.pppoe5189|up|up| 
+SNG2MU|BE5.4101.pppoe5488|up|up| 
+SNG2MU|BE5.4101.pppoe5729|up|up| 
+SNG2MU|BE5.4101.pppoe5844|up|up| 
+SNG2MU|BE5.4101.pppoe5869|up|up| 
+SNG2MU|BE5.4101.pppoe6140|up|up| 
+SNG2MU|BE5.4101.pppoe6185|up|up| 
+SNG2MU|BE5.4101.pppoe6251|up|up| 
+SNG2MU|BE5.4101.pppoe6322|up|up| 
+SNG2MU|BE5.4101.pppoe6356|up|up| 
+SNG2MU|BE5.4101.pppoe6522|up|up| 
+SNG2MU|BE5.4101.pppoe6561|up|up| 
+SNG2MU|BE5.4101.pppoe6610|up|up| 
+SNG2MU|BE5.4101.pppoe6737|up|up| 
+SNG2MU|BE5.4101.pppoe6875|up|up| 
+SNG2MU|BE5.4101.pppoe6975|up|up| 
+SNG2MU|BE5.4101.pppoe7079|up|up| 
+SNG2MU|BE5.4101.pppoe7129|up|up| 
+SNG2MU|BE5.4101.pppoe7163|up|up| 
+SNG2MU|BE5.4101.pppoe7169|up|up| 
+SNG2MU|BE5.4101.pppoe7371|up|up| 
+SNG2MU|BE5.4101.pppoe7461|up|up| 
+SNG2MU|BE5.4101.pppoe7495|up|up| 
+SNG2MU|BE5.4101.pppoe7678|up|up| 
+SNG2MU|BE5.4101.pppoe7687|up|up| 
+SNG2MU|BE5.4101.pppoe7842|up|up| 
+SNG2MU|BE5.4101.pppoe7950|up|up| 
+SNG2MU|BE5.4101.pppoe7966|up|up| 
+SNG2MU|BE5.4101.pppoe7975|up|up| 
+SNG2MU|BE5.4101.pppoe8150|up|up| 
+SNG2MU|BE5.4101.pppoe8264|up|up| 
+SNG2MU|BE5.4101.pppoe8279|up|up| 
+SNG2MU|BE5.4101.pppoe8311|up|up| 
+SNG2MU|BE5.4101.pppoe8398|up|up| 
+SNG2MU|BE5.4101.pppoe8409|up|up| 
+SNG2MU|BE5.4101.pppoe8413|up|up| 
+SNG2MU|BE5.4101.pppoe8437|up|up| 
+SNG2MU|BE5.4101.pppoe8495|up|up| 
+SNG2MU|BE5.4101.pppoe8549|up|up| 
+SNG2MU|BE5.4101.pppoe8565|up|up| 
+SNG2MU|BE5.4101.pppoe8577|up|up| 
+SNG2MU|BE5.4101.pppoe8588|up|up| 
+SNG2MU|BE5.4101.pppoe8604|up|up| 
+SNG2MU|BE5.4101.pppoe8616|up|up| 
+SNG2MU|BE5.4101.pppoe8618|up|up| 
+SNG2MU|BE5.4101.pppoe8664|up|up| 
+SNG2MU|BE5.4101.pppoe8803|up|up| 
+SNG2MU|BE5.4101.pppoe8844|up|up| 
+SNG2MU|BE5.4101.pppoe8847|up|up| 
+SNG2MU|BE5.4101.pppoe8937|up|up| 
+SNG2MU|BE5.4101.pppoe8956|up|up| 
+SNG2MU|BE5.4101.pppoe8960|up|up| 
+SNG2MU|BE5.4101.pppoe8963|up|up| 
+SNG2MU|BE5.4101.pppoe9081|up|up| 
+SNG2MU|BE5.4101.pppoe9111|up|up| 
+SNG2MU|BE5.4101.pppoe9117|up|up| 
+SNG2MU|BE5.4101.pppoe9129|up|up| 
+SNG2MU|BE5.4101.pppoe9342|up|up| 
+SNG2MU|BE5.4101.pppoe9454|up|up| 
+SNG2MU|BE5.4101.pppoe9495|up|up| 
+SNG2MU|BE5.4101.pppoe9517|up|up| 
+SNG2MU|BE5.4101.pppoe9535|up|up| 
+SNG2MU|BE5.4101.pppoe9612|up|up| 
+SNG2MU|BE5.4101.pppoe9613|up|up| 
+SNG2MU|BE5.4101.pppoe9687|up|up| 
+SNG2MU|BE5.4101.pppoe9704|up|up| 
+SNG2MU|BE5.4101.pppoe9726|up|up| 
+SNG2MU|BE5.4101.pppoe9752|up|up| 
+SNG2MU|BE5.4101.pppoe9764|up|up| 
+SNG2MU|BE5.4101.pppoe9768|up|up| 
+SNG2MU|BE5.4101.pppoe9855|up|up| 
+SNG2MU|BE5.4101.pppoe9878|up|up| 
+SNG2MU|BE5.4101.pppoe9898|up|up| 
+SNG2MU|BE5.4101.pppoe9901|up|up| 
+SNG2MU|BE5.4101.pppoe9902|up|up| 
+SNG2MU|BE5.4101.pppoe9903|up|up| 
+SNG2MU|BE5.4101.pppoe9904|up|up| 
+SNG2MU|BE5.4101.pppoe9910|up|up| 
+SNG2MU|BE5.4101.pppoe9914|up|up| 
+SNG2MU|BE5.4101.pppoe9936|up|up| 
+SNG2MU|BE5.4101.pppoe9971|up|up| 
+SNG2MU|BE5.4101.pppoe9972|up|up| 
+SNG2MU|BE5.4101.pppoe9973|up|up| 
+SNG2MU|BE5.4101.pppoe9980|up|up| 
+SNG2MU|BE5.4101.pppoe9993|up|up| 
+SNG2MU|BE5.4101.pppoe9999|up|up| 
+SNG2MU|BE6|up|up|[ACCESO HSI][BE] SNG51D 11003304
+SNG2MU|BE6.2101|up|up|[GESTION] SNG51D HUA 5600 [ADS2]
+SNG2MU|BE6.3101|up|up|[TOIP] SNG51D HUA 5600 [ADS2]
+SNG2MU|BE6.4101|up|up|[DATOS] SNG51D HUA 5600 [ADS2][L3]
+SNG2MU|BE6.4101.pppoe1816|up|up| 
+SNG2MU|BE6.4101.pppoe3598|up|up| 
+SNG2MU|BE7|up|up|ADSL - SNG61D - HUA 5100 - SAN AGUSTIN - linea 11005527
+SNG2MU|BE7.2101|up|up|[GESTION] SNG61D HUA 5100 [ADSL]
+SNG2MU|BE7.4101|up|up|[DATOS] SNG61D HUA 5100 [ADSL][L3]
+SNG2MU|BE8|up|up|NGN UA5000 - SNGG01 - SAN AGUSTIN - linea 11000228
+SNG2MU|BE8.3|up|up|RTP - NGN UA5000 - SNGG01 - SAN AGUSTIN - linea 11000228
+SNG2MU|BE8.4|up|up|Gestion IPMB - NGN UA5000 - SNGG01 - SAN AGUSTIN - linea 11000228
+SNG2MU|BE8.5|up|up|Gestion PVM - NGN UA5000 - SNGG01 - SAN AGUSTIN - linea 11000228
+SNG2MU|BE9|up|up|ADSL - SNG71D - HUA 5100 - SAN AGUSTIN - linea 11005541
+SNG2MU|BE9.2101|up|up|[GESTION] SNG71D HUA 5100 [ADSL]
+SNG2MU|BE9.4101|up|up|[DATOS] SNG71D HUA 5100 [ADSL][L3]
+SNG2MU|BE9.4101.pppoe408|up|up| 
+SNG2MU|BE9.4101.pppoe559|up|up| 
+SNG2MU|BE9.4101.pppoe987|up|up| 
+SNG2MU|BE9.4101.pppoe1341|up|up| 
+SNG2MU|BE9.4101.pppoe3194|up|up| 
+SNG2MU|BE9.4101.pppoe3867|up|up| 
+SNG2MU|BE9.4101.pppoe4175|up|up| 
+SNG2MU|BE9.4101.pppoe4626|up|up| 
+SNG2MU|BE9.4101.pppoe4714|up|up| 
+SNG2MU|BE9.4101.pppoe4716|up|up| 
+SNG2MU|BE9.4101.pppoe4881|up|up| 
+SNG2MU|BE9.4101.pppoe4899|up|up| 
+SNG2MU|BE9.4101.pppoe5098|up|up| 
+SNG2MU|BE9.4101.pppoe5588|up|up| 
+SNG2MU|BE9.4101.pppoe5935|up|up| 
+SNG2MU|BE9.4101.pppoe6516|up|up| 
+SNG2MU|BE9.4101.pppoe6899|up|up| 
+SNG2MU|BE9.4101.pppoe7267|up|up| 
+SNG2MU|BE9.4101.pppoe7323|up|up| 
+SNG2MU|BE9.4101.pppoe7541|up|up| 
+SNG2MU|BE9.4101.pppoe7592|up|up| 
+SNG2MU|BE9.4101.pppoe7681|up|up| 
+SNG2MU|BE9.4101.pppoe7722|up|up| 
+SNG2MU|BE9.4101.pppoe7737|up|up| 
+SNG2MU|BE9.4101.pppoe7836|up|up| 
+SNG2MU|BE9.4101.pppoe7878|up|up| 
+SNG2MU|BE9.4101.pppoe7892|up|up| 
+SNG2MU|BE9.4101.pppoe8210|up|up| 
+SNG2MU|BE9.4101.pppoe8304|up|up| 
+SNG2MU|BE9.4101.pppoe8344|up|up| 
+SNG2MU|BE9.4101.pppoe8463|up|up| 
+SNG2MU|BE9.4101.pppoe8470|up|up| 
+SNG2MU|BE9.4101.pppoe8508|up|up| 
+SNG2MU|BE9.4101.pppoe8541|up|up| 
+SNG2MU|BE9.4101.pppoe8549|up|up| 
+SNG2MU|BE9.4101.pppoe8557|up|up| 
+SNG2MU|BE9.4101.pppoe8747|up|up| 
+SNG2MU|BE9.4101.pppoe8901|up|up| 
+SNG2MU|BE9.4101.pppoe8917|up|up| 
+SNG2MU|BE9.4101.pppoe8934|up|up| 
+SNG2MU|BE9.4101.pppoe8942|up|up| 
+SNG2MU|BE9.4101.pppoe8963|up|up| 
+SNG2MU|BE9.4101.pppoe8977|up|up| 
+SNG2MU|BE9.4101.pppoe9055|up|up| 
+SNG2MU|BE9.4101.pppoe9278|up|up| 
+SNG2MU|BE9.4101.pppoe9318|up|up| 
+SNG2MU|BE9.4101.pppoe9333|up|up| 
+SNG2MU|BE9.4101.pppoe9336|up|up| 
+SNG2MU|BE9.4101.pppoe9346|up|up| 
+SNG2MU|BE9.4101.pppoe9372|up|up| 
+SNG2MU|BE9.4101.pppoe9373|up|up| 
+SNG2MU|BE9.4101.pppoe9419|up|up| 
+SNG2MU|BE9.4101.pppoe9455|up|up| 
+SNG2MU|BE9.4101.pppoe9530|up|up| 
+SNG2MU|BE9.4101.pppoe9544|up|up| 
+SNG2MU|BE9.4101.pppoe9562|up|up| 
+SNG2MU|BE9.4101.pppoe9589|up|up| 
+SNG2MU|BE9.4101.pppoe9663|up|up| 
+SNG2MU|BE9.4101.pppoe9666|up|up| 
+SNG2MU|BE9.4101.pppoe9669|up|up| 
+SNG2MU|BE9.4101.pppoe9670|up|up| 
+SNG2MU|BE9.4101.pppoe9674|up|up| 
+SNG2MU|BE9.4101.pppoe9683|up|up| 
+SNG2MU|BE9.4101.pppoe9710|up|up| 
+SNG2MU|BE9.4101.pppoe9717|up|up| 
+SNG2MU|BE9.4101.pppoe9820|up|up| 
+SNG2MU|BE9.4101.pppoe9822|up|up| 
+SNG2MU|BE9.4101.pppoe9824|up|up| 
+SNG2MU|BE9.4101.pppoe9830|up|up| 
+SNG2MU|BE9.4101.pppoe9833|up|up| 
+SNG2MU|BE9.4101.pppoe9837|up|up| 
+SNG2MU|BE9.4101.pppoe9857|up|up| 
+SNG2MU|BE9.4101.pppoe9936|up|up| 
+SNG2MU|BE9.4101.pppoe9980|up|up| 
+SNG2MU|BE9.4101.pppoe9989|up|up| 
+SNG2MU|BE9.4101.pppoe9990|up|up| 
+SNG2MU|Lo0|up|up| 
+SNG2MU|Lo1|up|up|IP UNNUMBERED
+SNG2MU|Lo12|up|up|IP UNNUMBERED vpn-tdata-bcorio - VPN BRONZE INTERCARRIER - TASA - Banco rio
+SNG2MU|Lo26|up|up|IP UNNUMBERED VPN-gpba
+SNG2MU|Lo68|up|up|IP UNNUMBERED VPN PRIMA
+SNG2MU|Lo73|up|up|IP UNNUMBERED bonesi-vpn - VPN BRONZE - BONESI SOCIEDAD ANONIMA
+SNG2MU|Lo77|up|up|VPN WEB PATRON
+SNG2MU|Lo78|up|up|IP UNNUMBERED vpn-credicoop - VPN BRONZE - BANCO CREDICOOP COOP. LTDO.
+SNG2MU|Lo80|up|up|IP UNNUMBERED VPN JOCKEY
+SNG2MU|Lo90|up|up|IP UNNUMBERED munisam-vpn - VPN BRONZE - MUNICIPALIDAD DE GRAL. SAN MARTIN SEC. HAC. Y ECONO.
+SNG2MU|Lo100|up|up|Interfaz de gestion ADSL
+SNG2MU|Lo103|up|up|IP UNNUMBERED ospecom-vpn - VPN BRONZE - OSPECOM
+SNG2MU|Lo127|up|up|IP UNNUMERED vpn-vestiditos - VPN BRONZE - VESTIDITOS S.A.
+SNG2MU|Lo147|up|up|IP UNNUMERED darclibertador-vpn
+SNG2MU|Lo149|up|up|IP UNNUMBERED bna-vpn
+SNG2MU|Lo157|up|up|IP UNNUMBERED vpn-williner - VPN BRONZE - SUCESORES DE ALFREDO WILLINER S.A.
+SNG2MU|Lo162|up|up|IP UNNUMBERED hipodromo-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+SNG2MU|Lo182|up|up|garbarino-vpn - VPN BRONZE - GARBARINO
+SNG2MU|Lo198|up|up|IP UNNUMBERED vpn-gire-1 - VPN BRONZE - GIRE S.A.
+SNG2MU|Lo249|up|up|IP UNNUMBERED ncentralarg-vpn - VPN BRONZE - NUEVO CENTRAL ARGENTINO S.A.
+SNG2MU|Lo256|up|up|IP UNNUMBERED sepsa-vpn - VPN BRONZE - SERV.ELECTRONICO DE PAGO S.A.
+SNG2MU|Lo279|up|up|IP UNNUMBERED hsbc-vpn - VPN BRONZE - HSBC BANK ARGENTINA S.A.
+SNG2MU|Lo347|up|up|IP UNNUMBERED bcogalicia-vpn - VPN BRONZE - BANCO DE GALICIA Y BUENOS AIRE S S.A.
+SNG2MU|Lo433|up|up|IP UNNUMBERED hipodromo-3-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+SNG2MU|Lo454|up|up|IP UNNUMBERED poderjudicial-vpn - VPN BRONZE - PODER JUDICIAL DE LA PROVINCIA
+SNG2MU|Lo459|up|up|IP UNNUMERED clama-vpn
+SNG2MU|Lo479|up|up|IP UNNUMBERED solido-vpn - VPN BRONZE - SOLIDO S.R.L.
+SNG2MU|Lo507|up|up|IP UNNUMBERED maxima-vpn - VPN BRONZE - MAXIMA S.A. A.F.J.P.
+SNG2MU|Lo509|up|up|IP UNNUMBERED citibank-vpn - VPN BRONZE - CITIBANK N.A.
+SNG2MU|Lo546|up|up|IP UNNUMBERED ituran-vpn - VPN BRONZE - ITURAN
+SNG2MU|Lo594|up|up|IP UNNUMBERED diaarg-vpn - VPN BRONZE - DIA ARGENTINA S.A.
+SNG2MU|Lo601|up|up|IP UNNUMBERED alpargatas-vpn - VPN BRONZE - ALPARGATAS CALZADOS S.A.
+SNG2MU|Lo653|up|up|IP UNNUMBERED bigbloom-vpn - VPN BRONZE - BIG BLOOM S.A.
+SNG2MU|Lo707|up|up|IP UNNUMBERED correo-vpn - VPN BRONZE - CORREO OFICIAL DE LA REP.ARG.
+SNG2MU|Lo980|up|up|IP UNNUMBERED cjuleriaque-vpn - VPN BRONZE - CARLOS JULERIAQUE S.R.L.
+SNG2MU|Lo1017|up|up|IP UNNUMBERED asmuprofa-vpn - VPN BRONZE - ASOCIACION MUTUAL DE PROTECCIO N FAMILIAR
+SNG2MU|Lo1059|up|up|fravega-vpn - VPN BRONZE - FRAVEGA
+SNG2MU|Lo1154|up|up|IP UNNUMBERED arcosdora2-vpn
+SNG2MU|Lo1219|up|up|SIMONS DE ARGENTINA SAIC
+SNG2MU|Lo1226|up|up|IP UNNUMERED argentconec-vpn
+SNG2MU|Lo1312|up|up|IP UNNUMBERED wifioffload-vpn
+SNG2MU|Lo1385|up|up|IP UNNUMERED garbacontenidos-vpn - VPN BRONZE - GARBARINO S.A.
+SNG2MU|Lo1471|up|up|IP UNNUMERED unigestopems-vpn - VPN BRONZE - UNIDAD DE GESTION OPERATIVA MITRE SARMIENTO S.A.
+SNG2MU|Lo13143|up|up|IP UNNUMBERED tasabancofrances-vpn - VPN BRONZE INTERCARRIER. - TASA subcliente Bco. Frances
+SNG2MU|Lo57015|up|up|IP UNNUMBERED tasabapro-vpn - VPN BRONZE INTERCARRIER. - Tasa sub
+SNG2MU|Nu0|up|up| 
+SNG2MU|Mg0/RSP0/CPU0/0|admin-down|admin-down| 
+SNG2MU|Mg0/RSP0/CPU0/1|admin-down|admin-down| 
+SNG2MU|PT0/RSP0/CPU0/0|admin-down|admin-down| 
+SNG2MU|Mg0/RSP1/CPU0/0|admin-down|admin-down| 
+SNG2MU|Mg0/RSP1/CPU0/1|admin-down|admin-down| 
+SNG2MU|PT0/RSP1/CPU0/0|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/0|up|up|eNODOB - PARANA_POSTE_10 - A07-S187
+SNG2MU|Gi0/0/0/0.1193|up|up|eNODOB - PARANA_POSTE_10 - A07-S187 (1) (686463) - S1
+SNG2MU|Gi0/0/0/0.1194|up|up|eNODOB - PARANA_POSTE_10 - A07-S187 (2) (686463) - S1MME
+SNG2MU|Gi0/0/0/0.1195|up|up|eNODOB - PARANA_POSTE_10 - A07-S187 (3) (686463) - GOMRAN
+SNG2MU|Gi0/0/0/0.1196|up|up|NODOB - PARANA_POSTE_10 - A07-S187 (1) (686464) - 3G
+SNG2MU|Gi0/0/0/0.1197|up|up|NODOB - PARANA_POSTE_10 - A07-S187 (1) (686465) - 2G
+SNG2MU|Gi0/0/0/1|up|up|eNODOB - PARANA_HOSPITAL_BICENTENARIO - A07-S334
+SNG2MU|Gi0/0/0/1.1224|up|up|eNODOB - PARANA_HOSPITAL_BICENTENARIO - A07-S334 - (1) (752778) - S1
+SNG2MU|Gi0/0/0/1.1225|up|up|eNODOB - PARANA_HOSPITAL_BICENTENARIO - A07-S334 - (2) (752778) - S1MME
+SNG2MU|Gi0/0/0/1.1226|up|up|eNODOB - PARANA_HOSPITAL_BICENTENARIO - A07-S334 - (3) (752778) - GOMRAN
+SNG2MU|Gi0/0/0/1.1227|up|up|eNODOB - PARANA_HOSPITAL_BICENTENARIO - A07-S334 - (1) (752777) - 3G
+SNG2MU|Gi0/0/0/1.1228|up|up|eNODOB - PARANA_HOSPITAL_BICENTENARIO - A07-S334 - (1) (752776) - 2G
+SNG2MU|Gi0/0/0/2|up|up|eNODOB - PARANA_EVA_PERON - A07-S361
+SNG2MU|Gi0/0/0/2.1229|up|up|description eNODOB - PARANA_EVA_PERON - A07-S361 - (1) (753207) - S1
+SNG2MU|Gi0/0/0/2.1230|up|up|eNODOB - PARANA_EVA_PERON - A07-S361 - (2) (753207) - S1MME
+SNG2MU|Gi0/0/0/2.1231|up|up|eNODOB - PARANA_EVA_PERON - A07-S361 - (3) (753207) - GOMRAN
+SNG2MU|Gi0/0/0/2.1232|up|up|eNODOB - PARANA_EVA_PERON - A07-S361 - (1) (753208) - 3G
+SNG2MU|Gi0/0/0/2.1233|up|up|eNODOB - PARANA_EVA_PERON - A07-S361 - (1) (753209) - 2G
+SNG2MU|Gi0/0/0/3|up|up|eNODOB - PARANA_SAN_AGUSTIN - A07-S049
+SNG2MU|Gi0/0/0/3.1003|up|up|eNODOB - PARANA_SAN_AGUSTIN - A07-S049 (5686792) (427627) - S1
+SNG2MU|Gi0/0/0/3.1004|up|up|eNODOB - PARANA_SAN_AGUSTIN - A07-S049 (5686793) (427627) - S1MME
+SNG2MU|Gi0/0/0/3.1005|up|up|eNODOB - PARANA_SAN_AGUSTIN - A07-S049 (5686794) (427627) - GOMRAN
+SNG2MU|Gi0/0/0/3.1109|up|up|NODOB - PARANA_SAN_AGUSTIN - A07-S049 (0) (443348) - 3G
+SNG2MU|Gi0/0/0/3.1110|up|up|NODOB - PARANA_SAN_AGUSTIN - A07-S049 (0) (443267) - 2G
+SNG2MU|Gi0/0/0/4|up|up|L2L - JEFATURA DE POLICIA DE LA PROVINCIA DE ENTRE RIOS - REF:271659 LIN:2725325
+SNG2MU|Gi0/0/0/4.2|up|up|L2L - JEFATURA DE POLICIA DE LA PROVINCIA DE ENTRE RIOS - REF:271659 LIN:2725325 RSC2MB ELAN_41787_3663
+SNG2MU|Gi0/0/0/4.19|up|up|L2L - JEFATURA DE POLICIA DE LA PROVINCIA DE ENTRE RIOS - REF:271659 LIN:2725325 - GESTION
+SNG2MU|Gi0/0/0/5|up|up|L2L - JEFATURA DE POLICIA DE LA PROVINCIA DE ENTRE RIOS - REF:271684 LIN:2725288
+SNG2MU|Gi0/0/0/5.2|up|up|L2L - JEFATURA DE POLICIA DE LA PROVINCIA DE ENTRE RIOS - REF:271684 LIN:2725288 RSC2MB ELAN_41787_3663
+SNG2MU|Gi0/0/0/5.30|up|up|L2L - JEFATURA DE POLICIA DE LA PROVINCIA DE ENTRE RIOS - REF:271684 LIN:2725288 - GESTION
+SNG2MU|Gi0/0/0/6|up|up|L2L - JEFATURA DE POLICIA DE LA PROVINCIA DE ENTRE RIOS - REF:271696 LIN:2725302
+SNG2MU|Gi0/0/0/6.2|up|up|L2L - JEFATURA DE POLICIA DE LA PROVINCIA DE ENTRE RIOS - REF:271696 LIN:2725302 - RSC2MB ELAN_41787_3663
+SNG2MU|Gi0/0/0/6.31|up|up|L2L - JEFATURA DE POLICIA DE LA PROVINCIA DE ENTRE RIOS - REF:271696 LIN:2725302 - GESTION
+SNG2MU|Gi0/0/0/7|up|up|CONEXION NGN SNGT UMG8900 SAN AGUSTIN - L.11000891
+SNG2MU|Gi0/0/0/7.3119|up|up|NGN_UMG_SNGT_A_RSC2MB - L.11000891
+SNG2MU|Gi0/0/0/8|up|up|[ACCESO HSI][BE] SNGM01 11002214 
+SNG2MU|Gi0/0/0/9|up|up|[ACCESO HSI][BE] Enlace 1/2 SNG41D - 11003303
+SNG2MU|Gi0/0/0/10|up|up|[ACCESO HSI][BE] SNG11D 9701529
+SNG2MU|Gi0/0/0/11|up|up|[ACCESO HSI][BE] Enlace 1/2 SNG31D - 11003302
+SNG2MU|Gi0/0/0/12|up|up|[ACCESO HSI][BE] SNG21D 9701528
+SNG2MU|Gi0/0/0/13|up|up|[ACCESO HSI][BE] SNG51D 11003304
+SNG2MU|Gi0/0/0/14|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/15|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/16|down|down|CONEXION NGN SNGT UMG8900 SAN AGUSTIN - L.11000891
+SNG2MU|Gi0/0/0/16.3119|down|down|NGN_UMG_SNGT_A_RSC2MB - L.11000891
+SNG2MU|Gi0/0/0/17|up|up|[ACCESO HSI][BE] SNG61D 11005527
+SNG2MU|Gi0/0/0/18|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/19|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/20|up|up|NGN UA5000 - SNGG01 - SAN AGUSTIN - linea 11000228
+SNG2MU|Gi0/0/0/21|up|up|VPN PLATINUM - NEOGAME SA - REF: 872811 - LINEA: 2854411
+SNG2MU|Gi0/0/0/21.21|up|up|VPN PLATINUM - NEOGAME SA - REF: 872811 - LINEA: 2854411
+SNG2MU|Gi0/0/0/22|up|up|[ACCESO HSI][BE] SNG71D 11005541
+SNG2MU|Gi0/0/0/23|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/24|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/25|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/26|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/27|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/28|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/29|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/30|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/31|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/32|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/33|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/34|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/35|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/36|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/37|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/38|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/39|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/40|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/41|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/42|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/43|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/44|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/45|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/46|admin-down|admin-down| 
+SNG2MU|Gi0/0/0/47|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/0|up|up|[ACCESO HSI][FI] Enlace 2/2 SNG41D - 11003303
+SNG2MU|Gi0/1/0/1|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/2|up|up|[ACCESO HSI][FI] Enlace 2/2 SNG51D
+SNG2MU|Gi0/1/0/3|up|up|[ACCESO HSI][BE] Enlace 2/2 SNG31D - 11003302
+SNG2MU|Gi0/1/0/4|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/5|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/6|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/7|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/8|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/9|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/10|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/11|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/12|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/13|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/14|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/15|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/16|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/17|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/18|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/19|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/20|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/21|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/22|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/23|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/24|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/25|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/26|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/27|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/28|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/29|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/30|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/31|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/32|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/33|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/34|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/35|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/36|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/37|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/38|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/39|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/40|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/41|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/42|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/43|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/44|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/45|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/46|admin-down|admin-down| 
+SNG2MU|Gi0/1/0/47|admin-down|admin-down| 
+SNG2MU|Te0/3/0/0|down|down|Enlace 10G A PAR3MU_Te2/0/6 (Linea:11004785) - UPLINK BBIP
+SNG2MU|Te0/3/0/1|up|up|Enlace 10G A IRD1NA Te0/11/0/16 (Linea:11005507) - UPLINK BBIP
+SNG2MU|Te0/3/0/2|admin-down|admin-down| 
+SNG2MU|Te0/3/0/3|admin-down|admin-down| 
+SNG2MU|Te0/3/0/4|admin-down|admin-down| 
+SNG2MU|Te0/3/0/5|admin-down|admin-down| 
+SNG2MU|Te0/3/0/6|admin-down|admin-down| 
+SNG2MU|Te0/3/0/7|admin-down|admin-down| 
+SNG2MU|Te0/3/0/8|admin-down|admin-down| 
+SNG2MU|Te0/3/0/9|admin-down|admin-down| 
+SNG2MU|Te0/3/0/10|admin-down|admin-down| 
+SNG2MU|Te0/3/0/11|admin-down|admin-down| 
+SNG2MU|Te0/3/0/12|admin-down|admin-down| 
+SNG2MU|Te0/3/0/13|admin-down|admin-down| 
+SNG2MU|Te0/3/0/14|admin-down|admin-down| 
+SNG2MU|Te0/3/0/15|admin-down|admin-down| 
+SNG2MU|Te0/3/0/16|admin-down|admin-down| 
+SNG2MU|Te0/3/0/17|admin-down|admin-down| 
+SNG2MU|Te0/3/0/18|admin-down|admin-down| 
+SNG2MU|Te0/3/0/19|admin-down|admin-down| 
+SNG2MU|Te0/4/0/0|down|down|Enlace 10G A PAR3MU_Te2/0/5 (Linea:11004784) - UPLINK BBIP
+SNG2MU|Te0/4/0/1|up|up|Enlace 10G A BEL1NA Te0/11/0/1 (Linea:11005508) - UPLINK BBIP
+SNG2MU|Te0/4/0/2|admin-down|admin-down|PRUEBA
+SNG2MU|Te0/4/0/3|admin-down|admin-down| 
+SNG2MU|Te0/4/0/4|admin-down|admin-down| 
+SNG2MU|Te0/4/0/5|admin-down|admin-down| 
+SNG2MU|Te0/4/0/6|admin-down|admin-down| 
+SNG2MU|Te0/4/0/7|admin-down|admin-down| 
+SNG2MU|Te0/4/0/8|admin-down|admin-down| 
+SNG2MU|Te0/4/0/9|admin-down|admin-down| 
+SNG2MU|Te0/4/0/10|admin-down|admin-down| 
+SNG2MU|Te0/4/0/11|admin-down|admin-down| 
+SNG2MU|Te0/4/0/12|admin-down|admin-down| 
+SNG2MU|Te0/4/0/13|admin-down|admin-down| 
+SNG2MU|Te0/4/0/14|admin-down|admin-down| 
+SNG2MU|Te0/4/0/15|admin-down|admin-down| 
+SNG2MU|Te0/4/0/16|admin-down|admin-down| 
+SNG2MU|Te0/4/0/17|admin-down|admin-down| 
+SNG2MU|Te0/4/0/18|admin-down|admin-down| 
+SNG2MU|Te0/4/0/19|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/0|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/1|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/2|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/3|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/4|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/5|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/6|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/7|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/8|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/9|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/10|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/11|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/12|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/13|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/14|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/15|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/16|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/17|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/18|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/19|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/20|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/21|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/22|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/23|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/24|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/25|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/26|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/27|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/28|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/29|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/30|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/31|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/32|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/33|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/34|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/35|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/36|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/37|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/38|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/39|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/40|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/41|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/42|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/43|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/44|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/45|admin-down|admin-down| 
+SNG2MU|Gi0/7/0/46|admin-down|admin-down| 
+
+

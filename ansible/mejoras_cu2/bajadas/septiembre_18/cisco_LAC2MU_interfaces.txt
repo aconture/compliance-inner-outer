@@ -1,0 +1,730 @@
+shelfname|interface|portoperationalstate|protocol|info1
+LAC2MU|BE1|up|up|[ACCESO HSI][BE] LAC21D 13000868
+LAC2MU|BE1.2101|up|up|[GESTION] LAC21D HUA 5600 [ADS2]
+LAC2MU|BE1.3101|up|up|[TOIP] LAC21D HUA 5600 [ADS2]
+LAC2MU|BE1.3618|up|up|VPN GOLD - AGUAS CORDOBESAS S.A. - Ref:782243 - Lin:2846619 LAC21D 0/15 2-3
+LAC2MU|BE1.3620|up|up|VPN GOLD - MIN ADM GESTION PUBLICA - Ref:776358 - L:2843102 - LAC21D 0/15 4-5
+LAC2MU|BE1.3655|up|up|VPN - PAMI - REF:544159 - LIN:2720935 -  ACC: LAC21D 14/7
+LAC2MU|BE1.3658|up|up|PRESURIZACION LA CALERA - REF:943199 - ACC:LAC21D 0/14/10
+LAC2MU|BE1.3664|up|up|VPN Head Quarter - CONMEGA A.C.E. - Ref:748154 - Lin:2839346 - Acc:LAC21D 14/16-17
+LAC2MU|BE1.3666|up|up|VPN Head Quarter - Min Gob Cba - Ref:575066 Lin:2763529 Acc:LAC21D 14 18
+LAC2MU|BE1.3670|up|up|VPN Head Quarter - MinGobCba - Ref:559443 Lin:2758185 Acc:LAC21D 14 22/23
+LAC2MU|BE1.3850|up|up|PRESURIZACION LA CALERA - REF:943199 - ACC:LAC21D 0/14/10
+LAC2MU|BE1.3851|admin-down|admin-down|IntegraLight - WATCHMAN SEGURIDAD SA - Ref:604052 - Lin:2776627 Acc:LAC21D 0-14-011
+LAC2MU|BE1.3854|up|up|IntegraLight - HAYQUEL ALEJANDRO A. - Ref:636468 - Lin:2789435 Acc:LAC21D 0-14-014
+LAC2MU|BE1.3860|admin-down|admin-down|Integra Light 2M - SUPER CORDOBA A GRANEL S.A. - Ref:555438 Lin:2758335 Acc:LAC21D 0/14/20 4H // Inhabilitacion de Servicio
+LAC2MU|BE1.3979|up|down|[ACCESO GHDSL] LAC21D
+LAC2MU|BE1.4101|up|up|[DATOS] LAC21D HUA 5600 [ADS2][L3]
+LAC2MU|BE2|up|up|[ACCESO HSI][BE] LH7G01 13000868
+LAC2MU|BE2.3|up|up|[RTP][SIGN] LH7G01 HUA 5000 [NGN]
+LAC2MU|BE2.4|up|up|[GESTION][IPMB] LH7G01 HUA 5000 [NGN]
+LAC2MU|BE2.5|up|up|[GESTION][PVM] LH7G01 HUA 5000 [NGN]
+LAC2MU|BE2.3101|up|up|[TOIP] LH7G01 HUA 5000 [ADS2]
+LAC2MU|BE2.4101|up|up|[DATOS] LH7G01 HUA 5000 [ADS2][L3]
+LAC2MU|BE3|up|up|[ACCESO HSI][BE] LACM01 
+LAC2MU|BE3.2101|up|up|[GESTION] LACM01 HUA 5600_T [VDS2]
+LAC2MU|BE3.3101|up|up|[TOIP] LACM01 HUA 5600_T [VDS2]
+LAC2MU|BE3.4101|up|up|[DATOS] LACM01 HUA 5600_T [VDS2][L3]
+LAC2MU|BE5|up|up|[ACCESO HSI][BE] 29D11C 
+LAC2MU|BE5.2101|up|up|[GESTION] 29D11C HUA 5616 [VDS2]
+LAC2MU|BE5.3101|up|up|[TOIP] 29D11C HUA 5616 [VDS2]
+LAC2MU|BE5.4101|up|up|[DATOS] 29D11C HUA 5616 [VDS2][L3]
+LAC2MU|BE6|up|up|[ACCESO HSI][BE] 3ZHG01 13001988
+LAC2MU|BE6.2|up|up|[SIGN] NGN - MA5616 COMPLEJO LA CUESTA - 3ZHG01 - Linea 13001988
+LAC2MU|BE6.3|up|up|[RTP] [SIGN] NGN - MA5616 COMPLEJO LA CUESTA - 3ZHG01 - Linea 13001988
+LAC2MU|BE6.4|up|up|[GESTION] [SIGN] NGN - MA5616 COMPLEJO LA CUESTA - 3ZHG01 - Linea 13001988
+LAC2MU|BE6.3101|up|up|[TOIP] 3ZHG01 HUA 5616 [VDS2]
+LAC2MU|BE6.4101|up|up|[DATOS] 3ZHG01 HUA 5616 [VDS2][L3]
+LAC2MU|BE7|up|up|[ACCESO HSI][BE] LAC31D 
+LAC2MU|BE7.2101|up|up|[GESTION] LAC31D HUA 5600 [ADS2]
+LAC2MU|BE7.3101|up|up|[TOIP] LAC31D HUA 5600 [ADS2]
+LAC2MU|BE7.4101|up|up|[DATOS] LAC31D HUA 5600 [ADS2][L3]
+LAC2MU|BE7.4101.pppoe59|up|up| 
+LAC2MU|BE7.4101.pppoe169|up|up| 
+LAC2MU|BE7.4101.pppoe192|up|up| 
+LAC2MU|BE7.4101.pppoe243|up|up| 
+LAC2MU|BE7.4101.pppoe335|up|up| 
+LAC2MU|BE7.4101.pppoe388|up|up| 
+LAC2MU|BE7.4101.pppoe430|up|up| 
+LAC2MU|BE7.4101.pppoe444|up|up| 
+LAC2MU|BE7.4101.pppoe456|up|up| 
+LAC2MU|BE7.4101.pppoe478|up|up| 
+LAC2MU|BE7.4101.pppoe502|up|up| 
+LAC2MU|BE7.4101.pppoe582|up|up| 
+LAC2MU|BE7.4101.pppoe601|up|up| 
+LAC2MU|BE7.4101.pppoe677|up|up| 
+LAC2MU|BE7.4101.pppoe700|up|up| 
+LAC2MU|BE7.4101.pppoe709|up|up| 
+LAC2MU|BE7.4101.pppoe731|up|up| 
+LAC2MU|BE7.4101.pppoe735|up|up| 
+LAC2MU|BE7.4101.pppoe748|up|up| 
+LAC2MU|BE7.4101.pppoe783|up|up| 
+LAC2MU|BE7.4101.pppoe791|up|up| 
+LAC2MU|BE7.4101.pppoe876|up|up| 
+LAC2MU|BE7.4101.pppoe880|up|up| 
+LAC2MU|BE7.4101.pppoe944|up|up| 
+LAC2MU|BE7.4101.pppoe983|up|up| 
+LAC2MU|BE7.4101.pppoe986|up|up| 
+LAC2MU|BE7.4101.pppoe1043|up|up| 
+LAC2MU|BE7.4101.pppoe1180|up|up| 
+LAC2MU|BE7.4101.pppoe1216|up|up| 
+LAC2MU|BE7.4101.pppoe1324|up|up| 
+LAC2MU|BE7.4101.pppoe1410|up|up| 
+LAC2MU|BE7.4101.pppoe1412|up|up| 
+LAC2MU|BE7.4101.pppoe1463|up|up| 
+LAC2MU|BE7.4101.pppoe1468|up|up| 
+LAC2MU|BE7.4101.pppoe1523|up|up| 
+LAC2MU|BE7.4101.pppoe1574|up|up| 
+LAC2MU|BE7.4101.pppoe1626|up|up| 
+LAC2MU|BE7.4101.pppoe1627|up|up| 
+LAC2MU|BE7.4101.pppoe1629|up|up| 
+LAC2MU|BE7.4101.pppoe1635|up|up| 
+LAC2MU|BE7.4101.pppoe1639|up|up| 
+LAC2MU|BE7.4101.pppoe1644|up|up| 
+LAC2MU|BE7.4101.pppoe1665|up|up| 
+LAC2MU|BE7.4101.pppoe1745|up|up| 
+LAC2MU|BE7.4101.pppoe1800|up|up| 
+LAC2MU|BE7.4101.pppoe1875|up|up| 
+LAC2MU|BE7.4101.pppoe2083|up|up| 
+LAC2MU|BE7.4101.pppoe2091|up|up| 
+LAC2MU|BE7.4101.pppoe2130|up|up| 
+LAC2MU|BE7.4101.pppoe2138|up|up| 
+LAC2MU|BE7.4101.pppoe2166|up|up| 
+LAC2MU|BE7.4101.pppoe2168|up|up| 
+LAC2MU|BE7.4101.pppoe2172|up|up| 
+LAC2MU|BE7.4101.pppoe2182|up|up| 
+LAC2MU|BE7.4101.pppoe2191|up|up| 
+LAC2MU|BE7.4101.pppoe2206|up|up| 
+LAC2MU|BE7.4101.pppoe2219|up|up| 
+LAC2MU|BE7.4101.pppoe2230|up|up| 
+LAC2MU|BE7.4101.pppoe2237|up|up| 
+LAC2MU|BE7.4101.pppoe2256|up|up| 
+LAC2MU|BE7.4101.pppoe2329|up|up| 
+LAC2MU|BE7.4101.pppoe2398|up|up| 
+LAC2MU|BE7.4101.pppoe2422|up|up| 
+LAC2MU|BE7.4101.pppoe2463|up|up| 
+LAC2MU|BE7.4101.pppoe2498|up|up| 
+LAC2MU|BE7.4101.pppoe2503|up|up| 
+LAC2MU|BE7.4101.pppoe2523|up|up| 
+LAC2MU|BE7.4101.pppoe2578|up|up| 
+LAC2MU|BE7.4101.pppoe2579|up|up| 
+LAC2MU|BE7.4101.pppoe2625|up|up| 
+LAC2MU|BE7.4101.pppoe2659|up|up| 
+LAC2MU|BE7.4101.pppoe2663|up|up| 
+LAC2MU|BE7.4101.pppoe2703|up|up| 
+LAC2MU|BE7.4101.pppoe2707|up|up| 
+LAC2MU|BE7.4101.pppoe2713|up|up| 
+LAC2MU|BE7.4101.pppoe2716|up|up| 
+LAC2MU|BE7.4101.pppoe2749|up|up| 
+LAC2MU|BE7.4101.pppoe2801|up|up| 
+LAC2MU|BE7.4101.pppoe2827|up|up| 
+LAC2MU|BE7.4101.pppoe2891|up|up| 
+LAC2MU|BE7.4101.pppoe2920|up|up| 
+LAC2MU|BE7.4101.pppoe2927|up|up| 
+LAC2MU|BE7.4101.pppoe2939|up|up| 
+LAC2MU|BE7.4101.pppoe2957|up|up| 
+LAC2MU|BE7.4101.pppoe2973|up|up| 
+LAC2MU|BE7.4101.pppoe2995|up|up| 
+LAC2MU|BE7.4101.pppoe3002|up|up| 
+LAC2MU|BE7.4101.pppoe3006|up|up| 
+LAC2MU|BE7.4101.pppoe3024|up|up| 
+LAC2MU|BE7.4101.pppoe3039|up|up| 
+LAC2MU|BE7.4101.pppoe3048|up|up| 
+LAC2MU|BE7.4101.pppoe3054|up|up| 
+LAC2MU|BE7.4101.pppoe3063|up|up| 
+LAC2MU|BE7.4101.pppoe3077|up|up| 
+LAC2MU|BE7.4101.pppoe3088|up|up| 
+LAC2MU|BE7.4101.pppoe3137|up|up| 
+LAC2MU|BE7.4101.pppoe3188|up|up| 
+LAC2MU|BE7.4101.pppoe3248|up|up| 
+LAC2MU|BE7.4101.pppoe3265|up|up| 
+LAC2MU|BE7.4101.pppoe3270|up|up| 
+LAC2MU|BE7.4101.pppoe3281|up|up| 
+LAC2MU|BE7.4101.pppoe3402|up|up| 
+LAC2MU|BE7.4101.pppoe3450|up|up| 
+LAC2MU|BE7.4101.pppoe3451|up|up| 
+LAC2MU|BE7.4101.pppoe3604|up|up| 
+LAC2MU|BE7.4101.pppoe3607|up|up| 
+LAC2MU|BE7.4101.pppoe3618|up|up| 
+LAC2MU|BE7.4101.pppoe3647|up|up| 
+LAC2MU|BE7.4101.pppoe3655|up|up| 
+LAC2MU|BE7.4101.pppoe3682|up|up| 
+LAC2MU|BE7.4101.pppoe3733|up|up| 
+LAC2MU|BE7.4101.pppoe3784|up|up| 
+LAC2MU|BE7.4101.pppoe3800|up|up| 
+LAC2MU|BE7.4101.pppoe3847|up|up| 
+LAC2MU|BE7.4101.pppoe3893|up|up| 
+LAC2MU|BE7.4101.pppoe3903|up|up| 
+LAC2MU|BE7.4101.pppoe3925|up|up| 
+LAC2MU|BE7.4101.pppoe3940|up|up| 
+LAC2MU|BE7.4101.pppoe3945|up|up| 
+LAC2MU|BE7.4101.pppoe3956|up|up| 
+LAC2MU|BE7.4101.pppoe3968|up|up| 
+LAC2MU|BE7.4101.pppoe3978|up|up| 
+LAC2MU|BE7.4101.pppoe3992|up|up| 
+LAC2MU|BE7.4101.pppoe3997|up|up| 
+LAC2MU|BE7.4101.pppoe4000|up|up| 
+LAC2MU|BE7.4101.pppoe4036|up|up| 
+LAC2MU|BE7.4101.pppoe4042|up|up| 
+LAC2MU|BE7.4101.pppoe4079|up|up| 
+LAC2MU|BE7.4101.pppoe4081|up|up| 
+LAC2MU|BE7.4101.pppoe4105|up|up| 
+LAC2MU|BE7.4101.pppoe4123|up|up| 
+LAC2MU|BE7.4101.pppoe4129|up|up| 
+LAC2MU|BE7.4101.pppoe4148|up|up| 
+LAC2MU|BE7.4101.pppoe4184|up|up| 
+LAC2MU|BE7.4101.pppoe4193|up|up| 
+LAC2MU|BE7.4101.pppoe4197|up|up| 
+LAC2MU|BE7.4101.pppoe4201|up|up| 
+LAC2MU|BE7.4101.pppoe4217|up|up| 
+LAC2MU|BE7.4101.pppoe4222|up|up| 
+LAC2MU|BE7.4101.pppoe4281|up|up| 
+LAC2MU|BE7.4101.pppoe4298|up|up| 
+LAC2MU|BE7.4101.pppoe4325|up|up| 
+LAC2MU|BE7.4101.pppoe4327|up|up| 
+LAC2MU|BE7.4101.pppoe4343|up|up| 
+LAC2MU|BE7.4101.pppoe4373|up|up| 
+LAC2MU|BE7.4101.pppoe4394|up|up| 
+LAC2MU|BE7.4101.pppoe4410|up|up| 
+LAC2MU|BE7.4101.pppoe4416|up|up| 
+LAC2MU|BE7.4101.pppoe4433|up|up| 
+LAC2MU|BE7.4101.pppoe4439|up|up| 
+LAC2MU|BE7.4101.pppoe4448|up|up| 
+LAC2MU|BE7.4101.pppoe4449|up|up| 
+LAC2MU|BE7.4101.pppoe4450|up|up| 
+LAC2MU|BE7.4101.pppoe4456|up|up| 
+LAC2MU|BE7.4101.pppoe4460|up|up| 
+LAC2MU|BE7.4101.pppoe4463|up|up| 
+LAC2MU|BE7.4101.pppoe4467|up|up| 
+LAC2MU|BE7.4101.pppoe4493|up|up| 
+LAC2MU|BE7.4101.pppoe4496|up|up| 
+LAC2MU|BE7.4101.pppoe4501|up|up| 
+LAC2MU|BE7.4101.pppoe4518|up|up| 
+LAC2MU|BE7.4101.pppoe4527|up|up| 
+LAC2MU|BE7.4101.pppoe4550|up|up| 
+LAC2MU|BE7.4101.pppoe4583|up|up| 
+LAC2MU|BE7.4101.pppoe4584|up|up| 
+LAC2MU|BE7.4101.pppoe4586|up|up| 
+LAC2MU|BE7.4101.pppoe4589|up|up| 
+LAC2MU|BE7.4101.pppoe4597|up|up| 
+LAC2MU|BE7.4101.pppoe4607|up|up| 
+LAC2MU|BE7.4101.pppoe4609|up|up| 
+LAC2MU|BE7.4101.pppoe4610|up|up| 
+LAC2MU|BE7.4101.pppoe4619|up|up| 
+LAC2MU|BE7.4101.pppoe4623|up|up| 
+LAC2MU|BE7.4101.pppoe4646|up|up| 
+LAC2MU|BE7.4101.pppoe4656|up|up| 
+LAC2MU|BE7.4101.pppoe4663|up|up| 
+LAC2MU|BE7.4101.pppoe4664|up|up| 
+LAC2MU|BE7.4101.pppoe4687|up|up| 
+LAC2MU|BE7.4101.pppoe4695|up|up| 
+LAC2MU|BE7.4101.pppoe4698|up|up| 
+LAC2MU|BE7.4101.pppoe4755|up|up| 
+LAC2MU|BE7.4101.pppoe4756|up|up| 
+LAC2MU|BE7.4101.pppoe4811|up|up| 
+LAC2MU|BE7.4101.pppoe4812|up|up| 
+LAC2MU|BE7.4101.pppoe4881|up|up| 
+LAC2MU|BE7.4101.pppoe4891|up|up| 
+LAC2MU|BE7.4101.pppoe4893|up|up| 
+LAC2MU|BE7.4101.pppoe4900|up|up| 
+LAC2MU|BE7.4101.pppoe4925|up|up| 
+LAC2MU|BE7.4101.pppoe4987|up|up| 
+LAC2MU|BE7.4101.pppoe4993|up|up| 
+LAC2MU|BE7.4101.pppoe5010|up|up| 
+LAC2MU|BE7.4101.pppoe5045|up|up| 
+LAC2MU|BE7.4101.pppoe5047|up|up| 
+LAC2MU|BE7.4101.pppoe5059|up|up| 
+LAC2MU|BE7.4101.pppoe5063|up|up| 
+LAC2MU|BE7.4101.pppoe5074|up|up| 
+LAC2MU|BE7.4101.pppoe5076|up|up| 
+LAC2MU|BE7.4101.pppoe5087|up|up| 
+LAC2MU|BE7.4101.pppoe5123|up|up| 
+LAC2MU|BE7.4101.pppoe5131|up|up| 
+LAC2MU|BE7.4101.pppoe5145|up|up| 
+LAC2MU|BE7.4101.pppoe5169|up|up| 
+LAC2MU|BE7.4101.pppoe5171|up|up| 
+LAC2MU|BE7.4101.pppoe5181|up|up| 
+LAC2MU|BE7.4101.pppoe5216|up|up| 
+LAC2MU|BE7.4101.pppoe5222|up|up| 
+LAC2MU|BE7.4101.pppoe5223|up|up| 
+LAC2MU|BE7.4101.pppoe5225|up|up| 
+LAC2MU|BE7.4101.pppoe5226|up|up| 
+LAC2MU|BE7.4101.pppoe5232|up|up| 
+LAC2MU|BE7.4101.pppoe5256|up|up| 
+LAC2MU|BE7.4101.pppoe5264|up|up| 
+LAC2MU|BE7.4101.pppoe5314|up|up| 
+LAC2MU|BE7.4101.pppoe5315|up|up| 
+LAC2MU|BE7.4101.pppoe5322|up|up| 
+LAC2MU|BE7.4101.pppoe5328|up|up| 
+LAC2MU|BE7.4101.pppoe5339|up|up| 
+LAC2MU|BE7.4101.pppoe5375|up|up| 
+LAC2MU|BE7.4101.pppoe5377|up|up| 
+LAC2MU|BE7.4101.pppoe5380|up|up| 
+LAC2MU|BE7.4101.pppoe5389|up|up| 
+LAC2MU|BE7.4101.pppoe5393|up|up| 
+LAC2MU|BE7.4101.pppoe5418|up|up| 
+LAC2MU|BE7.4101.pppoe5428|up|up| 
+LAC2MU|BE7.4101.pppoe5451|up|up| 
+LAC2MU|BE7.4101.pppoe5459|up|up| 
+LAC2MU|BE7.4101.pppoe5462|up|up| 
+LAC2MU|BE7.4101.pppoe5484|up|up| 
+LAC2MU|BE7.4101.pppoe5493|up|up| 
+LAC2MU|BE7.4101.pppoe5494|up|up| 
+LAC2MU|BE7.4101.pppoe5495|up|up| 
+LAC2MU|BE7.4101.pppoe5498|up|up| 
+LAC2MU|BE7.4101.pppoe5503|up|up| 
+LAC2MU|BE7.4101.pppoe5512|up|up| 
+LAC2MU|BE7.4101.pppoe5514|up|up| 
+LAC2MU|BE7.4101.pppoe5524|up|up| 
+LAC2MU|BE7.4101.pppoe5526|up|up| 
+LAC2MU|BE7.4101.pppoe5560|up|up| 
+LAC2MU|BE7.4101.pppoe5565|up|up| 
+LAC2MU|BE7.4101.pppoe5601|up|up| 
+LAC2MU|BE7.4101.pppoe5611|up|up| 
+LAC2MU|BE7.4101.pppoe5614|up|up| 
+LAC2MU|BE7.4101.pppoe5621|up|up| 
+LAC2MU|BE7.4101.pppoe5632|up|up| 
+LAC2MU|BE7.4101.pppoe5633|up|up| 
+LAC2MU|BE7.4101.pppoe5639|up|up| 
+LAC2MU|BE7.4101.pppoe5644|up|up| 
+LAC2MU|BE7.4101.pppoe5647|up|up| 
+LAC2MU|BE7.4101.pppoe5648|up|up| 
+LAC2MU|BE7.4101.pppoe5651|up|up| 
+LAC2MU|BE7.4101.pppoe5653|up|up| 
+LAC2MU|BE7.4101.pppoe5654|up|up| 
+LAC2MU|BE7.4101.pppoe5655|up|up| 
+LAC2MU|BE7.4101.pppoe5662|up|up| 
+LAC2MU|BE7.4101.pppoe5666|up|up| 
+LAC2MU|BE7.4101.pppoe5670|up|up| 
+LAC2MU|BE7.4101.pppoe5673|up|up| 
+LAC2MU|BE7.4101.pppoe5675|up|up| 
+LAC2MU|BE7.4101.pppoe5680|up|up| 
+LAC2MU|BE7.4101.pppoe5681|up|up| 
+LAC2MU|BE7.4101.pppoe5682|up|up| 
+LAC2MU|BE7.4101.pppoe5686|up|up| 
+LAC2MU|BE7.4101.pppoe5689|up|up| 
+LAC2MU|BE7.4101.pppoe5694|up|up| 
+LAC2MU|BE7.4101.pppoe5696|up|up| 
+LAC2MU|BE7.4101.pppoe5697|up|up| 
+LAC2MU|BE7.4101.pppoe5698|up|up| 
+LAC2MU|BE7.4101.pppoe5702|up|up| 
+LAC2MU|BE7.4101.pppoe5710|up|up| 
+LAC2MU|BE7.4101.pppoe5713|up|up| 
+LAC2MU|BE7.4101.pppoe5724|up|up| 
+LAC2MU|BE7.4101.pppoe5727|up|up| 
+LAC2MU|BE7.4101.pppoe5728|up|up| 
+LAC2MU|BE7.4101.pppoe5730|up|up| 
+LAC2MU|BE7.4101.pppoe5740|up|up| 
+LAC2MU|BE7.4101.pppoe5742|up|up| 
+LAC2MU|BE7.4101.pppoe5753|up|up| 
+LAC2MU|BE7.4101.pppoe5758|up|up| 
+LAC2MU|BE7.4101.pppoe5760|up|up| 
+LAC2MU|BE7.4101.pppoe5767|up|up| 
+LAC2MU|BE7.4101.pppoe5768|up|up| 
+LAC2MU|BE7.4101.pppoe5769|up|up| 
+LAC2MU|BE7.4101.pppoe5773|up|up| 
+LAC2MU|BE7.4101.pppoe5774|up|up| 
+LAC2MU|BE7.4101.pppoe5775|up|up| 
+LAC2MU|BE7.4101.pppoe5777|up|up| 
+LAC2MU|BE7.4101.pppoe5784|up|up| 
+LAC2MU|BE7.4101.pppoe5786|up|up| 
+LAC2MU|BE7.4101.pppoe5789|up|up| 
+LAC2MU|BE7.4101.pppoe5790|up|up| 
+LAC2MU|BE7.4101.pppoe5795|up|up| 
+LAC2MU|BE7.4101.pppoe5802|up|up| 
+LAC2MU|BE7.4101.pppoe5804|up|up| 
+LAC2MU|BE7.4101.pppoe5807|up|up| 
+LAC2MU|BE7.4101.pppoe5812|up|up| 
+LAC2MU|BE7.4101.pppoe5814|up|up| 
+LAC2MU|BE7.4101.pppoe5817|up|up| 
+LAC2MU|BE7.4101.pppoe5818|up|up| 
+LAC2MU|BE7.4101.pppoe5825|up|up| 
+LAC2MU|BE7.4101.pppoe5827|up|up| 
+LAC2MU|BE7.4101.pppoe5828|up|up| 
+LAC2MU|BE7.4101.pppoe5830|up|up| 
+LAC2MU|BE7.4101.pppoe5839|up|up| 
+LAC2MU|BE7.4101.pppoe5851|up|up| 
+LAC2MU|BE7.4101.pppoe5857|up|up| 
+LAC2MU|BE7.4101.pppoe5865|up|up| 
+LAC2MU|BE7.4101.pppoe5866|up|up| 
+LAC2MU|BE7.4101.pppoe5869|up|up| 
+LAC2MU|BE7.4101.pppoe5875|up|up| 
+LAC2MU|BE7.4101.pppoe5876|up|up| 
+LAC2MU|BE7.4101.pppoe5883|up|up| 
+LAC2MU|BE7.4101.pppoe5890|up|up| 
+LAC2MU|BE7.4101.pppoe5903|up|up| 
+LAC2MU|BE7.4101.pppoe5906|up|up| 
+LAC2MU|BE7.4101.pppoe5908|up|up| 
+LAC2MU|BE7.4101.pppoe5924|up|up| 
+LAC2MU|BE7.4101.pppoe5928|up|up| 
+LAC2MU|BE7.4101.pppoe5935|up|up| 
+LAC2MU|BE7.4101.pppoe5941|up|up| 
+LAC2MU|BE7.4101.pppoe5942|up|up| 
+LAC2MU|BE7.4101.pppoe5948|up|up| 
+LAC2MU|BE7.4101.pppoe5952|up|up| 
+LAC2MU|BE7.4101.pppoe5957|up|up| 
+LAC2MU|BE7.4101.pppoe5963|up|up| 
+LAC2MU|BE7.4101.pppoe5966|up|up| 
+LAC2MU|BE7.4101.pppoe5967|up|up| 
+LAC2MU|BE7.4101.pppoe5970|up|up| 
+LAC2MU|BE7.4101.pppoe5971|up|up| 
+LAC2MU|BE7.4101.pppoe5972|up|up| 
+LAC2MU|BE7.4101.pppoe5973|up|up| 
+LAC2MU|BE7.4101.pppoe5977|up|up| 
+LAC2MU|BE7.4101.pppoe5978|up|up| 
+LAC2MU|BE7.4101.pppoe5979|up|up| 
+LAC2MU|BE7.4101.pppoe5980|up|up| 
+LAC2MU|BE7.4101.pppoe5981|up|up| 
+LAC2MU|BE7.4101.pppoe5982|up|up| 
+LAC2MU|BE7.4101.pppoe5983|up|up| 
+LAC2MU|BE7.4101.pppoe5984|up|up| 
+LAC2MU|BE7.4101.pppoe5985|up|up| 
+LAC2MU|BE7.4101.pppoe5987|up|up| 
+LAC2MU|BE8|up|up|[ACCESO HSI][BE] LAC41D 
+LAC2MU|BE8.2101|up|up|[GESTION] LAC41D HUA 5600 [ADS2]
+LAC2MU|BE8.3101|up|up|[TOIP] LAC41D HUA 5600 [ADS2]
+LAC2MU|BE8.4101|up|up|[DATOS] LAC41D HUA 5600 [ADS2][L3]
+LAC2MU|BE8.4101.pppoe990|up|up| 
+LAC2MU|BE8.4101.pppoe1448|up|up| 
+LAC2MU|BE8.4101.pppoe1461|up|up| 
+LAC2MU|BE8.4101.pppoe1467|up|up| 
+LAC2MU|BE8.4101.pppoe1468|up|up| 
+LAC2MU|BE8.4101.pppoe1472|up|up| 
+LAC2MU|BE8.4101.pppoe1474|up|up| 
+LAC2MU|BE8.4101.pppoe1479|up|up| 
+LAC2MU|BE8.4101.pppoe1480|up|up| 
+LAC2MU|BE8.4101.pppoe1481|up|up| 
+LAC2MU|BE8.4101.pppoe1487|up|up| 
+LAC2MU|BE8.4101.pppoe1498|up|up| 
+LAC2MU|BE8.4101.pppoe1506|up|up| 
+LAC2MU|BE8.4101.pppoe1511|up|up| 
+LAC2MU|BE8.4101.pppoe1527|up|up| 
+LAC2MU|BE8.4101.pppoe1530|up|up| 
+LAC2MU|BE8.4101.pppoe1564|up|up| 
+LAC2MU|BE8.4101.pppoe1573|up|up| 
+LAC2MU|BE8.4101.pppoe1592|up|up| 
+LAC2MU|BE8.4101.pppoe1593|up|up| 
+LAC2MU|BE8.4101.pppoe1598|up|up| 
+LAC2MU|BE8.4101.pppoe1619|up|up| 
+LAC2MU|BE8.4101.pppoe1707|up|up| 
+LAC2MU|BE8.4101.pppoe2086|up|up| 
+LAC2MU|BE8.4101.pppoe2272|up|up| 
+LAC2MU|BE8.4101.pppoe2311|up|up| 
+LAC2MU|BE8.4101.pppoe2321|up|up| 
+LAC2MU|BE8.4101.pppoe2846|up|up| 
+LAC2MU|BE8.4101.pppoe2856|up|up| 
+LAC2MU|BE8.4101.pppoe3238|up|up| 
+LAC2MU|BE8.4101.pppoe3240|up|up| 
+LAC2MU|BE8.4101.pppoe3242|up|up| 
+LAC2MU|BE8.4101.pppoe3244|up|up| 
+LAC2MU|BE8.4101.pppoe3413|up|up| 
+LAC2MU|BE8.4101.pppoe3995|up|up| 
+LAC2MU|BE8.4101.pppoe4023|up|up| 
+LAC2MU|BE8.4101.pppoe4192|up|up| 
+LAC2MU|BE8.4101.pppoe4226|up|up| 
+LAC2MU|BE8.4101.pppoe4647|up|up| 
+LAC2MU|BE8.4101.pppoe4827|up|up| 
+LAC2MU|BE8.4101.pppoe5608|up|up| 
+LAC2MU|BE8.4101.pppoe5885|up|up| 
+LAC2MU|BE8.4101.pppoe6199|up|up| 
+LAC2MU|BE8.4101.pppoe6506|up|up| 
+LAC2MU|BE8.4101.pppoe6579|up|up| 
+LAC2MU|BE8.4101.pppoe6663|up|up| 
+LAC2MU|BE8.4101.pppoe7162|up|up| 
+LAC2MU|BE8.4101.pppoe7223|up|up| 
+LAC2MU|BE8.4101.pppoe7259|up|up| 
+LAC2MU|BE8.4101.pppoe7429|up|up| 
+LAC2MU|BE8.4101.pppoe7559|up|up| 
+LAC2MU|BE8.4101.pppoe7762|up|up| 
+LAC2MU|BE8.4101.pppoe8000|up|up| 
+LAC2MU|BE8.4101.pppoe8128|up|up| 
+LAC2MU|BE8.4101.pppoe8147|up|up| 
+LAC2MU|BE8.4101.pppoe8184|up|up| 
+LAC2MU|BE8.4101.pppoe8338|up|up| 
+LAC2MU|BE8.4101.pppoe8559|up|up| 
+LAC2MU|BE8.4101.pppoe8751|up|up| 
+LAC2MU|BE8.4101.pppoe8940|up|up| 
+LAC2MU|BE9|up|up|[ACCESO HSI][BE] LEUG01 9702771
+LAC2MU|BE9.3|up|up|[RTP][SIGN] LEUG01 HUA 5000 [NGN] 9702771
+LAC2MU|BE9.4|up|up|[GESTION][IPMB] LEUG01 HUA 5000 [NGN] 9702771
+LAC2MU|BE9.5|up|up|[GESTION][PVM] LEUG01 HUA 5000 [NGN] 9702771
+LAC2MU|BE9.3101|up|up|[TOIP] LEUG01 HUA 5000 [ADS2]
+LAC2MU|BE9.4101|up|up|[DATOS] LEUG01 HUA 5000 [ADS2][L3]
+LAC2MU|BE10|up|up|[ACCESO HSI][BE] LK3G01 9703903
+LAC2MU|BE10.3|up|up|[RTP][SIGN] LK3G01 HUA 5000 [NGN] 9703903
+LAC2MU|BE10.4|up|up|[GESTION][IPMB] LK3G01 HUA 5000 [NGN] 9703903
+LAC2MU|BE10.5|up|up|[GESTION][PVM] LK3G01 HUA 5000 [NGN] 9703903
+LAC2MU|BE10.3101|up|up|[TOIP] LK3G01 HUA 5000 [ADS2]
+LAC2MU|BE10.4101|up|up|[DATOS] LK3G01 HUA 5000 [ADS2][L3]
+LAC2MU|Lo0|up|up| 
+LAC2MU|Lo1|up|up|IP UNNUMBERED
+LAC2MU|Lo12|up|up|IP UNNUMBERED vpn-tdata-bcorio - VPN BRONZE INTERCARRIER - TASA - Banco rio
+LAC2MU|Lo26|up|up|IP UNNUMBERED VPN-gpba
+LAC2MU|Lo68|up|up|IP UNNUMBERED VPN PRIMA
+LAC2MU|Lo73|up|up|IP UNNUMBERED bonesi-vpn - VPN BRONZE - BONESI SOCIEDAD ANONIMA
+LAC2MU|Lo77|up|up|VPN WEB PATRON
+LAC2MU|Lo78|up|up|IP UNNUMBERED vpn-credicoop - VPN BRONZE - BANCO CREDICOOP COOP. LTDO.
+LAC2MU|Lo80|up|up|IP UNNUMBERED VPN JOCKEY
+LAC2MU|Lo85|up|up|IP UNNUMBERED VPN ADVANCE
+LAC2MU|Lo90|up|up|IP UNNUMBERED munisam-vpn - VPN BRONZE - MUNICIPALIDAD DE GRAL. SAN MARTIN SEC. HAC. Y ECONO.
+LAC2MU|Lo100|up|up|Interfaz de gestion ADSL
+LAC2MU|Lo103|up|up|IP UNNUMBERED ospecom-vpn - VPN BRONZE - OSPECOM
+LAC2MU|Lo127|up|up|IP UNNUMERED vpn-vestiditos - VPN BRONZE - VESTIDITOS S.A.
+LAC2MU|Lo147|up|up|IP UNNUMERED darclibertador-vpn
+LAC2MU|Lo149|up|up|IP UNNUMBERED bna-vpn
+LAC2MU|Lo157|up|up|IP UNNUMBERED vpn-williner - VPN BRONZE - SUCESORES DE ALFREDO WILLINER S.A.
+LAC2MU|Lo162|up|up|IP UNNUMBERED hipodromo-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+LAC2MU|Lo182|up|up|garbarino-vpn - VPN BRONZE - GARBARINO
+LAC2MU|Lo198|up|up|IP UNNUMBERED vpn-gire-1 - VPN BRONZE - GIRE S.A.
+LAC2MU|Lo249|up|up|IP UNNUMBERED ncentralarg-vpn - VPN BRONZE - NUEVO CENTRAL ARGENTINO S.A.
+LAC2MU|Lo256|up|up|IP UNNUMBERED sepsa-vpn - VPN BRONZE - SERV.ELECTRONICO DE PAGO S.A.
+LAC2MU|Lo279|up|up|IP UNNUMBERED hsbc-vpn - VPN BRONZE - HSBC BANK ARGENTINA S.A.
+LAC2MU|Lo347|up|up|IP UNNUMBERED bcogalicia-vpn - VPN BRONZE - BANCO DE GALICIA Y BUENOS AIRE S S.A.
+LAC2MU|Lo433|up|up|IP UNNUMBERED hipodromo-3-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+LAC2MU|Lo454|up|up|IP UNNUMBERED poderjudicial-vpn - VPN BRONZE - PODER JUDICIAL DE LA PROVINCIA
+LAC2MU|Lo459|up|up|IP UNNUMERED clama-vpn
+LAC2MU|Lo479|up|up|IP UNNUMBERED solido-vpn - VPN BRONZE - SOLIDO S.R.L.
+LAC2MU|Lo507|up|up|IP UNNUMBERED maxima-vpn - VPN BRONZE - MAXIMA S.A. A.F.J.P.
+LAC2MU|Lo509|up|up|IP UNNUMBERED citibank-vpn - VPN BRONZE - CITIBANK N.A.
+LAC2MU|Lo546|up|up|IP UNNUMBERED ituran-vpn - VPN BRONZE - ITURAN
+LAC2MU|Lo594|up|up|IP UNNUMBERED diaarg-vpn - VPN BRONZE - DIA ARGENTINA S.A.
+LAC2MU|Lo601|up|up|IP UNNUMBERED alpargatas-vpn - VPN BRONZE - ALPARGATAS CALZADOS S.A.
+LAC2MU|Lo653|up|up|IP UNNUMBERED bigbloom-vpn - VPN BRONZE - BIG BLOOM S.A.
+LAC2MU|Lo707|up|up|IP UNNUMBERED correo-vpn - VPN BRONZE - CORREO OFICIAL DE LA REP.ARG.
+LAC2MU|Lo980|up|up|IP UNNUMBERED cjuleriaque-vpn - VPN BRONZE - CARLOS JULERIAQUE S.R.L.
+LAC2MU|Lo1017|up|up|IP UNNUMBERED asmuprofa-vpn - VPN BRONZE - ASOCIACION MUTUAL DE PROTECCIO N FAMILIAR
+LAC2MU|Lo1059|up|up|fravega-vpn - VPN BRONZE - FRAVEGA
+LAC2MU|Lo1154|up|up|IP UNNUMBERED arcosdora2-vpn
+LAC2MU|Lo1219|up|up|SIMONS DE ARGENTINA SAIC
+LAC2MU|Lo1226|up|up|IP UNNUMERED argentconec-vpn
+LAC2MU|Lo1312|up|up|IP UNNUMBERED wifioffload-vpn
+LAC2MU|Lo1385|up|up|IP UNNUMERED garbacontenidos-vpn - VPN BRONZE - GARBARINO S.A.
+LAC2MU|Lo1471|up|up|IP UNNUMERED unigestopems-vpn - VPN BRONZE - UNIDAD DE GESTION OPERATIVA MITRE SARMIENTO S.A.
+LAC2MU|Lo13143|up|up|IP UNNUMBERED tasabancofrances-vpn - VPN BRONZE INTERCARRIER. - TASA subcliente Bco. Frances
+LAC2MU|Lo57015|up|up|IP UNNUMBERED tasabapro-vpn - VPN BRONZE INTERCARRIER. - Tasa sub
+LAC2MU|Nu0|up|up| 
+LAC2MU|Mg0/RSP0/CPU0/0|admin-down|admin-down| 
+LAC2MU|Mg0/RSP0/CPU0/1|admin-down|admin-down| 
+LAC2MU|PT0/RSP0/CPU0/0|admin-down|admin-down| 
+LAC2MU|Mg0/RSP1/CPU0/0|admin-down|admin-down| 
+LAC2MU|Mg0/RSP1/CPU0/1|admin-down|admin-down| 
+LAC2MU|PT0/RSP1/CPU0/0|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/0|up|up|[ACCESO HSI][BE] LAC21D 13000868
+LAC2MU|Gi0/0/0/1|up|up|[ACCESO HSI][BE] LH7G01 13000868
+LAC2MU|Gi0/0/0/2|up|up|[ACCESO HSI][BE] LACM01 L;13001283
+LAC2MU|Gi0/0/0/3|up|up|[ACCESO] LACI01  ALU7302 - LA CALDERA CORDOBA - LINEA 13002236
+LAC2MU|Gi0/0/0/3.2|up|up|[SIGN]- LACI01  ALU7302 - LA CALDERA CORDOBA -[NGN] L:13002236
+LAC2MU|Gi0/0/0/3.3|up|up|[RTP] LACI01  ALU7302 - LA CALDERA CORDOBA [NGN] L:13002236
+LAC2MU|Gi0/0/0/3.4|up|up|[GESTION] LACI01  ALU7302 - LA CALDERA CORDOBA [NGN] L:13002236
+LAC2MU|Gi0/0/0/4|up|up|[ACCESO HSI][BE] 29D11C L:13001480
+LAC2MU|Gi0/0/0/5|up|up|[ACCESO NGN HSI][BE] 3ZHG01 13001988
+LAC2MU|Gi0/0/0/6|up|up|[ACCESO HSI][BE] Enlace 1/2 LAC31D - 13004675
+LAC2MU|Gi0/0/0/7|up|up|[ACCESO HSI][BE] LAC41D L:13004676
+LAC2MU|Gi0/0/0/8|up|up|[ACCESO NGN HSI][BE] LEUG01 9702771
+LAC2MU|Gi0/0/0/9|up|up|[ACCESO NGN HSI][BE] CONEXION 1/2 LK3G01 9703903
+LAC2MU|Gi0/0/0/10|up|up|[ACCESO NGN HSI][BE] CONEXION 2/2 LK3G01 9703903
+LAC2MU|Gi0/0/0/11|up|up|INTEGRA - COOP OB DE TRANS AUTOM LA CALE RA LTDA - REF: 586128 - LINEA: 2767058
+LAC2MU|Gi0/0/0/11.9|up|up|INTEGRA - COOP OB DE TRANS AUTOM LA CALE RA LTDA - REF: 586128 - LINEA: 2767058
+LAC2MU|Gi0/0/0/12|up|up|INTEGRA - COOPERATIVA DE TRABAJO BUEN PASO - REF: 872009 - LINEA: 2853892
+LAC2MU|Gi0/0/0/12.53|up|up|INTEGRA - COOPERATIVA DE TRABAJO BUEN PASO - REF: 872009 - LINEA: 2853892
+LAC2MU|Gi0/0/0/13|up|up|INTEGRA - MUNICIPALIDAD LA CALERA - REF: 881799 - LINEA: 2859666
+LAC2MU|Gi0/0/0/13.44|up|up|INTEGRA - MUNICIPALIDAD LA CALERA - REF: 881799 - LINEA: 2859666
+LAC2MU|Gi0/0/0/14|up|up|INTEGRA - LA ESTANZUELA SA - REF: 733911 - LINEA: 2831595
+LAC2MU|Gi0/0/0/14.46|up|up|INTEGRA - LA ESTANZUELA SA - REF: 733911 - LINEA: 2831595
+LAC2MU|Gi0/0/0/15|up|up|VPN PLATINUM - SECRETARIA GENERAL DE LA GOBERNACION - REF: 777597 - LINEA: 2843980
+LAC2MU|Gi0/0/0/15.2|up|up|VPN PLATINUM - SECRETARIA GENERAL DE LA GOBERNACION - REF: 777597 - LINEA: 2843980
+LAC2MU|Gi0/0/0/16|up|up|VPN PLATINUM - PODER JUDICIAL GOB.DE LA PROV. DE CORDOBA - REF: 645264 - LINEA: 2794414
+LAC2MU|Gi0/0/0/16.2|up|up|VPN PLATINUM - PODER JUDICIAL GOB.DE LA PROV. DE CORDOBA - REF: 645264 - LINEA: 2794414
+LAC2MU|Gi0/0/0/17|up|up|INTEGRA - TARJETA NARANJA SA - REF: 878005 - LINEA: 2857333
+LAC2MU|Gi0/0/0/17.2|up|up|INTEGRA - TARJETA NARANJA SA - REF: 878005 - LINEA: 2857333
+LAC2MU|Gi0/0/0/18|up|up|VPN PLATINUM - TASALACAL - REF: 871439 - LINEA: 2853724
+LAC2MU|Gi0/0/0/18.2|up|up|VPN PLATINUM - TASALACAL - REF: 871439 - LINEA: 2853724
+LAC2MU|Gi0/0/0/19|up|up|VPN PLATINUM - TASALACALCOL - REF: 880164 - LINEA: 2858556
+LAC2MU|Gi0/0/0/19.2|up|up|VPN PLATINUM - TASALACALCOL - REF: 880164 - LINEA: 2858556
+LAC2MU|Gi0/0/0/20|up|up|### Integra - BNA - ref:915753 - Lin:2866860 ###
+LAC2MU|Gi0/0/0/20.2|up|up|### Integra - BNA - ref:915753 - Lin:2866860 ###
+LAC2MU|Gi0/0/0/20.3|up|up|### Integra - BNA - ref:915753 - Lin:2866860 - Gestion CPE ###
+LAC2MU|Gi0/0/0/21|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/22|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/23|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/24|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/25|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/26|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/27|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/28|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/29|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/30|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/31|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/32|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/33|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/34|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/35|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/36|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/37|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/38|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/39|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/40|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/41|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/42|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/43|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/44|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/45|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/46|admin-down|admin-down| 
+LAC2MU|Gi0/0/0/47|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/0|up|up| 
+LAC2MU|Gi0/1/0/0.1190|up|up|eNODOB - EASY MACRO LA CALERA -A03-E513-E514-E515-E517- (1) (447592) - S1
+LAC2MU|Gi0/1/0/0.1191|up|up|eNODOB - EASY MACRO LA CALERA - A03-E513-E514-E515-E517 - (2) (447592) - S1MME
+LAC2MU|Gi0/1/0/0.1192|up|up|eNODOB - EASY MACRO LA CALERA - A03-E513-E514-E515-E517 - (3) (447592) - GOMRAN
+LAC2MU|Gi0/1/0/0.1193|up|up|NODOB - EASY MACRO LA CALERA - A03-E513-E514-E515-E517 - (1) (518660) - 3G
+LAC2MU|Gi0/1/0/1|up|up| 
+LAC2MU|Gi0/1/0/1.1012|up|up|eNODOB - CALERA - PORT METRO -  A03-S135 - (1) (428294) - S1
+LAC2MU|Gi0/1/0/1.1013|up|up|eNODOB - CALERA - PORT METRO -  A03-S135 - (2) (428294) - S1MME
+LAC2MU|Gi0/1/0/1.1014|up|up|eNODOB - CALERA - PORT METRO -  A03-S135 - (3) (428294) - GOMRAN
+LAC2MU|Gi0/1/0/1.1081|up|up|NODOB - CALERA - PORT METRO -  A03-S135 - (1) (518685) - 3G
+LAC2MU|Gi0/1/0/1.1082|up|up|NODOB - CALERA - PORT METRO -  A03-S135 - (1) (520482) - 2G
+LAC2MU|Gi0/1/0/2|up|up| 
+LAC2MU|Gi0/1/0/2.1060|up|up|eNODOB - CALERA_II - A03-S648 - (1) (447592) - S1
+LAC2MU|Gi0/1/0/2.1061|up|up|eNODOB - CALERA_II - A03-S648 - (2) (447592) - S1MME
+LAC2MU|Gi0/1/0/2.1062|up|up|eNODOB - CALERA_II - A03-S648 - (3) (447592) - GOMRAN
+LAC2MU|Gi0/1/0/2.1159|up|up|NODOB - CALERA_II - PORT METRO - A03-S648 - (1) (447592) - 3G
+LAC2MU|Gi0/1/0/2.1160|up|up|NODOB - CALERA_II - A03-S648 - (1) (447592) - 2G
+LAC2MU|Gi0/1/0/3|up|up| 
+LAC2MU|Gi0/1/0/3.1024|up|up|eNODOB - LA_CUESTA - A03-S649 - (1) (430319) - S1
+LAC2MU|Gi0/1/0/3.1025|up|up|eNODOB - LA_CUESTA - A03-S649 - (2) (430319) - S1MME
+LAC2MU|Gi0/1/0/3.1026|up|up|eNODOB - LA_CUESTA - A03-S649 - (3) (430319) - GOMRAN
+LAC2MU|Gi0/1/0/3.1161|up|up|NODOB - LA_CUESTA - A03-S649 - (1) (430319) - 3G
+LAC2MU|Gi0/1/0/3.1162|up|up|NODOB - LA_CUESTA -  A03-S649 - (1) (430319) - 2G
+LAC2MU|Gi0/1/0/4|down|down|INTEGRA-REF:905248-BANDO S A-LIN:2864410
+LAC2MU|Gi0/1/0/4.4|down|down|INTEGRA-REF:905248-BANDO S A-LIN:2864410
+LAC2MU|Gi0/1/0/5|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/6|up|up|[ACCESO HSI][BE] Enlace 2/2 LAC31D - 13004675
+LAC2MU|Gi0/1/0/7|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/8|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/9|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/10|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/11|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/12|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/13|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/14|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/15|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/16|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/17|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/18|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/19|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/20|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/21|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/22|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/23|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/24|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/25|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/26|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/27|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/28|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/29|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/30|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/31|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/32|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/33|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/34|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/35|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/36|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/37|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/38|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/39|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/40|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/41|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/42|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/43|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/44|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/45|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/46|admin-down|admin-down| 
+LAC2MU|Gi0/1/0/47|admin-down|admin-down| 
+LAC2MU|Te0/3/1/0|up|up|Enlace 10G A CEN1NA_Te0/11/0/4 (Linea:13006519) - UPLINK BBIP
+LAC2MU|Te0/3/1/1|admin-down|admin-down| 
+LAC2MU|Te0/3/1/2|admin-down|admin-down| 
+LAC2MU|Te0/3/1/3|admin-down|admin-down| 
+LAC2MU|Te0/3/1/4|admin-down|admin-down| 
+LAC2MU|Te0/3/1/5|admin-down|admin-down| 
+LAC2MU|Te0/3/1/6|admin-down|admin-down| 
+LAC2MU|Te0/3/1/7|admin-down|admin-down| 
+LAC2MU|Te0/3/1/8|admin-down|admin-down| 
+LAC2MU|Te0/3/1/9|admin-down|admin-down| 
+LAC2MU|Te0/3/1/10|admin-down|admin-down| 
+LAC2MU|Te0/3/1/11|admin-down|admin-down| 
+LAC2MU|Te0/3/1/12|admin-down|admin-down| 
+LAC2MU|Te0/3/1/13|admin-down|admin-down| 
+LAC2MU|Te0/3/1/14|admin-down|admin-down| 
+LAC2MU|Te0/3/1/15|admin-down|admin-down| 
+LAC2MU|Te0/3/1/16|admin-down|admin-down| 
+LAC2MU|Te0/3/1/17|admin-down|admin-down| 
+LAC2MU|Te0/3/1/18|admin-down|admin-down| 
+LAC2MU|Te0/3/1/19|admin-down|admin-down| 
+LAC2MU|Te0/4/1/0|up|up|Enlace 10G A COE1NA_Te0/11/0/4 (Linea:13006520) - UPLINK BBIP
+LAC2MU|Te0/4/1/1|admin-down|admin-down| 
+LAC2MU|Te0/4/1/2|admin-down|admin-down| 
+LAC2MU|Te0/4/1/3|admin-down|admin-down| 
+LAC2MU|Te0/4/1/4|admin-down|admin-down| 
+LAC2MU|Te0/4/1/5|admin-down|admin-down| 
+LAC2MU|Te0/4/1/6|admin-down|admin-down| 
+LAC2MU|Te0/4/1/7|admin-down|admin-down| 
+LAC2MU|Te0/4/1/8|admin-down|admin-down| 
+LAC2MU|Te0/4/1/9|admin-down|admin-down| 
+LAC2MU|Te0/4/1/10|admin-down|admin-down| 
+LAC2MU|Te0/4/1/11|admin-down|admin-down| 
+LAC2MU|Te0/4/1/12|admin-down|admin-down| 
+LAC2MU|Te0/4/1/13|admin-down|admin-down| 
+LAC2MU|Te0/4/1/14|admin-down|admin-down| 
+LAC2MU|Te0/4/1/15|admin-down|admin-down| 
+LAC2MU|Te0/4/1/16|admin-down|admin-down| 
+LAC2MU|Te0/4/1/17|admin-down|admin-down| 
+LAC2MU|Te0/4/1/18|admin-down|admin-down| 
+LAC2MU|Te0/4/1/19|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/0|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/1|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/2|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/3|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/4|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/5|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/6|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/7|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/8|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/9|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/10|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/11|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/12|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/13|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/14|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/15|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/16|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/17|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/18|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/19|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/20|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/21|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/22|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/23|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/24|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/25|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/26|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/27|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/28|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/29|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/30|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/31|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/32|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/33|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/34|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/35|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/36|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/37|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/38|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/39|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/40|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/41|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/42|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/43|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/44|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/45|admin-down|admin-down| 
+LAC2MU|Gi0/7/0/46|admin-down|admin-down| 
+
+

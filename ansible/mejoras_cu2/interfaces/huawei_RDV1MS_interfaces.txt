@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+RDV1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+RDV1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A REIP DRAGON WAVE DWRDV02/2BB_19/01 - ANA2MU Trunk4.1045 - Linea:70001090
+RDV1MS|GigabitEthernet0/2/1|UP|UP|eNODOB - RAMIREZ_DE_VELAZCO - ANA2MU 1/0/0 - A12-S038 - (693763) NODOB (693791)(693792)
+RDV1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+RDV1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+RDV1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+RDV1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+RDV1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+RDV1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+RDV1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+RDV1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+RDV1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+RDV1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+RDV1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+RDV1MS|Vlanif1045|UP|UP|GESTION - ANA2MU Trunk4.1045 - Linea:70001090
+
+

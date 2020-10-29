@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+CVR1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+CVR1MS|GigabitEthernet0/2/16|UP|UP|GESTION ATN910I CERRO SAN VICENTE - CVR1MS - Linea 70001160 (DWCVR01 19/1) - DEF1MU Gi0/0/0/3.1204
+CVR1MS|GigabitEthernet0/2/17|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/17 Interface
+CVR1MS|GigabitEthernet0/2/18|UP|UP|### VPN REFINOR - REF:784485 DEANFUNES-  SWITCH EN CENTRAL  BBIP: CEN4MU eth-trunk 1.12320002
+CVR1MS|GigabitEthernet0/2/19|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/19 Interface
+CVR1MS|GigabitEthernet0/2/20|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/20 Interface
+CVR1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+CVR1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+CVR1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+CVR1MS|GigabitEthernet0/2/24|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+CVR1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+CVR1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+CVR1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+CVR1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+CVR1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+CVR1MS|Vlanif1204|UP|UP|HUAWEI, Vlanif1204 Interface
+
+

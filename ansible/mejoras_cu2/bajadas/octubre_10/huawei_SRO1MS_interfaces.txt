@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SRO1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+SRO1MS|GigabitEthernet0/2/16|UP|UP|CONEXION A 1QSRO01
+SRO1MS|GigabitEthernet0/2/17|UP|UP|CONEXION A eNODOB_A17-S015_SANTA ROSA REFES 684642-518488-684597
+SRO1MS|GigabitEthernet0/2/18|UP|UP|CONEX AL RE 1RSRO01 A MBURUCUYA(A17-S030) Y TABAY(A17-S093)
+SRO1MS|GigabitEthernet0/2/19|UP|UP|CONEXION AL RE 1WSRO01
+SRO1MS|GigabitEthernet0/2/20|UP|UP|VPN - SYK S.A. - REF:682255 lin:2816282 Acc: CTE1MB - 0/1/0/23.1120002
+SRO1MS|GigabitEthernet0/2/21|UP|UP|VPN - GOB PCIA CORRIENTES  SUPERIOR TRIB. DE JUSTICIA - REF:737041 lin:2833525 CTE1MB 0/1/0/23.940002
+SRO1MS|GigabitEthernet0/2/22|DOWN|DOWN|VPN - INTA - Ref:717304 - Lin:2824542 -  Acc: CTE1MB Bundle-Ether1001.12430002
+SRO1MS|GigabitEthernet0/2/23|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+SRO1MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+SRO1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+SRO1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+SRO1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+SRO1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+SRO1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+SRO1MS|Vlanif1221|UP|UP|HUAWEI, Vlanif1221 Interface
+
+

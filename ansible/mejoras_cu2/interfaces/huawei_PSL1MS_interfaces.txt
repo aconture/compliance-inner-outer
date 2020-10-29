@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+PSL1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+PSL1MS|GigabitEthernet0/2/16|UP|UP|CONEXION A RADIO DWPSL01 19/02 Linea 80001932
+PSL1MS|GigabitEthernet0/2/17|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/17 Interface
+PSL1MS|GigabitEthernet0/2/18|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/18 Interface
+PSL1MS|GigabitEthernet0/2/19|UP|UP|NODOB eNODOB - PALMA_SOLA A22-S119 (511168)
+PSL1MS|GigabitEthernet0/2/20|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/20 Interface
+PSL1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+PSL1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+PSL1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+PSL1MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+PSL1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+PSL1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+PSL1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+PSL1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+PSL1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+PSL1MS|Vlanif2|UP|UP|GESTION - FOR1MB BE1002.2 - Linea.80001932
+
+

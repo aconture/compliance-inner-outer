@@ -1,0 +1,281 @@
+shelfname|interface|portoperationalstate|protocol|info1
+WHE3MU|Aux0/0/1|down|down|HUAWEI, Aux0/0/1 Interface
+WHE3MU|Eth-Trunk1|down|down|[TP] RNC Wheelrigth Rosario Front7 6/1/5_7/1/5 - REF:329905
+WHE3MU|Eth-Trunk1.713|down|down|[TP] RNC Wheelrigth Rosario Front7 6/1/5_7/1/5 - REF:329905
+WHE3MU|Eth-Trunk2|up|down|LACP A TP5000 SINCRONISMO 3G (Gi4/0/2 Gi3/1/2) (80001678)
+WHE3MU|Eth-Trunk2.1000|up|up|LACP A TP5000 SINCRONISMO 3G (Gi4/0/2 Gi3/1/2) (80001678)
+WHE3MU|Eth-Trunk3|up|down|LACP A TP5000 SINCRONISMO LTE S1MME (Gi4/0/3 Gi3/1/3) (80001678)
+WHE3MU|Eth-Trunk3.1000|up|up|LACP A TP5000 SINCRONISMO LTE S1MME (Gi4/0/3 Gi3/1/3) (80001678)
+WHE3MU|Eth-Trunk4|up|down|LAG A ROSROU03 TELLABS WHEELRIGHT(Gi4/0/0 Gi3/1/0) (440463)
+WHE3MU|Eth-Trunk4.1000|up|up|LAG A ROSROU03 TELLABS WHEELRIGHT(Gi4/0/0 Gi3/1/0) (440463) IUB-3G
+WHE3MU|Eth-Trunk4.1001|up|up|LAG A ROSROU03 TELLABS WHEELRIGHT(Gi4/0/0 Gi3/1/0) (440463) S1MME
+WHE3MU|Eth-Trunk5|up|down|LAG A ROSROU03 TELLABS WHEELRIGHT(Gi4/0/1 Gi3/1/1) (440464)
+WHE3MU|Eth-Trunk5.1000|up|up|LAG A ROSROU03 TELLABS WHEELRIGHT(Gi4/0/1 Gi3/1/1) (440464) IUB-3G
+WHE3MU|Eth-Trunk5.1001|up|up|LAG A ROSROU03 TELLABS WHEELRIGHT(Gi4/0/1 Gi3/1/1) (440464) S1MME
+WHE3MU|Eth-Trunk6|down|down|LAG A ROSRNC03 (Gi2/1/1 Gi3/1/4)(518859)
+WHE3MU|Eth-Trunk6.1000|down|down|LAG A ROSRNC03 (Gi2/1/1 Gi3/1/4)(518859) 3G
+WHE3MU|Eth-Trunk7|down|down|LAG A ROSRNC04 (Gi2/1/2 Gi3/1/8)(518857)
+WHE3MU|Eth-Trunk7.1000|down|down|LAG A ROSRNC04 (Gi2/1/2 Gi3/1/8)(518857) 3G
+WHE3MU|Eth-Trunk8|up|up|CONEXION-MOVIL 20G WHE4MU_Eth-Trunk8 - L2 - NO TOCAR
+WHE3MU|Eth-Trunk9|down|down|[TP] RNC Wheelrigth - Rosario Front 5 - 6/1/3_7/1/3 - REF:335163
+WHE3MU|Eth-Trunk9.707|down|down|[TP] RNC Wheelrigth - Rosario Front 5 - 6/1/3_7/1/3 - REF:335163
+WHE3MU|GE0/0/0|down|down|HUAWEI, GigabitEthernet0/0/0 Interface
+WHE3MU|GE1/0/0|down|down|HUAWEI, GigabitEthernet1/0/0 Interface
+WHE3MU|GE1/0/1|down|down|HUAWEI, GigabitEthernet1/0/1 Interface
+WHE3MU|GE1/0/2|up|up|[TAT] Gestion Entorno_WHE(Lin_11100157)
+WHE3MU|GE1/0/3|down|down|[TP] RNC Wheelrigth Rosario Front7 6/1/5_7/1/5 - REF:329905 - Eth-Trunk1
+WHE3MU|GE1/0/4|down|down|[TP] RNC Wheelrigth - Rosario Front 5 - 6/1/3_7/1/3 - REF:335163 -Eth-Trunk9
+WHE3MU|GE1/0/5|down|down|HUAWEI, GigabitEthernet1/0/5 Interface
+WHE3MU|GE1/0/6|down|down|HUAWEI, GigabitEthernet1/0/6 Interface
+WHE3MU|GE1/0/7|down|down|HUAWEI, GigabitEthernet1/0/7 Interface
+WHE3MU|GE1/0/8|down|down|HUAWEI, GigabitEthernet1/0/8 Interface
+WHE3MU|GE1/0/9|down|down|HUAWEI, GigabitEthernet1/0/9 Interface
+WHE3MU|GE1/0/10|down|down|HUAWEI, GigabitEthernet1/0/10 Interface
+WHE3MU|GE1/0/11|down|down|HUAWEI, GigabitEthernet1/0/11 Interface
+WHE3MU|GE1/0/12|down|down|HUAWEI, GigabitEthernet1/0/12 Interface
+WHE3MU|GE1/0/13|down|down|HUAWEI, GigabitEthernet1/0/13 Interface
+WHE3MU|GE1/0/14|down|down|HUAWEI, GigabitEthernet1/0/14 Interface
+WHE3MU|GE1/0/15|down|down|HUAWEI, GigabitEthernet1/0/15 Interface
+WHE3MU|GE1/0/16|down|down|HUAWEI, GigabitEthernet1/0/16 Interface
+WHE3MU|GE1/0/17|down|down|HUAWEI, GigabitEthernet1/0/17 Interface
+WHE3MU|GE1/0/18|down|down|HUAWEI, GigabitEthernet1/0/18 Interface
+WHE3MU|GE1/0/19|down|down|HUAWEI, GigabitEthernet1/0/19 Interface
+WHE3MU|GE1/0/20|down|down|HUAWEI, GigabitEthernet1/0/20 Interface
+WHE3MU|GE1/0/21|down|down|HUAWEI, GigabitEthernet1/0/21 Interface
+WHE3MU|GE1/0/22|down|down|HUAWEI, GigabitEthernet1/0/22 Interface
+WHE3MU|GE1/0/23|down|down|HUAWEI, GigabitEthernet1/0/23 Interface
+WHE3MU|GE1/1/0|down|down|HUAWEI, GigabitEthernet1/1/0 Interface
+WHE3MU|GE1/1/1|down|down|HUAWEI, GigabitEthernet1/1/1 Interface
+WHE3MU|GE1/1/2|down|down|HUAWEI, GigabitEthernet1/1/2 Interface
+WHE3MU|GE1/1/3|down|down|HUAWEI, GigabitEthernet1/1/3 Interface
+WHE3MU|GE1/1/4|down|down|HUAWEI, GigabitEthernet1/1/4 Interface
+WHE3MU|GE1/1/5|down|down|HUAWEI, GigabitEthernet1/1/5 Interface
+WHE3MU|GE1/1/6|down|down|HUAWEI, GigabitEthernet1/1/6 Interface
+WHE3MU|GE1/1/7|down|down|HUAWEI, GigabitEthernet1/1/7 Interface
+WHE3MU|GE1/1/8|down|down|HUAWEI, GigabitEthernet1/1/8 Interface
+WHE3MU|GE1/1/9|down|down|HUAWEI, GigabitEthernet1/1/9 Interface
+WHE3MU|GE1/1/10|down|down|HUAWEI, GigabitEthernet1/1/10 Interface
+WHE3MU|GE1/1/11|down|down|HUAWEI, GigabitEthernet1/1/11 Interface
+WHE3MU|GE1/1/12|down|down|HUAWEI, GigabitEthernet1/1/12 Interface
+WHE3MU|GE1/1/13|down|down|HUAWEI, GigabitEthernet1/1/13 Interface
+WHE3MU|GE1/1/14|down|down|HUAWEI, GigabitEthernet1/1/14 Interface
+WHE3MU|GE1/1/15|down|down|HUAWEI, GigabitEthernet1/1/15 Interface
+WHE3MU|GE1/1/16|down|down|HUAWEI, GigabitEthernet1/1/16 Interface
+WHE3MU|GE1/1/17|down|down|HUAWEI, GigabitEthernet1/1/17 Interface
+WHE3MU|GE1/1/18|down|down|HUAWEI, GigabitEthernet1/1/18 Interface
+WHE3MU|GE1/1/19|down|down|HUAWEI, GigabitEthernet1/1/19 Interface
+WHE3MU|GE1/1/20|down|down|HUAWEI, GigabitEthernet1/1/20 Interface
+WHE3MU|GE1/1/21|down|down|HUAWEI, GigabitEthernet1/1/21 Interface
+WHE3MU|GE1/1/22|down|down|HUAWEI, GigabitEthernet1/1/22 Interface
+WHE3MU|GE1/1/23|down|down|HUAWEI, GigabitEthernet1/1/23 Interface
+WHE3MU|GE2/0/0|up|up|Enlace 10G FO RSC1MB_G0/1/0/5 Linea:11002009 - UPLINK MSBNG
+WHE3MU|GE2/0/1|down|down|HUAWEI, GigabitEthernet2/0/1 Interface
+WHE3MU|GE2/1/0|down|down|HUAWEI, GigabitEthernet2/1/0 Interface
+WHE3MU|GE2/1/1|down|down|A ROSRNC03 N-04B-2-00 - RNC ROSARIO_3 (518859)
+WHE3MU|GE2/1/2|down|down|A ROSRNC04 N-04B-2-00 - RNC ROSARIO_4 (518857)
+WHE3MU|GE2/1/3|down|down|HUAWEI, GigabitEthernet2/1/3 Interface
+WHE3MU|GE2/1/4|up|up|CONEXION A ROSRNC02 Iub-3G_A MASTER
+WHE3MU|GE2/1/5|up|down|A BSCROS1 Abis NWI-E 1 Port 13
+WHE3MU|GE2/1/5.352|up|up|A BSCROS1 Abis_A NWI-E 1 Port 13
+WHE3MU|GE2/1/6|up|down|A BSCROS2 Abis NWI-E 1 Port 13
+WHE3MU|GE2/1/6.354|up|up|A BSCROS2 Abis_A NWI-E 1 Port 13
+WHE3MU|GE2/1/7|up|down|A BSCROS3 Abis NWI-E 1 Port 13
+WHE3MU|GE2/1/7.356|up|up|A BSCROS3 Abis_A NWI-E 1 Port 13
+WHE3MU|GE2/1/8|up|up|CONEXION A ROSRNC02 Iub-3G_B MASTER
+WHE3MU|GE2/1/9|down|down|HUAWEI, GigabitEthernet2/1/9 Interface
+WHE3MU|GE2/1/10|down|down|HUAWEI, GigabitEthernet2/1/10 Interface
+WHE3MU|GE2/1/11|down|down|HUAWEI, GigabitEthernet2/1/11 Interface
+WHE3MU|GE2/1/12|down|down|HUAWEI, GigabitEthernet2/1/12 Interface
+WHE3MU|GE2/1/13|down|down|HUAWEI, GigabitEthernet2/1/13 Interface
+WHE3MU|GE2/1/14|down|down|HUAWEI, GigabitEthernet2/1/14 Interface
+WHE3MU|GE2/1/15|down|down|HUAWEI, GigabitEthernet2/1/15 Interface
+WHE3MU|GE2/1/16|down|down|HUAWEI, GigabitEthernet2/1/16 Interface
+WHE3MU|GE2/1/17|up|up|ENLACE-M A ROS1UMG - SIGNALING-A- (16100988) - MOVIL-UMG
+WHE3MU|GE2/1/18|up|up|ENLACE-M A ROS1UMG - MEDIA - VLAN2521 (16100989) - (1/3) - MOVIL-UMG
+WHE3MU|GE2/1/19|up|up|ENLACE-M A ROS1UMG - MEDIA - VLAN2521 (16100990) - (2/3) - MOVIL-UMG
+WHE3MU|GE2/1/20|up|up|ENLACE-M A ROS1UMG - MEDIA - VLAN2521 (16100991) - (3/3) - MOVIL-UMG
+WHE3MU|GE2/1/21|up|up|ENLACE-M A ROS1UMG - OAM UMG - VLAN2520 (16100992) - MOVIL-UMG
+WHE3MU|GE2/1/22|up|up|ENLACE-M A ROS1UMG - OAM SIWF - VLAN2520 (16100993) - MOVIL-UMG
+WHE3MU|GE2/1/23|down|down|HUAWEI, GigabitEthernet2/1/23 Interface
+WHE3MU|GE3/0/0|up|up|Enlace 10G FO IRD1MB_G0/1/0/5 Linea:11002010 - UPLINK MSBNG
+WHE3MU|GE3/0/1|down|down|HUAWEI, GigabitEthernet3/0/1 Interface
+WHE3MU|GE3/1/0|down|down|A ROSROU03 TELLABS WHEELRIGHT - 12/1/6 (440463) (5694221)
+WHE3MU|GE3/1/1|down|down|A ROSROU03 TELLABS WHEELRIGHT - 12/1/7 (440464) (5694222)
+WHE3MU|GE3/1/2|up|up|A TP5000 SINCRONISMO 3G (80001679)
+WHE3MU|GE3/1/3|up|up|A TP5000 SINCRONISMO LTE S1MME (80001702)
+WHE3MU|GE3/1/4|down|down|A ROSRNC03 N-04B-2-00 - RNC ROSARIO_3 (518859)
+WHE3MU|GE3/1/5|up|down|A BSCROS1 Abis NWI-E 2 Port 13
+WHE3MU|GE3/1/5.353|up|up|A BSCROS1 Abis_B NWI-E 2 Port 13
+WHE3MU|GE3/1/6|up|down|A BSCROS2 Abis NWI-E 2 Port 13
+WHE3MU|GE3/1/6.355|up|up|A BSCROS2 Abis_B NWI-E 2 Port 13
+WHE3MU|GE3/1/7|up|down|A BSCROS3 Abis NWI-E 1 Port 13
+WHE3MU|GE3/1/7.357|up|up|A BSCROS3 Abis_B NWI-E 1 Port 13
+WHE3MU|GE3/1/8|down|down|A ROSRNC04 N-04B-2-00 - RNC ROSARIO_4 (518857)
+WHE3MU|GE3/1/9|down|down|HUAWEI, GigabitEthernet3/1/9 Interface
+WHE3MU|GE3/1/10|down|down|HUAWEI, GigabitEthernet3/1/10 Interface
+WHE3MU|GE3/1/11|down|down|HUAWEI, GigabitEthernet3/1/11 Interface
+WHE3MU|GE3/1/12|down|down|HUAWEI, GigabitEthernet3/1/12 Interface
+WHE3MU|GE3/1/13|down|down|HUAWEI, GigabitEthernet3/1/13 Interface
+WHE3MU|GE3/1/16|down|down|HUAWEI, GigabitEthernet3/1/16 Interface
+WHE3MU|GE3/1/17|down|down|HUAWEI, GigabitEthernet3/1/17 Interface
+WHE3MU|GE3/1/18|down|down|HUAWEI, GigabitEthernet3/1/18 Interface
+WHE3MU|GE3/1/19|down|down|HUAWEI, GigabitEthernet3/1/19 Interface
+WHE3MU|GE3/1/20|down|down|HUAWEI, GigabitEthernet3/1/20 Interface
+WHE3MU|GE3/1/21|down|down|HUAWEI, GigabitEthernet3/1/21 Interface
+WHE3MU|GE3/1/22|down|down|HUAWEI, GigabitEthernet3/1/22 Interface
+WHE3MU|GE3/1/23|down|down|HUAWEI, GigabitEthernet3/1/23 Interface
+WHE3MU|GE4/0/0|up|up|A ROSROU03 TELLABS WHEELRIGHT - 13/1/6 (440463) (5694220)
+WHE3MU|GE4/0/1|up|up|A ROSROU03 TELLABS WHEELRIGHT - 13/1/7 (440464) (5694222)
+WHE3MU|GE4/0/4|down|down|HUAWEI, GigabitEthernet4/0/4 Interface
+WHE3MU|GE4/0/5|down|down|HUAWEI, GigabitEthernet4/0/5 Interface
+WHE3MU|GE4/0/6|down|down|HUAWEI, GigabitEthernet4/0/6 Interface
+WHE3MU|GE4/0/7|down|down|HUAWEI, GigabitEthernet4/0/7 Interface
+WHE3MU|GE4/0/8|down|down|HUAWEI, GigabitEthernet4/0/8 Interface
+WHE3MU|GE4/0/9|down|down|HUAWEI, GigabitEthernet4/0/9 Interface
+WHE3MU|GE4/0/10|down|down|HUAWEI, GigabitEthernet4/0/10 Interface
+WHE3MU|GE4/0/11|down|down|HUAWEI, GigabitEthernet4/0/11 Interface
+WHE3MU|GE4/0/12|down|down|HUAWEI, GigabitEthernet4/0/12 Interface
+WHE3MU|GE4/0/13|down|down|HUAWEI, GigabitEthernet4/0/13 Interface
+WHE3MU|GE4/0/14|down|down|HUAWEI, GigabitEthernet4/0/14 Interface
+WHE3MU|GE4/0/15|down|down|HUAWEI, GigabitEthernet4/0/15 Interface
+WHE3MU|GE4/0/16|down|down|HUAWEI, GigabitEthernet4/0/16 Interface
+WHE3MU|GE4/0/17|down|down|HUAWEI, GigabitEthernet4/0/17 Interface
+WHE3MU|GE4/0/18|down|down|HUAWEI, GigabitEthernet4/0/18 Interface
+WHE3MU|GE4/0/19|down|down|HUAWEI, GigabitEthernet4/0/19 Interface
+WHE3MU|GE4/0/20|down|down|HUAWEI, GigabitEthernet4/0/20 Interface
+WHE3MU|GE4/0/21|down|down|HUAWEI, GigabitEthernet4/0/21 Interface
+WHE3MU|GE4/0/22|down|down|HUAWEI, GigabitEthernet4/0/22 Interface
+WHE3MU|GE4/0/23|down|down|HUAWEI, GigabitEthernet4/0/23 Interface
+WHE3MU|GE4/1/0|down|down|HUAWEI, GigabitEthernet4/1/0 Interface
+WHE3MU|GE4/1/1|down|down|HUAWEI, GigabitEthernet4/1/1 Interface
+WHE3MU|GE4/1/2|down|down|HUAWEI, GigabitEthernet4/1/2 Interface
+WHE3MU|GE4/1/3|down|down|HUAWEI, GigabitEthernet4/1/3 Interface
+WHE3MU|GE4/1/4|down|down|HUAWEI, GigabitEthernet4/1/4 Interface
+WHE3MU|GE4/1/5|down|down|HUAWEI, GigabitEthernet4/1/5 Interface
+WHE3MU|GE4/1/6|down|down|HUAWEI, GigabitEthernet4/1/6 Interface
+WHE3MU|GE4/1/7|down|down|HUAWEI, GigabitEthernet4/1/7 Interface
+WHE3MU|GE4/1/8|down|down|HUAWEI, GigabitEthernet4/1/8 Interface
+WHE3MU|GE4/1/9|down|down|HUAWEI, GigabitEthernet4/1/9 Interface
+WHE3MU|GE4/1/10|down|down|HUAWEI, GigabitEthernet4/1/10 Interface
+WHE3MU|GE4/1/11|down|down|HUAWEI, GigabitEthernet4/1/11 Interface
+WHE3MU|GE4/1/12|down|down|HUAWEI, GigabitEthernet4/1/12 Interface
+WHE3MU|GE4/1/13|down|down|HUAWEI, GigabitEthernet4/1/13 Interface
+WHE3MU|GE4/1/14|down|down|HUAWEI, GigabitEthernet4/1/14 Interface
+WHE3MU|GE4/1/15|down|down|HUAWEI, GigabitEthernet4/1/15 Interface
+WHE3MU|GE4/1/16|down|down|HUAWEI, GigabitEthernet4/1/16 Interface
+WHE3MU|GE4/1/17|down|down|HUAWEI, GigabitEthernet4/1/17 Interface
+WHE3MU|GE4/1/18|down|down|HUAWEI, GigabitEthernet4/1/18 Interface
+WHE3MU|GE4/1/19|down|down|HUAWEI, GigabitEthernet4/1/19 Interface
+WHE3MU|GE4/1/20|down|down|HUAWEI, GigabitEthernet4/1/20 Interface
+WHE3MU|GE4/1/21|down|down|HUAWEI, GigabitEthernet4/1/21 Interface
+WHE3MU|GE4/1/22|down|down|HUAWEI, GigabitEthernet4/1/22 Interface
+WHE3MU|GE4/1/23|down|down|HUAWEI, GigabitEthernet4/1/23 Interface
+WHE3MU|GE6/0/0|up|up|Enlace 10G FO WHE4MU_G8/0/1 Linea:11002652 - L2 - NO TOCAR
+WHE3MU|GE6/1/0|down|down|HUAWEI, GigabitEthernet6/1/0 Interface
+WHE3MU|GE6/1/1|down|down|PRICE WATERHOUSE & CO - Ref:709195 - Lin:2817633 CAMINO#2
+WHE3MU|GE6/1/1.168|down|down|VPN Datos ROUTER#2 - PRICE WATERHOUSE - REF: 709195 - LINEA: 2817633
+WHE3MU|GE6/1/1.169|down|down|VPN Gestion SWITCH#2 - PRICE WATERHOUSE - REF: 709195 - LINEA: 2817633
+WHE3MU|GE6/1/2|up|up|A DNSDIST1ROS - PLATAFORMAS - ETH1
+WHE3MU|GE6/1/3|up|up|A DNSDIST1ROS - INTERNET - ETH2
+WHE3MU|GE6/1/4|up|up|A DNSDIST1ROS - ILOM - PO
+WHE3MU|GE6/1/5|down|down|[TP] RNC Wheelrigth Rosario Front7 6/1/5_7/1/5 - REF:329905 - Eth-Trunk1
+WHE3MU|GE6/1/6|down|down|[TP] RNC Wheelrigth - Rosario Front 5 - 6/1/3_7/1/3 - REF:335163 -Eth-Trunk9
+WHE3MU|GE6/1/7|down|down|HUAWEI, GigabitEthernet6/1/7 Interface
+WHE3MU|GE6/1/8|down|down|HUAWEI, GigabitEthernet6/1/8 Interface
+WHE3MU|GE6/1/9|down|down|HUAWEI, GigabitEthernet6/1/9 Interface
+WHE3MU|GE6/1/10|down|down|HUAWEI, GigabitEthernet6/1/10 Interface
+WHE3MU|GE6/1/11|down|down|HUAWEI, GigabitEthernet6/1/11 Interface
+WHE3MU|GE6/1/12|down|down|HUAWEI, GigabitEthernet6/1/12 Interface
+WHE3MU|GE6/1/13|down|down|HUAWEI, GigabitEthernet6/1/13 Interface
+WHE3MU|GE6/1/14|down|down|HUAWEI, GigabitEthernet6/1/14 Interface
+WHE3MU|GE6/1/15|down|down|HUAWEI, GigabitEthernet6/1/15 Interface
+WHE3MU|GE6/1/16|down|down|HUAWEI, GigabitEthernet6/1/16 Interface
+WHE3MU|GE6/1/17|down|down|HUAWEI, GigabitEthernet6/1/17 Interface
+WHE3MU|GE6/1/18|down|down|HUAWEI, GigabitEthernet6/1/18 Interface
+WHE3MU|GE6/1/19|down|down|HUAWEI, GigabitEthernet6/1/19 Interface
+WHE3MU|GE6/1/20|down|down|HUAWEI, GigabitEthernet6/1/20 Interface
+WHE3MU|GE6/1/21|down|down|HUAWEI, GigabitEthernet6/1/21 Interface
+WHE3MU|GE6/1/22|down|down|HUAWEI, GigabitEthernet6/1/22 Interface
+WHE3MU|GE6/1/23|down|down|HUAWEI, GigabitEthernet6/1/23 Interface
+WHE3MU|GE7/0/0|up|up|Enlace 10G FO WHE4MU_G7/0/0 Linea:11002651 - L2 - NO TOCAR
+WHE3MU|GE7/0/1|down|down|HUAWEI, GigabitEthernet7/0/1 Interface
+WHE3MU|GE7/1/0|down|down|HUAWEI, GigabitEthernet7/1/0 Interface
+WHE3MU|GE7/1/1|down|down|HUAWEI, GigabitEthernet7/1/1 Interface
+WHE3MU|GE7/1/2|down|down|HUAWEI, GigabitEthernet7/1/2 Interface
+WHE3MU|GE7/1/3|down|down|HUAWEI, GigabitEthernet7/1/3 Interface
+WHE3MU|GE7/1/4|down|down|HUAWEI, GigabitEthernet7/1/4 Interface
+WHE3MU|GE7/1/5|down|down|HUAWEI, GigabitEthernet7/1/5 Interface
+WHE3MU|GE7/1/6|down|down|HUAWEI, GigabitEthernet7/1/6 Interface
+WHE3MU|GE7/1/7|down|down|HUAWEI, GigabitEthernet7/1/7 Interface
+WHE3MU|GE7/1/8|down|down|HUAWEI, GigabitEthernet7/1/8 Interface
+WHE3MU|GE7/1/9|down|down|HUAWEI, GigabitEthernet7/1/9 Interface
+WHE3MU|GE7/1/10|down|down|HUAWEI, GigabitEthernet7/1/10 Interface
+WHE3MU|GE7/1/11|down|down|HUAWEI, GigabitEthernet7/1/11 Interface
+WHE3MU|GE7/1/12|down|down|HUAWEI, GigabitEthernet7/1/12 Interface
+WHE3MU|GE7/1/13|down|down|HUAWEI, GigabitEthernet7/1/13 Interface
+WHE3MU|GE7/1/14|down|down|HUAWEI, GigabitEthernet7/1/14 Interface
+WHE3MU|GE7/1/15|down|down|HUAWEI, GigabitEthernet7/1/15 Interface
+WHE3MU|GE7/1/16|down|down|HUAWEI, GigabitEthernet7/1/16 Interface
+WHE3MU|GE7/1/17|down|down|HUAWEI, GigabitEthernet7/1/17 Interface
+WHE3MU|GE7/1/18|down|down|HUAWEI, GigabitEthernet7/1/18 Interface
+WHE3MU|GE7/1/19|down|down|HUAWEI, GigabitEthernet7/1/19 Interface
+WHE3MU|GE7/1/20|down|down|HUAWEI, GigabitEthernet7/1/20 Interface
+WHE3MU|GE7/1/21|down|down|HUAWEI, GigabitEthernet7/1/21 Interface
+WHE3MU|GE7/1/22|down|down|HUAWEI, GigabitEthernet7/1/22 Interface
+WHE3MU|GE7/1/23|down|down|HUAWEI, GigabitEthernet7/1/23 Interface
+WHE3MU|GE8/0/0|down|down|HUAWEI, GigabitEthernet8/0/0 Interface
+WHE3MU|GE8/0/1|down|down|HUAWEI, GigabitEthernet8/0/1 Interface
+WHE3MU|GE8/0/2|down|down|HUAWEI, GigabitEthernet8/0/2 Interface
+WHE3MU|GE8/0/3|down|down|HUAWEI, GigabitEthernet8/0/3 Interface
+WHE3MU|GE8/0/4|down|down|HUAWEI, GigabitEthernet8/0/4 Interface
+WHE3MU|GE8/0/5|down|down|HUAWEI, GigabitEthernet8/0/5 Interface
+WHE3MU|GE8/0/6|down|down|HUAWEI, GigabitEthernet8/0/6 Interface
+WHE3MU|GE8/0/7|down|down|HUAWEI, GigabitEthernet8/0/7 Interface
+WHE3MU|GE8/0/8|down|down|HUAWEI, GigabitEthernet8/0/8 Interface
+WHE3MU|GE8/0/9|down|down|HUAWEI, GigabitEthernet8/0/9 Interface
+WHE3MU|GE8/0/10|down|down|HUAWEI, GigabitEthernet8/0/10 Interface
+WHE3MU|GE8/0/11|down|down|HUAWEI, GigabitEthernet8/0/11 Interface
+WHE3MU|GE8/0/12|down|down|HUAWEI, GigabitEthernet8/0/12 Interface
+WHE3MU|GE8/0/13|down|down|HUAWEI, GigabitEthernet8/0/13 Interface
+WHE3MU|GE8/0/14|down|down|HUAWEI, GigabitEthernet8/0/14 Interface
+WHE3MU|GE8/0/15|down|down|HUAWEI, GigabitEthernet8/0/15 Interface
+WHE3MU|GE8/0/16|down|down|HUAWEI, GigabitEthernet8/0/16 Interface
+WHE3MU|GE8/0/17|down|down|HUAWEI, GigabitEthernet8/0/17 Interface
+WHE3MU|GE8/0/18|down|down|HUAWEI, GigabitEthernet8/0/18 Interface
+WHE3MU|GE8/0/19|down|down|HUAWEI, GigabitEthernet8/0/19 Interface
+WHE3MU|GE8/0/20|down|down|HUAWEI, GigabitEthernet8/0/20 Interface
+WHE3MU|GE8/0/21|down|down|HUAWEI, GigabitEthernet8/0/21 Interface
+WHE3MU|GE8/0/22|down|down|HUAWEI, GigabitEthernet8/0/22 Interface
+WHE3MU|GE8/0/23|down|down|HUAWEI, GigabitEthernet8/0/23 Interface
+WHE3MU|GE8/1/0|down|down|HUAWEI, GigabitEthernet8/1/0 Interface
+WHE3MU|GE8/1/1|down|down|HUAWEI, GigabitEthernet8/1/1 Interface
+WHE3MU|GE8/1/2|down|down|HUAWEI, GigabitEthernet8/1/2 Interface
+WHE3MU|GE8/1/3|down|down|HUAWEI, GigabitEthernet8/1/3 Interface
+WHE3MU|GE8/1/4|down|down|HUAWEI, GigabitEthernet8/1/4 Interface
+WHE3MU|GE8/1/5|down|down|HUAWEI, GigabitEthernet8/1/5 Interface
+WHE3MU|GE8/1/6|down|down|HUAWEI, GigabitEthernet8/1/6 Interface
+WHE3MU|GE8/1/7|down|down|HUAWEI, GigabitEthernet8/1/7 Interface
+WHE3MU|GE8/1/8|down|down|HUAWEI, GigabitEthernet8/1/8 Interface
+WHE3MU|GE8/1/9|down|down|HUAWEI, GigabitEthernet8/1/9 Interface
+WHE3MU|GE8/1/10|down|down|HUAWEI, GigabitEthernet8/1/10 Interface
+WHE3MU|GE8/1/11|down|down|HUAWEI, GigabitEthernet8/1/11 Interface
+WHE3MU|GE8/1/12|down|down|HUAWEI, GigabitEthernet8/1/12 Interface
+WHE3MU|GE8/1/13|down|down|HUAWEI, GigabitEthernet8/1/13 Interface
+WHE3MU|GE8/1/14|down|down|HUAWEI, GigabitEthernet8/1/14 Interface
+WHE3MU|GE8/1/15|down|down|HUAWEI, GigabitEthernet8/1/15 Interface
+WHE3MU|GE8/1/16|down|down|HUAWEI, GigabitEthernet8/1/16 Interface
+WHE3MU|GE8/1/17|down|down|HUAWEI, GigabitEthernet8/1/17 Interface
+WHE3MU|GE8/1/18|down|down|HUAWEI, GigabitEthernet8/1/18 Interface
+WHE3MU|GE8/1/19|down|down|HUAWEI, GigabitEthernet8/1/19 Interface
+WHE3MU|GE8/1/20|down|down|HUAWEI, GigabitEthernet8/1/20 Interface
+WHE3MU|GE8/1/21|down|down|HUAWEI, GigabitEthernet8/1/21 Interface
+WHE3MU|GE8/1/22|down|down|HUAWEI, GigabitEthernet8/1/22 Interface
+WHE3MU|GE8/1/23|down|down|HUAWEI, GigabitEthernet8/1/23 Interface
+WHE3MU|Vlanif170|up|up|VLAN DE PLATAFORMAS DE DNSDIST1ROS
+WHE3MU|Vlanif171|up|up|VLAN DE TRAFICO DE DNSDIST1ROS
+WHE3MU|Vlanif320|up|up|VLAN_Iub-3G_A ROSRNC02 MASTER
+WHE3MU|Vlanif321|up|up|VLAN_Iub-3G_B ROSRNC02 MASTER
+WHE3MU|Vlanif2520|up|up|VLAN-M A ROS1UMG - OAM - MOVIL-UMG
+WHE3MU|Vlanif2521|up|up|VLAN-M A ROS1UMG - MEDIA - MOVIL-UMG
+
+

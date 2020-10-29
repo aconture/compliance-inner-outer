@@ -1,0 +1,6 @@
+shelfname|interface|portoperationalstate|protocol|info1
+{% for item in range(var_huawei|length) %}
+{{inventory_hostname}}|{{var_huawei[item].PORT}}|{{ var_huawei[item].STATUS}}|{{var_huawei[item].PROTOCOL}}|{{var_huawei[item].DESCRIP | regex_replace('\|') | regex_replace('\s\s\s\s\s+')}}
+{% endfor %}
+
+

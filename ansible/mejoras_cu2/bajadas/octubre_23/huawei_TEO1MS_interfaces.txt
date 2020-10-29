@@ -1,0 +1,21 @@
+shelfname|interface|portoperationalstate|protocol|info1
+TEO1MS|DCN-Serial0/2/0:0|DOWN|DOWN|HUAWEI, DCN-Serial0/2/0:0 Interface
+TEO1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+TEO1MS|GigabitEthernet0/2/16|UP|UP|CONEXION A IRD2MB TenGigE0/2/0/22.752304 - SVLAN: 2304 - LINEA: 80002026 - DWTEO01
+TEO1MS|GigabitEthernet0/2/17|UP|UP|CONEXION A eNODOB_TEODELINA_A04-S045
+TEO1MS|GigabitEthernet0/2/18|DOWN|DOWN|TIP_TIPABIBTEO(2849174)REFE:787064_Ges.TECO
+TEO1MS|GigabitEthernet0/2/19|DOWN|DOWN|INTEGRA - SIND.CONDUC.DE CAMIONES OBRERO Y EMPLEADOS DE TRANSP. CARGAS - Ref 672839
+TEO1MS|GigabitEthernet0/2/20|UP|UP|TIP - ABIB - REF: 884044 - LINEA: 2864303
+TEO1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+TEO1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+TEO1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+TEO1MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+TEO1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+TEO1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+TEO1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+TEO1MS|LoopBack1023|UP|UP|DCN loopback interface
+TEO1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+TEO1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+TEO1MS|Vlanif2304|UP|UP|GESTION  - IRD2MB TenGigE0/2/0/22.752304 - LINEA: 80002026
+
+

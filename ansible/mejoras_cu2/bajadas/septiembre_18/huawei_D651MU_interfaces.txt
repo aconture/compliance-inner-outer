@@ -1,0 +1,17 @@
+shelfname|interface|portoperationalstate|protocol|info1
+D651MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+D651MU|GE0/1/0|up|up|Enlace 10G FO NOA3MU_G 3/0/1 Linea:15007429 - UPLINK
+D651MU|GE0/2/0|up|up|Enlace 10G FO NOA3MU_G 4/0/0 Linea:15007429 - UPLINK
+D651MU|GE0/5/0|up|up|Dowlink AR550 PN001AR
+D651MU|GE0/5/1|up|up|Dowlink AR550 D6601AR
+D651MU|GE0/5/2|up|up|Dowlink AR550 D6701AR
+D651MU|GE0/5/3|up|up|Dowlink AR550 D6801AR
+D651MU|GE0/5/4|up|up|Dowlink AR550 D6901AR
+D651MU|GE0/5/5|up|up|Dowlink AR550 D6A01AR
+D651MU|GE0/5/6|up|up|Dowlink AR550 D6B01AR
+D651MU|GE0/5/7|up|up|Dowlink AR550 D6C01AR
+D651MU|GE0/6/0|up|up|Dowlink AR550 D6D01AR
+D651MU|GE0/6/7|up|up|** REF: 873586 - Uplink DVR - interface 1 **
+D651MU|Vlanif2|up|up|VLAN_GESTION_CAMARAS_DEFAULT_AR550
+
+

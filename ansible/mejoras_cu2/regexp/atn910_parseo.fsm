@@ -1,0 +1,10 @@
+Value PORT (\S+)
+Value STATUS ((Administratively\s)*\S+)
+Value PROTOCOL (\S+)
+Value DESCRIP (.*)
+
+Start
+  ^${PORT}\scurrent\sstate\s.\s*${STATUS}
+  ^Line.+state\s.\s*${PROTOCOL}
+  ^Description:${DESCRIP} -> Record
+

@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SAD1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+SAD1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A RADIO DRAGON WAVE DWBEV01 - 2BB_19/01 - LINEA:70001094
+SAD1MS|GigabitEthernet0/2/1|UP|UP|NODOB - SAN_ANTONIO_DE_LITIN - A02-S020 (684618)
+SAD1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+SAD1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+SAD1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+SAD1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+SAD1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+SAD1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+SAD1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+SAD1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+SAD1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+SAD1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+SAD1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+SAD1MS|Vlanif1202|UP|UP|GESTION - BEV2MU Gi1/1/8.1202 LINEA:70001094
+
+

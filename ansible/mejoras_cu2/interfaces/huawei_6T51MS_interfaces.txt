@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+6T51MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+6T51MS|GigabitEthernet0/2/16|UP|UP|NODOB - VILLA_GESELL_ALAMEDA_A41-B455 REF518431_LINEA_5701412
+6T51MS|GigabitEthernet0/2/17|UP|UP|NODOB - NODOB_VILLA_GESELL_ELVELERO_A41-B542 REF_521364_LINEA_5701873
+6T51MS|GigabitEthernet0/2/18|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/18 Interface
+6T51MS|GigabitEthernet0/2/19|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/19 Interface
+6T51MS|GigabitEthernet0/2/20|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/20 Interface
+6T51MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+6T51MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+6T51MS|GigabitEthernet0/2/23|UP|UP|### A COTEL Centro ###
+6T51MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+6T51MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+6T51MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+6T51MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+6T51MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+6T51MS|Vlanif2477|UP|UP|HUAWEI, Vlanif2477 Interface
+
+

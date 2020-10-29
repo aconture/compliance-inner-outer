@@ -1,0 +1,35 @@
+shelfname|interface|portoperationalstate|protocol|info1
+DON1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+DON1MS|GigabitEthernet0/2/16|UP|UP|CONEXION A RADIO DRAGON WAVE DWDON01/2BB_19/02 Linea:70001034
+DON1MS|GigabitEthernet0/2/17|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/17 Interface
+DON1MS|GigabitEthernet0/2/18|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/18 Interface
+DON1MS|GigabitEthernet0/2/19|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/19 Interface
+DON1MS|GigabitEthernet0/2/20|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/20 Interface
+DON1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+DON1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+DON1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+DON1MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+DON1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+DON1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+DON1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+DON1MS|Mp-group0/2/1|DOWN|DOWN|HUAWEI, Mp-group0/2/1 Interface
+DON1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+DON1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+DON1MS|Serial0/2/1:1|DOWN|DOWN|HUAWEI, Serial0/2/1:1 Interface
+DON1MS|Serial0/2/2:1|DOWN|DOWN|HUAWEI, Serial0/2/2:1 Interface
+DON1MS|Serial0/2/3:1|DOWN|DOWN|HUAWEI, Serial0/2/3:1 Interface
+DON1MS|Serial0/2/4:1|DOWN|DOWN|HUAWEI, Serial0/2/4:1 Interface
+DON1MS|Serial0/2/5:1|DOWN|DOWN|HUAWEI, Serial0/2/5:1 Interface
+DON1MS|Serial0/2/6:1|DOWN|DOWN|HUAWEI, Serial0/2/6:1 Interface
+DON1MS|Serial0/2/7:1|DOWN|DOWN|HUAWEI, Serial0/2/7:1 Interface
+DON1MS|Serial0/2/8:1|DOWN|DOWN|HUAWEI, Serial0/2/8:1 Interface
+DON1MS|Serial0/2/9:1|DOWN|DOWN|HUAWEI, Serial0/2/9:1 Interface
+DON1MS|Serial0/2/10:1|DOWN|DOWN|HUAWEI, Serial0/2/10:1 Interface
+DON1MS|Serial0/2/11:1|DOWN|DOWN|HUAWEI, Serial0/2/11:1 Interface
+DON1MS|Serial0/2/12:1|DOWN|DOWN|HUAWEI, Serial0/2/12:1 Interface
+DON1MS|Serial0/2/13:1|DOWN|DOWN|HUAWEI, Serial0/2/13:1 Interface
+DON1MS|Serial0/2/14:1|DOWN|DOWN|HUAWEI, Serial0/2/14:1 Interface
+DON1MS|Serial0/2/15:1|DOWN|DOWN|HUAWEI, Serial0/2/15:1 Interface
+DON1MS|Vlanif1256|UP|UP|GESTION - SDE4MU - Eth-Trunk20.1256 - Linea.70001034
+
+

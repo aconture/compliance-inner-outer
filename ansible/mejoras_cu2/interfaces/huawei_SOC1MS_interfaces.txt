@@ -1,0 +1,21 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SOC1MS|Eth-Trunk1|DOWN|DOWN|BUNDLE - CONEXION A RE 1PSOC01_IDU - Linea.13006098
+SOC1MS|Eth-Trunk12|DOWN|DOWN|HUAWEI, Eth-Trunk12 Interface
+SOC1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+SOC1MS|GigabitEthernet0/2/0|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/0 Interface
+SOC1MS|GigabitEthernet0/2/1|UP|UP|TIP - CASMUZ VICTOR ABEL - REF: 793078 - LINEA: 2851928 - ACC: 0/2/1
+SOC1MS|GigabitEthernet0/2/2|UP|UP|VPN PLATINUM - BANCO DEL TUCUMAN SA - REF: 891774 - LINEA: 2862587 - ACC: TRZ48224
+SOC1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+SOC1MS|GigabitEthernet0/2/4|UP|UP|CONEXION A RE 1PSOC01_IDU - Linea.13006098
+SOC1MS|GigabitEthernet0/2/5|Administratively DOWN|DOWN|PRUEBA_MAC
+SOC1MS|GigabitEthernet0/2/6|UP|UP|VPN PLATINUM - SISTEMA PROVINCIAL DE SALUD GO B.DE TUCUMAN - Ref:779632 Lin:2845427
+SOC1MS|GigabitEthernet0/2/7|UP|UP|VPN - INTA - REF: 716236 - LINEA: 2823833 - ACC:SOC1MS 0/2/7
+SOC1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+SOC1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+SOC1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+SOC1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+SOC1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+SOC1MS|Vlanif1040|UP|DOWN|HUAWEI, Vlanif1040 Interface
+SOC1MS|Vlanif1250|UP|UP|GESTION - CCP2MU 1/1/19.1250 - Linea.13006098
+
+

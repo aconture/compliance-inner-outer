@@ -1,0 +1,34 @@
+shelfname|interface|portoperationalstate|protocol|info1
+GRS1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+GRS1MU|GE0/1/0|up|down|CONEXION A 1LGRS01_2BB_19 - Linea
+GRS1MU|GE0/1/0.1221|up|up|UPLINK A CCP2MU Eth-trunk8.1221 1
+GRS1MU|GE0/1/0.1222|up|up|UPLINK A CCP2MU Eth-trunk8.1222 1
+GRS1MU|GE0/1/0.1223|up|up|UPLINK A CCP2MU Eth-trunk8.1223 1
+GRS1MU|GE0/1/0.1224|up|up|UPLINK A CCP2MU Eth-trunk8.1224 1
+GRS1MU|GE0/1/0.1225|up|up|UPLINK A CCP2MU Eth-trunk8.1225 1
+GRS1MU|GE0/1/0.1226|up|up|UPLINK A CCP2MU Eth-trunk8.1226 1
+GRS1MU|GE0/1/0.1227|up|up|UPLINK A CCP2MU Eth-trunk8.1227 1
+GRS1MU|GE0/1/0.1228|up|up|UPLINK A CCP2MU Eth-trunk8.1228 1
+GRS1MU|GE0/1/0.1229|up|up|UPLINK A CCP2MU Eth-trunk8.1229 1
+GRS1MU|GE0/1/0.1230|up|up|ATN950 GRANEROS Linea 70001468
+GRS1MU|GE0/1/1|down|down|HUAWEI, GigabitEthernet0/1/1 Inte
+GRS1MU|GE0/1/2|down|down|HUAWEI, GigabitEthernet0/1/2 Inte
+GRS1MU|GE0/1/3|down|down|HUAWEI, GigabitEthernet0/1/3 Inte
+GRS1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Inte
+GRS1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Inte
+GRS1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Inte
+GRS1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Inte
+GRS1MU|GE0/2/0|down|down|HUAWEI, GigabitEthernet0/2/0 Inte
+GRS1MU|GE0/2/1|down|down|HUAWEI, GigabitEthernet0/2/1 Inte
+GRS1MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Inte
+GRS1MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Inte
+GRS1MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Inte
+GRS1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Inte
+GRS1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Inte
+GRS1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Inte
+GRS1MU|GE0/3/0|down|down|HUAWEI, GigabitEthernet0/3/0 Inte
+GRS1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Inte
+GRS1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Inte
+GRS1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Inte
+
+

@@ -1,0 +1,45 @@
+shelfname|interface|portoperationalstate|protocol|info1
+TZ22MU|Eth-Trunk10|up|down|LAG FO A TAE1MU_Eth-Trunk10
+TZ22MU|Eth-Trunk10.4000|up|up|HUAWEI, Eth-Trunk10.4000 Interface
+TZ22MU|Eth-Trunk10.4001|up|up|HUAWEI, Eth-Trunk10.4001 Interface
+TZ22MU|Eth-Trunk10.4002|up|up|HUAWEI, Eth-Trunk10.4002 Interface
+TZ22MU|Eth0/0/0|up|down|HUAWEI, Ethernet0/0/0 Interface
+TZ22MU|GE0/3/0|down|down|HUAWEI, GigabitEthernet0/3/0 Interface
+TZ22MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Interface
+TZ22MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Interface
+TZ22MU|GE0/3/2.62|down|down|HUAWEI, GigabitEthernet0/3/2.62 Interface
+TZ22MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Interface
+TZ22MU|GE0/4/0|down|down|HUAWEI, GigabitEthernet0/4/0 Interface
+TZ22MU|GE0/4/1|down|down|HUAWEI, GigabitEthernet0/4/1 Interface
+TZ22MU|GE0/4/2|down|down|HUAWEI, GigabitEthernet0/4/2 Interface
+TZ22MU|GE0/4/3|down|down|HUAWEI, GigabitEthernet0/4/3 Interface
+TZ22MU|GE0/4/4|down|down|HUAWEI, GigabitEthernet0/4/4 Interface
+TZ22MU|GE0/4/5|down|down|HUAWEI, GigabitEthernet0/4/5 Interface
+TZ22MU|GE0/4/6|down|down|HUAWEI, GigabitEthernet0/4/6 Interface
+TZ22MU|GE0/4/7|down|down|HUAWEI, GigabitEthernet0/4/7 Interface
+TZ22MU|GE0/5/0|up|up|Enlace 1G FO TAE1MU_G1/1/5 Linea:15004959 UPLINK UPE
+TZ22MU|GE0/5/1|down|down|HUAWEI, GigabitEthernet0/5/1 Interface
+TZ22MU|GE0/5/3|down|down|ACCESO 7BIG01 MA5603T MITRE Y MORENOMORENO Y URIBURU - LINEA 15005064
+TZ22MU|GE0/5/4|down|down|ACCESO 7BFG01 MA5603T ALBERDI TANDIL - LINEA 15005061
+TZ22MU|GE0/5/6|down|down|HUAWEI, GigabitEthernet0/5/6 Interface
+TZ22MU|GE0/5/7|down|down|HUAWEI, GigabitEthernet0/5/7 Interface
+TZ22MU|GE0/6/0|up|up|Enlace 1G FO TAE1MU_G4/0/0 Linea:15004958 UPLINK UPE
+TZ22MU|GE0/6/1|down|down|HUAWEI, GigabitEthernet0/6/1 Interface
+TZ22MU|GE0/6/2|down|down|HUAWEI, GigabitEthernet0/6/2 Interface
+TZ22MU|GE0/6/3|down|down|HUAWEI, GigabitEthernet0/6/3 Interface
+TZ22MU|GE0/6/4|down|down|ADSL + VOZ NGN TZ3G01 (TANDIL ZONA 3) - HW_UA5000 - Linea 60000118
+TZ22MU|GE0/6/4.1|down|down|NGN TZ3G01 - ADSL - G. - Linea 60000118##
+TZ22MU|GE0/6/4.3|down|down|RTP Y SIGNALING - TANDIL (TZ3G01)- Linea 60000118
+TZ22MU|GE0/6/4.4|down|down|GESTION IPMB- TANDIL (TZ3G01) - Linea 60000118
+TZ22MU|GE0/6/4.5|down|down|GESTION PVM - TANDIL (TZ3G01) - Linea 60000118
+TZ22MU|GE0/6/5|down|down|ADSL + VOZ NGN TZ1G01 (TANDIL ZONA 1) - HW_UA5000 - Linea 60000117
+TZ22MU|GE0/6/5.1|down|down|NGN TZ1G01 - ADSL - G. - Linea 60000117
+TZ22MU|GE0/6/5.3|down|down|RTP Y SIGNALING - TANDIL (TZ1G01)- Linea 60000117
+TZ22MU|GE0/6/5.4|down|down|GESTION IPMB- TANDIL (TZ1G01) - Linea 60000117
+TZ22MU|GE0/6/5.5|down|down|GESTION PVM - TANDIL (TZ1G01) - Linea 60000117
+TZ22MU|GE0/6/6|down|down|ADSL + VOZ NGN TZ2G01 (TANDIL ZONA 2) - HW_UA5000 - Linea 60000124
+TZ22MU|GE0/6/6.1|down|down|NGN TZ2G01 - ADSL - G. - Linea 60000124
+TZ22MU|GE0/6/6.130|down|down|NGN TZ2G01 - MUN1MB
+TZ22MU|GE0/6/7|down|down|HUAWEI, GigabitEthernet0/6/7 Interface
+
+

@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SMA1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+SMA1MS|GigabitEthernet0/2/0|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/0 Interface
+SMA1MS|GigabitEthernet0/2/1|UP|UP|VPN - ANSES - ref:940788 - Linea:2868524 - ZAB3MU Eth-Trunk6.23050002
+SMA1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+SMA1MS|GigabitEthernet0/2/3|UP|UP|INTEGRA - BNA - REF:939000 - LIN:2867618 - ZAB3MU Eth-Trunk6.15550002
+SMA1MS|GigabitEthernet0/2/4|UP|UP|CONEXION A 1ESMA01_IDU - ZAB3MU Eth-trunk6.1250 - Linea.13005173
+SMA1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+SMA1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+SMA1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+SMA1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+SMA1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+SMA1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+SMA1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+SMA1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+SMA1MS|Vlanif1250|UP|UP|VLAN_GESTION_ZAB3MU Eth-trunk6.1250 - Linea.13005173
+
+

@@ -1,0 +1,583 @@
+shelfname|interface|portoperationalstate|protocol|info1
+CAF1MU|BE1|up|up|[ACCESO NGN][BE] 3YGG01 HUA 5603_T
+CAF1MU|BE1.2|up|up|RTP HUAWEI 3YGG01 BARRIO_CAFAYATE_L_13001974
+CAF1MU|BE1.3|up|up|RTP HUAWEI 3YGG01 BARRIO_CAFAYATE_L_13001974
+CAF1MU|BE1.4|up|up|IPMB HUAWEI 3YGG01 BARRIO_CAFAYATE_L_13001974
+CAF1MU|BE1.3101|up|up|[TOIP] 3YGG01 HUA 5603_T [ADS2]
+CAF1MU|BE1.4101|up|up|[DATOS] 3YGG01 HUA 5603_T [ADS2][L3]
+CAF1MU|BE1.4101.pppoe352|up|up| 
+CAF1MU|BE1.4101.pppoe353|up|up| 
+CAF1MU|BE1.4101.pppoe354|up|up| 
+CAF1MU|BE1.4101.pppoe361|up|up| 
+CAF1MU|BE1.4101.pppoe362|up|up| 
+CAF1MU|BE2|down|down|TIP - RED INTERCABLE DIGITAL SA - Ref: 402653 - Lin: 2826549 - Acc: CAF1MU 0/0/0/14 y 15 
+CAF1MU|BE2.10|down|down|TIP - RED INTERCABLE DIGITAL SA - Ref: 402653 - Lin: 2826549 - Acc: CAF1MU 0/0/0/14 y 15 Gestion
+CAF1MU|BE4|up|up|[ACCESO HSI][BE] CAF11D - Linea 9703105
+CAF1MU|BE4.2101|up|up|[GESTION] CAF11D HUA 5600T [ADS2]
+CAF1MU|BE4.3101|up|up|[TOIP] CAF11D HUA 5600T [ADS2]
+CAF1MU|BE4.3649|up|up|VPN Branch Office - IPS SALUD - Ref 555547 Lin 2760264 Acc CAF11D-14-01
+CAF1MU|BE4.3650|up|up|VPN SILVER - CORREO DE LA REPUBLICA - Ref:740891 - Linea:2836014 - Acc:CAF11D 0/14/2
+CAF1MU|BE4.3655|up|up|VPN Branch Office - BANCO MACRO SIEMENS IT - Ref 871287 Lin 2731288 Acc CAF11D-14-07
+CAF1MU|BE4.3658|up|up|VPN GOLD - SALTA 911 Linea 2732319 Ref 286436 - CAF11D 0/14/10-11
+CAF1MU|BE4.3662|up|up|VPN SILVER - SIGAR SA - Ref:645440-Linea:2796199-Acceso:CAF11D-14-14-15
+CAF1MU|BE4.3666|up|up|VPN Head Quarter - MACRO - Ref:260916 Lin:2718203 Acc:CAF11D 14 18-19 CAF / V09 / H07 / 019-020
+CAF1MU|BE4.3668|up|up|PRESURIZACION CAFAYATE - REF:947286 - ACC:CAF11D 0/14/20
+CAF1MU|BE4.3678|up|up|VPN Head Quarter - Cliente - Ref:259118 Lin:2717203 Acc:CAF11D 0/14/30-31
+CAF1MU|BE4.3840|up|up|INTERNET EMPRESAS - cliente: CONSEJO PROFESIONAL DE CIENCIAS ECONOMICAS DE SALTA - Ref: 661828 - Lin: 2806376 - Acc: CAF11D 14/ 00
+CAF1MU|BE4.3844|up|up|IntegraLight - CONDORI SALDANO RENE FEDERICO - Ref:721088 Lin:2826874 Acc:CAF11D 0/14/04-05
+CAF1MU|BE4.3848|up|up|IL 2M - CONSEJO PROFESIONAL DE CIENCIAS ECONOMICAS DE SALTA - Ref:559381 Lin:2760441 Acc:CAF11D 0-14-8/9
+CAF1MU|BE4.3852|up|up|Integra Light - MINISTERIO PUBLICO PROCURAC. DE LA PCIA DE SALTA - Ref:263437 Lin:2726954 Acc:CAF11D 14 12-13
+CAF1MU|BE4.3856|up|up|Integra Light -Poder Judicial Salta- Ref:278933 Lin:2730435 Acc:CAF11D 14 16/17
+CAF1MU|BE4.3860|up|up|PRESURIZACION CAFAYATE - REF:947286 - ACC:CAF11D 0/14/20
+CAF1MU|BE4.3863|up|up|INTEGRA - INSTITUTO NACIONAL DE VITIVINICULTURA - Ref:675335 Lin:2812506 Acc:CAF11D 14 23
+CAF1MU|BE4.3864|up|up|INTERNET EMPRESAS - AVILA AMORES JESUS - Ref: 788127 - Lin: 2849503 - Acc: CAF11D 0-14/24-25
+CAF1MU|BE4.3866|up|up|Integra Light Min de Modernizacion REFE 737563 Linea 2833786
+CAF1MU|BE4.3868|up|up|INTERNET EMPRESAS - cliente: FELIX LAVAQUE SA - Ref: 669788 - Lin: 2811070 - Acc: CAF11D 14 / 28 y 29
+CAF1MU|BE4.4101|up|up|[DATOS] CAF11D HUA 5600T [ADS2][L3]
+CAF1MU|BE4.4101.pppoe3250|up|up| 
+CAF1MU|BE4.4101.pppoe3264|up|up| 
+CAF1MU|BE4.4101.pppoe3294|up|up| 
+CAF1MU|BE4.4101.pppoe3495|up|up| 
+CAF1MU|BE4.4101.pppoe4042|up|up| 
+CAF1MU|BE4.4101.pppoe4118|up|up| 
+CAF1MU|BE4.4101.pppoe4162|up|up| 
+CAF1MU|BE4.4101.pppoe4196|up|up| 
+CAF1MU|BE4.4101.pppoe4462|up|up| 
+CAF1MU|BE4.4101.pppoe4617|up|up| 
+CAF1MU|BE4.4101.pppoe4652|up|up| 
+CAF1MU|BE4.4101.pppoe4933|up|up| 
+CAF1MU|BE4.4101.pppoe5011|up|up| 
+CAF1MU|BE4.4101.pppoe5047|up|up| 
+CAF1MU|BE4.4101.pppoe5337|up|up| 
+CAF1MU|BE4.4101.pppoe5671|up|up| 
+CAF1MU|BE4.4101.pppoe5753|up|up| 
+CAF1MU|BE4.4101.pppoe5903|up|up| 
+CAF1MU|BE4.4101.pppoe5909|up|up| 
+CAF1MU|BE4.4101.pppoe5942|up|up| 
+CAF1MU|BE4.4101.pppoe5984|up|up| 
+CAF1MU|BE4.4101.pppoe6040|up|up| 
+CAF1MU|BE4.4101.pppoe6060|up|up| 
+CAF1MU|BE4.4101.pppoe6066|up|up| 
+CAF1MU|BE4.4101.pppoe6126|up|up| 
+CAF1MU|BE4.4101.pppoe6162|up|up| 
+CAF1MU|BE4.4101.pppoe6236|up|up| 
+CAF1MU|BE4.4101.pppoe6237|up|up| 
+CAF1MU|BE4.4101.pppoe6246|up|up| 
+CAF1MU|BE4.4101.pppoe6254|up|up| 
+CAF1MU|BE4.4101.pppoe6257|up|up| 
+CAF1MU|BE4.4101.pppoe6260|up|up| 
+CAF1MU|BE4.4101.pppoe6263|up|up| 
+CAF1MU|BE4.4101.pppoe6267|up|up| 
+CAF1MU|BE4.4101.pppoe6269|up|up| 
+CAF1MU|BE4.4101.pppoe6270|up|up| 
+CAF1MU|BE4.4101.pppoe6271|up|up| 
+CAF1MU|BE4.4101.pppoe6279|up|up| 
+CAF1MU|BE4.4101.pppoe6280|up|up| 
+CAF1MU|BE4.4101.pppoe6286|up|up| 
+CAF1MU|BE4.4101.pppoe6288|up|up| 
+CAF1MU|BE4.4101.pppoe6290|up|up| 
+CAF1MU|BE4.4101.pppoe6291|up|up| 
+CAF1MU|BE4.4101.pppoe6299|up|up| 
+CAF1MU|BE4.4101.pppoe6304|up|up| 
+CAF1MU|BE4.4101.pppoe6306|up|up| 
+CAF1MU|BE4.4101.pppoe6307|up|up| 
+CAF1MU|BE4.4101.pppoe6315|up|up| 
+CAF1MU|BE4.4101.pppoe6317|up|up| 
+CAF1MU|BE4.4101.pppoe6322|up|up| 
+CAF1MU|BE4.4101.pppoe6325|up|up| 
+CAF1MU|BE4.4101.pppoe6326|up|up| 
+CAF1MU|BE4.4101.pppoe6327|up|up| 
+CAF1MU|BE4.4101.pppoe6328|up|up| 
+CAF1MU|BE4.4101.pppoe6329|up|up| 
+CAF1MU|BE4.4101.pppoe6339|up|up| 
+CAF1MU|BE4.4101.pppoe6348|up|up| 
+CAF1MU|BE4.4101.pppoe6351|up|up| 
+CAF1MU|BE4.4101.pppoe6352|up|up| 
+CAF1MU|BE4.4101.pppoe6354|up|up| 
+CAF1MU|BE4.4101.pppoe6357|up|up| 
+CAF1MU|BE4.4101.pppoe6359|up|up| 
+CAF1MU|BE4.4101.pppoe6363|up|up| 
+CAF1MU|BE4.4101.pppoe6370|up|up| 
+CAF1MU|BE4.4101.pppoe6371|up|up| 
+CAF1MU|BE4.4101.pppoe6373|up|up| 
+CAF1MU|BE4.4101.pppoe6374|up|up| 
+CAF1MU|BE4.4101.pppoe6376|up|up| 
+CAF1MU|BE4.4101.pppoe6379|up|up| 
+CAF1MU|BE4.4101.pppoe6383|up|up| 
+CAF1MU|BE4.4101.pppoe6384|up|up| 
+CAF1MU|BE4.4101.pppoe6387|up|up| 
+CAF1MU|BE4.4101.pppoe6388|up|up| 
+CAF1MU|BE4.4101.pppoe6389|up|up| 
+CAF1MU|BE4.4101.pppoe6391|up|up| 
+CAF1MU|BE4.4101.pppoe6395|up|up| 
+CAF1MU|BE4.4101.pppoe6396|up|up| 
+CAF1MU|BE4.4101.pppoe6397|up|up| 
+CAF1MU|BE4.4101.pppoe6398|up|up| 
+CAF1MU|BE4.4101.pppoe6399|up|up| 
+CAF1MU|BE4.4101.pppoe6400|up|up| 
+CAF1MU|BE4.4101.pppoe6401|up|up| 
+CAF1MU|BE4.4101.pppoe6408|up|up| 
+CAF1MU|BE4.4101.pppoe6412|up|up| 
+CAF1MU|BE4.4101.pppoe6425|up|up| 
+CAF1MU|BE4.4101.pppoe6426|up|up| 
+CAF1MU|BE4.4101.pppoe6429|up|up| 
+CAF1MU|BE4.4101.pppoe6431|up|up| 
+CAF1MU|BE4.4101.pppoe6433|up|up| 
+CAF1MU|BE4.4101.pppoe6436|up|up| 
+CAF1MU|BE4.4101.pppoe6437|up|up| 
+CAF1MU|BE4.4101.pppoe6439|up|up| 
+CAF1MU|BE4.4101.pppoe6444|up|up| 
+CAF1MU|BE4.4101.pppoe6446|up|up| 
+CAF1MU|BE4.4101.pppoe6448|up|up| 
+CAF1MU|BE4.4101.pppoe6454|up|up| 
+CAF1MU|BE4.4101.pppoe6456|up|up| 
+CAF1MU|BE4.4101.pppoe6457|up|up| 
+CAF1MU|BE4.4101.pppoe6459|up|up| 
+CAF1MU|BE4.4101.pppoe6463|up|up| 
+CAF1MU|BE4.4101.pppoe6467|up|up| 
+CAF1MU|BE4.4101.pppoe6493|up|up| 
+CAF1MU|BE4.4101.pppoe6522|up|up| 
+CAF1MU|BE4.4101.pppoe6640|up|up| 
+CAF1MU|BE4.4101.pppoe6682|up|up| 
+CAF1MU|BE4.4101.pppoe6778|up|up| 
+CAF1MU|BE4.4101.pppoe6828|up|up| 
+CAF1MU|BE4.4101.pppoe6867|up|up| 
+CAF1MU|BE4.4101.pppoe6905|up|up| 
+CAF1MU|BE4.4101.pppoe6921|up|up| 
+CAF1MU|BE4.4101.pppoe7021|up|up| 
+CAF1MU|BE4.4101.pppoe7029|up|up| 
+CAF1MU|BE4.4101.pppoe7047|up|up| 
+CAF1MU|BE4.4101.pppoe7080|up|up| 
+CAF1MU|BE4.4101.pppoe7088|up|up| 
+CAF1MU|BE4.4101.pppoe7142|up|up| 
+CAF1MU|BE4.4101.pppoe7210|up|up| 
+CAF1MU|BE4.4101.pppoe7238|up|up| 
+CAF1MU|BE4.4101.pppoe7305|up|up| 
+CAF1MU|BE4.4101.pppoe7320|up|up| 
+CAF1MU|BE4.4101.pppoe7321|up|up| 
+CAF1MU|BE4.4101.pppoe7443|up|up| 
+CAF1MU|BE4.4101.pppoe7475|up|up| 
+CAF1MU|BE4.4101.pppoe7607|up|up| 
+CAF1MU|BE4.4101.pppoe7625|up|up| 
+CAF1MU|BE4.4101.pppoe7626|up|up| 
+CAF1MU|BE4.4101.pppoe7670|up|up| 
+CAF1MU|BE4.4101.pppoe7712|up|up| 
+CAF1MU|BE4.4101.pppoe7745|up|up| 
+CAF1MU|BE4.4101.pppoe7747|up|up| 
+CAF1MU|BE4.4101.pppoe7819|up|up| 
+CAF1MU|BE4.4101.pppoe7894|up|up| 
+CAF1MU|BE4.4101.pppoe7932|up|up| 
+CAF1MU|BE4.4101.pppoe7938|up|up| 
+CAF1MU|BE4.4101.pppoe7944|up|up| 
+CAF1MU|BE4.4101.pppoe7947|up|up| 
+CAF1MU|BE4.4101.pppoe8040|up|up| 
+CAF1MU|BE4.4101.pppoe8055|up|up| 
+CAF1MU|BE4.4101.pppoe8065|up|up| 
+CAF1MU|BE4.4101.pppoe8082|up|up| 
+CAF1MU|BE4.4101.pppoe8121|up|up| 
+CAF1MU|BE4.4101.pppoe8169|up|up| 
+CAF1MU|BE4.4101.pppoe8188|up|up| 
+CAF1MU|BE4.4101.pppoe8212|up|up| 
+CAF1MU|BE4.4101.pppoe8244|up|up| 
+CAF1MU|BE4.4101.pppoe8251|up|up| 
+CAF1MU|BE4.4101.pppoe8262|up|up| 
+CAF1MU|BE4.4101.pppoe8302|up|up| 
+CAF1MU|BE4.4101.pppoe8389|up|up| 
+CAF1MU|BE4.4101.pppoe8420|up|up| 
+CAF1MU|BE4.4101.pppoe8433|up|up| 
+CAF1MU|BE4.4101.pppoe8468|up|up| 
+CAF1MU|BE4.4101.pppoe8534|up|up| 
+CAF1MU|BE4.4101.pppoe8579|up|up| 
+CAF1MU|BE4.4101.pppoe8640|up|up| 
+CAF1MU|BE4.4101.pppoe8645|up|up| 
+CAF1MU|BE4.4101.pppoe8663|up|up| 
+CAF1MU|BE4.4101.pppoe8670|up|up| 
+CAF1MU|BE4.4101.pppoe8686|up|up| 
+CAF1MU|BE4.4101.pppoe8704|up|up| 
+CAF1MU|BE4.4101.pppoe8721|up|up| 
+CAF1MU|BE4.4101.pppoe8796|up|up| 
+CAF1MU|BE4.4101.pppoe8847|up|up| 
+CAF1MU|BE4.4101.pppoe8858|up|up| 
+CAF1MU|BE4.4101.pppoe8880|up|up| 
+CAF1MU|BE4.4101.pppoe8903|up|up| 
+CAF1MU|BE4.4101.pppoe8909|up|up| 
+CAF1MU|BE4.4101.pppoe8921|up|up| 
+CAF1MU|BE4.4101.pppoe8930|up|up| 
+CAF1MU|BE4.4101.pppoe8960|up|up| 
+CAF1MU|BE4.4101.pppoe8963|up|up| 
+CAF1MU|BE4.4101.pppoe8971|up|up| 
+CAF1MU|BE4.4101.pppoe8972|up|up| 
+CAF1MU|BE4.4101.pppoe8980|up|up| 
+CAF1MU|BE4.4101.pppoe8984|up|up| 
+CAF1MU|BE4.4101.pppoe9000|up|up| 
+CAF1MU|BE4.4101.pppoe9020|up|up| 
+CAF1MU|BE4.4101.pppoe9028|up|up| 
+CAF1MU|BE4.4101.pppoe9032|up|up| 
+CAF1MU|BE4.4101.pppoe9036|up|up| 
+CAF1MU|BE4.4101.pppoe9052|up|up| 
+CAF1MU|BE4.4101.pppoe9055|up|up| 
+CAF1MU|BE4.4101.pppoe9059|up|up| 
+CAF1MU|BE4.4101.pppoe9081|up|up| 
+CAF1MU|BE4.4101.pppoe9097|up|up| 
+CAF1MU|BE4.4101.pppoe9108|up|up| 
+CAF1MU|BE4.4101.pppoe9170|up|up| 
+CAF1MU|BE4.4101.pppoe9290|up|up| 
+CAF1MU|BE4.4101.pppoe9303|up|up| 
+CAF1MU|BE4.4101.pppoe9311|up|up| 
+CAF1MU|BE4.4101.pppoe9315|up|up| 
+CAF1MU|BE4.4101.pppoe9347|up|up| 
+CAF1MU|BE4.4101.pppoe9367|up|up| 
+CAF1MU|BE4.4101.pppoe9376|up|up| 
+CAF1MU|BE4.4101.pppoe9385|up|up| 
+CAF1MU|BE4.4101.pppoe9400|up|up| 
+CAF1MU|BE4.4101.pppoe9410|up|up| 
+CAF1MU|BE4.4101.pppoe9448|up|up| 
+CAF1MU|BE4.4101.pppoe9475|up|up| 
+CAF1MU|BE4.4101.pppoe9484|up|up| 
+CAF1MU|BE4.4101.pppoe9486|up|up| 
+CAF1MU|BE4.4101.pppoe9490|up|up| 
+CAF1MU|BE4.4101.pppoe9494|up|up| 
+CAF1MU|BE4.4101.pppoe9500|up|up| 
+CAF1MU|BE4.4101.pppoe9506|up|up| 
+CAF1MU|BE4.4101.pppoe9548|up|up| 
+CAF1MU|BE4.4101.pppoe9550|up|up| 
+CAF1MU|BE4.4101.pppoe9559|up|up| 
+CAF1MU|BE4.4101.pppoe9567|up|up| 
+CAF1MU|BE4.4101.pppoe9579|up|up| 
+CAF1MU|BE4.4101.pppoe9648|up|up| 
+CAF1MU|BE4.4101.pppoe9698|up|up| 
+CAF1MU|BE4.4101.pppoe9804|up|up| 
+CAF1MU|BE4.4101.pppoe9809|up|up| 
+CAF1MU|BE4.4101.pppoe9812|up|up| 
+CAF1MU|BE4.4101.pppoe9819|up|up| 
+CAF1MU|BE4.4101.pppoe9825|up|up| 
+CAF1MU|BE4.4101.pppoe9876|up|up| 
+CAF1MU|BE4.4101.pppoe9877|up|up| 
+CAF1MU|BE4.4101.pppoe9878|up|up| 
+CAF1MU|BE4.4101.pppoe9894|up|up| 
+CAF1MU|BE4.4101.pppoe9935|up|up| 
+CAF1MU|BE4.4101.pppoe9968|up|up| 
+CAF1MU|BE4.4101.pppoe9982|up|up| 
+CAF1MU|BE4.4101.pppoe9984|up|up| 
+CAF1MU|BE4.4101.pppoe9988|up|up| 
+CAF1MU|BE5|up|up|[ACCESO NGN][BE] CAF21D HUAWEI5600
+CAF1MU|BE5.2101|up|up|GESTION CAF21D HUAWEI5600
+CAF1MU|BE5.3101|up|up|[TOIP] CAF21D HUA 5600 [ADS2]
+CAF1MU|BE5.4101|up|up|[DATOS] CAF21D HUAWEI5600 [ADS2][L3]
+CAF1MU|BE8|up|up|[ACCESO NGN][BE] EE8G01 HUA 5000
+CAF1MU|BE8.3|up|up|[RTP][SIGN] EE8G01 HUA 5000 [NGN]
+CAF1MU|BE8.4|up|up|[GESTION] [IPMB] EE8G01 HUA 5000 [NGN]
+CAF1MU|BE8.5|up|up|[GESTION] [PVM] EE8G01 HUA 5000 [NGN]
+CAF1MU|BE8.3101|up|up|[TOIP] EE8G01 HUA 5000 [ADS2]
+CAF1MU|BE8.4101|up|up|[DATOS] EE8G01 HUA 5000 [ADS2][L3]
+CAF1MU|BE9|up|up|[ACCESO NGN][BE]  EEYG01 ZTE 5200
+CAF1MU|BE9.2|up|up|[SIGN] EEYG01 ZTE 5200 [NGN]
+CAF1MU|BE9.3|up|up|[RTP] EEYG01 ZTE 5200 [NGN
+CAF1MU|BE9.4|up|up|[GESTION] EEYG01 ZTE 5200 [NGN]
+CAF1MU|BE9.3101|up|up|[TOIP] EEYG01 ZTE 5555 [ADSL]
+CAF1MU|BE9.4101|up|up|[DATOS] EEYG01 ZTE 5200 [ADS2]
+CAF1MU|BE10|up|up|[ACCESO NGN][BE] BZPG01 HUA 5000
+CAF1MU|BE10.3|up|up|[RTP][SIGN] BZPG01 HUA 5000 [NGN]
+CAF1MU|BE10.4|up|up|[GESTION] [IPMB] BZPG01 HUA 5000 [NGN]
+CAF1MU|BE10.5|up|up|[GESTION] [PVM] BZPG01 HUA 5000 [NGN]
+CAF1MU|BE10.3101|up|up|[TOIP] BZPG01 HUA 5000 [ADS2]
+CAF1MU|BE10.4101|up|up|[DATOS] BZPG01 HUA 5000 [ADS2][L3]
+CAF1MU|Lo0|up|up| 
+CAF1MU|Lo1|up|up|IP UNNUMBERED
+CAF1MU|Lo12|up|up|IP UNNUMBERED vpn-tdata-bcorio - VPN BRONZE INTERCARRIER - TASA - Banco rio
+CAF1MU|Lo26|up|up|IP UNNUMBERED VPN-gpba
+CAF1MU|Lo68|up|up|IP UNNUMBERED VPN PRIMA
+CAF1MU|Lo73|up|up|IP UNNUMBERED bonesi-vpn - VPN BRONZE - BONESI SOCIEDAD ANONIMA
+CAF1MU|Lo77|up|up|VPN WEB PATRON
+CAF1MU|Lo78|up|up|IP UNNUMBERED vpn-credicoop - VPN BRONZE - BANCO CREDICOOP COOP. LTDO.
+CAF1MU|Lo80|up|up|IP UNNUMBERED VPN JOCKEY
+CAF1MU|Lo90|up|up|IP UNNUMBERED munisam-vpn - VPN BRONZE - MUNICIPALIDAD DE GRAL. SAN MARTIN SEC. HAC. Y ECONO.
+CAF1MU|Lo100|up|up|Interfaz de gestion ADSL
+CAF1MU|Lo103|up|up|IP UNNUMBERED ospecom-vpn - VPN BRONZE - OSPECOM
+CAF1MU|Lo127|up|up|IP UNNUMERED vpn-vestiditos - VPN BRONZE - VESTIDITOS S.A.
+CAF1MU|Lo147|up|up|IP UNNUMERED darclibertador-vpn
+CAF1MU|Lo149|up|up|IP UNNUMBERED bna-vpn
+CAF1MU|Lo157|up|up|IP UNNUMBERED vpn-williner - VPN BRONZE - SUCESORES DE ALFREDO WILLINER S.A.
+CAF1MU|Lo162|up|up|IP UNNUMBERED hipodromo-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+CAF1MU|Lo169|up|up|IP UNNUMERED VPN-TECNOACCION1
+CAF1MU|Lo182|up|up|garbarino-vpn - VPN BRONZE - GARBARINO
+CAF1MU|Lo198|up|up|IP UNNUMBERED vpn-gire-1 - VPN BRONZE - GIRE S.A.
+CAF1MU|Lo249|up|up|IP UNNUMBERED ncentralarg-vpn - VPN BRONZE - NUEVO CENTRAL ARGENTINO S.A.
+CAF1MU|Lo256|up|up|IP UNNUMBERED sepsa-vpn - VPN BRONZE - SERV.ELECTRONICO DE PAGO S.A.
+CAF1MU|Lo279|up|up|IP UNNUMBERED hsbc-vpn - VPN BRONZE - HSBC BANK ARGENTINA S.A.
+CAF1MU|Lo347|up|up|IP UNNUMBERED bcogalicia-vpn - VPN BRONZE - BANCO DE GALICIA Y BUENOS AIRE S S.A.
+CAF1MU|Lo433|up|up|IP UNNUMBERED hipodromo-3-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+CAF1MU|Lo454|up|up|IP UNNUMBERED poderjudicial-vpn - VPN BRONZE - PODER JUDICIAL DE LA PROVINCIA
+CAF1MU|Lo459|up|up|IP UNNUMERED clama-vpn
+CAF1MU|Lo479|up|up|IP UNNUMBERED solido-vpn - VPN BRONZE - SOLIDO S.R.L.
+CAF1MU|Lo507|up|up|IP UNNUMBERED maxima-vpn - VPN BRONZE - MAXIMA S.A. A.F.J.P.
+CAF1MU|Lo509|up|up|IP UNNUMBERED citibank-vpn - VPN BRONZE - CITIBANK N.A.
+CAF1MU|Lo546|up|up|IP UNNUMBERED ituran-vpn - VPN BRONZE - ITURAN
+CAF1MU|Lo594|up|up|IP UNNUMBERED diaarg-vpn - VPN BRONZE - DIA ARGENTINA S.A.
+CAF1MU|Lo601|up|up|IP UNNUMBERED alpargatas-vpn - VPN BRONZE - ALPARGATAS CALZADOS S.A.
+CAF1MU|Lo653|up|up|IP UNNUMBERED bigbloom-vpn - VPN BRONZE - BIG BLOOM S.A.
+CAF1MU|Lo707|up|up|IP UNNUMBERED correo-vpn - VPN BRONZE - CORREO OFICIAL DE LA REP.ARG.
+CAF1MU|Lo980|up|up|IP UNNUMBERED cjuleriaque-vpn - VPN BRONZE - CARLOS JULERIAQUE S.R.L.
+CAF1MU|Lo1017|up|up|IP UNNUMBERED asmuprofa-vpn - VPN BRONZE - ASOCIACION MUTUAL DE PROTECCIO N FAMILIAR
+CAF1MU|Lo1059|up|up|fravega-vpn - VPN BRONZE - FRAVEGA
+CAF1MU|Lo1154|up|up|IP UNNUMBERED arcosdora2-vpn
+CAF1MU|Lo1219|up|up|SIMONS DE ARGENTINA SAIC
+CAF1MU|Lo1226|up|up|IP UNNUMERED argentconec-vpn
+CAF1MU|Lo1312|up|up|IP UNNUMBERED wifioffload-vpn
+CAF1MU|Lo1385|up|up|IP UNNUMERED garbacontenidos-vpn - VPN BRONZE - GARBARINO S.A.
+CAF1MU|Lo1471|up|up|IP UNNUMERED unigestopems-vpn - VPN BRONZE - UNIDAD DE GESTION OPERATIVA MITRE SARMIENTO S.A.
+CAF1MU|Lo13143|up|up|IP UNNUMBERED tasabancofrances-vpn - VPN BRONZE INTERCARRIER. - TASA subcliente Bco. Frances
+CAF1MU|Lo57015|up|up|IP UNNUMBERED tasabapro-vpn - VPN BRONZE INTERCARRIER. - Tasa sub
+CAF1MU|Lo191720|up|up|PRUEBA MAT HW!!!!
+CAF1MU|Nu0|up|up| 
+CAF1MU|Mg0/RSP0/CPU0/0|admin-down|admin-down| 
+CAF1MU|Mg0/RSP0/CPU0/1|admin-down|admin-down| 
+CAF1MU|PT0/RSP0/CPU0/0|admin-down|admin-down| 
+CAF1MU|Mg0/RSP1/CPU0/0|admin-down|admin-down| 
+CAF1MU|Mg0/RSP1/CPU0/1|admin-down|admin-down| 
+CAF1MU|PT0/RSP1/CPU0/0|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/0|admin-down|admin-down|[ACCESO NGN][BE] 3YGG01 HUA 5603_T Ref: 13001974
+CAF1MU|Gi0/0/0/1|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/2|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/3|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/4|up|up|[ACCESO HSI][BE] CAF11D 1/1 - Linea 9703105
+CAF1MU|Gi0/0/0/5|up|up|[ACCESO NGN][BE] CAF21D HUAWEI5600 13003748
+CAF1MU|Gi0/0/0/6|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/7|up|up|CONEXION A NGN - CAFG01 - CAFAYATE
+CAF1MU|Gi0/0/0/7.3|up|up|[RTP][SIGN] CAFG01 HUA 5000 [NGN]
+CAF1MU|Gi0/0/0/7.4|up|up|[GESTION][IPMB] CAFG01 HUA 5000 [NGN]
+CAF1MU|Gi0/0/0/7.5|up|up|[GESTION][PVM] CAFG01 HUA 5000 [NGN]
+CAF1MU|Gi0/0/0/8|up|up|[ACCESO NGN][BE] EE8G01 HUA 5000 13000051
+CAF1MU|Gi0/0/0/9|up|up|[ACCESO NGN][BE]  EEYG01 ZTE 5200 ref: 13000633
+CAF1MU|Gi0/0/0/10|up|up|[ACCESO NGN][BE] BZPG01 HUA 5000 Ref: 13000653
+CAF1MU|Gi0/0/0/11|up|up|[ACCESO HSI][BE] CAF11D 2/2 - Linea 9703105
+CAF1MU|Gi0/0/0/12|down|down|TIP - PROVIDERS - REF: 937486 - LINEA: 2867418
+CAF1MU|Gi0/0/0/12.2|down|down|TIP - PROVIDERS - REF: 937486 - LINEA: 2867418 
+CAF1MU|Gi0/0/0/13|admin-down|admin-down|INTEGRA - ESTILO NORTE SA - REF: 944170 - LINEA: 2868877 - ACC: GigabitEthernet0/0/0/13.2
+CAF1MU|Gi0/0/0/13.2|admin-down|admin-down|INTEGRA - ESTILO NORTE SA - REF: 944170 - LINEA: 2868877 - ACC: GigabitEthernet0/0/0/13.2
+CAF1MU|Gi0/0/0/14|down|down|TIP - RED INTERCABLE DIGITAL SA - Ref: 402653 - Lin: 2826549 
+CAF1MU|Gi0/0/0/15|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/16|admin-down|admin-down|INTEGRA - ARTEL INC. - REF: 946723 - LINEA: 2869973 - ACC: caf1mu 0/0/0/16.2
+CAF1MU|Gi0/0/0/16.2|admin-down|admin-down|INTEGRA - ARTEL INC. - REF: 946723 - LINEA: 2869973 - ACC: caf1mu 0/0/0/16.2
+CAF1MU|Gi0/0/0/17|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/18|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/19|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/20|up|up|[ACCESO NGN][BE] 3YGG01 HUA 5603_T Ref: 13001974
+CAF1MU|Gi0/0/0/21|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/22|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/23|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/24|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/25|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/26|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/27|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/28|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/29|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/30|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/31|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/32|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/33|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/34|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/35|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/36|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/37|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/38|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/39|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/40|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/41|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/42|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/43|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/44|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/45|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/46|admin-down|admin-down| 
+CAF1MU|Gi0/0/0/47|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/0|up|up| 
+CAF1MU|Gi0/1/0/0.1000|up|up|eNODOB - CAFAYATE_2 - A21-S260 - (1) (752194) - S1
+CAF1MU|Gi0/1/0/0.1001|up|up|eNODOB - CAFAYATE_2 - A21-S260 - (2) (752194) - S1MME
+CAF1MU|Gi0/1/0/0.1002|up|up|eNODOB - CAFAYATE_2 - A21-S260 - (3) (752194) - GOMRAN
+CAF1MU|Gi0/1/0/0.1003|up|up|NODOB - CAFAYATE_2 - A21-S260 - (1) (752195) - 3G
+CAF1MU|Gi0/1/0/0.1004|up|up|NODOB - CAFAYATE_2 - A21-S260 - (1) (752196) - 2G
+CAF1MU|Gi0/1/0/1|up|up| 
+CAF1MU|Gi0/1/0/1.1000|up|up|eNODOB - ESTANCIA_CAFAYATE_1 - A21-S512 - (1) (755145) - S1
+CAF1MU|Gi0/1/0/1.1001|up|up|eNODOB - ESTANCIA_CAFAYATE_1 - A21-S512 - (2) (755145) - S1MME
+CAF1MU|Gi0/1/0/1.1002|up|up|eNODOB - ESTANCIA_CAFAYATE_1 - A21-S512 - (3) (755145) - GOMRAN
+CAF1MU|Gi0/1/0/1.1003|up|up|NODOB - ESTANCIA_CAFAYATE_1 - A21-S512 - (1) (755146) - 3G
+CAF1MU|Gi0/1/0/1.1004|up|up|NODOB - ESTANCIA_CAFAYATE_1 - A21-S512 - (1) (755147) - 2G
+CAF1MU|Gi0/1/0/2|up|up| 
+CAF1MU|Gi0/1/0/2.1000|up|up|eNODOB - ESTANCIA_CAFAYATE_2 - A21-S513 - (1) (755142) - S1
+CAF1MU|Gi0/1/0/2.1001|up|up|eNODOB - ESTANCIA_CAFAYATE_2 - A21-S513 - (2) (755142) - S1MME
+CAF1MU|Gi0/1/0/2.1002|up|up|eNODOB - ESTANCIA_CAFAYATE_2 - A21-S513 - (3) (755142) - GOMRAN
+CAF1MU|Gi0/1/0/2.1003|up|up|NODOB - ESTANCIA_CAFAYATE_2 - A21-S513 - (1) (755143) - 3G
+CAF1MU|Gi0/1/0/2.1004|up|up|NODOB - ESTANCIA_CAFAYATE_2 - A21-S513 - (1) (755144) - 2G
+CAF1MU|Gi0/1/0/3|up|up| 
+CAF1MU|Gi0/1/0/3.1019|up|up|eNODOB - CAFAYATE - A21-S020 - (1) (526377) - S1
+CAF1MU|Gi0/1/0/3.1020|up|up|eNODOB - CAFAYATE - A21-S020 - (2) (526377) - S1MME
+CAF1MU|Gi0/1/0/3.1021|up|up|eNODOB - CAFAYATE - A21-S020 - (3) (526377) - GOMRAN
+CAF1MU|Gi0/1/0/3.1022|up|up|NODOB - CAFAYATE - A21-S020 - (1) (523314) - 3G
+CAF1MU|Gi0/1/0/3.1023|up|up|NODOB - CAFAYATE - A21-S020 - (1) (523258) - 2G
+CAF1MU|Gi0/1/0/4|up|up|INTEGRA - HOTELES DIONYSOS SA
+CAF1MU|Gi0/1/0/4.2|up|up|INTEGRA - HOTELES DIONYSOS SA - REF: 573396 - LINEA: 2762983
+CAF1MU|Gi0/1/0/4.4|up|up|INTEGRA - HOTELES DIONYSOS SA - REF: 940241 - LINEA: 2867955
+CAF1MU|Gi0/1/0/5|up|up|INTEGRA - HOTELES DIONYSOS SA
+CAF1MU|Gi0/1/0/5.2|up|up|TIP_TIPCOMVACALCAF(2855248)REFE:873625_Ges.TECO
+CAF1MU|Gi0/1/0/6|up|up|INTEGRA - PERNOD REFE: 871868  - lINEA: 2853855
+CAF1MU|Gi0/1/0/6.2|up|up|INTEGRA - PERNOD REFE: 871868  - lINEA: 2853855
+CAF1MU|Gi0/1/0/7|down|down|INTEGRA - GUEMES TELEVISION S.A.  - REFERENCIA: 904275 LINEA:2864207
+CAF1MU|Gi0/1/0/7.2|down|down|INTEGRA - GUEMES TELEVISION S.A.  - REFERENCIA: 904275 LINEA:2864207
+CAF1MU|Gi0/1/0/8|down|down|TIP_CIUDADGLOBAL(2858292)REFE:879824 _Ges.TECO
+CAF1MU|Gi0/1/0/8.2|down|down|TIP_CIUDADGLOBAL(2858292)REFE:879824 _Ges.TECO
+CAF1MU|Gi0/1/0/9|up|up|VPN/VPN PLATINUM - SIGAR 
+CAF1MU|Gi0/1/0/9.5|up|up|VPN - SIGAR - Ref 734677 - Lin:2832280 - Acc: ZAB1MB BE1000.1235
+CAF1MU|Gi0/1/0/9.6|up|up| 
+CAF1MU|Gi0/1/0/10|up|up|INTEGRA/VPN - GRUPO PENAFLOR 
+CAF1MU|Gi0/1/0/10.2|up|up|VPN - PENAFLOR - Ref:714804
+CAF1MU|Gi0/1/0/10.3|up|up|VPN - PENAFLOR - Ref:90481
+CAF1MU|Gi0/1/0/10.4|up|up|INTEGRA - GRUPO PENAFLOR - REF:894543 LIN:2864152
+CAF1MU|Gi0/1/0/11|down|down|TIP_TIPTEISACAF(2859253)REFE:881166_Ges.TECO
+CAF1MU|Gi0/1/0/11.2|down|down|TIP_TIPTEISACAF(2859253)REFE:881166_Ges.TECO
+CAF1MU|Gi0/1/0/12|up|up|VPN PLATINUM - EMPRESA DISTRIBUIDORA DE ELECTRICIDAD DE SALTA EDESA S A
+CAF1MU|Gi0/1/0/12.2|up|up|#### VPN PLATINUM - EMPRESA DISTRIBUIDORA DE ELECTRICIDAD DE SALTA EDESA S A - REF: 881913 - LINEA: 2859718 - TRZXXXXX ####
+CAF1MU|Gi0/1/0/12.3|up|up|#### VPN PLATINUM - EMPRESA DISTRIBUIDORA DE ELECTRICIDAD DE SALTA EDESA S A - REF: 881913 - LINEA: 2859718 - TRZXXXXX ####
+CAF1MU|Gi0/1/0/13|up|up| 
+CAF1MU|Gi0/1/0/13.2|up|up|TIP - RED INTERCABLE - REF: 402653 - LINEA: 5642518
+CAF1MU|Gi0/1/0/14|up|up|VPN PLATINUM - MINISTERIO DE JUSTICIA, SEGURIDAD Y DERECHOS HUMANOS
+CAF1MU|Gi0/1/0/14.2|up|up|VPN PLATINUM - MINISTERIO DE JUSTICIA, SEGURIDAD Y DERECHOS HUMANOS - Ref:922031 Lin:2868045
+CAF1MU|Gi0/1/0/15|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/16|up|up|INTEGRA - GRUPO COLOME S A. - Ref:940954 Lin:2868373
+CAF1MU|Gi0/1/0/16.4|up|up|INTEGRA - GRUPO COLOME S A. - Ref:940954 Lin:2868373
+CAF1MU|Gi0/1/0/17|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/18|up|up|INTEGRA - FELIX LAVAQUE SA - REF: 942020 - LINEA: 2868438 - ACC: CAF1MU 0/1/0/18
+CAF1MU|Gi0/1/0/18.4|up|up|INTEGRA - FELIX LAVAQUE SA - REF: 942020 - LINEA: 2868438 - ACC: CAF1MU 0/1/0/18
+CAF1MU|Gi0/1/0/19|up|up|INTEGRA - PODER JUDICIAL PROV. DE SALTA - REF: 947029 - LINEA: 2869593 
+CAF1MU|Gi0/1/0/19.2|up|up|INTEGRA - PODER JUDICIAL PROV. DE SALTA - REF: 947029 - LINEA: 2869593 
+CAF1MU|Gi0/1/0/20|up|up|LAN EXTENSION - NUBICOM - REF: 948346 - LINEA: 2869987
+CAF1MU|Gi0/1/0/20.7|up|up|LAN EXTENSION - NUBICOM - REF: 948346 - LINEA: 2869987 - VPLS: ELAN_3574317002_948346
+CAF1MU|Gi0/1/0/21|up|up|VPN - INSTITUTO PROVINCIAL DE  SALUD DE SALTA (I.P.S) - REF: 948978 - LINEA: 2870113 - ACC: 
+CAF1MU|Gi0/1/0/21.2|up|up|VPN - INSTITUTO PROVINCIAL DE  SALUD DE SALTA (I.P.S) - REF: 948978 - LINEA: 2870113 - ACC: 
+CAF1MU|Gi0/1/0/22|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/23|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/24|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/25|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/26|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/27|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/28|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/29|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/30|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/31|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/32|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/33|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/34|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/35|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/36|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/37|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/38|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/39|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/40|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/41|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/42|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/43|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/44|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/45|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/46|admin-down|admin-down| 
+CAF1MU|Gi0/1/0/47|admin-down|admin-down| 
+CAF1MU|Te0/3/0/0|up|up|Enlace 10G DWDM A BUA1MB_Te0/4/0/21 (Linea:13007327) - UPLINK BBIP
+CAF1MU|Te0/3/0/1|admin-down|admin-down| 
+CAF1MU|Te0/3/0/2|admin-down|admin-down| 
+CAF1MU|Te0/3/0/3|admin-down|admin-down| 
+CAF1MU|Te0/3/0/4|admin-down|admin-down| 
+CAF1MU|Te0/3/0/5|admin-down|admin-down| 
+CAF1MU|Te0/3/0/6|admin-down|admin-down| 
+CAF1MU|Te0/3/0/7|admin-down|admin-down| 
+CAF1MU|Te0/3/0/8|admin-down|admin-down| 
+CAF1MU|Te0/3/0/9|admin-down|admin-down| 
+CAF1MU|Te0/3/0/10|admin-down|admin-down| 
+CAF1MU|Te0/3/0/11|admin-down|admin-down| 
+CAF1MU|Te0/3/0/12|admin-down|admin-down| 
+CAF1MU|Te0/3/0/13|admin-down|admin-down| 
+CAF1MU|Te0/3/0/14|admin-down|admin-down| 
+CAF1MU|Te0/3/0/15|admin-down|admin-down| 
+CAF1MU|Te0/3/0/16|admin-down|admin-down| 
+CAF1MU|Te0/3/0/17|admin-down|admin-down| 
+CAF1MU|Te0/3/0/18|admin-down|admin-down| 
+CAF1MU|Te0/3/0/19|admin-down|admin-down| 
+CAF1MU|Te0/4/0/0|up|up|Enlace 10G DWDM A MUS1MB_Te0/2/0/0 (Linea:13007328) - UPLINK BBIP
+CAF1MU|Te0/4/0/1|admin-down|admin-down| 
+CAF1MU|Te0/4/0/2|admin-down|admin-down| 
+CAF1MU|Te0/4/0/3|admin-down|admin-down| 
+CAF1MU|Te0/4/0/4|admin-down|admin-down| 
+CAF1MU|Te0/4/0/5|admin-down|admin-down| 
+CAF1MU|Te0/4/0/6|admin-down|admin-down| 
+CAF1MU|Te0/4/0/7|admin-down|admin-down| 
+CAF1MU|Te0/4/0/8|admin-down|admin-down| 
+CAF1MU|Te0/4/0/9|admin-down|admin-down| 
+CAF1MU|Te0/4/0/10|admin-down|admin-down| 
+CAF1MU|Te0/4/0/11|admin-down|admin-down| 
+CAF1MU|Te0/4/0/12|admin-down|admin-down| 
+CAF1MU|Te0/4/0/13|admin-down|admin-down| 
+CAF1MU|Te0/4/0/14|admin-down|admin-down| 
+CAF1MU|Te0/4/0/15|admin-down|admin-down| 
+CAF1MU|Te0/4/0/16|admin-down|admin-down| 
+CAF1MU|Te0/4/0/17|admin-down|admin-down| 
+CAF1MU|Te0/4/0/18|admin-down|admin-down| 
+CAF1MU|Te0/4/0/19|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/0|up|up|FRONTERA RE 1GCAF01
+CAF1MU|Gi0/7/0/0.311003|admin-down|admin-down|[RTP][SIGN] SCLG01 HUA 5000 [NGN] 9701076
+CAF1MU|Gi0/7/0/0.311004|admin-down|admin-down|[GESTION][IPMB] SCLG01 HUA 5000 [NGN] 9701076
+CAF1MU|Gi0/7/0/0.311005|admin-down|admin-down|[GESTION][PVM] SCLG01 HUA 5000 [NGN] 9701076
+CAF1MU|Gi0/7/0/0.23091000|up|up|eNODOB - SAN_CARLOS - ZAB1MB 0/7/0/13 - A21-S030 - (1) (683952) - S1
+CAF1MU|Gi0/7/0/0.23091001|up|up|eNODOB - SAN_CARLOS - ZAB1MB 0/7/0/13 - A21-S030 - (2) (683952) - S1MME
+CAF1MU|Gi0/7/0/0.23091002|up|up|eNODOB - SAN_CARLOS - ZAB1MB 0/7/0/13 - A21-S030 - (3) (683952) - GOMRAN
+CAF1MU|Gi0/7/0/0.23091003|up|up|NODOB - SAN_CARLOS - ZAB1MB 0/7/0/13 - A21-S030 - (1) (523333) - 3G
+CAF1MU|Gi0/7/0/0.23091004|up|up|NODOB - SAN_CARLOS - ZAB1MB 0/7/0/13 - A21-S030 - (1) (523282) - 2G
+CAF1MU|Gi0/7/0/1|up|up|FRONTERA RE 1RCAF01
+CAF1MU|Gi0/7/0/1.23081000|up|up|eNODOB - ANIMANA - ZAB1MB 0/7/0/13 - A21-S106 - (1) (526367) - S1
+CAF1MU|Gi0/7/0/1.23081001|up|up|eNODOB - ANIMANA - ZAB1MB 0/7/0/13 - A21-S106 - (2) (526367) - S1MME
+CAF1MU|Gi0/7/0/1.23081002|up|up|eNODOB - ANIMANA - ZAB1MB 0/7/0/13 - A21-S106 - (3) (526367) - GOMRAN
+CAF1MU|Gi0/7/0/1.23081003|up|up|NODOB - ANIMANA - ZAB1MB 0/7/0/13 - A21-S106 - (1) (526647) - 3G
+CAF1MU|Gi0/7/0/1.23081004|up|up|NODOB - ANIMANA - ZAB1MB 0/7/0/13 - A21-S106 - (1) (526429) - 2G
+CAF1MU|Gi0/7/0/2|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/3|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/4|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/5|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/6|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/7|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/8|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/9|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/10|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/11|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/12|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/13|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/14|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/15|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/16|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/17|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/18|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/19|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/20|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/21|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/22|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/23|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/24|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/25|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/26|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/27|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/28|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/29|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/30|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/31|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/32|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/33|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/34|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/35|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/36|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/37|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/38|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/39|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/40|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/41|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/42|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/43|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/44|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/45|admin-down|admin-down| 
+CAF1MU|Gi0/7/0/46|admin-down|admin-down| 
+
+

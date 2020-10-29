@@ -1,0 +1,480 @@
+shelfname|interface|portoperationalstate|protocol|info1
+ARL2MU|BE1|up|up|[ACCESO HSI][BE] ARL21D
+ARL2MU|BE1.2101|up|up|[GESTION] ARL21D H5600 [ADS2]
+ARL2MU|BE1.3101|up|up|[TOIP] ARL21D HUA 5600 [ADS2]
+ARL2MU|BE1.3648|up|up|VPN Head Quarter - MACRO - Ref:571396 Lin:2762377 Acc:ARL21D 0/14/0
+ARL2MU|BE1.3649|up|up|VPN GOLD - DIA ARGENTINA S.A. - Ref:572904 Lin:2762791 Acc:ARL21D 0/14/1
+ARL2MU|BE1.3651|up|up|VPN Head Quarter - MACRO - Ref:270997 Lin:2724778 Acc:ARL21D 0/14/3
+ARL2MU|BE1.3653|up|up|VPN Branch Office - MinSaludSalta - Ref:542584 Lin:2752993 Acc:ARL21D 0/14/5
+ARL2MU|BE1.3840|up|up|VPN Head Quarter - MACRO - Ref:571396 Lin:2762377 - Gestion - Acc: ARL21D 0/14/0
+ARL2MU|BE1.3843|up|up|VPN Head Quarter - MACRO - Ref:270997 Lin:2724778 - Gestion Xavi - Acc: ARL21D 0/14/3
+ARL2MU|BE1.3855|up|up|IntegraLight - C.I.A.C.S.A. - Ref:584427 Lin:2769716 Acc:ARL21D 0/14/15
+ARL2MU|BE1.4101|up|up|[DATOS] ARL21D H5600 [ADS2][L3]
+ARL2MU|BE1.4101.pppoe3572|up|up| 
+ARL2MU|BE1.4101.pppoe3582|up|up| 
+ARL2MU|BE1.4101.pppoe3991|up|up| 
+ARL2MU|BE1.4101.pppoe4380|up|up| 
+ARL2MU|BE1.4101.pppoe4480|up|up| 
+ARL2MU|BE1.4101.pppoe4538|up|up| 
+ARL2MU|BE1.4101.pppoe4612|up|up| 
+ARL2MU|BE1.4101.pppoe4756|up|up| 
+ARL2MU|BE1.4101.pppoe5558|up|up| 
+ARL2MU|BE1.4101.pppoe6884|up|up| 
+ARL2MU|BE1.4101.pppoe7110|up|up| 
+ARL2MU|BE1.4101.pppoe7269|up|up| 
+ARL2MU|BE1.4101.pppoe7755|up|up| 
+ARL2MU|BE1.4101.pppoe9893|up|up| 
+ARL2MU|BE2|up|up|[ACCESO HSI][BE] ARL11D 9701852
+ARL2MU|BE2.2101|up|up|[GESTION] ARL11D HUA 5100 [ADS2]
+ARL2MU|BE2.4101|up|up|[DATOS] ARL11D HUA 5100 [ADS2][L3]
+ARL2MU|BE2.4101.pppoe770|up|up| 
+ARL2MU|BE2.4101.pppoe773|up|up| 
+ARL2MU|BE2.4101.pppoe805|up|up| 
+ARL2MU|BE2.4101.pppoe933|up|up| 
+ARL2MU|BE2.4101.pppoe1841|up|up| 
+ARL2MU|BE2.4101.pppoe2121|up|up| 
+ARL2MU|BE2.4101.pppoe2824|up|up| 
+ARL2MU|BE2.4101.pppoe2902|up|up| 
+ARL2MU|BE2.4101.pppoe3235|up|up| 
+ARL2MU|BE2.4101.pppoe3309|up|up| 
+ARL2MU|BE2.4101.pppoe3769|up|up| 
+ARL2MU|BE2.4101.pppoe3857|up|up| 
+ARL2MU|BE2.4101.pppoe3901|up|up| 
+ARL2MU|BE2.4101.pppoe3983|up|up| 
+ARL2MU|BE2.4101.pppoe4206|up|up| 
+ARL2MU|BE2.4101.pppoe4285|up|up| 
+ARL2MU|BE2.4101.pppoe4302|up|up| 
+ARL2MU|BE2.4101.pppoe4306|up|up| 
+ARL2MU|BE2.4101.pppoe4312|up|up| 
+ARL2MU|BE2.4101.pppoe4316|up|up| 
+ARL2MU|BE2.4101.pppoe4353|up|up| 
+ARL2MU|BE2.4101.pppoe4382|up|up| 
+ARL2MU|BE2.4101.pppoe4386|up|up| 
+ARL2MU|BE2.4101.pppoe4400|up|up| 
+ARL2MU|BE2.4101.pppoe4475|up|up| 
+ARL2MU|BE2.4101.pppoe4487|up|up| 
+ARL2MU|BE2.4101.pppoe4496|up|up| 
+ARL2MU|BE2.4101.pppoe4497|up|up| 
+ARL2MU|BE2.4101.pppoe4505|up|up| 
+ARL2MU|BE2.4101.pppoe4526|up|up| 
+ARL2MU|BE2.4101.pppoe4533|up|up| 
+ARL2MU|BE2.4101.pppoe4540|up|up| 
+ARL2MU|BE2.4101.pppoe4582|up|up| 
+ARL2MU|BE2.4101.pppoe4601|up|up| 
+ARL2MU|BE2.4101.pppoe4606|up|up| 
+ARL2MU|BE2.4101.pppoe4612|up|up| 
+ARL2MU|BE2.4101.pppoe4623|up|up| 
+ARL2MU|BE2.4101.pppoe4649|up|up| 
+ARL2MU|BE2.4101.pppoe4679|up|up| 
+ARL2MU|BE2.4101.pppoe4692|up|up| 
+ARL2MU|BE2.4101.pppoe4707|up|up| 
+ARL2MU|BE2.4101.pppoe4713|up|up| 
+ARL2MU|BE2.4101.pppoe4725|up|up| 
+ARL2MU|BE2.4101.pppoe4738|up|up| 
+ARL2MU|BE2.4101.pppoe4749|up|up| 
+ARL2MU|BE2.4101.pppoe4750|up|up| 
+ARL2MU|BE2.4101.pppoe4752|up|up| 
+ARL2MU|BE2.4101.pppoe4760|up|up| 
+ARL2MU|BE2.4101.pppoe4761|up|up| 
+ARL2MU|BE2.4101.pppoe4765|up|up| 
+ARL2MU|BE2.4101.pppoe4766|up|up| 
+ARL2MU|BE2.4101.pppoe4774|up|up| 
+ARL2MU|BE2.4101.pppoe4777|up|up| 
+ARL2MU|BE2.4101.pppoe4782|up|up| 
+ARL2MU|BE2.4101.pppoe4783|up|up| 
+ARL2MU|BE2.4101.pppoe4785|up|up| 
+ARL2MU|BE2.4101.pppoe4796|up|up| 
+ARL2MU|BE2.4101.pppoe4808|up|up| 
+ARL2MU|BE2.4101.pppoe4818|up|up| 
+ARL2MU|BE2.4101.pppoe4822|up|up| 
+ARL2MU|BE2.4101.pppoe4824|up|up| 
+ARL2MU|BE2.4101.pppoe4828|up|up| 
+ARL2MU|BE2.4101.pppoe4836|up|up| 
+ARL2MU|BE2.4101.pppoe4837|up|up| 
+ARL2MU|BE2.4101.pppoe4838|up|up| 
+ARL2MU|BE2.4101.pppoe4845|up|up| 
+ARL2MU|BE2.4101.pppoe4848|up|up| 
+ARL2MU|BE2.4101.pppoe4851|up|up| 
+ARL2MU|BE2.4101.pppoe4852|up|up| 
+ARL2MU|BE2.4101.pppoe4853|up|up| 
+ARL2MU|BE3|up|up|[ACCESO][BE] ARLG01 
+ARL2MU|BE3.2|up|up|[SIG]GESTION SIGNALING (ARLG01) 9701069 [NGN]
+ARL2MU|BE3.3|up|up|[RTP] GESTION RTP Y SIGNALING (ARLG01) 9701069 [NGN]
+ARL2MU|BE3.5|up|up|[GESTION] ARENALES (ARLG01) 9701069 [NGN]
+ARL2MU|BE4|up|up|[ACCESO HSI][BE] ARLM01 13002248
+ARL2MU|BE4.2101|up|up|[GESTION] ARLM01 ALCATEL7302 [ADS2]
+ARL2MU|BE4.3101|up|up|[TOIP] ARLM01 ALC 7302 [ADS2]
+ARL2MU|BE4.4101|up|up|[DATOS] ARLM01 ALCATEL7302 [ADS2][L3]
+ARL2MU|BE4.4101.pppoe429|up|up| 
+ARL2MU|BE4.4101.pppoe587|up|up| 
+ARL2MU|BE4.4101.pppoe673|up|up| 
+ARL2MU|BE4.4101.pppoe777|up|up| 
+ARL2MU|BE4.4101.pppoe810|up|up| 
+ARL2MU|BE4.4101.pppoe886|up|up| 
+ARL2MU|BE4.4101.pppoe950|up|up| 
+ARL2MU|BE4.4101.pppoe971|up|up| 
+ARL2MU|BE4.4101.pppoe1116|up|up| 
+ARL2MU|BE4.4101.pppoe1334|up|up| 
+ARL2MU|BE4.4101.pppoe1476|up|up| 
+ARL2MU|BE4.4101.pppoe1506|up|up| 
+ARL2MU|BE4.4101.pppoe1616|up|up| 
+ARL2MU|BE4.4101.pppoe1619|up|up| 
+ARL2MU|BE4.4101.pppoe1642|up|up| 
+ARL2MU|BE4.4101.pppoe1654|up|up| 
+ARL2MU|BE4.4101.pppoe1797|up|up| 
+ARL2MU|BE4.4101.pppoe2377|up|up| 
+ARL2MU|BE4.4101.pppoe2594|up|up| 
+ARL2MU|BE4.4101.pppoe2614|up|up| 
+ARL2MU|BE4.4101.pppoe2699|up|up| 
+ARL2MU|BE4.4101.pppoe2700|up|up| 
+ARL2MU|BE4.4101.pppoe2717|up|up| 
+ARL2MU|BE4.4101.pppoe2737|up|up| 
+ARL2MU|BE4.4101.pppoe2752|up|up| 
+ARL2MU|BE4.4101.pppoe2785|up|up| 
+ARL2MU|BE4.4101.pppoe2787|up|up| 
+ARL2MU|BE4.4101.pppoe2789|up|up| 
+ARL2MU|BE4.4101.pppoe2790|up|up| 
+ARL2MU|BE4.4101.pppoe2797|up|up| 
+ARL2MU|BE4.4101.pppoe2798|up|up| 
+ARL2MU|BE4.4101.pppoe2815|up|up| 
+ARL2MU|BE4.4101.pppoe2816|up|up| 
+ARL2MU|BE4.4101.pppoe2820|up|up| 
+ARL2MU|BE4.4101.pppoe2827|up|up| 
+ARL2MU|BE4.4101.pppoe2886|up|up| 
+ARL2MU|BE4.4101.pppoe2893|up|up| 
+ARL2MU|BE4.4101.pppoe2898|up|up| 
+ARL2MU|BE4.4101.pppoe2902|up|up| 
+ARL2MU|BE4.4101.pppoe2998|up|up| 
+ARL2MU|BE4.4101.pppoe2999|up|up| 
+ARL2MU|BE4.4101.pppoe3008|up|up| 
+ARL2MU|BE4.4101.pppoe3013|up|up| 
+ARL2MU|BE4.4101.pppoe3014|up|up| 
+ARL2MU|BE4.4101.pppoe3018|up|up| 
+ARL2MU|BE4.4101.pppoe3032|up|up| 
+ARL2MU|BE4.4101.pppoe3060|up|up| 
+ARL2MU|BE4.4101.pppoe3080|up|up| 
+ARL2MU|BE4.4101.pppoe3085|up|up| 
+ARL2MU|BE4.4101.pppoe3097|up|up| 
+ARL2MU|BE4.4101.pppoe3098|up|up| 
+ARL2MU|BE4.4101.pppoe3099|up|up| 
+ARL2MU|BE4.4101.pppoe3100|up|up| 
+ARL2MU|BE4.4101.pppoe3101|up|up| 
+ARL2MU|BE4.4101.pppoe3102|up|up| 
+ARL2MU|BE4.4101.pppoe3104|up|up| 
+ARL2MU|BE4.4101.pppoe3105|up|up| 
+ARL2MU|BE4.4101.pppoe3106|up|up| 
+ARL2MU|BE4.4101.pppoe3107|up|up| 
+ARL2MU|BE4.4101.pppoe3108|up|up| 
+ARL2MU|BE4.4101.pppoe3109|up|up| 
+ARL2MU|BE4.4101.pppoe3110|up|up| 
+ARL2MU|BE4.4101.pppoe3111|up|up| 
+ARL2MU|BE4.4101.pppoe3112|up|up| 
+ARL2MU|BE5|up|up|[ACCESO HSI][BE] ARL41D 13003439
+ARL2MU|BE5.2101|up|up|[GESTION] ARL41D HUA 5600 [ADS2]
+ARL2MU|BE5.3101|up|up|[TOIP] ARL41D HUA 5600 [ADS2]
+ARL2MU|BE5.4101|up|up|[DATOS] ARL41D HUA 5600 [ADS2][L3]
+ARL2MU|BE5.4101.pppoe4381|up|up| 
+ARL2MU|BE5.4101.pppoe5108|up|up| 
+ARL2MU|BE5.4101.pppoe5114|up|up| 
+ARL2MU|BE5.4101.pppoe5126|up|up| 
+ARL2MU|BE5.4101.pppoe5146|up|up| 
+ARL2MU|BE5.4101.pppoe5151|up|up| 
+ARL2MU|BE5.4101.pppoe5154|up|up| 
+ARL2MU|BE5.4101.pppoe5225|up|up| 
+ARL2MU|BE5.4101.pppoe5249|up|up| 
+ARL2MU|BE5.4101.pppoe5280|up|up| 
+ARL2MU|BE5.4101.pppoe5283|up|up| 
+ARL2MU|BE5.4101.pppoe6542|up|up| 
+ARL2MU|BE5.4101.pppoe6558|up|up| 
+ARL2MU|BE5.4101.pppoe9175|up|up| 
+ARL2MU|BE6|up|up|[ACCESO HSI][BE] ARL51D L:13003440
+ARL2MU|BE6.2101|up|up|[GESTION] ARL51D HUA 5600 [ADS2]
+ARL2MU|BE6.3101|up|up|[TOIP] ARL51D HUA 5600 [ADS2]
+ARL2MU|BE6.4101|up|up|[DATOS] ARL51D HUA 5600 [ADS2][L3]
+ARL2MU|BE6.4101.pppoe3239|up|up| 
+ARL2MU|BE6.4101.pppoe3244|up|up| 
+ARL2MU|BE6.4101.pppoe3252|up|up| 
+ARL2MU|BE6.4101.pppoe3294|up|up| 
+ARL2MU|BE6.4101.pppoe3913|up|up| 
+ARL2MU|BE6.4101.pppoe3958|up|up| 
+ARL2MU|BE6.4101.pppoe4064|up|up| 
+ARL2MU|BE6.4101.pppoe4082|up|up| 
+ARL2MU|BE6.4101.pppoe4089|up|up| 
+ARL2MU|BE6.4101.pppoe5623|up|up| 
+ARL2MU|BE6.4101.pppoe6942|up|up| 
+ARL2MU|BE6.4101.pppoe7253|up|up| 
+ARL2MU|BE6.4101.pppoe8272|up|up| 
+ARL2MU|BE6.4101.pppoe8403|up|up| 
+ARL2MU|BE6.4101.pppoe8747|up|up| 
+ARL2MU|BE6.4101.pppoe8937|up|up| 
+ARL2MU|BE7|up|up|[ACCESO HSI][BE] ARL31D 
+ARL2MU|BE7.2101|up|up|[GESTION] ARL31D HUA 5600 [ADS2]
+ARL2MU|BE7.3101|up|up|[TOIP] ARL31D HUA 5600 [ADS2]
+ARL2MU|BE7.4101|up|up|[DATOS] ARL31D HUA 5600 [ADS2]
+ARL2MU|BE7.4101.pppoe697|up|up| 
+ARL2MU|BE7.4101.pppoe6689|up|up| 
+ARL2MU|BE7.4101.pppoe6719|up|up| 
+ARL2MU|BE7.4101.pppoe6736|up|up| 
+ARL2MU|BE7.4101.pppoe6759|up|up| 
+ARL2MU|BE7.4101.pppoe6772|up|up| 
+ARL2MU|BE7.4101.pppoe6805|up|up| 
+ARL2MU|BE7.4101.pppoe6876|up|up| 
+ARL2MU|BE7.4101.pppoe6891|up|up| 
+ARL2MU|BE7.4101.pppoe6907|up|up| 
+ARL2MU|BE7.4101.pppoe6951|up|up| 
+ARL2MU|BE7.4101.pppoe6958|up|up| 
+ARL2MU|BE7.4101.pppoe8331|up|up| 
+ARL2MU|BE7.4101.pppoe8398|up|up| 
+ARL2MU|BE7.4101.pppoe8442|up|up| 
+ARL2MU|BE7.4101.pppoe8530|up|up| 
+ARL2MU|BE7.4101.pppoe8588|up|up| 
+ARL2MU|Lo0|up|up| 
+ARL2MU|Lo1|up|up|IP UNNUMBERED
+ARL2MU|Lo12|up|up|IP UNNUMBERED vpn-tdata-bcorio - VPN BRONZE INTERCARRIER - TASA - Banco rio
+ARL2MU|Lo26|up|up|IP UNNUMBERED VPN-gpba
+ARL2MU|Lo68|up|up|IP UNNUMBERED VPN PRIMA
+ARL2MU|Lo73|up|up|IP UNNUMBERED bonesi-vpn - VPN BRONZE - BONESI SOCIEDAD ANONIMA
+ARL2MU|Lo77|up|up|VPN WEB PATRON
+ARL2MU|Lo78|up|up|IP UNNUMBERED vpn-credicoop - VPN BRONZE - BANCO CREDICOOP COOP. LTDO.
+ARL2MU|Lo80|up|up|IP UNNUMBERED VPN JOCKEY
+ARL2MU|Lo85|up|up|IP UNNUMBERED VPN ADVANCE
+ARL2MU|Lo90|up|up|IP UNNUMBERED munisam-vpn - VPN BRONZE - MUNICIPALIDAD DE GRAL. SAN MARTIN SEC. HAC. Y ECONO.
+ARL2MU|Lo100|up|up|Interfaz de gestion ADSL
+ARL2MU|Lo103|up|up|IP UNNUMBERED ospecom-vpn - VPN BRONZE - OSPECOM
+ARL2MU|Lo127|up|up|IP UNNUMERED vpn-vestiditos - VPN BRONZE - VESTIDITOS S.A.
+ARL2MU|Lo147|up|up|IP UNNUMERED darclibertador-vpn
+ARL2MU|Lo149|up|up|IP UNNUMBERED bna-vpn
+ARL2MU|Lo157|up|up|IP UNNUMBERED vpn-williner - VPN BRONZE - SUCESORES DE ALFREDO WILLINER S.A.
+ARL2MU|Lo162|up|up|IP UNNUMBERED hipodromo-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+ARL2MU|Lo182|up|up|garbarino-vpn - VPN BRONZE - GARBARINO
+ARL2MU|Lo198|up|up|IP UNNUMBERED vpn-gire-1 - VPN BRONZE - GIRE S.A.
+ARL2MU|Lo249|up|up|IP UNNUMBERED ncentralarg-vpn - VPN BRONZE - NUEVO CENTRAL ARGENTINO S.A.
+ARL2MU|Lo256|up|up|IP UNNUMBERED sepsa-vpn - VPN BRONZE - SERV.ELECTRONICO DE PAGO S.A.
+ARL2MU|Lo279|up|up|IP UNNUMBERED hsbc-vpn - VPN BRONZE - HSBC BANK ARGENTINA S.A.
+ARL2MU|Lo347|up|up|IP UNNUMBERED bcogalicia-vpn - VPN BRONZE - BANCO DE GALICIA Y BUENOS AIRE S S.A.
+ARL2MU|Lo433|up|up|IP UNNUMBERED hipodromo-3-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+ARL2MU|Lo454|up|up|IP UNNUMBERED poderjudicial-vpn - VPN BRONZE - PODER JUDICIAL DE LA PROVINCIA
+ARL2MU|Lo459|up|up|IP UNNUMERED clama-vpn
+ARL2MU|Lo479|up|up|IP UNNUMBERED solido-vpn - VPN BRONZE - SOLIDO S.R.L.
+ARL2MU|Lo507|up|up|IP UNNUMBERED maxima-vpn - VPN BRONZE - MAXIMA S.A. A.F.J.P.
+ARL2MU|Lo509|up|up|IP UNNUMBERED citibank-vpn - VPN BRONZE - CITIBANK N.A.
+ARL2MU|Lo546|up|up|IP UNNUMBERED ituran-vpn - VPN BRONZE - ITURAN
+ARL2MU|Lo594|up|up|IP UNNUMBERED diaarg-vpn - VPN BRONZE - DIA ARGENTINA S.A.
+ARL2MU|Lo601|up|up|IP UNNUMBERED alpargatas-vpn - VPN BRONZE - ALPARGATAS CALZADOS S.A.
+ARL2MU|Lo653|up|up|IP UNNUMBERED bigbloom-vpn - VPN BRONZE - BIG BLOOM S.A.
+ARL2MU|Lo707|up|up|IP UNNUMBERED correo-vpn - VPN BRONZE - CORREO OFICIAL DE LA REP.ARG.
+ARL2MU|Lo980|up|up|IP UNNUMBERED cjuleriaque-vpn - VPN BRONZE - CARLOS JULERIAQUE S.R.L.
+ARL2MU|Lo1017|up|up|IP UNNUMBERED asmuprofa-vpn - VPN BRONZE - ASOCIACION MUTUAL DE PROTECCIO N FAMILIAR
+ARL2MU|Lo1059|up|up|fravega-vpn - VPN BRONZE - FRAVEGA
+ARL2MU|Lo1154|up|up|IP UNNUMBERED arcosdora2-vpn
+ARL2MU|Lo1219|up|up|SIMONS DE ARGENTINA SAIC
+ARL2MU|Lo1226|up|up|IP UNNUMERED argentconec-vpn
+ARL2MU|Lo1312|up|up|IP UNNUMBERED wifioffload-vpn
+ARL2MU|Lo1385|up|up|IP UNNUMERED garbacontenidos-vpn - VPN BRONZE - GARBARINO S.A.
+ARL2MU|Lo1471|up|up|IP UNNUMERED unigestopems-vpn - VPN BRONZE - UNIDAD DE GESTION OPERATIVA MITRE SARMIENTO S.A.
+ARL2MU|Lo13143|up|up|IP UNNUMBERED tasabancofrances-vpn - VPN BRONZE INTERCARRIER. - TASA subcliente Bco. Frances
+ARL2MU|Lo57015|up|up|IP UNNUMBERED tasabapro-vpn - VPN BRONZE INTERCARRIER. - Tasa sub
+ARL2MU|Nu0|up|up| 
+ARL2MU|Mg0/RSP0/CPU0/0|admin-down|admin-down| 
+ARL2MU|Mg0/RSP0/CPU0/1|admin-down|admin-down| 
+ARL2MU|PT0/RSP0/CPU0/0|admin-down|admin-down| 
+ARL2MU|Mg0/RSP1/CPU0/0|admin-down|admin-down| 
+ARL2MU|Mg0/RSP1/CPU0/1|admin-down|admin-down| 
+ARL2MU|PT0/RSP1/CPU0/0|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/0|up|up| 
+ARL2MU|Gi0/0/0/0.1215|up|up|eNODOB - SALTA_VICTORIA - A21-S304 - (1) (432024) - S1
+ARL2MU|Gi0/0/0/0.1216|up|up|eNODOB - SALTA_VICTORIA - A21-S304 - (2) (432024) - S1MME
+ARL2MU|Gi0/0/0/0.1217|up|up|eNODOB - SALTA_VICTORIA - A21-S304 - (3) (432024) - GOMRAN
+ARL2MU|Gi0/0/0/0.1218|up|up|NODOB - SALTA_VICTORIA - A21-S304 - (1) (756721) - 3G
+ARL2MU|Gi0/0/0/0.1219|up|up|NODOB - SALTA_VICTORIA - A21-S304 - (1) (756743) - 2G
+ARL2MU|Gi0/0/0/1|up|up|eNODOB - SALTA_BARRIO_SAN_JOSE - A21-S153
+ARL2MU|Gi0/0/0/1.1218|up|up|eNODOB - SALTA_BARRIO_SAN_JOSE - A21-S153 - (1) (434255) - S1
+ARL2MU|Gi0/0/0/1.1219|up|up|eNODOB - SALTA_BARRIO_SAN_JOSE - A21-S153 - (2) (434255) - S1MME
+ARL2MU|Gi0/0/0/1.1220|up|up|eNODOB - SALTA_BARRIO_SAN_JOSE - A21-S153 - (3) (434255) - GOMRAN
+ARL2MU|Gi0/0/0/1.1225|up|up|NODOB SALTA_BARRIO_SAN_JOSE - A21-S153 - (1) (523293) - 3G
+ARL2MU|Gi0/0/0/1.1226|up|up|NODOB SALTA_BARRIO_SAN_JOSE - A21-S153 - (1) (523239) - 2G
+ARL2MU|Gi0/0/0/2|up|up|[NGN] ACCESO a ARLG01 - 9701069
+ARL2MU|Gi0/0/0/3|up|up|[ACCESO HSI+GHDSL][BE] Enlace 1/2 ARL21D - 9701851
+ARL2MU|Gi0/0/0/4|up|up|[ACCESO HSI][BE] ARL11D 9701852
+ARL2MU|Gi0/0/0/5|up|up|[ACCESO HSI][BE] ARLM01 13002248
+ARL2MU|Gi0/0/0/6|up|up|[ACCESO HSI][BE] ARL41D CONEXION 1/2  13003439
+ARL2MU|Gi0/0/0/7|up|up|[ACCESO HSI][BE] CONEXION 1/2 ARL51D L:13003440
+ARL2MU|Gi0/0/0/8|up|up|[ACCESO HSI] CONEXION 1/2 ACCESO ADSL a ARL31D HUA 5600 - 13003438
+ARL2MU|Gi0/0/0/9|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/10|up|up| 
+ARL2MU|Gi0/0/0/10.2|up|up|TIP_TIPBEISAGAARL(2807928)REFE:667601_Ges TECO
+ARL2MU|Gi0/0/0/11|up|up|Gestion GW 88ARL02 - Linea.70001834
+ARL2MU|Gi0/0/0/12|down|down| 
+ARL2MU|Gi0/0/0/13|up|up|[ACCESO HSI+GHDSL][BE] Enlace 2/2 ARL21D - 9701851
+ARL2MU|Gi0/0/0/14|down|down|TIP - COMUNICACIONES VALLES CALCHAQUIES SRL - REF: 944815 - LINEA: 2869106
+ARL2MU|Gi0/0/0/14.2|down|down|TIP - COMUNICACIONES VALLES CALCHAQUIES SRL - REF: 944815 - LINEA: 2869106
+ARL2MU|Gi0/0/0/15|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/16|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/17|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/18|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/19|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/20|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/21|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/22|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/23|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/24|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/25|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/26|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/27|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/28|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/29|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/30|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/31|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/32|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/33|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/34|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/35|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/36|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/37|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/38|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/39|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/40|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/41|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/42|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/43|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/44|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/45|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/46|admin-down|admin-down| 
+ARL2MU|Gi0/0/0/47|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/0|up|up|[ACCESO HSI][BE]  ARL41D CONEXION 2/2 13003439
+ARL2MU|Gi0/1/0/1|up|up|[ACCESO HSI][BE] CONEXION 2/2 ARL51D L:13003440
+ARL2MU|Gi0/1/0/2|up|up|[ACCESO HSI]CONEXION 2/2 ACCESO a ARL31D HUA 5600 - 13003438
+ARL2MU|Gi0/1/0/3|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/4|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/5|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/6|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/7|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/8|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/9|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/10|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/11|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/12|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/13|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/14|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/15|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/16|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/17|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/18|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/19|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/20|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/21|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/22|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/23|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/24|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/25|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/26|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/27|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/28|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/29|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/30|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/31|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/32|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/33|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/34|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/35|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/36|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/37|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/38|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/39|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/40|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/41|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/42|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/43|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/44|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/45|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/46|admin-down|admin-down| 
+ARL2MU|Gi0/1/0/47|admin-down|admin-down| 
+ARL2MU|Te0/3/1/0|up|up|Enlace 10G A ZAB1MB_Te0/0/1/0 (Linea:13006406) - UPLINK BBIP
+ARL2MU|Te0/3/1/1|up|up|Enlace 10G A ZAB1MB_Te0/0/1/1 (Linea:13006407) - UPLINK BBIP
+ARL2MU|Te0/3/1/2|up|up|Enlace 10G A ZAB1MB_Te0/0/1/2 (Linea:13006408) - UPLINK BBIP
+ARL2MU|Te0/3/1/3|admin-down|admin-down| 
+ARL2MU|Te0/3/1/4|admin-down|admin-down| 
+ARL2MU|Te0/3/1/5|admin-down|admin-down| 
+ARL2MU|Te0/3/1/6|admin-down|admin-down| 
+ARL2MU|Te0/3/1/7|admin-down|admin-down| 
+ARL2MU|Te0/3/1/8|admin-down|admin-down| 
+ARL2MU|Te0/3/1/9|admin-down|admin-down| 
+ARL2MU|Te0/3/1/10|admin-down|admin-down| 
+ARL2MU|Te0/3/1/11|admin-down|admin-down| 
+ARL2MU|Te0/3/1/12|admin-down|admin-down| 
+ARL2MU|Te0/3/1/13|admin-down|admin-down| 
+ARL2MU|Te0/3/1/14|admin-down|admin-down| 
+ARL2MU|Te0/3/1/15|admin-down|admin-down| 
+ARL2MU|Te0/3/1/16|admin-down|admin-down| 
+ARL2MU|Te0/3/1/17|admin-down|admin-down| 
+ARL2MU|Te0/3/1/18|admin-down|admin-down| 
+ARL2MU|Te0/3/1/19|admin-down|admin-down| 
+ARL2MU|Te0/4/1/0|up|up|Enlace 10G A BGN1MB_Te0/0/1/0 (Linea:13006409) - UPLINK BBIP
+ARL2MU|Te0/4/1/1|up|up|Enlace 10G A BGN1MB_Te0/0/1/1 (Linea:13006410) - UPLINK BBIP
+ARL2MU|Te0/4/1/2|up|up|Enlace 10G A BGN1MB_Te0/0/1/2 (Linea:13006411) - UPLINK BBIP
+ARL2MU|Te0/4/1/3|admin-down|admin-down| 
+ARL2MU|Te0/4/1/4|admin-down|admin-down| 
+ARL2MU|Te0/4/1/5|admin-down|admin-down| 
+ARL2MU|Te0/4/1/6|admin-down|admin-down| 
+ARL2MU|Te0/4/1/7|admin-down|admin-down| 
+ARL2MU|Te0/4/1/8|admin-down|admin-down| 
+ARL2MU|Te0/4/1/9|admin-down|admin-down| 
+ARL2MU|Te0/4/1/10|admin-down|admin-down| 
+ARL2MU|Te0/4/1/11|admin-down|admin-down| 
+ARL2MU|Te0/4/1/12|admin-down|admin-down| 
+ARL2MU|Te0/4/1/13|admin-down|admin-down| 
+ARL2MU|Te0/4/1/14|admin-down|admin-down| 
+ARL2MU|Te0/4/1/15|admin-down|admin-down| 
+ARL2MU|Te0/4/1/16|admin-down|admin-down| 
+ARL2MU|Te0/4/1/17|admin-down|admin-down| 
+ARL2MU|Te0/4/1/18|admin-down|admin-down| 
+ARL2MU|Te0/4/1/19|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/0|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/1|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/2|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/3|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/4|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/5|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/6|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/7|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/8|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/9|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/10|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/11|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/12|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/13|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/14|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/15|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/16|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/17|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/18|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/19|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/20|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/21|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/22|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/23|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/24|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/25|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/26|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/27|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/28|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/29|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/30|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/31|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/32|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/33|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/34|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/35|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/36|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/37|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/38|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/39|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/40|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/41|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/42|down|down|PRUEBA IQUALL - NO TOCAR
+ARL2MU|Gi0/7/0/43|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/44|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/45|admin-down|admin-down| 
+ARL2MU|Gi0/7/0/46|admin-down|admin-down| 
+
+

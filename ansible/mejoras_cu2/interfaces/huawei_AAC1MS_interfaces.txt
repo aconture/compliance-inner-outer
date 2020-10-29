@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+AAC1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+AAC1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A RE 1LRUF01_IDU - 1LAAC01 2BB_19 - Linea.80002394
+AAC1MS|GigabitEthernet0/2/1|UP|UP|eNODOB AARON_CASTELLANO - A04-S076 (752740) NODOB (752741) (752742)
+AAC1MS|GigabitEthernet0/2/2|UP|UP|CONEXION A RE 1WAAC01_IDU/04/01
+AAC1MS|GigabitEthernet0/2/3|UP|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+AAC1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+AAC1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+AAC1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+AAC1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+AAC1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+AAC1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+AAC1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+AAC1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+AAC1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+AAC1MS|Vlanif1209|UP|UP|VLAN_GESTION_RUF2MU Gi2/1/23.1209_Linea.80002394
+
+

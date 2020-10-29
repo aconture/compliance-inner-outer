@@ -1,0 +1,20 @@
+shelfname|interface|portoperationalstate|protocol|info1
+PFR1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+PFR1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A PRS3MU Eth-Trunk13.1246 REIP 1LPFR01 - Linea:80002389
+PFR1MS|GigabitEthernet0/2/1|UP|UP|eNODOB - A16-S019 Pampa Del Infierno - (527390) NODOB (527362)(527502)
+PFR1MS|GigabitEthernet0/2/2|UP|UP|RE 1QPFR01-1-5 NODOB-RIO MUERTO-A16-S039 NODOB A16-S003-LOS FRENTONES
+PFR1MS|GigabitEthernet0/2/3|UP|UP|VPN - NUEVO BANCO DEL CHACO SA  - REF: 742960 - LINEA: 2837157 -
+PFR1MS|GigabitEthernet0/2/4|UP|UP|VPN - INTA - Ref:784131 - PRS3MU Eth-Trunk13.12420002
+PFR1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+PFR1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+PFR1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+PFR1MS|GigabitEthernet0/2/8|UP|UP|gestion RE 1QPFR01-1QPOY01 y 1RPOY01-1RRMU01 ref 80002136
+PFR1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+PFR1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+PFR1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+PFR1MS|LoopBack1023|UP|UP|DCN loopback interface
+PFR1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+PFR1MS|Vlanif1218|UP|UP|PRUEBA-BORRAME
+PFR1MS|Vlanif1246|UP|UP|VLAN_GESTION PRS3MU Eth-Trunk13.1246 - Linea:80002389
+
+

@@ -1,0 +1,20 @@
+shelfname|interface|portoperationalstate|protocol|info1
+MBR1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+MBR1MS|GigabitEthernet0/2/0|UP|UP|VPN 10M - Sup. Trib. de Justicia - Ref:715139 - Lin:2822944 - Trz:TRZ42549
+MBR1MS|GigabitEthernet0/2/1|UP|UP|VPN - SYK S.A. - REF:682243 lin:2816270 Acc: CTE1MB - 0/1/0/23.760002
+MBR1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+MBR1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+MBR1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+MBR1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+MBR1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+MBR1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+MBR1MS|GigabitEthernet0/2/8|UP|UP|CONEXION A 1RMBR01 - CTE1MB BE1001.1207 - LINEA.80002318
+MBR1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+MBR1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+MBR1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+MBR1MS|LoopBack1023|UP|UP|DCN loopback interface
+MBR1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+MBR1MS|Vlanif1207|UP|UP|VLAN_GESTION_CTE1MB BE1001.1207_LINEA.80002318
+MBR1MS|Vlanif1229|UP|DOWN|HUAWEI, Vlanif1229 Interface
+
+

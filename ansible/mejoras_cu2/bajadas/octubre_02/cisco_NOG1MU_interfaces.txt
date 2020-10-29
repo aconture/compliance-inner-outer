@@ -1,0 +1,929 @@
+shelfname|interface|portoperationalstate|protocol|info1
+NOG1MU|BE1|up|up|[ACCESO HSI + G.][BE] NOG11D 9703253
+NOG1MU|BE1.2101|up|up|[GESTION] NOG11D HUA 5600 [ADS2]
+NOG1MU|BE1.3101|up|up|[TOIP] NOG11D HUA 5600 [ADS2]
+NOG1MU|BE1.3619|up|up|## VPN GOLD AFIP Ref: 163059 Lin: 2715779 Acc:NOG11D 00/15/03##
+NOG1MU|BE1.3625|up|up|##VPN SILVER - GIRE S.A. - Ref:250536 - Lin:2713956 - Acc:NOG11D 0/15/9
+NOG1MU|BE1.3628|up|up|VPN GOLD - DIA ARGENTINA - Ref:308917 Lin:2738591 Acc:NOG11D 0/15/12
+NOG1MU|BE1.3630|up|up|### VPN Head Quarter - ENERGIA DE ENTRE RIOS S.A. - Ref:81253 - Lin:2592127 - Acc:NOG11D 15/14
+NOG1MU|BE1.3632|up|up|VPN Branch Office 1M - SCHEJTER Y SCHEJTER - Ref:537632 Lin:2752083 Acc:NOG11D0-15-16
+NOG1MU|BE1.3633|up|up|VPN Head Quarter - BN - Ref:539593 Lin:2752163 Acc:NOG11D 0/15/17
+NOG1MU|BE1.3635|up|up|VPN Head Quarter - DGR - Ref:90772 Lin:2717142 Acc:NOG11D Placa:15 Port:19
+NOG1MU|BE1.3640|up|up|VPN Head Quarter 1024K - Conmega - Ref:224690 Lin:2704718 Acc:NOG11D Placa:15 Port:24
+NOG1MU|BE1.3641|up|up|VPN Head Quarter - PODER JUDICIAL DE ENTRE RIOS - Ref:316454 Lin:2749662Acc:NOG11D:15/25
+NOG1MU|BE1.3650|up|up|VPN - CORREO DE LA REPUBLICA - Ref:672743 - Linea: 2810964 - Acc: NOG11D 0/14/2
+NOG1MU|BE1.3652|up|up|VPN Branch Office 2M - SCHEJTER Y SCHEJTER - Ref:537632 Lin:2752083 Acc:NOG11D 0/14/004_5
+NOG1MU|BE1.3656|up|up|PRESURIZACION NOGOYA - REF:943613 - ACC:NOG11D 0/14/8
+NOG1MU|BE1.3664|up|up|VPN - NUEVO BANCO DE ENTRE RIOS S.A. - Ref:115656 - Lin:2714858 - Acc:NOG11D 14/16-17
+NOG1MU|BE1.3813|up|up|Integra Light 512Kbps - NEWTRONIC SA- Ref:265157Lin:2721339 Acc:NOG11D 00/15/05
+NOG1MU|BE1.3831|up|up|Integra Light - SCHEJTER Y SCHEJTER SA - Ref:606309 - Lin:2779421 Acc:NOG11D SHDSL-0-15-023
+NOG1MU|BE1.3838|up|up|IntegraLight - S.A. ENTE RIOS - EL DIARIO - Ref:658616 - Lin:2802643 Acc:NOG11D SHDSL-0-14-002
+NOG1MU|BE1.3846|up|up|IntegraLight - ANGEL ABDO SAMID - Ref:664998 - Lin:2806534 Acc:NOG11D SHDSL-0-14-006/7
+NOG1MU|BE1.3848|up|up|PRESURIZACION NOGOYA - REF:943613 - ACC:NOG11D 0/14/8
+NOG1MU|BE1.3850|up|up|INTEGRA - NEWTRONIC SA - REF:265157 LIN:2721339 - ACC:NOG11D 0/14/10-11
+NOG1MU|BE1.3854|up|up|INTEGRA - NEWTRONIC SA - REF:871570 LIN:2854149 - ACC:NOG11D 0/14/14-15
+NOG1MU|BE1.3858|up|up|INTEGRA MIN.MODERNIZACION - Ref:738621 - Linea:2834451 - Acc:NOG11D 0/14/18-19
+NOG1MU|BE1.4101|up|up|[DATOS] NOG11D HUA 5600 [ADS2][L3]
+NOG1MU|BE2|up|up|[ACCESO HSI][BE] NOG21D 11003725
+NOG1MU|BE2.2101|up|up|[GESTION] NOG21D HUA 5600 [ADS2]
+NOG1MU|BE2.3101|up|up|[TOIP] NOG21D HUA 5600 [ADS2]
+NOG1MU|BE2.4101|up|up|[DATOS] NOG21D HUA 5600 [ADS2][L3]
+NOG1MU|BE2.4101.pppoe8|up|up| 
+NOG1MU|BE2.4101.pppoe56|up|up| 
+NOG1MU|BE2.4101.pppoe72|up|up| 
+NOG1MU|BE2.4101.pppoe140|up|up| 
+NOG1MU|BE2.4101.pppoe164|up|up| 
+NOG1MU|BE2.4101.pppoe188|up|up| 
+NOG1MU|BE2.4101.pppoe205|up|up| 
+NOG1MU|BE2.4101.pppoe215|up|up| 
+NOG1MU|BE2.4101.pppoe251|up|up| 
+NOG1MU|BE2.4101.pppoe270|up|up| 
+NOG1MU|BE2.4101.pppoe272|up|up| 
+NOG1MU|BE2.4101.pppoe273|up|up| 
+NOG1MU|BE2.4101.pppoe280|up|up| 
+NOG1MU|BE2.4101.pppoe288|up|up| 
+NOG1MU|BE2.4101.pppoe299|up|up| 
+NOG1MU|BE2.4101.pppoe381|up|up| 
+NOG1MU|BE2.4101.pppoe382|up|up| 
+NOG1MU|BE2.4101.pppoe386|up|up| 
+NOG1MU|BE2.4101.pppoe413|up|up| 
+NOG1MU|BE2.4101.pppoe418|up|up| 
+NOG1MU|BE2.4101.pppoe438|up|up| 
+NOG1MU|BE2.4101.pppoe449|up|up| 
+NOG1MU|BE2.4101.pppoe463|up|up| 
+NOG1MU|BE2.4101.pppoe484|up|up| 
+NOG1MU|BE2.4101.pppoe495|up|up| 
+NOG1MU|BE2.4101.pppoe498|up|up| 
+NOG1MU|BE2.4101.pppoe501|up|up| 
+NOG1MU|BE2.4101.pppoe512|up|up| 
+NOG1MU|BE2.4101.pppoe579|up|up| 
+NOG1MU|BE2.4101.pppoe583|up|up| 
+NOG1MU|BE2.4101.pppoe584|up|up| 
+NOG1MU|BE2.4101.pppoe595|up|up| 
+NOG1MU|BE2.4101.pppoe631|up|up| 
+NOG1MU|BE2.4101.pppoe653|up|up| 
+NOG1MU|BE2.4101.pppoe697|up|up| 
+NOG1MU|BE2.4101.pppoe716|up|up| 
+NOG1MU|BE2.4101.pppoe723|up|up| 
+NOG1MU|BE2.4101.pppoe730|up|up| 
+NOG1MU|BE2.4101.pppoe746|up|up| 
+NOG1MU|BE2.4101.pppoe750|up|up| 
+NOG1MU|BE2.4101.pppoe759|up|up| 
+NOG1MU|BE2.4101.pppoe786|up|up| 
+NOG1MU|BE2.4101.pppoe790|up|up| 
+NOG1MU|BE2.4101.pppoe794|up|up| 
+NOG1MU|BE2.4101.pppoe802|up|up| 
+NOG1MU|BE2.4101.pppoe809|up|up| 
+NOG1MU|BE2.4101.pppoe823|up|up| 
+NOG1MU|BE2.4101.pppoe827|up|up| 
+NOG1MU|BE2.4101.pppoe828|up|up| 
+NOG1MU|BE2.4101.pppoe841|up|up| 
+NOG1MU|BE2.4101.pppoe857|up|up| 
+NOG1MU|BE2.4101.pppoe860|up|up| 
+NOG1MU|BE2.4101.pppoe865|up|up| 
+NOG1MU|BE2.4101.pppoe919|up|up| 
+NOG1MU|BE2.4101.pppoe938|up|up| 
+NOG1MU|BE2.4101.pppoe977|up|up| 
+NOG1MU|BE2.4101.pppoe980|up|up| 
+NOG1MU|BE2.4101.pppoe988|up|up| 
+NOG1MU|BE2.4101.pppoe994|up|up| 
+NOG1MU|BE2.4101.pppoe995|up|up| 
+NOG1MU|BE2.4101.pppoe997|up|up| 
+NOG1MU|BE2.4101.pppoe1004|up|up| 
+NOG1MU|BE2.4101.pppoe1019|up|up| 
+NOG1MU|BE2.4101.pppoe1029|up|up| 
+NOG1MU|BE2.4101.pppoe1032|up|up| 
+NOG1MU|BE2.4101.pppoe1038|up|up| 
+NOG1MU|BE2.4101.pppoe1041|up|up| 
+NOG1MU|BE2.4101.pppoe1064|up|up| 
+NOG1MU|BE2.4101.pppoe1073|up|up| 
+NOG1MU|BE2.4101.pppoe1081|up|up| 
+NOG1MU|BE2.4101.pppoe1114|up|up| 
+NOG1MU|BE2.4101.pppoe1118|up|up| 
+NOG1MU|BE2.4101.pppoe1120|up|up| 
+NOG1MU|BE2.4101.pppoe1121|up|up| 
+NOG1MU|BE2.4101.pppoe1123|up|up| 
+NOG1MU|BE2.4101.pppoe1124|up|up| 
+NOG1MU|BE2.4101.pppoe1126|up|up| 
+NOG1MU|BE2.4101.pppoe1128|up|up| 
+NOG1MU|BE2.4101.pppoe1137|up|up| 
+NOG1MU|BE2.4101.pppoe1156|up|up| 
+NOG1MU|BE2.4101.pppoe1211|up|up| 
+NOG1MU|BE2.4101.pppoe1288|up|up| 
+NOG1MU|BE2.4101.pppoe1320|up|up| 
+NOG1MU|BE2.4101.pppoe1326|up|up| 
+NOG1MU|BE2.4101.pppoe1337|up|up| 
+NOG1MU|BE2.4101.pppoe1341|up|up| 
+NOG1MU|BE2.4101.pppoe1350|up|up| 
+NOG1MU|BE2.4101.pppoe1356|up|up| 
+NOG1MU|BE2.4101.pppoe1357|up|up| 
+NOG1MU|BE2.4101.pppoe1359|up|up| 
+NOG1MU|BE2.4101.pppoe1371|up|up| 
+NOG1MU|BE2.4101.pppoe1379|up|up| 
+NOG1MU|BE2.4101.pppoe1387|up|up| 
+NOG1MU|BE2.4101.pppoe1404|up|up| 
+NOG1MU|BE2.4101.pppoe1429|up|up| 
+NOG1MU|BE2.4101.pppoe1440|up|up| 
+NOG1MU|BE2.4101.pppoe1441|up|up| 
+NOG1MU|BE2.4101.pppoe1449|up|up| 
+NOG1MU|BE2.4101.pppoe1475|up|up| 
+NOG1MU|BE2.4101.pppoe1490|up|up| 
+NOG1MU|BE2.4101.pppoe1533|up|up| 
+NOG1MU|BE2.4101.pppoe1557|up|up| 
+NOG1MU|BE2.4101.pppoe1560|up|up| 
+NOG1MU|BE2.4101.pppoe1572|up|up| 
+NOG1MU|BE2.4101.pppoe1599|up|up| 
+NOG1MU|BE2.4101.pppoe1610|up|up| 
+NOG1MU|BE2.4101.pppoe1613|up|up| 
+NOG1MU|BE2.4101.pppoe1615|up|up| 
+NOG1MU|BE2.4101.pppoe1616|up|up| 
+NOG1MU|BE2.4101.pppoe1621|up|up| 
+NOG1MU|BE2.4101.pppoe1626|up|up| 
+NOG1MU|BE2.4101.pppoe1644|up|up| 
+NOG1MU|BE2.4101.pppoe1646|up|up| 
+NOG1MU|BE2.4101.pppoe1659|up|up| 
+NOG1MU|BE2.4101.pppoe1663|up|up| 
+NOG1MU|BE2.4101.pppoe1677|up|up| 
+NOG1MU|BE2.4101.pppoe1690|up|up| 
+NOG1MU|BE2.4101.pppoe1691|up|up| 
+NOG1MU|BE2.4101.pppoe1692|up|up| 
+NOG1MU|BE2.4101.pppoe1693|up|up| 
+NOG1MU|BE2.4101.pppoe1695|up|up| 
+NOG1MU|BE2.4101.pppoe1698|up|up| 
+NOG1MU|BE2.4101.pppoe1718|up|up| 
+NOG1MU|BE2.4101.pppoe1723|up|up| 
+NOG1MU|BE2.4101.pppoe1726|up|up| 
+NOG1MU|BE2.4101.pppoe1731|up|up| 
+NOG1MU|BE2.4101.pppoe1743|up|up| 
+NOG1MU|BE2.4101.pppoe1754|up|up| 
+NOG1MU|BE2.4101.pppoe1773|up|up| 
+NOG1MU|BE2.4101.pppoe1791|up|up| 
+NOG1MU|BE2.4101.pppoe1798|up|up| 
+NOG1MU|BE2.4101.pppoe1799|up|up| 
+NOG1MU|BE2.4101.pppoe1800|up|up| 
+NOG1MU|BE2.4101.pppoe1805|up|up| 
+NOG1MU|BE2.4101.pppoe1809|up|up| 
+NOG1MU|BE2.4101.pppoe1825|up|up| 
+NOG1MU|BE2.4101.pppoe1826|up|up| 
+NOG1MU|BE2.4101.pppoe1827|up|up| 
+NOG1MU|BE2.4101.pppoe1829|up|up| 
+NOG1MU|BE2.4101.pppoe1831|up|up| 
+NOG1MU|BE2.4101.pppoe1836|up|up| 
+NOG1MU|BE2.4101.pppoe1843|up|up| 
+NOG1MU|BE2.4101.pppoe1871|up|up| 
+NOG1MU|BE2.4101.pppoe1875|up|up| 
+NOG1MU|BE2.4101.pppoe1895|up|up| 
+NOG1MU|BE2.4101.pppoe1897|up|up| 
+NOG1MU|BE2.4101.pppoe1904|up|up| 
+NOG1MU|BE2.4101.pppoe1906|up|up| 
+NOG1MU|BE2.4101.pppoe1914|up|up| 
+NOG1MU|BE2.4101.pppoe1920|up|up| 
+NOG1MU|BE2.4101.pppoe1921|up|up| 
+NOG1MU|BE2.4101.pppoe1931|up|up| 
+NOG1MU|BE2.4101.pppoe1938|up|up| 
+NOG1MU|BE2.4101.pppoe1954|up|up| 
+NOG1MU|BE2.4101.pppoe1958|up|up| 
+NOG1MU|BE2.4101.pppoe1963|up|up| 
+NOG1MU|BE2.4101.pppoe1966|up|up| 
+NOG1MU|BE2.4101.pppoe1983|up|up| 
+NOG1MU|BE2.4101.pppoe2007|up|up| 
+NOG1MU|BE2.4101.pppoe2015|up|up| 
+NOG1MU|BE2.4101.pppoe2028|up|up| 
+NOG1MU|BE2.4101.pppoe2033|up|up| 
+NOG1MU|BE2.4101.pppoe2041|up|up| 
+NOG1MU|BE2.4101.pppoe2053|up|up| 
+NOG1MU|BE2.4101.pppoe2054|up|up| 
+NOG1MU|BE2.4101.pppoe2075|up|up| 
+NOG1MU|BE2.4101.pppoe2076|up|up| 
+NOG1MU|BE2.4101.pppoe2084|up|up| 
+NOG1MU|BE2.4101.pppoe2091|up|up| 
+NOG1MU|BE2.4101.pppoe2093|up|up| 
+NOG1MU|BE2.4101.pppoe2094|up|up| 
+NOG1MU|BE2.4101.pppoe2098|up|up| 
+NOG1MU|BE2.4101.pppoe2100|up|up| 
+NOG1MU|BE2.4101.pppoe2112|up|up| 
+NOG1MU|BE2.4101.pppoe2123|up|up| 
+NOG1MU|BE2.4101.pppoe2125|up|up| 
+NOG1MU|BE2.4101.pppoe2128|up|up| 
+NOG1MU|BE2.4101.pppoe2129|up|up| 
+NOG1MU|BE2.4101.pppoe2132|up|up| 
+NOG1MU|BE2.4101.pppoe2136|up|up| 
+NOG1MU|BE2.4101.pppoe2143|up|up| 
+NOG1MU|BE2.4101.pppoe2145|up|up| 
+NOG1MU|BE2.4101.pppoe2148|up|up| 
+NOG1MU|BE2.4101.pppoe2154|up|up| 
+NOG1MU|BE2.4101.pppoe2159|up|up| 
+NOG1MU|BE2.4101.pppoe2161|up|up| 
+NOG1MU|BE2.4101.pppoe2163|up|up| 
+NOG1MU|BE2.4101.pppoe2170|up|up| 
+NOG1MU|BE2.4101.pppoe2172|up|up| 
+NOG1MU|BE2.4101.pppoe2181|up|up| 
+NOG1MU|BE2.4101.pppoe2189|up|up| 
+NOG1MU|BE2.4101.pppoe2192|up|up| 
+NOG1MU|BE2.4101.pppoe2193|up|up| 
+NOG1MU|BE2.4101.pppoe2203|up|up| 
+NOG1MU|BE2.4101.pppoe2204|up|up| 
+NOG1MU|BE2.4101.pppoe2205|up|up| 
+NOG1MU|BE2.4101.pppoe2211|up|up| 
+NOG1MU|BE2.4101.pppoe2216|up|up| 
+NOG1MU|BE2.4101.pppoe2222|up|up| 
+NOG1MU|BE2.4101.pppoe2223|up|up| 
+NOG1MU|BE2.4101.pppoe2224|up|up| 
+NOG1MU|BE2.4101.pppoe2227|up|up| 
+NOG1MU|BE2.4101.pppoe2228|up|up| 
+NOG1MU|BE2.4101.pppoe2230|up|up| 
+NOG1MU|BE2.4101.pppoe2234|up|up| 
+NOG1MU|BE2.4101.pppoe2239|up|up| 
+NOG1MU|BE2.4101.pppoe2248|up|up| 
+NOG1MU|BE2.4101.pppoe2263|up|up| 
+NOG1MU|BE2.4101.pppoe2264|up|up| 
+NOG1MU|BE2.4101.pppoe2266|up|up| 
+NOG1MU|BE2.4101.pppoe2281|up|up| 
+NOG1MU|BE2.4101.pppoe2285|up|up| 
+NOG1MU|BE2.4101.pppoe2286|up|up| 
+NOG1MU|BE2.4101.pppoe2294|up|up| 
+NOG1MU|BE2.4101.pppoe2298|up|up| 
+NOG1MU|BE2.4101.pppoe2300|up|up| 
+NOG1MU|BE2.4101.pppoe2325|up|up| 
+NOG1MU|BE2.4101.pppoe2378|up|up| 
+NOG1MU|BE2.4101.pppoe2396|up|up| 
+NOG1MU|BE2.4101.pppoe2411|up|up| 
+NOG1MU|BE2.4101.pppoe2416|up|up| 
+NOG1MU|BE2.4101.pppoe2420|up|up| 
+NOG1MU|BE2.4101.pppoe2421|up|up| 
+NOG1MU|BE2.4101.pppoe2428|up|up| 
+NOG1MU|BE2.4101.pppoe2429|up|up| 
+NOG1MU|BE2.4101.pppoe2432|up|up| 
+NOG1MU|BE2.4101.pppoe2441|up|up| 
+NOG1MU|BE2.4101.pppoe2449|up|up| 
+NOG1MU|BE2.4101.pppoe2450|up|up| 
+NOG1MU|BE2.4101.pppoe2458|up|up| 
+NOG1MU|BE2.4101.pppoe2461|up|up| 
+NOG1MU|BE2.4101.pppoe2463|up|up| 
+NOG1MU|BE2.4101.pppoe2465|up|up| 
+NOG1MU|BE2.4101.pppoe2468|up|up| 
+NOG1MU|BE2.4101.pppoe2473|up|up| 
+NOG1MU|BE2.4101.pppoe2477|up|up| 
+NOG1MU|BE2.4101.pppoe2478|up|up| 
+NOG1MU|BE2.4101.pppoe2480|up|up| 
+NOG1MU|BE2.4101.pppoe2483|up|up| 
+NOG1MU|BE2.4101.pppoe2505|up|up| 
+NOG1MU|BE2.4101.pppoe2509|up|up| 
+NOG1MU|BE2.4101.pppoe2511|up|up| 
+NOG1MU|BE2.4101.pppoe2517|up|up| 
+NOG1MU|BE2.4101.pppoe2519|up|up| 
+NOG1MU|BE2.4101.pppoe2524|up|up| 
+NOG1MU|BE2.4101.pppoe2525|up|up| 
+NOG1MU|BE2.4101.pppoe2554|up|up| 
+NOG1MU|BE2.4101.pppoe2559|up|up| 
+NOG1MU|BE2.4101.pppoe2569|up|up| 
+NOG1MU|BE2.4101.pppoe2581|up|up| 
+NOG1MU|BE2.4101.pppoe2582|up|up| 
+NOG1MU|BE2.4101.pppoe2587|up|up| 
+NOG1MU|BE2.4101.pppoe2589|up|up| 
+NOG1MU|BE2.4101.pppoe2594|up|up| 
+NOG1MU|BE2.4101.pppoe2605|up|up| 
+NOG1MU|BE2.4101.pppoe2610|up|up| 
+NOG1MU|BE2.4101.pppoe2615|up|up| 
+NOG1MU|BE2.4101.pppoe2616|up|up| 
+NOG1MU|BE2.4101.pppoe2627|up|up| 
+NOG1MU|BE2.4101.pppoe2640|up|up| 
+NOG1MU|BE2.4101.pppoe2646|up|up| 
+NOG1MU|BE2.4101.pppoe2647|up|up| 
+NOG1MU|BE2.4101.pppoe2648|up|up| 
+NOG1MU|BE2.4101.pppoe2649|up|up| 
+NOG1MU|BE2.4101.pppoe2659|up|up| 
+NOG1MU|BE2.4101.pppoe2663|up|up| 
+NOG1MU|BE2.4101.pppoe2667|up|up| 
+NOG1MU|BE2.4101.pppoe2677|up|up| 
+NOG1MU|BE2.4101.pppoe2678|up|up| 
+NOG1MU|BE2.4101.pppoe2680|up|up| 
+NOG1MU|BE2.4101.pppoe2692|up|up| 
+NOG1MU|BE2.4101.pppoe2698|up|up| 
+NOG1MU|BE2.4101.pppoe2701|up|up| 
+NOG1MU|BE2.4101.pppoe2704|up|up| 
+NOG1MU|BE2.4101.pppoe2713|up|up| 
+NOG1MU|BE2.4101.pppoe2718|up|up| 
+NOG1MU|BE2.4101.pppoe2721|up|up| 
+NOG1MU|BE2.4101.pppoe2722|up|up| 
+NOG1MU|BE2.4101.pppoe2736|up|up| 
+NOG1MU|BE2.4101.pppoe2740|up|up| 
+NOG1MU|BE2.4101.pppoe2741|up|up| 
+NOG1MU|BE2.4101.pppoe2751|up|up| 
+NOG1MU|BE2.4101.pppoe2752|up|up| 
+NOG1MU|BE2.4101.pppoe2755|up|up| 
+NOG1MU|BE2.4101.pppoe2761|up|up| 
+NOG1MU|BE2.4101.pppoe2770|up|up| 
+NOG1MU|BE2.4101.pppoe2773|up|up| 
+NOG1MU|BE2.4101.pppoe2782|up|up| 
+NOG1MU|BE2.4101.pppoe2794|up|up| 
+NOG1MU|BE2.4101.pppoe2799|up|up| 
+NOG1MU|BE2.4101.pppoe2801|up|up| 
+NOG1MU|BE2.4101.pppoe2807|up|up| 
+NOG1MU|BE2.4101.pppoe2826|up|up| 
+NOG1MU|BE2.4101.pppoe2827|up|up| 
+NOG1MU|BE2.4101.pppoe2831|up|up| 
+NOG1MU|BE2.4101.pppoe2839|up|up| 
+NOG1MU|BE2.4101.pppoe2848|up|up| 
+NOG1MU|BE2.4101.pppoe2850|up|up| 
+NOG1MU|BE2.4101.pppoe2854|up|up| 
+NOG1MU|BE2.4101.pppoe2858|up|up| 
+NOG1MU|BE2.4101.pppoe2859|up|up| 
+NOG1MU|BE2.4101.pppoe2863|up|up| 
+NOG1MU|BE2.4101.pppoe2867|up|up| 
+NOG1MU|BE2.4101.pppoe2868|up|up| 
+NOG1MU|BE2.4101.pppoe2872|up|up| 
+NOG1MU|BE2.4101.pppoe2873|up|up| 
+NOG1MU|BE2.4101.pppoe2877|up|up| 
+NOG1MU|BE2.4101.pppoe2879|up|up| 
+NOG1MU|BE2.4101.pppoe2883|up|up| 
+NOG1MU|BE2.4101.pppoe2887|up|up| 
+NOG1MU|BE2.4101.pppoe2896|up|up| 
+NOG1MU|BE2.4101.pppoe2901|up|up| 
+NOG1MU|BE2.4101.pppoe2904|up|up| 
+NOG1MU|BE2.4101.pppoe2909|up|up| 
+NOG1MU|BE2.4101.pppoe2916|up|up| 
+NOG1MU|BE2.4101.pppoe2917|up|up| 
+NOG1MU|BE2.4101.pppoe2923|up|up| 
+NOG1MU|BE2.4101.pppoe2925|up|up| 
+NOG1MU|BE2.4101.pppoe2926|up|up| 
+NOG1MU|BE2.4101.pppoe2932|up|up| 
+NOG1MU|BE2.4101.pppoe2935|up|up| 
+NOG1MU|BE2.4101.pppoe2939|up|up| 
+NOG1MU|BE2.4101.pppoe2941|up|up| 
+NOG1MU|BE2.4101.pppoe2944|up|up| 
+NOG1MU|BE2.4101.pppoe2946|up|up| 
+NOG1MU|BE2.4101.pppoe2948|up|up| 
+NOG1MU|BE2.4101.pppoe2950|up|up| 
+NOG1MU|BE2.4101.pppoe2952|up|up| 
+NOG1MU|BE2.4101.pppoe2953|up|up| 
+NOG1MU|BE2.4101.pppoe2954|up|up| 
+NOG1MU|BE2.4101.pppoe2955|up|up| 
+NOG1MU|BE2.4101.pppoe2956|up|up| 
+NOG1MU|BE2.4101.pppoe2957|up|up| 
+NOG1MU|BE2.4101.pppoe2959|up|up| 
+NOG1MU|BE2.4101.pppoe2960|up|up| 
+NOG1MU|BE2.4101.pppoe2961|up|up| 
+NOG1MU|BE2.4101.pppoe2962|up|up| 
+NOG1MU|BE2.4101.pppoe2963|up|up| 
+NOG1MU|BE2.4101.pppoe2964|up|up| 
+NOG1MU|BE3|up|up|[ACCESO HSI][BE] NOG31D 11003726
+NOG1MU|BE3.2101|up|up|[GESTION] NOG31D HUA 5600 [ADS2]
+NOG1MU|BE3.3101|up|up|[TOIP] NOG31D HUA 5600 [ADS2]
+NOG1MU|BE3.4101|up|up|[DATOS] NOG31D HUA 5600 [ADS2][L3]
+NOG1MU|BE3.4101.pppoe4456|up|up| 
+NOG1MU|BE3.4101.pppoe4469|up|up| 
+NOG1MU|BE3.4101.pppoe4487|up|up| 
+NOG1MU|BE3.4101.pppoe4488|up|up| 
+NOG1MU|BE3.4101.pppoe4507|up|up| 
+NOG1MU|BE3.4101.pppoe4543|up|up| 
+NOG1MU|BE3.4101.pppoe4547|up|up| 
+NOG1MU|BE3.4101.pppoe4556|up|up| 
+NOG1MU|BE3.4101.pppoe4558|up|up| 
+NOG1MU|BE3.4101.pppoe4565|up|up| 
+NOG1MU|BE3.4101.pppoe4569|up|up| 
+NOG1MU|BE3.4101.pppoe4578|up|up| 
+NOG1MU|BE3.4101.pppoe4600|up|up| 
+NOG1MU|BE3.4101.pppoe4608|up|up| 
+NOG1MU|BE3.4101.pppoe4628|up|up| 
+NOG1MU|BE3.4101.pppoe4646|up|up| 
+NOG1MU|BE3.4101.pppoe4677|up|up| 
+NOG1MU|BE3.4101.pppoe4692|up|up| 
+NOG1MU|BE3.4101.pppoe4697|up|up| 
+NOG1MU|BE3.4101.pppoe4705|up|up| 
+NOG1MU|BE3.4101.pppoe4706|up|up| 
+NOG1MU|BE3.4101.pppoe4710|up|up| 
+NOG1MU|BE3.4101.pppoe4711|up|up| 
+NOG1MU|BE3.4101.pppoe4712|up|up| 
+NOG1MU|BE3.4101.pppoe4716|up|up| 
+NOG1MU|BE3.4101.pppoe4717|up|up| 
+NOG1MU|BE3.4101.pppoe4719|up|up| 
+NOG1MU|BE3.4101.pppoe4721|up|up| 
+NOG1MU|BE3.4101.pppoe4743|up|up| 
+NOG1MU|BE3.4101.pppoe4744|up|up| 
+NOG1MU|BE3.4101.pppoe4772|up|up| 
+NOG1MU|BE3.4101.pppoe4777|up|up| 
+NOG1MU|BE3.4101.pppoe4795|up|up| 
+NOG1MU|BE3.4101.pppoe4802|up|up| 
+NOG1MU|BE3.4101.pppoe4815|up|up| 
+NOG1MU|BE3.4101.pppoe4819|up|up| 
+NOG1MU|BE3.4101.pppoe4822|up|up| 
+NOG1MU|BE3.4101.pppoe4824|up|up| 
+NOG1MU|BE3.4101.pppoe4831|up|up| 
+NOG1MU|BE3.4101.pppoe4841|up|up| 
+NOG1MU|BE3.4101.pppoe4844|up|up| 
+NOG1MU|BE3.4101.pppoe4853|up|up| 
+NOG1MU|BE3.4101.pppoe4859|up|up| 
+NOG1MU|BE3.4101.pppoe4861|up|up| 
+NOG1MU|BE3.4101.pppoe4863|up|up| 
+NOG1MU|BE3.4101.pppoe4875|up|up| 
+NOG1MU|BE3.4101.pppoe4888|up|up| 
+NOG1MU|BE3.4101.pppoe4908|up|up| 
+NOG1MU|BE3.4101.pppoe4915|up|up| 
+NOG1MU|BE3.4101.pppoe4926|up|up| 
+NOG1MU|BE3.4101.pppoe4931|up|up| 
+NOG1MU|BE3.4101.pppoe4944|up|up| 
+NOG1MU|BE3.4101.pppoe4958|up|up| 
+NOG1MU|BE3.4101.pppoe4959|up|up| 
+NOG1MU|BE3.4101.pppoe4961|up|up| 
+NOG1MU|BE3.4101.pppoe4978|up|up| 
+NOG1MU|BE3.4101.pppoe4982|up|up| 
+NOG1MU|BE3.4101.pppoe4990|up|up| 
+NOG1MU|BE3.4101.pppoe4993|up|up| 
+NOG1MU|BE3.4101.pppoe4997|up|up| 
+NOG1MU|BE3.4101.pppoe5001|up|up| 
+NOG1MU|BE3.4101.pppoe5002|up|up| 
+NOG1MU|BE3.4101.pppoe5009|up|up| 
+NOG1MU|BE3.4101.pppoe5011|up|up| 
+NOG1MU|BE3.4101.pppoe5041|up|up| 
+NOG1MU|BE3.4101.pppoe5066|up|up| 
+NOG1MU|BE3.4101.pppoe5071|up|up| 
+NOG1MU|BE3.4101.pppoe5074|up|up| 
+NOG1MU|BE3.4101.pppoe5094|up|up| 
+NOG1MU|BE3.4101.pppoe5096|up|up| 
+NOG1MU|BE3.4101.pppoe5103|up|up| 
+NOG1MU|BE3.4101.pppoe5109|up|up| 
+NOG1MU|BE3.4101.pppoe5119|up|up| 
+NOG1MU|BE3.4101.pppoe5125|up|up| 
+NOG1MU|BE3.4101.pppoe5146|up|up| 
+NOG1MU|BE3.4101.pppoe5153|up|up| 
+NOG1MU|BE3.4101.pppoe5157|up|up| 
+NOG1MU|BE3.4101.pppoe5175|up|up| 
+NOG1MU|BE3.4101.pppoe5201|up|up| 
+NOG1MU|BE3.4101.pppoe5204|up|up| 
+NOG1MU|BE3.4101.pppoe5224|up|up| 
+NOG1MU|BE3.4101.pppoe5230|up|up| 
+NOG1MU|BE3.4101.pppoe5235|up|up| 
+NOG1MU|BE3.4101.pppoe5265|up|up| 
+NOG1MU|BE3.4101.pppoe5288|up|up| 
+NOG1MU|BE3.4101.pppoe5320|up|up| 
+NOG1MU|BE3.4101.pppoe5801|up|up| 
+NOG1MU|BE3.4101.pppoe6086|up|up| 
+NOG1MU|BE3.4101.pppoe6248|up|up| 
+NOG1MU|BE3.4101.pppoe6302|up|up| 
+NOG1MU|BE3.4101.pppoe6611|up|up| 
+NOG1MU|BE3.4101.pppoe6718|up|up| 
+NOG1MU|BE3.4101.pppoe6773|up|up| 
+NOG1MU|BE3.4101.pppoe6875|up|up| 
+NOG1MU|BE3.4101.pppoe7726|up|up| 
+NOG1MU|BE3.4101.pppoe8402|up|up| 
+NOG1MU|BE4|up|up|[ACCESO HSI][BE] NOGM01 
+NOG1MU|BE4.2101|up|up|[GESTION] NOGM01 ALU 7302 [VDS2]
+NOG1MU|BE4.3101|up|up|[TOIP] NOGM01 ALU 7302 [VDS2]
+NOG1MU|BE4.4101|up|up|[DATOS] NOGM01 ALU 7302 [VDS2][L3]
+NOG1MU|BE4.4101.pppoe6015|up|up| 
+NOG1MU|BE4.4101.pppoe6021|up|up| 
+NOG1MU|BE4.4101.pppoe6043|up|up| 
+NOG1MU|BE4.4101.pppoe6049|up|up| 
+NOG1MU|BE4.4101.pppoe6053|up|up| 
+NOG1MU|BE4.4101.pppoe6058|up|up| 
+NOG1MU|BE4.4101.pppoe6068|up|up| 
+NOG1MU|BE4.4101.pppoe6069|up|up| 
+NOG1MU|BE4.4101.pppoe6074|up|up| 
+NOG1MU|BE4.4101.pppoe6080|up|up| 
+NOG1MU|BE4.4101.pppoe6087|up|up| 
+NOG1MU|BE4.4101.pppoe6101|up|up| 
+NOG1MU|BE4.4101.pppoe6104|up|up| 
+NOG1MU|BE4.4101.pppoe6105|up|up| 
+NOG1MU|BE4.4101.pppoe6109|up|up| 
+NOG1MU|BE4.4101.pppoe6114|up|up| 
+NOG1MU|BE4.4101.pppoe6117|up|up| 
+NOG1MU|BE4.4101.pppoe6140|up|up| 
+NOG1MU|BE4.4101.pppoe6144|up|up| 
+NOG1MU|BE4.4101.pppoe6145|up|up| 
+NOG1MU|BE4.4101.pppoe6155|up|up| 
+NOG1MU|BE4.4101.pppoe6171|up|up| 
+NOG1MU|BE4.4101.pppoe6176|up|up| 
+NOG1MU|BE4.4101.pppoe6182|up|up| 
+NOG1MU|BE4.4101.pppoe6201|up|up| 
+NOG1MU|BE4.4101.pppoe6211|up|up| 
+NOG1MU|BE4.4101.pppoe6226|up|up| 
+NOG1MU|BE4.4101.pppoe6232|up|up| 
+NOG1MU|BE4.4101.pppoe6236|up|up| 
+NOG1MU|BE4.4101.pppoe6242|up|up| 
+NOG1MU|BE4.4101.pppoe6249|up|up| 
+NOG1MU|BE4.4101.pppoe6254|up|up| 
+NOG1MU|BE4.4101.pppoe6255|up|up| 
+NOG1MU|BE4.4101.pppoe6269|up|up| 
+NOG1MU|BE4.4101.pppoe6270|up|up| 
+NOG1MU|BE4.4101.pppoe6292|up|up| 
+NOG1MU|BE4.4101.pppoe6293|up|up| 
+NOG1MU|BE4.4101.pppoe6298|up|up| 
+NOG1MU|BE4.4101.pppoe6302|up|up| 
+NOG1MU|BE4.4101.pppoe6306|up|up| 
+NOG1MU|BE4.4101.pppoe6313|up|up| 
+NOG1MU|BE4.4101.pppoe6367|up|up| 
+NOG1MU|BE4.4101.pppoe6416|up|up| 
+NOG1MU|BE4.4101.pppoe6498|up|up| 
+NOG1MU|BE4.4101.pppoe6582|up|up| 
+NOG1MU|BE4.4101.pppoe6593|up|up| 
+NOG1MU|BE4.4101.pppoe6598|up|up| 
+NOG1MU|BE4.4101.pppoe6635|up|up| 
+NOG1MU|BE4.4101.pppoe6679|up|up| 
+NOG1MU|BE4.4101.pppoe6784|up|up| 
+NOG1MU|BE4.4101.pppoe6834|up|up| 
+NOG1MU|BE4.4101.pppoe6880|up|up| 
+NOG1MU|BE4.4101.pppoe6886|up|up| 
+NOG1MU|BE4.4101.pppoe7090|up|up| 
+NOG1MU|BE4.4101.pppoe7094|up|up| 
+NOG1MU|BE4.4101.pppoe7116|up|up| 
+NOG1MU|BE4.4101.pppoe7134|up|up| 
+NOG1MU|BE4.4101.pppoe7155|up|up| 
+NOG1MU|BE4.4101.pppoe7237|up|up| 
+NOG1MU|BE4.4101.pppoe7293|up|up| 
+NOG1MU|BE4.4101.pppoe7310|up|up| 
+NOG1MU|BE4.4101.pppoe7355|up|up| 
+NOG1MU|BE4.4101.pppoe7390|up|up| 
+NOG1MU|BE4.4101.pppoe7475|up|up| 
+NOG1MU|BE4.4101.pppoe7506|up|up| 
+NOG1MU|BE4.4101.pppoe7547|up|up| 
+NOG1MU|BE4.4101.pppoe7561|up|up| 
+NOG1MU|BE4.4101.pppoe7586|up|up| 
+NOG1MU|BE4.4101.pppoe7616|up|up| 
+NOG1MU|BE4.4101.pppoe7678|up|up| 
+NOG1MU|BE4.4101.pppoe7715|up|up| 
+NOG1MU|BE4.4101.pppoe7772|up|up| 
+NOG1MU|BE4.4101.pppoe7781|up|up| 
+NOG1MU|BE4.4101.pppoe7855|up|up| 
+NOG1MU|BE4.4101.pppoe7896|up|up| 
+NOG1MU|BE4.4101.pppoe7960|up|up| 
+NOG1MU|BE4.4101.pppoe8034|up|up| 
+NOG1MU|BE4.4101.pppoe8080|up|up| 
+NOG1MU|BE4.4101.pppoe8087|up|up| 
+NOG1MU|BE4.4101.pppoe8141|up|up| 
+NOG1MU|BE4.4101.pppoe8165|up|up| 
+NOG1MU|BE4.4101.pppoe8171|up|up| 
+NOG1MU|BE4.4101.pppoe8182|up|up| 
+NOG1MU|BE4.4101.pppoe8184|up|up| 
+NOG1MU|BE4.4101.pppoe8211|up|up| 
+NOG1MU|BE4.4101.pppoe8213|up|up| 
+NOG1MU|BE4.4101.pppoe8215|up|up| 
+NOG1MU|BE4.4101.pppoe8217|up|up| 
+NOG1MU|BE4.4101.pppoe8268|up|up| 
+NOG1MU|BE4.4101.pppoe8271|up|up| 
+NOG1MU|BE4.4101.pppoe8278|up|up| 
+NOG1MU|BE4.4101.pppoe8295|up|up| 
+NOG1MU|BE4.4101.pppoe8364|up|up| 
+NOG1MU|BE4.4101.pppoe8446|up|up| 
+NOG1MU|BE4.4101.pppoe8457|up|up| 
+NOG1MU|BE4.4101.pppoe8462|up|up| 
+NOG1MU|BE4.4101.pppoe8482|up|up| 
+NOG1MU|BE4.4101.pppoe8496|up|up| 
+NOG1MU|BE4.4101.pppoe8550|up|up| 
+NOG1MU|BE4.4101.pppoe8638|up|up| 
+NOG1MU|BE4.4101.pppoe8734|up|up| 
+NOG1MU|BE4.4101.pppoe8768|up|up| 
+NOG1MU|BE4.4101.pppoe8824|up|up| 
+NOG1MU|BE4.4101.pppoe8842|up|up| 
+NOG1MU|BE4.4101.pppoe8875|up|up| 
+NOG1MU|BE4.4101.pppoe8876|up|up| 
+NOG1MU|BE4.4101.pppoe8898|up|up| 
+NOG1MU|BE4.4101.pppoe8900|up|up| 
+NOG1MU|BE4.4101.pppoe8931|up|up| 
+NOG1MU|BE4.4101.pppoe8954|up|up| 
+NOG1MU|BE4.4101.pppoe9121|up|up| 
+NOG1MU|BE4.4101.pppoe9139|up|up| 
+NOG1MU|BE4.4101.pppoe9162|up|up| 
+NOG1MU|BE4.4101.pppoe9184|up|up| 
+NOG1MU|BE4.4101.pppoe9197|up|up| 
+NOG1MU|BE4.4101.pppoe9204|up|up| 
+NOG1MU|BE4.4101.pppoe9218|up|up| 
+NOG1MU|BE4.4101.pppoe9224|up|up| 
+NOG1MU|BE4.4101.pppoe9246|up|up| 
+NOG1MU|BE4.4101.pppoe9249|up|up| 
+NOG1MU|BE4.4101.pppoe9255|up|up| 
+NOG1MU|BE4.4101.pppoe9258|up|up| 
+NOG1MU|BE4.4101.pppoe9261|up|up| 
+NOG1MU|BE4.4101.pppoe9264|up|up| 
+NOG1MU|BE4.4101.pppoe9288|up|up| 
+NOG1MU|BE4.4101.pppoe9332|up|up| 
+NOG1MU|BE4.4101.pppoe9400|up|up| 
+NOG1MU|BE4.4101.pppoe9406|up|up| 
+NOG1MU|BE4.4101.pppoe9454|up|up| 
+NOG1MU|BE4.4101.pppoe9477|up|up| 
+NOG1MU|BE4.4101.pppoe9499|up|up| 
+NOG1MU|BE4.4101.pppoe9580|up|up| 
+NOG1MU|BE4.4101.pppoe9605|up|up| 
+NOG1MU|BE4.4101.pppoe9616|up|up| 
+NOG1MU|BE4.4101.pppoe9620|up|up| 
+NOG1MU|BE4.4101.pppoe9636|up|up| 
+NOG1MU|BE4.4101.pppoe9671|up|up| 
+NOG1MU|BE4.4101.pppoe9676|up|up| 
+NOG1MU|BE4.4101.pppoe9678|up|up| 
+NOG1MU|BE4.4101.pppoe9682|up|up| 
+NOG1MU|BE4.4101.pppoe9718|up|up| 
+NOG1MU|BE4.4101.pppoe9725|up|up| 
+NOG1MU|BE4.4101.pppoe9730|up|up| 
+NOG1MU|BE4.4101.pppoe9737|up|up| 
+NOG1MU|BE4.4101.pppoe9748|up|up| 
+NOG1MU|BE4.4101.pppoe9752|up|up| 
+NOG1MU|BE4.4101.pppoe9753|up|up| 
+NOG1MU|BE4.4101.pppoe9760|up|up| 
+NOG1MU|BE4.4101.pppoe9775|up|up| 
+NOG1MU|BE4.4101.pppoe9792|up|up| 
+NOG1MU|BE4.4101.pppoe9793|up|up| 
+NOG1MU|BE4.4101.pppoe9794|up|up| 
+NOG1MU|BE4.4101.pppoe9824|up|up| 
+NOG1MU|BE4.4101.pppoe9852|up|up| 
+NOG1MU|BE4.4101.pppoe9853|up|up| 
+NOG1MU|BE4.4101.pppoe9859|up|up| 
+NOG1MU|BE4.4101.pppoe9860|up|up| 
+NOG1MU|BE4.4101.pppoe9868|up|up| 
+NOG1MU|BE4.4101.pppoe9871|up|up| 
+NOG1MU|BE4.4101.pppoe9883|up|up| 
+NOG1MU|BE4.4101.pppoe9900|up|up| 
+NOG1MU|BE4.4101.pppoe9908|up|up| 
+NOG1MU|BE4.4101.pppoe9922|up|up| 
+NOG1MU|BE4.4101.pppoe9933|up|up| 
+NOG1MU|BE4.4101.pppoe9934|up|up| 
+NOG1MU|BE4.4101.pppoe9950|up|up| 
+NOG1MU|BE4.4101.pppoe9952|up|up| 
+NOG1MU|BE4.4101.pppoe9954|up|up| 
+NOG1MU|BE4.4101.pppoe9958|up|up| 
+NOG1MU|BE4.4101.pppoe9959|up|up| 
+NOG1MU|BE4.4101.pppoe9963|up|up| 
+NOG1MU|BE4.4101.pppoe9978|up|up| 
+NOG1MU|BE4.4101.pppoe9995|up|up| 
+NOG1MU|BE5|up|up|[ACCESO NGN][BE] DNZG01 HUA 5600_T
+NOG1MU|BE5.2|up|up|[SIGN] DNZG01 HUA 5600_T [NGN]
+NOG1MU|BE5.3|up|up|[RTP] DNZG01 HUA 5600_T [NGN]
+NOG1MU|BE5.4|up|up|[GESTION] DNZG01 HUA 5600_T [NGN]
+NOG1MU|BE5.3101|up|up|[TOIP] DNZG01 HUA 5600_T [VDS2]
+NOG1MU|BE5.4101|up|up|[DATOS] DNZG01 HUA 5600_T [VDS2][L3]
+NOG1MU|BE6|up|up|[Acceso NGN] [BE] MINI UMG-NOGOYA-(NOGK01)
+NOG1MU|BE6.2|up|up|[SIGN] MINI UMG-NOGOYA-(NOGK01)[NGN]
+NOG1MU|BE6.3|up|up|[RTP] MINI UMG-NOGOYA-(NOGK01)[NGN]
+NOG1MU|BE6.4|up|up|[GESTION] MINI UMG-NOGOYA-(NOGK01)[NGN]
+NOG1MU|BE6.6|up|down| 
+NOG1MU|BE7|up|up|LAG Frontera PTN HUAWEI 98NOG01 agrupa 0/1/6 y 1/1/6 
+NOG1MU|BE8|up|up|LAG Frontera PTN Huawei 98NOG01 
+NOG1MU|BE9|up|up|LAG Frontera PTN Huawei 98NOG01 LAG3
+NOG1MU|BE100|down|down| 
+NOG1MU|Lo0|up|up| 
+NOG1MU|Lo1|up|up|IP UNNUMBERED
+NOG1MU|Lo12|up|up|IP UNNUMBERED vpn-tdata-bcorio - VPN BRONZE INTERCARRIER - TASA - Banco rio
+NOG1MU|Lo26|up|up|IP UNNUMBERED VPN-gpba
+NOG1MU|Lo68|up|up|IP UNNUMBERED VPN PRIMA
+NOG1MU|Lo73|up|up|IP UNNUMBERED bonesi-vpn - VPN BRONZE - BONESI SOCIEDAD ANONIMA
+NOG1MU|Lo77|up|up|VPN WEB PATRON
+NOG1MU|Lo78|up|up|IP UNNUMBERED vpn-credicoop - VPN BRONZE - BANCO CREDICOOP COOP. LTDO.
+NOG1MU|Lo80|up|up|IP UNNUMBERED VPN JOCKEY
+NOG1MU|Lo90|up|up|IP UNNUMBERED munisam-vpn - VPN BRONZE - MUNICIPALIDAD DE GRAL. SAN MARTIN SEC. HAC. Y ECONO.
+NOG1MU|Lo100|up|up|Interfaz de gestion ADSL
+NOG1MU|Lo103|up|up|IP UNNUMBERED ospecom-vpn - VPN BRONZE - OSPECOM
+NOG1MU|Lo127|up|up|IP UNNUMERED vpn-vestiditos - VPN BRONZE - VESTIDITOS S.A.
+NOG1MU|Lo147|up|up|IP UNNUMERED darclibertador-vpn
+NOG1MU|Lo149|up|up|IP UNNUMBERED bna-vpn
+NOG1MU|Lo157|up|up|IP UNNUMBERED vpn-williner - VPN BRONZE - SUCESORES DE ALFREDO WILLINER S.A.
+NOG1MU|Lo162|up|up|IP UNNUMBERED hipodromo-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+NOG1MU|Lo182|up|up|garbarino-vpn - VPN BRONZE - GARBARINO
+NOG1MU|Lo198|up|up|IP UNNUMBERED vpn-gire-1 - VPN BRONZE - GIRE S.A.
+NOG1MU|Lo249|up|up|IP UNNUMBERED ncentralarg-vpn - VPN BRONZE - NUEVO CENTRAL ARGENTINO S.A.
+NOG1MU|Lo256|up|up|IP UNNUMBERED sepsa-vpn - VPN BRONZE - SERV.ELECTRONICO DE PAGO S.A.
+NOG1MU|Lo279|up|up|IP UNNUMBERED hsbc-vpn - VPN BRONZE - HSBC BANK ARGENTINA S.A.
+NOG1MU|Lo347|up|up|IP UNNUMBERED bcogalicia-vpn - VPN BRONZE - BANCO DE GALICIA Y BUENOS AIRE S S.A.
+NOG1MU|Lo433|up|up|IP UNNUMBERED hipodromo-3-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+NOG1MU|Lo454|up|up|IP UNNUMBERED poderjudicial-vpn - VPN BRONZE - PODER JUDICIAL DE LA PROVINCIA
+NOG1MU|Lo459|up|up|IP UNNUMERED clama-vpn
+NOG1MU|Lo479|up|up|IP UNNUMBERED solido-vpn - VPN BRONZE - SOLIDO S.R.L.
+NOG1MU|Lo507|up|up|IP UNNUMBERED maxima-vpn - VPN BRONZE - MAXIMA S.A. A.F.J.P.
+NOG1MU|Lo509|up|up|IP UNNUMBERED citibank-vpn - VPN BRONZE - CITIBANK N.A.
+NOG1MU|Lo546|up|up|IP UNNUMBERED ituran-vpn - VPN BRONZE - ITURAN
+NOG1MU|Lo594|up|up|IP UNNUMBERED diaarg-vpn - VPN BRONZE - DIA ARGENTINA S.A.
+NOG1MU|Lo601|up|up|IP UNNUMBERED alpargatas-vpn - VPN BRONZE - ALPARGATAS CALZADOS S.A.
+NOG1MU|Lo653|up|up|IP UNNUMBERED bigbloom-vpn - VPN BRONZE - BIG BLOOM S.A.
+NOG1MU|Lo707|up|up|IP UNNUMBERED correo-vpn - VPN BRONZE - CORREO OFICIAL DE LA REP.ARG.
+NOG1MU|Lo980|up|up|IP UNNUMBERED cjuleriaque-vpn - VPN BRONZE - CARLOS JULERIAQUE S.R.L.
+NOG1MU|Lo1017|up|up|IP UNNUMBERED asmuprofa-vpn - VPN BRONZE - ASOCIACION MUTUAL DE PROTECCIO N FAMILIAR
+NOG1MU|Lo1059|up|up|fravega-vpn - VPN BRONZE - FRAVEGA
+NOG1MU|Lo1154|up|up|IP UNNUMBERED arcosdora2-vpn
+NOG1MU|Lo1198|up|up|IP UNNUMERED dilfersa-vpn
+NOG1MU|Lo1219|up|up|SIMONS DE ARGENTINA SAIC
+NOG1MU|Lo1226|up|up|IP UNNUMERED argentconec-vpn
+NOG1MU|Lo1312|up|up|IP UNNUMBERED wifioffload-vpn
+NOG1MU|Lo1385|up|up|IP UNNUMERED garbacontenidos-vpn - VPN BRONZE - GARBARINO S.A.
+NOG1MU|Lo1471|up|up|IP UNNUMERED unigestopems-vpn - VPN BRONZE - UNIDAD DE GESTION OPERATIVA MITRE SARMIENTO S.A.
+NOG1MU|Lo3332|up|up| 
+NOG1MU|Lo13143|up|up|IP UNNUMBERED tasabancofrances-vpn - VPN BRONZE INTERCARRIER. - TASA subcliente Bco. Frances
+NOG1MU|Lo57015|up|up|IP UNNUMBERED tasabapro-vpn - VPN BRONZE INTERCARRIER. - Tasa sub
+NOG1MU|Nu0|up|up| 
+NOG1MU|PE1|admin-down|admin-down|GLFM01 - DSLAM DE PRUEBA
+NOG1MU|PE1.4101|admin-down|admin-down|GLFM01 HUA 5600T 11 [GPON][L3] - SONDA INTRAWAY
+NOG1MU|Mg0/RSP0/CPU0/0|admin-down|admin-down| 
+NOG1MU|Mg0/RSP0/CPU0/1|admin-down|admin-down| 
+NOG1MU|PT0/RSP0/CPU0/0|admin-down|admin-down| 
+NOG1MU|Mg0/RSP1/CPU0/0|admin-down|admin-down| 
+NOG1MU|Mg0/RSP1/CPU0/1|admin-down|admin-down| 
+NOG1MU|PT0/RSP1/CPU0/0|admin-down|admin-down| 
+NOG1MU|Te0/0/1/0|up|up|Enlace 10G A IRD1NA_Te0/10/0/34 (Linea:11004921) - UPLINK BBIP
+NOG1MU|Te0/0/1/1|up|up|Enlace 10G A IRD1NA Te0/10/0/35 (Linea:11004922) - UPLINK BBIP
+NOG1MU|Te0/0/1/2|up|up|Enlace 10G A IRD1NA Te0/10/0/33 (Linea:11004923) - UPLINK BBIP
+NOG1MU|Te0/0/1/3|admin-down|admin-down| 
+NOG1MU|Te0/0/1/4|admin-down|admin-down| 
+NOG1MU|Te0/0/1/5|admin-down|admin-down| 
+NOG1MU|Te0/0/1/6|up|up|LAG PTN 98NOG01 s2p2 linea 80003130 working
+NOG1MU|Te0/0/1/7|up|up|Frontera PTN Huawei 98NOG01 s2p3 linea:80003132
+NOG1MU|Te0/0/1/8|up|up|Frontera PTN Huawei 98NOG01 s2p4 linea:80003134
+NOG1MU|Te0/0/1/9|up|up|TIP - NE.SAR SRL - REF:887066 LIN:2861348
+NOG1MU|Te0/0/1/9.2|up|up|TIP - NE.SAR SRL - REF:887066 LIN:2861348
+NOG1MU|Te0/0/1/10|admin-down|admin-down| 
+NOG1MU|Te0/0/1/11|admin-down|admin-down| 
+NOG1MU|Te0/0/1/12|admin-down|admin-down| 
+NOG1MU|Te0/0/1/13|admin-down|admin-down| 
+NOG1MU|Te0/0/1/14|admin-down|admin-down| 
+NOG1MU|Te0/0/1/15|admin-down|admin-down| 
+NOG1MU|Te0/0/1/16|admin-down|admin-down| 
+NOG1MU|Te0/0/1/17|admin-down|admin-down| 
+NOG1MU|Te0/0/1/18|admin-down|admin-down| 
+NOG1MU|Te0/0/1/19|admin-down|admin-down| 
+NOG1MU|Te0/1/1/0|up|up|Enlace 10G A BEL1NA_Te0/10/0/8 (Linea:11004924) - UPLINK BBIP
+NOG1MU|Te0/1/1/1|up|up|Enlace 10G A BEL1NA Te0/10/0/9 (Linea:11004925) - UPLINK BBIP
+NOG1MU|Te0/1/1/2|up|up|Enlace 10G A BEL1NA Te0/10/0/10 (Linea:11004926) - UPLINK BBIP
+NOG1MU|Te0/1/1/3|admin-down|admin-down| 
+NOG1MU|Te0/1/1/4|admin-down|admin-down| 
+NOG1MU|Te0/1/1/5|admin-down|admin-down| 
+NOG1MU|Te0/1/1/6|up|up|LAG PTN 98NOG01 s13p2 linea 80003130 stand by
+NOG1MU|Te0/1/1/7|up|up|Frontera PTN Huawei 98NOG01 s13p3 linea:80003133
+NOG1MU|Te0/1/1/8|up|up|Frontera PTN Huawei 98NOG01 s13p4 linea:80003135
+NOG1MU|Te0/1/1/9|admin-down|admin-down| 
+NOG1MU|Te0/1/1/10|admin-down|admin-down| 
+NOG1MU|Te0/1/1/11|admin-down|admin-down| 
+NOG1MU|Te0/1/1/12|admin-down|admin-down| 
+NOG1MU|Te0/1/1/13|admin-down|admin-down| 
+NOG1MU|Te0/1/1/14|admin-down|admin-down| 
+NOG1MU|Te0/1/1/15|admin-down|admin-down| 
+NOG1MU|Te0/1/1/16|admin-down|admin-down| 
+NOG1MU|Te0/1/1/17|admin-down|admin-down| 
+NOG1MU|Te0/1/1/18|admin-down|admin-down| 
+NOG1MU|Te0/1/1/19|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/0|up|up|[ACCESO HSI + G.][BE] NOG11D 9703253 - 1/2
+NOG1MU|Gi0/5/0/1|up|up|[ACCESO HSI][BE] NOG21D 11003725
+NOG1MU|Gi0/5/0/2|up|up|[ACCESO HSI][BE] NOG31D 11003726
+NOG1MU|Gi0/5/0/3|up|up|[ACCESO HSI][BE] NOGM01 
+NOG1MU|Gi0/5/0/4|up|up|[ACCESO NGN][BE] DNZG01 HUA 5600_T 11002514
+NOG1MU|Gi0/5/0/5|up|up| 
+NOG1MU|Gi0/5/0/5.1003|up|up|eNODOB - NOGOYA_FEBRE - PAR3MU 0/7/25 - A05-S064 - (1) (505050) - S1
+NOG1MU|Gi0/5/0/5.1004|up|up|eNODOB - NOGOYA_FEBRE - PAR3MU 0/7/25 - A05-S064 - (2) (505050) - S1MME
+NOG1MU|Gi0/5/0/5.1005|up|up|eNODOB - NOGOYA_FEBRE - PAR3MU 0/7/25 - A05-S064 - (3) (505050) - GOMRAN
+NOG1MU|Gi0/5/0/5.1006|up|up|NODOB - NOGOYA_FEBRE - PAR3MU 0/7/25 - A05-S064 - (1) (526936) - 3G
+NOG1MU|Gi0/5/0/5.1007|up|up|NODOB - NOGOYA_FEBRE - PAR3MU 0/7/25 - A05-S064 - (1) (526963) - 2G
+NOG1MU|Gi0/5/0/6|up|up| 
+NOG1MU|Gi0/5/0/6.1000|up|up|eNODOB - NOGOYA_4 - PORT METRO - A05-S118 - (1) (762550) - S1
+NOG1MU|Gi0/5/0/6.1001|up|up|eNODOB - NOGOYA_4 - PORT METRO - A05-S118 - (2) (762550) - S1MME
+NOG1MU|Gi0/5/0/6.1002|up|up|eNODOB - NOGOYA_4 - PORT METRO - A05-S118 - (3) (762550) - GOMRAN
+NOG1MU|Gi0/5/0/6.1003|up|up|eNODOB - NOGOYA_4 - PORT METRO - A05-S118 - (1) (762549) - 3G
+NOG1MU|Gi0/5/0/6.1004|up|up|eNODOB - NOGOYA_4 - PORT METRO - A05-S118 - (1) (762548) - 2G
+NOG1MU|Gi0/5/0/7|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/8|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/9|down|down|TIP_TIPNESRLFORMAPAR REFE:887066 LIN: 216789
+NOG1MU|Gi0/5/0/9.2|admin-down|admin-down|TIP_TIPNESRLFORMAPAR REFE:887066 LIN: 216789
+NOG1MU|Gi0/5/0/10|up|up| 
+NOG1MU|Gi0/5/0/10.2|up|up|### INTEGRA PLATINUM - SOCIEDAD ANONIMA LA SIBILA - Ref:740055 - Lin:2819022
+NOG1MU|Gi0/5/0/10.3|up|up|VPN - SOCIEDAD ANONIMA LA SIBILA - Ref:740056 - Lin:2819022
+NOG1MU|Gi0/5/0/11|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/12|up|up|[Acceso NGN] [BE] MINI UMG-NOGOYA-(NOGK01)
+NOG1MU|Gi0/5/0/13|up|up|VPN PLATINUM + INTERNET ACCESS - PODER JUDICIAL DE ENTRE RIOS - Ref:923156 Lin:2867014
+NOG1MU|Gi0/5/0/13.2|up|up|VPN PLATINUM - PODER JUDICIAL DE ENTRE RIOS - Ref:923156 Lin:2867014
+NOG1MU|Gi0/5/0/13.3|up|up|HYPERWAY INTERNET ACCESS - PODER JUDICIAL DE ENTRE RIOS - Ref:923156 Lin:2867014
+NOG1MU|Gi0/5/0/14|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/15|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/16|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/17|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/18|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/19|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/20|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/21|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/22|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/23|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/24|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/25|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/26|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/27|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/28|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/29|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/30|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/31|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/32|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/33|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/34|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/35|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/36|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/37|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/38|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/39|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/40|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/41|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/42|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/43|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/44|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/45|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/46|admin-down|admin-down| 
+NOG1MU|Gi0/5/0/47|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/0|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/1|up|up|[ACCESO HSI][FI] Enlace 2/2 NOG21D - 11003725
+NOG1MU|Gi0/6/0/2|up|up|[ACCESO HSI][FI] Enlace 2/2 NOG31D - 11003726
+NOG1MU|Gi0/6/0/3|up|up|[ACCESO HSI + G.][BE] NOG11D 9703253 - 2/2
+NOG1MU|Gi0/6/0/4|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/5|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/6|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/7|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/8|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/9|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/10|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/11|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/12|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/13|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/14|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/15|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/16|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/17|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/18|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/19|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/20|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/21|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/22|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/23|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/24|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/25|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/26|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/27|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/28|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/29|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/30|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/31|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/32|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/33|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/34|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/35|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/36|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/37|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/38|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/39|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/40|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/41|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/42|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/43|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/44|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/45|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/46|admin-down|admin-down| 
+NOG1MU|Gi0/6/0/47|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/0|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/1|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/2|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/3|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/4|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/5|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/6|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/7|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/8|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/9|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/10|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/11|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/12|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/13|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/14|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/15|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/16|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/17|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/18|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/19|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/20|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/21|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/22|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/23|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/24|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/25|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/26|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/27|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/28|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/29|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/30|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/31|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/32|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/33|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/34|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/35|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/36|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/37|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/38|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/39|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/40|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/41|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/42|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/43|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/44|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/45|admin-down|admin-down| 
+NOG1MU|Gi0/7/0/46|up|up| 
+NOG1MU|Gi0/7/0/46.1000|up|up|eNODOB - NOGOYA_POSTE_1 - PORT METRO - A05-S055 - (1) (687144) - S1
+NOG1MU|Gi0/7/0/46.1001|up|up|eNODOB - NOGOYA_POSTE_1 - PORT METRO - A05-S055 - (2) (687144) - S1MME
+NOG1MU|Gi0/7/0/46.1002|up|up|eNODOB - NOGOYA_POSTE_1 - PORT METRO - A05-S055 - (3) (687144) - GOMRAN
+NOG1MU|Gi0/7/0/46.1003|up|up|eNODOB - NOGOYA_POSTE_1 - PORT METRO - A05-S055 - (1) (687178) - 3G
+NOG1MU|Gi0/7/0/46.1004|up|up|eNODOB - NOGOYA_POSTE_1 - PORT METRO - A05-S055 - (1) (687214) - 2G
+NOG1MU|Gi0/7/0/47|up|up| 
+NOG1MU|Gi0/7/0/47.1000|up|up|eNODOB - NOGOYA - NOG1MU 0/7/0/47 - A05-S011 - (1) (439941) - S1
+NOG1MU|Gi0/7/0/47.1001|up|up|eNODOB - NOGOYA - NOG1MU 0/7/0/47 - A05-S011 - (2) (439941) - S1MME
+NOG1MU|Gi0/7/0/47.1002|up|up|eNODOB - NOGOYA - NOG1MU 0/7/0/47 - A05-S011 - (3) (439941) - GOMRAN
+NOG1MU|Gi0/7/0/47.1003|up|up|NODOB - NOGOYA - NOG1MU 0/7/0/47 - A05-S011 - (1) (443404) - 3G
+NOG1MU|Gi0/7/0/47.1004|up|up|NODOB - NOGOYA - NOG1MU 0/7/0/47 - A05-S011 - (1) (443657) - 2G
+
+

@@ -1,0 +1,20 @@
+shelfname|interface|portoperationalstate|protocol|info1
+LQK1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+LQK1MS|GigabitEthernet0/2/16|UP|UP|CONEXION A RE DRAGON WAVE DWLQK01/2 - SSJ3MU Eth-Trunk3.1036 - Linea.70001117
+LQK1MS|GigabitEthernet0/2/17|UP|UP|eNODOB - eNODOB - LA_QUIACA - A21-S055 - (520917) NODOB (520919)(521350)
+LQK1MS|GigabitEthernet0/2/18|UP|UP|TIPCOOPQUIACA-Linea:2785386-Ref:617550
+LQK1MS|GigabitEthernet0/2/19|UP|UP|VPN PLATINUM - AFIP - Ref:741289 - Lin:2836032
+LQK1MS|GigabitEthernet0/2/20|UP|UP|Integra - NOANET S.A. - Ref:776491 - Lin:2843189 Acc: SSJ3MU Eth-Trunk3.13760002
+LQK1MS|GigabitEthernet0/2/21|UP|UP|eNODOB LA_QUIACA_2 - SSJ3MU 2/0/2 - A21-S331
+LQK1MS|GigabitEthernet0/2/22|DOWN|DOWN|eNODOB - eNODOB - LA_QUIACA_4 - A21-S333
+LQK1MS|GigabitEthernet0/2/23|UP|UP|eNODOB - eNODOB - LA_QUIACA_3 - A21-S332
+LQK1MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+LQK1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+LQK1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+LQK1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+LQK1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+LQK1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+LQK1MS|Vlanif10|UP|UP|HUAWEI, Vlanif10 Interface
+LQK1MS|Vlanif1036|UP|UP|GESTION - SSJ3MU Eth-Trunk3.1036 - Linea.70001117
+
+

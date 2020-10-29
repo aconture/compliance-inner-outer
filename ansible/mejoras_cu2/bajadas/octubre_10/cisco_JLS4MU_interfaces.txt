@@ -1,0 +1,291 @@
+shelfname|interface|portoperationalstate|protocol|info1
+JLS4MU|Lo0|up|up| 
+JLS4MU|Lo1|up|up|IP UNNUMBERED
+JLS4MU|Lo12|up|up|IP UNNUMBERED vpn-tdata-bcorio - VPN BRONZE INTERCARRIER - TASA - Banco rio
+JLS4MU|Lo26|up|up|IP UNNUMBERED VPN-gpba
+JLS4MU|Lo68|up|up|IP UNNUMBERED VPN PRIMA
+JLS4MU|Lo73|up|up|IP UNNUMBERED bonesi-vpn - VPN BRONZE - BONESI SOCIEDAD ANONIMA
+JLS4MU|Lo75|up|up|IP UNNUMBERED VPN ADVANCE
+JLS4MU|Lo77|up|up|VPN WEB PATRON
+JLS4MU|Lo78|up|up|IP UNNUMBERED vpn-credicoop - VPN BRONZE - BANCO CREDICOOP COOP. LTDO.
+JLS4MU|Lo80|up|up|IP UNNUMBERED VPN JOCKEY
+JLS4MU|Lo90|up|up|IP UNNUMBERED munisam-vpn - VPN BRONZE - MUNICIPALIDAD DE GRAL. SAN MARTIN SEC. HAC. Y ECONO.
+JLS4MU|Lo100|up|up|Interfaz de gestion ADSL
+JLS4MU|Lo103|up|up|IP UNNUMBERED ospecom-vpn - VPN BRONZE - OSPECOM
+JLS4MU|Lo127|up|up|IP UNNUMERED vpn-vestiditos - VPN BRONZE - VESTIDITOS S.A.
+JLS4MU|Lo147|up|up|IP UNNUMERED darclibertador-vpn
+JLS4MU|Lo149|up|up|IP UNNUMBERED bna-vpn
+JLS4MU|Lo157|up|up|IP UNNUMBERED vpn-williner - VPN BRONZE - SUCESORES DE ALFREDO WILLINER S.A.
+JLS4MU|Lo162|up|up|IP UNNUMBERED hipodromo-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+JLS4MU|Lo182|up|up|garbarino-vpn - VPN BRONZE - GARBARINO
+JLS4MU|Lo198|up|up|IP UNNUMBERED vpn-gire-1 - VPN BRONZE - GIRE S.A.
+JLS4MU|Lo249|up|up|IP UNNUMBERED ncentralarg-vpn - VPN BRONZE - NUEVO CENTRAL ARGENTINO S.A.
+JLS4MU|Lo256|up|up|IP UNNUMBERED sepsa-vpn - VPN BRONZE - SERV.ELECTRONICO DE PAGO S.A.
+JLS4MU|Lo279|up|up|IP UNNUMBERED hsbc-vpn - VPN BRONZE - HSBC BANK ARGENTINA S.A.
+JLS4MU|Lo347|up|up|IP UNNUMBERED bcogalicia-vpn - VPN BRONZE - BANCO DE GALICIA Y BUENOS AIRE S S.A.
+JLS4MU|Lo433|up|up|IP UNNUMBERED hipodromo-3-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+JLS4MU|Lo454|up|up|IP UNNUMBERED poderjudicial-vpn - VPN BRONZE - PODER JUDICIAL DE LA PROVINCIA
+JLS4MU|Lo459|up|up|IP UNNUMERED clama-vpn
+JLS4MU|Lo479|up|up|IP UNNUMBERED solido-vpn - VPN BRONZE - SOLIDO S.R.L.
+JLS4MU|Lo507|up|up|IP UNNUMBERED maxima-vpn - VPN BRONZE - MAXIMA S.A. A.F.J.P.
+JLS4MU|Lo509|up|up|IP UNNUMBERED citibank-vpn - VPN BRONZE - CITIBANK N.A.
+JLS4MU|Lo546|up|up|IP UNNUMBERED ituran-vpn - VPN BRONZE - ITURAN
+JLS4MU|Lo594|up|up|IP UNNUMBERED diaarg-vpn - VPN BRONZE - DIA ARGENTINA S.A.
+JLS4MU|Lo601|up|up|IP UNNUMBERED alpargatas-vpn - VPN BRONZE - ALPARGATAS CALZADOS S.A.
+JLS4MU|Lo653|up|up|IP UNNUMBERED bigbloom-vpn - VPN BRONZE - BIG BLOOM S.A.
+JLS4MU|Lo707|up|up|IP UNNUMBERED correo-vpn - VPN BRONZE - CORREO OFICIAL DE LA REP.ARG.
+JLS4MU|Lo980|up|up|IP UNNUMBERED cjuleriaque-vpn - VPN BRONZE - CARLOS JULERIAQUE S.R.L.
+JLS4MU|Lo1017|up|up|IP UNNUMBERED asmuprofa-vpn - VPN BRONZE - ASOCIACION MUTUAL DE PROTECCIO N FAMILIAR
+JLS4MU|Lo1059|up|up|fravega-vpn - VPN BRONZE - FRAVEGA
+JLS4MU|Lo1154|up|up|IP UNNUMBERED arcosdora2-vpn
+JLS4MU|Lo1219|up|up|SIMONS DE ARGENTINA SAIC
+JLS4MU|Lo1226|up|up|IP UNNUMERED argentconec-vpn
+JLS4MU|Lo1312|up|up|IP UNNUMBERED wifioffload-vpn
+JLS4MU|Lo1385|up|up|IP UNNUMERED garbacontenidos-vpn - VPN BRONZE - GARBARINO S.A.
+JLS4MU|Lo1471|up|up|IP UNNUMERED unigestopems-vpn - VPN BRONZE - UNIDAD DE GESTION OPERATIVA MITRE SARMIENTO S.A.
+JLS4MU|Lo13143|up|up|IP UNNUMBERED tasabancofrances-vpn - VPN BRONZE INTERCARRIER. - TASA subcliente Bco. Frances
+JLS4MU|Lo57015|up|up|IP UNNUMBERED tasabapro-vpn - VPN BRONZE INTERCARRIER. - Tasa sub
+JLS4MU|Nu0|up|up| 
+JLS4MU|Mg0/RP0/CPU0/0|admin-down|admin-down| 
+JLS4MU|Mg0/RP0/CPU0/1|admin-down|admin-down| 
+JLS4MU|PT0/RP0/CPU0/0|admin-down|admin-down| 
+JLS4MU|Mg0/RP1/CPU0/0|admin-down|admin-down| 
+JLS4MU|Mg0/RP1/CPU0/1|admin-down|admin-down| 
+JLS4MU|PT0/RP1/CPU0/0|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/0|up|up|Provisorio JLS3MU 6/0/1
+JLS4MU|Gi0/0/0/1|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/2|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/3|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/4|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/5|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/6|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/7|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/8|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/9|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/10|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/11|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/12|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/13|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/14|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/15|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/16|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/17|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/18|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/19|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/20|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/21|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/22|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/23|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/24|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/25|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/26|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/27|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/28|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/29|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/30|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/31|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/32|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/33|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/34|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/35|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/36|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/37|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/38|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/39|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/40|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/41|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/42|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/43|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/44|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/45|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/46|admin-down|admin-down| 
+JLS4MU|Gi0/0/0/47|admin-down|admin-down| 
+JLS4MU|Te0/4/0/0|up|up|Enlace 10G DWDM BAL1MB_Te0/6/0/0 (Linea:15007966) - UPLINK MSBNG
+JLS4MU|Te0/4/0/1|up|up|Enlace 10G DWDM BAL1MB Te0/6/0/1 (Linea:15007967) - UPLINK MSBNG
+JLS4MU|Te0/4/0/2|up|up|Enlace 10G DWDM BAL1MB Te0/6/0/2 (Linea:15007968) - UPLINK MSBNG
+JLS4MU|Te0/4/0/3|up|up|Enlace 10G DWDM BAL1MB Te0/2/1/1 (Linea:15008293) - UPLINK MSBNG
+JLS4MU|Te0/4/0/4|admin-down|admin-down| 
+JLS4MU|Te0/4/0/5|admin-down|admin-down| 
+JLS4MU|Te0/4/0/6|admin-down|admin-down| 
+JLS4MU|Te0/4/0/7|admin-down|admin-down| 
+JLS4MU|Te0/4/0/8|admin-down|admin-down| 
+JLS4MU|Te0/4/0/9|admin-down|admin-down| 
+JLS4MU|Te0/4/0/10|admin-down|admin-down| 
+JLS4MU|Te0/4/0/11|admin-down|admin-down| 
+JLS4MU|Te0/4/0/12|admin-down|admin-down| 
+JLS4MU|Te0/4/0/13|admin-down|admin-down| 
+JLS4MU|Te0/4/0/14|admin-down|admin-down| 
+JLS4MU|Te0/4/0/15|admin-down|admin-down| 
+JLS4MU|Te0/4/0/16|admin-down|admin-down| 
+JLS4MU|Te0/4/0/17|admin-down|admin-down| 
+JLS4MU|Te0/4/0/18|admin-down|admin-down| 
+JLS4MU|Te0/4/0/19|admin-down|admin-down| 
+JLS4MU|Hu0/4/1/0|admin-down|admin-down| 
+JLS4MU|Hu0/4/1/1|admin-down|admin-down| 
+JLS4MU|Te0/5/0/0|up|up|Enlace 10G DWDM CAS1MB_Te0/2/0/15 (Linea:15007969) - UPLINK MSBNG
+JLS4MU|Te0/5/0/1|up|up|Enlace 10G DWDM CAS1MB Te0/2/0/16 (Linea:15007970) - UPLINK MSBNG
+JLS4MU|Te0/5/0/2|up|up|Enlace 10G DWDM CAS1MB Te0/2/0/17 (Linea:15007971) - UPLINK MSBNG
+JLS4MU|Te0/5/0/3|up|up|Enlace 10G DWDM CAS1MB Te0/2/0/5 (Linea:15008294) - UPLINK MSBNG
+JLS4MU|Te0/5/0/4|admin-down|admin-down| 
+JLS4MU|Te0/5/0/5|admin-down|admin-down| 
+JLS4MU|Te0/5/0/6|admin-down|admin-down| 
+JLS4MU|Te0/5/0/7|admin-down|admin-down| 
+JLS4MU|Te0/5/0/8|admin-down|admin-down| 
+JLS4MU|Te0/5/0/9|admin-down|admin-down| 
+JLS4MU|Te0/5/0/10|admin-down|admin-down| 
+JLS4MU|Te0/5/0/11|admin-down|admin-down| 
+JLS4MU|Te0/5/0/12|admin-down|admin-down| 
+JLS4MU|Te0/5/0/13|admin-down|admin-down| 
+JLS4MU|Te0/5/0/14|admin-down|admin-down| 
+JLS4MU|Te0/5/0/15|admin-down|admin-down| 
+JLS4MU|Te0/5/0/16|admin-down|admin-down| 
+JLS4MU|Te0/5/0/17|admin-down|admin-down| 
+JLS4MU|Te0/5/0/18|admin-down|admin-down| 
+JLS4MU|Te0/5/0/19|admin-down|admin-down| 
+JLS4MU|Hu0/5/1/0|admin-down|admin-down| 
+JLS4MU|Hu0/5/1/1|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/0|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/1|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/2|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/3|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/4|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/5|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/6|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/7|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/8|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/9|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/10|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/11|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/12|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/13|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/14|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/15|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/16|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/17|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/18|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/19|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/20|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/21|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/22|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/23|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/24|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/25|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/26|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/27|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/28|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/29|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/30|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/31|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/32|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/33|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/34|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/35|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/36|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/37|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/38|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/39|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/40|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/41|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/42|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/43|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/44|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/45|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/46|admin-down|admin-down| 
+JLS4MU|Gi0/9/0/47|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/0|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/1|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/2|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/3|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/4|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/5|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/6|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/7|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/8|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/9|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/10|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/11|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/12|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/13|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/14|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/15|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/16|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/17|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/18|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/19|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/20|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/21|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/22|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/23|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/24|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/25|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/26|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/27|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/28|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/29|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/30|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/31|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/32|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/33|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/34|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/35|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/36|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/37|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/38|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/39|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/40|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/41|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/42|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/43|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/44|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/45|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/46|admin-down|admin-down| 
+JLS4MU|Gi0/10/0/47|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/0|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/1|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/2|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/3|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/4|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/5|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/6|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/7|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/8|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/9|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/10|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/11|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/12|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/13|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/14|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/15|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/16|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/17|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/18|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/19|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/20|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/21|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/22|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/23|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/24|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/25|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/26|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/27|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/28|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/29|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/30|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/31|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/32|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/33|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/34|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/35|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/36|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/37|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/38|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/39|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/40|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/41|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/42|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/43|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/44|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/45|admin-down|admin-down| 
+JLS4MU|Gi0/19/0/46|admin-down|admin-down| 
+
+

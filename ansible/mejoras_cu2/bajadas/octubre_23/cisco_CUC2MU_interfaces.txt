@@ -1,0 +1,310 @@
+shelfname|interface|portoperationalstate|protocol|info1
+CUC2MU|BE10|up|up|[ACCESO HSI][BE] CUC11D 11000188
+CUC2MU|BE10.2101|up|up|[GESTION] CUC11D ZTE 9800 [ADS2]
+CUC2MU|BE10.3101|up|up|[TOIP] CUC11D ZTE 9800 [ADS2]
+CUC2MU|BE10.3628|up|up|BANCO SANTANDER RIO S.A. - Ref: 634170 Lin: 2788765 Acc: CUC11D-1-17
+CUC2MU|BE10.3630|up|up|VPN SILVER - CORREO DE LA REP.ARG. - Ref640834 - Lin2793693 - CUC11D 1/17/15
+CUC2MU|BE10.3650|up|up|VPN GOLD - PAMI - Ref:264857 - Linea:2720900 - Acc:CUC11D 1/16/3
+CUC2MU|BE10.3656|up|up|VPN Branch Office 2M - SCHEJTER Y SCHEJTER - Ref:561439 Lin:2759786 Acc:CUC11D 1-16-9y10
+CUC2MU|BE10.3662|up|up|### VPN Head Quarter - CONMEGA A.C.E. - Ref:676044 - Lin:2816244 - Acc:CUC11D 16/15-16 ###
+CUC2MU|BE10.3812|up|up|Integra Light - FRESENIUS CARE - Ref:579198 Lin:2765373 Acc:CUC11D 1-17- 5 Y 6
+CUC2MU|BE10.3816|up|up|INTEGRA LIGHT por DSLAM - JUFEC SA - Ref:596027 Lin:2775686 Acc: [CUC] CUC11D, 17, 09 y 08, V04 / HC / 073 y 074
+CUC2MU|BE10.3818|up|up|INTEGRA LIGHT - BRAS TEC SA-Ref.657156 - Lin:2802697 - Acc:CUC11D 1-1-17-11/12
+CUC2MU|BE10.3840|up|up|IntegraLight - CETROGAR S.A... - Ref:658734 - Lin:2808277 Acc:CUC11D SHDSL-1-1-16-1
+CUC2MU|BE10.3850|up|up|INTEGRA LIGHT - MIN. DE MODERNIZACION DE LA NACION - REF:737571 - LIN:2833794 - Acc:CUC11D_1/16/11y12
+CUC2MU|BE10.3852|up|up|Integra Light - CORRADINI PATRICIA INES - Ref:879379 - Lin:2858131 - Acc:CUC11D SHDSL-1-16/13-14
+CUC2MU|BE10.4101|up|up|[DATOS] CUC11D ZTE 9800 [ADS2][L3]
+CUC2MU|BE12|up|up|[ACCESO HSI][BE] CUC31D 11004187
+CUC2MU|BE12.2101|up|up|[GESTION] CUC31D ZTE 9800 [ADS2]
+CUC2MU|BE12.3101|up|up|[TOIP] CUC31D ZTE 9800 [ADS2]
+CUC2MU|BE12.4101|up|up|[DATOS] CUC31D ZTE 9800 [ADS2][L3]
+CUC2MU|BE13|up|up|[ACCESO NGN][BE] 10DG01 HUA 5000
+CUC2MU|BE13.3|up|up|[RTP][SIGN] 10DG01 HUA 5000 [NGN]
+CUC2MU|BE13.4|up|up|[GESTION] [IPMB] 10DG01 HUA 5000[NGN]
+CUC2MU|BE13.5|up|up|[GESTION] [PVM] 10DG01 HUA 5000 [NGN]
+CUC2MU|BE13.3101|up|up|[TOIP] 10DG01 HUA 5000 [ADS2]
+CUC2MU|BE13.4101|up|up|[DATOS] 10DG01 HUA 50000 [ADS2][L3]
+CUC2MU|BE15|up|up|[ACCESO HSI][BE] CUC21D 11004186
+CUC2MU|BE15.2101|up|up|[GESTION] CUC21D ZTE 9800 [ADS2]
+CUC2MU|BE15.3101|up|up|[TOIP] CUC21D ZTE 9800 [ADS2]
+CUC2MU|BE15.4101|up|up|[DATOS] CUC21D ZTE 9800 [ADS2][L3]
+CUC2MU|BE100|up|up|LAG Frontera PTN HUAWEI 8VCUC01 agrupa Te0/3/0/1 y Te0/4/0/1
+CUC2MU|BE100.231|up|down| 
+CUC2MU|BE100.2315|up|up|UPLINK 20G PTN A CDI3MU
+CUC2MU|Lo0|up|up| 
+CUC2MU|Lo1|up|up|IP UNNUMBERED
+CUC2MU|Lo12|up|up|IP UNNUMBERED vpn-tdata-bcorio - VPN BRONZE INTERCARRIER - TASA - Banco rio
+CUC2MU|Lo26|up|up|IP UNNUMBERED VPN-gpba
+CUC2MU|Lo68|up|up|IP UNNUMBERED VPN PRIMA
+CUC2MU|Lo73|up|up|IP UNNUMBERED bonesi-vpn - VPN BRONZE - BONESI SOCIEDAD ANONIMA
+CUC2MU|Lo77|up|up|VPN WEB PATRON
+CUC2MU|Lo78|up|up|IP UNNUMBERED vpn-credicoop - VPN BRONZE - BANCO CREDICOOP COOP. LTDO.
+CUC2MU|Lo80|up|up|IP UNNUMBERED VPN JOCKEY
+CUC2MU|Lo90|up|up|IP UNNUMBERED munisam-vpn - VPN BRONZE - MUNICIPALIDAD DE GRAL. SAN MARTIN SEC. HAC. Y ECONO.
+CUC2MU|Lo100|up|up|Interfaz de gestion ADSL
+CUC2MU|Lo103|up|up|IP UNNUMBERED ospecom-vpn - VPN BRONZE - OSPECOM
+CUC2MU|Lo127|up|up|IP UNNUMERED vpn-vestiditos - VPN BRONZE - VESTIDITOS S.A.
+CUC2MU|Lo147|up|up|IP UNNUMERED darclibertador-vpn
+CUC2MU|Lo149|up|up|IP UNNUMBERED bna-vpn
+CUC2MU|Lo157|up|up|IP UNNUMBERED vpn-williner - VPN BRONZE - SUCESORES DE ALFREDO WILLINER S.A.
+CUC2MU|Lo162|up|up|IP UNNUMBERED hipodromo-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+CUC2MU|Lo169|up|up|IP UNNUMBERED VPN-TECNOACCION1 - VPN BRONZE - TECNO ACCION 1
+CUC2MU|Lo182|up|up|garbarino-vpn - VPN BRONZE - GARBARINO
+CUC2MU|Lo198|up|up|IP UNNUMBERED vpn-gire-1 - VPN BRONZE - GIRE S.A.
+CUC2MU|Lo249|up|up|IP UNNUMBERED ncentralarg-vpn - VPN BRONZE - NUEVO CENTRAL ARGENTINO S.A.
+CUC2MU|Lo256|up|up|IP UNNUMBERED sepsa-vpn - VPN BRONZE - SERV.ELECTRONICO DE PAGO S.A.
+CUC2MU|Lo279|up|up|IP UNNUMBERED hsbc-vpn - VPN BRONZE - HSBC BANK ARGENTINA S.A.
+CUC2MU|Lo347|up|up|IP UNNUMBERED bcogalicia-vpn - VPN BRONZE - BANCO DE GALICIA Y BUENOS AIRE S S.A.
+CUC2MU|Lo433|up|up|IP UNNUMBERED hipodromo-3-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+CUC2MU|Lo454|up|up|IP UNNUMBERED poderjudicial-vpn - VPN BRONZE - PODER JUDICIAL DE LA PROVINCIA
+CUC2MU|Lo459|up|up|IP UNNUMERED clama-vpn
+CUC2MU|Lo479|up|up|IP UNNUMBERED solido-vpn - VPN BRONZE - SOLIDO S.R.L.
+CUC2MU|Lo507|up|up|IP UNNUMBERED maxima-vpn - VPN BRONZE - MAXIMA S.A. A.F.J.P.
+CUC2MU|Lo509|up|up|IP UNNUMBERED citibank-vpn - VPN BRONZE - CITIBANK N.A.
+CUC2MU|Lo546|up|up|IP UNNUMBERED ituran-vpn - VPN BRONZE - ITURAN
+CUC2MU|Lo594|up|up|IP UNNUMBERED diaarg-vpn - VPN BRONZE - DIA ARGENTINA S.A.
+CUC2MU|Lo601|up|up|IP UNNUMBERED alpargatas-vpn - VPN BRONZE - ALPARGATAS CALZADOS S.A.
+CUC2MU|Lo653|up|up|IP UNNUMBERED bigbloom-vpn - VPN BRONZE - BIG BLOOM S.A.
+CUC2MU|Lo707|up|up|IP UNNUMBERED correo-vpn - VPN BRONZE - CORREO OFICIAL DE LA REP.ARG.
+CUC2MU|Lo980|up|up|IP UNNUMBERED cjuleriaque-vpn - VPN BRONZE - CARLOS JULERIAQUE S.R.L.
+CUC2MU|Lo1017|up|up|IP UNNUMBERED asmuprofa-vpn - VPN BRONZE - ASOCIACION MUTUAL DE PROTECCIO N FAMILIAR
+CUC2MU|Lo1059|up|up|fravega-vpn - VPN BRONZE - FRAVEGA
+CUC2MU|Lo1154|up|up|IP UNNUMBERED arcosdora2-vpn
+CUC2MU|Lo1198|up|up|IP UNNUMERED dilfersa-vpn
+CUC2MU|Lo1219|up|up|SIMONS DE ARGENTINA SAIC
+CUC2MU|Lo1226|up|up|IP UNNUMERED argentconec-vpn
+CUC2MU|Lo1312|up|up|IP UNNUMBERED wifioffload-vpn
+CUC2MU|Lo1385|up|up|IP UNNUMERED garbacontenidos-vpn - VPN BRONZE - GARBARINO S.A.
+CUC2MU|Lo1471|up|up|IP UNNUMERED unigestopems-vpn - VPN BRONZE - UNIDAD DE GESTION OPERATIVA MITRE SARMIENTO S.A.
+CUC2MU|Lo13143|up|up|IP UNNUMBERED tasabancofrances-vpn - VPN BRONZE INTERCARRIER. - TASA subcliente Bco. Frances
+CUC2MU|Lo57015|up|up|IP UNNUMBERED tasabapro-vpn - VPN BRONZE INTERCARRIER. - Tasa sub
+CUC2MU|Nu0|up|up| 
+CUC2MU|Mg0/RSP0/CPU0/0|admin-down|admin-down| 
+CUC2MU|Mg0/RSP0/CPU0/1|admin-down|admin-down| 
+CUC2MU|PT0/RSP0/CPU0/0|admin-down|admin-down| 
+CUC2MU|Mg0/RSP1/CPU0/0|admin-down|admin-down| 
+CUC2MU|Mg0/RSP1/CPU0/1|admin-down|admin-down| 
+CUC2MU|PT0/RSP1/CPU0/0|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/0|up|up|[ACCESO HSI][BE] CUC11D 11000188
+CUC2MU|Gi0/0/0/1|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/2|up|up|[ACCESO HSI][BE] CUC31D 11004187
+CUC2MU|Gi0/0/0/3|up|up|[ACCESO NGN][BE] 10DG01 HUA 5000 11001032
+CUC2MU|Gi0/0/0/4|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/5|up|up|VPN PLATINUM - S Y K S.A. - REF: 682229 - LINEA: 2816256
+CUC2MU|Gi0/0/0/5.170|up|up|VPN PLATINUM - S Y K S.A. - REF: 682229 - LINEA: 2816256
+CUC2MU|Gi0/0/0/6|down|down|TIP_TIPNETCOMMCUR(2804256)REFE:661697_Acc:CUC1MD Gi2/0/5_Ges.TECO
+CUC2MU|Gi0/0/0/6.2|down|down|TIP_TIPNETCOMMCUR(2804256)REFE:661697_Acc:CUC1MD Gi2/0/5_Ges.TECO
+CUC2MU|Gi0/0/0/7|up|up|VPN - INTA - Ref:784132 - Lin:2847641
+CUC2MU|Gi0/0/0/7.2|up|up|VPN - INTA - Ref:784132 - Lin:2847641
+CUC2MU|Gi0/0/0/8|admin-down|admin-down|VPN TASA - REF: 877263 - LINEA: 2771796
+CUC2MU|Gi0/0/0/8.2|admin-down|admin-down|VPN TASA - REF: 877263 - LINEA: 2771796
+CUC2MU|Gi0/0/0/9|up|up| 
+CUC2MU|Gi0/0/0/9.2|up|up|#### VPN - CETROGAR SA - Ref: 789897 - Linea: 2850526 - Acc: CUC1MD 2/0/11 ####
+CUC2MU|Gi0/0/0/10|up|up| 
+CUC2MU|Gi0/0/0/10.2|up|up|#### VPN PLATINUM - UNIVERSIDAD NACIONAL DEL NORDESTE - REF: 871592 - LINEA: 2853655 - TRZXXXXX ####
+CUC2MU|Gi0/0/0/11|up|up| 
+CUC2MU|Gi0/0/0/11.2|up|up|VPN PLATINUM - AGUAS DE CORRIENTES S.A. - Ref 875089 - Lin 2855728 - Acc CUC1MD 2/0/13
+CUC2MU|Gi0/0/0/12|up|up| 
+CUC2MU|Gi0/0/0/12.3|up|up|INTEGRA (Servicio IPv4-IPv6) - CAVICU - REF:885929 LIN:2860586 ACC:CUC1MD 2/0/12
+CUC2MU|Gi0/0/0/12.4|up|up|INTEGRA (Gestion) - REF:885929 LIN:2860586 ACC:CUC1MD 2/0/12
+CUC2MU|Gi0/0/0/13|up|up|INTEGRA - EMGE ESTADO MAYOR GRAL DEL EJERCITO - REF:904374 LIN:2864183 - ACC:55CRZ01/05/GE_01
+CUC2MU|Gi0/0/0/13.2|up|up|INTEGRA - EMGE - REF:904374 LIN:2864183 - ACC:55CRZ01/05/GE_01
+CUC2MU|Gi0/0/0/14|up|up|VPN PLATINUM - GP CORRIENTES SUPERIOR TRIB. DE JUSTICIA - Ref:606045 Lin:2777874
+CUC2MU|Gi0/0/0/14.2|up|up|VPN PLATINUM - GP CORRIENTES SUPERIOR TRIB. DE JUSTICIA - Ref:606045 Lin:2777874
+CUC2MU|Gi0/0/0/14.3|up|up|DDE-IP  - DDE-IP GOB. PROV. CTES SUP. TRIB. JUS - Ref:949354 Lin:2870559
+CUC2MU|Gi0/0/0/15|up|up|### VPN - BANCO DE LA NACION ARGENTINA - ref:917789 - Lin:2865884 ###
+CUC2MU|Gi0/0/0/15.2|up|up|### VPN - BANCO DE LA NACION ARGENTINA - ref:917789 - Lin:2865884 ###
+CUC2MU|Gi0/0/0/15.3|up|up|### VPN - BANCO DE LA NACION ARGENTINA - GESTION-ref:917789 - Lin:2865884 ###
+CUC2MU|Gi0/0/0/16|up|up|VPN - TASA RIO - REF:877262 LIN:2857026 - SEGURIZACION
+CUC2MU|Gi0/0/0/16.3|up|up|VPN - TASA RIO - REF:877262 LIN:2857026 - SEGURIZACION
+CUC2MU|Gi0/0/0/17|up|up|INTEGRA - FUNDACION JEAN PIAGET - REF: 681898 - LINEA: 2815922
+CUC2MU|Gi0/0/0/17.15|up|up|INTEGRA - FUNDACION JEAN PIAGET - REF: 681898 - LINEA: 2815922
+CUC2MU|Gi0/0/0/18|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/19|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/20|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/21|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/22|up|up| 
+CUC2MU|Gi0/0/0/22.4|up|up|VPN AFIP - Ref 781081 - ACC:CUC1MD 3/0/4
+CUC2MU|Gi0/0/0/23|up|up| 
+CUC2MU|Gi0/0/0/23.141|up|up|INTEGRA - GOBIERNO PROVINCIA CORRIENTES  SUPERIOR TRIB. DE JUSTICIA - REF: 222512 - LINEA: 2703771 - ACC: 75CDI01 06/GE_01  - PEAKFLOW
+CUC2MU|Gi0/0/0/24|up|up|L2L - CIBERNEK S.R.L. - REF: 944245 - LINEA: 2868953 - ACC: 0/0/0/24
+CUC2MU|Gi0/0/0/24.4|up|up|L2L - CIBERNEK S.R.L. - REF: 944245 - LINEA: 2868953 - VPLS ELAN_1110_944244
+CUC2MU|Gi0/0/0/24.4001|up|up|GESTION L2L - CIBERNEK S.R.L. - REF: 944245 - LINEA: 2868953 - ACC: 0/0/0/24
+CUC2MU|Gi0/0/0/25|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/26|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/27|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/28|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/29|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/30|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/31|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/32|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/33|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/34|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/35|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/36|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/37|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/38|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/39|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/40|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/41|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/42|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/43|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/44|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/45|admin-down|admin-down| 
+CUC2MU|Gi0/0/0/46|up|up|CONEXION GESTION PROVISORIA PTN 55CRZ01 6/2 -
+CUC2MU|Gi0/0/0/46.2315|up|up| 
+CUC2MU|Gi0/0/0/47|up|up| 
+CUC2MU|Gi0/0/0/47.2309|up|up| 
+CUC2MU|Gi0/1/0/0|up|up|eNODOB CURUZU_CUATIA_CENTRO A14-S002 (437830)
+CUC2MU|Gi0/1/0/0.1000|up|up|eNODOB - CURUZU_CUATIA - A14-S002 - (1) (437830) - S1
+CUC2MU|Gi0/1/0/0.1001|up|up|eNODOB - CURUZU_CUATIA - A14-S002 - (2) (437830) - S1MME
+CUC2MU|Gi0/1/0/0.1002|up|up|eNODOB - CURUZU_CUATIA - A14-S002 - (3) (437830) - GOMRAN
+CUC2MU|Gi0/1/0/0.1003|up|up|NODOB - CURUZU_CUATIA - A14-S002 - (1) (443526) - 3G
+CUC2MU|Gi0/1/0/0.1004|up|up|NODOB - CURUZU_CUATIA - A14-S002 - (1) (443605) - 2G
+CUC2MU|Gi0/1/0/1|up|up|eNODOB CURUZU_CUATIA_ACCESO A14-S042 (437827)
+CUC2MU|Gi0/1/0/1.1000|up|up|eNODOB - CURUZU_CUATIA_ACCESO - A14-S042 - (1) (437827) - S1
+CUC2MU|Gi0/1/0/1.1001|up|up|eNODOB - CURUZU_CUATIA_ACCESO - A14-S042 - (2) (437827) - S1MME
+CUC2MU|Gi0/1/0/1.1002|up|up|eNODOB - CURUZU_CUATIA_ACCESO - A14-S042 - (3) (437827) - GOMRAN
+CUC2MU|Gi0/1/0/1.1003|up|up|NODOB - CURUZU_CUATIA_ACCESO - A14-S042 - (1) (443524) - 3G
+CUC2MU|Gi0/1/0/1.1004|up|up|NODOB - CURUZU_CUATIA_ACCESO - A14-S042 - (1) (443604) - 2G
+CUC2MU|Gi0/1/0/2|up|up|eNODOB CURUZU_CUATIA_SAN_RAFAEL A14-S077 (1) (440598)
+CUC2MU|Gi0/1/0/2.1000|up|up|eNODOB CURUZU_CUATIA_SAN_RAFAEL A14-S077 (1) (440598) - S1
+CUC2MU|Gi0/1/0/2.1001|up|up|eNODOB CURUZU_CUATIA_SAN_RAFAEL A14-S077 (2) (440598) - S1MME
+CUC2MU|Gi0/1/0/2.1002|up|up|eNODOB CURUZU_CUATIA_SAN_RAFAEL A14-S077 (3) (440598) - GOMRAN
+CUC2MU|Gi0/1/0/2.1003|up|up|NODOB CURUZU_CUATIA_SAN_RAFAEL A14-S077 (1) (443503) - 3G
+CUC2MU|Gi0/1/0/2.1004|up|up|NODOB CURUZU_CUATIA_SAN_RAFAEL A14-S077 (1) (443244) - 2G
+CUC2MU|Gi0/1/0/3|up|up|[ACCESO HSI][BE] CUC21D CONEXION 1/2 11004186
+CUC2MU|Gi0/1/0/4|up|up|[ACCESO HSI][BE] CUC21D CONEXION 2/2 11004186
+CUC2MU|Gi0/1/0/5|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/6|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/7|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/8|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/9|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/10|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/11|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/12|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/13|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/14|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/15|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/16|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/17|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/18|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/19|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/20|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/21|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/22|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/23|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/24|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/25|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/26|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/27|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/28|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/29|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/30|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/31|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/32|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/33|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/34|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/35|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/36|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/37|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/38|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/39|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/40|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/41|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/42|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/43|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/44|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/45|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/46|admin-down|admin-down| 
+CUC2MU|Gi0/1/0/47|admin-down|admin-down| 
+CUC2MU|Te0/3/1/0|up|up|Enlace 10G PTN A PDL2MU (Linea:11005613) - Frontera PTN HUAWEI
+CUC2MU|Te0/3/1/1|up|up|TIP - GONZALEZ VITO HUGO - REF: 590451 - LIN: 2851527/2769176/2863348
+CUC2MU|Te0/3/1/1.3|up|up|TIP - GONZALEZ VITO HUGO - REF: 590451 - LIN: 2851527/2769176/2863348
+CUC2MU|Te0/3/1/2|admin-down|admin-down| 
+CUC2MU|Te0/3/1/3|admin-down|admin-down| 
+CUC2MU|Te0/3/1/4|admin-down|admin-down| 
+CUC2MU|Te0/3/1/5|admin-down|admin-down| 
+CUC2MU|Te0/3/1/6|admin-down|admin-down| 
+CUC2MU|Te0/3/1/7|admin-down|admin-down| 
+CUC2MU|Te0/3/1/8|admin-down|admin-down| 
+CUC2MU|Te0/3/1/9|admin-down|admin-down| 
+CUC2MU|Te0/3/1/10|admin-down|admin-down| 
+CUC2MU|Te0/3/1/11|admin-down|admin-down| 
+CUC2MU|Te0/3/1/12|admin-down|admin-down| 
+CUC2MU|Te0/3/1/13|admin-down|admin-down| 
+CUC2MU|Te0/3/1/14|admin-down|admin-down| 
+CUC2MU|Te0/3/1/15|admin-down|admin-down| 
+CUC2MU|Te0/3/1/16|admin-down|admin-down| 
+CUC2MU|Te0/3/1/17|admin-down|admin-down| 
+CUC2MU|Te0/3/1/18|admin-down|admin-down| 
+CUC2MU|Te0/3/1/19|admin-down|admin-down| 
+CUC2MU|Te0/4/1/0|up|up|Enlace 10G PTN A PDL2MU (Linea:11005613) - Frontera PTN HUAWEI
+CUC2MU|Te0/4/1/1|admin-down|admin-down| 
+CUC2MU|Te0/4/1/2|admin-down|admin-down| 
+CUC2MU|Te0/4/1/3|admin-down|admin-down| 
+CUC2MU|Te0/4/1/4|admin-down|admin-down| 
+CUC2MU|Te0/4/1/5|admin-down|admin-down| 
+CUC2MU|Te0/4/1/6|admin-down|admin-down| 
+CUC2MU|Te0/4/1/7|admin-down|admin-down| 
+CUC2MU|Te0/4/1/8|admin-down|admin-down| 
+CUC2MU|Te0/4/1/9|admin-down|admin-down| 
+CUC2MU|Te0/4/1/10|admin-down|admin-down| 
+CUC2MU|Te0/4/1/11|admin-down|admin-down| 
+CUC2MU|Te0/4/1/12|admin-down|admin-down| 
+CUC2MU|Te0/4/1/13|admin-down|admin-down| 
+CUC2MU|Te0/4/1/14|admin-down|admin-down| 
+CUC2MU|Te0/4/1/15|admin-down|admin-down| 
+CUC2MU|Te0/4/1/16|admin-down|admin-down| 
+CUC2MU|Te0/4/1/17|admin-down|admin-down| 
+CUC2MU|Te0/4/1/18|admin-down|admin-down| 
+CUC2MU|Te0/4/1/19|admin-down|admin-down| 
+CUC2MU|Te0/7/0/0|admin-down|admin-down| 
+CUC2MU|Te0/7/0/1|admin-down|admin-down| 
+CUC2MU|Te0/7/0/2|admin-down|admin-down| 
+CUC2MU|Te0/7/0/3|admin-down|admin-down| 
+CUC2MU|Te0/7/0/4|admin-down|admin-down| 
+CUC2MU|Te0/7/0/5|admin-down|admin-down| 
+CUC2MU|Te0/7/0/6|admin-down|admin-down| 
+CUC2MU|Te0/7/0/7|admin-down|admin-down| 
+CUC2MU|Te0/7/0/8|admin-down|admin-down| 
+CUC2MU|Te0/7/0/9|admin-down|admin-down| 
+CUC2MU|Te0/7/0/10|admin-down|admin-down| 
+CUC2MU|Te0/7/0/11|admin-down|admin-down| 
+CUC2MU|Te0/7/0/12|admin-down|admin-down| 
+CUC2MU|Te0/7/0/13|admin-down|admin-down| 
+CUC2MU|Te0/7/0/14|admin-down|admin-down| 
+CUC2MU|Te0/7/0/15|admin-down|admin-down| 
+CUC2MU|Te0/7/0/16|admin-down|admin-down| 
+CUC2MU|Te0/7/0/17|admin-down|admin-down| 
+CUC2MU|Te0/7/0/18|admin-down|admin-down| 
+CUC2MU|Te0/7/0/19|admin-down|admin-down| 
+CUC2MU|Te0/7/0/20|admin-down|admin-down| 
+CUC2MU|Te0/7/0/21|admin-down|admin-down| 
+CUC2MU|Te0/7/0/22|admin-down|admin-down| 
+CUC2MU|Te0/7/0/23|admin-down|admin-down| 
+CUC2MU|Te0/7/0/24|admin-down|admin-down| 
+CUC2MU|Te0/7/0/25|admin-down|admin-down| 
+CUC2MU|Te0/7/0/26|admin-down|admin-down| 
+CUC2MU|Te0/7/0/27|admin-down|admin-down| 
+CUC2MU|Te0/7/0/28|admin-down|admin-down| 
+CUC2MU|Te0/7/0/29|admin-down|admin-down| 
+CUC2MU|Te0/7/0/30|admin-down|admin-down| 
+CUC2MU|Te0/7/0/31|admin-down|admin-down| 
+CUC2MU|Te0/7/0/32|admin-down|admin-down| 
+CUC2MU|Te0/7/0/33|admin-down|admin-down| 
+CUC2MU|Te0/7/0/34|admin-down|admin-down| 
+CUC2MU|Te0/7/0/35|admin-down|admin-down| 
+CUC2MU|Te0/7/0/36|admin-down|admin-down| 
+CUC2MU|Te0/7/0/37|admin-down|admin-down| 
+CUC2MU|Te0/7/0/38|admin-down|admin-down| 
+CUC2MU|Te0/7/0/39|admin-down|admin-down| 
+CUC2MU|Te0/7/0/40|admin-down|admin-down| 
+CUC2MU|Te0/7/0/41|admin-down|admin-down| 
+CUC2MU|Te0/7/0/42|admin-down|admin-down| 
+CUC2MU|Te0/7/0/43|admin-down|admin-down| 
+CUC2MU|Te0/7/0/44|admin-down|admin-down| 
+CUC2MU|Te0/7/0/45|admin-down|admin-down| 
+CUC2MU|Te0/7/0/46|admin-down|admin-down| 
+
+

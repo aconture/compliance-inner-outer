@@ -1,0 +1,21 @@
+shelfname|interface|portoperationalstate|protocol|info1
+VUO1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+VUO1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A 1NVUN01_07 - CHI2MU 4/1/22.1200 - Linea.70001400
+VUO1MS|GigabitEthernet0/2/1|UP|UP|VILLA_UNION - CHI2MU 4/1/22 - A09-S023
+VUO1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+VUO1MS|GigabitEthernet0/2/3|UP|UP|eNODOB - A09-S009 Agua del Medio - A09-S014Villa Castelli - A09-S037 Santa Clara - A09-S059 Pagancillo - A09-S079 Guandacol
+VUO1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+VUO1MS|GigabitEthernet0/2/5|UP|UP|eNODOB - A09-S014 Villa Castelli - A09-S029Villa San Jose De Vinchina
+VUO1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+VUO1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+VUO1MS|GigabitEthernet0/2/8|UP|UP|GESTION TX - RE VILLA UNION LINEA 70000039
+VUO1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+VUO1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+VUO1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+VUO1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+VUO1MS|Vlanif1200|UP|UP|VLAN_GESTION_CHI2MU 4/1/22.1200
+VUO1MS|Vlanif3616|UP|DOWN|HUAWEI, Vlanif3616 Interface
+VUO1MS|Vlanif3617|UP|DOWN|HUAWEI, Vlanif3617 Interface
+VUO1MS|Vlanif3621|UP|DOWN|HUAWEI, Vlanif3621 Interface
+
+

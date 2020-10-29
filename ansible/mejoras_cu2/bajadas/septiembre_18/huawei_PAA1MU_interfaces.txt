@@ -1,0 +1,34 @@
+shelfname|interface|portoperationalstate|protocol|info1
+PAA1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+PAA1MU|GE0/1/0|up|down|CONEXION A DWPAA02_2BB_P19 - Line
+PAA1MU|GE0/1/0.2303|up|up|UPLINK A PRS3MU Eth-trunk9.2303 D
+PAA1MU|GE0/1/0.2304|up|up|UPLINK A PRS3MU Eth-trunk9.2304 D
+PAA1MU|GE0/1/0.2305|up|up|UPLINK A PRS3MU Eth-trunk9.2305 D
+PAA1MU|GE0/1/0.2306|up|up|UPLINK A PRS3MU Eth-trunk9.2306 D
+PAA1MU|GE0/1/0.2307|up|up|UPLINK A PRS3MU Eth-trunk9.2307 D
+PAA1MU|GE0/1/0.2308|up|up|UPLINK A PRS3MU Eth-trunk9.2308 D
+PAA1MU|GE0/1/0.2309|up|up|UPLINK A PRS3MU Eth-trunk9.2309 D
+PAA1MU|GE0/1/0.2310|up|up|UPLINK A PRS3MU Eth-trunk9.2310 D
+PAA1MU|GE0/1/0.2311|up|up|UPLINK A PRS3MU Eth-trunk9.2311 D
+PAA1MU|GE0/1/0.2312|up|up|GESTION - PRS3MU Eth-Trunk9.2312
+PAA1MU|GE0/1/1|down|down|HUAWEI, GigabitEthernet0/1/1 Inte
+PAA1MU|GE0/1/2|down|down|HUAWEI, GigabitEthernet0/1/2 Inte
+PAA1MU|GE0/1/3|down|down|HUAWEI, GigabitEthernet0/1/3 Inte
+PAA1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Inte
+PAA1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Inte
+PAA1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Inte
+PAA1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Inte
+PAA1MU|GE0/2/0|down|down|HUAWEI, GigabitEthernet0/2/0 Inte
+PAA1MU|GE0/2/1|down|down|HUAWEI, GigabitEthernet0/2/1 Inte
+PAA1MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Inte
+PAA1MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Inte
+PAA1MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Inte
+PAA1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Inte
+PAA1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Inte
+PAA1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Inte
+PAA1MU|GE0/3/0|down|down|HUAWEI, GigabitEthernet0/3/0 Inte
+PAA1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Inte
+PAA1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Inte
+PAA1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Inte
+
+

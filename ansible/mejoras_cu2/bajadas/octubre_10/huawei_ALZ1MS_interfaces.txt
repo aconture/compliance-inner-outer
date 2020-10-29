@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+ALZ1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+ALZ1MS|GigabitEthernet0/2/16|UP|UP|CONEXION A RADIO DRAGONWAVE - PAR3MU Eth-trunk12.1017 - Linea.80002070
+ALZ1MS|GigabitEthernet0/2/17|UP|UP|CONEXION A ePUEBLO_ALCARAZ_A07-s002
+ALZ1MS|GigabitEthernet0/2/18|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/18 Interface
+ALZ1MS|GigabitEthernet0/2/19|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/19 Interface
+ALZ1MS|GigabitEthernet0/2/20|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/20 Interface
+ALZ1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+ALZ1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+ALZ1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+ALZ1MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+ALZ1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+ALZ1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+ALZ1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+ALZ1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+ALZ1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+ALZ1MS|Vlanif1017|UP|UP|HUAWEI, Vlanif1017 Interface
+
+

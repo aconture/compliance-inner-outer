@@ -1,0 +1,41 @@
+shelfname|interface|portoperationalstate|protocol|info1
+EOP1MU|Eth-Trunk9|up|down|LAG FO A SFE4MU_Eth-Trunk9
+EOP1MU|Eth-Trunk9.1601|up|up|HUAWEI, Eth-Trunk9.1601 Interface
+EOP1MU|Eth-Trunk9.1602|up|up|UPLINK A SFE4MU Eth-Trunk9.1602 S
+EOP1MU|Eth-Trunk9.1603|up|up|UPLINK A SFE4MU Eth-Trunk9.1603 S
+EOP1MU|Eth-Trunk9.1604|up|up|UPLINK A SFE4MU Eth-Trunk9.1604 S
+EOP1MU|Eth-Trunk9.1605|up|up|UPLINK A SFE4MU Eth-Trunk9.1605 S
+EOP1MU|Eth-Trunk9.1606|up|up|UPLINK A SFE4MU Eth-Trunk9.1606 S
+EOP1MU|Eth-Trunk9.1607|up|up|UPLINK A SFE4MU Eth-Trunk9.1607 S
+EOP1MU|Eth-Trunk9.1608|up|up|UPLINK A SFE4MU Eth-Trunk9.1608 S
+EOP1MU|Eth-Trunk9.1609|up|up|UPLINK A SFE4MU Eth-Trunk9.1609 S
+EOP1MU|Eth-Trunk9.1610|up|up|UPLINK A SFE4MU Eth-Trunk9.1610 S
+EOP1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+EOP1MU|GE0/1/0|up|down|[NGN] EOPG01 HUA5000
+EOP1MU|GE0/1/0.3|up|up|[RTP][SIGN] EOPG01 HUA5000 [NGN]
+EOP1MU|GE0/1/0.4|up|up|[GESTION][IPMB] EOPG01 HUA 5000 [
+EOP1MU|GE0/1/0.5|up|up|[GESTION][PVM] EOPG01 HUA 5000 [N
+EOP1MU|GE0/1/1|down|down|HUAWEI, GigabitEthernet0/1/1 Inte
+EOP1MU|GE0/1/2|down|down|HUAWEI, GigabitEthernet0/1/2 Inte
+EOP1MU|GE0/1/3|down|down|HUAWEI, GigabitEthernet0/1/3 Inte
+EOP1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Inte
+EOP1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Inte
+EOP1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Inte
+EOP1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Inte
+EOP1MU|GE0/2/0|down|down|HUAWEI, GigabitEthernet0/2/0 Inte
+EOP1MU|GE0/2/1|down|down|HUAWEI, GigabitEthernet0/2/1 Inte
+EOP1MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Inte
+EOP1MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Inte
+EOP1MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Inte
+EOP1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Inte
+EOP1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Inte
+EOP1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Inte
+EOP1MU|GE0/3/0|down|down|HUAWEI, GigabitEthernet0/3/0 Inte
+EOP1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Inte
+EOP1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Inte
+EOP1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Inte
+EOP1MU|GE0/4/0(10G)|down|down|HUAWEI, GigabitEthernet0/4/0 Inte
+EOP1MU|GE0/5/0(10G)|up|up|Enlace 10G FO SFE4MU_G2/1/6 Linea
+EOP1MU|GE0/6/0(10G)|up|up|Enlace 10G FO SFE4MU_G6/1/6 Linea
+
+

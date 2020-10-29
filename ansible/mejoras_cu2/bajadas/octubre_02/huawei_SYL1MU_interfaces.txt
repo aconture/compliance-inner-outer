@@ -1,0 +1,40 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SYL1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+SYL1MU|GE0/1/0|up|down|CONEXION A 1LSYL01 - Linea:800030
+SYL1MU|GE0/1/0.1252|up|up|GESTION PRS4MU Eth-Trunk2.1252 -
+SYL1MU|GE0/1/0.1253|up|up|UPLINK A PRS4MU Eth-Trunk.1253 1L
+SYL1MU|GE0/1/0.1254|up|up|UPLINK A PRS4MU Eth-Trunk.1254 1L
+SYL1MU|GE0/1/0.1255|up|up|UPLINK A PRS4MU Eth-Trunk.1255 1L
+SYL1MU|GE0/1/0.1256|up|up|UPLINK A PRS4MU Eth-Trunk.1256 1L
+SYL1MU|GE0/1/0.1257|up|up|UPLINK A PRS4MU Eth-Trunk.1257 1L
+SYL1MU|GE0/1/0.1258|up|up|UPLINK A PRS4MU Eth-Trunk.1258 1L
+SYL1MU|GE0/1/0.1259|up|up|UPLINK A PRS4MU Eth-Trunk.1259 1L
+SYL1MU|GE0/1/0.1260|up|up|UPLINK A PRS4MU Eth-Trunk.1260 1L
+SYL1MU|GE0/1/0.1261|up|up|UPLINK A PRS4MU Eth-Trunk.1261 1L
+SYL1MU|GE0/1/1|down|down|HUAWEI, GigabitEthernet0/1/1 Inte
+SYL1MU|GE0/1/2|down|down|HUAWEI, GigabitEthernet0/1/2 Inte
+SYL1MU|GE0/1/3|down|down|HUAWEI, GigabitEthernet0/1/3 Inte
+SYL1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Inte
+SYL1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Inte
+SYL1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Inte
+SYL1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Inte
+SYL1MU|GE0/2/0|up|down|eNODOB SANTA_SYLVINA - A16-S033 (
+SYL1MU|GE0/2/0.1000|up|up|eNODOB - SANTA_SYLVINA - A16-S033
+SYL1MU|GE0/2/0.1001|up|up|eNODOB - SANTA_SYLVINA - A16-S033
+SYL1MU|GE0/2/0.1002|up|up|eNODOB - SANTA_SYLVINA - A16-S033
+SYL1MU|GE0/2/0.1003|up|up|NODOB - SANTA_SYLVINA - A16-S033
+SYL1MU|GE0/2/0.1004|up|up|NODOB - SANTA_SYLVINA - A16-S033-
+SYL1MU|GE0/2/1|down|down|HUAWEI, GigabitEthernet0/2/1 Inte
+SYL1MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Inte
+SYL1MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Inte
+SYL1MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Inte
+SYL1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Inte
+SYL1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Inte
+SYL1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Inte
+SYL1MU|GE0/3/0|down|down|HUAWEI, GigabitEthernet0/3/0 Inte
+SYL1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Inte
+SYL1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Inte
+SYL1MU|GE0/3/3|up|down|TIP - TIPSANTASYLVINAPRS - REF: 3
+SYL1MU|GE0/3/3.1233|up|up|TIP - TIPSANTASYLVINAPRS - REF: 3
+
+

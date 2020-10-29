@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+MAT1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+MAT1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A VEN3MU GigabitEthernet1/1/22.1209 REIP DWVEN01 2BB_19 - Linea:80002377
+MAT1MS|GigabitEthernet0/2/1|UP|UP|eNODOB - MARIA_TERESA - VEN3MU 1/1/22 - A04-S044
+MAT1MS|GigabitEthernet0/2/2|UP|UP|Acceso MAT11D HSI+G. LIN:9703095
+MAT1MS|GigabitEthernet0/2/3|UP|UP|NODOB - CHRISTOPHERSEN - VEN3MU 1/1/22 - A04-S165 - CONECTADO A 1WMAT01_IDU/06/01
+MAT1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+MAT1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+MAT1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+MAT1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+MAT1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+MAT1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+MAT1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+MAT1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+MAT1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+MAT1MS|Vlanif1209|UP|UP|VLAN_GESTION VEN3MU GigabitEthernet1/1/22.1209 - Linea:80002377
+
+

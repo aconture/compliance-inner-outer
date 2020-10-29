@@ -1,0 +1,63 @@
+shelfname|interface|portoperationalstate|protocol|info1
+9XW1MU|GE0/0/0|down|down|
+9XW1MU|GE0/1/0|up|up|Dowlink AR550 9W401AR
+9XW1MU|GE0/1/1|up|up|Downlink AR550 9Y601AR
+9XW1MU|GE0/1/2|up|up|Downlink AR550 9Y801AR
+9XW1MU|GE0/1/3|up|up|Downlink AR550 9Y901AR
+9XW1MU|GE0/1/4|up|up|Downlink AR550 9YA01AR
+9XW1MU|GE0/1/5|up|up|Downlink AR550 9YB01AR
+9XW1MU|GE0/1/6|up|up|Downlink AR550 9YC01AR
+9XW1MU|GE0/1/7|up|up|Downlink AR550 9YD01AR
+9XW1MU|GE0/1/8|up|up|Downlink AR550 9YE01AR
+9XW1MU|GE0/1/9|up|up|Downlink AR550 9YF01AR
+9XW1MU|GE0/2/0|up|up|Downlink AR550 9YG01AR
+9XW1MU|GE0/2/1|up|up|Downlink AR550 9YH01AR
+9XW1MU|GE0/2/2|up|up|Downlink AR550 9YT01AR
+9XW1MU|GE0/2/3|up|up|Downlink AR550 9YU01AR
+9XW1MU|GE0/2/4|up|up|Downlink AR550 9YV01AR
+9XW1MU|GE0/2/5|up|up|Downlink AR550 9YW01AR
+9XW1MU|GE0/2/6|up|up|Downlink AR550 9YX01AR
+9XW1MU|GE0/2/7|up|up|Downlink AR550 9YY01AR
+9XW1MU|GE0/2/8|up|up|Downlink AR550 9YZ01AR
+9XW1MU|GE0/2/9|up|up|Downlink AR550 9Z001AR
+9XW1MU|GE0/3/0(10G)|up|up|Enlace 10G FO NOA3MU_G 1/0/1 Linea:15007050 - UPLINK MSBNG
+9XW1MU|GE0/3/1|up|up|Uplink DVR interface 1
+9XW1MU|GE0/3/2|up|up|Uplink DVR interface 2
+9XW1MU|GE0/3/3|up|up|Uplink DVR interface 3
+9XW1MU|GE0/3/4|down|down|
+9XW1MU|GE0/3/5|down|down|
+9XW1MU|GE0/3/6|down|down|
+9XW1MU|GE0/3/7|down|down|
+9XW1MU|GE0/3/8|down|down|
+9XW1MU|GE0/4/0(10G)|up|up|Enlace 10G FO NOA3MU_G 8/0/1 Linea:15007051 - UPLINK MSBNG
+9XW1MU|GE0/4/1|down|down|
+9XW1MU|GE0/4/2|down|down|
+9XW1MU|GE0/4/3|*down|down|
+9XW1MU|GE0/4/4|down|down|
+9XW1MU|GE0/4/5|down|down|
+9XW1MU|GE0/4/6|down|down|
+9XW1MU|GE0/4/7|down|down|
+9XW1MU|GE0/4/8|down|down|
+9XW1MU|GE0/5/0(10G)|down|down|
+9XW1MU|GE0/5/1|down|down|
+9XW1MU|GE0/5/2|down|down|
+9XW1MU|GE0/5/3|down|down|
+9XW1MU|GE0/5/4|down|down|
+9XW1MU|GE0/5/5|down|down|
+9XW1MU|GE0/5/6|down|down|
+9XW1MU|GE0/5/7|down|down|
+9XW1MU|GE0/5/8|down|down|
+9XW1MU|GE0/7/0|up|up|Downlink AR550 9Z101AR
+9XW1MU|GE0/7/1|up|up|Downlink AR550 MN001AR
+9XW1MU|GE0/7/2|up|up|Downlink AR550 ASN01AR
+9XW1MU|GE0/7/3|up|up|Downlink AR550 ATG01AR
+9XW1MU|GE0/7/4|up|up|Downlink AR550 ATJ01AR
+9XW1MU|GE0/7/5|up|up|Downlink AR550 ATN01AR
+9XW1MU|GE0/7/6|up|up|Downlink AR550 AUA01AR
+9XW1MU|GE0/7/7|up|up|Downlink AR550 AUI01AR
+9XW1MU|GE0/7/8|up|up|Downlink AR550 AUY01AR
+9XW1MU|GE0/7/9|up|up|Downlink AR550 AVK01AR
+9XW1MU|Vlanif2|up|up|
+9XW1MU|Vlanif500|up|down|
+
+

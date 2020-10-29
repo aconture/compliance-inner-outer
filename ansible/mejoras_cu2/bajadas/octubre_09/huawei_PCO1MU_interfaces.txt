@@ -1,0 +1,39 @@
+shelfname|interface|portoperationalstate|protocol|info1
+PCO1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+PCO1MU|GE0/1/0|up|down|CONEXION A 1NPCO01 - Linea:70001377
+PCO1MU|GE0/1/0.1241|up|up|GESTION VMI3MU Eth-Trunk1.1241 -Linea:70001377
+PCO1MU|GE0/1/0.1242|up|up|UPLINK A VMI3MU Eth-Trunk1.1242 1NPCO01 - 2G
+PCO1MU|GE0/1/0.1243|up|up|UPLINK A VMI3MU Eth-Trunk1.1243 1NPCO01 - 3G
+PCO1MU|GE0/1/0.1244|up|up|UPLINK A VMI3MU Eth-Trunk1.1244 1NPCO01 - S1
+PCO1MU|GE0/1/0.1245|up|up|UPLINK A VMI3MU Eth-Trunk1.1245 1NPCO01 - S1MME
+PCO1MU|GE0/1/0.1246|up|up|UPLINK A VMI3MU Eth-Trunk1.1246 1NPCO01 - GOMRAN
+PCO1MU|GE0/1/0.1247|up|up|UPLINK A VMI3MU Eth-Trunk1.1247 1NPCO01 - NGN
+PCO1MU|GE0/1/0.1248|up|up|UPLINK A VMI3MU Eth-Trunk1.1248 1NPCO01 - POPUSA
+PCO1MU|GE0/1/0.1249|up|up|UPLINK A VMI3MU Eth-Trunk1.1249 1NPCO01 - DCN-GESTION
+PCO1MU|GE0/1/0.1250|up|up|UPLINK A VMI3MU Eth-Trunk1.1250 1NPCO01 - SDH HUAWEI
+PCO1MU|GE0/1/1|up|down|eNODOB PASCO - A02-S069 (756165)NODOB (756166) (756167)
+PCO1MU|GE0/1/1.1000|up|up|eNODOB - PASCO - A02-S069 - (1) (756165) - S1
+PCO1MU|GE0/1/1.1001|up|up|eNODOB - PASCO - A02-S069 - (2) (756165) - S1MME
+PCO1MU|GE0/1/1.1002|up|up|eNODOB - PASCO - A02-S069 - (3) (756165) - GOMRAN
+PCO1MU|GE0/1/1.1003|up|up|NODOB - PASCO - A02-S069 - (1) (756166) - 3G
+PCO1MU|GE0/1/1.1004|up|up|NODOB - PASCO - A02-S069- (1) (756167) - 2G
+PCO1MU|GE0/1/2|down|down|HUAWEI, GigabitEthernet0/1/2 Interface
+PCO1MU|GE0/1/3|down|down|HUAWEI, GigabitEthernet0/1/3 Interface
+PCO1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Interface
+PCO1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Interface
+PCO1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Interface
+PCO1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Interface
+PCO1MU|GE0/2/0|down|down|HUAWEI, GigabitEthernet0/2/0 Interface
+PCO1MU|GE0/2/1|down|down|HUAWEI, GigabitEthernet0/2/1 Interface
+PCO1MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Interface
+PCO1MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Interface
+PCO1MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Interface
+PCO1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Interface
+PCO1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Interface
+PCO1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Interface
+PCO1MU|GE0/3/0|down|down|HUAWEI, GigabitEthernet0/3/0 Interface
+PCO1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Interface
+PCO1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Interface
+PCO1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Interface
+
+

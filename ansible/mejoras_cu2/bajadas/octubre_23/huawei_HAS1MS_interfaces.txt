@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+HAS1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+HAS1MS|GigabitEthernet0/2/16|UP|UP|CONEXION A RADIO DRAGONWAVE  - PAR3MU Eth-trunk12.1018 - Linea.80002071
+HAS1MS|GigabitEthernet0/2/17|UP|UP|CONEXION A eHASENKAMP_A07-S111
+HAS1MS|GigabitEthernet0/2/18|UP|UP|eNODOB - PUEBLO_BELLOCQ - PAR3MU 1/0/1 - A07-S372 - (766299) NODOB (766298) (766297)
+HAS1MS|GigabitEthernet0/2/19|UP|UP|HUAWEI, GigabitEthernet0/2/19 Interface
+HAS1MS|GigabitEthernet0/2/20|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/20 Interface
+HAS1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+HAS1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+HAS1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+HAS1MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+HAS1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+HAS1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+HAS1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+HAS1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+HAS1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+HAS1MS|Vlanif1018|UP|UP|HUAWEI, Vlanif1018 Interface
+
+

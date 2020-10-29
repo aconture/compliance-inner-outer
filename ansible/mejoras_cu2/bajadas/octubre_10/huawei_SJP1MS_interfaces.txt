@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SJP1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+SJP1MS|GigabitEthernet0/2/0|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/0 Interface
+SJP1MS|GigabitEthernet0/2/1|UP|UP|GESTION ATN910I SJ_DE_LA_DORMIDA - SJP1MS - Linea 70001159 (5RSJD01 7/2 => SJP1MS 0/2/1)  - CEN4MU Eth-trunk1.1228
+SJP1MS|GigabitEthernet0/2/2|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+SJP1MS|GigabitEthernet0/2/3|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+SJP1MS|GigabitEthernet0/2/4|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+SJP1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+SJP1MS|GigabitEthernet0/2/6|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+SJP1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+SJP1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+SJP1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+SJP1MS|GigabitEthernet0/2/10|UP|UP|GESTION TX RE-IP SAN_JOSE_DE_LA_DORMIDA_Linea:70000482-70000334_DWSJP02
+SJP1MS|GigabitEthernet0/2/11|UP|UP|GESTION TX RE-IP SAN_JOSE_DE_LA_DORMIDA_Linea:70000482-70000334_1WSJP01-1ESJP01
+SJP1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+SJP1MS|Vlanif1228|UP|UP|HUAWEI, Vlanif1228 Interface
+
+

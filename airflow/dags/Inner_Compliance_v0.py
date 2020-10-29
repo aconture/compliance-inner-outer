@@ -28,7 +28,7 @@ default_args = {
 
 #dag
 dag = DAG(
-    dag_id='Compliance_Inner_Outer', 
+    dag_id='Compliance_Inner_Outer-update_Adrian', 
     schedule_interval= None,
     tags=['inventario', 'compliance'],
     default_args=default_args

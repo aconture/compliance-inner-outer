@@ -1,0 +1,34 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SEO1MU|Eth-Trunk1|up|down|LAG 55SEO01_G5/1-G6/2
+SEO1MU|Eth-Trunk1.1201|up|up|HUAWEI, Eth-Trunk1.1201 Interface
+SEO1MU|Eth-Trunk1.1239|up|up|HUAWEI, Eth-Trunk1.1239 Interface
+SEO1MU|Eth-Trunk1.4056|up|up|GESTION Tx a RSC2MB
+SEO1MU|Eth-Trunk1.4092|up|up|GESTION Tx a IRD2MB
+SEO1MU|Eth-Trunk3|up|down|LAG PTN HWI 55SEO02_1/1-G2/1
+SEO1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+SEO1MU|GE0/1/0(10G)|up|up|CONEXION PTN HWI 55SEO02_1/1 Line
+SEO1MU|GE0/2/0(10G)|up|up|CONEXION PTN HWI 55SEO02_2/1 Line
+SEO1MU|GE0/3/0|up|up|GESTION Tx - RELOJ DCSEO01 - SERO
+SEO1MU|GE0/3/1|*down|down|HUAWEI, GigabitEthernet0/3/1 Inte
+SEO1MU|GE0/3/2|up|up|GESTION Tx - LUCIO V. LOPEZ - SER
+SEO1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Inte
+SEO1MU|GE0/5/0|up|up|PTN 55SEO01 G5/1 Linea:xxxx
+SEO1MU|GE0/5/1|up|down|A TP2700 DCSEO01 SINCRONISMO (800
+SEO1MU|GE0/5/1.1000|up|up|A TP2700 DCSEO01 SINCRONISMO (800
+SEO1MU|GE0/5/2|down|down|HUAWEI, GigabitEthernet0/5/2 Inte
+SEO1MU|GE0/5/3|down|down|HUAWEI, GigabitEthernet0/5/3 Inte
+SEO1MU|GE0/5/4|down|down|HUAWEI, GigabitEthernet0/5/4 Inte
+SEO1MU|GE0/5/5|down|down|HUAWEI, GigabitEthernet0/5/5 Inte
+SEO1MU|GE0/5/6|down|down|HUAWEI, GigabitEthernet0/5/6 Inte
+SEO1MU|GE0/5/7|down|down|HUAWEI, GigabitEthernet0/5/7 Inte
+SEO1MU|GE0/6/0|up|up|PTN 55SEO01 G6/2 Linea:xxxx
+SEO1MU|GE0/6/1|up|down|A TP2700 DCSEO01 SINCRONISMO (800
+SEO1MU|GE0/6/1.1000|up|up|A TP2700 DCSEO01 SINCRONISMO (800
+SEO1MU|GE0/6/2|down|down|HUAWEI, GigabitEthernet0/6/2 Inte
+SEO1MU|GE0/6/3|down|down|HUAWEI, GigabitEthernet0/6/3 Inte
+SEO1MU|GE0/6/4|down|down|HUAWEI, GigabitEthernet0/6/4 Inte
+SEO1MU|GE0/6/5|down|down|HUAWEI, GigabitEthernet0/6/5 Inte
+SEO1MU|GE0/6/6|down|down|HUAWEI, GigabitEthernet0/6/6 Inte
+SEO1MU|GE0/6/7|down|down|HUAWEI, GigabitEthernet0/6/7 Inte
+
+

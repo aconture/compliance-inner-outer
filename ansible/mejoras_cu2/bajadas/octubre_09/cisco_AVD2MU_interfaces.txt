@@ -1,0 +1,586 @@
+shelfname|interface|portoperationalstate|protocol|info1
+AVD2MU|BV150|up|up|RECRNC01 NPGEP 8/9 IFGE 1 - IuCS-CP - Linea:16200004/16200011
+AVD2MU|BV151|up|up|RECRNC01 NPGEP 0/1 IFGE 1/0 - IuCS-CP - Linea:16200002/16200009
+AVD2MU|BV180|up|up|RECRNC01 NPGEP 0/1 IFGE 1/0 - IuCS-CP - Linea:16200002/16200009
+AVD2MU|BV181|up|up|RECRNC01 NPGEP 8/9 IFGE 1 - IuPS-CP - Linea:16200004/16200011
+AVD2MU|BV240|up|up|RECRNC01 NPGEP 0/1 IFGE 0 - IuCS-UP - Linea:16200001/16200008
+AVD2MU|BV248|up|up|RECRNC01 NPGEP 0/1 IFGE 1/0 - IuCS-CP - Linea:16200002/16200009
+AVD2MU|BV800|up|up|RECRNC01 NPGEP 8/9 IFGE 0 - IuPS - Linea:16200003/16200010
+AVD2MU|BV810|up|up|RECRNC01 NPGEP 0/1 IFGE 1/0 - IuCS-CP - Linea:16200002/16200009
+AVD2MU|BV1003|up|up|A RECRNC01 SIN TELLABS Linea:19309871-2
+AVD2MU|BE1|up|up|[ACCESO HSI][BE] BYGG01 NGN - L11002198
+AVD2MU|BE1.2|up|up|RTP MA5600T Barrio Belgrano SANTAFE BYGG01 - L11002198
+AVD2MU|BE1.3|up|up|SIGN MA5600T Barrio Belgrano SANTAFE BYGG01 - L11002198
+AVD2MU|BE1.4|up|up|GESTION IPMB-MA5600T Barrio Belgrano SANTAFE BYGG01 - L11002198
+AVD2MU|BE1.4101|up|up|[DATOS] BYGG01 HUA 5600_T [VDS2]
+AVD2MU|BE2|up|up|[ACCESO HSI][BE] AVD31D L9704581
+AVD2MU|BE2.2101|up|up|[GESTION] AVD31D HUA 5600T [ADS2]
+AVD2MU|BE2.3101|up|up|[TOIP] AVD31D HUA 5600T [ADS2]
+AVD2MU|BE2.3648|up|up|VPN SILVER - BNA - Ref:722558 Lin:2827137 Acc:AVD31D 0/14/0 - SEC
+AVD2MU|BE2.3654|up|up|VPN GOLD - CREDICOOP - Ref:195569 - Lin:2599916 - Acc:AVD31D 0/14/6
+AVD2MU|BE2.3658|up|up|VPN Branch Office - DILCAR - Ref:558198 Lin:2758877 Acc:AVD31D 0/14/10
+AVD2MU|BE2.3661|up|up|VPN Gold - ICBC - Ref:640443 - Lin:2791707 - Acc:AVD31D 0/14/13
+AVD2MU|BE2.3662|up|up|VPN GOLD por DSLAM con CNM - MINISTERIO DE GOBIERNO Y REFORMA DEL ESTADO SANTA FE - Ref:575946 Lin:2763802 Acc:AVELLANEDA [AVD] AVD31D, 14, 14 y 15, AVD / V00 / HA / 015 y 016
+AVD2MU|BE2.3668|up|up|VPN - UNION AGRICOLA AVELLANEDA - Ref:644701 Lin:2795937tAcc:AVD31D:0/14/20
+AVD2MU|BE2.3670|up|up|VPN - UNION AGRICOLA AVELLANEDA - Ref:644701 Lin:2795937tAcc:AVD31D:0/14/20
+AVD2MU|BE2.3672|up|up|VPN Head Quarter - NBSF - Ref:84285 Lin:2714957 Acc: AVD31D Placa:04 port 24/25
+AVD2MU|BE2.3674|up|up|VPN Head Quarter - BNA - Ref:722559 Lin:2827121 Acc:AVD31D 0/14/26 - PRI
+AVD2MU|BE2.3676|up|up|VPN Head Quarter PODER JUDICIAL DE SANTA FE - Ref:264715 Lin:2721680 Acc:AVD31D 0/13/8-9
+AVD2MU|BE2.3846|up|up|Gestion - CREDICOOP - Ref:195569 - Lin:2599916 - Acc:AVD31D 0/14/6
+AVD2MU|BE2.3847|up|up|Integra Light - DILCAR S A - Ref:282722 Lin:2731348 Acc:AVD31D 00/14/07
+AVD2MU|BE2.3851|up|up|IntegraLight - REICHEL S.A. (EN FORMACION) - Ref:596504 - Lin:2773184 Acc:AVD31D SHDSL-0-14-011
+AVD2MU|BE2.3853|up|up|Gestion - CREDICOOP - Ref:195569 - Lin:2599916 - Acc:AVD31D 0/14/6
+AVD2MU|BE2.3856|up|up|INTEGRA LIGHT 2048K - DOMITEC SOCIEDAD ANONIMA - Ref:643489 Linea:2794593 Acc:AVD31D 14/16-17
+AVD2MU|BE2.3858|up|up|Integra Light 2M - FUNDACION JEAN PIAGET - Ref:305039 Lin:2741270 Acc:AVD31D 0/14/18-19
+AVD2MU|BE2.3870|up|up|Integra Light Min de Modernizacion REF 783794 Lin : 2847477 acc : AVD31D 0/14/30-31
+AVD2MU|BE2.4101|up|up|[DATOS] AVD31D HUA 5600T
+AVD2MU|BE2.4101.pppoe335|up|up| 
+AVD2MU|BE2.4101.pppoe634|up|up| 
+AVD2MU|BE2.4101.pppoe769|up|up| 
+AVD2MU|BE2.4101.pppoe961|up|up| 
+AVD2MU|BE2.4101.pppoe1508|up|up| 
+AVD2MU|BE2.4101.pppoe1517|up|up| 
+AVD2MU|BE2.4101.pppoe2147|up|up| 
+AVD2MU|BE2.4101.pppoe2229|up|up| 
+AVD2MU|BE2.4101.pppoe2586|up|up| 
+AVD2MU|BE2.4101.pppoe2671|up|up| 
+AVD2MU|BE2.4101.pppoe2854|up|up| 
+AVD2MU|BE2.4101.pppoe3418|up|up| 
+AVD2MU|BE2.4101.pppoe3450|up|up| 
+AVD2MU|BE2.4101.pppoe3537|up|up| 
+AVD2MU|BE2.4101.pppoe3557|up|up| 
+AVD2MU|BE2.4101.pppoe3759|up|up| 
+AVD2MU|BE2.4101.pppoe3763|up|up| 
+AVD2MU|BE2.4101.pppoe3835|up|up| 
+AVD2MU|BE2.4101.pppoe3890|up|up| 
+AVD2MU|BE2.4101.pppoe3954|up|up| 
+AVD2MU|BE2.4101.pppoe3957|up|up| 
+AVD2MU|BE2.4101.pppoe3960|up|up| 
+AVD2MU|BE2.4101.pppoe3963|up|up| 
+AVD2MU|BE2.4101.pppoe3972|up|up| 
+AVD2MU|BE2.4101.pppoe3976|up|up| 
+AVD2MU|BE2.4101.pppoe3978|up|up| 
+AVD2MU|BE2.4101.pppoe3982|up|up| 
+AVD2MU|BE2.4101.pppoe3986|up|up| 
+AVD2MU|BE2.4101.pppoe3991|up|up| 
+AVD2MU|BE2.4101.pppoe3992|up|up| 
+AVD2MU|BE2.4101.pppoe3995|up|up| 
+AVD2MU|BE2.4101.pppoe4000|up|up| 
+AVD2MU|BE2.4101.pppoe4002|up|up| 
+AVD2MU|BE2.4101.pppoe4029|up|up| 
+AVD2MU|BE2.4101.pppoe4080|up|up| 
+AVD2MU|BE2.4101.pppoe4093|up|up| 
+AVD2MU|BE2.4101.pppoe4164|up|up| 
+AVD2MU|BE2.4101.pppoe4189|up|up| 
+AVD2MU|BE2.4101.pppoe4250|up|up| 
+AVD2MU|BE2.4101.pppoe4262|up|up| 
+AVD2MU|BE2.4101.pppoe4270|up|up| 
+AVD2MU|BE2.4101.pppoe4392|up|up| 
+AVD2MU|BE2.4101.pppoe4459|up|up| 
+AVD2MU|BE2.4101.pppoe4603|up|up| 
+AVD2MU|BE2.4101.pppoe4625|up|up| 
+AVD2MU|BE2.4101.pppoe4635|up|up| 
+AVD2MU|BE2.4101.pppoe4666|up|up| 
+AVD2MU|BE2.4101.pppoe4668|up|up| 
+AVD2MU|BE2.4101.pppoe4687|up|up| 
+AVD2MU|BE2.4101.pppoe4806|up|up| 
+AVD2MU|BE2.4101.pppoe4853|up|up| 
+AVD2MU|BE2.4101.pppoe4926|up|up| 
+AVD2MU|BE2.4101.pppoe4944|up|up| 
+AVD2MU|BE2.4101.pppoe5037|up|up| 
+AVD2MU|BE2.4101.pppoe5061|up|up| 
+AVD2MU|BE2.4101.pppoe5077|up|up| 
+AVD2MU|BE2.4101.pppoe5104|up|up| 
+AVD2MU|BE2.4101.pppoe5105|up|up| 
+AVD2MU|BE2.4101.pppoe5304|up|up| 
+AVD2MU|BE2.4101.pppoe5340|up|up| 
+AVD2MU|BE2.4101.pppoe5349|up|up| 
+AVD2MU|BE2.4101.pppoe5369|up|up| 
+AVD2MU|BE2.4101.pppoe5412|up|up| 
+AVD2MU|BE2.4101.pppoe5489|up|up| 
+AVD2MU|BE2.4101.pppoe5491|up|up| 
+AVD2MU|BE2.4101.pppoe5500|up|up| 
+AVD2MU|BE2.4101.pppoe5512|up|up| 
+AVD2MU|BE2.4101.pppoe5519|up|up| 
+AVD2MU|BE2.4101.pppoe5521|up|up| 
+AVD2MU|BE2.4101.pppoe5522|up|up| 
+AVD2MU|BE2.4101.pppoe5539|up|up| 
+AVD2MU|BE2.4101.pppoe5545|up|up| 
+AVD2MU|BE2.4101.pppoe5564|up|up| 
+AVD2MU|BE2.4101.pppoe5572|up|up| 
+AVD2MU|BE2.4101.pppoe5607|up|up| 
+AVD2MU|BE2.4101.pppoe5614|up|up| 
+AVD2MU|BE2.4101.pppoe5623|up|up| 
+AVD2MU|BE2.4101.pppoe5625|up|up| 
+AVD2MU|BE2.4101.pppoe5639|up|up| 
+AVD2MU|BE2.4101.pppoe5699|up|up| 
+AVD2MU|BE2.4101.pppoe5700|up|up| 
+AVD2MU|BE2.4101.pppoe5746|up|up| 
+AVD2MU|BE2.4101.pppoe5759|up|up| 
+AVD2MU|BE2.4101.pppoe5825|up|up| 
+AVD2MU|BE2.4101.pppoe5827|up|up| 
+AVD2MU|BE2.4101.pppoe5882|up|up| 
+AVD2MU|BE2.4101.pppoe5944|up|up| 
+AVD2MU|BE2.4101.pppoe5978|up|up| 
+AVD2MU|BE2.4101.pppoe6025|up|up| 
+AVD2MU|BE2.4101.pppoe6045|up|up| 
+AVD2MU|BE2.4101.pppoe6063|up|up| 
+AVD2MU|BE2.4101.pppoe6068|up|up| 
+AVD2MU|BE2.4101.pppoe6070|up|up| 
+AVD2MU|BE2.4101.pppoe6073|up|up| 
+AVD2MU|BE2.4101.pppoe6078|up|up| 
+AVD2MU|BE2.4101.pppoe6104|up|up| 
+AVD2MU|BE2.4101.pppoe6108|up|up| 
+AVD2MU|BE2.4101.pppoe6112|up|up| 
+AVD2MU|BE2.4101.pppoe6150|up|up| 
+AVD2MU|BE2.4101.pppoe6161|up|up| 
+AVD2MU|BE2.4101.pppoe6168|up|up| 
+AVD2MU|BE2.4101.pppoe6176|up|up| 
+AVD2MU|BE2.4101.pppoe6177|up|up| 
+AVD2MU|BE2.4101.pppoe6180|up|up| 
+AVD2MU|BE2.4101.pppoe6192|up|up| 
+AVD2MU|BE2.4101.pppoe6193|up|up| 
+AVD2MU|BE2.4101.pppoe6198|up|up| 
+AVD2MU|BE2.4101.pppoe6202|up|up| 
+AVD2MU|BE2.4101.pppoe6225|up|up| 
+AVD2MU|BE2.4101.pppoe6249|up|up| 
+AVD2MU|BE2.4101.pppoe6250|up|up| 
+AVD2MU|BE2.4101.pppoe6312|up|up| 
+AVD2MU|BE2.4101.pppoe6314|up|up| 
+AVD2MU|BE2.4101.pppoe6315|up|up| 
+AVD2MU|BE2.4101.pppoe6316|up|up| 
+AVD2MU|BE2.4101.pppoe6319|up|up| 
+AVD2MU|BE2.4101.pppoe6325|up|up| 
+AVD2MU|BE2.4101.pppoe6333|up|up| 
+AVD2MU|BE2.4101.pppoe6342|up|up| 
+AVD2MU|BE2.4101.pppoe6344|up|up| 
+AVD2MU|BE2.4101.pppoe6346|up|up| 
+AVD2MU|BE2.4101.pppoe6367|up|up| 
+AVD2MU|BE2.4101.pppoe6380|up|up| 
+AVD2MU|BE2.4101.pppoe6394|up|up| 
+AVD2MU|BE2.4101.pppoe6434|up|up| 
+AVD2MU|BE2.4101.pppoe6460|up|up| 
+AVD2MU|BE2.4101.pppoe6482|up|up| 
+AVD2MU|BE2.4101.pppoe6523|up|up| 
+AVD2MU|BE2.4101.pppoe6547|up|up| 
+AVD2MU|BE2.4101.pppoe6561|up|up| 
+AVD2MU|BE2.4101.pppoe6598|up|up| 
+AVD2MU|BE2.4101.pppoe6620|up|up| 
+AVD2MU|BE2.4101.pppoe6701|up|up| 
+AVD2MU|BE2.4101.pppoe6709|up|up| 
+AVD2MU|BE2.4101.pppoe6718|up|up| 
+AVD2MU|BE2.4101.pppoe6728|up|up| 
+AVD2MU|BE2.4101.pppoe6773|up|up| 
+AVD2MU|BE2.4101.pppoe6774|up|up| 
+AVD2MU|BE2.4101.pppoe6790|up|up| 
+AVD2MU|BE2.4101.pppoe6821|up|up| 
+AVD2MU|BE2.4101.pppoe6857|up|up| 
+AVD2MU|BE2.4101.pppoe6859|up|up| 
+AVD2MU|BE2.4101.pppoe6863|up|up| 
+AVD2MU|BE2.4101.pppoe6881|up|up| 
+AVD2MU|BE2.4101.pppoe6903|up|up| 
+AVD2MU|BE2.4101.pppoe6912|up|up| 
+AVD2MU|BE2.4101.pppoe6929|up|up| 
+AVD2MU|BE2.4101.pppoe6938|up|up| 
+AVD2MU|BE2.4101.pppoe6945|up|up| 
+AVD2MU|BE2.4101.pppoe6947|up|up| 
+AVD2MU|BE2.4101.pppoe6955|up|up| 
+AVD2MU|BE2.4101.pppoe6966|up|up| 
+AVD2MU|BE2.4101.pppoe6969|up|up| 
+AVD2MU|BE2.4101.pppoe6988|up|up| 
+AVD2MU|BE2.4101.pppoe6994|up|up| 
+AVD2MU|BE2.4101.pppoe6996|up|up| 
+AVD2MU|BE2.4101.pppoe7001|up|up| 
+AVD2MU|BE2.4101.pppoe7012|up|up| 
+AVD2MU|BE2.4101.pppoe7020|up|up| 
+AVD2MU|BE2.4101.pppoe7023|up|up| 
+AVD2MU|BE2.4101.pppoe7034|up|up| 
+AVD2MU|BE2.4101.pppoe7035|up|up| 
+AVD2MU|BE2.4101.pppoe7037|up|up| 
+AVD2MU|BE2.4101.pppoe7038|up|up| 
+AVD2MU|BE2.4101.pppoe7043|up|up| 
+AVD2MU|BE2.4101.pppoe7045|up|up| 
+AVD2MU|BE2.4101.pppoe7046|up|up| 
+AVD2MU|BE2.4101.pppoe7052|up|up| 
+AVD2MU|BE2.4101.pppoe7053|up|up| 
+AVD2MU|BE2.4101.pppoe7054|up|up| 
+AVD2MU|BE2.4101.pppoe7055|up|up| 
+AVD2MU|BE2.4101.pppoe7059|up|up| 
+AVD2MU|BE2.4101.pppoe7064|up|up| 
+AVD2MU|BE2.4101.pppoe7070|up|up| 
+AVD2MU|BE2.4101.pppoe7072|up|up| 
+AVD2MU|BE2.4101.pppoe7074|up|up| 
+AVD2MU|BE2.4101.pppoe7083|up|up| 
+AVD2MU|BE2.4101.pppoe7090|up|up| 
+AVD2MU|BE2.4101.pppoe7091|up|up| 
+AVD2MU|BE2.4101.pppoe7092|up|up| 
+AVD2MU|BE2.4101.pppoe7100|up|up| 
+AVD2MU|BE2.4101.pppoe7101|up|up| 
+AVD2MU|BE2.4101.pppoe7106|up|up| 
+AVD2MU|BE2.4101.pppoe7117|up|up| 
+AVD2MU|BE2.4101.pppoe7118|up|up| 
+AVD2MU|BE2.4101.pppoe7119|up|up| 
+AVD2MU|BE2.4101.pppoe7120|up|up| 
+AVD2MU|BE2.4101.pppoe7121|up|up| 
+AVD2MU|BE2.4101.pppoe7124|up|up| 
+AVD2MU|BE2.4101.pppoe7128|up|up| 
+AVD2MU|BE2.4101.pppoe7129|up|up| 
+AVD2MU|BE2.4101.pppoe7133|up|up| 
+AVD2MU|BE2.4101.pppoe7135|up|up| 
+AVD2MU|BE2.4101.pppoe7136|up|up| 
+AVD2MU|BE2.4101.pppoe7139|up|up| 
+AVD2MU|BE2.4101.pppoe7141|up|up| 
+AVD2MU|BE2.4101.pppoe7143|up|up| 
+AVD2MU|BE2.4101.pppoe7144|up|up| 
+AVD2MU|BE2.4101.pppoe7146|up|up| 
+AVD2MU|BE2.4101.pppoe7147|up|up| 
+AVD2MU|BE2.4101.pppoe7149|up|up| 
+AVD2MU|BE2.4101.pppoe7151|up|up| 
+AVD2MU|BE2.4101.pppoe7152|up|up| 
+AVD2MU|BE2.4101.pppoe7158|up|up| 
+AVD2MU|BE2.4101.pppoe7163|up|up| 
+AVD2MU|BE2.4101.pppoe7169|up|up| 
+AVD2MU|BE2.4101.pppoe7173|up|up| 
+AVD2MU|BE2.4101.pppoe7174|up|up| 
+AVD2MU|BE2.4101.pppoe7179|up|up| 
+AVD2MU|BE2.4101.pppoe7181|up|up| 
+AVD2MU|BE2.4101.pppoe7182|up|up| 
+AVD2MU|BE2.4101.pppoe7183|up|up| 
+AVD2MU|BE2.4101.pppoe7184|up|up| 
+AVD2MU|BE2.4101.pppoe7185|up|up| 
+AVD2MU|BE2.4101.pppoe7187|up|up| 
+AVD2MU|BE2.4101.pppoe7190|up|up| 
+AVD2MU|BE2.4101.pppoe7191|up|up| 
+AVD2MU|BE2.4101.pppoe7192|up|up| 
+AVD2MU|BE2.4101.pppoe7198|up|up| 
+AVD2MU|BE2.4101.pppoe7200|up|up| 
+AVD2MU|BE2.4101.pppoe7201|up|up| 
+AVD2MU|BE2.4101.pppoe7203|up|up| 
+AVD2MU|BE2.4101.pppoe7204|up|up| 
+AVD2MU|BE2.4101.pppoe7205|up|up| 
+AVD2MU|BE2.4101.pppoe7206|up|up| 
+AVD2MU|BE2.4101.pppoe7207|up|up| 
+AVD2MU|BE2.4101.pppoe7208|up|up| 
+AVD2MU|BE2.4101.pppoe7209|up|up| 
+AVD2MU|BE2.4101.pppoe7210|up|up| 
+AVD2MU|BE3|down|down| 
+AVD2MU|BE4|up|up|[ACCESO HSI][BE] AVD41D - 11004001
+AVD2MU|BE4.2101|up|up|[GESTION] AVD41D HUA 5600 [ADS2]
+AVD2MU|BE4.3101|up|up|[TOIP] AVD41D HUA 5600 [ADS2]
+AVD2MU|BE4.4101|up|up|[DATOS] AVD41D HUA 5600 [ADS2][L3]
+AVD2MU|BE4.4101.pppoe257|up|up| 
+AVD2MU|BE4.4101.pppoe3829|up|up| 
+AVD2MU|BE4.4101.pppoe9627|up|up| 
+AVD2MU|BE4.4101.pppoe9638|up|up| 
+AVD2MU|BE4.4101.pppoe9644|up|up| 
+AVD2MU|BE4.4101.pppoe9670|up|up| 
+AVD2MU|BE5|up|up|[ACCESO HSI][BE] AVD51D - 11004002
+AVD2MU|BE5.2101|up|up|[GESTION] AVD51D HUA 5600 [ADS2]
+AVD2MU|BE5.3101|up|up|[TOIP] AVD51D HUA 5600 [ADS2]
+AVD2MU|BE5.4101|up|up|[DATOS] AVD51D HUA 5600 [ADS2][L3]
+AVD2MU|BE6|up|up|[ACCESO HSI][BE] AVDG01 - L:11000294 [NGN]
+AVD2MU|BE6.3|up|up|[RTP] AVDG01 UA5000 - L:11000294[NGN]
+AVD2MU|BE6.4|up|up|[IPMB]-AVDG01 UA5000 - L:11000294[NGN]
+AVD2MU|BE6.5|up|up|[PVM] -AVDG01 UA5000 - L:11000294[NGN]
+AVD2MU|BE8|up|up|A BSCREC2 BCN1 SFP-19 (16301040 - 16301042)
+AVD2MU|BE8.1700|up|up|BSCREC2 SFP-21y22 modulo-0
+AVD2MU|BE9|up|up|A BSCREC2 BCN SFP-20 (16301041 - 16301043)
+AVD2MU|BE9.1701|up|up|BSCREC2 SFP-21y22 modulo-1
+AVD2MU|BE10|up|up|A RECROU01 TELLABS RECRNC (441590) (5694694)
+AVD2MU|BE10.1000|up|up|RECROU01 TELLABS RECRNC (441590) (5694694) - 3G
+AVD2MU|BE10.1001|up|up|RECROU01 TELLABS RECRNC (441590) (5694694) - S1MME
+AVD2MU|BE11|up|up|ACCESO_RNC_AVELLANEDA_1_Puerta:598510_Linea:5633742
+AVD2MU|BE11.2694|up|up|RNC_AVELLANEDA_1_Puerta:598510 - a VPLS ELAN_93463_2694 IRD2MB
+AVD2MU|BE12|down|down|ACCESO_RNC_AVELLANEDA_2_Linea:5677201
+AVD2MU|BE12.3574|down|down|ACCESO_RNC_AVELLANEDA_2_Linea:5677201 - a VPLS ELAN_93463_2694 - IRD2MB
+AVD2MU|BE20|up|up|BSCREC2 BCN-0 - Linea:16200005/16200006
+AVD2MU|BE20.1702|up|up|BSCREC2_Trafico A + Pater-1 - Linea:16200005/16200006
+AVD2MU|BE21|up|up|BSCREC2 BCN-1 - Linea:16200012/16200013
+AVD2MU|BE21.1703|up|up|BSCREC2_Trafico A + Pater-2 - Linea:16200012/16200013
+AVD2MU|Lo0|up|up| 
+AVD2MU|Lo1|up|up|IP UNNUMBERED
+AVD2MU|Lo12|up|up|IP UNNUMBERED vpn-tdata-bcorio - VPN BRONZE INTERCARRIER - TASA - Banco rio
+AVD2MU|Lo26|up|up|IP UNNUMBERED VPN-gpba
+AVD2MU|Lo68|up|up|IP UNNUMBERED VPN PRIMA
+AVD2MU|Lo73|up|up|IP UNNUMBERED bonesi-vpn - VPN BRONZE - BONESI SOCIEDAD ANONIMA
+AVD2MU|Lo77|up|up|VPN WEB PATRON
+AVD2MU|Lo78|up|up|IP UNNUMBERED vpn-credicoop - VPN BRONZE - BANCO CREDICOOP COOP. LTDO.
+AVD2MU|Lo80|up|up|IP UNNUMBERED VPN JOCKEY
+AVD2MU|Lo90|up|up|IP UNNUMBERED munisam-vpn - VPN BRONZE - MUNICIPALIDAD DE GRAL. SAN MARTIN SEC. HAC. Y ECONO.
+AVD2MU|Lo100|up|up|Interfaz de gestion ADSL
+AVD2MU|Lo103|up|up|IP UNNUMBERED ospecom-vpn - VPN BRONZE - OSPECOM
+AVD2MU|Lo127|up|up|IP UNNUMERED vpn-vestiditos - VPN BRONZE - VESTIDITOS S.A.
+AVD2MU|Lo147|up|up|IP UNNUMERED darclibertador-vpn
+AVD2MU|Lo149|up|up|IP UNNUMBERED bna-vpn
+AVD2MU|Lo157|up|up|IP UNNUMBERED vpn-williner - VPN BRONZE - SUCESORES DE ALFREDO WILLINER S.A.
+AVD2MU|Lo162|up|up|IP UNNUMBERED hipodromo-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+AVD2MU|Lo182|up|up|garbarino-vpn - VPN BRONZE - GARBARINO
+AVD2MU|Lo198|up|up|IP UNNUMBERED vpn-gire-1 - VPN BRONZE - GIRE S.A.
+AVD2MU|Lo249|up|up|IP UNNUMBERED ncentralarg-vpn - VPN BRONZE - NUEVO CENTRAL ARGENTINO S.A.
+AVD2MU|Lo256|up|up|IP UNNUMBERED sepsa-vpn - VPN BRONZE - SERV.ELECTRONICO DE PAGO S.A.
+AVD2MU|Lo279|up|up|IP UNNUMBERED hsbc-vpn - VPN BRONZE - HSBC BANK ARGENTINA S.A.
+AVD2MU|Lo347|up|up|IP UNNUMBERED bcogalicia-vpn - VPN BRONZE - BANCO DE GALICIA Y BUENOS AIRE S S.A.
+AVD2MU|Lo433|up|up|IP UNNUMBERED hipodromo-3-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+AVD2MU|Lo454|up|up|IP UNNUMBERED poderjudicial-vpn - VPN BRONZE - PODER JUDICIAL DE LA PROVINCIA
+AVD2MU|Lo459|up|up|IP UNNUMERED clama-vpn
+AVD2MU|Lo479|up|up|IP UNNUMBERED solido-vpn - VPN BRONZE - SOLIDO S.R.L.
+AVD2MU|Lo507|up|up|IP UNNUMBERED maxima-vpn - VPN BRONZE - MAXIMA S.A. A.F.J.P.
+AVD2MU|Lo509|up|up|IP UNNUMBERED citibank-vpn - VPN BRONZE - CITIBANK N.A.
+AVD2MU|Lo546|up|up|IP UNNUMBERED ituran-vpn - VPN BRONZE - ITURAN
+AVD2MU|Lo594|up|up|IP UNNUMBERED diaarg-vpn - VPN BRONZE - DIA ARGENTINA S.A.
+AVD2MU|Lo601|up|up|IP UNNUMBERED alpargatas-vpn - VPN BRONZE - ALPARGATAS CALZADOS S.A.
+AVD2MU|Lo653|up|up|IP UNNUMBERED bigbloom-vpn - VPN BRONZE - BIG BLOOM S.A.
+AVD2MU|Lo707|up|up|IP UNNUMBERED correo-vpn - VPN BRONZE - CORREO OFICIAL DE LA REP.ARG.
+AVD2MU|Lo980|up|up|IP UNNUMBERED cjuleriaque-vpn - VPN BRONZE - CARLOS JULERIAQUE S.R.L.
+AVD2MU|Lo1017|up|up|IP UNNUMBERED asmuprofa-vpn - VPN BRONZE - ASOCIACION MUTUAL DE PROTECCIO N FAMILIAR
+AVD2MU|Lo1059|up|up|fravega-vpn - VPN BRONZE - FRAVEGA
+AVD2MU|Lo1154|up|up|IP UNNUMBERED arcosdora2-vpn
+AVD2MU|Lo1219|up|up|SIMONS DE ARGENTINA SAIC
+AVD2MU|Lo1226|up|up|IP UNNUMERED argentconec-vpn
+AVD2MU|Lo1312|up|up|IP UNNUMBERED wifioffload-vpn
+AVD2MU|Lo1385|up|up|IP UNNUMERED garbacontenidos-vpn - VPN BRONZE - GARBARINO S.A.
+AVD2MU|Lo1471|up|up|IP UNNUMERED unigestopems-vpn - VPN BRONZE - UNIDAD DE GESTION OPERATIVA MITRE SARMIENTO S.A.
+AVD2MU|Lo13143|up|up|IP UNNUMBERED tasabancofrances-vpn - VPN BRONZE INTERCARRIER. - TASA subcliente Bco. Frances
+AVD2MU|Lo57015|up|up|IP UNNUMBERED tasabapro-vpn - VPN BRONZE INTERCARRIER. - Tasa sub
+AVD2MU|Nu0|up|up| 
+AVD2MU|Mg0/RSP0/CPU0/0|admin-down|admin-down| 
+AVD2MU|Mg0/RSP0/CPU0/1|admin-down|admin-down| 
+AVD2MU|PT0/RSP0/CPU0/0|admin-down|admin-down| 
+AVD2MU|Mg0/RSP1/CPU0/0|admin-down|admin-down| 
+AVD2MU|Mg0/RSP1/CPU0/1|admin-down|admin-down| 
+AVD2MU|PT0/RSP1/CPU0/0|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/0|up|up|[ACCESO HSI][FI] BYGG01 NGN - L11002198
+AVD2MU|Gi0/0/0/1|up|up|[ACCESO HSI][BE] AVD31D ADSL HUAWEI - L9704581
+AVD2MU|Gi0/0/0/2|down|down| 
+AVD2MU|Gi0/0/0/3|up|up|INTEGRA - UNION AGRIC DE AVELLANEDA COOP - Ref:167678 - Lin:2794299  TRZ33455
+AVD2MU|Gi0/0/0/3.2|up|up|INTEGRA - UNION AGRIC DE AVELLANEDA COOP - Ref:167678 - Lin:2794299 - ACC:AVD2MU 0/0/0/3  
+AVD2MU|Gi0/0/0/3.3|up|up|GESTION - INTEGRA - UNION AGRIC DE AVELLANEDA COOP - Ref:167678 - Lin:2794299 - ACC:AVD2MU 0/0/0/3  
+AVD2MU|Gi0/0/0/3.4|up|up|VPN PLATINUM - UNION AGRIC DE AVELLANEDA COOP - REF: 949134 - LINEA: 2870174 - ACC: AVD2MU 0/0/0/3
+AVD2MU|Gi0/0/0/4|up|up|[ACCESO HSI][BE] AVD41D - 11004001
+AVD2MU|Gi0/0/0/5|up|up|[ACCESO HSI][BE] AVD51D - 11004002
+AVD2MU|Gi0/0/0/6|up|up|[ACCESO NGN][FI] AVDG01 AVELLANEDA- L:11000294
+AVD2MU|Gi0/0/0/7|up|up|A BSCREC2 BCN1 SFP-20 (16301041)
+AVD2MU|Gi0/0/0/8|up|up|A BSCREC2 BCN2 SFP-19 (16301042)
+AVD2MU|Gi0/0/0/9|admin-down|admin-down|A RECROU01 TELLABS RECRNC (441590) (5694694)
+AVD2MU|Gi0/0/0/10|down|down|CONEXION-M A VPNSPREC1 Gi1/1.11 - VOZ - CVLAN11 (5626952) - ACCESO
+AVD2MU|Gi0/0/0/10.11|down|down|CONEXION-M A VPNSPREC1 Gi1/1.11 - VOZ - CVLAN11 (5626952)
+AVD2MU|Gi0/0/0/10.60|down|down|CONEXION-M A VPNSPREC1 Gi1/1.60 - IU - CVLAN60 (5632739)
+AVD2MU|Gi0/0/0/10.75|down|down|CONEXION-M A VPNSPREC1 Gi1/1.75 - Iur - CVLAN75 (11002170)
+AVD2MU|Gi0/0/0/10.84|down|down|CONEXION-M A VPNSPREC1 Gi1/1.84 - Gomran - CVLAN84 (11002170) 
+AVD2MU|Gi0/0/0/11|up|up|ACCESO_RNC_AVELLANEDA_1_Puerta:598510_Linea:5633742
+AVD2MU|Gi0/0/0/12|admin-down|admin-down|ACCESO_RNC_AVELLANEDA_2_Linea:5677201
+AVD2MU|Gi0/0/0/13|up|up|ACCESO_RNC_AVELLANEDA_1_Linea:19309872
+AVD2MU|Gi0/0/0/13.1003|up|up|ACCESO_RNC_AVELLANEDA_1_Linea:19309872 - a BVI1003
+AVD2MU|Gi0/0/0/14|admin-down|admin-down|GESTION_TX_DCAVD01_AVELLANEDA-STAFE-L:80001148
+AVD2MU|Gi0/0/0/15|down|down|a SRECMSC0-1 Fe0/14
+AVD2MU|Gi0/0/0/16|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/17|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/18|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/19|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/20|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/21|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/22|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/23|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/24|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/25|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/26|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/27|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/28|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/29|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/30|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/31|up|up|A RECRNC01 NPGEP 0 IFGE 0 - ACTIVO - Linea:16200001
+AVD2MU|Gi0/0/0/31.240|up|up|VPLS:ELAN_RECRNC01_NPGEP
+AVD2MU|Gi0/0/0/32|up|up|A RECRNC01 NPGEP 0 IFGE 1 - ACTIVO - Linea:16200002
+AVD2MU|Gi0/0/0/32.151|up|up|VPLS:ELAN_RECRNC01_151
+AVD2MU|Gi0/0/0/32.180|up|up|VPLS:ELAN_RECRNC01_180
+AVD2MU|Gi0/0/0/32.248|up|up|VPLS:ELAN_RECRNC01_248
+AVD2MU|Gi0/0/0/32.810|up|up|VPLS:ELAN_RECRNC01_810
+AVD2MU|Gi0/0/0/33|up|up|RECRNC01 NPGEP 8 IFGE 0 - ACTIVO - Linea:16200003
+AVD2MU|Gi0/0/0/33.800|up|up|VPLS:ELAN_RECRNC01_800
+AVD2MU|Gi0/0/0/34|up|up|A RECRNC01 NPGEP 8 IFGE 1 - ACTIVO - Linea:16200004
+AVD2MU|Gi0/0/0/34.150|up|up|VPLS:ELAN_RECRNC01_150
+AVD2MU|Gi0/0/0/34.181|up|up|VPLS:ELAN_RECRNC01_181
+AVD2MU|Gi0/0/0/35|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/36|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/37|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/38|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/39|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/40|up|up|BSCREC2 BCN-0_BCXU_SFP21 - Linea:16200005
+AVD2MU|Gi0/0/0/41|up|up|BSCREC2 BCN-0_BCXU_SFP22 - Linea:16200006
+AVD2MU|Gi0/0/0/42|up|up|BSCREC2 BCN-0_SFP18 - Linea:16200007
+AVD2MU|Gi0/0/0/42.1704|up|up|BSCREC2_Trafico_SIGTRAN+EPTSIG_C+EPTSIG_M-1
+AVD2MU|Gi0/0/0/42.1706|up|up|BSCREC2_Trafico Gb-1
+AVD2MU|Gi0/0/0/42.1708|up|up|BSCREC2_Trafico_OyM-1
+AVD2MU|Gi0/0/0/43|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/44|admin-down|admin-down| 
+AVD2MU|Gi0/0/0/45|up|up| 
+AVD2MU|Gi0/0/0/45.1000|up|up|eNODOB - VICENTN_AVELLANEDA - A13-S067 - (1) (444620) - S1
+AVD2MU|Gi0/0/0/45.1001|up|up|eNODOB - VICENTN_AVELLANEDA - A13-S067 - (2) (444620) - S1MME
+AVD2MU|Gi0/0/0/45.1002|up|up|eNODOB - VICENTN_AVELLANEDA - A13-S067 - (3) (444620) - GOMRAN
+AVD2MU|Gi0/0/0/45.1003|up|up|NODOB - VICENTN_AVELLANEDA - A13-S067 - (1) (695900) - 3G
+AVD2MU|Gi0/0/0/45.1004|up|up|NODOB - VICENTN_AVELLANEDA - A13-S067 - (1) (695904) - 2G
+AVD2MU|Gi0/0/0/46|up|up|eNODOB - AVELLANEDA_CIRCUNVALACION - A13-S029
+AVD2MU|Gi0/0/0/46.1000|up|up|eNODOB - AVELLANEDA_CIRCUNVALACION - A13-S029 - (1) (437614) - S1
+AVD2MU|Gi0/0/0/46.1001|up|up|eNODOB - AVELLANEDA_CIRCUNVALACION - A13-S029 - (2) (437614) - S1MME
+AVD2MU|Gi0/0/0/46.1002|up|up|eNODOB - AVELLANEDA_CIRCUNVALACION - A13-S029 - (3) (437614) - GOMRAN
+AVD2MU|Gi0/0/0/46.1003|up|up|NODOB - AVELLANEDA_CIRCUNVALACION - A13-S029 - (1) (442920) - 3G
+AVD2MU|Gi0/0/0/46.1004|up|up|NODOB - AVELLANEDA_CIRCUNVALACION - A13-S029 - (1) (443567) - 2G
+AVD2MU|Gi0/0/0/47|up|up| 
+AVD2MU|Gi0/0/0/47.1000|up|up|eNODOB - AVELLANEDA_SANTA_FE - A13-S027 - (1) (437611) - S1
+AVD2MU|Gi0/0/0/47.1001|up|up|eNODOB - AVELLANEDA_SANTA_FE - A13-S027 - (2) (437611) - S1MME
+AVD2MU|Gi0/0/0/47.1002|up|up|eNODOB - AVELLANEDA_SANTA_FE - A13-S027 - (3) (437611) - GOMRAN
+AVD2MU|Gi0/0/0/47.1003|up|up|NODOB - AVELLANEDA_SANTA_FE - A13-S027 - (1) (443313) - 3G
+AVD2MU|Gi0/0/0/47.1004|up|up|NODOB - AVELLANEDA_SANTA_FE - A13-S027 - (1) (443566) - 2G
+AVD2MU|Gi0/1/0/0|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/1|up|up|A BSCREC2 BCN1 SFP-19 (16301040)
+AVD2MU|Gi0/1/0/2|up|up|A BSCREC2 BCN2 SFP-20 (16301043)
+AVD2MU|Gi0/1/0/3|down|down|ACCESO_RNC_AVELLANEDA_1_Puerta:598510_Linea:5633742
+AVD2MU|Gi0/1/0/4|up|up|ACCESO_RNC_AVELLANEDA_1_Linea:19309871
+AVD2MU|Gi0/1/0/4.1003|up|up|ACCESO_RNC_AVELLANEDA_1_Linea:19309871 - a BVI1003
+AVD2MU|Gi0/1/0/5|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/6|up|up|A RECROU01 TELLABS RECRNC (441590) (5694694)
+AVD2MU|Gi0/1/0/7|down|down|CONEXION-M A VPNSPREC2 Gi1/1.11 - VOZ - CVLAN11 (5626953) - ACCESO
+AVD2MU|Gi0/1/0/7.11|down|down|CONEXION-M A VPNSPREC2 Gi1/1.11 - VOZ - CVLAN11 (5626953)
+AVD2MU|Gi0/1/0/7.60|down|down|CONEXION-M A VPNSPREC2 Gi1/1.60 - IU - CVLAN60 (5632739) 
+AVD2MU|Gi0/1/0/7.75|down|down|CONEXION-M A VPNSPREC2 Gi1/1.75 - Iur - CVLAN75 (11002172) 
+AVD2MU|Gi0/1/0/7.84|down|down|CONEXION-M A VPNSPREC2 Gi1/1.84 - Gomran - CVLAN84 (11002170) 
+AVD2MU|Gi0/1/0/8|admin-down|admin-down|ACCESO_RNC_AVELLANEDA_2_Linea:5677201
+AVD2MU|Gi0/1/0/9|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/10|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/11|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/12|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/13|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/14|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/15|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/16|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/17|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/18|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/19|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/20|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/21|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/22|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/23|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/24|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/25|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/26|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/27|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/28|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/29|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/30|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/31|up|up|A RECRNC01 NPGEP 1 IFGE 0 - STAND BY - Linea:16200008
+AVD2MU|Gi0/1/0/31.240|up|up|VPLS:ELAN_RECRNC01_NPGEP
+AVD2MU|Gi0/1/0/32|up|up|A RECRNC01 NPGEP 1 IFGE 0 - STAND BY - Linea:16200009
+AVD2MU|Gi0/1/0/32.151|up|up|VPLS:ELAN_RECRNC01_151
+AVD2MU|Gi0/1/0/32.180|up|up|VPLS:ELAN_RECRNC01_180
+AVD2MU|Gi0/1/0/32.248|up|up|VPLS:ELAN_RECRNC01_248
+AVD2MU|Gi0/1/0/32.810|up|up|VPLS:ELAN_RECRNC01_810
+AVD2MU|Gi0/1/0/33|up|up|RECRNC01 NPGEP 9 IFGE 0 - STAND-BY - Linea:16200010
+AVD2MU|Gi0/1/0/33.800|up|up|VPLS:ELAN_RECRNC01_800
+AVD2MU|Gi0/1/0/34|up|up|A RECRNC01 NPGEP 9 IFGE 1 - STAND BY - Linea:16200011
+AVD2MU|Gi0/1/0/34.150|up|up|VPLS:ELAN_RECRNC01_150
+AVD2MU|Gi0/1/0/34.181|up|up|VPLS:ELAN_RECRNC01_181
+AVD2MU|Gi0/1/0/35|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/36|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/37|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/38|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/39|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/40|up|up|BSCREC2 BCN-1_BCXU_SFP21 - Linea:16200012
+AVD2MU|Gi0/1/0/41|up|up|BSCREC2 BCN-1_BCXU_SFP22 - Linea:16200013
+AVD2MU|Gi0/1/0/42|down|down|BSCREC2 BCN-0_SFP18 - Linea:16200014
+AVD2MU|Gi0/1/0/42.1705|down|down|BSCREC2_Trafico_SIGTRAN+EPTSIG_C+EPTSIG_M-2
+AVD2MU|Gi0/1/0/42.1707|down|down|BSCREC2_Trafico Gb-1
+AVD2MU|Gi0/1/0/42.1709|down|down|BSCREC2_Trafico_OyM-1
+AVD2MU|Gi0/1/0/43|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/44|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/45|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/46|admin-down|admin-down| 
+AVD2MU|Gi0/1/0/47|admin-down|admin-down| 
+AVD2MU|Te0/3/1/0|up|up|Enlace 10G A REC3MU_Te8/0/1 (Linea:11004816) - UPLINK BBIP
+AVD2MU|Te0/3/1/1|admin-down|admin-down| 
+AVD2MU|Te0/3/1/2|admin-down|admin-down| 
+AVD2MU|Te0/3/1/3|admin-down|admin-down| 
+AVD2MU|Te0/3/1/4|admin-down|admin-down| 
+AVD2MU|Te0/3/1/5|admin-down|admin-down| 
+AVD2MU|Te0/3/1/6|admin-down|admin-down| 
+AVD2MU|Te0/3/1/7|admin-down|admin-down| 
+AVD2MU|Te0/3/1/8|admin-down|admin-down| 
+AVD2MU|Te0/3/1/9|admin-down|admin-down| 
+AVD2MU|Te0/3/1/10|admin-down|admin-down| 
+AVD2MU|Te0/3/1/11|admin-down|admin-down| 
+AVD2MU|Te0/3/1/12|admin-down|admin-down| 
+AVD2MU|Te0/3/1/13|admin-down|admin-down| 
+AVD2MU|Te0/3/1/14|admin-down|admin-down| 
+AVD2MU|Te0/3/1/15|admin-down|admin-down| 
+AVD2MU|Te0/3/1/16|admin-down|admin-down| 
+AVD2MU|Te0/3/1/17|admin-down|admin-down| 
+AVD2MU|Te0/3/1/18|admin-down|admin-down| 
+AVD2MU|Te0/3/1/19|admin-down|admin-down| 
+AVD2MU|Te0/4/1/0|up|up|Enlace 10G A REC3MU_Te2/1/1 (Linea:11004817) - UPLINK BBIP
+AVD2MU|Te0/4/1/1|admin-down|admin-down| 
+AVD2MU|Te0/4/1/2|admin-down|admin-down| 
+AVD2MU|Te0/4/1/3|admin-down|admin-down| 
+AVD2MU|Te0/4/1/4|admin-down|admin-down| 
+AVD2MU|Te0/4/1/5|admin-down|admin-down| 
+AVD2MU|Te0/4/1/6|admin-down|admin-down| 
+AVD2MU|Te0/4/1/7|admin-down|admin-down| 
+AVD2MU|Te0/4/1/8|admin-down|admin-down| 
+AVD2MU|Te0/4/1/9|admin-down|admin-down| 
+AVD2MU|Te0/4/1/10|admin-down|admin-down| 
+AVD2MU|Te0/4/1/11|admin-down|admin-down| 
+AVD2MU|Te0/4/1/12|admin-down|admin-down| 
+AVD2MU|Te0/4/1/13|admin-down|admin-down| 
+AVD2MU|Te0/4/1/14|admin-down|admin-down| 
+AVD2MU|Te0/4/1/15|admin-down|admin-down| 
+AVD2MU|Te0/4/1/16|admin-down|admin-down| 
+AVD2MU|Te0/4/1/17|admin-down|admin-down| 
+AVD2MU|Te0/4/1/18|admin-down|admin-down| 
+AVD2MU|Te0/4/1/19|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/0|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/1|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/2|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/3|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/4|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/5|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/6|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/7|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/8|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/9|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/10|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/11|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/12|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/13|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/14|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/15|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/16|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/17|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/18|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/19|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/20|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/21|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/22|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/23|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/24|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/25|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/26|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/27|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/28|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/29|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/30|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/31|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/32|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/33|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/34|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/35|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/36|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/37|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/38|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/39|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/40|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/41|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/42|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/43|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/44|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/45|admin-down|admin-down| 
+AVD2MU|Gi0/7/0/46|admin-down|admin-down| 
+
+

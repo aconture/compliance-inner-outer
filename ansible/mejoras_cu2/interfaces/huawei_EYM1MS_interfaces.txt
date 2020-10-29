@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+EYM1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+EYM1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A 55GVO01/6/4 - POS3MU Eth-Trunk13.1360 - LAS_MARIAS_(GDOR._VIRASORO) - A18-S045
+EYM1MS|GigabitEthernet0/2/1|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/1 Interface
+EYM1MS|GigabitEthernet0/2/2|UP|UP|eNODOB - LAS_MARIAS_(GDOR._VIRASORO) - POS3MU 11/0/4 - A18-S045 - (752037) NODOB (752036)(752035)
+EYM1MS|GigabitEthernet0/2/3|UP|UP|ESTABLECIMIENTO LAS MARIAS S.A. - REF:161224/885391 lin:2754095 Acc: POS1MB 0/2/0/2.24 y .38
+EYM1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+EYM1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+EYM1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+EYM1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+EYM1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+EYM1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+EYM1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+EYM1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+EYM1MS|LoopBack1023|UP|UP|DCN loopback interface
+EYM1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+EYM1MS|Vlanif1236|UP|UP|VLAN_UPLINK_POS1MB_BE1000.1236_LINEA.80002364
+
+

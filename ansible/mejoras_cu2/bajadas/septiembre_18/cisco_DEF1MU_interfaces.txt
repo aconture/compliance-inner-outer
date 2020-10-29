@@ -1,0 +1,442 @@
+shelfname|interface|portoperationalstate|protocol|info1
+DEF1MU|BE1|up|up|[ACCESO HSI][BE] DEFG01 13000130
+DEF1MU|BE1.3|up|up|[NGN] RTP HW DEAN FUNES-DEFG01-Linea 13000130 
+DEF1MU|BE1.4|up|up|[NGN] Gestion IPMB HW DEAN FUNES-DEFG01-Linea 13000130
+DEF1MU|BE1.5|up|up|[NGN] Gestion PVM HW DEAN FUNES-DEFG01-Linea 13000130
+DEF1MU|BE1.4101|up|up|[DATOS] DEFG01 HUA 5000 [ADSL][L3]
+DEF1MU|BE2|up|up|[ACCESO HSI][BE] DEF21D Linea:13003488 
+DEF1MU|BE2.2101|up|up|[GESTION] DEF21D HUA 5600 [ADS2]
+DEF1MU|BE2.3101|up|up|[TOIP] DEF21D HUA 5600 [ADS2]
+DEF1MU|BE2.4101|up|up|[DATOS] DEF21D HUA 5600 [ADS2][L3]
+DEF1MU|BE2.4101.pppoe99|up|up| 
+DEF1MU|BE2.4101.pppoe121|up|up| 
+DEF1MU|BE2.4101.pppoe260|up|up| 
+DEF1MU|BE2.4101.pppoe335|up|up| 
+DEF1MU|BE2.4101.pppoe464|up|up| 
+DEF1MU|BE2.4101.pppoe674|up|up| 
+DEF1MU|BE2.4101.pppoe788|up|up| 
+DEF1MU|BE2.4101.pppoe1004|up|up| 
+DEF1MU|BE2.4101.pppoe1069|up|up| 
+DEF1MU|BE2.4101.pppoe1113|up|up| 
+DEF1MU|BE2.4101.pppoe1114|up|up| 
+DEF1MU|BE2.4101.pppoe1120|up|up| 
+DEF1MU|BE2.4101.pppoe1126|up|up| 
+DEF1MU|BE2.4101.pppoe1127|up|up| 
+DEF1MU|BE2.4101.pppoe1212|up|up| 
+DEF1MU|BE2.4101.pppoe1570|up|up| 
+DEF1MU|BE2.4101.pppoe1734|up|up| 
+DEF1MU|BE2.4101.pppoe1851|up|up| 
+DEF1MU|BE2.4101.pppoe1883|up|up| 
+DEF1MU|BE2.4101.pppoe1889|up|up| 
+DEF1MU|BE2.4101.pppoe2128|up|up| 
+DEF1MU|BE2.4101.pppoe2241|up|up| 
+DEF1MU|BE2.4101.pppoe2258|up|up| 
+DEF1MU|BE2.4101.pppoe2408|up|up| 
+DEF1MU|BE2.4101.pppoe2480|up|up| 
+DEF1MU|BE2.4101.pppoe2911|up|up| 
+DEF1MU|BE2.4101.pppoe3024|up|up| 
+DEF1MU|BE2.4101.pppoe3162|up|up| 
+DEF1MU|BE2.4101.pppoe3177|up|up| 
+DEF1MU|BE2.4101.pppoe3194|up|up| 
+DEF1MU|BE2.4101.pppoe3215|up|up| 
+DEF1MU|BE2.4101.pppoe3244|up|up| 
+DEF1MU|BE2.4101.pppoe3252|up|up| 
+DEF1MU|BE2.4101.pppoe3317|up|up| 
+DEF1MU|BE2.4101.pppoe3321|up|up| 
+DEF1MU|BE2.4101.pppoe3346|up|up| 
+DEF1MU|BE2.4101.pppoe3420|up|up| 
+DEF1MU|BE2.4101.pppoe3881|up|up| 
+DEF1MU|BE2.4101.pppoe3953|up|up| 
+DEF1MU|BE2.4101.pppoe4336|up|up| 
+DEF1MU|BE2.4101.pppoe4436|up|up| 
+DEF1MU|BE2.4101.pppoe4470|up|up| 
+DEF1MU|BE2.4101.pppoe4489|up|up| 
+DEF1MU|BE2.4101.pppoe4576|up|up| 
+DEF1MU|BE2.4101.pppoe4661|up|up| 
+DEF1MU|BE2.4101.pppoe5030|up|up| 
+DEF1MU|BE2.4101.pppoe5035|up|up| 
+DEF1MU|BE2.4101.pppoe5173|up|up| 
+DEF1MU|BE2.4101.pppoe5245|up|up| 
+DEF1MU|BE2.4101.pppoe5248|up|up| 
+DEF1MU|BE2.4101.pppoe5249|up|up| 
+DEF1MU|BE2.4101.pppoe5405|up|up| 
+DEF1MU|BE2.4101.pppoe5421|up|up| 
+DEF1MU|BE2.4101.pppoe5677|up|up| 
+DEF1MU|BE2.4101.pppoe5722|up|up| 
+DEF1MU|BE2.4101.pppoe5899|up|up| 
+DEF1MU|BE2.4101.pppoe6109|up|up| 
+DEF1MU|BE2.4101.pppoe6135|up|up| 
+DEF1MU|BE2.4101.pppoe6302|up|up| 
+DEF1MU|BE2.4101.pppoe6307|up|up| 
+DEF1MU|BE2.4101.pppoe6449|up|up| 
+DEF1MU|BE2.4101.pppoe6508|up|up| 
+DEF1MU|BE2.4101.pppoe6605|up|up| 
+DEF1MU|BE2.4101.pppoe6767|up|up| 
+DEF1MU|BE2.4101.pppoe7053|up|up| 
+DEF1MU|BE2.4101.pppoe7121|up|up| 
+DEF1MU|BE2.4101.pppoe7136|up|up| 
+DEF1MU|BE2.4101.pppoe7364|up|up| 
+DEF1MU|BE2.4101.pppoe7430|up|up| 
+DEF1MU|BE2.4101.pppoe7507|up|up| 
+DEF1MU|BE2.4101.pppoe7575|up|up| 
+DEF1MU|BE2.4101.pppoe7635|up|up| 
+DEF1MU|BE2.4101.pppoe7690|up|up| 
+DEF1MU|BE2.4101.pppoe7747|up|up| 
+DEF1MU|BE2.4101.pppoe7781|up|up| 
+DEF1MU|BE2.4101.pppoe7942|up|up| 
+DEF1MU|BE2.4101.pppoe8014|up|up| 
+DEF1MU|BE2.4101.pppoe8152|up|up| 
+DEF1MU|BE2.4101.pppoe8558|up|up| 
+DEF1MU|BE2.4101.pppoe8868|up|up| 
+DEF1MU|BE2.4101.pppoe8980|up|up| 
+DEF1MU|BE2.4101.pppoe9009|up|up| 
+DEF1MU|BE2.4101.pppoe9057|up|up| 
+DEF1MU|BE2.4101.pppoe9166|up|up| 
+DEF1MU|BE2.4101.pppoe9172|up|up| 
+DEF1MU|BE2.4101.pppoe9249|up|up| 
+DEF1MU|BE2.4101.pppoe9274|up|up| 
+DEF1MU|BE2.4101.pppoe9469|up|up| 
+DEF1MU|BE2.4101.pppoe9534|up|up| 
+DEF1MU|BE2.4101.pppoe9551|up|up| 
+DEF1MU|BE2.4101.pppoe9639|up|up| 
+DEF1MU|BE2.4101.pppoe9644|up|up| 
+DEF1MU|BE2.4101.pppoe9655|up|up| 
+DEF1MU|BE2.4101.pppoe9659|up|up| 
+DEF1MU|BE2.4101.pppoe9703|up|up| 
+DEF1MU|BE2.4101.pppoe9758|up|up| 
+DEF1MU|BE2.4101.pppoe9814|up|up| 
+DEF1MU|BE2.4101.pppoe9833|up|up| 
+DEF1MU|BE3|up|up|[ACCESO HSI][BE] DEF31D Linea:13003489
+DEF1MU|BE3.2101|up|up|[GESTION] DEF31D HUA 5600 [ADS2]
+DEF1MU|BE3.3101|up|up|[TOIP] DEF31D HUA 5600 [ADS2]
+DEF1MU|BE3.4101|up|up|[DATOS] DEF31D HUA 5600 [ADS2][L3]
+DEF1MU|BE3.4101.pppoe8272|up|up| 
+DEF1MU|BE3.4101.pppoe8294|up|up| 
+DEF1MU|BE3.4101.pppoe8324|up|up| 
+DEF1MU|BE3.4101.pppoe8375|up|up| 
+DEF1MU|BE3.4101.pppoe8402|up|up| 
+DEF1MU|BE3.4101.pppoe8403|up|up| 
+DEF1MU|BE3.4101.pppoe8488|up|up| 
+DEF1MU|BE3.4101.pppoe8522|up|up| 
+DEF1MU|BE4|up|up|[ACCESO HSI][BE] DEF11D Linea:9702249
+DEF1MU|BE4.2101|up|up|[GESTION] DEF11D HUA 5600 [ADS2]
+DEF1MU|BE4.3101|up|up|[TOIP] DEF11D HUA 5600 [ADS2]
+DEF1MU|BE4.3648|up|up|PRESURIZACION DEAN FUNES - REF:943195 - ACC:DEF11D 0/14/0
+DEF1MU|BE4.3649|up|up|VPN Head Quarter - ANSES - Ref:245591 Lin:2712220 Acc:DEF11D 0-1 
+DEF1MU|BE4.3650|up|up|VPN GOLD - GOB. DE CORDOBA - Ref:118308 Lin:2710573 - Acc:DEF11D
+DEF1MU|BE4.3651|up|up|VPN GOLD - POLICIA de CBA - Ref:235978 - Lin:2710700 - Acc:DEF11
+DEF1MU|BE4.3652|up|up|### VPN Head Quarter - CONMEGA A.C.E. - Ref:748163 - Lin:2839361 - Acc:DEF11D 14/4-5
+DEF1MU|BE4.3658|up|up|VPN Head Quarter - CYRE- Ref:156920 Lin:2592973 Acc:DEF11D 14 10
+DEF1MU|BE4.3659|up|up|VPN Head Quarter - BNA - Ref:539509 Lin:2752901 Acc:DEF11D
+DEF1MU|BE4.3664|up|up|VPN Head Quarter - Min Gob Cba - Ref:118308 Lin:2710573 Acc:DEF11D 14 16-17
+DEF1MU|BE4.3666|up|up|VPN Head Quarter - Poder Judicial Cordoba - Ref 720192 Lin 2826014 Acc: DEF11D 0/14 18-19
+DEF1MU|BE4.3670|up|up|VPN Head Quarter - Minn Gob Cba - Ref:559115 Lin:2758145 Acc:DEF11D 14 22-23
+DEF1MU|BE4.3674|up|up|VPN Head Quarter - Cliente - Ref:255922 Lin:2716091 Acc:DEF11D-1
+DEF1MU|BE4.3675|up|up|VPN SILVER - CORREO DE LA REP. ARG. - Ref640830- 651761 - Lin2793689 - DEF11D 0/14/27
+DEF1MU|BE4.3679|up|up|VPN Head Quarter - Bco de la Pcia de Cba - Ref:603868 Lin:2776378 Acc:DEF11D 14 31
+DEF1MU|BE4.3812|up|up|Ref:662607 L:2806098 Ciente:RODRIGUEZ PABLO ANDRES Acc: DEF11D 0/15/4,5
+DEF1MU|BE4.3840|up|up|PRESURIZACION DEAN FUNES - REF:943195 - ACC:DEF11D 0/14/0
+DEF1MU|BE4.3841|up|up|VPN Head Quarter - ANSES - Ref:245591 Lin 2712220 Acc:DEF11D 0-1
+DEF1MU|BE4.3868|up|up|IntegraLight - BOJ EDURDO CANDIDO - Ref:640153 - Lin:2791608 Acc:DEF11D SHDSL-0-14-28
+DEF1MU|BE4.4101|up|up|[DATOS] DEF11D HUA 5600 [ADS2][L3]
+DEF1MU|BE4.4101.pppoe701|up|up| 
+DEF1MU|BE4.4101.pppoe3591|up|up| 
+DEF1MU|BE4.4101.pppoe4366|up|up| 
+DEF1MU|BE4.4101.pppoe4526|up|up| 
+DEF1MU|BE4.4101.pppoe4882|up|up| 
+DEF1MU|BE4.4101.pppoe4886|up|up| 
+DEF1MU|BE4.4101.pppoe4904|up|up| 
+DEF1MU|BE4.4101.pppoe4909|up|up| 
+DEF1MU|BE4.4101.pppoe4917|up|up| 
+DEF1MU|BE4.4101.pppoe4922|up|up| 
+DEF1MU|BE4.4101.pppoe4924|up|up| 
+DEF1MU|BE4.4101.pppoe4935|up|up| 
+DEF1MU|BE4.4101.pppoe4939|up|up| 
+DEF1MU|BE4.4101.pppoe4955|up|up| 
+DEF1MU|BE4.4101.pppoe4964|up|up| 
+DEF1MU|BE4.4101.pppoe4986|up|up| 
+DEF1MU|BE4.4101.pppoe4990|up|up| 
+DEF1MU|BE4.4101.pppoe5026|up|up| 
+DEF1MU|BE4.4101.pppoe5037|up|up| 
+DEF1MU|BE4.4101.pppoe5137|up|up| 
+DEF1MU|BE4.4101.pppoe5145|up|up| 
+DEF1MU|BE4.4101.pppoe5159|up|up| 
+DEF1MU|BE4.4101.pppoe5167|up|up| 
+DEF1MU|BE4.4101.pppoe5173|up|up| 
+DEF1MU|BE4.4101.pppoe5505|up|up| 
+DEF1MU|BE4.4101.pppoe7041|up|up| 
+DEF1MU|BE4.4101.pppoe7780|up|up| 
+DEF1MU|BE4.4101.pppoe8764|up|up| 
+DEF1MU|BE4.4101.pppoe9270|up|up| 
+DEF1MU|BE4.13672|up|up|VPN Branch Office - SIND EMPLEADOS CORDOBA - Ref 586065-Linea 2768960-Acceso DEF11D-14-24
+DEF1MU|BE5|up|up|LAG Frontera SDH Huawei 35DFN01 agrupa Gi0/0/0/47 - Gi0/1/0/47
+DEF1MU|BE5.1206|up|up|GESTION RECT EATON 35GPZ01 S35P01 ESTACION GENERAL PAZ-CBA-Linea:70001872
+DEF1MU|BE5.12050028|up|up|GESTION TX RE 35QLN01 S29P02 QUILINO-CBA-Linea:70000897
+DEF1MU|BE5.12070080|up|up|GESTION RECT ELTEK 25VDM01 S03P01 VILLA DE MARIA DE RIO SECO-CBA-Linea:70001884
+DEF1MU|BE5.12080080|up|up|GESTION RECT ELTEK 25SJD01 S03P01 SAN JOSE DE LA DORMIDA-CBA-Linea: 70001886
+DEF1MU|BE5.12090080|up|up|GESTION RECT ELTEK 35QLN01 S29P01 ESTACION QULINOCBA-Linea:70001889
+DEF1MU|BE5.12100080|up|up|GESTION RECT ELTEK 35LVM01 S29P04 LUCIO V MANSILLA-CBA-Linea:70001890
+DEF1MU|BE5.19960080|up|up|GESTION TX RE 35LVM01 S29P02 LUCIO V MANSILLA-CBA-Linea:70000342 70000744
+DEF1MU|Lo0|up|up| 
+DEF1MU|Lo1|up|up|IP UNNUMBERED
+DEF1MU|Lo12|up|up|IP UNNUMBERED vpn-tdata-bcorio - VPN BRONZE INTERCARRIER - TASA - Banco rio
+DEF1MU|Lo26|up|up|IP UNNUMBERED VPN-gpba
+DEF1MU|Lo68|up|up|IP UNNUMBERED VPN PRIMA
+DEF1MU|Lo73|up|up|IP UNNUMBERED bonesi-vpn - VPN BRONZE - BONESI SOCIEDAD ANONIMA
+DEF1MU|Lo77|up|up|VPN WEB PATRON
+DEF1MU|Lo78|up|up|IP UNNUMBERED vpn-credicoop - VPN BRONZE - BANCO CREDICOOP COOP. LTDO.
+DEF1MU|Lo80|up|up|IP UNNUMBERED VPN JOCKEY
+DEF1MU|Lo85|up|up|IP UNNUMBERED VPN ADVANCE
+DEF1MU|Lo90|up|up|IP UNNUMBERED munisam-vpn - VPN BRONZE - MUNICIPALIDAD DE GRAL. SAN MARTIN SEC. HAC. Y ECONO.
+DEF1MU|Lo100|up|up|Interfaz de gestion ADSL
+DEF1MU|Lo103|up|up|IP UNNUMBERED ospecom-vpn - VPN BRONZE - OSPECOM
+DEF1MU|Lo127|up|up|IP UNNUMERED vpn-vestiditos - VPN BRONZE - VESTIDITOS S.A.
+DEF1MU|Lo147|up|up|IP UNNUMERED darclibertador-vpn
+DEF1MU|Lo149|up|up|IP UNNUMBERED bna-vpn
+DEF1MU|Lo157|up|up|IP UNNUMBERED vpn-williner - VPN BRONZE - SUCESORES DE ALFREDO WILLINER S.A.
+DEF1MU|Lo162|up|up|IP UNNUMBERED hipodromo-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+DEF1MU|Lo182|up|up|garbarino-vpn - VPN BRONZE - GARBARINO
+DEF1MU|Lo198|up|up|IP UNNUMBERED vpn-gire-1 - VPN BRONZE - GIRE S.A.
+DEF1MU|Lo249|up|up|IP UNNUMBERED ncentralarg-vpn - VPN BRONZE - NUEVO CENTRAL ARGENTINO S.A.
+DEF1MU|Lo256|up|up|IP UNNUMBERED sepsa-vpn - VPN BRONZE - SERV.ELECTRONICO DE PAGO S.A.
+DEF1MU|Lo279|up|up|IP UNNUMBERED hsbc-vpn - VPN BRONZE - HSBC BANK ARGENTINA S.A.
+DEF1MU|Lo347|up|up|IP UNNUMBERED bcogalicia-vpn - VPN BRONZE - BANCO DE GALICIA Y BUENOS AIRE S S.A.
+DEF1MU|Lo433|up|up|IP UNNUMBERED hipodromo-3-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+DEF1MU|Lo454|up|up|IP UNNUMBERED poderjudicial-vpn - VPN BRONZE - PODER JUDICIAL DE LA PROVINCIA
+DEF1MU|Lo459|up|up|IP UNNUMERED clama-vpn
+DEF1MU|Lo479|up|up|IP UNNUMBERED solido-vpn - VPN BRONZE - SOLIDO S.R.L.
+DEF1MU|Lo507|up|up|IP UNNUMBERED maxima-vpn - VPN BRONZE - MAXIMA S.A. A.F.J.P.
+DEF1MU|Lo509|up|up|IP UNNUMBERED citibank-vpn - VPN BRONZE - CITIBANK N.A.
+DEF1MU|Lo546|up|up|IP UNNUMBERED ituran-vpn - VPN BRONZE - ITURAN
+DEF1MU|Lo594|up|up|IP UNNUMBERED diaarg-vpn - VPN BRONZE - DIA ARGENTINA S.A.
+DEF1MU|Lo601|up|up|IP UNNUMBERED alpargatas-vpn - VPN BRONZE - ALPARGATAS CALZADOS S.A.
+DEF1MU|Lo653|up|up|IP UNNUMBERED bigbloom-vpn - VPN BRONZE - BIG BLOOM S.A.
+DEF1MU|Lo707|up|up|IP UNNUMBERED correo-vpn - VPN BRONZE - CORREO OFICIAL DE LA REP.ARG.
+DEF1MU|Lo980|up|up|IP UNNUMBERED cjuleriaque-vpn - VPN BRONZE - CARLOS JULERIAQUE S.R.L.
+DEF1MU|Lo1017|up|up|IP UNNUMBERED asmuprofa-vpn - VPN BRONZE - ASOCIACION MUTUAL DE PROTECCIO N FAMILIAR
+DEF1MU|Lo1059|up|up|fravega-vpn - VPN BRONZE - FRAVEGA
+DEF1MU|Lo1154|up|up|IP UNNUMBERED arcosdora2-vpn
+DEF1MU|Lo1219|up|up|SIMONS DE ARGENTINA SAIC
+DEF1MU|Lo1226|up|up|IP UNNUMERED argentconec-vpn
+DEF1MU|Lo1312|up|up|IP UNNUMBERED wifioffload-vpn
+DEF1MU|Lo1385|up|up|IP UNNUMERED garbacontenidos-vpn - VPN BRONZE - GARBARINO S.A.
+DEF1MU|Lo1471|up|up|IP UNNUMERED unigestopems-vpn - VPN BRONZE - UNIDAD DE GESTION OPERATIVA MITRE SARMIENTO S.A.
+DEF1MU|Lo13143|up|up|IP UNNUMBERED tasabancofrances-vpn - VPN BRONZE INTERCARRIER. - TASA subcliente Bco. Frances
+DEF1MU|Lo57015|up|up|IP UNNUMBERED tasabapro-vpn - VPN BRONZE INTERCARRIER. - Tasa sub
+DEF1MU|Nu0|up|up| 
+DEF1MU|Mg0/RSP0/CPU0/0|admin-down|admin-down| 
+DEF1MU|Mg0/RSP0/CPU0/1|admin-down|admin-down| 
+DEF1MU|PT0/RSP0/CPU0/0|admin-down|admin-down| 
+DEF1MU|Mg0/RSP1/CPU0/0|admin-down|admin-down| 
+DEF1MU|Mg0/RSP1/CPU0/1|admin-down|admin-down| 
+DEF1MU|PT0/RSP1/CPU0/0|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/0|up|up|eNODOB - DEAN_FUNES_II - A03-S326 - (447619)
+DEF1MU|Gi0/0/0/0.1000|up|up|eNODOB - DEAN_FUNES_II - A03-S326 - (1) (447619) - S1
+DEF1MU|Gi0/0/0/0.1001|up|up|eNODOB - DEAN_FUNES_II - A03-S326 - (2) (447619) - S1MME
+DEF1MU|Gi0/0/0/0.1002|up|up|eNODOB - DEAN_FUNES_II - A03-S326 - (3) (447619) - GOMRAN
+DEF1MU|Gi0/0/0/0.1003|up|up|NODOB - DEAN_FUNES_II - A03-S326 - (1) (518628) - 3G
+DEF1MU|Gi0/0/0/0.1004|up|up|NODOB - DEAN_FUNES_II - A03-S326 - (1) (522645) - 2G
+DEF1MU|Gi0/0/0/1|up|up|eNODOB DEAN_FUNES A03-S010 (447590)
+DEF1MU|Gi0/0/0/1.1012|up|up|eNODOB DEAN_FUNES A03-S010 (1) (447590) - S1
+DEF1MU|Gi0/0/0/1.1013|up|up|eNODOB DEAN_FUNES A03-S010 (2) (447590) - S1MME
+DEF1MU|Gi0/0/0/1.1014|up|up|eNODOB DEAN_FUNES A03-S010 (3) (447590) - GOMRAN
+DEF1MU|Gi0/0/0/1.1026|up|up|NODOB DEAN_FUNES A03-S010 (1) (518671) - 3G
+DEF1MU|Gi0/0/0/1.1027|up|up|NODOB DEAN_FUNES A03-S010 (1) (522644) - 2G
+DEF1MU|Gi0/0/0/2|up|up|eNODOB ISCHILLIN_LOS_POZOS A03-S297 (522615)
+DEF1MU|Gi0/0/0/2.1000|up|up|eNODOB ISCHILLIN_LOS_POZOS A03-S297 (1) (522615) - S1
+DEF1MU|Gi0/0/0/2.1001|up|up|eNODOB ISCHILLIN_LOS_POZOS A03-S297 (2) (522615) - S1MME
+DEF1MU|Gi0/0/0/2.1002|up|up|eNODOB ISCHILLIN_LOS_POZOS A03-S297 (3) (522615) - GOMRAN
+DEF1MU|Gi0/0/0/2.1003|up|up|NODOB ISCHILLIN_LOS_POZOS A03-S297 (1) (518715) - 3G
+DEF1MU|Gi0/0/0/2.1004|up|up|NODOB ISCHILLIN_LOS_POZOS A03-S297 (1) (520481) - 2G
+DEF1MU|Gi0/0/0/3|up|up|FRONTERA CONEXION REIP DWDEF01 19/3 LINEA:905225
+DEF1MU|Gi0/0/0/3.1204|up|up|GESTION ATN910I SAN_VICENTE - CVR1MS - Linea 70001160 (RE SDH+ETH DEAN FUNES - Va de MARIA de RIO SECO)
+DEF1MU|Gi0/0/0/3.12320002|up|up|VPN - REFINOR - REF:784485 DEANFUNES - SWITCH EN CENTRAL
+DEF1MU|Gi0/0/0/4|down|down| 
+DEF1MU|Gi0/0/0/5|down|down|INTEGRA - RIBEIRO - Ref:751407 - Lin:2840901
+DEF1MU|Gi0/0/0/5.2|down|down|INTEGRA - RIBEIRO - Ref:751407 - Lin:2840901
+DEF1MU|Gi0/0/0/6|up|up|HYPERWAY HIGH OFFICE - SECRETARIA GENERAL DE LA GOBERNACION - Ref:885659 - Lin:2860405
+DEF1MU|Gi0/0/0/6.6|up|up|HYPERWAY HIGH OFFICE - SECRETARIA GENERAL DE LA GOBERNACION - Ref:885659 - Lin:2860405
+DEF1MU|Gi0/0/0/7|down|down|VPN PLATINUM - RIBEIRO S.A.C.I.F.A.E.I. - Ref:739769 Lin:2835204 Acc:01/01/17/03-04
+DEF1MU|Gi0/0/0/7.2|down|down|VPN PLATINUM - RIBEIRO S.A.C.I.F.A.E.I. - Ref:739769 Lin:2835204 Acc:01/01/17/03-04
+DEF1MU|Gi0/0/0/8|up|up|VPN PLATINUM - PJC - Ref:640346 - L:2791691
+DEF1MU|Gi0/0/0/8.2|up|up|VPN PLATINUM - PJC - Ref:640346 - L:2791691 - 
+DEF1MU|Gi0/0/0/9|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/10|up|up|VPN PLATINUM - PJC -Ref:640349 - L:2791694
+DEF1MU|Gi0/0/0/10.2|up|up|VPN PLATINUM - PJC -Ref:640349 - L:2791694 
+DEF1MU|Gi0/0/0/11|up|up|VPN PLATINUM - PJC -Ref:640350 - L:2791695
+DEF1MU|Gi0/0/0/11.2|up|up|VPN PLATINUM - PJC -Ref:640350 - L:2791695 
+DEF1MU|Gi0/0/0/12|up|up|INTEGRA - TARJETA NARANJA S.A. - Ref:878003 -  Lin:2857331 
+DEF1MU|Gi0/0/0/12.12|up|up|INTEGRA - TARJETA NARANJA S.A. - Ref:878003 - Lin:2857331
+DEF1MU|Gi0/0/0/13|down|down| 
+DEF1MU|Gi0/0/0/14|up|up|[ACCESO HSI][BE] DEFG01 13000130
+DEF1MU|Gi0/0/0/15|up|up|[ACCESO HSI][BE] DEF21D 7/1 Linea:13003488
+DEF1MU|Gi0/0/0/16|up|up|[ACCESO HSI][BE] DEF31D 7/1 Linea:13003489
+DEF1MU|Gi0/0/0/17|up|up|[ACCESO HSI][BE] DEF11D 7/1 Linea:9702249
+DEF1MU|Gi0/0/0/18|up|up|L2L CTR DEAN FUNES - Lin:9004675
+DEF1MU|Gi0/0/0/19|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/20|up|up|VPN PLATINUM - C.Y.R.E. S.A.C.I.F.I. E I. - REF: 944693 - LINEA: 2869081 - ACC: DEF1MU 0/0/0/20
+DEF1MU|Gi0/0/0/20.4|up|up|VPN PLATINUM - C.Y.R.E. S.A.C.I.F.I. E I. - REF: 944693 - LINEA: 2869081 - ACC: DEF1MU 0/0/0/20
+DEF1MU|Gi0/0/0/21|down|down| 
+DEF1MU|Gi0/0/0/22|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/23|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/24|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/25|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/26|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/27|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/28|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/29|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/30|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/31|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/32|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/33|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/34|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/35|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/36|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/37|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/38|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/39|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/40|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/41|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/42|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/43|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/44|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/45|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/46|admin-down|admin-down| 
+DEF1MU|Gi0/0/0/47|up|up|Enlace 1G a 35DFN01 S14P02 (Linea:9005234) Frontera SDH Huawei
+DEF1MU|Gi0/1/0/0|down|down|Conexion a 35DFN01- Linea 905232
+DEF1MU|Gi0/1/0/1|up|up|GESTION TX RE_DEAN FUNES CBA_Lineas:70000650/70000192_1RDEF01-DWDEF01
+DEF1MU|Gi0/1/0/2|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/3|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/4|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/5|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/6|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/7|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/8|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/9|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/10|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/11|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/12|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/13|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/14|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/15|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/16|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/17|down|down| 
+DEF1MU|Gi0/1/0/18|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/19|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/20|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/21|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/22|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/23|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/24|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/25|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/26|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/27|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/28|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/29|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/30|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/31|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/32|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/33|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/34|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/35|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/36|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/37|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/38|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/39|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/40|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/41|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/42|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/43|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/44|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/45|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/46|admin-down|admin-down| 
+DEF1MU|Gi0/1/0/47|up|up|Enlace 1G a 35DFN01 S05P02 (Linea: 9005234) Frontera SDH Huawei
+DEF1MU|Te0/3/1/0|up|up|Enlace 10G A CEN1NA_Te0/11/0/11 (Linea:13006515) - UPLINK BBIP
+DEF1MU|Te0/3/1/1|admin-down|admin-down| 
+DEF1MU|Te0/3/1/2|admin-down|admin-down| 
+DEF1MU|Te0/3/1/3|admin-down|admin-down| 
+DEF1MU|Te0/3/1/4|admin-down|admin-down| 
+DEF1MU|Te0/3/1/5|admin-down|admin-down| 
+DEF1MU|Te0/3/1/6|admin-down|admin-down| 
+DEF1MU|Te0/3/1/7|admin-down|admin-down| 
+DEF1MU|Te0/3/1/8|admin-down|admin-down| 
+DEF1MU|Te0/3/1/9|admin-down|admin-down| 
+DEF1MU|Te0/3/1/10|admin-down|admin-down| 
+DEF1MU|Te0/3/1/11|admin-down|admin-down| 
+DEF1MU|Te0/3/1/12|admin-down|admin-down| 
+DEF1MU|Te0/3/1/13|admin-down|admin-down| 
+DEF1MU|Te0/3/1/14|admin-down|admin-down| 
+DEF1MU|Te0/3/1/15|admin-down|admin-down| 
+DEF1MU|Te0/3/1/16|admin-down|admin-down| 
+DEF1MU|Te0/3/1/17|admin-down|admin-down| 
+DEF1MU|Te0/3/1/18|admin-down|admin-down| 
+DEF1MU|Te0/3/1/19|admin-down|admin-down| 
+DEF1MU|Te0/4/1/0|up|up|Enlace 10G A MUS1NA_Te0/10/0/12 (Linea:13006516) - UPLINK BBIP
+DEF1MU|Te0/4/1/1|admin-down|admin-down| 
+DEF1MU|Te0/4/1/2|admin-down|admin-down| 
+DEF1MU|Te0/4/1/3|admin-down|admin-down| 
+DEF1MU|Te0/4/1/4|admin-down|admin-down| 
+DEF1MU|Te0/4/1/5|admin-down|admin-down| 
+DEF1MU|Te0/4/1/6|admin-down|admin-down| 
+DEF1MU|Te0/4/1/7|admin-down|admin-down| 
+DEF1MU|Te0/4/1/8|admin-down|admin-down| 
+DEF1MU|Te0/4/1/9|admin-down|admin-down| 
+DEF1MU|Te0/4/1/10|admin-down|admin-down| 
+DEF1MU|Te0/4/1/11|admin-down|admin-down| 
+DEF1MU|Te0/4/1/12|admin-down|admin-down| 
+DEF1MU|Te0/4/1/13|admin-down|admin-down| 
+DEF1MU|Te0/4/1/14|admin-down|admin-down| 
+DEF1MU|Te0/4/1/15|admin-down|admin-down| 
+DEF1MU|Te0/4/1/16|admin-down|admin-down| 
+DEF1MU|Te0/4/1/17|admin-down|admin-down| 
+DEF1MU|Te0/4/1/18|admin-down|admin-down| 
+DEF1MU|Te0/4/1/19|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/0|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/1|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/2|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/3|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/4|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/5|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/6|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/7|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/8|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/9|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/10|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/11|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/12|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/13|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/14|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/15|up|up|[ACCESO HSI][BE] DEF21D 7/2 Linea:13003488 
+DEF1MU|Gi0/7/0/16|up|up|[ACCESO HSI][BE] DEF31D 7/2  Linea:13003489
+DEF1MU|Gi0/7/0/17|up|up|[ACCESO HSI][BE] DEF11D 7/2 Linea:9702249
+DEF1MU|Gi0/7/0/18|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/19|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/20|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/21|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/22|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/23|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/24|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/25|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/26|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/27|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/28|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/29|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/30|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/31|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/32|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/33|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/34|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/35|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/36|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/37|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/38|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/39|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/40|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/41|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/42|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/43|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/44|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/45|admin-down|admin-down| 
+DEF1MU|Gi0/7/0/46|admin-down|admin-down| 
+
+

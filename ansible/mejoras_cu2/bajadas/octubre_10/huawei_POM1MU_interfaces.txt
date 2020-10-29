@@ -1,0 +1,46 @@
+shelfname|interface|portoperationalstate|protocol|info1
+POM1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+POM1MU|GE0/1/0|up|down|CONEXION A 1LPOM01 2BB_19 - CCP2M
+POM1MU|GE0/1/0.2338|up|up|UPLINK A CCP2MU Eth-Trunk8.2338 1
+POM1MU|GE0/1/0.2339|up|up|UPLINK A CCP2MU Eth-Trunk8.2339 1
+POM1MU|GE0/1/0.2340|up|up|UPLINK A CCP2MU Eth-Trunk8.2340 1
+POM1MU|GE0/1/0.2341|up|up|UPLINK A CCP2MU Eth-Trunk8.2341 1
+POM1MU|GE0/1/0.2342|up|up|UPLINK A CCP2MU Eth-Trunk8.2342 1
+POM1MU|GE0/1/0.2343|up|up|UPLINK A CCP2MU Eth-Trunk8.2343 1
+POM1MU|GE0/1/0.2344|up|up|UPLINK A CCP2MU Eth-Trunk8.2344 1
+POM1MU|GE0/1/0.2345|up|up|UPLINK A CCP2MU Eth-Trunk8.2345 1
+POM1MU|GE0/1/0.2346|up|up|UPLINK A CCP2MU Eth-Trunk8.2346 1
+POM1MU|GE0/1/0.2347|up|up|ATN950 POMAN Linea 70001440
+POM1MU|GE0/1/0.2359|up|up|UPLINK A CCP2MU Eth-Trunk8.2359 1
+POM1MU|GE0/1/1|up|down|eNODOB POMAN - A10-S019 (523181)
+POM1MU|GE0/1/1.1000|up|up|eNODOB - POMAN - A10-S019 - (1) (
+POM1MU|GE0/1/1.1001|up|up|eNODOB - POMAN - A10-S019 - (2) (
+POM1MU|GE0/1/1.1002|up|up|eNODOB - POMAN - A10-S019 - (3) (
+POM1MU|GE0/1/1.1003|up|up|NODOB - POMAN - A10-S019 - (1) (5
+POM1MU|GE0/1/1.1004|up|up|NODOB - POMAN - A10-S019 - (1) (5
+POM1MU|GE0/1/1.1007|up|up|eNODOB - POMAN - A10-S019_RSMVS -
+POM1MU|GE0/1/1.1008|up|up|eNODOB - POMAN - A10-S019_RSMVS -
+POM1MU|GE0/1/2|down|down|HUAWEI, GigabitEthernet0/1/2 Inte
+POM1MU|GE0/1/3|up|down|ADSL + NGN MA5600T POMG01 POMAN C
+POM1MU|GE0/1/3.1|up|up|HSI + NGN POMG01 - CCP1MB - LINEA
+POM1MU|GE0/1/3.2|up|up|SIGN. NGN MA5600T POMG01 - POMAN
+POM1MU|GE0/1/3.3|up|up|RTP NGN MA5600T POMG01 - POMAN CA
+POM1MU|GE0/1/3.4|up|up|GESTION NGN MA5600T POMG01 - POMA
+POM1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Inte
+POM1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Inte
+POM1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Inte
+POM1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Inte
+POM1MU|GE0/2/0|down|down|HUAWEI, GigabitEthernet0/2/0 Inte
+POM1MU|GE0/2/1|down|down|HUAWEI, GigabitEthernet0/2/1 Inte
+POM1MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Inte
+POM1MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Inte
+POM1MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Inte
+POM1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Inte
+POM1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Inte
+POM1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Inte
+POM1MU|GE0/3/0|down|down|HUAWEI, GigabitEthernet0/3/0 Inte
+POM1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Inte
+POM1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Inte
+POM1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Inte
+
+

@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SJV1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+SJV1MS|GigabitEthernet0/2/16|UP|UP|CONEXION A REC3MU Eth-trunk5.10181018 LINEA:80002172 DWSJV01
+SJV1MS|GigabitEthernet0/2/17|UP|UP|TIP INTERLINK S.R.L - Linea.5654556 - Ref.330865
+SJV1MS|GigabitEthernet0/2/18|UP|UP|CONEXION A SJV11G ADSL+G.-L:9703915
+SJV1MS|GigabitEthernet0/2/19|UP|UP|CONEXION REIP 1SSJV04_LAN4 - A07-S199 - A CACIQUE
+SJV1MS|GigabitEthernet0/2/20|UP|UP|CONEXION A SAN_JAVIER - REC3MU 3/0/1 - A07-S019
+SJV1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+SJV1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+SJV1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+SJV1MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+SJV1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+SJV1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+SJV1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+SJV1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+SJV1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+SJV1MS|Vlanif1018|UP|UP|HUAWEI, Vlanif1018 Interface
+
+

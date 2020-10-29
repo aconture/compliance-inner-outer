@@ -1,0 +1,207 @@
+shelfname|interface|portoperationalstate|protocol|info1
+RCR1MU|Eth-Trunk1|up|down|LAG PTN ALU 18RCR01_G15/02-G16/01
+RCR1MU|Eth-Trunk1.12012|up|up|VPN - CONMEGA A.C.E. - REF: 949321 - LINEA: 2870234 - ACC: 18FCL0-05-f06
+RCR1MU|Eth-Trunk2|up|down|LAG 1+1 RCR11D 13007134
+RCR1MU|Eth-Trunk2.2101|up|up|[GESTION] RCR11D ZTE 9800 [ADS2]
+RCR1MU|Eth-Trunk2.3101|up|up|[TOIP] RCR11D ZTE 9800 [ADS2]
+RCR1MU|Eth-Trunk2.3616|up|up|VPN Head Quarter - OBRA SOCIAL DE LOS EMPLEADOS PUBLICOS O S E P - Ref:226879 Lin:2705546 Acc:RCR11D-17-1
+RCR1MU|Eth-Trunk2.3617|up|up|VPN Head Quarter - CYRE - Ref:156927 Lin:2592978 Acc: RCR11D 17 2
+RCR1MU|Eth-Trunk2.3618|up|up|VPN Branch Office - BNA - Ref:539966 Lin:2752843 Acc:RCR11D Placa17 Port 03y04
+RCR1MU|Eth-Trunk2.3628|up|up|VPN GOLD - BNA - Ref 539817 - Linea: 2806884 Acc: RCR11D 0-1-17-13-14
+RCR1MU|Eth-Trunk2.3630|up|up|VPN GOLD por DSLAM con CNM - CONMEGA A.C.E. - Ref:743393 Lin:2837331 Acc:RECREO [RCR] RCR11D, 17/15-16 , V08
+RCR1MU|Eth-Trunk2.3644|up|up|VPN Head Quarter - INTA - Ref:533987 Lin:2748243 Acc:RCR11D/17/29y30 4H
+RCR1MU|Eth-Trunk2.3808|up|up|VPN Head Quarter - OBRA SOCIAL DE LOS EMPLEADOS PUBLICOS O S E P - Ref:226879 Lin:2705546 Acc:RCR11D-17-1 GE
+RCR1MU|Eth-Trunk2.3812|up|up|VPN Head Quarter - INTA - Ref:533987 Lin:2748243 Acc:RCR11D-17-5 GESTION XAVI
+RCR1MU|Eth-Trunk2.3814|up|up|IntegraLight - TEJADA HERMANOS S.R.L. - Ref:629235 - Lin:2788271 Acc:RCR11D SHDSL-1-1-17-7
+RCR1MU|Eth-Trunk2.3836|up|up|VPN Head Quarter - INTA - Ref:533987 Lin:2748243 Acc:RCR11D/17/29y30 4H gestion
+RCR1MU|Eth-Trunk2.4101|up|up|[DATOS] RCR11D ZTE 9800 [ADS2][L2]
+RCR1MU|GE0/0/0|down|down|
+RCR1MU|GE1/0/0|up|down|ARCOR RECREO - DDE-IP REF:612032 + INTEGRA REF:563755 + VPN (PRIMARIO) REF:274719 - LINEA: 2759588
+RCR1MU|GE1/0/0.2|up|up|VPN (PRIMARIO) - ARCOR RECREO - REF:274719 LINEA:2726648
+RCR1MU|GE1/0/0.3|up|up|INTEGRA - ARCOR RECREO - REF: 563755 - LINEA: 2759588
+RCR1MU|GE1/0/0.4|up|up|DDE-IP - ARCOR RECREO - REF: 612032 - LINEA: 2759588
+RCR1MU|GE1/0/1|up|down|ARCOR RECREO - VPN (SECUNDARIO) REF:274719 - LIN:2828201
+RCR1MU|GE1/0/1.2|up|up|ARCOR RECREO - VPN (SECUNDARIO) REF:274719 - LIN:2828201
+RCR1MU|GE1/0/2|down|down|eNODOB - QUIROS_A10-S069 (523182) (523232) (523215)
+RCR1MU|GE1/0/3|up|up|CONEXION 1/2 RCR11D HSI 9703744
+RCR1MU|GE1/0/4|down|down|
+RCR1MU|GE1/0/5|up|down|VPN PLATINUM - ARCOR RECREO - REF:681933 LIN:2815941
+RCR1MU|GE1/0/5.3|up|up|VPN PLATINUM - ARCOR RECREO - REF:681933 LIN:2815941
+RCR1MU|GE1/0/6|down|down|
+RCR1MU|GE1/0/7|down|down|
+RCR1MU|GE1/0/8|down|down|VPN - BNA - REF:941331 (ex539966) - LIN:2868241
+RCR1MU|GE1/0/9|down|down|
+RCR1MU|GE1/0/10|down|down|VPN PLATINUM - C.Y.R.E. S.A.C.I.F.I. E I. - REF: 944695 - LINEA: 2869084 - ACC: RCR1MU 1/0/10
+RCR1MU|GE1/0/10.2|down|down|VPN PLATINUM - C.Y.R.E. S.A.C.I.F.I. E I. - REF: 944695 - LINEA: 2869084 - ACC: RCR1MU 1/0/10
+RCR1MU|GE1/0/11|down|down|
+RCR1MU|GE1/0/12|down|down|VPN  - BNA - REF:941330 - LIN:2868231
+RCR1MU|GE1/0/13|down|down|
+RCR1MU|GE1/0/14|down|down|
+RCR1MU|GE1/0/15|down|down|
+RCR1MU|GE1/0/16|down|down|
+RCR1MU|GE1/0/17|down|down|
+RCR1MU|GE1/0/18|down|down|
+RCR1MU|GE1/0/19|down|down|
+RCR1MU|GE1/0/20|down|down|
+RCR1MU|GE1/0/21|down|down|
+RCR1MU|GE1/0/22|down|down|
+RCR1MU|GE1/0/23|down|down|
+RCR1MU|GE1/1/0|down|down|
+RCR1MU|GE1/1/1|up|down|eNODOB - RECREO_CENTRO_A10-S080 - (684814) (684811) (684812)
+RCR1MU|GE1/1/1.1000|up|up|eNODOB - RECREO_CENTRO_A10-S080 - (1) (684814) - S1
+RCR1MU|GE1/1/1.1001|up|up|eNODOB - RECREO_CENTRO_A10-S080 - (2) (684814) - S1MME
+RCR1MU|GE1/1/1.1002|up|up|eNODOB - RECREO_CENTRO_A10-S080 - (3) (684814) - GOMRAN
+RCR1MU|GE1/1/1.1003|up|up|NODOB - RECREO_CENTRO_A10-S080 - (1) (684811) - 3G
+RCR1MU|GE1/1/1.1004|up|up|NODOB - RECREO_CENTRO_A10-S080 - (1) (684812) - 2G
+RCR1MU|GE1/1/2|up|up|CONEXION 2/2 RCR11D HSI 13007134
+RCR1MU|GE1/1/3|down|down|
+RCR1MU|GE1/1/4|down|down|
+RCR1MU|GE1/1/5|down|down|
+RCR1MU|GE1/1/6|down|down|
+RCR1MU|GE1/1/7|down|down|
+RCR1MU|GE1/1/8|down|down|
+RCR1MU|GE1/1/9|down|down|
+RCR1MU|GE1/1/10|down|down|
+RCR1MU|GE1/1/11|down|down|
+RCR1MU|GE1/1/12|down|down|
+RCR1MU|GE1/1/13|down|down|
+RCR1MU|GE1/1/14|down|down|
+RCR1MU|GE1/1/15|down|down|
+RCR1MU|GE1/1/16|down|down|
+RCR1MU|GE1/1/17|down|down|
+RCR1MU|GE1/1/18|down|down|
+RCR1MU|GE1/1/19|down|down|
+RCR1MU|GE1/1/20|down|down|
+RCR1MU|GE1/1/21|down|down|
+RCR1MU|GE1/1/22|down|down|
+RCR1MU|GE1/1/23|down|down|
+RCR1MU|GE2/0/0(10G)|up|up|Enlace 10G DWDM MUS1NA_G0/0/0/20  Linea:13004947 - UPLINK MSBNG
+RCR1MU|GE2/0/1(10G)|up|up|Enlace 10G DWDM MUS1NA_G0/0/0/21  Linea:13004948 - UPLINK MSBNG
+RCR1MU|GE2/1/0|down|down|
+RCR1MU|GE2/1/1|down|down|
+RCR1MU|GE2/1/2|down|down|
+RCR1MU|GE2/1/3|down|down|
+RCR1MU|GE2/1/4|down|down|
+RCR1MU|GE2/1/5|down|down|
+RCR1MU|GE2/1/6|down|down|
+RCR1MU|GE2/1/7|down|down|
+RCR1MU|GE2/1/8|down|down|
+RCR1MU|GE2/1/9|down|down|
+RCR1MU|GE2/1/10|down|down|
+RCR1MU|GE2/1/11|down|down|
+RCR1MU|GE2/1/12|down|down|
+RCR1MU|GE2/1/13|down|down|
+RCR1MU|GE2/1/14|down|down|
+RCR1MU|GE2/1/15|down|down|
+RCR1MU|GE2/1/16|down|down|
+RCR1MU|GE2/1/17|down|down|
+RCR1MU|GE2/1/18|down|down|
+RCR1MU|GE2/1/19|down|down|
+RCR1MU|GE2/1/20|down|down|
+RCR1MU|GE2/1/21|down|down|
+RCR1MU|GE2/1/22|down|down|
+RCR1MU|GE2/1/23|down|down|
+RCR1MU|GE3/0/0(10G)|up|up|CONEXION PTN ALU 18RCR01_G15/02 Linea:13007056
+RCR1MU|GE3/0/1(10G)|down|down|
+RCR1MU|GE3/1/0|down|down|
+RCR1MU|GE3/1/1|down|down|
+RCR1MU|GE3/1/2|down|down|
+RCR1MU|GE3/1/3|down|down|
+RCR1MU|GE3/1/4|down|down|
+RCR1MU|GE3/1/5|down|down|
+RCR1MU|GE3/1/6|down|down|
+RCR1MU|GE3/1/7|down|down|
+RCR1MU|GE3/1/8|down|down|
+RCR1MU|GE3/1/9|down|down|
+RCR1MU|GE3/1/10|down|down|
+RCR1MU|GE3/1/11|down|down|
+RCR1MU|GE3/1/12|down|down|
+RCR1MU|GE3/1/13|down|down|
+RCR1MU|GE3/1/14|down|down|
+RCR1MU|GE3/1/15|down|down|
+RCR1MU|GE3/1/16|down|down|
+RCR1MU|GE3/1/17|down|down|
+RCR1MU|GE3/1/18|down|down|
+RCR1MU|GE3/1/19|down|down|
+RCR1MU|GE3/1/20|down|down|
+RCR1MU|GE3/1/21|down|down|
+RCR1MU|GE3/1/22|down|down|
+RCR1MU|GE3/1/23|down|down|
+RCR1MU|GE4/1/0(10G)|up|up|CONEXION PTN ALU 18RCR01_G16/01 Linea:13007057
+RCR1MU|GE4/1/1(10G)|down|down|
+RCR1MU|GE4/1/2(10G)|down|down|
+RCR1MU|GE4/1/3(10G)|down|down|
+RCR1MU|GE4/1/4(10G)|down|down|
+RCR1MU|GE4/1/5(10G)|down|down|
+RCR1MU|GE4/1/6(10G)|down|down|
+RCR1MU|GE4/1/7(10G)|down|down|
+RCR1MU|GE4/1/8(10G)|down|down|
+RCR1MU|GE4/1/9(10G)|down|down|
+RCR1MU|GE5/1/0(10G)|down|down|
+RCR1MU|GE5/1/1(10G)|down|down|
+RCR1MU|GE5/1/2(10G)|down|down|
+RCR1MU|GE5/1/3(10G)|down|down|
+RCR1MU|GE5/1/4(10G)|down|down|
+RCR1MU|GE5/1/5(10G)|down|down|
+RCR1MU|GE5/1/6(10G)|down|down|
+RCR1MU|GE5/1/7(10G)|down|down|
+RCR1MU|GE5/1/8(10G)|down|down|
+RCR1MU|GE5/1/9(10G)|down|down|
+RCR1MU|GE6/0/0(10G)|down|down|
+RCR1MU|GE6/0/1(10G)|down|down|
+RCR1MU|GE6/1/0|down|down|
+RCR1MU|GE6/1/1|down|down|
+RCR1MU|GE6/1/2|down|down|
+RCR1MU|GE6/1/3|down|down|
+RCR1MU|GE6/1/4|down|down|
+RCR1MU|GE6/1/5|down|down|
+RCR1MU|GE6/1/6|down|down|
+RCR1MU|GE6/1/7|down|down|
+RCR1MU|GE6/1/8|down|down|
+RCR1MU|GE6/1/9|down|down|
+RCR1MU|GE6/1/10|down|down|
+RCR1MU|GE6/1/11|down|down|
+RCR1MU|GE6/1/12|down|down|
+RCR1MU|GE6/1/13|down|down|
+RCR1MU|GE6/1/14|down|down|
+RCR1MU|GE6/1/15|down|down|
+RCR1MU|GE6/1/16|down|down|
+RCR1MU|GE6/1/17|down|down|
+RCR1MU|GE6/1/18|down|down|
+RCR1MU|GE6/1/19|down|down|
+RCR1MU|GE6/1/20|down|down|
+RCR1MU|GE6/1/21|down|down|
+RCR1MU|GE6/1/22|down|down|
+RCR1MU|GE6/1/23|down|down|
+RCR1MU|GE7/0/0(10G)|up|up|TRK:ENLACE:CEN1NA(Te0/10/0/0) Linea:13004949 FO
+RCR1MU|GE7/0/1(10G)|up|up|TRK:ENLACE:CEN1NA(Te0/10/0/1  Linea:13004950 FO
+RCR1MU|GE7/1/0|down|down|
+RCR1MU|GE7/1/1|down|down|
+RCR1MU|GE7/1/2|down|down|
+RCR1MU|GE7/1/3|down|down|
+RCR1MU|GE7/1/4|down|down|
+RCR1MU|GE7/1/5|down|down|
+RCR1MU|GE7/1/6|down|down|
+RCR1MU|GE7/1/7|down|down|
+RCR1MU|GE7/1/8|down|down|
+RCR1MU|GE7/1/9|down|down|
+RCR1MU|GE7/1/10|down|down|
+RCR1MU|GE7/1/11|down|down|
+RCR1MU|GE7/1/12|down|down|
+RCR1MU|GE7/1/13|down|down|
+RCR1MU|GE7/1/14|down|down|
+RCR1MU|GE7/1/15|down|down|
+RCR1MU|GE7/1/16|down|down|
+RCR1MU|GE7/1/17|down|down|
+RCR1MU|GE7/1/18|down|down|
+RCR1MU|GE7/1/19|down|down|
+RCR1MU|GE7/1/20|down|down|
+RCR1MU|GE7/1/21|down|down|
+RCR1MU|GE7/1/22|down|down|
+RCR1MU|GE7/1/23|down|down|
+RCR1MU|VE1/0/1|up|down|
+RCR1MU|VE1/0/1.300|up|up|[DATOS] RCR11D ZTE 9800 [ADS2][L3]
+RCR1MU|VE1/0/100|up|down|
+RCR1MU|VE1/0/100.300|up|up|[DATOS] RCR11D ZTE 9800 [ADS2][L2]
+
+

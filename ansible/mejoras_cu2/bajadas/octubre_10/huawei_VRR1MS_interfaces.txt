@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+VRR1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+VRR1MS|GigabitEthernet0/2/0|UP|UP|GESTION ATN910I V.D. MARIA DE RIO SECO - VRR1MS - Linea 70001158 (DWVRR01 19/1) - CEN4MU Eth-trunk1.1229
+VRR1MS|GigabitEthernet0/2/1|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/1 Interface
+VRR1MS|GigabitEthernet0/2/2|UP|UP|TIPCEBALLOS_Ref:402666_Lin5648339_GesTECO
+VRR1MS|GigabitEthernet0/2/3|UP|UP|TIP_TIPCOLSECORVDM(5649864)REFE:402676_Ges.TECO
+VRR1MS|GigabitEthernet0/2/4|UP|UP|eNODOB - VILLA_DE_MARIA_REP - CEN4MU 3/0/1 - A03-S038
+VRR1MS|GigabitEthernet0/2/5|UP|UP|VPN - INTA - Ref:784067_GesTECO
+VRR1MS|GigabitEthernet0/2/6|DOWN|DOWN|eNODOB - Villa_de_Maria_de_Rio_Seco_Central - BBU_VDM - (1) (942905)
+VRR1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+VRR1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+VRR1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+VRR1MS|GigabitEthernet0/2/10|UP|UP|GESTION RECT ELTEK Linea:70000406
+VRR1MS|GigabitEthernet0/2/11|UP|UP|GESTION TX RE-IP VILLA_DE_MARIA_DE_RIO_SECO_ Linea:70000406_1RVRR01-1DVRR01
+VRR1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+VRR1MS|Vlanif1229|UP|UP|HUAWEI, Vlanif1229 Interface
+
+

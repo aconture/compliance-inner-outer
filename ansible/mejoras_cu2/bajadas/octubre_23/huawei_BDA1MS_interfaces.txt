@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+BDA1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+BDA1MS|GigabitEthernet0/2/0|UP|UP|VPN - SYK S.A. - Ref:682242 - Lin:2816269 - POS3MU Eth-Trunk 13.23050002 2
+BDA1MS|GigabitEthernet0/2/1|UP|UP|SUP TRIB JUST GOB CORRIENTES - Ref:715132
+BDA1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+BDA1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+BDA1MS|GigabitEthernet0/2/4|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+BDA1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+BDA1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+BDA1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+BDA1MS|GigabitEthernet0/2/8|UP|UP|CONEXION A REIP 1SBDA01 - POS1MB BE1000.1202 - Linea.80002316
+BDA1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+BDA1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+BDA1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+BDA1MS|LoopBack1023|UP|UP|DCN loopback interface
+BDA1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+BDA1MS|Vlanif1202|UP|UP|HUAWEI, Vlanif1202 Interface
+
+

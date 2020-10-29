@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+TIN1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+TIN1MS|GigabitEthernet0/2/16|UP|UP|CONEXION A RADIO DRAGON WAVE DWTIN01/2BB_19/02 Linea:70001033
+TIN1MS|GigabitEthernet0/2/17|UP|UP|TIP_TIPINTERLINKTIN(5670526)REFE:402903_Ges.TECO
+TIN1MS|GigabitEthernet0/2/18|UP|UP|TINTINA - A12-S024
+TIN1MS|GigabitEthernet0/2/19|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/19 Interface
+TIN1MS|GigabitEthernet0/2/20|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/20 Interface
+TIN1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+TIN1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+TIN1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+TIN1MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+TIN1MS|GigabitEthernet0/2/25|UP|UP|Integra - M S U S A - Ref: 709267 Lin: 2817698 BBIP:SDE4MU Eth-Trunk20.15150074
+TIN1MS|GigabitEthernet0/2/26|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+TIN1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+TIN1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+TIN1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+TIN1MS|Vlanif1255|UP|UP|GESTION - SDE4MU Eth-Trunk 20.1255 - Linea.70001033
+
+

@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+POM1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+POM1MS|GigabitEthernet0/2/0|UP|UP|Integra 4M OLIVARES DEL SOL SA Ref: 747276 Lin: 2838957
+POM1MS|GigabitEthernet0/2/1|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/1 Interface
+POM1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+POM1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+POM1MS|GigabitEthernet0/2/4|UP|UP|CONEXION A RE 1WPOM01_IDU06 - CTM3MU Eth-trunk11.1250 - LINEA.13004767
+POM1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+POM1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+POM1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+POM1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+POM1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+POM1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+POM1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+POM1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+POM1MS|Vlanif1250|UP|UP|VLAN_GESTION_CTM3MU_Eth-trunk11.1250_LINEA.13004767
+
+

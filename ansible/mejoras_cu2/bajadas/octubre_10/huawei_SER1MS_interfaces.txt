@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SER1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+SER1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A RCU3MU Eth-trunk5.1203 - SVLAN: 1203 - LINEA:70001156 - DWSER01 - 2BB_19/2
+SER1MS|GigabitEthernet0/2/1|UP|UP|CONEXION a 1SSER01_IDU/01/21 LAN3
+SER1MS|GigabitEthernet0/2/2|UP|UP|eNODOB - SERRANO - RCU3MU 1/0/1 - A01-S011
+SER1MS|GigabitEthernet0/2/3|UP|UP|eNODOB - SANTA_MAGDALENA - RCU3MU 1/0/1 - A01-S003
+SER1MS|GigabitEthernet0/2/4|UP|UP|eNODOB - SAN_JOAQUIN - RCU3MU 1/0/1 - A01-S106
+SER1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+SER1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+SER1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+SER1MS|GigabitEthernet0/2/8|UP|UP|GestionTX Serrano lin 70000433 a RCU4MU
+SER1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+SER1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+SER1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+SER1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+SER1MS|Vlanif1203|UP|UP|GESTION - RCU3MU Eth-trunk5.1203 - LINEA:70001156
+
+

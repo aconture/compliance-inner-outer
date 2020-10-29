@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+FOL1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+FOL1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A REC3MU Eth-Trunk6.1230.1230 REIP RE LH FORTIN OLMOS  VERA - Linea:80002399
+FOL1MS|GigabitEthernet0/2/1|UP|UP|HUAWEI, GigabitEthernet0/2/1 Interface
+FOL1MS|GigabitEthernet0/2/2|UP|UP|HUAWEI, GigabitEthernet0/2/2 Interface
+FOL1MS|GigabitEthernet0/2/3|UP|UP|HUAWEI, GigabitEthernet0/2/3 Interface
+FOL1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+FOL1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+FOL1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+FOL1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+FOL1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+FOL1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+FOL1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+FOL1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+FOL1MS|LoopBack1023|UP|UP|DCN loopback interface
+FOL1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+FOL1MS|Vlanif1230|UP|UP|VLAN_GESTION REC3MU Eth-Trunk6.1230.1230 - Linea:80002399
+
+

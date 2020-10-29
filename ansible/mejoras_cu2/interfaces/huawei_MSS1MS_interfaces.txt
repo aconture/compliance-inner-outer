@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+MSS1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+MSS1MS|GigabitEthernet0/2/0|UP|UP|TIP_TIPCOOPMASUMSS(2825585)REFE:718976_Ges.TECO
+MSS1MS|GigabitEthernet0/2/1|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/1 Interface
+MSS1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+MSS1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+MSS1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+MSS1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+MSS1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+MSS1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+MSS1MS|GigabitEthernet0/2/8|UP|UP|CONEXION A 1SETB02 - ETB1MD Gi2/0/4 - RSC1MB BE1000.4093 - Linea.80002213
+MSS1MS|GigabitEthernet0/2/9|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+MSS1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+MSS1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+MSS1MS|LoopBack1023|UP|UP|DCN loopback interface
+MSS1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+MSS1MS|Vlanif4093|UP|UP|HUAWEI, Vlanif4093 Interface
+
+

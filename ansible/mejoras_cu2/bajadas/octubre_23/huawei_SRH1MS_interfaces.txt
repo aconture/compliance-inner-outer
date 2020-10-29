@@ -1,0 +1,21 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SRH1MS|DCN-Serial0/2/0:0|DOWN|DOWN|HUAWEI, DCN-Serial0/2/0:0 Interface
+SRH1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+SRH1MS|GigabitEthernet0/2/16|UP|UP|CONEXION A REIP DRAGON WAVE DWSRH01 - SFE1MB BE1000.1017 - Linea:80002171
+SRH1MS|GigabitEthernet0/2/17|UP|UP|NGN - SANTA ROSA DE CALCHINES -SRHG01- Linea 11000082
+SRH1MS|GigabitEthernet0/2/18|UP|UP|SANTA_ROSA_DE_CALCHINES - SFE1MB 0/0/1/2 - A07-S011
+SRH1MS|GigabitEthernet0/2/19|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/19 Interface
+SRH1MS|GigabitEthernet0/2/20|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/20 Interface
+SRH1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+SRH1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+SRH1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+SRH1MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+SRH1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+SRH1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+SRH1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+SRH1MS|LoopBack1023|UP|UP|DCN loopback interface
+SRH1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+SRH1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+SRH1MS|Vlanif1017|UP|UP|HUAWEI, Vlanif1017 Interface
+
+

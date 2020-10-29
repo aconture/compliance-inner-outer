@@ -1,0 +1,8 @@
+---
+- name: Render Template Huawei ATN910
+  template:
+    src: ../jinja/atn910_jinja.j2
+    dest: "../interfaces/huawei_{{ inventory_hostname }}_interfaces.txt"
+  when:
+    - vendor=="HUAWEI"
+    - model=="ATN910"

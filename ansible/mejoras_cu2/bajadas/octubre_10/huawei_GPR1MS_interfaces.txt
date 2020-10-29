@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+GPR1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+GPR1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A REIP DRAGON WAVE DWGPR01 - 2BB_19/2 - COE2MB - TenGigE0/2/0/6.681036 - Linea.70001162
+GPR1MS|GigabitEthernet0/2/1|UP|UP|eNODOB - TANTI - A03-S142 - (522629) NODOB (508210)(520490)
+GPR1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+GPR1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+GPR1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+GPR1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+GPR1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+GPR1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+GPR1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+GPR1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+GPR1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+GPR1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+GPR1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+GPR1MS|Vlanif1036|UP|UP|GESTION - COE2MB - TenGigE0/2/0/6.681036 - Linea.70001162
+
+

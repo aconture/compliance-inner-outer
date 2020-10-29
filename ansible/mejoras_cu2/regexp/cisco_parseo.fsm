@@ -1,0 +1,8 @@
+Value PORT (\S+)
+Value STATUS (up|down|admin.down)
+Value PROTOCOL (up|down|admin.down)
+Value DESCRIP (.+)
+
+Start
+  ^${PORT}\s+${STATUS}\s+${PROTOCOL}\s+${DESCRIP} -> Record
+

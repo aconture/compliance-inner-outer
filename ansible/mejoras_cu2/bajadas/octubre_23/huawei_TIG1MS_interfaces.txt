@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+TIG1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+TIG1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A REIP DRAGON WAVE DWTIG01 19/2 - CCP2MU Eth-trunk2 - Linea:70001091
+TIG1MS|GigabitEthernet0/2/1|DOWN|DOWN|ADSL + G. TIG11D - Linea 9704731
+TIG1MS|GigabitEthernet0/2/2|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+TIG1MS|GigabitEthernet0/2/3|DOWN|DOWN|ACCESO_NGN_TIGG01_TINOGASTA_13002231
+TIG1MS|GigabitEthernet0/2/4|DOWN|DOWN|ACCESO_NGN_TIGH01_TINOGASTA_CATAMARCA_13002521
+TIG1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+TIG1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+TIG1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+TIG1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+TIG1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+TIG1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+TIG1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+TIG1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+TIG1MS|Vlanif1038|UP|UP|GESTION - CCP2MU Eth-trunk2 - Linea:70001091
+
+

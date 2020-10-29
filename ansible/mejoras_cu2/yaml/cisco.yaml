@@ -1,0 +1,27 @@
+---
+########################################################################################################
+#Descripcion: Este playbook entra a equipos de datos Cisco definidos previamente en el archivo inventory
+#             Cisco y ejecuta el comando show int para extraer estado y descripcion de las interfaces. 
+#		Luego lo parsea por FSM. Por cada equipo alcanzado, imprime los datos obtenidos en
+#		un archivo txt y los almacena en el directorio InterfaceTxT.
+#Entradas: 	NE declarados en el archivo de hosts inventory_agg.
+#Salidas:	Archivo txt por cada NE alcanzado, con informacion de sus interfaces.
+#Autor: 	Federico E. Cocca, Carlos Javier Pepe
+#Fecha Creacion: 16/12/19
+#Fecha Modificacion: 13/01/20 --> Inclusion ATN en inventory
+#                    28/02/20 --> Ajustes del archivo inventory, total 488 equipos   
+########################################################################################################
+
+- name: ASR SHOW INTERFACES
+  cli_command:
+    command: "{{ comando_cisco }}"
+  register: command_output_cisco
+  ignore_errors: true
+  when: vendor=="CISCO"
+
+- debug:
+    msg: "Fallo Loggeo"
+  when:
+    - command_output_cisco is failed
+    - command_output_cisco is search("authentic")
+

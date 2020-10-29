@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+CXP1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+CXP1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A  RE 1ECXP01 SEZ1MU Eth-trunk1.1200 - Linea.70001406
+CXP1MS|GigabitEthernet0/2/1|UP|UP|Acc INTEGRA UNIVERSIDAD NACIONAL DE LA RIOJA Refe 534593 Linea 2812953
+CXP1MS|GigabitEthernet0/2/2|UP|UP|NODOB eNODOB - CHEPES - A09-S033
+CXP1MS|GigabitEthernet0/2/3|UP|UP|REF(402848)_INTERNET_SERVICES CHEPES LINEA 5666922
+CXP1MS|GigabitEthernet0/2/4|UP|UP|VPN - INTA - Ref:784202 - lin:2847674 - SEZ1MU Eth-Trunk 10.12010002
+CXP1MS|GigabitEthernet0/2/5|UP|UP|ADSL CXPM01 - CHEPES - HW5600T - 11005579
+CXP1MS|GigabitEthernet0/2/6|UP|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+CXP1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+CXP1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+CXP1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+CXP1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+CXP1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+CXP1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+CXP1MS|Vlanif1200|UP|UP|VLAN_GESTION_SEZ1MU Eth-trunk1.1200 - Linea.70001406
+CXP1MS|Vlanif1548|UP|UP|HUAWEI, Vlanif1548 Interface
+
+

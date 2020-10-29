@@ -1,0 +1,42 @@
+shelfname|interface|portoperationalstate|protocol|info1
+ACT1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+ACT1MU|GE0/1/0|up|down|CONEXION A 1PACT01 - Linea:13006097
+ACT1MU|GE0/1/0.1241|up|up|UPLINK A CTM3MU GigabitEthernet1.1241 1PACT01 - SDH HUAWEI
+ACT1MU|GE0/1/0.1242|up|up|UPLINK A CTM3MU GigabitEthernet1.1242 1PACT01 - 2G
+ACT1MU|GE0/1/0.1243|up|up|UPLINK A CTM3MU GigabitEthernet1.1243 1PACT01 - 3G
+ACT1MU|GE0/1/0.1244|up|up|UPLINK A CTM3MU GigabitEthernet1.1244 1PACT01 - S1
+ACT1MU|GE0/1/0.1245|up|up|UPLINK A CTM3MU GigabitEthernet1.1245 1PACT01 - S1MME
+ACT1MU|GE0/1/0.1246|up|up|UPLINK A CTM3MU GigabitEthernet1.1246 1PACT01 - GOMRAN
+ACT1MU|GE0/1/0.1247|up|up|UPLINK A CTM3MU GigabitEthernet1.1247 1PACT01 - NGN
+ACT1MU|GE0/1/0.1248|up|up|UPLINK A CTM3MU GigabitEthernet1.1248 1PACT01 - POPUSA
+ACT1MU|GE0/1/0.1249|up|up|UPLINK A CTM3MU GigabitEthernet1.1249 1PACT01 - DCN-GESTION
+ACT1MU|GE0/1/0.1250|up|up|GESTION CTM3MU GigabitEthernet1.1250 - Linea:13006097
+ACT1MU|GE0/1/1|up|down|eNODOB CATAMARCA_AEROPUERTO - A10-S041 (432013) NODOB (756455) (756692)
+ACT1MU|GE0/1/1.1003|up|up|NODOB - CATAMARCA_AEROPUERTO - A10-S041 - (1) (756455) - 3G
+ACT1MU|GE0/1/1.1004|up|up|NODOB - CATAMARCA_AEROPUERTO - A10-S041- (1) (756692) - 2G
+ACT1MU|GE0/1/1.1200|up|up|eNODOB - CATAMARCA_AEROPUERTO - A10-S041 - (1) (432013) - S1
+ACT1MU|GE0/1/1.1201|up|up|eNODOB - CATAMARCA_AEROPUERTO - A10-S041 - (2) (432013) - S1MME
+ACT1MU|GE0/1/1.1202|up|up|eNODOB - CATAMARCA_AEROPUERTO - A10-S041 - (3) (432013) - GOMRAN
+ACT1MU|GE0/1/2|up|down|Integra Ref:778506  Lin:2844656 -Integra ref:682280 -  Integra  ref: 949509-Acc: 1PACT01_IDU/01/21ETH
+ACT1MU|GE0/1/2.2|up|up|Integra A2000 - Ref:778506 - Lin:2844656 Acc: 1PACT01_IDU/01/21ETHCTM1MB PW-Ether 103.2
+ACT1MU|GE0/1/2.7|up|up|Integra PFA - Ref:949509 - Lin:2870454 Acc: 1PACT01_IDU/01/21ETH -CTM1MB PW-Ether 113.7
+ACT1MU|GE0/1/2.200|up|up|Integra ref:682280
+ACT1MU|GE0/1/3|down|down|HUAWEI, GigabitEthernet0/1/3 Interface
+ACT1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Interface
+ACT1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Interface
+ACT1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Interface
+ACT1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Interface
+ACT1MU|GE0/2/0|down|down|HUAWEI, GigabitEthernet0/2/0 Interface
+ACT1MU|GE0/2/1|down|down|HUAWEI, GigabitEthernet0/2/1 Interface
+ACT1MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Interface
+ACT1MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Interface
+ACT1MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Interface
+ACT1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Interface
+ACT1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Interface
+ACT1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Interface
+ACT1MU|GE0/3/0|up|down|HUAWEI, GigabitEthernet0/3/0 Interface
+ACT1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Interface
+ACT1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Interface
+ACT1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Interface
+
+

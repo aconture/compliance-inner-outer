@@ -1,0 +1,42 @@
+shelfname|interface|portoperationalstate|protocol|info1
+AED1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+AED1MU|GE0/1/0|down|down|HUAWEI, GigabitEthernet0/1/0 Inte
+AED1MU|GE0/1/1|up|down|VPN - DNM - REF: 940780 - LINEA:
+AED1MU|GE0/1/1.2|up|up|VPN - DNM - REF: 940780 - LINEA:
+AED1MU|GE0/1/2|down|down|INTEGRA - CAPABILIA S.A. - REF: 9
+AED1MU|GE0/1/2.713|down|down|INTEGRA - CAPABILIA S.A. - REF: 9
+AED1MU|GE0/1/3|down|down|HUAWEI, GigabitEthernet0/1/3 Inte
+AED1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Inte
+AED1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Inte
+AED1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Inte
+AED1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Inte
+AED1MU|GE0/2/0|up|down|ATN950 AEROPUERTO CORDOBA LIN.: 1
+AED1MU|GE0/2/0.1240|up|up|UPLINK A SBM2MU GigabitEthernet 8
+AED1MU|GE0/2/0.1241|up|up|UPLINK A SBM2MU GigabitEthernet 8
+AED1MU|GE0/2/0.1242|up|up|UPLINK A SBM2MU GigabitEthernet 8
+AED1MU|GE0/2/0.1243|up|up|UPLINK A SBM2MU GigabitEthernet 8
+AED1MU|GE0/2/0.1244|up|up|UPLINK A SBM2MU GigabitEthernet 8
+AED1MU|GE0/2/0.1245|up|up|UPLINK A SBM2MU GigabitEthernet 8
+AED1MU|GE0/2/0.1246|up|up|UPLINK A SBM2MU GigabitEthernet 8
+AED1MU|GE0/2/0.1247|up|up|UPLINK A SBM2MU GigabitEthernet 8
+AED1MU|GE0/2/0.1248|up|up|UPLINK A SBM2MU GigabitEthernet 8
+AED1MU|GE0/2/0.1250|up|up|GESTION SBM2MU GigabitEthernet8/1
+AED1MU|GE0/2/0.1270|up|up|PRUEBA
+AED1MU|GE0/2/1|up|down|INTEGRA INTERBAIRES REF:601723 LI
+AED1MU|GE0/2/1.4|up|up|INTEGRA - INTERBAIRES S.A. - REF:
+AED1MU|GE0/2/1.5|up|up|INTEGRA - INTERBAIRES S.A. - REF:
+AED1MU|GE0/2/2|up|down|INTEGRA - NORWEGIAN AIR ARG SAU -
+AED1MU|GE0/2/2.2|up|up|INTEGRA - NORWEGIAN AIR ARG SAU -
+AED1MU|GE0/2/3|down|down|Integra - FABRICA ARGENTINA DE AV
+AED1MU|GE0/2/3.10|down|down|Integra - FABRICA ARGENTINA DE AV
+AED1MU|GE0/2/4|up|down|INTEGRA - INTERCARGO - REF: 79365
+AED1MU|GE0/2/4.2|up|up|INTEGRA - INTERCARGO - REF: 79365
+AED1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Inte
+AED1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Inte
+AED1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Inte
+AED1MU|GE0/3/0|down|down|HUAWEI, GigabitEthernet0/3/0 Inte
+AED1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Inte
+AED1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Inte
+AED1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Inte
+
+

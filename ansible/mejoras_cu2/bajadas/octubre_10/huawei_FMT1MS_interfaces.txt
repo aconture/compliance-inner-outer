@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+FMT1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+FMT1MS|GigabitEthernet0/2/16|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/16 Interface
+FMT1MS|GigabitEthernet0/2/17|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/17 Interface
+FMT1MS|GigabitEthernet0/2/18|DOWN|DOWN|INTEGRA - CONFECAT SA - REF: 949858 - LINEA: 2870400 - ACC: FMT1MS 0/2/18
+FMT1MS|GigabitEthernet0/2/19|DOWN|DOWN|INTEGRA - GAITAN CESAR ALEJANDRO - REF.710349 - L.2818289 - ACC:CHI2MU 4/0/0.15010002
+FMT1MS|GigabitEthernet0/2/20|UP|UP|FMTM01 - FAMATINA - 11005583 - ACC : CHI2MU 4/0/0
+FMT1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+FMT1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+FMT1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+FMT1MS|GigabitEthernet0/2/24|UP|UP|CONEXION A 1WFMT01_S4_P3 - CHI2MU 4/0/0 - Linea.13003682 - PUERTO ELECTRICO
+FMT1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+FMT1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+FMT1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+FMT1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+FMT1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+FMT1MS|Vlanif1201|UP|UP|VLAN_GESTION_CHI2MU4/0/0.1201 - Linea.13003682
+
+

@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+HEL1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+HEL1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A 1EHEL01_IDU - SFE1MB BE1000.1018 - Linea.80002374
+HEL1MS|GigabitEthernet0/2/1|UP|UP|INTEGRA - CABLE IMAGEN HELVECIA - 774722 - LINEA:2842353 - acc: SFE3MU Eth-Trunk 4.22010008
+HEL1MS|GigabitEthernet0/2/2|UP|UP|VPN - MINISTERIO DE GOBIERNO Y REFORMA DEL ESTADO SANTA FE - Ref:668570 - L:2808346
+HEL1MS|GigabitEthernet0/2/3|UP|UP|VPN PLATINUM - PODER JUDICIAL DE SANTA F - Ref 777931 - Lin 2844196 - Acc HEL1MS 0/2/3
+HEL1MS|GigabitEthernet0/2/4|UP|UP|CONEXION A eNODOB_HELVECIA_A07-S010
+HEL1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+HEL1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+HEL1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+HEL1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+HEL1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+HEL1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+HEL1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+HEL1MS|LoopBack1023|UP|UP|DCN loopback interface
+HEL1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+HEL1MS|Vlanif1018|UP|UP|VLAN_GESTION_SFE1MB BE1000.1018 - Linea.80002374
+
+

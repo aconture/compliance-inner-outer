@@ -1,0 +1,35 @@
+shelfname|interface|portoperationalstate|protocol|info1
+NDJ1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+NDJ1MU|GE0/1/0|up|down|VPN Platinum REFE : 876303 Linea
+NDJ1MU|GE0/1/0.2|up|up|VPN Platinum REFE : 876303 Linea
+NDJ1MU|GE0/1/1|down|down|HUAWEI, GigabitEthernet0/1/1 Inte
+NDJ1MU|GE0/1/2|down|down|HUAWEI, GigabitEthernet0/1/2 Inte
+NDJ1MU|GE0/1/3|down|down|HUAWEI, GigabitEthernet0/1/3 Inte
+NDJ1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Inte
+NDJ1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Inte
+NDJ1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Inte
+NDJ1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Inte
+NDJ1MU|GE0/2/0|down|down|HUAWEI, GigabitEthernet0/2/0 Inte
+NDJ1MU|GE0/2/1|down|down|HUAWEI, GigabitEthernet0/2/1 Inte
+NDJ1MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Inte
+NDJ1MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Inte
+NDJ1MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Inte
+NDJ1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Inte
+NDJ1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Inte
+NDJ1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Inte
+NDJ1MU|GE0/3/0|up|down|CONEXION A DWGOY01 - Linea:800024
+NDJ1MU|GE0/3/0.1205|up|up|GESTION GOY3MU GigabitEthernet4/0
+NDJ1MU|GE0/3/0.1206|up|up|UPLINK A GOY3MU Bundle-Ether4/0/8
+NDJ1MU|GE0/3/0.1207|up|up|UPLINK A GOY3MU Bundle-Ether4/0/8
+NDJ1MU|GE0/3/0.1208|up|up|UPLINK A GOY3MU Bundle-Ether4/0/8
+NDJ1MU|GE0/3/0.1209|up|up|UPLINK A GOY3MU Bundle-Ether4/0/8
+NDJ1MU|GE0/3/0.1210|up|up|UPLINK A GOY3MU Bundle-Ether4/0/8
+NDJ1MU|GE0/3/0.1212|up|up|UPLINK A GOY3MU Bundle-Ether4/0/8
+NDJ1MU|GE0/3/0.1213|up|up|UPLINK A GOY3MU Bundle-Ether4/0/8
+NDJ1MU|GE0/3/0.1214|up|up|UPLINK A GOY3MU Bundle-Ether4/0/8
+NDJ1MU|GE0/3/0.1215|up|up|UPLINK A GOY3MU Bundle-Ether4/0/8
+NDJ1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Inte
+NDJ1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Inte
+NDJ1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Inte
+
+

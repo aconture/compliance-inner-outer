@@ -1,0 +1,39 @@
+shelfname|interface|portoperationalstate|protocol|info1
+PZB1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+PZB1MU|GE0/1/0|up|down|CONEXION A 1LPZB01_2BB_19 - Linea.80002396
+PZB1MU|GE0/1/0.1221|up|up|UPLINK A ANA2MU Eth-trunk3.1221 1LPZB01_2BB_19 - DCN-GESTION
+PZB1MU|GE0/1/0.1222|up|up|UPLINK A ANA2MU Eth-trunk3.1222 1LPZB01_2BB_19 - 2G
+PZB1MU|GE0/1/0.1223|up|up|UPLINK A ANA2MU Eth-trunk3.1223 1LPZB01_2BB_19 - 3G
+PZB1MU|GE0/1/0.1224|up|up|UPLINK A ANA2MU Eth-trunk3.1224 1LPZB01_2BB_19 - S1
+PZB1MU|GE0/1/0.1225|up|up|UPLINK A ANA2MU Eth-trunk3.1225 1LPZB01_2BB_19 - S1MME
+PZB1MU|GE0/1/0.1226|up|up|UPLINK A ANA2MU Eth-trunk3.1226 1LPZB01_2BB_19 - GOMRAN
+PZB1MU|GE0/1/0.1227|up|up|UPLINK A ANA2MU Eth-trunk3.1227 1LPZB01_2BB_19 - NGN
+PZB1MU|GE0/1/0.1228|up|up|UPLINK A ANA2MU Eth-trunk3.1228 1LPZB01_2BB_19 - POPUSA
+PZB1MU|GE0/1/0.1229|up|up|UPLINK A ANA2MU Eth-trunk3.1229 1LPZB01_2BB_19 - SDH HUAWEI
+PZB1MU|GE0/1/0.1230|up|up|GESTION - ANA2MU Eth-Trunk 4.1230- Linea.80002396
+PZB1MU|GE0/1/1|down|down|HUAWEI, GigabitEthernet0/1/1 Interface
+PZB1MU|GE0/1/2|down|down|HUAWEI, GigabitEthernet0/1/2 Interface
+PZB1MU|GE0/1/3|down|down|HUAWEI, GigabitEthernet0/1/3 Interface
+PZB1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Interface
+PZB1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Interface
+PZB1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Interface
+PZB1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Interface
+PZB1MU|GE0/2/0|down|down|HUAWEI, GigabitEthernet0/2/0 Interface
+PZB1MU|GE0/2/1|up|down|eNODOB POZO_BORRADO - A13-S003 (695482) NODOB (695484) (695486)
+PZB1MU|GE0/2/1.1000|up|up|eNODOB - POZO_BORRADO - A13-S003- (1) (695482) - S1
+PZB1MU|GE0/2/1.1001|up|up|eNODOB - POZO_BORRADO - A13-S003- (2) (695482) - S1MME
+PZB1MU|GE0/2/1.1002|up|up|eNODOB - POZO_BORRADO - A13-S003- (3) (695482) - GOMRAN
+PZB1MU|GE0/2/1.1003|up|up|NODOB - POZO_BORRADO - A13-S003 -(1) (695484) - 3G
+PZB1MU|GE0/2/1.1004|up|up|NODOB - POZO_BORRADO - A13-S003 -(1) (695486) - 2G
+PZB1MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Interface
+PZB1MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Interface
+PZB1MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Interface
+PZB1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Interface
+PZB1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Interface
+PZB1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Interface
+PZB1MU|GE0/3/0|down|down|HUAWEI, GigabitEthernet0/3/0 Interface
+PZB1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Interface
+PZB1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Interface
+PZB1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Interface
+
+

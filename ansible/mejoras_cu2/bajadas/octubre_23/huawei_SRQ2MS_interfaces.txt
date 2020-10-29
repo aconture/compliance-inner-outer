@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SRQ2MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+SRQ2MS|GigabitEthernet0/2/0|UP|UP|CONEXION A CTE3MU Eth-Trunk1.1383 REIP 1LSRQ01 - Linea:80002901
+SRQ2MS|GigabitEthernet0/2/1|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/1 Interface
+SRQ2MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+SRQ2MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+SRQ2MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+SRQ2MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+SRQ2MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+SRQ2MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+SRQ2MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+SRQ2MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+SRQ2MS|GigabitEthernet0/2/10|UP|UP|description [TAT] GESTION_TX SAN_ROQUE_CTES Linea:80001373
+SRQ2MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+SRQ2MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+SRQ2MS|Vlanif1383|UP|UP|VLAN_GESTION CTE3MU Eth-Trunk1.1383 - Linea:80002901
+
+

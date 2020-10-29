@@ -1,0 +1,159 @@
+shelfname|interface|portoperationalstate|protocol|info1
+UNQ2MU|Aux0/0/1|down|down|HUAWEI, Aux0/0/1 Interface
+UNQ2MU|GE0/0/0|down|down|HUAWEI, GigabitEthernet0/0/0 Interface
+UNQ2MU|GE1/0/0|up|up|Enlace 10G FO VLD2MU_G8/0/0 Linea:13002084 - UPLINK UPE
+UNQ2MU|GE1/0/1|up|up|Enlace 10G FO VLD2MU_G8/0/1 Linea:13006571 - UPLINK UPE
+UNQ2MU|GE1/1/0|up|down|ACCESO NUWG01 UNQULLIO CORDOBA -LINEA 13002168
+UNQ2MU|GE1/1/0.2|up|up|[SIGN] NUWG01 HUA 5603_T [NGN]
+UNQ2MU|GE1/1/0.3|up|up|[RTP] NUWG01 HUA 5603_T [NGN]
+UNQ2MU|GE1/1/0.4|up|up|[GESTION] NUWG01 HUA 5603_T [NGN]
+UNQ2MU|GE1/1/0.16|up|up|HSI NUWG01 - CEN1MB
+UNQ2MU|GE1/1/1|up|down|ADSL UNQ31D - 9700463
+UNQ2MU|GE1/1/1.128|up|up|HSI UNQ31D - CEN1MB
+UNQ2MU|GE1/1/2|up|down|ADSL UNQ21D - 9701933
+UNQ2MU|GE1/1/2.129|up|up|HSI UNQ21D - CEN1MB
+UNQ2MU|GE1/1/3|up|down|ADSL UNQM01 - 13001285
+UNQ2MU|GE1/1/3.130|up|up|HSI UNQM01 - CEN1MB
+UNQ2MU|GE1/1/4|up|down|ADSL UNQ51D - 13003724
+UNQ2MU|GE1/1/4.25|up|up|HSI UNQ51D - CEN1MB
+UNQ2MU|GE1/1/5|up|down|ADSL UNQ41D - 13003723
+UNQ2MU|GE1/1/5.26|up|up|HSI UNQ41D - CEN1MB
+UNQ2MU|GE1/1/6|down|down|eNODOB MENDIOLAZA_E53 - A03-S882(755136) NODOB (755140) (755141)
+UNQ2MU|GE1/1/7|up|down|CONEXION A UNQT MINIUMG UNQUILLO- L.9703783
+UNQ2MU|GE1/1/7.3119|up|up|NGN UNQT - COE2MB
+UNQ2MU|GE1/1/8|up|down|ACCESO NGN+ADSL UNQUILLO-UQYG01-Linea 13000095
+UNQ2MU|GE1/1/8.1|up|up|HSI UQYG01 - COE1MB
+UNQ2MU|GE1/1/8.3|up|up|[RTP][SIGN] UQYG01 HUA 5000 [NGN]
+UNQ2MU|GE1/1/8.4|up|up|[GESTION][IPMB] UQYG01 HUA 5000 [NGN]
+UNQ2MU|GE1/1/8.5|up|up|[GESTION][PVM] UQYG01 HUA 5000 [NGN]
+UNQ2MU|GE1/1/9|up|down|NGN - UNQUILLO - UNQG01 - Linea 9703434
+UNQ2MU|GE1/1/9.3|up|up|[RTP][SIGN] UNQG01 HUA 5000 [NGN]
+UNQ2MU|GE1/1/9.4|up|up|[GESTION][IPMB] UNQG01 HUA 5000 [NGN]
+UNQ2MU|GE1/1/9.5|up|up|[GESTION][PVM] UNQG01 HUA 5000 [NGN]
+UNQ2MU|GE1/1/10|up|down|G. UNQ21D - 9702327
+UNQ2MU|GE1/1/10.3618|up|up|VPN Head Quarter - MinGobCba - Ref:559127 Lin:2758119 Acc:UNQ21D-02/3
+UNQ2MU|GE1/1/10.3622|up|up|VPN Head Quarter - Cliente - Ref:270635 Lin:2724531 Acc:UNQ21D 0 -6
+UNQ2MU|GE1/1/10.3624|up|up|VPN Head Quarter - BNA - Ref:539714 Lin:2722105 Acc:UNQ21D 0/00/08UNQ / V21 / H04 / 009
+UNQ2MU|GE1/1/10.3636|*down|down|VPN Head Quarter - BNA - Ref:539714 Lin:2722105 Acc:UNQ21D 0/00/08UNQ / V21 / H04 / 009
+UNQ2MU|GE1/1/10.3812|up|up|Integra Light - INTERCORDOBA - Ref:259947 Lin:2717443 Acc:UNQ21D 0-00-004/005
+UNQ2MU|GE1/1/10.3820|up|up|INTEGRA - PAMI - Ref: 670535 - Linea:2809618 - Acc:UNQ21D 0/0/1
+UNQ2MU|GE1/1/11|down|down|HUAWEI, GigabitEthernet1/1/11 Interface
+UNQ2MU|GE1/1/12|up|down|GECOMTEL - CTR UNQUILLO
+UNQ2MU|GE1/1/12.10600268|up|up|L2L GECOMTEL Lin:9004882 - CTR Unquillo <-> CEN4MU 16/1/21.1060
+UNQ2MU|GE1/1/12.10680368|up|up|L2L GECOMTEL Lin:9004883 - CTR Unquillo <-> COE4MU 16/1/21.1068
+UNQ2MU|GE1/1/13|up|down|VPN PLATINUM - C.Y.R.E. S.A.C.I.F.I. E I. - REF: 944687 - LINEA: 2869086 - ACC: UNQ2MU 1/1/13
+UNQ2MU|GE1/1/13.2|up|up|VPN PLATINUM - C.Y.R.E. S.A.C.I.F.I. E I. - REF: 944687 - LINEA: 2869086 - ACC: UNQ2MU 1/1/13
+UNQ2MU|GE1/1/14|down|down|HUAWEI, GigabitEthernet1/1/14 Interface
+UNQ2MU|GE1/1/15|down|down|VPN - BANCO DE LA NACION ARGENTINA - REF: 949143 - LINEA: 2870179- ACC: UNQ2MU 1/1/15.2
+UNQ2MU|GE1/1/15.2|down|down|VPN - BANCO DE LA NACION ARGENTINA - REF: 949143 - LINEA: 2870179- ACC: UNQ2MU 1/1/15.2
+UNQ2MU|GE1/1/16|down|down|HUAWEI, GigabitEthernet1/1/16 Interface
+UNQ2MU|GE1/1/17|down|down|HUAWEI, GigabitEthernet1/1/17 Interface
+UNQ2MU|GE1/1/18|down|down|HUAWEI, GigabitEthernet1/1/18 Interface
+UNQ2MU|GE1/1/19|down|down|HUAWEI, GigabitEthernet1/1/19 Interface
+UNQ2MU|GE1/1/20|down|down|HUAWEI, GigabitEthernet1/1/20 Interface
+UNQ2MU|GE1/1/21|up|down|eNODOB UNQUILLO_CENTRAL - A03-S426 (447548) NODOB (691770) (695141)
+UNQ2MU|GE1/1/21.1003|up|up|NODOB - UNQUILLO_CENTRAL - A03-S426 - (1) (691770) - 3G
+UNQ2MU|GE1/1/21.1004|up|up|NODOB - UNQUILLO_CENTRAL - A03-S426- (1) (695141) - 2G
+UNQ2MU|GE1/1/21.1036|up|up|eNODOB - UNQUILLO_CENTRAL - A03-S426 - (1) (447548) - S1
+UNQ2MU|GE1/1/21.1037|up|up|eNODOB - UNQUILLO_CENTRAL - A03-S426 - (2) (447548) - S1MME
+UNQ2MU|GE1/1/21.1038|up|up|eNODOB - UNQUILLO_CENTRAL - A03-S426 - (3) (447548) - GOMRAN
+UNQ2MU|GE1/1/22|*down|down|eNODOB MENDIOLAZA - A03-S255 (431970) NODOB (698384) (695144)
+UNQ2MU|GE1/1/22.1000|down|down|eNODOB - MENDIOLAZA - A03-S255 -(1) (431970) - S1
+UNQ2MU|GE1/1/22.1001|down|down|eNODOB - MENDIOLAZA - A03-S255 -(2) (431970) - S1MME
+UNQ2MU|GE1/1/22.1002|down|down|eNODOB - MENDIOLAZA - A03-S255 -(3) (431970) - GOMRAN
+UNQ2MU|GE1/1/22.1003|down|down|NODOB - MENDIOLAZA - A03-S255 - (1) (698384) - 3G
+UNQ2MU|GE1/1/22.1004|down|down|NODOB - MENDIOLAZA - A03-S255- (1) (695144) - 2G
+UNQ2MU|GE1/1/23|up|down|eNODOB UNQUILLO_INTERCORDOBA - A03-S376 (691445) NODOB (694437) (691652)
+UNQ2MU|GE1/1/23.1000|up|up|eNODOB - UNQUILLO_INTERCORDOBA -A03-S376 - (1) (691445) - S1
+UNQ2MU|GE1/1/23.1001|up|up|eNODOB - UNQUILLO_INTERCORDOBA -A03-S376 - (2) (691445) - S1MME
+UNQ2MU|GE1/1/23.1002|up|up|eNODOB - UNQUILLO_INTERCORDOBA -A03-S376 - (3) (691445) - GOMRAN
+UNQ2MU|GE1/1/23.1003|up|up|NODOB - UNQUILLO_INTERCORDOBA - A03-S376 - (1) (694437) - 3G
+UNQ2MU|GE1/1/23.1004|up|up|NODOB - UNQUILLO_INTERCORDOBA - A03-S376- (1) (691652) - 2G
+UNQ2MU|GE4/0/0|down|down|HUAWEI, GigabitEthernet4/0/0 Interface
+UNQ2MU|GE4/0/1|down|down|HUAWEI, GigabitEthernet4/0/1 Interface
+UNQ2MU|GE4/0/2|down|down|HUAWEI, GigabitEthernet4/0/2 Interface
+UNQ2MU|GE4/0/3|down|down|HUAWEI, GigabitEthernet4/0/3 Interface
+UNQ2MU|GE4/0/4|down|down|HUAWEI, GigabitEthernet4/0/4 Interface
+UNQ2MU|GE4/0/5|down|down|HUAWEI, GigabitEthernet4/0/5 Interface
+UNQ2MU|GE4/0/6|down|down|HUAWEI, GigabitEthernet4/0/6 Interface
+UNQ2MU|GE4/0/7|down|down|HUAWEI, GigabitEthernet4/0/7 Interface
+UNQ2MU|GE4/0/8|down|down|HUAWEI, GigabitEthernet4/0/8 Interface
+UNQ2MU|GE4/0/9|down|down|HUAWEI, GigabitEthernet4/0/9 Interface
+UNQ2MU|GE4/0/10|down|down|HUAWEI, GigabitEthernet4/0/10 Interface
+UNQ2MU|GE4/0/11|down|down|HUAWEI, GigabitEthernet4/0/11 Interface
+UNQ2MU|GE4/0/12|down|down|HUAWEI, GigabitEthernet4/0/12 Interface
+UNQ2MU|GE4/0/13|down|down|HUAWEI, GigabitEthernet4/0/13 Interface
+UNQ2MU|GE4/0/14|down|down|HUAWEI, GigabitEthernet4/0/14 Interface
+UNQ2MU|GE4/0/15|down|down|HUAWEI, GigabitEthernet4/0/15 Interface
+UNQ2MU|GE4/0/16|down|down|HUAWEI, GigabitEthernet4/0/16 Interface
+UNQ2MU|GE4/0/17|down|down|HUAWEI, GigabitEthernet4/0/17 Interface
+UNQ2MU|GE4/0/18|down|down|HUAWEI, GigabitEthernet4/0/18 Interface
+UNQ2MU|GE4/0/19|down|down|HUAWEI, GigabitEthernet4/0/19 Interface
+UNQ2MU|GE4/0/20|down|down|HUAWEI, GigabitEthernet4/0/20 Interface
+UNQ2MU|GE4/0/21|down|down|HUAWEI, GigabitEthernet4/0/21 Interface
+UNQ2MU|GE4/0/22|down|down|HUAWEI, GigabitEthernet4/0/22 Interface
+UNQ2MU|GE4/0/23|down|down|HUAWEI, GigabitEthernet4/0/23 Interface
+UNQ2MU|GE4/1/0|down|down|HUAWEI, GigabitEthernet4/1/0 Interface
+UNQ2MU|GE4/1/1|down|down|HUAWEI, GigabitEthernet4/1/1 Interface
+UNQ2MU|GE4/1/2|down|down|HUAWEI, GigabitEthernet4/1/2 Interface
+UNQ2MU|GE4/1/3|down|down|HUAWEI, GigabitEthernet4/1/3 Interface
+UNQ2MU|GE4/1/4|down|down|HUAWEI, GigabitEthernet4/1/4 Interface
+UNQ2MU|GE4/1/5|down|down|HUAWEI, GigabitEthernet4/1/5 Interface
+UNQ2MU|GE4/1/6|down|down|HUAWEI, GigabitEthernet4/1/6 Interface
+UNQ2MU|GE4/1/7|down|down|HUAWEI, GigabitEthernet4/1/7 Interface
+UNQ2MU|GE4/1/8|down|down|HUAWEI, GigabitEthernet4/1/8 Interface
+UNQ2MU|GE4/1/9|down|down|HUAWEI, GigabitEthernet4/1/9 Interface
+UNQ2MU|GE4/1/10|down|down|HUAWEI, GigabitEthernet4/1/10 Interface
+UNQ2MU|GE4/1/11|down|down|HUAWEI, GigabitEthernet4/1/11 Interface
+UNQ2MU|GE4/1/12|down|down|HUAWEI, GigabitEthernet4/1/12 Interface
+UNQ2MU|GE4/1/13|down|down|HUAWEI, GigabitEthernet4/1/13 Interface
+UNQ2MU|GE4/1/14|down|down|HUAWEI, GigabitEthernet4/1/14 Interface
+UNQ2MU|GE4/1/15|down|down|HUAWEI, GigabitEthernet4/1/15 Interface
+UNQ2MU|GE4/1/16|down|down|HUAWEI, GigabitEthernet4/1/16 Interface
+UNQ2MU|GE4/1/17|down|down|HUAWEI, GigabitEthernet4/1/17 Interface
+UNQ2MU|GE4/1/18|down|down|HUAWEI, GigabitEthernet4/1/18 Interface
+UNQ2MU|GE4/1/19|down|down|HUAWEI, GigabitEthernet4/1/19 Interface
+UNQ2MU|GE4/1/20|down|down|HUAWEI, GigabitEthernet4/1/20 Interface
+UNQ2MU|GE4/1/21|down|down|HUAWEI, GigabitEthernet4/1/21 Interface
+UNQ2MU|GE4/1/22|down|down|HUAWEI, GigabitEthernet4/1/22 Interface
+UNQ2MU|GE4/1/23|down|down|HUAWEI, GigabitEthernet4/1/23 Interface
+UNQ2MU|GE7/0/0|up|up|Enlace 10G FO RIO2MU_G7/1/2 Linea:13007371 - UPLINK MU
+UNQ2MU|GE7/0/1|up|up|Enlace 10G FO VLD2MU_G7/0/0 Linea:13007370 - UPLINK MU
+UNQ2MU|GE7/0/2|down|down|HUAWEI, GigabitEthernet7/0/2 Interface
+UNQ2MU|GE7/0/3|down|down|HUAWEI, GigabitEthernet7/0/3 Interface
+UNQ2MU|GE7/0/4|down|down|HUAWEI, GigabitEthernet7/0/4 Interface
+UNQ2MU|GE7/0/5|down|down|HUAWEI, GigabitEthernet7/0/5 Interface
+UNQ2MU|GE7/0/6|down|down|HUAWEI, GigabitEthernet7/0/6 Interface
+UNQ2MU|GE7/0/7|down|down|HUAWEI, GigabitEthernet7/0/7 Interface
+UNQ2MU|GE7/0/8|down|down|HUAWEI, GigabitEthernet7/0/8 Interface
+UNQ2MU|GE7/0/9|down|down|HUAWEI, GigabitEthernet7/0/9 Interface
+UNQ2MU|GE7/0/10|down|down|HUAWEI, GigabitEthernet7/0/10 Interface
+UNQ2MU|GE7/0/11|down|down|HUAWEI, GigabitEthernet7/0/11 Interface
+UNQ2MU|GE8/0/0|up|up|Enlace 10G FO RIO2MU_G8/0/0 Linea:13002083 - UPLINK UPE
+UNQ2MU|GE8/0/1|up|up|Enlace 10G FO RIO2MU_G7/1/0 Linea:13006878 - UPLINK UPE
+UNQ2MU|GE8/1/0|down|down|HUAWEI, GigabitEthernet8/1/0 Interface
+UNQ2MU|GE8/1/1|down|down|HUAWEI, GigabitEthernet8/1/1 Interface
+UNQ2MU|GE8/1/2|down|down|HUAWEI, GigabitEthernet8/1/2 Interface
+UNQ2MU|GE8/1/3|down|down|HUAWEI, GigabitEthernet8/1/3 Interface
+UNQ2MU|GE8/1/4|down|down|HUAWEI, GigabitEthernet8/1/4 Interface
+UNQ2MU|GE8/1/5|down|down|HUAWEI, GigabitEthernet8/1/5 Interface
+UNQ2MU|GE8/1/6|down|down|HUAWEI, GigabitEthernet8/1/6 Interface
+UNQ2MU|GE8/1/7|down|down|HUAWEI, GigabitEthernet8/1/7 Interface
+UNQ2MU|GE8/1/8|down|down|HUAWEI, GigabitEthernet8/1/8 Interface
+UNQ2MU|GE8/1/9|down|down|HUAWEI, GigabitEthernet8/1/9 Interface
+UNQ2MU|GE8/1/10|down|down|HUAWEI, GigabitEthernet8/1/10 Interface
+UNQ2MU|GE8/1/11|down|down|HUAWEI, GigabitEthernet8/1/11 Interface
+UNQ2MU|GE8/1/12|down|down|HUAWEI, GigabitEthernet8/1/12 Interface
+UNQ2MU|GE8/1/13|down|down|HUAWEI, GigabitEthernet8/1/13 Interface
+UNQ2MU|GE8/1/14|down|down|HUAWEI, GigabitEthernet8/1/14 Interface
+UNQ2MU|GE8/1/15|down|down|HUAWEI, GigabitEthernet8/1/15 Interface
+UNQ2MU|GE8/1/16|down|down|HUAWEI, GigabitEthernet8/1/16 Interface
+UNQ2MU|GE8/1/17|down|down|HUAWEI, GigabitEthernet8/1/17 Interface
+UNQ2MU|GE8/1/18|down|down|HUAWEI, GigabitEthernet8/1/18 Interface
+UNQ2MU|GE8/1/19|down|down|HUAWEI, GigabitEthernet8/1/19 Interface
+UNQ2MU|GE8/1/20|down|down|HUAWEI, GigabitEthernet8/1/20 Interface
+UNQ2MU|GE8/1/21|down|down|HUAWEI, GigabitEthernet8/1/21 Interface
+UNQ2MU|GE8/1/22|down|down|HUAWEI, GigabitEthernet8/1/22 Interface
+UNQ2MU|GE8/1/23|down|down|HUAWEI, GigabitEthernet8/1/23 Interface
+
+

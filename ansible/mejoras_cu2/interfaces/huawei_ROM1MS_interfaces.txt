@@ -1,0 +1,21 @@
+shelfname|interface|portoperationalstate|protocol|info1
+ROM1MS|DCN-Serial0/2/0:0|DOWN|DOWN|HUAWEI, DCN-Serial0/2/0:0 Interface
+ROM1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+ROM1MS|GigabitEthernet0/2/16|UP|UP|conexion al RE LH ROMANG-MALABRIGO linea 80002776 conexion a REC3MU eth-trunk 6.1217
+ROM1MS|GigabitEthernet0/2/17|UP|UP|TIP_TIPLOSAMORESROM(2793572)REFE:338696_Ges.TECO
+ROM1MS|GigabitEthernet0/2/18|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/18 Interface
+ROM1MS|GigabitEthernet0/2/19|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/19 Interface
+ROM1MS|GigabitEthernet0/2/20|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/20 Interface
+ROM1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+ROM1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+ROM1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+ROM1MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+ROM1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+ROM1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+ROM1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+ROM1MS|LoopBack1023|UP|UP|DCN loopback interface
+ROM1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+ROM1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+ROM1MS|Vlanif1217|UP|UP|VLAN_GESTION RE Eth-Trunk6.1217.1217 - Linea:80002776
+
+

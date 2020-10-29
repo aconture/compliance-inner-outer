@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+BL41MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+BL41MS|GigabitEthernet0/2/0|UP|UP|NODOB MONROE CPU062 PHA2ME (352000) eNODOB (430287) NODOB (436564) (436449)
+BL41MS|GigabitEthernet0/2/1|UP|UP|CONEXION A 1SBL401/1SMLW01
+BL41MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+BL41MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+BL41MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+BL41MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+BL41MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+BL41MS|GigabitEthernet0/2/7|UP|UP|CONEXION A COG2MA 1/0/13 - BEL1MB Te0/5/0/16.1560156 - Linea.15005342
+BL41MS|GigabitEthernet0/2/8|UP|UP|Gestion 1SBL401/1SMLW01 - Linea 15005123
+BL41MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+BL41MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+BL41MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+BL41MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+BL41MS|Vlanif1042|UP|UP|Gestion_RED_MSTi_1
+
+

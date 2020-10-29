@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+AZA1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+AZA1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A POS3MU Eth-Trunk14  REIP 1LAZA01 - Linea:80002391
+AZA1MS|GigabitEthernet0/2/1|UP|UP|NGN Azara linea 11001978
+AZA1MS|GigabitEthernet0/2/2|UP|UP|conexion al 1DAZA02 - 1SCGB01 - 1DGRH02 (radiobases A18-S026 y A18-S084)
+AZA1MS|GigabitEthernet0/2/3|UP|UP|VPN PLATINUM - GESTION TRIBUTARIA INTEGRAL SA - REF: 944086 - LINEA: 2869809 - ACC: AZA1MS 0/2/3
+AZA1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+AZA1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+AZA1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+AZA1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+AZA1MS|GigabitEthernet0/2/8|UP|UP|Gestion RE Azara-Garruchos-Garabi linea 80000716
+AZA1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+AZA1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+AZA1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+AZA1MS|LoopBack1023|UP|UP|DCN loopback interface
+AZA1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+AZA1MS|Vlanif1230|UP|UP|VLAN_GESTION POS3MU Eth-Trunk13.1230.1230 - Linea:80002391
+
+

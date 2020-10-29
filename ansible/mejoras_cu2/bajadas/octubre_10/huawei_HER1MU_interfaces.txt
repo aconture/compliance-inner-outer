@@ -1,0 +1,34 @@
+shelfname|interface|portoperationalstate|protocol|info1
+HER1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+HER1MU|GE0/1/0|up|down|CONEXION A 1LHER01 - Linea:800030
+HER1MU|GE0/1/0.1210|up|up|GESTION PRS4MU default.1210 - Lin
+HER1MU|GE0/1/0.1211|up|up|UPLINK A PRS4MU default.1211 1LHE
+HER1MU|GE0/1/0.1212|up|up|UPLINK A PRS4MU default.1212 1LHE
+HER1MU|GE0/1/0.1213|up|up|UPLINK A PRS4MU default.1213 1LHE
+HER1MU|GE0/1/0.1214|up|up|UPLINK A PRS4MU default.1214 1LHE
+HER1MU|GE0/1/0.1215|up|up|UPLINK A PRS4MU default.1215 1LHE
+HER1MU|GE0/1/0.1216|up|up|UPLINK A PRS4MU default.1216 1LHE
+HER1MU|GE0/1/0.1217|up|up|UPLINK A PRS4MU default.1217 1LHE
+HER1MU|GE0/1/0.1218|up|up|UPLINK A PRS4MU default.1218 1LHE
+HER1MU|GE0/1/0.1219|up|up|UPLINK A PRS4MU default.1219 1LHE
+HER1MU|GE0/1/1|down|down|HUAWEI, GigabitEthernet0/1/1 Inte
+HER1MU|GE0/1/2|down|down|HUAWEI, GigabitEthernet0/1/2 Inte
+HER1MU|GE0/1/3|down|down|HUAWEI, GigabitEthernet0/1/3 Inte
+HER1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Inte
+HER1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Inte
+HER1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Inte
+HER1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Inte
+HER1MU|GE0/2/0|down|down|HUAWEI, GigabitEthernet0/2/0 Inte
+HER1MU|GE0/2/1|down|down|HUAWEI, GigabitEthernet0/2/1 Inte
+HER1MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Inte
+HER1MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Inte
+HER1MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Inte
+HER1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Inte
+HER1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Inte
+HER1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Inte
+HER1MU|GE0/3/0|down|down|HUAWEI, GigabitEthernet0/3/0 Inte
+HER1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Inte
+HER1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Inte
+HER1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Inte
+
+

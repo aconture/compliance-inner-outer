@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+BLR1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+BLR1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A REIP DRAGON WAVE DWBLR01 19/2 - CCP2MU Eth-trunk2.1039 - Linea:70001092
+BLR1MS|GigabitEthernet0/2/1|Administratively DOWN|DOWN|TIP_TIPCOOPTELBELAND(5645612)REFE:333046_Acc:BLR01MS-GigabitEthernet0/2/1
+BLR1MS|GigabitEthernet0/2/2|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+BLR1MS|GigabitEthernet0/2/3|Administratively DOWN|DOWN|eNODOB - eNODOB - BELEN_CENTRO - A10-S056 - (523166) NODOB (520863)(523193)
+BLR1MS|GigabitEthernet0/2/4|Administratively DOWN|DOWN|eNODOB - eNODOB - BELEN  - A10-S005 - (523165) NODOB (520862)(523192)
+BLR1MS|GigabitEthernet0/2/5|Administratively DOWN|DOWN|eNODOB - EVENTO NOCHE_DE_PLAYA_2019 - OEA466 - (683468)(683469)
+BLR1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+BLR1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+BLR1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+BLR1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+BLR1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+BLR1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+BLR1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+BLR1MS|Vlanif1039|UP|UP|GESTION - CCP2MU Eth-trunk2.1039 - Linea:70001092
+
+

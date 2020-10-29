@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SCY1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+SCY1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A RE Ceragon FIBE AIR IP-10G 1PSCY01 - Linea.13005276
+SCY1MS|GigabitEthernet0/2/1|UP|UP|## VPN - INTA - ref:740869 - Lin:2835792 - SDE4MU Eth-Tr20.12490002 #
+SCY1MS|GigabitEthernet0/2/2|UP|UP|### INTEGRA - PETROBAN SRL - REF:782877 - L:2847084 ACC:SDE4MU Eth-Trunk20.1250 ###
+SCY1MS|GigabitEthernet0/2/3|UP|UP|eNODOB - SACHAYOJ - ECA1MU 0/1/1 - A12-S004
+SCY1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+SCY1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+SCY1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+SCY1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+SCY1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+SCY1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+SCY1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+SCY1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+SCY1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+SCY1MS|Vlanif911|UP|UP|HUAWEI, Vlanif911 Interface
+SCY1MS|Vlanif1247|UP|UP|GESTION_SDE4MU Eth-Trunk20.1247_Linea.13005276
+
+

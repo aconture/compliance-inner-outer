@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+7AX1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+7AX1MS|GigabitEthernet0/2/16|Administratively DOWN|DOWN|HUAWEI, GigabitEthernet0/2/16 Interface
+7AX1MS|GigabitEthernet0/2/17|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/17 Interface
+7AX1MS|GigabitEthernet0/2/18|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/18 Interface
+7AX1MS|GigabitEthernet0/2/19|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/19 Interface
+7AX1MS|GigabitEthernet0/2/20|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/20 Interface
+7AX1MS|GigabitEthernet0/2/21|UP|UP|SITIO AEROPUERTO CALAFATE - A25-Z001
+7AX1MS|GigabitEthernet0/2/22|UP|UP|SITIO GLACIAR PERITO MORENO - A25-Z021
+7AX1MS|GigabitEthernet0/2/23|UP|UP|CONEXION A RADIO SDH RGG_11_Puerto_Gi9 - TASA - Linea:60000594
+7AX1MS|GigabitEthernet0/2/24|UP|UP|SITIO CALAFATE PUERTO BANDERAS - A25-Z061
+7AX1MS|GigabitEthernet0/2/25|UP|UP|SITIO BARRIO PLUMAS VERDES - A25-Z043
+7AX1MS|GigabitEthernet0/2/26|UP|UP|SITIO AEROPUERTO VIEJO - A25-Z041
+7AX1MS|GigabitEthernet0/2/27|UP|UP|SITIO EDIFICIO COTECAL - A25-Z042
+7AX1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+7AX1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+7AX1MS|Vlanif1115|UP|UP|GESTION - RIF1MU Gi0/1/7.1115 - Linea.60000594
+
+

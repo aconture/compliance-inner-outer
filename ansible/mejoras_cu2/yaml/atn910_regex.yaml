@@ -1,0 +1,8 @@
+---
+- name: Creacion de Variables Huawei ATN910
+  set_fact:
+    var_atn: "{{ command_output_atn.stdout | parse_cli_textfsm('../regexp/atn910_parseo.fsm') }}"
+  when: 
+    - vendor=="HUAWEI"
+    - model=="ATN910"
+

@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SRQ1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+SRQ1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A 1SSRQ01 - CTE1MB BE1001.1217 - Linea.80002319
+SRQ1MS|GigabitEthernet0/2/1|UP|UP|RBS Colonia Pando
+SRQ1MS|GigabitEthernet0/2/2|UP|UP|VPN - SYK S.A. - Ref:682256 - Lin:2816283 - RES1MB 0/1/0/23.2400002
+SRQ1MS|GigabitEthernet0/2/3|UP|UP|VPN - GOBIERNO PROVINCIA CORRIENTES  SUPERIOR TRIB. DE JUSTICIA - Ref:737042 - Lin:2816283
+SRQ1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+SRQ1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+SRQ1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+SRQ1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+SRQ1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+SRQ1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+SRQ1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+SRQ1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+SRQ1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+SRQ1MS|Vlanif1217|UP|UP|VLAN_GESTION_CTE1MB BE1001.1217 - Linea.80002319
+
+

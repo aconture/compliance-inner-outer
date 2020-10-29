@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+TCE1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+TCE1MS|GigabitEthernet0/2/16|UP|UP|CONEXION A RE DRAGON WAVE DWTCE01/2 - SSJ3MU Eth-Trunk3.1039 - Linea.70001120
+TCE1MS|GigabitEthernet0/2/17|UP|UP|ACCESO_NGN_TCEG01_TRES_CRUCES_13002841
+TCE1MS|GigabitEthernet0/2/18|UP|UP|TRES_CRUCES - SSJ3MU 2/0/2 - A21-S052 (751873) NODOB (751872)(751871)
+TCE1MS|GigabitEthernet0/2/19|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/19 Interface
+TCE1MS|GigabitEthernet0/2/20|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/20 Interface
+TCE1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+TCE1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+TCE1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+TCE1MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+TCE1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+TCE1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+TCE1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+TCE1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+TCE1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+TCE1MS|Vlanif1039|UP|UP|GESTION - SSJ3MU Eth-Trunk3.1039 - Linea.70001120
+
+

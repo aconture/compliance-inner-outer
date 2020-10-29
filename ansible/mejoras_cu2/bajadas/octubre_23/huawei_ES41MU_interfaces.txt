@@ -1,0 +1,44 @@
+shelfname|interface|portoperationalstate|protocol|info1
+ES41MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+ES41MU|GE0/1/0|up|down|CONEXION A 1NES401 - Linea:600006
+ES41MU|GE0/1/0.1125|up|up|ATN950 ESPARTILLAR TECO Linea 600
+ES41MU|GE0/1/0.1126|up|up|UPLINK A BBL2MU Eth-Trunk.1126 1N
+ES41MU|GE0/1/0.1127|up|up|UPLINK A BBL2MU Eth-Trunk.1127 1N
+ES41MU|GE0/1/0.1128|up|up|UPLINK A BBL2MU Eth-Trunk.1128 1N
+ES41MU|GE0/1/0.1129|up|up|UPLINK A BBL2MU Eth-Trunk.1129 1N
+ES41MU|GE0/1/0.1130|up|up|UPLINK A BBL2MU Eth-Trunk.1130 1N
+ES41MU|GE0/1/0.1131|up|up|UPLINK A BBL2MU Eth-Trunk.1131 1N
+ES41MU|GE0/1/0.1132|up|up|UPLINK A BBL2MU Eth-Trunk.1132 1N
+ES41MU|GE0/1/0.1133|up|up|UPLINK A BBL2MU Eth-Trunk.1133 1N
+ES41MU|GE0/1/0.1134|up|up|UPLINK A BBL2MU Eth-Trunk.1134 1N
+ES41MU|GE0/1/1|down|down|HUAWEI, GigabitEthernet0/1/1 Inte
+ES41MU|GE0/1/2|up|down|frontera ES41MU/01/f02 - 1EES401_
+ES41MU|GE0/1/2.1000|up|up|eNODOB - ESPARTILLAR - ES41MU Gi
+ES41MU|GE0/1/2.1001|up|up|eNODOB - ESPARTILLAR - ES41MU Gi
+ES41MU|GE0/1/2.1002|up|up|eNODOB - ESPARTILLAR - ES41MU Gi
+ES41MU|GE0/1/2.1003|up|up|NODOB - ESPARTILLAR - ES41MU Gi 0
+ES41MU|GE0/1/2.1004|up|up|NODOB - ESPARTILLAR - ES41MU Gi 0
+ES41MU|GE0/1/3|up|down|eNODOB ESPARTILLAR_TECO - A38-B35
+ES41MU|GE0/1/3.1000|up|up|eNODOB - ESPARTILLAR_TECO - A38-B
+ES41MU|GE0/1/3.1001|up|up|eNODOB - ESPARTILLAR_TECO - A38-B
+ES41MU|GE0/1/3.1002|up|up|eNODOB - ESPARTILLAR_TECO - A38-B
+ES41MU|GE0/1/3.1003|up|up|NODOB - ESPARTILLAR_TECO - A38-B3
+ES41MU|GE0/1/3.1004|up|up|NODOB - ESPARTILLAR_TECO - A38-B3
+ES41MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Inte
+ES41MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Inte
+ES41MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Inte
+ES41MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Inte
+ES41MU|GE0/2/0|down|down|HUAWEI, GigabitEthernet0/2/0 Inte
+ES41MU|GE0/2/1|down|down|HUAWEI, GigabitEthernet0/2/1 Inte
+ES41MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Inte
+ES41MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Inte
+ES41MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Inte
+ES41MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Inte
+ES41MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Inte
+ES41MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Inte
+ES41MU|GE0/3/0|down|down|HUAWEI, GigabitEthernet0/3/0 Inte
+ES41MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Inte
+ES41MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Inte
+ES41MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Inte
+
+

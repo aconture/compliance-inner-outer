@@ -1,0 +1,331 @@
+shelfname|interface|portoperationalstate|protocol|info1
+BEP1MU|BE1|up|up|[ACCESO HSI][BE] B6DG01 11001827
+BEP1MU|BE1.2|up|up|[SIGN] B6DG01 HUA 5603_T [NGN]
+BEP1MU|BE1.3|up|up|[RTP] B6DG01 HUA 5603_T [NGN]
+BEP1MU|BE1.4|up|up|[GESTION] B6DG01 HUA 5603_T [NGN]
+BEP1MU|BE1.3101|up|up|[TOIP] B6DG01 HUA 5603_T [VDS2]
+BEP1MU|BE1.4101|up|up|[DATOS] B6DG01 HUA 5603_T [VDS2][L3]
+BEP1MU|BE2|up|up|[ACCESO HSI][BE] 2QBG01 11001825
+BEP1MU|BE2.2|up|up|[SIGN] 2QBG01 HUA 5600_T [NGN]
+BEP1MU|BE2.3|up|up|[RTP] 2QBG01 HUA 5600_T [NGN]
+BEP1MU|BE2.4|up|up|[GESTION] 2QBG01 HUA 5600_T [NGN]
+BEP1MU|BE2.2101|up|down|[GESTION] 2QBG01 HUA 5600_T [VDS2]
+BEP1MU|BE2.3101|up|up|[TOIP] 2QBG01 HUA 5600_T [VDS2]
+BEP1MU|BE2.4101|up|up|[DATOS] 2QBG01 HUA 5600_T [VDS2]
+BEP1MU|BE4|up|up|[ACCESO HSI][BE] BEP11D 11000043
+BEP1MU|BE4.2101|up|up|[GESTION] BEP11D ZTE 9800 [ADS2]
+BEP1MU|BE4.3101|up|up|[TOIP] BEP11D ZTE 9800 [ADS2]
+BEP1MU|BE4.3616|up|up|VPN Head Quarter - RIBEIRO - Ref:296100 Lin:2733997 Acc:BEP11D 17 - 1
+BEP1MU|BE4.3618|up|up|VPN GOLD - WAL MART ARGENTINA - Ref:306850 - Lin:2737334 - Acc:BEP11D 0/17/3
+BEP1MU|BE4.3623|up|up|VPN Head Quarter - GIRE S.A. - Ref:596936 Lin:2773547 Acc:BEP11D 17/8
+BEP1MU|BE4.3630|up|up|VPN - Hipotecario - Ref: 662094 - Linea:2804398 - Acc:BEP11D 1-17-15
+BEP1MU|BE4.3808|up|up|VPN Head Quarter - RIBEIRO - Ref:296100 - GESTIONXAVI
+BEP1MU|BE4.3810|up|up|Gestion - WAL MART ARGENTINA - Ref:306850 - Lin:2737334 - Acc:BEP11D 0/17/3
+BEP1MU|BE4.3812|up|up|Integra Light 2M - NEOGAME SA - Ref:550293 Lin:2755559 Acc:BEP11D1-1-17-5Y6
+BEP1MU|BE4.3814|up|up|Integra Light - RIBEIRO - Ref:595059 Lin:2773345 Acc:BEP11D 17-7
+BEP1MU|BE4.3815|up|up|N/N BEP11D
+BEP1MU|BE4.3818|admin-down|admin-down|IntegraLight - VICTOR MOTOS S.H. - Ref:643015 - Lin:2793580 Acc:BEP11D SHDSL-1-1-17-11
+BEP1MU|BE4.3822|up|up|VPN - Hipotecario - Ref: 662094 - Linea:2804398 - Acc:BEP11D 1-17-15
+BEP1MU|BE4.4101|up|up|[DATOS] BEP11D ZTE 9800 [ADS2][L3]
+BEP1MU|BE4.4101.pppoe5|up|up| 
+BEP1MU|BE4.4101.pppoe8|up|up| 
+BEP1MU|BE4.4101.pppoe10|up|up| 
+BEP1MU|BE4.4101.pppoe12|up|up| 
+BEP1MU|BE4.4101.pppoe13|up|up| 
+BEP1MU|BE4.4101.pppoe15|up|up| 
+BEP1MU|BE4.4101.pppoe17|up|up| 
+BEP1MU|BE4.4101.pppoe19|up|up| 
+BEP1MU|BE4.4101.pppoe20|up|up| 
+BEP1MU|BE4.4101.pppoe21|up|up| 
+BEP1MU|BE4.4101.pppoe22|up|up| 
+BEP1MU|BE4.4101.pppoe26|up|up| 
+BEP1MU|BE4.4101.pppoe27|up|up| 
+BEP1MU|BE4.4101.pppoe29|up|up| 
+BEP1MU|BE4.4101.pppoe30|up|up| 
+BEP1MU|BE4.4101.pppoe32|up|up| 
+BEP1MU|BE4.4101.pppoe33|up|up| 
+BEP1MU|BE4.4101.pppoe34|up|up| 
+BEP1MU|BE4.4101.pppoe35|up|up| 
+BEP1MU|BE4.4101.pppoe37|up|up| 
+BEP1MU|BE4.4101.pppoe38|up|up| 
+BEP1MU|BE4.4101.pppoe39|up|up| 
+BEP1MU|BE4.4101.pppoe40|up|up| 
+BEP1MU|BE4.4101.pppoe42|up|up| 
+BEP1MU|BE4.4101.pppoe45|up|up| 
+BEP1MU|BE4.4101.pppoe47|up|up| 
+BEP1MU|BE4.4101.pppoe48|up|up| 
+BEP1MU|BE4.4101.pppoe49|up|up| 
+BEP1MU|BE5|up|up|[ACCESO HSI][BE] BEL21D 15003961
+BEP1MU|BE5.2101|up|up|[GESTION] BEP21D ZTE 5800 [ADS2]
+BEP1MU|BE5.3101|up|up|[TOIP] BEP21D ZTE 9800 [ADS2]
+BEP1MU|BE5.4101|up|up|[DATOS] BEP21D ZTE 9800 [ADS2][L3]
+BEP1MU|BE5.4101.pppoe4712|up|up| 
+BEP1MU|BE5.4101.pppoe4741|up|up| 
+BEP1MU|BE5.4101.pppoe4749|up|up| 
+BEP1MU|BE5.4101.pppoe4762|up|up| 
+BEP1MU|BE5.4101.pppoe4778|up|up| 
+BEP1MU|BE5.4101.pppoe4783|up|up| 
+BEP1MU|BE5.4101.pppoe4789|up|up| 
+BEP1MU|BE5.4101.pppoe4792|up|up| 
+BEP1MU|BE5.4101.pppoe4796|up|up| 
+BEP1MU|BE5.4101.pppoe4797|up|up| 
+BEP1MU|BE5.4101.pppoe4801|up|up| 
+BEP1MU|BE5.4101.pppoe4830|up|up| 
+BEP1MU|BE5.4101.pppoe4859|up|up| 
+BEP1MU|BE5.4101.pppoe4943|up|up| 
+BEP1MU|BE5.4101.pppoe5182|up|up| 
+BEP1MU|BE5.4101.pppoe6434|up|up| 
+BEP1MU|BE5.4101.pppoe6840|up|up| 
+BEP1MU|BE5.4101.pppoe6876|up|up| 
+BEP1MU|BE5.4101.pppoe8331|up|up| 
+BEP1MU|BE5.4101.pppoe9640|up|up| 
+BEP1MU|BE5.4101.pppoe9980|up|up| 
+BEP1MU|BE6|up|up|[ACCESO HSI][BE] 12SG01 11001066
+BEP1MU|BE6.2|up|up|[SIGN] 12SG01 HUA 5600_T [NGN]
+BEP1MU|BE6.3|up|up|[RTP] 12SG01 HUA 5600_T [NGN]
+BEP1MU|BE6.4|up|up|[GESTION] 12SG01 HUA 5600_T [NGN]
+BEP1MU|BE6.3101|up|up|[TOIP] 12SG01 HUA 5600_T [VDS2]
+BEP1MU|BE6.4101|up|up|[DATOS] 12SG01 HUA 5600_T [VDS2][L3]
+BEP1MU|Lo0|up|up| 
+BEP1MU|Lo1|up|up|IP UNNUMBERED
+BEP1MU|Lo12|up|up|IP UNNUMBERED vpn-tdata-bcorio - VPN BRONZE INTERCARRIER - TASA - Banco rio
+BEP1MU|Lo26|up|up|IP UNNUMBERED VPN-gpba
+BEP1MU|Lo68|up|up|IP UNNUMBERED VPN PRIMA
+BEP1MU|Lo73|up|up|IP UNNUMBERED bonesi-vpn - VPN BRONZE - BONESI SOCIEDAD ANONIMA
+BEP1MU|Lo77|up|up|VPN WEB PATRON
+BEP1MU|Lo78|up|up|IP UNNUMBERED vpn-credicoop - VPN BRONZE - BANCO CREDICOOP COOP. LTDO.
+BEP1MU|Lo80|up|up|IP UNNUMBERED VPN JOCKEY
+BEP1MU|Lo90|up|up|IP UNNUMBERED munisam-vpn - VPN BRONZE - MUNICIPALIDAD DE GRAL. SAN MARTIN SEC. HAC. Y ECONO.
+BEP1MU|Lo100|up|up|Interfaz de gestion ADSL
+BEP1MU|Lo103|up|up|IP UNNUMBERED ospecom-vpn - VPN BRONZE - OSPECOM
+BEP1MU|Lo127|up|up|IP UNNUMERED vpn-vestiditos - VPN BRONZE - VESTIDITOS S.A.
+BEP1MU|Lo147|up|up|IP UNNUMERED darclibertador-vpn
+BEP1MU|Lo149|up|up|IP UNNUMBERED bna-vpn
+BEP1MU|Lo157|up|up|IP UNNUMBERED vpn-williner - VPN BRONZE - SUCESORES DE ALFREDO WILLINER S.A.
+BEP1MU|Lo162|up|up|IP UNNUMBERED hipodromo-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+BEP1MU|Lo182|up|up|garbarino-vpn - VPN BRONZE - GARBARINO
+BEP1MU|Lo198|up|up|IP UNNUMBERED vpn-gire-1 - VPN BRONZE - GIRE S.A.
+BEP1MU|Lo249|up|up|IP UNNUMBERED ncentralarg-vpn - VPN BRONZE - NUEVO CENTRAL ARGENTINO S.A.
+BEP1MU|Lo256|up|up|IP UNNUMBERED sepsa-vpn - VPN BRONZE - SERV.ELECTRONICO DE PAGO S.A.
+BEP1MU|Lo279|up|up|IP UNNUMBERED hsbc-vpn - VPN BRONZE - HSBC BANK ARGENTINA S.A.
+BEP1MU|Lo347|up|up|IP UNNUMBERED bcogalicia-vpn - VPN BRONZE - BANCO DE GALICIA Y BUENOS AIRE S S.A.
+BEP1MU|Lo433|up|up|IP UNNUMBERED hipodromo-3-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+BEP1MU|Lo454|up|up|IP UNNUMBERED poderjudicial-vpn - VPN BRONZE - PODER JUDICIAL DE LA PROVINCIA
+BEP1MU|Lo459|up|up|IP UNNUMERED clama-vpn
+BEP1MU|Lo479|up|up|IP UNNUMBERED solido-vpn - VPN BRONZE - SOLIDO S.R.L.
+BEP1MU|Lo507|up|up|IP UNNUMBERED maxima-vpn - VPN BRONZE - MAXIMA S.A. A.F.J.P.
+BEP1MU|Lo509|up|up|IP UNNUMBERED citibank-vpn - VPN BRONZE - CITIBANK N.A.
+BEP1MU|Lo546|up|up|IP UNNUMBERED ituran-vpn - VPN BRONZE - ITURAN
+BEP1MU|Lo594|up|up|IP UNNUMBERED diaarg-vpn - VPN BRONZE - DIA ARGENTINA S.A.
+BEP1MU|Lo601|up|up|IP UNNUMBERED alpargatas-vpn - VPN BRONZE - ALPARGATAS CALZADOS S.A.
+BEP1MU|Lo653|up|up|IP UNNUMBERED bigbloom-vpn - VPN BRONZE - BIG BLOOM S.A.
+BEP1MU|Lo707|up|up|IP UNNUMBERED correo-vpn - VPN BRONZE - CORREO OFICIAL DE LA REP.ARG.
+BEP1MU|Lo980|up|up|IP UNNUMBERED cjuleriaque-vpn - VPN BRONZE - CARLOS JULERIAQUE S.R.L.
+BEP1MU|Lo1017|up|up|IP UNNUMBERED asmuprofa-vpn - VPN BRONZE - ASOCIACION MUTUAL DE PROTECCIO N FAMILIAR
+BEP1MU|Lo1059|up|up|fravega-vpn - VPN BRONZE - FRAVEGA
+BEP1MU|Lo1154|up|up|IP UNNUMBERED arcosdora2-vpn
+BEP1MU|Lo1219|up|up|SIMONS DE ARGENTINA SAIC
+BEP1MU|Lo1226|up|up|IP UNNUMERED argentconec-vpn
+BEP1MU|Lo1312|up|up|IP UNNUMBERED wifioffload-vpn
+BEP1MU|Lo1385|up|up|IP UNNUMERED garbacontenidos-vpn - VPN BRONZE - GARBARINO S.A.
+BEP1MU|Lo1471|up|up|IP UNNUMERED unigestopems-vpn - VPN BRONZE - UNIDAD DE GESTION OPERATIVA MITRE SARMIENTO S.A.
+BEP1MU|Lo13143|up|up|IP UNNUMBERED tasabancofrances-vpn - VPN BRONZE INTERCARRIER. - TASA subcliente Bco. Frances
+BEP1MU|Lo57015|up|up|IP UNNUMBERED tasabapro-vpn - VPN BRONZE INTERCARRIER. - Tasa sub
+BEP1MU|Nu0|up|up| 
+BEP1MU|Mg0/RSP0/CPU0/0|admin-down|admin-down| 
+BEP1MU|Mg0/RSP0/CPU0/1|admin-down|admin-down| 
+BEP1MU|PT0/RSP0/CPU0/0|admin-down|admin-down| 
+BEP1MU|Mg0/RSP1/CPU0/0|admin-down|admin-down| 
+BEP1MU|Mg0/RSP1/CPU0/1|admin-down|admin-down| 
+BEP1MU|PT0/RSP1/CPU0/0|admin-down|admin-down| 
+BEP1MU|Te0/0/0/0|up|up|Enlace 10G A CTE1NA_Te0/0/0/11 (Linea:11004818) - UPLINK BBIP
+BEP1MU|Te0/0/0/1|admin-down|admin-down| 
+BEP1MU|Te0/0/0/2|admin-down|admin-down| 
+BEP1MU|Te0/0/0/3|admin-down|admin-down| 
+BEP1MU|Te0/0/0/4|admin-down|admin-down| 
+BEP1MU|Te0/0/0/5|admin-down|admin-down| 
+BEP1MU|Te0/0/0/6|admin-down|admin-down| 
+BEP1MU|Te0/0/0/7|admin-down|admin-down| 
+BEP1MU|Te0/0/0/8|admin-down|admin-down| 
+BEP1MU|Te0/0/0/9|admin-down|admin-down| 
+BEP1MU|Te0/0/0/10|admin-down|admin-down| 
+BEP1MU|Te0/0/0/11|admin-down|admin-down| 
+BEP1MU|Te0/0/0/12|admin-down|admin-down| 
+BEP1MU|Te0/0/0/13|admin-down|admin-down| 
+BEP1MU|Te0/0/0/14|admin-down|admin-down| 
+BEP1MU|Te0/0/0/15|admin-down|admin-down| 
+BEP1MU|Te0/0/0/16|admin-down|admin-down| 
+BEP1MU|Te0/0/0/17|admin-down|admin-down| 
+BEP1MU|Te0/0/0/18|admin-down|admin-down| 
+BEP1MU|Te0/0/0/19|admin-down|admin-down| 
+BEP1MU|Te0/1/0/0|admin-down|admin-down| 
+BEP1MU|Te0/1/0/1|admin-down|admin-down| 
+BEP1MU|Te0/1/0/2|up|up|Enlace 10G A RES1NA_Te0/0/0/14 (Linea:11004819) - UPLINK BBIP
+BEP1MU|Te0/1/0/3|admin-down|admin-down| 
+BEP1MU|Te0/1/0/4|admin-down|admin-down| 
+BEP1MU|Te0/1/0/5|admin-down|admin-down| 
+BEP1MU|Te0/1/0/6|admin-down|admin-down| 
+BEP1MU|Te0/1/0/7|admin-down|admin-down| 
+BEP1MU|Te0/1/0/8|admin-down|admin-down| 
+BEP1MU|Te0/1/0/9|admin-down|admin-down| 
+BEP1MU|Te0/1/0/10|admin-down|admin-down| 
+BEP1MU|Te0/1/0/11|admin-down|admin-down| 
+BEP1MU|Te0/1/0/12|admin-down|admin-down| 
+BEP1MU|Te0/1/0/13|admin-down|admin-down| 
+BEP1MU|Te0/1/0/14|admin-down|admin-down| 
+BEP1MU|Te0/1/0/15|admin-down|admin-down| 
+BEP1MU|Te0/1/0/16|admin-down|admin-down| 
+BEP1MU|Te0/1/0/17|admin-down|admin-down| 
+BEP1MU|Te0/1/0/18|admin-down|admin-down| 
+BEP1MU|Te0/1/0/19|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/0|up|up|[ACCESO HSI][BE] B6DG01 11001827
+BEP1MU|Gi0/5/0/1|up|up|[ACCESO HSI][BE] 2QBG01 11001825
+BEP1MU|Gi0/5/0/2|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/3|up|up|[ACCESO HSI][BE] BEP11D 11000043
+BEP1MU|Gi0/5/0/4|up|up|[ACCESO HSI][BE] BEP21D L:15003961 - 2/2
+BEP1MU|Gi0/5/0/5|up|up|[ACCESO HSI][BE] BEP11D 11005467
+BEP1MU|Gi0/5/0/6|up|up|[ACCESO HSI][BE] 12SG01 11001066 - 2/2
+BEP1MU|Gi0/5/0/7|up|up|INTEGRA - VEGA GUSTAVO ALBERTO - REF: 945585 - LINEA: 2869279 - ACC: BEP1MU 0/5/0/7
+BEP1MU|Gi0/5/0/7.2|up|up|INTEGRA - VEGA GUSTAVO ALBERTO - REF: 945585 - LINEA: 2869279 - ACC: BEP1MU 0/5/0/7
+BEP1MU|Gi0/5/0/8|down|down|- REF: 945585 - LINEA: 2869279 - ACC: BEP1MU 0/5/0/8
+BEP1MU|Gi0/5/0/9|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/10|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/11|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/12|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/13|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/14|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/15|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/16|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/17|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/18|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/19|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/20|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/21|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/22|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/23|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/24|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/25|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/26|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/27|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/28|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/29|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/30|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/31|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/32|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/33|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/34|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/35|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/36|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/37|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/38|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/39|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/40|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/41|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/42|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/43|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/44|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/45|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/46|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/47|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/0|up|up|eNODOB - FORMOSA_CALLE_GUASTALLA - A22-S228 (940177)
+BEP1MU|Gi0/6/0/0.1000|up|up|eNODOB - FORMOSA_CALLE_GUASTALLA - A22-S228 (940177) - S1
+BEP1MU|Gi0/6/0/0.1001|up|up|eNODOB - FORMOSA_CALLE_GUASTALLA - A22-S228 (940177) - S1MME
+BEP1MU|Gi0/6/0/0.1002|up|up|eNODOB - FORMOSA_CALLE_GUASTALLA - A22-S228 (940177) - GOMRAN
+BEP1MU|Gi0/6/0/0.1003|up|up|NODOB - FORMOSA_CALLE_GUASTALLA - A22-S228 (940177) - 3G
+BEP1MU|Gi0/6/0/0.1004|up|up|NODOB - FORMOSA_CALLE_GUASTALLA - A22-S228 (940177) - 2G
+BEP1MU|Gi0/6/0/1|up|up|[ACCESO HSI][BE] BEP21D L:15003961 - 1/2
+BEP1MU|Gi0/6/0/2|up|up|[ACCESO HSI][BE] 12SG01 11001066 - 1/2
+BEP1MU|Gi0/6/0/3|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/4|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/5|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/6|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/7|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/8|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/9|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/10|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/11|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/12|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/13|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/14|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/15|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/16|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/17|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/18|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/19|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/20|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/21|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/22|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/23|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/24|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/25|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/26|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/27|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/28|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/29|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/30|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/31|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/32|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/33|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/34|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/35|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/36|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/37|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/38|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/39|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/40|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/41|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/42|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/43|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/44|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/45|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/46|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/47|admin-down|admin-down| 
+BEP1MU|Te0/7/0/0|admin-down|admin-down| 
+BEP1MU|Te0/7/0/1|admin-down|admin-down| 
+BEP1MU|Te0/7/0/2|admin-down|admin-down| 
+BEP1MU|Te0/7/0/3|admin-down|admin-down| 
+BEP1MU|Te0/7/0/4|admin-down|admin-down| 
+BEP1MU|Te0/7/0/5|admin-down|admin-down| 
+BEP1MU|Te0/7/0/6|admin-down|admin-down| 
+BEP1MU|Te0/7/0/7|admin-down|admin-down| 
+BEP1MU|Te0/7/0/8|admin-down|admin-down| 
+BEP1MU|Te0/7/0/9|admin-down|admin-down| 
+BEP1MU|Te0/7/0/10|admin-down|admin-down| 
+BEP1MU|Te0/7/0/11|admin-down|admin-down| 
+BEP1MU|Te0/7/0/12|admin-down|admin-down| 
+BEP1MU|Te0/7/0/13|admin-down|admin-down| 
+BEP1MU|Te0/7/0/14|admin-down|admin-down| 
+BEP1MU|Te0/7/0/15|admin-down|admin-down| 
+BEP1MU|Te0/7/0/16|admin-down|admin-down| 
+BEP1MU|Te0/7/0/17|admin-down|admin-down| 
+BEP1MU|Te0/7/0/18|admin-down|admin-down| 
+BEP1MU|Te0/7/0/19|admin-down|admin-down| 
+BEP1MU|Te0/7/0/20|admin-down|admin-down| 
+BEP1MU|Te0/7/0/21|admin-down|admin-down| 
+BEP1MU|Te0/7/0/22|admin-down|admin-down| 
+BEP1MU|Te0/7/0/23|admin-down|admin-down| 
+BEP1MU|Te0/7/0/24|admin-down|admin-down| 
+BEP1MU|Te0/7/0/25|admin-down|admin-down| 
+BEP1MU|Te0/7/0/26|admin-down|admin-down| 
+BEP1MU|Te0/7/0/27|admin-down|admin-down| 
+BEP1MU|Te0/7/0/28|admin-down|admin-down| 
+BEP1MU|Te0/7/0/29|admin-down|admin-down| 
+BEP1MU|Te0/7/0/30|admin-down|admin-down| 
+BEP1MU|Te0/7/0/31|admin-down|admin-down| 
+BEP1MU|Te0/7/0/32|admin-down|admin-down| 
+BEP1MU|Te0/7/0/33|admin-down|admin-down| 
+BEP1MU|Te0/7/0/34|admin-down|admin-down| 
+BEP1MU|Te0/7/0/35|admin-down|admin-down| 
+BEP1MU|Te0/7/0/36|admin-down|admin-down| 
+BEP1MU|Te0/7/0/37|admin-down|admin-down| 
+BEP1MU|Te0/7/0/38|admin-down|admin-down| 
+BEP1MU|Te0/7/0/39|admin-down|admin-down| 
+BEP1MU|Te0/7/0/40|admin-down|admin-down| 
+BEP1MU|Te0/7/0/41|admin-down|admin-down| 
+BEP1MU|Te0/7/0/42|admin-down|admin-down| 
+BEP1MU|Te0/7/0/43|admin-down|admin-down| 
+BEP1MU|Te0/7/0/44|admin-down|admin-down| 
+BEP1MU|Te0/7/0/45|admin-down|admin-down| 
+BEP1MU|Te0/7/0/46|admin-down|admin-down| 
+
+

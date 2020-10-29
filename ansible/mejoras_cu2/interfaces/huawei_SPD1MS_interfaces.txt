@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+SPD1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+SPD1MS|GigabitEthernet0/2/0|DOWN|DOWN|### VPN - INTA - ref:784028 - Lin:2847585 ###
+SPD1MS|GigabitEthernet0/2/1|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/1 Interface
+SPD1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+SPD1MS|GigabitEthernet0/2/3|UP|UP|GESTION LAN TO LAN - GESTION TRIBUTARIA INTEGRAL SA - REF: 914967 - LINEA: 2867891 - ACC: 1SSPD01_IDU/01/20
+SPD1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+SPD1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+SPD1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+SPD1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+SPD1MS|GigabitEthernet0/2/8|UP|UP|CONEXION A GEth en San Pedro (Misiones) - Linea.80002677
+SPD1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+SPD1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+SPD1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+SPD1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+SPD1MS|Vlanif1207|UP|UP|VLAN_GESTION PBD1MU Eth-Trunk.1207 - Linea.80002677
+SPD1MS|Vlanif4001|DOWN|DOWN|HUAWEI, Vlanif4001 Interface
+
+

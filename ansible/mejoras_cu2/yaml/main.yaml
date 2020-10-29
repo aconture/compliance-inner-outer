@@ -1,0 +1,45 @@
+---
+########################################################################################################
+#Descripcion: 	Este playbook permite obtener el listado de interfaces (estado y descripcion) para 
+#		equipos Cisco IOS XR (series ASR9000/CRS/12000). Excluye las interfaces que contengan
+#		el caracter comilla doble.
+#		Por cada host en el cual se ejecute el comando de forma exitosa, se hara el parseo del
+#		stdout utilizando el archivo textfsm definido en la tarea 'Creacion de variables Cisco'.
+#               Por último se creara un archivo de texto por cada host con el detalle de sus interfaces,
+#		separando campos por |. Los archivos se guardan con el nombre cisco_<host>_interfaces
+#		en el directorio definido en la variable 'dest' de la tarea 'Render Template Cisco'.		
+#Entradas: 	
+#Salidas:	One (1) interfaces text file for each host reached. (odir: see ren tem cisco dest )
+#Autor:		Federico E. Cocca, Carlos Javier Pepe
+#F Creacion:	01/06/2020 
+########################################################################################################
+
+- name: Interfaces
+  connection: network_cli
+  gather_facts: no
+  hosts: aggta
+  vars:
+    comando_cisco: show int desc | exc '"'
+    comando_huawei: disp int desc | exclude '"'
+    comando_atn910: disp interf
+
+  tasks:
+    - include: huawei.yaml
+
+    - include: huawei_regex.yaml
+
+    - include: huawei_tmp.yaml
+
+    - include: cisco.yaml
+
+    - include: cisco_regex.yaml
+
+    - include: cisco_tmp.yaml
+
+    - name: atn910
+      include: atn910.yaml
+
+    - include: atn910_regex.yaml
+
+    - include: atn910_tmp.yaml
+

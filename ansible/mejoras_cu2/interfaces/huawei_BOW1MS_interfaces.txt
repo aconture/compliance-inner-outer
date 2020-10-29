@@ -1,0 +1,22 @@
+shelfname|interface|portoperationalstate|protocol|info1
+BOW1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+BOW1MS|GigabitEthernet0/2/16|UP|UP|CONEXION A RADIO DRAGON WAVE - PAR3MU Eth-trunk12.1016 - Linea.80002069
+BOW1MS|GigabitEthernet0/2/17|UP|UP|CONEXION A eNODOB_BOVRIL_A07-S055
+BOW1MS|GigabitEthernet0/2/18|UP|UP|CONEXION A RE 1PBOW01_IDU/01/17Gb-ETH-E/O - A08-S061 - MOJONES NORTE
+BOW1MS|GigabitEthernet0/2/19|UP|UP|CONEXION A RE 1GBOW01_IDU/01/17ETH- A07-S062 - Sauce de Luna
+BOW1MS|GigabitEthernet0/2/20|UP|UP|ADSL + G. BOV11G - Linea 9702941
+BOW1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+BOW1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+BOW1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+BOW1MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+BOW1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+BOW1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+BOW1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+BOW1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+BOW1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+BOW1MS|Vlanif21|DOWN|DOWN|HUAWEI, Vlanif21 Interface
+BOW1MS|Vlanif22|DOWN|DOWN|HUAWEI, Vlanif22 Interface
+BOW1MS|Vlanif709|UP|DOWN|HUAWEI, Vlanif709 Interface
+BOW1MS|Vlanif1016|UP|UP|HUAWEI, Vlanif1016 Interface
+
+

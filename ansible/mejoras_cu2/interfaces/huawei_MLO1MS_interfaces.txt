@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+MLO1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+MLO1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A RCU3MU Eth-trunk5.1204 - SVLAN: 1204 LINEA: 70001157 - DWMLO01 - 2BB_19/2
+MLO1MS|GigabitEthernet0/2/1|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/1 Interface
+MLO1MS|GigabitEthernet0/2/2|UP|UP|NODOB - MELO - A01-S067 (752712) (753300)
+MLO1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+MLO1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+MLO1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+MLO1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+MLO1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+MLO1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+MLO1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+MLO1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+MLO1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+MLO1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+MLO1MS|Vlanif1204|UP|UP|GESTION - RCU3MU Eth-trunk5.1204 - LINEA: 70001157
+
+

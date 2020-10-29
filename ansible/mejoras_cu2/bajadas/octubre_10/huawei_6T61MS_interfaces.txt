@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+6T61MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+6T61MS|GigabitEthernet0/2/16|UP|UP|NODOB - MAR AZUL BROWN -  A41-B644
+6T61MS|GigabitEthernet0/2/17|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/17 Interface
+6T61MS|GigabitEthernet0/2/18|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/18 Interface
+6T61MS|GigabitEthernet0/2/19|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/19 Interface
+6T61MS|GigabitEthernet0/2/20|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/20 Interface
+6T61MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+6T61MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+6T61MS|GigabitEthernet0/2/23|UP|UP|### A COTEL SUR PTN 5RGEE01/05/02 ###
+6T61MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+6T61MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+6T61MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+6T61MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+6T61MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+6T61MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+6T61MS|Vlanif2470|UP|UP|HUAWEI, Vlanif2470 Interface
+
+

@@ -1,0 +1,5240 @@
+shelfname|interface|portoperationalstate|protocol|info1
+LRI1MB|BE1|up|up|[HRP] LRI1MB 1 [L3] [HSI]
+LRI1MB|BE1.239|admin-down|admin-down|[DATOS] DSLAM PBA11D
+LRI1MB|BE1.11000101|up|up|GESTION CHI21D HW5600
+LRI1MB|BE1.11000201|up|up|GESTION CHI11D HW5100
+LRI1MB|BE1.11000401|up|up|GESTION CHIM01 ALU7302
+LRI1MB|BE1.11001411|up|up|GESTION AUXILIAR A AIM11D HW5100
+LRI1MB|BE1.11001701|up|up|GESTION LQB21D HW5600
+LRI1MB|BE1.11003901|up|up|GESTION CHI41D HUAWEI5600
+LRI1MB|BE1.11004601|up|up|GESTION LQB31D HW 5600
+LRI1MB|BE1.11004701|up|up|GESTION LN221D ZTE9210
+LRI1MB|BE1.11004801|up|up|GESTION TIG21D ZTE9800
+LRI1MB|BE1.11241901|up|up|GESTION NGS11D HW5600
+LRI1MB|BE1.11396901|admin-down|admin-down|GESTION CZE11D HUAWEI5600
+LRI1MB|BE1.11397301|up|up|GESTION AIM11D HUAWEI5100
+LRI1MB|BE1.11397302|up|up|GESTION OLT11D HUAWEI5100
+LRI1MB|BE1.11397303|up|up|GESTION TAM11D HUAWEI5100
+LRI1MB|BE1.11397304|up|up|GESTION MLZ11D HUAWEI5100
+LRI1MB|BE1.11397305|up|up|GESTION CXP11D HUAWEI5100
+LRI1MB|BE1.11397306|up|up|GESTION PAQ11D HUAWEI5100
+LRI1MB|BE1.11397307|up|up|GESTION ELJ11D HUAWEI5100
+LRI1MB|BE1.11397401|up|up|GESTION LRI21D HUAWEI5100
+LRI1MB|BE1.11400001|up|up|GESTION CHMM01 ALU7302
+LRI1MB|BE1.12000101|up|up|[TOIP] CHI21D HUA 5600 [ADS2]
+LRI1MB|BE1.12000401|up|up|[TOIP] CHIM01 ALU 7302 [ADS2]
+LRI1MB|BE1.12001501|up|up|[TOIP] 7MAG01 HUA 5600T [ADS2]
+LRI1MB|BE1.12001701|up|up|[TOIP] LQB21D HUA 5600 [ADS2]
+LRI1MB|BE1.12003101|up|up|[TOIP] 1RWG01 HUA 5603T [ADS2]
+LRI1MB|BE1.12003201|up|up|[TOIP] 1T1G01 HUA 5616 [ADS2]
+LRI1MB|BE1.12003401|up|up|[TOIP] NLSG01 HUA 5600 [ADS2]
+LRI1MB|BE1.12003601|up|up|[TOIP] FS1G01 HUA D200 [ADS2]
+LRI1MB|BE1.12003701|up|up|[TOIP] BIWG01 HUA D500 [ADS2]
+LRI1MB|BE1.12003801|up|up|[TOIP] SWVG01 HUA D200 [ADS2]
+LRI1MB|BE1.12003901|up|up|[TOIP] CHI41D HUA 5600 [ADS2]
+LRI1MB|BE1.12004601|up|up|[TOIP] LQB31D HUA 5600 [ADS2]
+LRI1MB|BE1.12004701|up|up|[TOIP] LN221D ZTE 9210 [ADS2]
+LRI1MB|BE1.12004801|up|up|[TOIP] TIG21D ZTE 9800 [ADS2]
+LRI1MB|BE1.12097001|up|up|[TOIP] CNWG01 HUA MA5616 [ADS2]
+LRI1MB|BE1.12252901|up|up|[TOIP] BWZG01 ZTE OUT40 [ADS2]
+LRI1MB|BE1.12253901|up|up|[TOIP] VZNG01 ZTE OUT40 [ADS2]
+LRI1MB|BE1.12364701|up|up|[TOIP] PZCG01 HUA UA500 [ADS2]
+LRI1MB|BE1.12364901|up|up|[TOIP] TAMG01 HUA UA500 [ADS2]
+LRI1MB|BE1.12400001|up|up|[TOIP] CHMM01 ALU 7302 [ADS2]
+LRI1MB|BE1.13000101|up|up|[DATOS] CHI21D HUA 5600 [ADS2]
+LRI1MB|BE1.13000201|up|up|[DATOS] CHI11D HUA 5100 [ADSL]
+LRI1MB|BE1.13000202|up|up|[DATOS] CHI12D HUA 5100 [ADSL]
+LRI1MB|BE1.13000401|up|up|[DATOS] CHIM01 ALC 7302 [VDS2]
+LRI1MB|BE1.13001101|up|up|[DATOS] RJ3G01 HUA 5000 [ADS2]
+LRI1MB|BE1.13001301|up|up|[DATOS] GUSG01 HUA 5603_T [VDS2]
+LRI1MB|BE1.13001501|up|up|[DATOS] 7MAG01 HUA 5600_T [VDS2]
+LRI1MB|BE1.13001601|up|up|[DATOS] VGSG01 HUA 5000 [ADS2]
+LRI1MB|BE1.13001701|up|up|[DATOS] LQB21D HUA 5600 [ADS2]
+LRI1MB|BE1.13003101|up|up|[DATOS] 1RWG01 HUA 5603_T [VDS2]
+LRI1MB|BE1.13003201|up|up|[DATOS] 1T1G01 HUA 5600_T [VDS2]
+LRI1MB|BE1.13003301|up|up|[DATOS] 1T6G01 HUA 5616 [VDS2]
+LRI1MB|BE1.13003401|up|up|[DATOS] NLSG01 HUA 5600_T [VDS2]
+LRI1MB|BE1.13003501|up|up|[DATOS] ZVIG01 HUA 5603_T [VDS2]
+LRI1MB|BE1.13003601|up|up|[DATOS] FS1G01 HUA 5000 [ADS2]
+LRI1MB|BE1.13003701|up|up|[DATOS] BIWG01 HUA 5000 [ADS2]
+LRI1MB|BE1.13003801|up|up|[DATOS] SWVG01 HUA 5000 [ADS2]
+LRI1MB|BE1.13003901|up|up|[DATOS] CHI41D HUA 5600 [ADS2]
+LRI1MB|BE1.13004601|up|up|[DATOS] LQB31D HUA 5600 [ADS2]
+LRI1MB|BE1.13004701|up|up|[DATOS] LN221D ZTE 9210 [ADS2]
+LRI1MB|BE1.13004801|up|up|[DATOS] TIG21D ZTE 9800 [ADS2]
+LRI1MB|BE1.13097001|up|up|[DATOS] CNWG01 HUA 5616 [VDS2]
+LRI1MB|BE1.13241901|up|up|[DATOS] NGS11D HUA 5600 [ADS2]
+LRI1MB|BE1.13252901|up|up|[DATOS] BWZG01 ZTE 5200 [ADS2]
+LRI1MB|BE1.13253901|up|up|[DATOS] VZNG01 HUA 5603_T [VDS2]
+LRI1MB|BE1.13364701|up|up|[DATOS] ADSL PZCG HUAWEI
+LRI1MB|BE1.13364901|up|up|[DATOS] TAMG01 HUA 5616 [VDS2]
+LRI1MB|BE1.13396901|admin-down|admin-down|[DATOS] DSLAM CZE11D HUAWEI5600
+LRI1MB|BE1.13396902|admin-down|admin-down|[DATOS] DSLAM CZE12D HUAWEI5600
+LRI1MB|BE1.13396903|admin-down|admin-down|[DATOS] DSLAM CZE13D HUAWEI5600
+LRI1MB|BE1.13397301|up|up|[DATOS] AIM11D HUA 5100 [ADSL]
+LRI1MB|BE1.13397302|up|up|[DATOS] OLT11D HUA 5100 [ADSL]
+LRI1MB|BE1.13397303|up|up|[DATOS] DATOS TAM11D HUAWEI5100
+LRI1MB|BE1.13397304|up|up|[DATOS] MLZ11D HUA 5100 [ADSL]
+LRI1MB|BE1.13397305|up|up|[DATOS] CXP11D HUA 5100 [ADSL]
+LRI1MB|BE1.13397306|up|up|[DATOS] DATOS PAQ11D HUAWEI5100
+LRI1MB|BE1.13397307|up|up|[DATOS] ELJ11D HUA 5100 [ADSL]
+LRI1MB|BE1.13397401|up|up|[DATOS] LRI21D HUA 5100 [ADSL]
+LRI1MB|BE1.13397402|up|up|[DATOS] LRI22D HUA 5100 [ADSL]
+LRI1MB|BE1.13397403|up|up|[DATOS] LRI23D HUA 5100 [ADSL]
+LRI1MB|BE1.13397404|up|up|[DATOS] LRI24D HUA 5100 [ADSL]
+LRI1MB|BE1.13397405|up|up|[DATOS] LRI25D HUA 5100 [ADSL]
+LRI1MB|BE1.13400001|up|up|[DATOS] CHMM01 ALC 7302 [VDS2]
+LRI1MB|BE1.120004901|up|up|[TOIP] FIAG01 HUA UA500 [ADS2]
+LRI1MB|BE1.130004901|up|up|[DATOS] ADSL FIAG01 HUAWEI
+LRI1MB|BE1.1299361001|up|up|[TOIP] MLZG01 HUA 5600T [ADS2]
+LRI1MB|BE1.1299361601|up|up|[TOIP] PLLG01 HUA 5616 [ADS2]
+LRI1MB|BE1.1299361701|up|up|[TOIP] PAQG01 HUA 5603T [ADS2]
+LRI1MB|BE1.1299364601|up|up|[TOIP] SLQG01 HUA 5603T [ADS2]
+LRI1MB|BE1.1399001201|up|up|[DATOS] ADSL LN2G01 UA5000
+LRI1MB|BE1.1399002401|up|up|[DATOS] ADSL BI9G01 UA5000
+LRI1MB|BE1.1399002501|up|up|[DATOS] ADSL BFFG01 UA5000
+LRI1MB|BE1.1399002601|up|up|[DATOS] ADSL BSWG01 UA5000
+LRI1MB|BE1.1399009901|up|up|[DATOS] ADSL BI8G01 UA5000
+LRI1MB|BE1.1399361001|up|up|[DATOS] ADSL MLZG01 MA5600T
+LRI1MB|BE1.1399361601|up|up|[DATOS] PLLG01 HUA 5616 [VDS2]
+LRI1MB|BE1.1399361701|up|up|[DATOS] PAQG01 HUA 5603_T [VDS2]
+LRI1MB|BE1.1399364601|up|up|[DATOS] SLQG01 HUAWEI MA5603T
+LRI1MB|BE3|up|up|[ACCESO HSI][BE] LRIP01 - Linea 13005258
+LRI1MB|BE3.6|up|up|IPTV LRIP01 IGMP-PIM
+LRI1MB|BE3.7|up|up|[DHCP] [IPTV] LRIP01 HUA 5600_T [GPON]
+LRI1MB|BE3.10|up|up|[DATOS] LRIP01 10 HUA 5600_T [GPON]
+LRI1MB|BE3.11|up|up|[DATOS] LRIP01 11 HUA 5600_T [GPON]
+LRI1MB|BE3.12|up|up|[DATOS] LRIP01 12 HUA 5600_T [GPON]
+LRI1MB|BE3.12.pppoe1|up|up| 
+LRI1MB|BE3.12.pppoe5|up|up| 
+LRI1MB|BE3.12.pppoe8|up|up| 
+LRI1MB|BE3.12.pppoe9|up|up| 
+LRI1MB|BE3.12.pppoe13|up|up| 
+LRI1MB|BE3.12.pppoe16|up|up| 
+LRI1MB|BE3.12.pppoe17|up|up| 
+LRI1MB|BE3.12.pppoe18|up|up| 
+LRI1MB|BE3.12.pppoe23|up|up| 
+LRI1MB|BE3.12.pppoe26|up|up| 
+LRI1MB|BE3.12.pppoe30|up|up| 
+LRI1MB|BE3.12.pppoe35|up|up| 
+LRI1MB|BE3.12.pppoe36|up|up| 
+LRI1MB|BE3.12.pppoe39|up|up| 
+LRI1MB|BE3.12.pppoe46|up|up| 
+LRI1MB|BE3.12.pppoe48|up|up| 
+LRI1MB|BE3.12.pppoe51|up|up| 
+LRI1MB|BE3.12.pppoe53|up|up| 
+LRI1MB|BE3.12.pppoe56|up|up| 
+LRI1MB|BE3.12.pppoe63|up|up| 
+LRI1MB|BE3.12.pppoe68|up|up| 
+LRI1MB|BE3.12.pppoe75|up|up| 
+LRI1MB|BE3.12.pppoe84|up|up| 
+LRI1MB|BE3.12.pppoe93|up|up| 
+LRI1MB|BE3.12.pppoe95|up|up| 
+LRI1MB|BE3.12.pppoe96|up|up| 
+LRI1MB|BE3.12.pppoe104|up|up| 
+LRI1MB|BE3.12.pppoe106|up|up| 
+LRI1MB|BE3.12.pppoe109|up|up| 
+LRI1MB|BE3.12.pppoe111|up|up| 
+LRI1MB|BE3.12.pppoe112|up|up| 
+LRI1MB|BE3.12.pppoe116|up|up| 
+LRI1MB|BE3.12.pppoe117|up|up| 
+LRI1MB|BE3.12.pppoe118|up|up| 
+LRI1MB|BE3.12.pppoe120|up|up| 
+LRI1MB|BE3.12.pppoe129|up|up| 
+LRI1MB|BE3.12.pppoe130|up|up| 
+LRI1MB|BE3.12.pppoe131|up|up| 
+LRI1MB|BE3.12.pppoe138|up|up| 
+LRI1MB|BE3.12.pppoe139|up|up| 
+LRI1MB|BE3.12.pppoe145|up|up| 
+LRI1MB|BE3.12.pppoe146|up|up| 
+LRI1MB|BE3.12.pppoe150|up|up| 
+LRI1MB|BE3.12.pppoe154|up|up| 
+LRI1MB|BE3.12.pppoe155|up|up| 
+LRI1MB|BE3.12.pppoe156|up|up| 
+LRI1MB|BE3.12.pppoe158|up|up| 
+LRI1MB|BE3.12.pppoe162|up|up| 
+LRI1MB|BE3.12.pppoe170|up|up| 
+LRI1MB|BE3.12.pppoe174|up|up| 
+LRI1MB|BE3.12.pppoe177|up|up| 
+LRI1MB|BE3.12.pppoe181|up|up| 
+LRI1MB|BE3.12.pppoe185|up|up| 
+LRI1MB|BE3.12.pppoe188|up|up| 
+LRI1MB|BE3.12.pppoe190|up|up| 
+LRI1MB|BE3.12.pppoe196|up|up| 
+LRI1MB|BE3.12.pppoe199|up|up| 
+LRI1MB|BE3.12.pppoe200|up|up| 
+LRI1MB|BE3.12.pppoe202|up|up| 
+LRI1MB|BE3.12.pppoe203|up|up| 
+LRI1MB|BE3.12.pppoe207|up|up| 
+LRI1MB|BE3.12.pppoe208|up|up| 
+LRI1MB|BE3.12.pppoe209|up|up| 
+LRI1MB|BE3.12.pppoe212|up|up| 
+LRI1MB|BE3.12.pppoe215|up|up| 
+LRI1MB|BE3.12.pppoe216|up|up| 
+LRI1MB|BE3.12.pppoe225|up|up| 
+LRI1MB|BE3.12.pppoe227|up|up| 
+LRI1MB|BE3.12.pppoe229|up|up| 
+LRI1MB|BE3.12.pppoe230|up|up| 
+LRI1MB|BE3.12.pppoe232|up|up| 
+LRI1MB|BE3.12.pppoe233|up|up| 
+LRI1MB|BE3.12.pppoe236|up|up| 
+LRI1MB|BE3.12.pppoe237|up|up| 
+LRI1MB|BE3.12.pppoe242|up|up| 
+LRI1MB|BE3.12.pppoe243|up|up| 
+LRI1MB|BE3.12.pppoe244|up|up| 
+LRI1MB|BE3.12.pppoe247|up|up| 
+LRI1MB|BE3.12.pppoe250|up|up| 
+LRI1MB|BE3.12.pppoe252|up|up| 
+LRI1MB|BE3.12.pppoe254|up|up| 
+LRI1MB|BE3.12.pppoe259|up|up| 
+LRI1MB|BE3.12.pppoe266|up|up| 
+LRI1MB|BE3.12.pppoe267|up|up| 
+LRI1MB|BE3.12.pppoe269|up|up| 
+LRI1MB|BE3.12.pppoe273|up|up| 
+LRI1MB|BE3.12.pppoe274|up|up| 
+LRI1MB|BE3.12.pppoe281|up|up| 
+LRI1MB|BE3.12.pppoe282|up|up| 
+LRI1MB|BE3.12.pppoe283|up|up| 
+LRI1MB|BE3.12.pppoe286|up|up| 
+LRI1MB|BE3.12.pppoe288|up|up| 
+LRI1MB|BE3.12.pppoe292|up|up| 
+LRI1MB|BE3.12.pppoe294|up|up| 
+LRI1MB|BE3.12.pppoe303|up|up| 
+LRI1MB|BE3.12.pppoe304|up|up| 
+LRI1MB|BE3.12.pppoe305|up|up| 
+LRI1MB|BE3.12.pppoe306|up|up| 
+LRI1MB|BE3.12.pppoe307|up|up| 
+LRI1MB|BE3.12.pppoe311|up|up| 
+LRI1MB|BE3.12.pppoe315|up|up| 
+LRI1MB|BE3.12.pppoe316|up|up| 
+LRI1MB|BE3.12.pppoe320|up|up| 
+LRI1MB|BE3.12.pppoe321|up|up| 
+LRI1MB|BE3.12.pppoe323|up|up| 
+LRI1MB|BE3.12.pppoe324|up|up| 
+LRI1MB|BE3.12.pppoe327|up|up| 
+LRI1MB|BE3.12.pppoe328|up|up| 
+LRI1MB|BE3.12.pppoe330|up|up| 
+LRI1MB|BE3.12.pppoe331|up|up| 
+LRI1MB|BE3.12.pppoe332|up|up| 
+LRI1MB|BE3.12.pppoe334|up|up| 
+LRI1MB|BE3.12.pppoe335|up|up| 
+LRI1MB|BE3.12.pppoe337|up|up| 
+LRI1MB|BE3.12.pppoe338|up|up| 
+LRI1MB|BE3.12.pppoe340|up|up| 
+LRI1MB|BE3.12.pppoe346|up|up| 
+LRI1MB|BE3.12.pppoe349|up|up| 
+LRI1MB|BE3.12.pppoe351|up|up| 
+LRI1MB|BE3.12.pppoe352|up|up| 
+LRI1MB|BE3.12.pppoe353|up|up| 
+LRI1MB|BE3.12.pppoe359|up|up| 
+LRI1MB|BE3.12.pppoe361|up|up| 
+LRI1MB|BE3.12.pppoe362|up|up| 
+LRI1MB|BE3.12.pppoe364|up|up| 
+LRI1MB|BE3.12.pppoe365|up|up| 
+LRI1MB|BE3.12.pppoe366|up|up| 
+LRI1MB|BE3.12.pppoe368|up|up| 
+LRI1MB|BE3.12.pppoe378|up|up| 
+LRI1MB|BE3.12.pppoe380|up|up| 
+LRI1MB|BE3.12.pppoe382|up|up| 
+LRI1MB|BE3.12.pppoe383|up|up| 
+LRI1MB|BE3.12.pppoe384|up|up| 
+LRI1MB|BE3.12.pppoe386|up|up| 
+LRI1MB|BE3.12.pppoe394|up|up| 
+LRI1MB|BE3.12.pppoe396|up|up| 
+LRI1MB|BE3.12.pppoe399|up|up| 
+LRI1MB|BE3.12.pppoe402|up|up| 
+LRI1MB|BE3.12.pppoe403|up|up| 
+LRI1MB|BE3.12.pppoe404|up|up| 
+LRI1MB|BE3.12.pppoe417|up|up| 
+LRI1MB|BE3.12.pppoe418|up|up| 
+LRI1MB|BE3.12.pppoe420|up|up| 
+LRI1MB|BE3.12.pppoe423|up|up| 
+LRI1MB|BE3.12.pppoe424|up|up| 
+LRI1MB|BE3.12.pppoe425|up|up| 
+LRI1MB|BE3.12.pppoe426|up|up| 
+LRI1MB|BE3.12.pppoe427|up|up| 
+LRI1MB|BE3.12.pppoe429|up|up| 
+LRI1MB|BE3.12.pppoe430|up|up| 
+LRI1MB|BE3.12.pppoe432|up|up| 
+LRI1MB|BE3.12.pppoe434|up|up| 
+LRI1MB|BE3.12.pppoe435|up|up| 
+LRI1MB|BE3.12.pppoe437|up|up| 
+LRI1MB|BE3.12.pppoe438|up|up| 
+LRI1MB|BE3.12.pppoe446|up|up| 
+LRI1MB|BE3.12.pppoe449|up|up| 
+LRI1MB|BE3.12.pppoe450|up|up| 
+LRI1MB|BE3.12.pppoe451|up|up| 
+LRI1MB|BE3.12.pppoe452|up|up| 
+LRI1MB|BE3.12.pppoe460|up|up| 
+LRI1MB|BE3.12.pppoe467|up|up| 
+LRI1MB|BE3.12.pppoe470|up|up| 
+LRI1MB|BE3.12.pppoe472|up|up| 
+LRI1MB|BE3.12.pppoe474|up|up| 
+LRI1MB|BE3.12.pppoe476|up|up| 
+LRI1MB|BE3.12.pppoe477|up|up| 
+LRI1MB|BE3.12.pppoe478|up|up| 
+LRI1MB|BE3.12.pppoe480|up|up| 
+LRI1MB|BE3.12.pppoe481|up|up| 
+LRI1MB|BE3.12.pppoe484|up|up| 
+LRI1MB|BE3.12.pppoe486|up|up| 
+LRI1MB|BE3.12.pppoe491|up|up| 
+LRI1MB|BE3.12.pppoe493|up|up| 
+LRI1MB|BE3.12.pppoe495|up|up| 
+LRI1MB|BE3.12.pppoe498|up|up| 
+LRI1MB|BE3.12.pppoe500|up|up| 
+LRI1MB|BE3.12.pppoe502|up|up| 
+LRI1MB|BE3.12.pppoe503|up|up| 
+LRI1MB|BE3.12.pppoe505|up|up| 
+LRI1MB|BE3.12.pppoe509|up|up| 
+LRI1MB|BE3.12.pppoe515|up|up| 
+LRI1MB|BE3.12.pppoe519|up|up| 
+LRI1MB|BE3.12.pppoe520|up|up| 
+LRI1MB|BE3.12.pppoe521|up|up| 
+LRI1MB|BE3.12.pppoe524|up|up| 
+LRI1MB|BE3.12.pppoe526|up|up| 
+LRI1MB|BE3.12.pppoe531|up|up| 
+LRI1MB|BE3.12.pppoe532|up|up| 
+LRI1MB|BE3.12.pppoe535|up|up| 
+LRI1MB|BE3.12.pppoe537|up|up| 
+LRI1MB|BE3.12.pppoe538|up|up| 
+LRI1MB|BE3.12.pppoe544|up|up| 
+LRI1MB|BE3.12.pppoe554|up|up| 
+LRI1MB|BE3.12.pppoe555|up|up| 
+LRI1MB|BE3.12.pppoe557|up|up| 
+LRI1MB|BE3.12.pppoe558|up|up| 
+LRI1MB|BE3.12.pppoe559|up|up| 
+LRI1MB|BE3.12.pppoe560|up|up| 
+LRI1MB|BE3.12.pppoe561|up|up| 
+LRI1MB|BE3.12.pppoe563|up|up| 
+LRI1MB|BE3.12.pppoe564|up|up| 
+LRI1MB|BE3.12.pppoe569|up|up| 
+LRI1MB|BE3.12.pppoe575|up|up| 
+LRI1MB|BE3.12.pppoe576|up|up| 
+LRI1MB|BE3.12.pppoe577|up|up| 
+LRI1MB|BE3.12.pppoe578|up|up| 
+LRI1MB|BE3.12.pppoe580|up|up| 
+LRI1MB|BE3.12.pppoe583|up|up| 
+LRI1MB|BE3.12.pppoe585|up|up| 
+LRI1MB|BE3.12.pppoe587|up|up| 
+LRI1MB|BE3.12.pppoe588|up|up| 
+LRI1MB|BE3.12.pppoe591|up|up| 
+LRI1MB|BE3.12.pppoe594|up|up| 
+LRI1MB|BE3.12.pppoe597|up|up| 
+LRI1MB|BE3.12.pppoe602|up|up| 
+LRI1MB|BE3.12.pppoe606|up|up| 
+LRI1MB|BE3.12.pppoe607|up|up| 
+LRI1MB|BE3.12.pppoe609|up|up| 
+LRI1MB|BE3.12.pppoe611|up|up| 
+LRI1MB|BE3.12.pppoe612|up|up| 
+LRI1MB|BE3.12.pppoe613|up|up| 
+LRI1MB|BE3.12.pppoe616|up|up| 
+LRI1MB|BE3.12.pppoe618|up|up| 
+LRI1MB|BE3.12.pppoe623|up|up| 
+LRI1MB|BE3.12.pppoe624|up|up| 
+LRI1MB|BE3.12.pppoe625|up|up| 
+LRI1MB|BE3.12.pppoe626|up|up| 
+LRI1MB|BE3.12.pppoe627|up|up| 
+LRI1MB|BE3.12.pppoe629|up|up| 
+LRI1MB|BE3.12.pppoe631|up|up| 
+LRI1MB|BE3.12.pppoe633|up|up| 
+LRI1MB|BE3.12.pppoe636|up|up| 
+LRI1MB|BE3.12.pppoe639|up|up| 
+LRI1MB|BE3.12.pppoe645|up|up| 
+LRI1MB|BE3.12.pppoe646|up|up| 
+LRI1MB|BE3.12.pppoe648|up|up| 
+LRI1MB|BE3.12.pppoe652|up|up| 
+LRI1MB|BE3.12.pppoe663|up|up| 
+LRI1MB|BE3.12.pppoe665|up|up| 
+LRI1MB|BE3.12.pppoe666|up|up| 
+LRI1MB|BE3.12.pppoe670|up|up| 
+LRI1MB|BE3.12.pppoe673|up|up| 
+LRI1MB|BE3.12.pppoe680|up|up| 
+LRI1MB|BE3.12.pppoe684|up|up| 
+LRI1MB|BE3.12.pppoe686|up|up| 
+LRI1MB|BE3.12.pppoe687|up|up| 
+LRI1MB|BE3.12.pppoe689|up|up| 
+LRI1MB|BE3.12.pppoe690|up|up| 
+LRI1MB|BE3.12.pppoe695|up|up| 
+LRI1MB|BE3.12.pppoe697|up|up| 
+LRI1MB|BE3.12.pppoe698|up|up| 
+LRI1MB|BE3.12.pppoe703|up|up| 
+LRI1MB|BE3.12.pppoe706|up|up| 
+LRI1MB|BE3.12.pppoe708|up|up| 
+LRI1MB|BE3.12.pppoe709|up|up| 
+LRI1MB|BE3.12.pppoe710|up|up| 
+LRI1MB|BE3.12.pppoe715|up|up| 
+LRI1MB|BE3.12.pppoe717|up|up| 
+LRI1MB|BE3.12.pppoe720|up|up| 
+LRI1MB|BE3.12.pppoe723|up|up| 
+LRI1MB|BE3.12.pppoe727|up|up| 
+LRI1MB|BE3.12.pppoe728|up|up| 
+LRI1MB|BE3.12.pppoe731|up|up| 
+LRI1MB|BE3.12.pppoe733|up|up| 
+LRI1MB|BE3.12.pppoe736|up|up| 
+LRI1MB|BE3.12.pppoe740|up|up| 
+LRI1MB|BE3.12.pppoe741|up|up| 
+LRI1MB|BE3.12.pppoe744|up|up| 
+LRI1MB|BE3.12.pppoe747|up|up| 
+LRI1MB|BE3.12.pppoe748|up|up| 
+LRI1MB|BE3.12.pppoe750|up|up| 
+LRI1MB|BE3.12.pppoe751|up|up| 
+LRI1MB|BE3.12.pppoe752|up|up| 
+LRI1MB|BE3.12.pppoe755|up|up| 
+LRI1MB|BE3.12.pppoe760|up|up| 
+LRI1MB|BE3.12.pppoe764|up|up| 
+LRI1MB|BE3.12.pppoe767|up|up| 
+LRI1MB|BE3.12.pppoe769|up|up| 
+LRI1MB|BE3.12.pppoe770|up|up| 
+LRI1MB|BE3.12.pppoe771|up|up| 
+LRI1MB|BE3.12.pppoe772|up|up| 
+LRI1MB|BE3.12.pppoe774|up|up| 
+LRI1MB|BE3.12.pppoe776|up|up| 
+LRI1MB|BE3.12.pppoe781|up|up| 
+LRI1MB|BE3.12.pppoe787|up|up| 
+LRI1MB|BE3.12.pppoe788|up|up| 
+LRI1MB|BE3.12.pppoe803|up|up| 
+LRI1MB|BE3.12.pppoe805|up|up| 
+LRI1MB|BE3.12.pppoe806|up|up| 
+LRI1MB|BE3.12.pppoe808|up|up| 
+LRI1MB|BE3.12.pppoe810|up|up| 
+LRI1MB|BE3.12.pppoe812|up|up| 
+LRI1MB|BE3.12.pppoe813|up|up| 
+LRI1MB|BE3.12.pppoe816|up|up| 
+LRI1MB|BE3.12.pppoe818|up|up| 
+LRI1MB|BE3.12.pppoe819|up|up| 
+LRI1MB|BE3.12.pppoe822|up|up| 
+LRI1MB|BE3.12.pppoe824|up|up| 
+LRI1MB|BE3.12.pppoe828|up|up| 
+LRI1MB|BE3.12.pppoe830|up|up| 
+LRI1MB|BE3.12.pppoe834|up|up| 
+LRI1MB|BE3.12.pppoe835|up|up| 
+LRI1MB|BE3.12.pppoe844|up|up| 
+LRI1MB|BE3.12.pppoe846|up|up| 
+LRI1MB|BE3.12.pppoe847|up|up| 
+LRI1MB|BE3.12.pppoe848|up|up| 
+LRI1MB|BE3.12.pppoe850|up|up| 
+LRI1MB|BE3.12.pppoe852|up|up| 
+LRI1MB|BE3.12.pppoe854|up|up| 
+LRI1MB|BE3.12.pppoe855|up|up| 
+LRI1MB|BE3.12.pppoe857|up|up| 
+LRI1MB|BE3.12.pppoe859|up|up| 
+LRI1MB|BE3.12.pppoe864|up|up| 
+LRI1MB|BE3.12.pppoe865|up|up| 
+LRI1MB|BE3.12.pppoe867|up|up| 
+LRI1MB|BE3.12.pppoe868|up|up| 
+LRI1MB|BE3.12.pppoe870|up|up| 
+LRI1MB|BE3.12.pppoe873|up|up| 
+LRI1MB|BE3.12.pppoe874|up|up| 
+LRI1MB|BE3.12.pppoe875|up|up| 
+LRI1MB|BE3.12.pppoe876|up|up| 
+LRI1MB|BE3.12.pppoe877|up|up| 
+LRI1MB|BE3.12.pppoe879|up|up| 
+LRI1MB|BE3.12.pppoe884|up|up| 
+LRI1MB|BE3.12.pppoe885|up|up| 
+LRI1MB|BE3.12.pppoe888|up|up| 
+LRI1MB|BE3.12.pppoe891|up|up| 
+LRI1MB|BE3.12.pppoe892|up|up| 
+LRI1MB|BE3.12.pppoe894|up|up| 
+LRI1MB|BE3.12.pppoe900|up|up| 
+LRI1MB|BE3.12.pppoe904|up|up| 
+LRI1MB|BE3.12.pppoe905|up|up| 
+LRI1MB|BE3.12.pppoe914|up|up| 
+LRI1MB|BE3.12.pppoe920|up|up| 
+LRI1MB|BE3.12.pppoe947|up|up| 
+LRI1MB|BE3.12.pppoe951|up|up| 
+LRI1MB|BE3.12.pppoe959|up|up| 
+LRI1MB|BE3.12.pppoe966|up|up| 
+LRI1MB|BE3.12.pppoe970|up|up| 
+LRI1MB|BE3.12.pppoe973|up|up| 
+LRI1MB|BE3.12.pppoe976|up|up| 
+LRI1MB|BE3.12.pppoe999|up|up| 
+LRI1MB|BE3.12.pppoe1011|up|up| 
+LRI1MB|BE3.12.pppoe1021|up|up| 
+LRI1MB|BE3.12.pppoe1049|up|up| 
+LRI1MB|BE3.12.pppoe1053|up|up| 
+LRI1MB|BE3.12.pppoe1075|up|up| 
+LRI1MB|BE3.12.pppoe1152|up|up| 
+LRI1MB|BE3.12.pppoe1176|up|up| 
+LRI1MB|BE3.12.pppoe1197|up|up| 
+LRI1MB|BE3.12.pppoe1199|up|up| 
+LRI1MB|BE3.12.pppoe1203|up|up| 
+LRI1MB|BE3.12.pppoe1206|up|up| 
+LRI1MB|BE3.12.pppoe1212|up|up| 
+LRI1MB|BE3.12.pppoe1214|up|up| 
+LRI1MB|BE3.12.pppoe1259|up|up| 
+LRI1MB|BE3.12.pppoe1287|up|up| 
+LRI1MB|BE3.12.pppoe1297|up|up| 
+LRI1MB|BE3.12.pppoe1342|up|up| 
+LRI1MB|BE3.12.pppoe1354|up|up| 
+LRI1MB|BE3.12.pppoe1408|up|up| 
+LRI1MB|BE3.12.pppoe1476|up|up| 
+LRI1MB|BE3.12.pppoe1497|up|up| 
+LRI1MB|BE3.12.pppoe1584|up|up| 
+LRI1MB|BE3.12.pppoe1626|up|up| 
+LRI1MB|BE3.12.pppoe1635|up|up| 
+LRI1MB|BE3.12.pppoe1643|up|up| 
+LRI1MB|BE3.12.pppoe1651|up|up| 
+LRI1MB|BE3.12.pppoe1656|up|up| 
+LRI1MB|BE3.12.pppoe1686|up|up| 
+LRI1MB|BE3.12.pppoe1708|up|up| 
+LRI1MB|BE3.12.pppoe1710|up|up| 
+LRI1MB|BE3.12.pppoe1799|up|up| 
+LRI1MB|BE3.12.pppoe1800|up|up| 
+LRI1MB|BE3.12.pppoe1819|up|up| 
+LRI1MB|BE3.12.pppoe1823|up|up| 
+LRI1MB|BE3.12.pppoe1826|up|up| 
+LRI1MB|BE3.12.pppoe1835|up|up| 
+LRI1MB|BE3.12.pppoe1879|up|up| 
+LRI1MB|BE3.12.pppoe1880|up|up| 
+LRI1MB|BE3.12.pppoe1881|up|up| 
+LRI1MB|BE3.12.pppoe1883|up|up| 
+LRI1MB|BE3.12.pppoe1885|up|up| 
+LRI1MB|BE3.12.pppoe1886|up|up| 
+LRI1MB|BE3.12.pppoe1887|up|up| 
+LRI1MB|BE3.12.pppoe1888|up|up| 
+LRI1MB|BE3.12.pppoe1892|up|up| 
+LRI1MB|BE3.12.pppoe1893|up|up| 
+LRI1MB|BE3.12.pppoe1895|up|up| 
+LRI1MB|BE3.12.pppoe1896|up|up| 
+LRI1MB|BE3.12.pppoe1897|up|up| 
+LRI1MB|BE3.12.pppoe1898|up|up| 
+LRI1MB|BE3.12.pppoe1899|up|up| 
+LRI1MB|BE3.12.pppoe1903|up|up| 
+LRI1MB|BE3.12.pppoe1904|up|up| 
+LRI1MB|BE3.12.pppoe1907|up|up| 
+LRI1MB|BE3.12.pppoe1908|up|up| 
+LRI1MB|BE3.12.pppoe1913|up|up| 
+LRI1MB|BE3.12.pppoe1921|up|up| 
+LRI1MB|BE3.12.pppoe1922|up|up| 
+LRI1MB|BE3.12.pppoe1923|up|up| 
+LRI1MB|BE3.12.pppoe1928|up|up| 
+LRI1MB|BE3.12.pppoe1940|up|up| 
+LRI1MB|BE3.12.pppoe1953|up|up| 
+LRI1MB|BE3.12.pppoe1961|up|up| 
+LRI1MB|BE3.12.pppoe1997|up|up| 
+LRI1MB|BE3.12.pppoe2003|up|up| 
+LRI1MB|BE3.12.pppoe2013|up|up| 
+LRI1MB|BE3.12.pppoe2083|up|up| 
+LRI1MB|BE3.12.pppoe2098|up|up| 
+LRI1MB|BE3.12.pppoe2106|up|up| 
+LRI1MB|BE3.12.pppoe2107|up|up| 
+LRI1MB|BE3.12.pppoe2110|up|up| 
+LRI1MB|BE3.12.pppoe2117|up|up| 
+LRI1MB|BE3.12.pppoe2125|up|up| 
+LRI1MB|BE3.12.pppoe2129|up|up| 
+LRI1MB|BE3.12.pppoe2146|up|up| 
+LRI1MB|BE3.12.pppoe2151|up|up| 
+LRI1MB|BE3.12.pppoe2156|up|up| 
+LRI1MB|BE3.12.pppoe2168|up|up| 
+LRI1MB|BE3.12.pppoe2184|up|up| 
+LRI1MB|BE3.12.pppoe2193|up|up| 
+LRI1MB|BE3.12.pppoe2194|up|up| 
+LRI1MB|BE3.12.pppoe2202|up|up| 
+LRI1MB|BE3.12.pppoe2267|up|up| 
+LRI1MB|BE3.12.pppoe2285|up|up| 
+LRI1MB|BE3.12.pppoe2289|up|up| 
+LRI1MB|BE3.12.pppoe2291|up|up| 
+LRI1MB|BE3.12.pppoe2313|up|up| 
+LRI1MB|BE3.12.pppoe2359|up|up| 
+LRI1MB|BE3.12.pppoe2366|up|up| 
+LRI1MB|BE3.12.pppoe2447|up|up| 
+LRI1MB|BE3.12.pppoe2459|up|up| 
+LRI1MB|BE3.12.pppoe2473|up|up| 
+LRI1MB|BE3.12.pppoe2477|up|up| 
+LRI1MB|BE3.12.pppoe2478|up|up| 
+LRI1MB|BE3.12.pppoe2479|up|up| 
+LRI1MB|BE3.12.pppoe2488|up|up| 
+LRI1MB|BE3.12.pppoe2500|up|up| 
+LRI1MB|BE3.12.pppoe2517|up|up| 
+LRI1MB|BE3.12.pppoe2518|up|up| 
+LRI1MB|BE3.12.pppoe2519|up|up| 
+LRI1MB|BE3.12.pppoe2528|up|up| 
+LRI1MB|BE3.12.pppoe2545|up|up| 
+LRI1MB|BE3.12.pppoe2548|up|up| 
+LRI1MB|BE3.12.pppoe2549|up|up| 
+LRI1MB|BE3.12.pppoe2568|up|up| 
+LRI1MB|BE3.12.pppoe2593|up|up| 
+LRI1MB|BE3.12.pppoe2596|up|up| 
+LRI1MB|BE3.12.pppoe2597|up|up| 
+LRI1MB|BE3.12.pppoe2640|up|up| 
+LRI1MB|BE3.12.pppoe2660|up|up| 
+LRI1MB|BE3.12.pppoe2674|up|up| 
+LRI1MB|BE3.12.pppoe2676|up|up| 
+LRI1MB|BE3.12.pppoe2682|up|up| 
+LRI1MB|BE3.12.pppoe2712|up|up| 
+LRI1MB|BE3.12.pppoe2718|up|up| 
+LRI1MB|BE3.12.pppoe2756|up|up| 
+LRI1MB|BE3.12.pppoe2758|up|up| 
+LRI1MB|BE3.12.pppoe2771|up|up| 
+LRI1MB|BE3.12.pppoe2781|up|up| 
+LRI1MB|BE3.12.pppoe2784|up|up| 
+LRI1MB|BE3.12.pppoe2785|up|up| 
+LRI1MB|BE3.12.pppoe2819|up|up| 
+LRI1MB|BE3.12.pppoe2820|up|up| 
+LRI1MB|BE3.12.pppoe2838|up|up| 
+LRI1MB|BE3.12.pppoe2849|up|up| 
+LRI1MB|BE3.12.pppoe2851|up|up| 
+LRI1MB|BE3.12.pppoe2869|up|up| 
+LRI1MB|BE3.12.pppoe2872|up|up| 
+LRI1MB|BE3.12.pppoe2932|up|up| 
+LRI1MB|BE3.12.pppoe2938|up|up| 
+LRI1MB|BE3.12.pppoe2941|up|up| 
+LRI1MB|BE3.12.pppoe2943|up|up| 
+LRI1MB|BE3.12.pppoe2945|up|up| 
+LRI1MB|BE3.12.pppoe2946|up|up| 
+LRI1MB|BE3.12.pppoe2959|up|up| 
+LRI1MB|BE3.12.pppoe2980|up|up| 
+LRI1MB|BE3.12.pppoe2982|up|up| 
+LRI1MB|BE3.12.pppoe2986|up|up| 
+LRI1MB|BE3.12.pppoe2988|up|up| 
+LRI1MB|BE3.12.pppoe2990|up|up| 
+LRI1MB|BE3.12.pppoe2993|up|up| 
+LRI1MB|BE3.12.pppoe2995|up|up| 
+LRI1MB|BE3.12.pppoe3001|up|up| 
+LRI1MB|BE3.12.pppoe3005|up|up| 
+LRI1MB|BE3.12.pppoe3006|up|up| 
+LRI1MB|BE3.12.pppoe3012|up|up| 
+LRI1MB|BE3.12.pppoe3039|up|up| 
+LRI1MB|BE3.12.pppoe3055|up|up| 
+LRI1MB|BE3.12.pppoe3088|up|up| 
+LRI1MB|BE3.12.pppoe3089|up|up| 
+LRI1MB|BE3.12.pppoe3100|up|up| 
+LRI1MB|BE3.12.pppoe3105|up|up| 
+LRI1MB|BE3.12.pppoe3106|up|up| 
+LRI1MB|BE3.12.pppoe3119|up|up| 
+LRI1MB|BE3.12.pppoe3126|up|up| 
+LRI1MB|BE3.12.pppoe3134|up|up| 
+LRI1MB|BE3.12.pppoe3149|up|up| 
+LRI1MB|BE3.12.pppoe3150|up|up| 
+LRI1MB|BE3.12.pppoe3154|up|up| 
+LRI1MB|BE3.12.pppoe3157|up|up| 
+LRI1MB|BE3.12.pppoe3160|up|up| 
+LRI1MB|BE3.12.pppoe3162|up|up| 
+LRI1MB|BE3.12.pppoe3169|up|up| 
+LRI1MB|BE3.12.pppoe3171|up|up| 
+LRI1MB|BE3.12.pppoe3172|up|up| 
+LRI1MB|BE3.12.pppoe3173|up|up| 
+LRI1MB|BE3.12.pppoe3174|up|up| 
+LRI1MB|BE3.12.pppoe3178|up|up| 
+LRI1MB|BE3.12.pppoe3179|up|up| 
+LRI1MB|BE3.12.pppoe3181|up|up| 
+LRI1MB|BE3.12.pppoe3185|up|up| 
+LRI1MB|BE3.12.pppoe3187|up|up| 
+LRI1MB|BE3.12.pppoe3190|up|up| 
+LRI1MB|BE3.12.pppoe3193|up|up| 
+LRI1MB|BE3.12.pppoe3194|up|up| 
+LRI1MB|BE3.12.pppoe3197|up|up| 
+LRI1MB|BE3.12.pppoe3201|up|up| 
+LRI1MB|BE3.12.pppoe3205|up|up| 
+LRI1MB|BE3.12.pppoe3206|up|up| 
+LRI1MB|BE3.12.pppoe3210|up|up| 
+LRI1MB|BE3.12.pppoe3230|up|up| 
+LRI1MB|BE3.12.pppoe3233|up|up| 
+LRI1MB|BE3.12.pppoe3239|up|up| 
+LRI1MB|BE3.12.pppoe3246|up|up| 
+LRI1MB|BE3.12.pppoe3249|up|up| 
+LRI1MB|BE3.12.pppoe3257|up|up| 
+LRI1MB|BE3.12.pppoe3260|up|up| 
+LRI1MB|BE3.12.pppoe3264|up|up| 
+LRI1MB|BE3.12.pppoe3266|up|up| 
+LRI1MB|BE3.12.pppoe3273|up|up| 
+LRI1MB|BE3.12.pppoe3278|up|up| 
+LRI1MB|BE3.12.pppoe3279|up|up| 
+LRI1MB|BE3.12.pppoe3281|up|up| 
+LRI1MB|BE3.12.pppoe3282|up|up| 
+LRI1MB|BE3.12.pppoe3287|up|up| 
+LRI1MB|BE3.12.pppoe3290|up|up| 
+LRI1MB|BE3.12.pppoe3295|up|up| 
+LRI1MB|BE3.12.pppoe3304|up|up| 
+LRI1MB|BE3.12.pppoe3306|up|up| 
+LRI1MB|BE3.12.pppoe3307|up|up| 
+LRI1MB|BE3.12.pppoe3318|up|up| 
+LRI1MB|BE3.12.pppoe3319|up|up| 
+LRI1MB|BE3.12.pppoe3320|up|up| 
+LRI1MB|BE3.12.pppoe3337|up|up| 
+LRI1MB|BE3.12.pppoe3344|up|up| 
+LRI1MB|BE3.12.pppoe3385|up|up| 
+LRI1MB|BE3.12.pppoe3388|up|up| 
+LRI1MB|BE3.12.pppoe3395|up|up| 
+LRI1MB|BE3.12.pppoe3401|up|up| 
+LRI1MB|BE3.12.pppoe3403|up|up| 
+LRI1MB|BE3.12.pppoe3407|up|up| 
+LRI1MB|BE3.12.pppoe3413|up|up| 
+LRI1MB|BE3.12.pppoe3419|up|up| 
+LRI1MB|BE3.12.pppoe3426|up|up| 
+LRI1MB|BE3.12.pppoe3431|up|up| 
+LRI1MB|BE3.12.pppoe3433|up|up| 
+LRI1MB|BE3.12.pppoe3434|up|up| 
+LRI1MB|BE3.12.pppoe3440|up|up| 
+LRI1MB|BE3.12.pppoe3441|up|up| 
+LRI1MB|BE3.12.pppoe3442|up|up| 
+LRI1MB|BE3.12.pppoe3444|up|up| 
+LRI1MB|BE3.12.pppoe3449|up|up| 
+LRI1MB|BE3.12.pppoe3450|up|up| 
+LRI1MB|BE3.12.pppoe3455|up|up| 
+LRI1MB|BE3.12.pppoe3456|up|up| 
+LRI1MB|BE3.12.pppoe3458|up|up| 
+LRI1MB|BE3.12.pppoe3459|up|up| 
+LRI1MB|BE3.12.pppoe3467|up|up| 
+LRI1MB|BE3.12.pppoe3469|up|up| 
+LRI1MB|BE3.12.pppoe3470|up|up| 
+LRI1MB|BE3.12.pppoe3482|up|up| 
+LRI1MB|BE3.12.pppoe3486|up|up| 
+LRI1MB|BE3.12.pppoe3503|up|up| 
+LRI1MB|BE3.12.pppoe3506|up|up| 
+LRI1MB|BE3.12.pppoe3513|up|up| 
+LRI1MB|BE3.12.pppoe3517|up|up| 
+LRI1MB|BE3.12.pppoe3518|up|up| 
+LRI1MB|BE3.12.pppoe3523|up|up| 
+LRI1MB|BE3.12.pppoe3548|up|up| 
+LRI1MB|BE3.12.pppoe3552|up|up| 
+LRI1MB|BE3.12.pppoe3576|up|up| 
+LRI1MB|BE3.12.pppoe3577|up|up| 
+LRI1MB|BE3.12.pppoe3588|up|up| 
+LRI1MB|BE3.12.pppoe3592|up|up| 
+LRI1MB|BE3.12.pppoe3594|up|up| 
+LRI1MB|BE3.12.pppoe3600|up|up| 
+LRI1MB|BE3.12.pppoe3612|up|up| 
+LRI1MB|BE3.12.pppoe3624|up|up| 
+LRI1MB|BE3.12.pppoe3627|up|up| 
+LRI1MB|BE3.12.pppoe3629|up|up| 
+LRI1MB|BE3.12.pppoe3632|up|up| 
+LRI1MB|BE3.12.pppoe3633|up|up| 
+LRI1MB|BE3.12.pppoe3634|up|up| 
+LRI1MB|BE3.12.pppoe3635|up|up| 
+LRI1MB|BE3.12.pppoe3636|up|up| 
+LRI1MB|BE3.12.pppoe3637|up|up| 
+LRI1MB|BE3.12.pppoe3638|up|up| 
+LRI1MB|BE3.12.pppoe3639|up|up| 
+LRI1MB|BE3.12.pppoe3641|up|up| 
+LRI1MB|BE3.12.pppoe3647|up|up| 
+LRI1MB|BE3.12.pppoe3667|up|up| 
+LRI1MB|BE3.12.pppoe3677|up|up| 
+LRI1MB|BE3.12.pppoe3681|up|up| 
+LRI1MB|BE3.12.pppoe3684|up|up| 
+LRI1MB|BE3.12.pppoe3688|up|up| 
+LRI1MB|BE3.12.pppoe3692|up|up| 
+LRI1MB|BE3.12.pppoe3693|up|up| 
+LRI1MB|BE3.12.pppoe3697|up|up| 
+LRI1MB|BE3.12.pppoe3718|up|up| 
+LRI1MB|BE3.12.pppoe3728|up|up| 
+LRI1MB|BE3.12.pppoe3733|up|up| 
+LRI1MB|BE3.12.pppoe3741|up|up| 
+LRI1MB|BE3.12.pppoe3743|up|up| 
+LRI1MB|BE3.12.pppoe3744|up|up| 
+LRI1MB|BE3.12.pppoe3752|up|up| 
+LRI1MB|BE3.12.pppoe3754|up|up| 
+LRI1MB|BE3.12.pppoe3759|up|up| 
+LRI1MB|BE3.12.pppoe3760|up|up| 
+LRI1MB|BE3.12.pppoe3772|up|up| 
+LRI1MB|BE3.12.pppoe3776|up|up| 
+LRI1MB|BE3.12.pppoe3777|up|up| 
+LRI1MB|BE3.12.pppoe3779|up|up| 
+LRI1MB|BE3.12.pppoe3783|up|up| 
+LRI1MB|BE3.12.pppoe3784|up|up| 
+LRI1MB|BE3.12.pppoe3785|up|up| 
+LRI1MB|BE3.12.pppoe3786|up|up| 
+LRI1MB|BE3.12.pppoe3803|up|up| 
+LRI1MB|BE3.12.pppoe3804|up|up| 
+LRI1MB|BE3.12.pppoe3810|up|up| 
+LRI1MB|BE3.12.pppoe3835|up|up| 
+LRI1MB|BE3.12.pppoe3836|up|up| 
+LRI1MB|BE3.12.pppoe3844|up|up| 
+LRI1MB|BE3.12.pppoe3848|up|up| 
+LRI1MB|BE3.12.pppoe3851|up|up| 
+LRI1MB|BE3.12.pppoe3853|up|up| 
+LRI1MB|BE3.12.pppoe3855|up|up| 
+LRI1MB|BE3.12.pppoe3857|up|up| 
+LRI1MB|BE3.12.pppoe3859|up|up| 
+LRI1MB|BE3.12.pppoe3862|up|up| 
+LRI1MB|BE3.12.pppoe3865|up|up| 
+LRI1MB|BE3.12.pppoe3867|up|up| 
+LRI1MB|BE3.12.pppoe3869|up|up| 
+LRI1MB|BE3.12.pppoe3870|up|up| 
+LRI1MB|BE3.12.pppoe3876|up|up| 
+LRI1MB|BE3.12.pppoe3879|up|up| 
+LRI1MB|BE3.12.pppoe3881|up|up| 
+LRI1MB|BE3.12.pppoe3886|up|up| 
+LRI1MB|BE3.12.pppoe3896|up|up| 
+LRI1MB|BE3.12.pppoe3906|up|up| 
+LRI1MB|BE3.12.pppoe3911|up|up| 
+LRI1MB|BE3.12.pppoe3912|up|up| 
+LRI1MB|BE3.12.pppoe3915|up|up| 
+LRI1MB|BE3.12.pppoe3916|up|up| 
+LRI1MB|BE3.12.pppoe3917|up|up| 
+LRI1MB|BE3.12.pppoe3923|up|up| 
+LRI1MB|BE3.12.pppoe3925|up|up| 
+LRI1MB|BE3.12.pppoe3931|up|up| 
+LRI1MB|BE3.12.pppoe3932|up|up| 
+LRI1MB|BE3.12.pppoe3935|up|up| 
+LRI1MB|BE3.12.pppoe3936|up|up| 
+LRI1MB|BE3.12.pppoe3938|up|up| 
+LRI1MB|BE3.12.pppoe3939|up|up| 
+LRI1MB|BE3.12.pppoe3943|up|up| 
+LRI1MB|BE3.12.pppoe3944|up|up| 
+LRI1MB|BE3.12.pppoe3945|up|up| 
+LRI1MB|BE3.12.pppoe3947|up|up| 
+LRI1MB|BE3.12.pppoe3954|up|up| 
+LRI1MB|BE3.12.pppoe3955|up|up| 
+LRI1MB|BE3.12.pppoe3958|up|up| 
+LRI1MB|BE3.12.pppoe3960|up|up| 
+LRI1MB|BE3.12.pppoe3961|up|up| 
+LRI1MB|BE3.12.pppoe3969|up|up| 
+LRI1MB|BE3.12.pppoe3970|up|up| 
+LRI1MB|BE3.12.pppoe3972|up|up| 
+LRI1MB|BE3.12.pppoe3983|up|up| 
+LRI1MB|BE3.12.pppoe3997|up|up| 
+LRI1MB|BE3.12.pppoe4005|up|up| 
+LRI1MB|BE3.12.pppoe4006|up|up| 
+LRI1MB|BE3.12.pppoe4007|up|up| 
+LRI1MB|BE3.12.pppoe4011|up|up| 
+LRI1MB|BE3.12.pppoe4015|up|up| 
+LRI1MB|BE3.12.pppoe4021|up|up| 
+LRI1MB|BE3.12.pppoe4023|up|up| 
+LRI1MB|BE3.12.pppoe4027|up|up| 
+LRI1MB|BE3.12.pppoe4028|up|up| 
+LRI1MB|BE3.12.pppoe4029|up|up| 
+LRI1MB|BE3.12.pppoe4033|up|up| 
+LRI1MB|BE3.12.pppoe4038|up|up| 
+LRI1MB|BE3.12.pppoe4039|up|up| 
+LRI1MB|BE3.12.pppoe4043|up|up| 
+LRI1MB|BE3.12.pppoe4049|up|up| 
+LRI1MB|BE3.12.pppoe4050|up|up| 
+LRI1MB|BE3.12.pppoe4052|up|up| 
+LRI1MB|BE3.12.pppoe4057|up|up| 
+LRI1MB|BE3.12.pppoe4058|up|up| 
+LRI1MB|BE3.12.pppoe4067|up|up| 
+LRI1MB|BE3.12.pppoe4068|up|up| 
+LRI1MB|BE3.12.pppoe4071|up|up| 
+LRI1MB|BE3.12.pppoe4074|up|up| 
+LRI1MB|BE3.12.pppoe4075|up|up| 
+LRI1MB|BE3.12.pppoe4077|up|up| 
+LRI1MB|BE3.12.pppoe4078|up|up| 
+LRI1MB|BE3.12.pppoe4083|up|up| 
+LRI1MB|BE3.12.pppoe4086|up|up| 
+LRI1MB|BE3.12.pppoe4091|up|up| 
+LRI1MB|BE3.12.pppoe4098|up|up| 
+LRI1MB|BE3.12.pppoe4100|up|up| 
+LRI1MB|BE3.12.pppoe4101|up|up| 
+LRI1MB|BE3.12.pppoe4103|up|up| 
+LRI1MB|BE3.12.pppoe4105|up|up| 
+LRI1MB|BE3.12.pppoe4107|up|up| 
+LRI1MB|BE3.12.pppoe4109|up|up| 
+LRI1MB|BE3.12.pppoe4112|up|up| 
+LRI1MB|BE3.12.pppoe4113|up|up| 
+LRI1MB|BE3.12.pppoe4114|up|up| 
+LRI1MB|BE3.12.pppoe4117|up|up| 
+LRI1MB|BE3.12.pppoe4118|up|up| 
+LRI1MB|BE3.12.pppoe4119|up|up| 
+LRI1MB|BE3.12.pppoe4124|up|up| 
+LRI1MB|BE3.12.pppoe4128|up|up| 
+LRI1MB|BE3.12.pppoe4130|up|up| 
+LRI1MB|BE3.12.pppoe4133|up|up| 
+LRI1MB|BE3.12.pppoe4134|up|up| 
+LRI1MB|BE3.12.pppoe4136|up|up| 
+LRI1MB|BE3.12.pppoe4138|up|up| 
+LRI1MB|BE3.12.pppoe4141|up|up| 
+LRI1MB|BE3.12.pppoe4152|up|up| 
+LRI1MB|BE3.12.pppoe4155|up|up| 
+LRI1MB|BE3.12.pppoe4165|up|up| 
+LRI1MB|BE3.12.pppoe4168|up|up| 
+LRI1MB|BE3.12.pppoe4178|up|up| 
+LRI1MB|BE3.12.pppoe4179|up|up| 
+LRI1MB|BE3.12.pppoe4180|up|up| 
+LRI1MB|BE3.12.pppoe4181|up|up| 
+LRI1MB|BE3.12.pppoe4182|up|up| 
+LRI1MB|BE3.12.pppoe4183|up|up| 
+LRI1MB|BE3.12.pppoe4184|up|up| 
+LRI1MB|BE3.12.pppoe4185|up|up| 
+LRI1MB|BE3.12.pppoe4186|up|up| 
+LRI1MB|BE3.12.pppoe4187|up|up| 
+LRI1MB|BE3.12.pppoe4188|up|up| 
+LRI1MB|BE3.12.pppoe4189|up|up| 
+LRI1MB|BE3.12.pppoe4190|up|up| 
+LRI1MB|BE3.12.pppoe4191|up|up| 
+LRI1MB|BE3.12.pppoe4192|up|up| 
+LRI1MB|BE3.12.pppoe4193|up|up| 
+LRI1MB|BE3.12.pppoe4195|up|up| 
+LRI1MB|BE3.12.pppoe4196|up|up| 
+LRI1MB|BE3.12.pppoe4197|up|up| 
+LRI1MB|BE3.12.pppoe4199|up|up| 
+LRI1MB|BE3.12.pppoe4200|up|up| 
+LRI1MB|BE3.12.pppoe4201|up|up| 
+LRI1MB|BE3.12.pppoe4202|up|up| 
+LRI1MB|BE3.12.pppoe4203|up|up| 
+LRI1MB|BE3.12.pppoe4204|up|up| 
+LRI1MB|BE3.12.pppoe4207|up|up| 
+LRI1MB|BE3.12.pppoe4208|up|up| 
+LRI1MB|BE3.12.pppoe4209|up|up| 
+LRI1MB|BE3.12.pppoe4210|up|up| 
+LRI1MB|BE3.12.pppoe4211|up|up| 
+LRI1MB|BE3.12.pppoe4213|up|up| 
+LRI1MB|BE3.12.pppoe4215|up|up| 
+LRI1MB|BE3.12.pppoe4216|up|up| 
+LRI1MB|BE3.12.pppoe4217|up|up| 
+LRI1MB|BE3.12.pppoe4218|up|up| 
+LRI1MB|BE3.12.pppoe4220|up|up| 
+LRI1MB|BE3.12.pppoe4221|up|up| 
+LRI1MB|BE3.12.pppoe4223|up|up| 
+LRI1MB|BE3.12.pppoe4224|up|up| 
+LRI1MB|BE3.12.pppoe4226|up|up| 
+LRI1MB|BE3.12.pppoe4232|up|up| 
+LRI1MB|BE3.12.pppoe4234|up|up| 
+LRI1MB|BE3.12.pppoe4235|up|up| 
+LRI1MB|BE3.12.pppoe4236|up|up| 
+LRI1MB|BE3.12.pppoe4240|up|up| 
+LRI1MB|BE3.12.pppoe4242|up|up| 
+LRI1MB|BE3.12.pppoe4244|up|up| 
+LRI1MB|BE3.12.pppoe4245|up|up| 
+LRI1MB|BE3.12.pppoe4248|up|up| 
+LRI1MB|BE3.12.pppoe4251|up|up| 
+LRI1MB|BE3.12.pppoe4253|up|up| 
+LRI1MB|BE3.12.pppoe4255|up|up| 
+LRI1MB|BE3.12.pppoe4256|up|up| 
+LRI1MB|BE3.12.pppoe4258|up|up| 
+LRI1MB|BE3.12.pppoe4259|up|up| 
+LRI1MB|BE3.12.pppoe4260|up|up| 
+LRI1MB|BE3.12.pppoe4262|up|up| 
+LRI1MB|BE3.12.pppoe4263|up|up| 
+LRI1MB|BE3.12.pppoe4265|up|up| 
+LRI1MB|BE3.12.pppoe4272|up|up| 
+LRI1MB|BE3.12.pppoe4278|up|up| 
+LRI1MB|BE3.12.pppoe4280|up|up| 
+LRI1MB|BE3.12.pppoe4281|up|up| 
+LRI1MB|BE3.12.pppoe4288|up|up| 
+LRI1MB|BE3.12.pppoe4289|up|up| 
+LRI1MB|BE3.12.pppoe4292|up|up| 
+LRI1MB|BE3.12.pppoe4294|up|up| 
+LRI1MB|BE3.12.pppoe4295|up|up| 
+LRI1MB|BE3.12.pppoe4302|up|up| 
+LRI1MB|BE3.12.pppoe4304|up|up| 
+LRI1MB|BE3.12.pppoe4305|up|up| 
+LRI1MB|BE3.12.pppoe4314|up|up| 
+LRI1MB|BE3.12.pppoe4322|up|up| 
+LRI1MB|BE3.12.pppoe4323|up|up| 
+LRI1MB|BE3.12.pppoe4324|up|up| 
+LRI1MB|BE3.12.pppoe4327|up|up| 
+LRI1MB|BE3.12.pppoe4332|up|up| 
+LRI1MB|BE3.12.pppoe4337|up|up| 
+LRI1MB|BE3.12.pppoe4339|up|up| 
+LRI1MB|BE3.12.pppoe4340|up|up| 
+LRI1MB|BE3.12.pppoe4344|up|up| 
+LRI1MB|BE3.12.pppoe4345|up|up| 
+LRI1MB|BE3.12.pppoe4347|up|up| 
+LRI1MB|BE3.12.pppoe4348|up|up| 
+LRI1MB|BE3.12.pppoe4353|up|up| 
+LRI1MB|BE3.12.pppoe4354|up|up| 
+LRI1MB|BE3.12.pppoe4355|up|up| 
+LRI1MB|BE3.12.pppoe4357|up|up| 
+LRI1MB|BE3.12.pppoe4358|up|up| 
+LRI1MB|BE3.12.pppoe4360|up|up| 
+LRI1MB|BE3.12.pppoe4362|up|up| 
+LRI1MB|BE3.12.pppoe4364|up|up| 
+LRI1MB|BE3.12.pppoe4366|up|up| 
+LRI1MB|BE3.12.pppoe4370|up|up| 
+LRI1MB|BE3.12.pppoe4371|up|up| 
+LRI1MB|BE3.12.pppoe4372|up|up| 
+LRI1MB|BE3.12.pppoe4373|up|up| 
+LRI1MB|BE3.12.pppoe4375|up|up| 
+LRI1MB|BE3.12.pppoe4376|up|up| 
+LRI1MB|BE3.12.pppoe4382|up|up| 
+LRI1MB|BE3.12.pppoe4383|up|up| 
+LRI1MB|BE3.12.pppoe4384|up|up| 
+LRI1MB|BE3.12.pppoe4385|up|up| 
+LRI1MB|BE3.12.pppoe4386|up|up| 
+LRI1MB|BE3.12.pppoe4388|up|up| 
+LRI1MB|BE3.12.pppoe4391|up|up| 
+LRI1MB|BE3.12.pppoe4392|up|up| 
+LRI1MB|BE3.12.pppoe4394|up|up| 
+LRI1MB|BE3.12.pppoe4395|up|up| 
+LRI1MB|BE3.12.pppoe4396|up|up| 
+LRI1MB|BE3.12.pppoe4398|up|up| 
+LRI1MB|BE3.12.pppoe4399|up|up| 
+LRI1MB|BE3.12.pppoe4401|up|up| 
+LRI1MB|BE3.12.pppoe4402|up|up| 
+LRI1MB|BE3.12.pppoe4404|up|up| 
+LRI1MB|BE3.12.pppoe4406|up|up| 
+LRI1MB|BE3.12.pppoe4408|up|up| 
+LRI1MB|BE3.12.pppoe4409|up|up| 
+LRI1MB|BE3.12.pppoe4412|up|up| 
+LRI1MB|BE3.12.pppoe4414|up|up| 
+LRI1MB|BE3.12.pppoe4419|up|up| 
+LRI1MB|BE3.12.pppoe4425|up|up| 
+LRI1MB|BE3.12.pppoe4426|up|up| 
+LRI1MB|BE3.12.pppoe4427|up|up| 
+LRI1MB|BE3.12.pppoe4431|up|up| 
+LRI1MB|BE3.12.pppoe4435|up|up| 
+LRI1MB|BE3.12.pppoe4436|up|up| 
+LRI1MB|BE3.12.pppoe4437|up|up| 
+LRI1MB|BE3.12.pppoe4440|up|up| 
+LRI1MB|BE3.12.pppoe4441|up|up| 
+LRI1MB|BE3.12.pppoe4443|up|up| 
+LRI1MB|BE3.12.pppoe4445|up|up| 
+LRI1MB|BE3.12.pppoe4446|up|up| 
+LRI1MB|BE3.12.pppoe4447|up|up| 
+LRI1MB|BE3.12.pppoe4450|up|up| 
+LRI1MB|BE3.12.pppoe4451|up|up| 
+LRI1MB|BE3.12.pppoe4453|up|up| 
+LRI1MB|BE3.12.pppoe4454|up|up| 
+LRI1MB|BE3.12.pppoe4455|up|up| 
+LRI1MB|BE3.12.pppoe4456|up|up| 
+LRI1MB|BE3.12.pppoe4460|up|up| 
+LRI1MB|BE3.12.pppoe4462|up|up| 
+LRI1MB|BE3.12.pppoe4463|up|up| 
+LRI1MB|BE3.12.pppoe4464|up|up| 
+LRI1MB|BE3.12.pppoe4469|up|up| 
+LRI1MB|BE3.12.pppoe4471|up|up| 
+LRI1MB|BE3.12.pppoe4472|up|up| 
+LRI1MB|BE3.12.pppoe4473|up|up| 
+LRI1MB|BE3.12.pppoe4476|up|up| 
+LRI1MB|BE3.12.pppoe4477|up|up| 
+LRI1MB|BE3.12.pppoe4481|up|up| 
+LRI1MB|BE3.12.pppoe4483|up|up| 
+LRI1MB|BE3.12.pppoe4484|up|up| 
+LRI1MB|BE3.12.pppoe4485|up|up| 
+LRI1MB|BE3.12.pppoe4489|up|up| 
+LRI1MB|BE3.12.pppoe4491|up|up| 
+LRI1MB|BE3.12.pppoe4493|up|up| 
+LRI1MB|BE3.12.pppoe4494|up|up| 
+LRI1MB|BE3.12.pppoe4495|up|up| 
+LRI1MB|BE3.12.pppoe4497|up|up| 
+LRI1MB|BE3.12.pppoe4498|up|up| 
+LRI1MB|BE3.12.pppoe4499|up|up| 
+LRI1MB|BE3.12.pppoe4502|up|up| 
+LRI1MB|BE3.12.pppoe4503|up|up| 
+LRI1MB|BE3.12.pppoe4504|up|up| 
+LRI1MB|BE3.12.pppoe4505|up|up| 
+LRI1MB|BE3.12.pppoe4508|up|up| 
+LRI1MB|BE3.12.pppoe4509|up|up| 
+LRI1MB|BE3.12.pppoe4510|up|up| 
+LRI1MB|BE3.12.pppoe4511|up|up| 
+LRI1MB|BE3.12.pppoe4512|up|up| 
+LRI1MB|BE3.12.pppoe4514|up|up| 
+LRI1MB|BE3.12.pppoe4516|up|up| 
+LRI1MB|BE3.12.pppoe4517|up|up| 
+LRI1MB|BE3.12.pppoe4518|up|up| 
+LRI1MB|BE3.12.pppoe4520|up|up| 
+LRI1MB|BE3.12.pppoe4521|up|up| 
+LRI1MB|BE3.12.pppoe4522|up|up| 
+LRI1MB|BE3.12.pppoe4523|up|up| 
+LRI1MB|BE3.12.pppoe4524|up|up| 
+LRI1MB|BE3.12.pppoe4526|up|up| 
+LRI1MB|BE3.12.pppoe4527|up|up| 
+LRI1MB|BE3.12.pppoe4529|up|up| 
+LRI1MB|BE3.12.pppoe4530|up|up| 
+LRI1MB|BE3.12.pppoe4531|up|up| 
+LRI1MB|BE3.12.pppoe4534|up|up| 
+LRI1MB|BE3.12.pppoe4535|up|up| 
+LRI1MB|BE3.12.pppoe4537|up|up| 
+LRI1MB|BE3.12.pppoe4538|up|up| 
+LRI1MB|BE3.12.pppoe4539|up|up| 
+LRI1MB|BE3.12.pppoe4540|up|up| 
+LRI1MB|BE3.12.pppoe4541|up|up| 
+LRI1MB|BE3.12.pppoe4542|up|up| 
+LRI1MB|BE3.12.pppoe4543|up|up| 
+LRI1MB|BE3.12.pppoe4544|up|up| 
+LRI1MB|BE3.12.pppoe4545|up|up| 
+LRI1MB|BE3.12.pppoe4546|up|up| 
+LRI1MB|BE3.12.pppoe4547|up|up| 
+LRI1MB|BE3.12.pppoe4548|up|up| 
+LRI1MB|BE3.2101|up|up|[GESTION] LRIP01 HUA 5600_T [GPON]
+LRI1MB|BE3.3101|up|up|[DHCP] [TOIP] LRIP01 HUA 5600_T [GPON]
+LRI1MB|BE4|up|up|[ACCESO HSI][BE] LRIQ01 - Linea 13005259
+LRI1MB|BE4.6|up|up|IPTV LRIQ01 IGMP-PIM
+LRI1MB|BE4.7|up|up|[DHCP] [IPTV] LRIQ01 HUA 5600_T [GPON]
+LRI1MB|BE4.10|up|up|[DATOS] LRIQ01 10 HUA 5600_T [GPON]
+LRI1MB|BE4.11|up|up|[DATOS] LRIQ01 11 HUA 5600_T [GPON]
+LRI1MB|BE4.12|up|up|[DATOS] LRIQ01 12 HUA 5600_T [GPON]
+LRI1MB|BE4.12.pppoe2|up|up| 
+LRI1MB|BE4.12.pppoe3|up|up| 
+LRI1MB|BE4.12.pppoe5|up|up| 
+LRI1MB|BE4.12.pppoe6|up|up| 
+LRI1MB|BE4.12.pppoe10|up|up| 
+LRI1MB|BE4.12.pppoe13|up|up| 
+LRI1MB|BE4.12.pppoe14|up|up| 
+LRI1MB|BE4.12.pppoe16|up|up| 
+LRI1MB|BE4.12.pppoe20|up|up| 
+LRI1MB|BE4.12.pppoe26|up|up| 
+LRI1MB|BE4.12.pppoe27|up|up| 
+LRI1MB|BE4.12.pppoe30|up|up| 
+LRI1MB|BE4.12.pppoe32|up|up| 
+LRI1MB|BE4.12.pppoe34|up|up| 
+LRI1MB|BE4.12.pppoe37|up|up| 
+LRI1MB|BE4.12.pppoe39|up|up| 
+LRI1MB|BE4.12.pppoe42|up|up| 
+LRI1MB|BE4.12.pppoe44|up|up| 
+LRI1MB|BE4.12.pppoe48|up|up| 
+LRI1MB|BE4.12.pppoe51|up|up| 
+LRI1MB|BE4.12.pppoe52|up|up| 
+LRI1MB|BE4.12.pppoe54|up|up| 
+LRI1MB|BE4.12.pppoe57|up|up| 
+LRI1MB|BE4.12.pppoe60|up|up| 
+LRI1MB|BE4.12.pppoe64|up|up| 
+LRI1MB|BE4.12.pppoe68|up|up| 
+LRI1MB|BE4.12.pppoe70|up|up| 
+LRI1MB|BE4.12.pppoe72|up|up| 
+LRI1MB|BE4.12.pppoe74|up|up| 
+LRI1MB|BE4.12.pppoe75|up|up| 
+LRI1MB|BE4.12.pppoe80|up|up| 
+LRI1MB|BE4.12.pppoe81|up|up| 
+LRI1MB|BE4.12.pppoe85|up|up| 
+LRI1MB|BE4.12.pppoe87|up|up| 
+LRI1MB|BE4.12.pppoe88|up|up| 
+LRI1MB|BE4.12.pppoe89|up|up| 
+LRI1MB|BE4.12.pppoe90|up|up| 
+LRI1MB|BE4.12.pppoe92|up|up| 
+LRI1MB|BE4.12.pppoe94|up|up| 
+LRI1MB|BE4.12.pppoe95|up|up| 
+LRI1MB|BE4.12.pppoe97|up|up| 
+LRI1MB|BE4.12.pppoe99|up|up| 
+LRI1MB|BE4.12.pppoe100|up|up| 
+LRI1MB|BE4.12.pppoe101|up|up| 
+LRI1MB|BE4.12.pppoe102|up|up| 
+LRI1MB|BE4.12.pppoe109|up|up| 
+LRI1MB|BE4.12.pppoe110|up|up| 
+LRI1MB|BE4.12.pppoe112|up|up| 
+LRI1MB|BE4.12.pppoe114|up|up| 
+LRI1MB|BE4.12.pppoe118|up|up| 
+LRI1MB|BE4.12.pppoe120|up|up| 
+LRI1MB|BE4.12.pppoe124|up|up| 
+LRI1MB|BE4.12.pppoe133|up|up| 
+LRI1MB|BE4.12.pppoe134|up|up| 
+LRI1MB|BE4.12.pppoe135|up|up| 
+LRI1MB|BE4.12.pppoe136|up|up| 
+LRI1MB|BE4.12.pppoe137|up|up| 
+LRI1MB|BE4.12.pppoe138|up|up| 
+LRI1MB|BE4.12.pppoe145|up|up| 
+LRI1MB|BE4.12.pppoe150|up|up| 
+LRI1MB|BE4.12.pppoe151|up|up| 
+LRI1MB|BE4.12.pppoe152|up|up| 
+LRI1MB|BE4.12.pppoe158|up|up| 
+LRI1MB|BE4.12.pppoe159|up|up| 
+LRI1MB|BE4.12.pppoe163|up|up| 
+LRI1MB|BE4.12.pppoe167|up|up| 
+LRI1MB|BE4.12.pppoe168|up|up| 
+LRI1MB|BE4.12.pppoe174|up|up| 
+LRI1MB|BE4.12.pppoe175|up|up| 
+LRI1MB|BE4.12.pppoe176|up|up| 
+LRI1MB|BE4.12.pppoe184|up|up| 
+LRI1MB|BE4.12.pppoe188|up|up| 
+LRI1MB|BE4.12.pppoe190|up|up| 
+LRI1MB|BE4.12.pppoe191|up|up| 
+LRI1MB|BE4.12.pppoe192|up|up| 
+LRI1MB|BE4.12.pppoe195|up|up| 
+LRI1MB|BE4.12.pppoe197|up|up| 
+LRI1MB|BE4.12.pppoe199|up|up| 
+LRI1MB|BE4.12.pppoe201|up|up| 
+LRI1MB|BE4.12.pppoe202|up|up| 
+LRI1MB|BE4.12.pppoe203|up|up| 
+LRI1MB|BE4.12.pppoe204|up|up| 
+LRI1MB|BE4.12.pppoe206|up|up| 
+LRI1MB|BE4.12.pppoe210|up|up| 
+LRI1MB|BE4.12.pppoe211|up|up| 
+LRI1MB|BE4.12.pppoe215|up|up| 
+LRI1MB|BE4.12.pppoe218|up|up| 
+LRI1MB|BE4.12.pppoe219|up|up| 
+LRI1MB|BE4.12.pppoe223|up|up| 
+LRI1MB|BE4.12.pppoe226|up|up| 
+LRI1MB|BE4.12.pppoe228|up|up| 
+LRI1MB|BE4.12.pppoe234|up|up| 
+LRI1MB|BE4.12.pppoe235|up|up| 
+LRI1MB|BE4.12.pppoe238|up|up| 
+LRI1MB|BE4.12.pppoe239|up|up| 
+LRI1MB|BE4.12.pppoe240|up|up| 
+LRI1MB|BE4.12.pppoe244|up|up| 
+LRI1MB|BE4.12.pppoe249|up|up| 
+LRI1MB|BE4.12.pppoe250|up|up| 
+LRI1MB|BE4.12.pppoe251|up|up| 
+LRI1MB|BE4.12.pppoe253|up|up| 
+LRI1MB|BE4.12.pppoe254|up|up| 
+LRI1MB|BE4.12.pppoe256|up|up| 
+LRI1MB|BE4.12.pppoe263|up|up| 
+LRI1MB|BE4.12.pppoe265|up|up| 
+LRI1MB|BE4.12.pppoe267|up|up| 
+LRI1MB|BE4.12.pppoe268|up|up| 
+LRI1MB|BE4.12.pppoe269|up|up| 
+LRI1MB|BE4.12.pppoe273|up|up| 
+LRI1MB|BE4.12.pppoe281|up|up| 
+LRI1MB|BE4.12.pppoe286|up|up| 
+LRI1MB|BE4.12.pppoe287|up|up| 
+LRI1MB|BE4.12.pppoe288|up|up| 
+LRI1MB|BE4.12.pppoe289|up|up| 
+LRI1MB|BE4.12.pppoe292|up|up| 
+LRI1MB|BE4.12.pppoe294|up|up| 
+LRI1MB|BE4.12.pppoe296|up|up| 
+LRI1MB|BE4.12.pppoe297|up|up| 
+LRI1MB|BE4.12.pppoe299|up|up| 
+LRI1MB|BE4.12.pppoe300|up|up| 
+LRI1MB|BE4.12.pppoe302|up|up| 
+LRI1MB|BE4.12.pppoe304|up|up| 
+LRI1MB|BE4.12.pppoe316|up|up| 
+LRI1MB|BE4.12.pppoe317|up|up| 
+LRI1MB|BE4.12.pppoe320|up|up| 
+LRI1MB|BE4.12.pppoe325|up|up| 
+LRI1MB|BE4.12.pppoe327|up|up| 
+LRI1MB|BE4.12.pppoe328|up|up| 
+LRI1MB|BE4.12.pppoe330|up|up| 
+LRI1MB|BE4.12.pppoe336|up|up| 
+LRI1MB|BE4.12.pppoe342|up|up| 
+LRI1MB|BE4.12.pppoe343|up|up| 
+LRI1MB|BE4.12.pppoe346|up|up| 
+LRI1MB|BE4.12.pppoe352|up|up| 
+LRI1MB|BE4.12.pppoe354|up|up| 
+LRI1MB|BE4.12.pppoe355|up|up| 
+LRI1MB|BE4.12.pppoe358|up|up| 
+LRI1MB|BE4.12.pppoe360|up|up| 
+LRI1MB|BE4.12.pppoe364|up|up| 
+LRI1MB|BE4.12.pppoe367|up|up| 
+LRI1MB|BE4.12.pppoe369|up|up| 
+LRI1MB|BE4.12.pppoe370|up|up| 
+LRI1MB|BE4.12.pppoe373|up|up| 
+LRI1MB|BE4.12.pppoe376|up|up| 
+LRI1MB|BE4.12.pppoe392|up|up| 
+LRI1MB|BE4.12.pppoe396|up|up| 
+LRI1MB|BE4.12.pppoe399|up|up| 
+LRI1MB|BE4.12.pppoe401|up|up| 
+LRI1MB|BE4.12.pppoe404|up|up| 
+LRI1MB|BE4.12.pppoe408|up|up| 
+LRI1MB|BE4.12.pppoe410|up|up| 
+LRI1MB|BE4.12.pppoe411|up|up| 
+LRI1MB|BE4.12.pppoe419|up|up| 
+LRI1MB|BE4.12.pppoe420|up|up| 
+LRI1MB|BE4.12.pppoe422|up|up| 
+LRI1MB|BE4.12.pppoe425|up|up| 
+LRI1MB|BE4.12.pppoe431|up|up| 
+LRI1MB|BE4.12.pppoe433|up|up| 
+LRI1MB|BE4.12.pppoe435|up|up| 
+LRI1MB|BE4.12.pppoe437|up|up| 
+LRI1MB|BE4.12.pppoe439|up|up| 
+LRI1MB|BE4.12.pppoe440|up|up| 
+LRI1MB|BE4.12.pppoe444|up|up| 
+LRI1MB|BE4.12.pppoe446|up|up| 
+LRI1MB|BE4.12.pppoe447|up|up| 
+LRI1MB|BE4.12.pppoe448|up|up| 
+LRI1MB|BE4.12.pppoe457|up|up| 
+LRI1MB|BE4.12.pppoe458|up|up| 
+LRI1MB|BE4.12.pppoe459|up|up| 
+LRI1MB|BE4.12.pppoe460|up|up| 
+LRI1MB|BE4.12.pppoe464|up|up| 
+LRI1MB|BE4.12.pppoe470|up|up| 
+LRI1MB|BE4.12.pppoe471|up|up| 
+LRI1MB|BE4.12.pppoe472|up|up| 
+LRI1MB|BE4.12.pppoe474|up|up| 
+LRI1MB|BE4.12.pppoe478|up|up| 
+LRI1MB|BE4.12.pppoe479|up|up| 
+LRI1MB|BE4.12.pppoe489|up|up| 
+LRI1MB|BE4.12.pppoe491|up|up| 
+LRI1MB|BE4.12.pppoe498|up|up| 
+LRI1MB|BE4.12.pppoe499|up|up| 
+LRI1MB|BE4.12.pppoe501|up|up| 
+LRI1MB|BE4.12.pppoe505|up|up| 
+LRI1MB|BE4.12.pppoe508|up|up| 
+LRI1MB|BE4.12.pppoe511|up|up| 
+LRI1MB|BE4.12.pppoe513|up|up| 
+LRI1MB|BE4.12.pppoe516|up|up| 
+LRI1MB|BE4.12.pppoe518|up|up| 
+LRI1MB|BE4.12.pppoe520|up|up| 
+LRI1MB|BE4.12.pppoe523|up|up| 
+LRI1MB|BE4.12.pppoe526|up|up| 
+LRI1MB|BE4.12.pppoe528|up|up| 
+LRI1MB|BE4.12.pppoe529|up|up| 
+LRI1MB|BE4.12.pppoe531|up|up| 
+LRI1MB|BE4.12.pppoe532|up|up| 
+LRI1MB|BE4.12.pppoe533|up|up| 
+LRI1MB|BE4.12.pppoe535|up|up| 
+LRI1MB|BE4.12.pppoe536|up|up| 
+LRI1MB|BE4.12.pppoe538|up|up| 
+LRI1MB|BE4.12.pppoe543|up|up| 
+LRI1MB|BE4.12.pppoe544|up|up| 
+LRI1MB|BE4.12.pppoe545|up|up| 
+LRI1MB|BE4.12.pppoe546|up|up| 
+LRI1MB|BE4.12.pppoe547|up|up| 
+LRI1MB|BE4.12.pppoe548|up|up| 
+LRI1MB|BE4.12.pppoe551|up|up| 
+LRI1MB|BE4.12.pppoe555|up|up| 
+LRI1MB|BE4.12.pppoe556|up|up| 
+LRI1MB|BE4.12.pppoe557|up|up| 
+LRI1MB|BE4.12.pppoe561|up|up| 
+LRI1MB|BE4.12.pppoe564|up|up| 
+LRI1MB|BE4.12.pppoe565|up|up| 
+LRI1MB|BE4.12.pppoe566|up|up| 
+LRI1MB|BE4.12.pppoe567|up|up| 
+LRI1MB|BE4.12.pppoe573|up|up| 
+LRI1MB|BE4.12.pppoe575|up|up| 
+LRI1MB|BE4.12.pppoe576|up|up| 
+LRI1MB|BE4.12.pppoe577|up|up| 
+LRI1MB|BE4.12.pppoe583|up|up| 
+LRI1MB|BE4.12.pppoe586|up|up| 
+LRI1MB|BE4.12.pppoe590|up|up| 
+LRI1MB|BE4.12.pppoe597|up|up| 
+LRI1MB|BE4.12.pppoe598|up|up| 
+LRI1MB|BE4.12.pppoe599|up|up| 
+LRI1MB|BE4.12.pppoe600|up|up| 
+LRI1MB|BE4.12.pppoe601|up|up| 
+LRI1MB|BE4.12.pppoe605|up|up| 
+LRI1MB|BE4.12.pppoe607|up|up| 
+LRI1MB|BE4.12.pppoe609|up|up| 
+LRI1MB|BE4.12.pppoe610|up|up| 
+LRI1MB|BE4.12.pppoe617|up|up| 
+LRI1MB|BE4.12.pppoe619|up|up| 
+LRI1MB|BE4.12.pppoe620|up|up| 
+LRI1MB|BE4.12.pppoe622|up|up| 
+LRI1MB|BE4.12.pppoe625|up|up| 
+LRI1MB|BE4.12.pppoe628|up|up| 
+LRI1MB|BE4.12.pppoe629|up|up| 
+LRI1MB|BE4.12.pppoe635|up|up| 
+LRI1MB|BE4.12.pppoe639|up|up| 
+LRI1MB|BE4.12.pppoe645|up|up| 
+LRI1MB|BE4.12.pppoe647|up|up| 
+LRI1MB|BE4.12.pppoe648|up|up| 
+LRI1MB|BE4.12.pppoe656|up|up| 
+LRI1MB|BE4.12.pppoe658|up|up| 
+LRI1MB|BE4.12.pppoe662|up|up| 
+LRI1MB|BE4.12.pppoe663|up|up| 
+LRI1MB|BE4.12.pppoe665|up|up| 
+LRI1MB|BE4.12.pppoe675|up|up| 
+LRI1MB|BE4.12.pppoe676|up|up| 
+LRI1MB|BE4.12.pppoe677|up|up| 
+LRI1MB|BE4.12.pppoe678|up|up| 
+LRI1MB|BE4.12.pppoe679|up|up| 
+LRI1MB|BE4.12.pppoe680|up|up| 
+LRI1MB|BE4.12.pppoe683|up|up| 
+LRI1MB|BE4.12.pppoe684|up|up| 
+LRI1MB|BE4.12.pppoe685|up|up| 
+LRI1MB|BE4.12.pppoe686|up|up| 
+LRI1MB|BE4.12.pppoe691|up|up| 
+LRI1MB|BE4.12.pppoe693|up|up| 
+LRI1MB|BE4.12.pppoe694|up|up| 
+LRI1MB|BE4.12.pppoe697|up|up| 
+LRI1MB|BE4.12.pppoe698|up|up| 
+LRI1MB|BE4.12.pppoe702|up|up| 
+LRI1MB|BE4.12.pppoe705|up|up| 
+LRI1MB|BE4.12.pppoe707|up|up| 
+LRI1MB|BE4.12.pppoe712|up|up| 
+LRI1MB|BE4.12.pppoe714|up|up| 
+LRI1MB|BE4.12.pppoe722|up|up| 
+LRI1MB|BE4.12.pppoe723|up|up| 
+LRI1MB|BE4.12.pppoe726|up|up| 
+LRI1MB|BE4.12.pppoe729|up|up| 
+LRI1MB|BE4.12.pppoe730|up|up| 
+LRI1MB|BE4.12.pppoe731|up|up| 
+LRI1MB|BE4.12.pppoe735|up|up| 
+LRI1MB|BE4.12.pppoe737|up|up| 
+LRI1MB|BE4.12.pppoe739|up|up| 
+LRI1MB|BE4.12.pppoe740|up|up| 
+LRI1MB|BE4.12.pppoe743|up|up| 
+LRI1MB|BE4.12.pppoe745|up|up| 
+LRI1MB|BE4.12.pppoe746|up|up| 
+LRI1MB|BE4.12.pppoe747|up|up| 
+LRI1MB|BE4.12.pppoe748|up|up| 
+LRI1MB|BE4.12.pppoe749|up|up| 
+LRI1MB|BE4.12.pppoe751|up|up| 
+LRI1MB|BE4.12.pppoe753|up|up| 
+LRI1MB|BE4.12.pppoe754|up|up| 
+LRI1MB|BE4.12.pppoe756|up|up| 
+LRI1MB|BE4.12.pppoe759|up|up| 
+LRI1MB|BE4.12.pppoe760|up|up| 
+LRI1MB|BE4.12.pppoe761|up|up| 
+LRI1MB|BE4.12.pppoe764|up|up| 
+LRI1MB|BE4.12.pppoe765|up|up| 
+LRI1MB|BE4.12.pppoe767|up|up| 
+LRI1MB|BE4.12.pppoe777|up|up| 
+LRI1MB|BE4.12.pppoe778|up|up| 
+LRI1MB|BE4.12.pppoe779|up|up| 
+LRI1MB|BE4.12.pppoe782|up|up| 
+LRI1MB|BE4.12.pppoe791|up|up| 
+LRI1MB|BE4.12.pppoe794|up|up| 
+LRI1MB|BE4.12.pppoe797|up|up| 
+LRI1MB|BE4.12.pppoe800|up|up| 
+LRI1MB|BE4.12.pppoe801|up|up| 
+LRI1MB|BE4.12.pppoe804|up|up| 
+LRI1MB|BE4.12.pppoe805|up|up| 
+LRI1MB|BE4.12.pppoe806|up|up| 
+LRI1MB|BE4.12.pppoe816|up|up| 
+LRI1MB|BE4.12.pppoe817|up|up| 
+LRI1MB|BE4.12.pppoe820|up|up| 
+LRI1MB|BE4.12.pppoe821|up|up| 
+LRI1MB|BE4.12.pppoe826|up|up| 
+LRI1MB|BE4.12.pppoe828|up|up| 
+LRI1MB|BE4.12.pppoe831|up|up| 
+LRI1MB|BE4.12.pppoe833|up|up| 
+LRI1MB|BE4.12.pppoe836|up|up| 
+LRI1MB|BE4.12.pppoe840|up|up| 
+LRI1MB|BE4.12.pppoe841|up|up| 
+LRI1MB|BE4.12.pppoe845|up|up| 
+LRI1MB|BE4.12.pppoe847|up|up| 
+LRI1MB|BE4.12.pppoe849|up|up| 
+LRI1MB|BE4.12.pppoe850|up|up| 
+LRI1MB|BE4.12.pppoe851|up|up| 
+LRI1MB|BE4.12.pppoe853|up|up| 
+LRI1MB|BE4.12.pppoe856|up|up| 
+LRI1MB|BE4.12.pppoe858|up|up| 
+LRI1MB|BE4.12.pppoe859|up|up| 
+LRI1MB|BE4.12.pppoe865|up|up| 
+LRI1MB|BE4.12.pppoe868|up|up| 
+LRI1MB|BE4.12.pppoe870|up|up| 
+LRI1MB|BE4.12.pppoe876|up|up| 
+LRI1MB|BE4.12.pppoe881|up|up| 
+LRI1MB|BE4.12.pppoe882|up|up| 
+LRI1MB|BE4.12.pppoe884|up|up| 
+LRI1MB|BE4.12.pppoe887|up|up| 
+LRI1MB|BE4.12.pppoe889|up|up| 
+LRI1MB|BE4.12.pppoe892|up|up| 
+LRI1MB|BE4.12.pppoe896|up|up| 
+LRI1MB|BE4.12.pppoe901|up|up| 
+LRI1MB|BE4.12.pppoe904|up|up| 
+LRI1MB|BE4.12.pppoe905|up|up| 
+LRI1MB|BE4.12.pppoe909|up|up| 
+LRI1MB|BE4.12.pppoe910|up|up| 
+LRI1MB|BE4.12.pppoe911|up|up| 
+LRI1MB|BE4.12.pppoe915|up|up| 
+LRI1MB|BE4.12.pppoe916|up|up| 
+LRI1MB|BE4.12.pppoe918|up|up| 
+LRI1MB|BE4.12.pppoe921|up|up| 
+LRI1MB|BE4.12.pppoe922|up|up| 
+LRI1MB|BE4.12.pppoe925|up|up| 
+LRI1MB|BE4.12.pppoe928|up|up| 
+LRI1MB|BE4.12.pppoe930|up|up| 
+LRI1MB|BE4.12.pppoe932|up|up| 
+LRI1MB|BE4.12.pppoe935|up|up| 
+LRI1MB|BE4.12.pppoe938|up|up| 
+LRI1MB|BE4.12.pppoe941|up|up| 
+LRI1MB|BE4.12.pppoe942|up|up| 
+LRI1MB|BE4.12.pppoe943|up|up| 
+LRI1MB|BE4.12.pppoe948|up|up| 
+LRI1MB|BE4.12.pppoe949|up|up| 
+LRI1MB|BE4.12.pppoe951|up|up| 
+LRI1MB|BE4.12.pppoe954|up|up| 
+LRI1MB|BE4.12.pppoe955|up|up| 
+LRI1MB|BE4.12.pppoe956|up|up| 
+LRI1MB|BE4.12.pppoe957|up|up| 
+LRI1MB|BE4.12.pppoe959|up|up| 
+LRI1MB|BE4.12.pppoe960|up|up| 
+LRI1MB|BE4.12.pppoe965|up|up| 
+LRI1MB|BE4.12.pppoe967|up|up| 
+LRI1MB|BE4.12.pppoe968|up|up| 
+LRI1MB|BE4.12.pppoe971|up|up| 
+LRI1MB|BE4.12.pppoe976|up|up| 
+LRI1MB|BE4.12.pppoe977|up|up| 
+LRI1MB|BE4.12.pppoe979|up|up| 
+LRI1MB|BE4.12.pppoe985|up|up| 
+LRI1MB|BE4.12.pppoe986|up|up| 
+LRI1MB|BE4.12.pppoe988|up|up| 
+LRI1MB|BE4.12.pppoe989|up|up| 
+LRI1MB|BE4.12.pppoe990|up|up| 
+LRI1MB|BE4.12.pppoe992|up|up| 
+LRI1MB|BE4.12.pppoe993|up|up| 
+LRI1MB|BE4.12.pppoe996|up|up| 
+LRI1MB|BE4.12.pppoe998|up|up| 
+LRI1MB|BE4.12.pppoe1002|up|up| 
+LRI1MB|BE4.12.pppoe1003|up|up| 
+LRI1MB|BE4.12.pppoe1007|up|up| 
+LRI1MB|BE4.12.pppoe1010|up|up| 
+LRI1MB|BE4.12.pppoe1011|up|up| 
+LRI1MB|BE4.12.pppoe1014|up|up| 
+LRI1MB|BE4.12.pppoe1016|up|up| 
+LRI1MB|BE4.12.pppoe1026|up|up| 
+LRI1MB|BE4.12.pppoe1028|up|up| 
+LRI1MB|BE4.12.pppoe1030|up|up| 
+LRI1MB|BE4.12.pppoe1034|up|up| 
+LRI1MB|BE4.12.pppoe1035|up|up| 
+LRI1MB|BE4.12.pppoe1042|up|up| 
+LRI1MB|BE4.12.pppoe1044|up|up| 
+LRI1MB|BE4.12.pppoe1049|up|up| 
+LRI1MB|BE4.12.pppoe1053|up|up| 
+LRI1MB|BE4.12.pppoe1054|up|up| 
+LRI1MB|BE4.12.pppoe1056|up|up| 
+LRI1MB|BE4.12.pppoe1057|up|up| 
+LRI1MB|BE4.12.pppoe1058|up|up| 
+LRI1MB|BE4.12.pppoe1059|up|up| 
+LRI1MB|BE4.12.pppoe1060|up|up| 
+LRI1MB|BE4.12.pppoe1061|up|up| 
+LRI1MB|BE4.12.pppoe1065|up|up| 
+LRI1MB|BE4.12.pppoe1069|up|up| 
+LRI1MB|BE4.12.pppoe1070|up|up| 
+LRI1MB|BE4.12.pppoe1071|up|up| 
+LRI1MB|BE4.12.pppoe1073|up|up| 
+LRI1MB|BE4.12.pppoe1075|up|up| 
+LRI1MB|BE4.12.pppoe1079|up|up| 
+LRI1MB|BE4.12.pppoe1084|up|up| 
+LRI1MB|BE4.12.pppoe1085|up|up| 
+LRI1MB|BE4.12.pppoe1092|up|up| 
+LRI1MB|BE4.12.pppoe1095|up|up| 
+LRI1MB|BE4.12.pppoe1098|up|up| 
+LRI1MB|BE4.12.pppoe1100|up|up| 
+LRI1MB|BE4.12.pppoe1103|up|up| 
+LRI1MB|BE4.12.pppoe1104|up|up| 
+LRI1MB|BE4.12.pppoe1107|up|up| 
+LRI1MB|BE4.12.pppoe1111|up|up| 
+LRI1MB|BE4.12.pppoe1112|up|up| 
+LRI1MB|BE4.12.pppoe1114|up|up| 
+LRI1MB|BE4.12.pppoe1115|up|up| 
+LRI1MB|BE4.12.pppoe1118|up|up| 
+LRI1MB|BE4.12.pppoe1120|up|up| 
+LRI1MB|BE4.12.pppoe1122|up|up| 
+LRI1MB|BE4.12.pppoe1123|up|up| 
+LRI1MB|BE4.12.pppoe1124|up|up| 
+LRI1MB|BE4.12.pppoe1126|up|up| 
+LRI1MB|BE4.12.pppoe1127|up|up| 
+LRI1MB|BE4.12.pppoe1128|up|up| 
+LRI1MB|BE4.12.pppoe1133|up|up| 
+LRI1MB|BE4.12.pppoe1139|up|up| 
+LRI1MB|BE4.12.pppoe1141|up|up| 
+LRI1MB|BE4.12.pppoe1142|up|up| 
+LRI1MB|BE4.12.pppoe1143|up|up| 
+LRI1MB|BE4.12.pppoe1144|up|up| 
+LRI1MB|BE4.12.pppoe1145|up|up| 
+LRI1MB|BE4.12.pppoe1146|up|up| 
+LRI1MB|BE4.12.pppoe1147|up|up| 
+LRI1MB|BE4.12.pppoe1148|up|up| 
+LRI1MB|BE4.12.pppoe1149|up|up| 
+LRI1MB|BE4.12.pppoe1152|up|up| 
+LRI1MB|BE4.12.pppoe1155|up|up| 
+LRI1MB|BE4.12.pppoe1158|up|up| 
+LRI1MB|BE4.12.pppoe1160|up|up| 
+LRI1MB|BE4.12.pppoe1161|up|up| 
+LRI1MB|BE4.12.pppoe1162|up|up| 
+LRI1MB|BE4.12.pppoe1165|up|up| 
+LRI1MB|BE4.12.pppoe1166|up|up| 
+LRI1MB|BE4.12.pppoe1167|up|up| 
+LRI1MB|BE4.12.pppoe1168|up|up| 
+LRI1MB|BE4.12.pppoe1169|up|up| 
+LRI1MB|BE4.12.pppoe1170|up|up| 
+LRI1MB|BE4.12.pppoe1176|up|up| 
+LRI1MB|BE4.12.pppoe1178|up|up| 
+LRI1MB|BE4.12.pppoe1187|up|up| 
+LRI1MB|BE4.12.pppoe1193|up|up| 
+LRI1MB|BE4.12.pppoe1223|up|up| 
+LRI1MB|BE4.12.pppoe1226|up|up| 
+LRI1MB|BE4.12.pppoe1238|up|up| 
+LRI1MB|BE4.12.pppoe1239|up|up| 
+LRI1MB|BE4.12.pppoe1242|up|up| 
+LRI1MB|BE4.12.pppoe1250|up|up| 
+LRI1MB|BE4.12.pppoe1295|up|up| 
+LRI1MB|BE4.12.pppoe1298|up|up| 
+LRI1MB|BE4.12.pppoe1310|up|up| 
+LRI1MB|BE4.12.pppoe1316|up|up| 
+LRI1MB|BE4.12.pppoe1346|up|up| 
+LRI1MB|BE4.12.pppoe1353|up|up| 
+LRI1MB|BE4.12.pppoe1422|up|up| 
+LRI1MB|BE4.12.pppoe1427|up|up| 
+LRI1MB|BE4.12.pppoe1452|up|up| 
+LRI1MB|BE4.12.pppoe1454|up|up| 
+LRI1MB|BE4.12.pppoe1471|up|up| 
+LRI1MB|BE4.12.pppoe1474|up|up| 
+LRI1MB|BE4.12.pppoe1491|up|up| 
+LRI1MB|BE4.12.pppoe1530|up|up| 
+LRI1MB|BE4.12.pppoe1533|up|up| 
+LRI1MB|BE4.12.pppoe1561|up|up| 
+LRI1MB|BE4.12.pppoe1595|up|up| 
+LRI1MB|BE4.12.pppoe1610|up|up| 
+LRI1MB|BE4.12.pppoe1647|up|up| 
+LRI1MB|BE4.12.pppoe1667|up|up| 
+LRI1MB|BE4.12.pppoe1676|up|up| 
+LRI1MB|BE4.12.pppoe1677|up|up| 
+LRI1MB|BE4.12.pppoe1678|up|up| 
+LRI1MB|BE4.12.pppoe1680|up|up| 
+LRI1MB|BE4.12.pppoe1683|up|up| 
+LRI1MB|BE4.12.pppoe1702|up|up| 
+LRI1MB|BE4.12.pppoe1705|up|up| 
+LRI1MB|BE4.12.pppoe1707|up|up| 
+LRI1MB|BE4.12.pppoe1709|up|up| 
+LRI1MB|BE4.12.pppoe1744|up|up| 
+LRI1MB|BE4.12.pppoe1749|up|up| 
+LRI1MB|BE4.12.pppoe1789|up|up| 
+LRI1MB|BE4.12.pppoe1810|up|up| 
+LRI1MB|BE4.12.pppoe1820|up|up| 
+LRI1MB|BE4.12.pppoe1830|up|up| 
+LRI1MB|BE4.12.pppoe1832|up|up| 
+LRI1MB|BE4.12.pppoe1835|up|up| 
+LRI1MB|BE4.12.pppoe1846|up|up| 
+LRI1MB|BE4.12.pppoe1847|up|up| 
+LRI1MB|BE4.12.pppoe1854|up|up| 
+LRI1MB|BE4.12.pppoe1859|up|up| 
+LRI1MB|BE4.12.pppoe1861|up|up| 
+LRI1MB|BE4.12.pppoe1867|up|up| 
+LRI1MB|BE4.12.pppoe1890|up|up| 
+LRI1MB|BE4.12.pppoe1895|up|up| 
+LRI1MB|BE4.12.pppoe1966|up|up| 
+LRI1MB|BE4.12.pppoe1968|up|up| 
+LRI1MB|BE4.12.pppoe1984|up|up| 
+LRI1MB|BE4.12.pppoe2026|up|up| 
+LRI1MB|BE4.12.pppoe2039|up|up| 
+LRI1MB|BE4.12.pppoe2047|up|up| 
+LRI1MB|BE4.12.pppoe2053|up|up| 
+LRI1MB|BE4.12.pppoe2055|up|up| 
+LRI1MB|BE4.12.pppoe2059|up|up| 
+LRI1MB|BE4.12.pppoe2060|up|up| 
+LRI1MB|BE4.12.pppoe2064|up|up| 
+LRI1MB|BE4.12.pppoe2066|up|up| 
+LRI1MB|BE4.12.pppoe2067|up|up| 
+LRI1MB|BE4.12.pppoe2070|up|up| 
+LRI1MB|BE4.12.pppoe2071|up|up| 
+LRI1MB|BE4.12.pppoe2074|up|up| 
+LRI1MB|BE4.12.pppoe2076|up|up| 
+LRI1MB|BE4.12.pppoe2077|up|up| 
+LRI1MB|BE4.12.pppoe2079|up|up| 
+LRI1MB|BE4.12.pppoe2084|up|up| 
+LRI1MB|BE4.12.pppoe2085|up|up| 
+LRI1MB|BE4.12.pppoe2086|up|up| 
+LRI1MB|BE4.12.pppoe2088|up|up| 
+LRI1MB|BE4.12.pppoe2090|up|up| 
+LRI1MB|BE4.12.pppoe2092|up|up| 
+LRI1MB|BE4.12.pppoe2094|up|up| 
+LRI1MB|BE4.12.pppoe2095|up|up| 
+LRI1MB|BE4.12.pppoe2097|up|up| 
+LRI1MB|BE4.12.pppoe2098|up|up| 
+LRI1MB|BE4.12.pppoe2105|up|up| 
+LRI1MB|BE4.12.pppoe2108|up|up| 
+LRI1MB|BE4.12.pppoe2110|up|up| 
+LRI1MB|BE4.12.pppoe2111|up|up| 
+LRI1MB|BE4.12.pppoe2113|up|up| 
+LRI1MB|BE4.12.pppoe2115|up|up| 
+LRI1MB|BE4.12.pppoe2116|up|up| 
+LRI1MB|BE4.12.pppoe2117|up|up| 
+LRI1MB|BE4.12.pppoe2118|up|up| 
+LRI1MB|BE4.12.pppoe2119|up|up| 
+LRI1MB|BE4.12.pppoe2120|up|up| 
+LRI1MB|BE4.12.pppoe2122|up|up| 
+LRI1MB|BE4.12.pppoe2123|up|up| 
+LRI1MB|BE4.12.pppoe2124|up|up| 
+LRI1MB|BE4.12.pppoe2125|up|up| 
+LRI1MB|BE4.12.pppoe2126|up|up| 
+LRI1MB|BE4.12.pppoe2128|up|up| 
+LRI1MB|BE4.12.pppoe2129|up|up| 
+LRI1MB|BE4.12.pppoe2131|up|up| 
+LRI1MB|BE4.12.pppoe2132|up|up| 
+LRI1MB|BE4.12.pppoe2134|up|up| 
+LRI1MB|BE4.12.pppoe2135|up|up| 
+LRI1MB|BE4.12.pppoe2136|up|up| 
+LRI1MB|BE4.12.pppoe2140|up|up| 
+LRI1MB|BE4.12.pppoe2141|up|up| 
+LRI1MB|BE4.12.pppoe2143|up|up| 
+LRI1MB|BE4.12.pppoe2144|up|up| 
+LRI1MB|BE4.12.pppoe2145|up|up| 
+LRI1MB|BE4.12.pppoe2147|up|up| 
+LRI1MB|BE4.12.pppoe2149|up|up| 
+LRI1MB|BE4.12.pppoe2150|up|up| 
+LRI1MB|BE4.12.pppoe2151|up|up| 
+LRI1MB|BE4.12.pppoe2155|up|up| 
+LRI1MB|BE4.12.pppoe2156|up|up| 
+LRI1MB|BE4.12.pppoe2157|up|up| 
+LRI1MB|BE4.12.pppoe2158|up|up| 
+LRI1MB|BE4.12.pppoe2159|up|up| 
+LRI1MB|BE4.12.pppoe2160|up|up| 
+LRI1MB|BE4.12.pppoe2162|up|up| 
+LRI1MB|BE4.12.pppoe2163|up|up| 
+LRI1MB|BE4.12.pppoe2166|up|up| 
+LRI1MB|BE4.12.pppoe2167|up|up| 
+LRI1MB|BE4.12.pppoe2169|up|up| 
+LRI1MB|BE4.12.pppoe2170|up|up| 
+LRI1MB|BE4.12.pppoe2171|up|up| 
+LRI1MB|BE4.12.pppoe2172|up|up| 
+LRI1MB|BE4.12.pppoe2186|up|up| 
+LRI1MB|BE4.12.pppoe2188|up|up| 
+LRI1MB|BE4.12.pppoe2190|up|up| 
+LRI1MB|BE4.12.pppoe2194|up|up| 
+LRI1MB|BE4.12.pppoe2195|up|up| 
+LRI1MB|BE4.12.pppoe2198|up|up| 
+LRI1MB|BE4.12.pppoe2199|up|up| 
+LRI1MB|BE4.12.pppoe2201|up|up| 
+LRI1MB|BE4.12.pppoe2202|up|up| 
+LRI1MB|BE4.12.pppoe2207|up|up| 
+LRI1MB|BE4.12.pppoe2209|up|up| 
+LRI1MB|BE4.12.pppoe2210|up|up| 
+LRI1MB|BE4.12.pppoe2212|up|up| 
+LRI1MB|BE4.12.pppoe2213|up|up| 
+LRI1MB|BE4.12.pppoe2215|up|up| 
+LRI1MB|BE4.12.pppoe2217|up|up| 
+LRI1MB|BE4.12.pppoe2219|up|up| 
+LRI1MB|BE4.12.pppoe2220|up|up| 
+LRI1MB|BE4.12.pppoe2221|up|up| 
+LRI1MB|BE4.12.pppoe2226|up|up| 
+LRI1MB|BE4.12.pppoe2241|up|up| 
+LRI1MB|BE4.12.pppoe2248|up|up| 
+LRI1MB|BE4.12.pppoe2256|up|up| 
+LRI1MB|BE4.12.pppoe2267|up|up| 
+LRI1MB|BE4.12.pppoe2269|up|up| 
+LRI1MB|BE4.12.pppoe2270|up|up| 
+LRI1MB|BE4.12.pppoe2283|up|up| 
+LRI1MB|BE4.12.pppoe2287|up|up| 
+LRI1MB|BE4.12.pppoe2288|up|up| 
+LRI1MB|BE4.12.pppoe2295|up|up| 
+LRI1MB|BE4.12.pppoe2302|up|up| 
+LRI1MB|BE4.12.pppoe2313|up|up| 
+LRI1MB|BE4.12.pppoe2316|up|up| 
+LRI1MB|BE4.12.pppoe2318|up|up| 
+LRI1MB|BE4.12.pppoe2401|up|up| 
+LRI1MB|BE4.12.pppoe2427|up|up| 
+LRI1MB|BE4.12.pppoe2451|up|up| 
+LRI1MB|BE4.12.pppoe2477|up|up| 
+LRI1MB|BE4.12.pppoe2479|up|up| 
+LRI1MB|BE4.12.pppoe2480|up|up| 
+LRI1MB|BE4.12.pppoe2481|up|up| 
+LRI1MB|BE4.12.pppoe2485|up|up| 
+LRI1MB|BE4.12.pppoe2540|up|up| 
+LRI1MB|BE4.12.pppoe2550|up|up| 
+LRI1MB|BE4.12.pppoe2570|up|up| 
+LRI1MB|BE4.12.pppoe2597|up|up| 
+LRI1MB|BE4.12.pppoe2636|up|up| 
+LRI1MB|BE4.12.pppoe2640|up|up| 
+LRI1MB|BE4.12.pppoe2641|up|up| 
+LRI1MB|BE4.12.pppoe2650|up|up| 
+LRI1MB|BE4.12.pppoe2661|up|up| 
+LRI1MB|BE4.12.pppoe2665|up|up| 
+LRI1MB|BE4.12.pppoe2674|up|up| 
+LRI1MB|BE4.12.pppoe2675|up|up| 
+LRI1MB|BE4.12.pppoe2676|up|up| 
+LRI1MB|BE4.12.pppoe2680|up|up| 
+LRI1MB|BE4.12.pppoe2681|up|up| 
+LRI1MB|BE4.12.pppoe2686|up|up| 
+LRI1MB|BE4.12.pppoe2695|up|up| 
+LRI1MB|BE4.12.pppoe2700|up|up| 
+LRI1MB|BE4.12.pppoe2723|up|up| 
+LRI1MB|BE4.12.pppoe2727|up|up| 
+LRI1MB|BE4.12.pppoe2733|up|up| 
+LRI1MB|BE4.12.pppoe2736|up|up| 
+LRI1MB|BE4.12.pppoe2740|up|up| 
+LRI1MB|BE4.12.pppoe2749|up|up| 
+LRI1MB|BE4.12.pppoe2773|up|up| 
+LRI1MB|BE4.12.pppoe2820|up|up| 
+LRI1MB|BE4.12.pppoe2876|up|up| 
+LRI1MB|BE4.12.pppoe2879|up|up| 
+LRI1MB|BE4.12.pppoe2903|up|up| 
+LRI1MB|BE4.12.pppoe2905|up|up| 
+LRI1MB|BE4.12.pppoe2906|up|up| 
+LRI1MB|BE4.12.pppoe2908|up|up| 
+LRI1MB|BE4.12.pppoe2915|up|up| 
+LRI1MB|BE4.12.pppoe2987|up|up| 
+LRI1MB|BE4.12.pppoe3002|up|up| 
+LRI1MB|BE4.12.pppoe3009|up|up| 
+LRI1MB|BE4.12.pppoe3016|up|up| 
+LRI1MB|BE4.12.pppoe3042|up|up| 
+LRI1MB|BE4.12.pppoe3049|up|up| 
+LRI1MB|BE4.12.pppoe3052|up|up| 
+LRI1MB|BE4.12.pppoe3074|up|up| 
+LRI1MB|BE4.12.pppoe3077|up|up| 
+LRI1MB|BE4.12.pppoe3104|up|up| 
+LRI1MB|BE4.12.pppoe3109|up|up| 
+LRI1MB|BE4.12.pppoe3124|up|up| 
+LRI1MB|BE4.12.pppoe3164|up|up| 
+LRI1MB|BE4.12.pppoe3208|up|up| 
+LRI1MB|BE4.12.pppoe3210|up|up| 
+LRI1MB|BE4.12.pppoe3234|up|up| 
+LRI1MB|BE4.12.pppoe3237|up|up| 
+LRI1MB|BE4.12.pppoe3250|up|up| 
+LRI1MB|BE4.12.pppoe3255|up|up| 
+LRI1MB|BE4.12.pppoe3256|up|up| 
+LRI1MB|BE4.12.pppoe3268|up|up| 
+LRI1MB|BE4.12.pppoe3295|up|up| 
+LRI1MB|BE4.12.pppoe3311|up|up| 
+LRI1MB|BE4.12.pppoe3312|up|up| 
+LRI1MB|BE4.12.pppoe3318|up|up| 
+LRI1MB|BE4.12.pppoe3333|up|up| 
+LRI1MB|BE4.12.pppoe3341|up|up| 
+LRI1MB|BE4.12.pppoe3346|up|up| 
+LRI1MB|BE4.12.pppoe3349|up|up| 
+LRI1MB|BE4.12.pppoe3377|up|up| 
+LRI1MB|BE4.12.pppoe3441|up|up| 
+LRI1MB|BE4.12.pppoe3444|up|up| 
+LRI1MB|BE4.12.pppoe3466|up|up| 
+LRI1MB|BE4.12.pppoe3467|up|up| 
+LRI1MB|BE4.12.pppoe3482|up|up| 
+LRI1MB|BE4.12.pppoe3578|up|up| 
+LRI1MB|BE4.12.pppoe3581|up|up| 
+LRI1MB|BE4.12.pppoe3583|up|up| 
+LRI1MB|BE4.12.pppoe3619|up|up| 
+LRI1MB|BE4.12.pppoe3663|up|up| 
+LRI1MB|BE4.12.pppoe3702|up|up| 
+LRI1MB|BE4.12.pppoe3704|up|up| 
+LRI1MB|BE4.12.pppoe3723|up|up| 
+LRI1MB|BE4.12.pppoe3730|up|up| 
+LRI1MB|BE4.12.pppoe3744|up|up| 
+LRI1MB|BE4.12.pppoe3751|up|up| 
+LRI1MB|BE4.12.pppoe3878|up|up| 
+LRI1MB|BE4.12.pppoe3884|up|up| 
+LRI1MB|BE4.12.pppoe3895|up|up| 
+LRI1MB|BE4.12.pppoe3902|up|up| 
+LRI1MB|BE4.12.pppoe3903|up|up| 
+LRI1MB|BE4.12.pppoe3906|up|up| 
+LRI1MB|BE4.12.pppoe3950|up|up| 
+LRI1MB|BE4.12.pppoe3951|up|up| 
+LRI1MB|BE4.12.pppoe3960|up|up| 
+LRI1MB|BE4.12.pppoe3967|up|up| 
+LRI1MB|BE4.12.pppoe3971|up|up| 
+LRI1MB|BE4.12.pppoe3984|up|up| 
+LRI1MB|BE4.12.pppoe3987|up|up| 
+LRI1MB|BE4.12.pppoe3988|up|up| 
+LRI1MB|BE4.12.pppoe3991|up|up| 
+LRI1MB|BE4.12.pppoe3996|up|up| 
+LRI1MB|BE4.12.pppoe4004|up|up| 
+LRI1MB|BE4.12.pppoe4017|up|up| 
+LRI1MB|BE4.12.pppoe4033|up|up| 
+LRI1MB|BE4.12.pppoe4036|up|up| 
+LRI1MB|BE4.12.pppoe4044|up|up| 
+LRI1MB|BE4.12.pppoe4047|up|up| 
+LRI1MB|BE4.12.pppoe4074|up|up| 
+LRI1MB|BE4.12.pppoe4120|up|up| 
+LRI1MB|BE4.12.pppoe4123|up|up| 
+LRI1MB|BE4.12.pppoe4127|up|up| 
+LRI1MB|BE4.12.pppoe4132|up|up| 
+LRI1MB|BE4.12.pppoe4149|up|up| 
+LRI1MB|BE4.12.pppoe4221|up|up| 
+LRI1MB|BE4.12.pppoe4288|up|up| 
+LRI1MB|BE4.12.pppoe4353|up|up| 
+LRI1MB|BE4.12.pppoe4475|up|up| 
+LRI1MB|BE4.12.pppoe4477|up|up| 
+LRI1MB|BE4.12.pppoe4479|up|up| 
+LRI1MB|BE4.12.pppoe4483|up|up| 
+LRI1MB|BE4.12.pppoe4484|up|up| 
+LRI1MB|BE4.12.pppoe4493|up|up| 
+LRI1MB|BE4.12.pppoe4494|up|up| 
+LRI1MB|BE4.12.pppoe4495|up|up| 
+LRI1MB|BE4.12.pppoe4497|up|up| 
+LRI1MB|BE4.12.pppoe4500|up|up| 
+LRI1MB|BE4.12.pppoe4502|up|up| 
+LRI1MB|BE4.12.pppoe4506|up|up| 
+LRI1MB|BE4.12.pppoe4507|up|up| 
+LRI1MB|BE4.12.pppoe4511|up|up| 
+LRI1MB|BE4.12.pppoe4517|up|up| 
+LRI1MB|BE4.12.pppoe4520|up|up| 
+LRI1MB|BE4.12.pppoe4522|up|up| 
+LRI1MB|BE4.12.pppoe4527|up|up| 
+LRI1MB|BE4.12.pppoe4532|up|up| 
+LRI1MB|BE4.12.pppoe4538|up|up| 
+LRI1MB|BE4.12.pppoe4542|up|up| 
+LRI1MB|BE4.12.pppoe4544|up|up| 
+LRI1MB|BE4.12.pppoe4554|up|up| 
+LRI1MB|BE4.12.pppoe4555|up|up| 
+LRI1MB|BE4.12.pppoe4558|up|up| 
+LRI1MB|BE4.12.pppoe4561|up|up| 
+LRI1MB|BE4.12.pppoe4563|up|up| 
+LRI1MB|BE4.12.pppoe4564|up|up| 
+LRI1MB|BE4.12.pppoe4565|up|up| 
+LRI1MB|BE4.12.pppoe4568|up|up| 
+LRI1MB|BE4.12.pppoe4574|up|up| 
+LRI1MB|BE4.12.pppoe4575|up|up| 
+LRI1MB|BE4.12.pppoe4581|up|up| 
+LRI1MB|BE4.12.pppoe4601|up|up| 
+LRI1MB|BE4.12.pppoe4614|up|up| 
+LRI1MB|BE4.12.pppoe4618|up|up| 
+LRI1MB|BE4.12.pppoe4621|up|up| 
+LRI1MB|BE4.12.pppoe4627|up|up| 
+LRI1MB|BE4.12.pppoe4634|up|up| 
+LRI1MB|BE4.12.pppoe4640|up|up| 
+LRI1MB|BE4.12.pppoe4647|up|up| 
+LRI1MB|BE4.12.pppoe4648|up|up| 
+LRI1MB|BE4.12.pppoe4663|up|up| 
+LRI1MB|BE4.12.pppoe4664|up|up| 
+LRI1MB|BE4.12.pppoe4676|up|up| 
+LRI1MB|BE4.12.pppoe4677|up|up| 
+LRI1MB|BE4.12.pppoe4679|up|up| 
+LRI1MB|BE4.12.pppoe4680|up|up| 
+LRI1MB|BE4.12.pppoe4682|up|up| 
+LRI1MB|BE4.12.pppoe4684|up|up| 
+LRI1MB|BE4.12.pppoe4685|up|up| 
+LRI1MB|BE4.12.pppoe4686|up|up| 
+LRI1MB|BE4.12.pppoe4691|up|up| 
+LRI1MB|BE4.12.pppoe4695|up|up| 
+LRI1MB|BE4.12.pppoe4699|up|up| 
+LRI1MB|BE4.12.pppoe4702|up|up| 
+LRI1MB|BE4.12.pppoe4703|up|up| 
+LRI1MB|BE4.12.pppoe4708|up|up| 
+LRI1MB|BE4.12.pppoe4709|up|up| 
+LRI1MB|BE4.12.pppoe4712|up|up| 
+LRI1MB|BE4.12.pppoe4714|up|up| 
+LRI1MB|BE4.12.pppoe4719|up|up| 
+LRI1MB|BE4.12.pppoe4724|up|up| 
+LRI1MB|BE4.12.pppoe4733|up|up| 
+LRI1MB|BE4.12.pppoe4739|up|up| 
+LRI1MB|BE4.12.pppoe4765|up|up| 
+LRI1MB|BE4.12.pppoe4768|up|up| 
+LRI1MB|BE4.12.pppoe4772|up|up| 
+LRI1MB|BE4.12.pppoe4779|up|up| 
+LRI1MB|BE4.12.pppoe4786|up|up| 
+LRI1MB|BE4.12.pppoe4791|up|up| 
+LRI1MB|BE4.12.pppoe4796|up|up| 
+LRI1MB|BE4.12.pppoe4798|up|up| 
+LRI1MB|BE4.12.pppoe4799|up|up| 
+LRI1MB|BE4.12.pppoe4800|up|up| 
+LRI1MB|BE4.12.pppoe4801|up|up| 
+LRI1MB|BE4.12.pppoe4802|up|up| 
+LRI1MB|BE4.12.pppoe4806|up|up| 
+LRI1MB|BE4.12.pppoe4808|up|up| 
+LRI1MB|BE4.12.pppoe4814|up|up| 
+LRI1MB|BE4.12.pppoe4815|up|up| 
+LRI1MB|BE4.12.pppoe4819|up|up| 
+LRI1MB|BE4.12.pppoe4825|up|up| 
+LRI1MB|BE4.12.pppoe4827|up|up| 
+LRI1MB|BE4.12.pppoe4840|up|up| 
+LRI1MB|BE4.12.pppoe4842|up|up| 
+LRI1MB|BE4.12.pppoe4846|up|up| 
+LRI1MB|BE4.12.pppoe4854|up|up| 
+LRI1MB|BE4.12.pppoe4857|up|up| 
+LRI1MB|BE4.12.pppoe4866|up|up| 
+LRI1MB|BE4.12.pppoe4880|up|up| 
+LRI1MB|BE4.12.pppoe4884|up|up| 
+LRI1MB|BE4.12.pppoe4885|up|up| 
+LRI1MB|BE4.12.pppoe4889|up|up| 
+LRI1MB|BE4.12.pppoe4891|up|up| 
+LRI1MB|BE4.12.pppoe4895|up|up| 
+LRI1MB|BE4.12.pppoe4896|up|up| 
+LRI1MB|BE4.12.pppoe4899|up|up| 
+LRI1MB|BE4.12.pppoe4908|up|up| 
+LRI1MB|BE4.12.pppoe4911|up|up| 
+LRI1MB|BE4.12.pppoe4925|up|up| 
+LRI1MB|BE4.12.pppoe4926|up|up| 
+LRI1MB|BE4.12.pppoe4927|up|up| 
+LRI1MB|BE4.12.pppoe4928|up|up| 
+LRI1MB|BE4.12.pppoe4929|up|up| 
+LRI1MB|BE4.12.pppoe4930|up|up| 
+LRI1MB|BE4.12.pppoe4932|up|up| 
+LRI1MB|BE4.12.pppoe4937|up|up| 
+LRI1MB|BE4.12.pppoe4939|up|up| 
+LRI1MB|BE4.12.pppoe4959|up|up| 
+LRI1MB|BE4.12.pppoe4977|up|up| 
+LRI1MB|BE4.12.pppoe4980|up|up| 
+LRI1MB|BE4.12.pppoe4989|up|up| 
+LRI1MB|BE4.12.pppoe4995|up|up| 
+LRI1MB|BE4.12.pppoe5004|up|up| 
+LRI1MB|BE4.12.pppoe5007|up|up| 
+LRI1MB|BE4.12.pppoe5008|up|up| 
+LRI1MB|BE4.12.pppoe5009|up|up| 
+LRI1MB|BE4.12.pppoe5015|up|up| 
+LRI1MB|BE4.12.pppoe5027|up|up| 
+LRI1MB|BE4.12.pppoe5031|up|up| 
+LRI1MB|BE4.12.pppoe5033|up|up| 
+LRI1MB|BE4.12.pppoe5036|up|up| 
+LRI1MB|BE4.12.pppoe5047|up|up| 
+LRI1MB|BE4.12.pppoe5048|up|up| 
+LRI1MB|BE4.12.pppoe5049|up|up| 
+LRI1MB|BE4.12.pppoe5056|up|up| 
+LRI1MB|BE4.12.pppoe5067|up|up| 
+LRI1MB|BE4.12.pppoe5083|up|up| 
+LRI1MB|BE4.12.pppoe5087|up|up| 
+LRI1MB|BE4.12.pppoe5091|up|up| 
+LRI1MB|BE4.12.pppoe5095|up|up| 
+LRI1MB|BE4.12.pppoe5097|up|up| 
+LRI1MB|BE4.12.pppoe5121|up|up| 
+LRI1MB|BE4.12.pppoe5171|up|up| 
+LRI1MB|BE4.12.pppoe5173|up|up| 
+LRI1MB|BE4.12.pppoe5184|up|up| 
+LRI1MB|BE4.12.pppoe5186|up|up| 
+LRI1MB|BE4.12.pppoe5189|up|up| 
+LRI1MB|BE4.12.pppoe5193|up|up| 
+LRI1MB|BE4.12.pppoe5197|up|up| 
+LRI1MB|BE4.12.pppoe5202|up|up| 
+LRI1MB|BE4.12.pppoe5210|up|up| 
+LRI1MB|BE4.12.pppoe5212|up|up| 
+LRI1MB|BE4.12.pppoe5221|up|up| 
+LRI1MB|BE4.12.pppoe5231|up|up| 
+LRI1MB|BE4.12.pppoe5233|up|up| 
+LRI1MB|BE4.12.pppoe5234|up|up| 
+LRI1MB|BE4.12.pppoe5235|up|up| 
+LRI1MB|BE4.12.pppoe5238|up|up| 
+LRI1MB|BE4.12.pppoe5239|up|up| 
+LRI1MB|BE4.12.pppoe5240|up|up| 
+LRI1MB|BE4.12.pppoe5241|up|up| 
+LRI1MB|BE4.12.pppoe5242|up|up| 
+LRI1MB|BE4.12.pppoe5243|up|up| 
+LRI1MB|BE4.12.pppoe5259|up|up| 
+LRI1MB|BE4.12.pppoe5260|up|up| 
+LRI1MB|BE4.12.pppoe5261|up|up| 
+LRI1MB|BE4.12.pppoe5265|up|up| 
+LRI1MB|BE4.12.pppoe5270|up|up| 
+LRI1MB|BE4.12.pppoe5275|up|up| 
+LRI1MB|BE4.12.pppoe5276|up|up| 
+LRI1MB|BE4.12.pppoe5279|up|up| 
+LRI1MB|BE4.12.pppoe5281|up|up| 
+LRI1MB|BE4.12.pppoe5282|up|up| 
+LRI1MB|BE4.12.pppoe5283|up|up| 
+LRI1MB|BE4.12.pppoe5286|up|up| 
+LRI1MB|BE4.12.pppoe5293|up|up| 
+LRI1MB|BE4.12.pppoe5300|up|up| 
+LRI1MB|BE4.12.pppoe5302|up|up| 
+LRI1MB|BE4.12.pppoe5308|up|up| 
+LRI1MB|BE4.12.pppoe5313|up|up| 
+LRI1MB|BE4.12.pppoe5330|up|up| 
+LRI1MB|BE4.12.pppoe5331|up|up| 
+LRI1MB|BE4.12.pppoe5334|up|up| 
+LRI1MB|BE4.12.pppoe5338|up|up| 
+LRI1MB|BE4.12.pppoe5342|up|up| 
+LRI1MB|BE4.12.pppoe5344|up|up| 
+LRI1MB|BE4.12.pppoe5348|up|up| 
+LRI1MB|BE4.12.pppoe5364|up|up| 
+LRI1MB|BE4.12.pppoe5368|up|up| 
+LRI1MB|BE4.12.pppoe5370|up|up| 
+LRI1MB|BE4.12.pppoe5371|up|up| 
+LRI1MB|BE4.12.pppoe5374|up|up| 
+LRI1MB|BE4.12.pppoe5377|up|up| 
+LRI1MB|BE4.12.pppoe5380|up|up| 
+LRI1MB|BE4.12.pppoe5390|up|up| 
+LRI1MB|BE4.12.pppoe5409|up|up| 
+LRI1MB|BE4.12.pppoe5415|up|up| 
+LRI1MB|BE4.12.pppoe5425|up|up| 
+LRI1MB|BE4.12.pppoe5431|up|up| 
+LRI1MB|BE4.12.pppoe5453|up|up| 
+LRI1MB|BE4.12.pppoe5460|up|up| 
+LRI1MB|BE4.12.pppoe5478|up|up| 
+LRI1MB|BE4.12.pppoe5483|up|up| 
+LRI1MB|BE4.12.pppoe5487|up|up| 
+LRI1MB|BE4.12.pppoe5496|up|up| 
+LRI1MB|BE4.12.pppoe5497|up|up| 
+LRI1MB|BE4.12.pppoe5498|up|up| 
+LRI1MB|BE4.12.pppoe5501|up|up| 
+LRI1MB|BE4.12.pppoe5510|up|up| 
+LRI1MB|BE4.12.pppoe5512|up|up| 
+LRI1MB|BE4.12.pppoe5513|up|up| 
+LRI1MB|BE4.12.pppoe5514|up|up| 
+LRI1MB|BE4.12.pppoe5517|up|up| 
+LRI1MB|BE4.12.pppoe5519|up|up| 
+LRI1MB|BE4.12.pppoe5521|up|up| 
+LRI1MB|BE4.12.pppoe5522|up|up| 
+LRI1MB|BE4.12.pppoe5532|up|up| 
+LRI1MB|BE4.12.pppoe5534|up|up| 
+LRI1MB|BE4.12.pppoe5536|up|up| 
+LRI1MB|BE4.12.pppoe5540|up|up| 
+LRI1MB|BE4.12.pppoe5543|up|up| 
+LRI1MB|BE4.12.pppoe5553|up|up| 
+LRI1MB|BE4.12.pppoe5556|up|up| 
+LRI1MB|BE4.12.pppoe5563|up|up| 
+LRI1MB|BE4.12.pppoe5564|up|up| 
+LRI1MB|BE4.12.pppoe5565|up|up| 
+LRI1MB|BE4.12.pppoe5567|up|up| 
+LRI1MB|BE4.12.pppoe5568|up|up| 
+LRI1MB|BE4.12.pppoe5569|up|up| 
+LRI1MB|BE4.12.pppoe5571|up|up| 
+LRI1MB|BE4.12.pppoe5573|up|up| 
+LRI1MB|BE4.12.pppoe5578|up|up| 
+LRI1MB|BE4.12.pppoe5581|up|up| 
+LRI1MB|BE4.12.pppoe5582|up|up| 
+LRI1MB|BE4.12.pppoe5583|up|up| 
+LRI1MB|BE4.12.pppoe5584|up|up| 
+LRI1MB|BE4.12.pppoe5585|up|up| 
+LRI1MB|BE4.12.pppoe5587|up|up| 
+LRI1MB|BE4.12.pppoe5593|up|up| 
+LRI1MB|BE4.12.pppoe5594|up|up| 
+LRI1MB|BE4.12.pppoe5595|up|up| 
+LRI1MB|BE4.12.pppoe5604|up|up| 
+LRI1MB|BE4.12.pppoe5607|up|up| 
+LRI1MB|BE4.12.pppoe5610|up|up| 
+LRI1MB|BE4.12.pppoe5611|up|up| 
+LRI1MB|BE4.12.pppoe5612|up|up| 
+LRI1MB|BE4.12.pppoe5614|up|up| 
+LRI1MB|BE4.12.pppoe5616|up|up| 
+LRI1MB|BE4.12.pppoe5617|up|up| 
+LRI1MB|BE4.12.pppoe5619|up|up| 
+LRI1MB|BE4.12.pppoe5620|up|up| 
+LRI1MB|BE4.12.pppoe5621|up|up| 
+LRI1MB|BE4.12.pppoe5622|up|up| 
+LRI1MB|BE4.12.pppoe5623|up|up| 
+LRI1MB|BE4.12.pppoe5624|up|up| 
+LRI1MB|BE4.12.pppoe5625|up|up| 
+LRI1MB|BE4.12.pppoe5628|up|up| 
+LRI1MB|BE4.12.pppoe5630|up|up| 
+LRI1MB|BE4.12.pppoe5631|up|up| 
+LRI1MB|BE4.12.pppoe5633|up|up| 
+LRI1MB|BE4.12.pppoe5655|up|up| 
+LRI1MB|BE4.12.pppoe5656|up|up| 
+LRI1MB|BE4.12.pppoe5662|up|up| 
+LRI1MB|BE4.12.pppoe5670|up|up| 
+LRI1MB|BE4.12.pppoe5676|up|up| 
+LRI1MB|BE4.12.pppoe5679|up|up| 
+LRI1MB|BE4.12.pppoe5681|up|up| 
+LRI1MB|BE4.12.pppoe5685|up|up| 
+LRI1MB|BE4.12.pppoe5688|up|up| 
+LRI1MB|BE4.12.pppoe5690|up|up| 
+LRI1MB|BE4.12.pppoe5691|up|up| 
+LRI1MB|BE4.12.pppoe5693|up|up| 
+LRI1MB|BE4.12.pppoe5694|up|up| 
+LRI1MB|BE4.12.pppoe5696|up|up| 
+LRI1MB|BE4.12.pppoe5697|up|up| 
+LRI1MB|BE4.12.pppoe5698|up|up| 
+LRI1MB|BE4.12.pppoe5699|up|up| 
+LRI1MB|BE4.12.pppoe5701|up|up| 
+LRI1MB|BE4.12.pppoe5703|up|up| 
+LRI1MB|BE4.12.pppoe5704|up|up| 
+LRI1MB|BE4.12.pppoe5705|up|up| 
+LRI1MB|BE4.12.pppoe5714|up|up| 
+LRI1MB|BE4.12.pppoe5716|up|up| 
+LRI1MB|BE4.12.pppoe5718|up|up| 
+LRI1MB|BE4.12.pppoe5725|up|up| 
+LRI1MB|BE4.12.pppoe5726|up|up| 
+LRI1MB|BE4.12.pppoe5728|up|up| 
+LRI1MB|BE4.12.pppoe5729|up|up| 
+LRI1MB|BE4.12.pppoe5733|up|up| 
+LRI1MB|BE4.12.pppoe5740|up|up| 
+LRI1MB|BE4.12.pppoe5744|up|up| 
+LRI1MB|BE4.12.pppoe5746|up|up| 
+LRI1MB|BE4.12.pppoe5749|up|up| 
+LRI1MB|BE4.12.pppoe5750|up|up| 
+LRI1MB|BE4.12.pppoe5760|up|up| 
+LRI1MB|BE4.12.pppoe5762|up|up| 
+LRI1MB|BE4.12.pppoe5766|up|up| 
+LRI1MB|BE4.12.pppoe5769|up|up| 
+LRI1MB|BE4.12.pppoe5772|up|up| 
+LRI1MB|BE4.12.pppoe5777|up|up| 
+LRI1MB|BE4.12.pppoe5778|up|up| 
+LRI1MB|BE4.12.pppoe5780|up|up| 
+LRI1MB|BE4.12.pppoe5783|up|up| 
+LRI1MB|BE4.12.pppoe5784|up|up| 
+LRI1MB|BE4.12.pppoe5786|up|up| 
+LRI1MB|BE4.12.pppoe5787|up|up| 
+LRI1MB|BE4.12.pppoe5788|up|up| 
+LRI1MB|BE4.12.pppoe5792|up|up| 
+LRI1MB|BE4.12.pppoe5793|up|up| 
+LRI1MB|BE4.12.pppoe5809|up|up| 
+LRI1MB|BE4.12.pppoe5813|up|up| 
+LRI1MB|BE4.12.pppoe5814|up|up| 
+LRI1MB|BE4.12.pppoe5819|up|up| 
+LRI1MB|BE4.12.pppoe5822|up|up| 
+LRI1MB|BE4.12.pppoe5823|up|up| 
+LRI1MB|BE4.12.pppoe5826|up|up| 
+LRI1MB|BE4.12.pppoe5827|up|up| 
+LRI1MB|BE4.12.pppoe5833|up|up| 
+LRI1MB|BE4.12.pppoe5839|up|up| 
+LRI1MB|BE4.12.pppoe5849|up|up| 
+LRI1MB|BE4.12.pppoe5851|up|up| 
+LRI1MB|BE4.12.pppoe5855|up|up| 
+LRI1MB|BE4.12.pppoe5856|up|up| 
+LRI1MB|BE4.12.pppoe5860|up|up| 
+LRI1MB|BE4.12.pppoe5861|up|up| 
+LRI1MB|BE4.12.pppoe5864|up|up| 
+LRI1MB|BE4.12.pppoe5870|up|up| 
+LRI1MB|BE4.12.pppoe5876|up|up| 
+LRI1MB|BE4.12.pppoe5877|up|up| 
+LRI1MB|BE4.12.pppoe5878|up|up| 
+LRI1MB|BE4.12.pppoe5882|up|up| 
+LRI1MB|BE4.12.pppoe5884|up|up| 
+LRI1MB|BE4.12.pppoe5885|up|up| 
+LRI1MB|BE4.12.pppoe5887|up|up| 
+LRI1MB|BE4.12.pppoe5889|up|up| 
+LRI1MB|BE4.12.pppoe5894|up|up| 
+LRI1MB|BE4.12.pppoe5895|up|up| 
+LRI1MB|BE4.12.pppoe5898|up|up| 
+LRI1MB|BE4.12.pppoe5899|up|up| 
+LRI1MB|BE4.12.pppoe5901|up|up| 
+LRI1MB|BE4.12.pppoe5903|up|up| 
+LRI1MB|BE4.12.pppoe5904|up|up| 
+LRI1MB|BE4.12.pppoe5905|up|up| 
+LRI1MB|BE4.12.pppoe5907|up|up| 
+LRI1MB|BE4.12.pppoe5910|up|up| 
+LRI1MB|BE4.12.pppoe5911|up|up| 
+LRI1MB|BE4.12.pppoe5915|up|up| 
+LRI1MB|BE4.12.pppoe5916|up|up| 
+LRI1MB|BE4.12.pppoe5917|up|up| 
+LRI1MB|BE4.12.pppoe5918|up|up| 
+LRI1MB|BE4.12.pppoe5921|up|up| 
+LRI1MB|BE4.12.pppoe5922|up|up| 
+LRI1MB|BE4.12.pppoe5924|up|up| 
+LRI1MB|BE4.12.pppoe5929|up|up| 
+LRI1MB|BE4.12.pppoe5933|up|up| 
+LRI1MB|BE4.12.pppoe5934|up|up| 
+LRI1MB|BE4.12.pppoe5936|up|up| 
+LRI1MB|BE4.12.pppoe5937|up|up| 
+LRI1MB|BE4.12.pppoe5940|up|up| 
+LRI1MB|BE4.12.pppoe5941|up|up| 
+LRI1MB|BE4.12.pppoe5943|up|up| 
+LRI1MB|BE4.12.pppoe5945|up|up| 
+LRI1MB|BE4.12.pppoe5948|up|up| 
+LRI1MB|BE4.12.pppoe5953|up|up| 
+LRI1MB|BE4.12.pppoe5954|up|up| 
+LRI1MB|BE4.12.pppoe5955|up|up| 
+LRI1MB|BE4.12.pppoe5956|up|up| 
+LRI1MB|BE4.12.pppoe5957|up|up| 
+LRI1MB|BE4.12.pppoe5958|up|up| 
+LRI1MB|BE4.12.pppoe5961|up|up| 
+LRI1MB|BE4.12.pppoe5962|up|up| 
+LRI1MB|BE4.12.pppoe5964|up|up| 
+LRI1MB|BE4.12.pppoe5965|up|up| 
+LRI1MB|BE4.12.pppoe5966|up|up| 
+LRI1MB|BE4.12.pppoe5967|up|up| 
+LRI1MB|BE4.12.pppoe5968|up|up| 
+LRI1MB|BE4.12.pppoe5970|up|up| 
+LRI1MB|BE4.12.pppoe5971|up|up| 
+LRI1MB|BE4.12.pppoe5972|up|up| 
+LRI1MB|BE4.12.pppoe5977|up|up| 
+LRI1MB|BE4.12.pppoe5978|up|up| 
+LRI1MB|BE4.12.pppoe5979|up|up| 
+LRI1MB|BE4.12.pppoe5980|up|up| 
+LRI1MB|BE4.12.pppoe5981|up|up| 
+LRI1MB|BE4.12.pppoe5987|up|up| 
+LRI1MB|BE4.12.pppoe5989|up|up| 
+LRI1MB|BE4.12.pppoe5992|up|up| 
+LRI1MB|BE4.12.pppoe5993|up|up| 
+LRI1MB|BE4.12.pppoe5997|up|up| 
+LRI1MB|BE4.12.pppoe5999|up|up| 
+LRI1MB|BE4.12.pppoe6000|up|up| 
+LRI1MB|BE4.12.pppoe6002|up|up| 
+LRI1MB|BE4.12.pppoe6010|up|up| 
+LRI1MB|BE4.12.pppoe6012|up|up| 
+LRI1MB|BE4.12.pppoe6014|up|up| 
+LRI1MB|BE4.12.pppoe6016|up|up| 
+LRI1MB|BE4.12.pppoe6017|up|up| 
+LRI1MB|BE4.12.pppoe6018|up|up| 
+LRI1MB|BE4.12.pppoe6020|up|up| 
+LRI1MB|BE4.12.pppoe6027|up|up| 
+LRI1MB|BE4.12.pppoe6028|up|up| 
+LRI1MB|BE4.12.pppoe6029|up|up| 
+LRI1MB|BE4.12.pppoe6030|up|up| 
+LRI1MB|BE4.12.pppoe6031|up|up| 
+LRI1MB|BE4.12.pppoe6032|up|up| 
+LRI1MB|BE4.12.pppoe6033|up|up| 
+LRI1MB|BE4.12.pppoe6035|up|up| 
+LRI1MB|BE4.12.pppoe6036|up|up| 
+LRI1MB|BE4.12.pppoe6037|up|up| 
+LRI1MB|BE4.12.pppoe6038|up|up| 
+LRI1MB|BE4.12.pppoe6039|up|up| 
+LRI1MB|BE4.12.pppoe6040|up|up| 
+LRI1MB|BE4.12.pppoe6041|up|up| 
+LRI1MB|BE4.12.pppoe6042|up|up| 
+LRI1MB|BE4.12.pppoe6043|up|up| 
+LRI1MB|BE4.12.pppoe6045|up|up| 
+LRI1MB|BE4.12.pppoe6046|up|up| 
+LRI1MB|BE4.12.pppoe6047|up|up| 
+LRI1MB|BE4.12.pppoe6050|up|up| 
+LRI1MB|BE4.12.pppoe6051|up|up| 
+LRI1MB|BE4.12.pppoe6053|up|up| 
+LRI1MB|BE4.12.pppoe6054|up|up| 
+LRI1MB|BE4.12.pppoe6055|up|up| 
+LRI1MB|BE4.12.pppoe6057|up|up| 
+LRI1MB|BE4.12.pppoe6058|up|up| 
+LRI1MB|BE4.12.pppoe6060|up|up| 
+LRI1MB|BE4.12.pppoe6061|up|up| 
+LRI1MB|BE4.12.pppoe6062|up|up| 
+LRI1MB|BE4.12.pppoe6064|up|up| 
+LRI1MB|BE4.12.pppoe6065|up|up| 
+LRI1MB|BE4.12.pppoe6066|up|up| 
+LRI1MB|BE4.12.pppoe6067|up|up| 
+LRI1MB|BE4.12.pppoe6069|up|up| 
+LRI1MB|BE4.12.pppoe6071|up|up| 
+LRI1MB|BE4.12.pppoe6072|up|up| 
+LRI1MB|BE4.12.pppoe6075|up|up| 
+LRI1MB|BE4.12.pppoe6076|up|up| 
+LRI1MB|BE4.12.pppoe6078|up|up| 
+LRI1MB|BE4.12.pppoe6079|up|up| 
+LRI1MB|BE4.12.pppoe6080|up|up| 
+LRI1MB|BE4.12.pppoe6082|up|up| 
+LRI1MB|BE4.12.pppoe6083|up|up| 
+LRI1MB|BE4.12.pppoe6084|up|up| 
+LRI1MB|BE4.12.pppoe6085|up|up| 
+LRI1MB|BE4.12.pppoe6086|up|up| 
+LRI1MB|BE4.12.pppoe6087|up|up| 
+LRI1MB|BE4.12.pppoe6088|up|up| 
+LRI1MB|BE4.12.pppoe6089|up|up| 
+LRI1MB|BE4.12.pppoe6090|up|up| 
+LRI1MB|BE4.12.pppoe6091|up|up| 
+LRI1MB|BE4.12.pppoe6098|up|up| 
+LRI1MB|BE4.12.pppoe6099|up|up| 
+LRI1MB|BE4.12.pppoe6101|up|up| 
+LRI1MB|BE4.12.pppoe6102|up|up| 
+LRI1MB|BE4.12.pppoe6105|up|up| 
+LRI1MB|BE4.12.pppoe6107|up|up| 
+LRI1MB|BE4.12.pppoe6108|up|up| 
+LRI1MB|BE4.12.pppoe6109|up|up| 
+LRI1MB|BE4.12.pppoe6111|up|up| 
+LRI1MB|BE4.12.pppoe6112|up|up| 
+LRI1MB|BE4.12.pppoe6113|up|up| 
+LRI1MB|BE4.12.pppoe6114|up|up| 
+LRI1MB|BE4.12.pppoe6115|up|up| 
+LRI1MB|BE4.12.pppoe6116|up|up| 
+LRI1MB|BE4.12.pppoe6117|up|up| 
+LRI1MB|BE4.12.pppoe6119|up|up| 
+LRI1MB|BE4.12.pppoe6120|up|up| 
+LRI1MB|BE4.12.pppoe6122|up|up| 
+LRI1MB|BE4.12.pppoe6123|up|up| 
+LRI1MB|BE4.12.pppoe6125|up|up| 
+LRI1MB|BE4.12.pppoe6126|up|up| 
+LRI1MB|BE4.12.pppoe6127|up|up| 
+LRI1MB|BE4.12.pppoe6128|up|up| 
+LRI1MB|BE4.12.pppoe6130|up|up| 
+LRI1MB|BE4.12.pppoe6131|up|up| 
+LRI1MB|BE4.12.pppoe6132|up|up| 
+LRI1MB|BE4.12.pppoe6134|up|up| 
+LRI1MB|BE4.12.pppoe6135|up|up| 
+LRI1MB|BE4.12.pppoe6136|up|up| 
+LRI1MB|BE4.12.pppoe6137|up|up| 
+LRI1MB|BE4.12.pppoe6138|up|up| 
+LRI1MB|BE4.12.pppoe6139|up|up| 
+LRI1MB|BE4.12.pppoe6140|up|up| 
+LRI1MB|BE4.12.pppoe6145|up|up| 
+LRI1MB|BE4.12.pppoe6147|up|up| 
+LRI1MB|BE4.12.pppoe6149|up|up| 
+LRI1MB|BE4.12.pppoe6150|up|up| 
+LRI1MB|BE4.12.pppoe6151|up|up| 
+LRI1MB|BE4.12.pppoe6152|up|up| 
+LRI1MB|BE4.12.pppoe6153|up|up| 
+LRI1MB|BE4.12.pppoe6154|up|up| 
+LRI1MB|BE4.12.pppoe6155|up|up| 
+LRI1MB|BE4.12.pppoe6156|up|up| 
+LRI1MB|BE4.12.pppoe6157|up|up| 
+LRI1MB|BE4.12.pppoe6158|up|up| 
+LRI1MB|BE4.12.pppoe6159|up|up| 
+LRI1MB|BE4.2101|up|up|[GESTION] LRIQ01 HUA 5600_T [GPON]
+LRI1MB|BE4.3101|up|up|[DHCP] [TOIP] LRIQ01 HUA 5600_T [GPON]
+LRI1MB|BE5|up|up|[ACCESO HSI][BE] LRIO01 - Linea 13005147
+LRI1MB|BE5.6|up|up|IPTV LRIO01 IGMP-PIM
+LRI1MB|BE5.7|up|up|[DHCP] [IPTV] LRIO01 HUA 5600_T [GPON]
+LRI1MB|BE5.10|up|up|[DATOS] LRIO01 10 HUA 5600_T [GPON]
+LRI1MB|BE5.11|up|up|[DATOS] LRIO01 11 HUA 5600_T [GPON]
+LRI1MB|BE5.12|up|up|[DATOS] LRIO01 12 HUA 5600_T [GPON]
+LRI1MB|BE5.12.pppoe6|up|up| 
+LRI1MB|BE5.12.pppoe8|up|up| 
+LRI1MB|BE5.12.pppoe14|up|up| 
+LRI1MB|BE5.12.pppoe18|up|up| 
+LRI1MB|BE5.12.pppoe20|up|up| 
+LRI1MB|BE5.12.pppoe23|up|up| 
+LRI1MB|BE5.12.pppoe24|up|up| 
+LRI1MB|BE5.12.pppoe27|up|up| 
+LRI1MB|BE5.12.pppoe36|up|up| 
+LRI1MB|BE5.12.pppoe37|up|up| 
+LRI1MB|BE5.12.pppoe38|up|up| 
+LRI1MB|BE5.12.pppoe39|up|up| 
+LRI1MB|BE5.12.pppoe40|up|up| 
+LRI1MB|BE5.12.pppoe41|up|up| 
+LRI1MB|BE5.12.pppoe47|up|up| 
+LRI1MB|BE5.12.pppoe49|up|up| 
+LRI1MB|BE5.12.pppoe50|up|up| 
+LRI1MB|BE5.12.pppoe55|up|up| 
+LRI1MB|BE5.12.pppoe59|up|up| 
+LRI1MB|BE5.12.pppoe60|up|up| 
+LRI1MB|BE5.12.pppoe61|up|up| 
+LRI1MB|BE5.12.pppoe64|up|up| 
+LRI1MB|BE5.12.pppoe69|up|up| 
+LRI1MB|BE5.12.pppoe70|up|up| 
+LRI1MB|BE5.12.pppoe73|up|up| 
+LRI1MB|BE5.12.pppoe75|up|up| 
+LRI1MB|BE5.12.pppoe78|up|up| 
+LRI1MB|BE5.12.pppoe82|up|up| 
+LRI1MB|BE5.12.pppoe83|up|up| 
+LRI1MB|BE5.12.pppoe88|up|up| 
+LRI1MB|BE5.12.pppoe91|up|up| 
+LRI1MB|BE5.12.pppoe99|up|up| 
+LRI1MB|BE5.12.pppoe107|up|up| 
+LRI1MB|BE5.12.pppoe110|up|up| 
+LRI1MB|BE5.12.pppoe112|up|up| 
+LRI1MB|BE5.12.pppoe122|up|up| 
+LRI1MB|BE5.12.pppoe128|up|up| 
+LRI1MB|BE5.12.pppoe129|up|up| 
+LRI1MB|BE5.12.pppoe132|up|up| 
+LRI1MB|BE5.12.pppoe133|up|up| 
+LRI1MB|BE5.12.pppoe136|up|up| 
+LRI1MB|BE5.12.pppoe140|up|up| 
+LRI1MB|BE5.12.pppoe141|up|up| 
+LRI1MB|BE5.12.pppoe142|up|up| 
+LRI1MB|BE5.12.pppoe147|up|up| 
+LRI1MB|BE5.12.pppoe152|up|up| 
+LRI1MB|BE5.12.pppoe156|up|up| 
+LRI1MB|BE5.12.pppoe158|up|up| 
+LRI1MB|BE5.12.pppoe159|up|up| 
+LRI1MB|BE5.12.pppoe161|up|up| 
+LRI1MB|BE5.12.pppoe163|up|up| 
+LRI1MB|BE5.12.pppoe166|up|up| 
+LRI1MB|BE5.12.pppoe167|up|up| 
+LRI1MB|BE5.12.pppoe168|up|up| 
+LRI1MB|BE5.12.pppoe172|up|up| 
+LRI1MB|BE5.12.pppoe175|up|up| 
+LRI1MB|BE5.12.pppoe177|up|up| 
+LRI1MB|BE5.12.pppoe183|up|up| 
+LRI1MB|BE5.12.pppoe187|up|up| 
+LRI1MB|BE5.12.pppoe191|up|up| 
+LRI1MB|BE5.12.pppoe195|up|up| 
+LRI1MB|BE5.12.pppoe199|up|up| 
+LRI1MB|BE5.12.pppoe204|up|up| 
+LRI1MB|BE5.12.pppoe207|up|up| 
+LRI1MB|BE5.12.pppoe210|up|up| 
+LRI1MB|BE5.12.pppoe211|up|up| 
+LRI1MB|BE5.12.pppoe213|up|up| 
+LRI1MB|BE5.12.pppoe214|up|up| 
+LRI1MB|BE5.12.pppoe223|up|up| 
+LRI1MB|BE5.12.pppoe225|up|up| 
+LRI1MB|BE5.12.pppoe228|up|up| 
+LRI1MB|BE5.12.pppoe229|up|up| 
+LRI1MB|BE5.12.pppoe230|up|up| 
+LRI1MB|BE5.12.pppoe235|up|up| 
+LRI1MB|BE5.12.pppoe236|up|up| 
+LRI1MB|BE5.12.pppoe239|up|up| 
+LRI1MB|BE5.12.pppoe243|up|up| 
+LRI1MB|BE5.12.pppoe246|up|up| 
+LRI1MB|BE5.12.pppoe247|up|up| 
+LRI1MB|BE5.12.pppoe248|up|up| 
+LRI1MB|BE5.12.pppoe249|up|up| 
+LRI1MB|BE5.12.pppoe253|up|up| 
+LRI1MB|BE5.12.pppoe255|up|up| 
+LRI1MB|BE5.12.pppoe257|up|up| 
+LRI1MB|BE5.12.pppoe260|up|up| 
+LRI1MB|BE5.12.pppoe261|up|up| 
+LRI1MB|BE5.12.pppoe263|up|up| 
+LRI1MB|BE5.12.pppoe270|up|up| 
+LRI1MB|BE5.12.pppoe271|up|up| 
+LRI1MB|BE5.12.pppoe272|up|up| 
+LRI1MB|BE5.12.pppoe277|up|up| 
+LRI1MB|BE5.12.pppoe279|up|up| 
+LRI1MB|BE5.12.pppoe281|up|up| 
+LRI1MB|BE5.12.pppoe285|up|up| 
+LRI1MB|BE5.12.pppoe289|up|up| 
+LRI1MB|BE5.12.pppoe290|up|up| 
+LRI1MB|BE5.12.pppoe291|up|up| 
+LRI1MB|BE5.12.pppoe296|up|up| 
+LRI1MB|BE5.12.pppoe298|up|up| 
+LRI1MB|BE5.12.pppoe300|up|up| 
+LRI1MB|BE5.12.pppoe303|up|up| 
+LRI1MB|BE5.12.pppoe305|up|up| 
+LRI1MB|BE5.12.pppoe309|up|up| 
+LRI1MB|BE5.12.pppoe313|up|up| 
+LRI1MB|BE5.12.pppoe322|up|up| 
+LRI1MB|BE5.12.pppoe323|up|up| 
+LRI1MB|BE5.12.pppoe328|up|up| 
+LRI1MB|BE5.12.pppoe334|up|up| 
+LRI1MB|BE5.12.pppoe336|up|up| 
+LRI1MB|BE5.12.pppoe338|up|up| 
+LRI1MB|BE5.12.pppoe340|up|up| 
+LRI1MB|BE5.12.pppoe342|up|up| 
+LRI1MB|BE5.12.pppoe344|up|up| 
+LRI1MB|BE5.12.pppoe345|up|up| 
+LRI1MB|BE5.12.pppoe346|up|up| 
+LRI1MB|BE5.12.pppoe347|up|up| 
+LRI1MB|BE5.12.pppoe349|up|up| 
+LRI1MB|BE5.12.pppoe350|up|up| 
+LRI1MB|BE5.12.pppoe355|up|up| 
+LRI1MB|BE5.12.pppoe357|up|up| 
+LRI1MB|BE5.12.pppoe359|up|up| 
+LRI1MB|BE5.12.pppoe362|up|up| 
+LRI1MB|BE5.12.pppoe366|up|up| 
+LRI1MB|BE5.12.pppoe368|up|up| 
+LRI1MB|BE5.12.pppoe369|up|up| 
+LRI1MB|BE5.12.pppoe374|up|up| 
+LRI1MB|BE5.12.pppoe375|up|up| 
+LRI1MB|BE5.12.pppoe379|up|up| 
+LRI1MB|BE5.12.pppoe382|up|up| 
+LRI1MB|BE5.12.pppoe386|up|up| 
+LRI1MB|BE5.12.pppoe388|up|up| 
+LRI1MB|BE5.12.pppoe389|up|up| 
+LRI1MB|BE5.12.pppoe391|up|up| 
+LRI1MB|BE5.12.pppoe392|up|up| 
+LRI1MB|BE5.12.pppoe394|up|up| 
+LRI1MB|BE5.12.pppoe396|up|up| 
+LRI1MB|BE5.12.pppoe397|up|up| 
+LRI1MB|BE5.12.pppoe400|up|up| 
+LRI1MB|BE5.12.pppoe405|up|up| 
+LRI1MB|BE5.12.pppoe408|up|up| 
+LRI1MB|BE5.12.pppoe414|up|up| 
+LRI1MB|BE5.12.pppoe419|up|up| 
+LRI1MB|BE5.12.pppoe425|up|up| 
+LRI1MB|BE5.12.pppoe428|up|up| 
+LRI1MB|BE5.12.pppoe429|up|up| 
+LRI1MB|BE5.12.pppoe430|up|up| 
+LRI1MB|BE5.12.pppoe432|up|up| 
+LRI1MB|BE5.12.pppoe434|up|up| 
+LRI1MB|BE5.12.pppoe435|up|up| 
+LRI1MB|BE5.12.pppoe436|up|up| 
+LRI1MB|BE5.12.pppoe439|up|up| 
+LRI1MB|BE5.12.pppoe440|up|up| 
+LRI1MB|BE5.12.pppoe442|up|up| 
+LRI1MB|BE5.12.pppoe443|up|up| 
+LRI1MB|BE5.12.pppoe447|up|up| 
+LRI1MB|BE5.12.pppoe448|up|up| 
+LRI1MB|BE5.12.pppoe449|up|up| 
+LRI1MB|BE5.12.pppoe450|up|up| 
+LRI1MB|BE5.12.pppoe453|up|up| 
+LRI1MB|BE5.12.pppoe455|up|up| 
+LRI1MB|BE5.12.pppoe456|up|up| 
+LRI1MB|BE5.12.pppoe459|up|up| 
+LRI1MB|BE5.12.pppoe461|up|up| 
+LRI1MB|BE5.12.pppoe463|up|up| 
+LRI1MB|BE5.12.pppoe468|up|up| 
+LRI1MB|BE5.12.pppoe469|up|up| 
+LRI1MB|BE5.12.pppoe470|up|up| 
+LRI1MB|BE5.12.pppoe474|up|up| 
+LRI1MB|BE5.12.pppoe475|up|up| 
+LRI1MB|BE5.12.pppoe476|up|up| 
+LRI1MB|BE5.12.pppoe477|up|up| 
+LRI1MB|BE5.12.pppoe484|up|up| 
+LRI1MB|BE5.12.pppoe489|up|up| 
+LRI1MB|BE5.12.pppoe490|up|up| 
+LRI1MB|BE5.12.pppoe492|up|up| 
+LRI1MB|BE5.12.pppoe493|up|up| 
+LRI1MB|BE5.12.pppoe494|up|up| 
+LRI1MB|BE5.12.pppoe495|up|up| 
+LRI1MB|BE5.12.pppoe498|up|up| 
+LRI1MB|BE5.12.pppoe500|up|up| 
+LRI1MB|BE5.12.pppoe506|up|up| 
+LRI1MB|BE5.12.pppoe508|up|up| 
+LRI1MB|BE5.12.pppoe510|up|up| 
+LRI1MB|BE5.12.pppoe512|up|up| 
+LRI1MB|BE5.12.pppoe514|up|up| 
+LRI1MB|BE5.12.pppoe516|up|up| 
+LRI1MB|BE5.12.pppoe519|up|up| 
+LRI1MB|BE5.12.pppoe523|up|up| 
+LRI1MB|BE5.12.pppoe530|up|up| 
+LRI1MB|BE5.12.pppoe531|up|up| 
+LRI1MB|BE5.12.pppoe534|up|up| 
+LRI1MB|BE5.12.pppoe535|up|up| 
+LRI1MB|BE5.12.pppoe538|up|up| 
+LRI1MB|BE5.12.pppoe541|up|up| 
+LRI1MB|BE5.12.pppoe547|up|up| 
+LRI1MB|BE5.12.pppoe554|up|up| 
+LRI1MB|BE5.12.pppoe555|up|up| 
+LRI1MB|BE5.12.pppoe557|up|up| 
+LRI1MB|BE5.12.pppoe559|up|up| 
+LRI1MB|BE5.12.pppoe563|up|up| 
+LRI1MB|BE5.12.pppoe564|up|up| 
+LRI1MB|BE5.12.pppoe566|up|up| 
+LRI1MB|BE5.12.pppoe569|up|up| 
+LRI1MB|BE5.12.pppoe577|up|up| 
+LRI1MB|BE5.12.pppoe578|up|up| 
+LRI1MB|BE5.12.pppoe579|up|up| 
+LRI1MB|BE5.12.pppoe580|up|up| 
+LRI1MB|BE5.12.pppoe584|up|up| 
+LRI1MB|BE5.12.pppoe585|up|up| 
+LRI1MB|BE5.12.pppoe586|up|up| 
+LRI1MB|BE5.12.pppoe587|up|up| 
+LRI1MB|BE5.12.pppoe589|up|up| 
+LRI1MB|BE5.12.pppoe590|up|up| 
+LRI1MB|BE5.12.pppoe593|up|up| 
+LRI1MB|BE5.12.pppoe598|up|up| 
+LRI1MB|BE5.12.pppoe604|up|up| 
+LRI1MB|BE5.12.pppoe611|up|up| 
+LRI1MB|BE5.12.pppoe617|up|up| 
+LRI1MB|BE5.12.pppoe619|up|up| 
+LRI1MB|BE5.12.pppoe620|up|up| 
+LRI1MB|BE5.12.pppoe621|up|up| 
+LRI1MB|BE5.12.pppoe622|up|up| 
+LRI1MB|BE5.12.pppoe624|up|up| 
+LRI1MB|BE5.12.pppoe626|up|up| 
+LRI1MB|BE5.12.pppoe627|up|up| 
+LRI1MB|BE5.12.pppoe631|up|up| 
+LRI1MB|BE5.12.pppoe632|up|up| 
+LRI1MB|BE5.12.pppoe635|up|up| 
+LRI1MB|BE5.12.pppoe637|up|up| 
+LRI1MB|BE5.12.pppoe638|up|up| 
+LRI1MB|BE5.12.pppoe642|up|up| 
+LRI1MB|BE5.12.pppoe648|up|up| 
+LRI1MB|BE5.12.pppoe650|up|up| 
+LRI1MB|BE5.12.pppoe651|up|up| 
+LRI1MB|BE5.12.pppoe654|up|up| 
+LRI1MB|BE5.12.pppoe663|up|up| 
+LRI1MB|BE5.12.pppoe665|up|up| 
+LRI1MB|BE5.12.pppoe667|up|up| 
+LRI1MB|BE5.12.pppoe668|up|up| 
+LRI1MB|BE5.12.pppoe672|up|up| 
+LRI1MB|BE5.12.pppoe675|up|up| 
+LRI1MB|BE5.12.pppoe676|up|up| 
+LRI1MB|BE5.12.pppoe679|up|up| 
+LRI1MB|BE5.12.pppoe681|up|up| 
+LRI1MB|BE5.12.pppoe683|up|up| 
+LRI1MB|BE5.12.pppoe685|up|up| 
+LRI1MB|BE5.12.pppoe687|up|up| 
+LRI1MB|BE5.12.pppoe689|up|up| 
+LRI1MB|BE5.12.pppoe697|up|up| 
+LRI1MB|BE5.12.pppoe701|up|up| 
+LRI1MB|BE5.12.pppoe703|up|up| 
+LRI1MB|BE5.12.pppoe709|up|up| 
+LRI1MB|BE5.12.pppoe711|up|up| 
+LRI1MB|BE5.12.pppoe712|up|up| 
+LRI1MB|BE5.12.pppoe713|up|up| 
+LRI1MB|BE5.12.pppoe715|up|up| 
+LRI1MB|BE5.12.pppoe717|up|up| 
+LRI1MB|BE5.12.pppoe719|up|up| 
+LRI1MB|BE5.12.pppoe721|up|up| 
+LRI1MB|BE5.12.pppoe724|up|up| 
+LRI1MB|BE5.12.pppoe729|up|up| 
+LRI1MB|BE5.12.pppoe730|up|up| 
+LRI1MB|BE5.12.pppoe731|up|up| 
+LRI1MB|BE5.12.pppoe732|up|up| 
+LRI1MB|BE5.12.pppoe737|up|up| 
+LRI1MB|BE5.12.pppoe742|up|up| 
+LRI1MB|BE5.12.pppoe744|up|up| 
+LRI1MB|BE5.12.pppoe746|up|up| 
+LRI1MB|BE5.12.pppoe753|up|up| 
+LRI1MB|BE5.12.pppoe755|up|up| 
+LRI1MB|BE5.12.pppoe756|up|up| 
+LRI1MB|BE5.12.pppoe759|up|up| 
+LRI1MB|BE5.12.pppoe761|up|up| 
+LRI1MB|BE5.12.pppoe765|up|up| 
+LRI1MB|BE5.12.pppoe767|up|up| 
+LRI1MB|BE5.12.pppoe768|up|up| 
+LRI1MB|BE5.12.pppoe770|up|up| 
+LRI1MB|BE5.12.pppoe771|up|up| 
+LRI1MB|BE5.12.pppoe772|up|up| 
+LRI1MB|BE5.12.pppoe773|up|up| 
+LRI1MB|BE5.12.pppoe777|up|up| 
+LRI1MB|BE5.12.pppoe778|up|up| 
+LRI1MB|BE5.12.pppoe779|up|up| 
+LRI1MB|BE5.12.pppoe780|up|up| 
+LRI1MB|BE5.12.pppoe781|up|up| 
+LRI1MB|BE5.12.pppoe782|up|up| 
+LRI1MB|BE5.12.pppoe784|up|up| 
+LRI1MB|BE5.12.pppoe793|up|up| 
+LRI1MB|BE5.12.pppoe798|up|up| 
+LRI1MB|BE5.12.pppoe803|up|up| 
+LRI1MB|BE5.12.pppoe809|up|up| 
+LRI1MB|BE5.12.pppoe812|up|up| 
+LRI1MB|BE5.12.pppoe816|up|up| 
+LRI1MB|BE5.12.pppoe822|up|up| 
+LRI1MB|BE5.12.pppoe823|up|up| 
+LRI1MB|BE5.12.pppoe824|up|up| 
+LRI1MB|BE5.12.pppoe827|up|up| 
+LRI1MB|BE5.12.pppoe831|up|up| 
+LRI1MB|BE5.12.pppoe833|up|up| 
+LRI1MB|BE5.12.pppoe834|up|up| 
+LRI1MB|BE5.12.pppoe835|up|up| 
+LRI1MB|BE5.12.pppoe839|up|up| 
+LRI1MB|BE5.12.pppoe840|up|up| 
+LRI1MB|BE5.12.pppoe842|up|up| 
+LRI1MB|BE5.12.pppoe843|up|up| 
+LRI1MB|BE5.12.pppoe848|up|up| 
+LRI1MB|BE5.12.pppoe852|up|up| 
+LRI1MB|BE5.12.pppoe854|up|up| 
+LRI1MB|BE5.12.pppoe856|up|up| 
+LRI1MB|BE5.12.pppoe858|up|up| 
+LRI1MB|BE5.12.pppoe859|up|up| 
+LRI1MB|BE5.12.pppoe860|up|up| 
+LRI1MB|BE5.12.pppoe862|up|up| 
+LRI1MB|BE5.12.pppoe863|up|up| 
+LRI1MB|BE5.12.pppoe864|up|up| 
+LRI1MB|BE5.12.pppoe866|up|up| 
+LRI1MB|BE5.12.pppoe868|up|up| 
+LRI1MB|BE5.12.pppoe869|up|up| 
+LRI1MB|BE5.12.pppoe876|up|up| 
+LRI1MB|BE5.12.pppoe883|up|up| 
+LRI1MB|BE5.12.pppoe884|up|up| 
+LRI1MB|BE5.12.pppoe886|up|up| 
+LRI1MB|BE5.12.pppoe888|up|up| 
+LRI1MB|BE5.12.pppoe896|up|up| 
+LRI1MB|BE5.12.pppoe899|up|up| 
+LRI1MB|BE5.12.pppoe901|up|up| 
+LRI1MB|BE5.12.pppoe902|up|up| 
+LRI1MB|BE5.12.pppoe908|up|up| 
+LRI1MB|BE5.12.pppoe910|up|up| 
+LRI1MB|BE5.12.pppoe912|up|up| 
+LRI1MB|BE5.12.pppoe913|up|up| 
+LRI1MB|BE5.12.pppoe924|up|up| 
+LRI1MB|BE5.12.pppoe929|up|up| 
+LRI1MB|BE5.12.pppoe942|up|up| 
+LRI1MB|BE5.12.pppoe946|up|up| 
+LRI1MB|BE5.12.pppoe948|up|up| 
+LRI1MB|BE5.12.pppoe954|up|up| 
+LRI1MB|BE5.12.pppoe955|up|up| 
+LRI1MB|BE5.12.pppoe956|up|up| 
+LRI1MB|BE5.12.pppoe959|up|up| 
+LRI1MB|BE5.12.pppoe963|up|up| 
+LRI1MB|BE5.12.pppoe965|up|up| 
+LRI1MB|BE5.12.pppoe967|up|up| 
+LRI1MB|BE5.12.pppoe970|up|up| 
+LRI1MB|BE5.12.pppoe976|up|up| 
+LRI1MB|BE5.12.pppoe977|up|up| 
+LRI1MB|BE5.12.pppoe981|up|up| 
+LRI1MB|BE5.12.pppoe982|up|up| 
+LRI1MB|BE5.12.pppoe984|up|up| 
+LRI1MB|BE5.12.pppoe985|up|up| 
+LRI1MB|BE5.12.pppoe990|up|up| 
+LRI1MB|BE5.12.pppoe994|up|up| 
+LRI1MB|BE5.12.pppoe995|up|up| 
+LRI1MB|BE5.12.pppoe998|up|up| 
+LRI1MB|BE5.12.pppoe999|up|up| 
+LRI1MB|BE5.12.pppoe1010|up|up| 
+LRI1MB|BE5.12.pppoe1013|up|up| 
+LRI1MB|BE5.12.pppoe1015|up|up| 
+LRI1MB|BE5.12.pppoe1017|up|up| 
+LRI1MB|BE5.12.pppoe1018|up|up| 
+LRI1MB|BE5.12.pppoe1019|up|up| 
+LRI1MB|BE5.12.pppoe1022|up|up| 
+LRI1MB|BE5.12.pppoe1024|up|up| 
+LRI1MB|BE5.12.pppoe1026|up|up| 
+LRI1MB|BE5.12.pppoe1027|up|up| 
+LRI1MB|BE5.12.pppoe1033|up|up| 
+LRI1MB|BE5.12.pppoe1035|up|up| 
+LRI1MB|BE5.12.pppoe1037|up|up| 
+LRI1MB|BE5.12.pppoe1039|up|up| 
+LRI1MB|BE5.12.pppoe1043|up|up| 
+LRI1MB|BE5.12.pppoe1044|up|up| 
+LRI1MB|BE5.12.pppoe1045|up|up| 
+LRI1MB|BE5.12.pppoe1046|up|up| 
+LRI1MB|BE5.12.pppoe1048|up|up| 
+LRI1MB|BE5.12.pppoe1049|up|up| 
+LRI1MB|BE5.12.pppoe1050|up|up| 
+LRI1MB|BE5.12.pppoe1053|up|up| 
+LRI1MB|BE5.12.pppoe1059|up|up| 
+LRI1MB|BE5.12.pppoe1060|up|up| 
+LRI1MB|BE5.12.pppoe1061|up|up| 
+LRI1MB|BE5.12.pppoe1064|up|up| 
+LRI1MB|BE5.12.pppoe1065|up|up| 
+LRI1MB|BE5.12.pppoe1066|up|up| 
+LRI1MB|BE5.12.pppoe1068|up|up| 
+LRI1MB|BE5.12.pppoe1070|up|up| 
+LRI1MB|BE5.12.pppoe1071|up|up| 
+LRI1MB|BE5.12.pppoe1077|up|up| 
+LRI1MB|BE5.12.pppoe1079|up|up| 
+LRI1MB|BE5.12.pppoe1082|up|up| 
+LRI1MB|BE5.12.pppoe1088|up|up| 
+LRI1MB|BE5.12.pppoe1091|up|up| 
+LRI1MB|BE5.12.pppoe1095|up|up| 
+LRI1MB|BE5.12.pppoe1097|up|up| 
+LRI1MB|BE5.12.pppoe1104|up|up| 
+LRI1MB|BE5.12.pppoe1106|up|up| 
+LRI1MB|BE5.12.pppoe1111|up|up| 
+LRI1MB|BE5.12.pppoe1113|up|up| 
+LRI1MB|BE5.12.pppoe1123|up|up| 
+LRI1MB|BE5.12.pppoe1124|up|up| 
+LRI1MB|BE5.12.pppoe1127|up|up| 
+LRI1MB|BE5.12.pppoe1128|up|up| 
+LRI1MB|BE5.12.pppoe1130|up|up| 
+LRI1MB|BE5.12.pppoe1131|up|up| 
+LRI1MB|BE5.12.pppoe1136|up|up| 
+LRI1MB|BE5.12.pppoe1137|up|up| 
+LRI1MB|BE5.12.pppoe1138|up|up| 
+LRI1MB|BE5.12.pppoe1139|up|up| 
+LRI1MB|BE5.12.pppoe1140|up|up| 
+LRI1MB|BE5.12.pppoe1141|up|up| 
+LRI1MB|BE5.12.pppoe1142|up|up| 
+LRI1MB|BE5.12.pppoe1143|up|up| 
+LRI1MB|BE5.12.pppoe1145|up|up| 
+LRI1MB|BE5.12.pppoe1146|up|up| 
+LRI1MB|BE5.12.pppoe1148|up|up| 
+LRI1MB|BE5.12.pppoe1150|up|up| 
+LRI1MB|BE5.12.pppoe1152|up|up| 
+LRI1MB|BE5.12.pppoe1153|up|up| 
+LRI1MB|BE5.12.pppoe1157|up|up| 
+LRI1MB|BE5.12.pppoe1159|up|up| 
+LRI1MB|BE5.12.pppoe1165|up|up| 
+LRI1MB|BE5.12.pppoe1168|up|up| 
+LRI1MB|BE5.12.pppoe1169|up|up| 
+LRI1MB|BE5.12.pppoe1170|up|up| 
+LRI1MB|BE5.12.pppoe1172|up|up| 
+LRI1MB|BE5.12.pppoe1176|up|up| 
+LRI1MB|BE5.12.pppoe1181|up|up| 
+LRI1MB|BE5.12.pppoe1182|up|up| 
+LRI1MB|BE5.12.pppoe1186|up|up| 
+LRI1MB|BE5.12.pppoe1187|up|up| 
+LRI1MB|BE5.12.pppoe1191|up|up| 
+LRI1MB|BE5.12.pppoe1194|up|up| 
+LRI1MB|BE5.12.pppoe1196|up|up| 
+LRI1MB|BE5.12.pppoe1198|up|up| 
+LRI1MB|BE5.12.pppoe1199|up|up| 
+LRI1MB|BE5.12.pppoe1200|up|up| 
+LRI1MB|BE5.12.pppoe1204|up|up| 
+LRI1MB|BE5.12.pppoe1205|up|up| 
+LRI1MB|BE5.12.pppoe1206|up|up| 
+LRI1MB|BE5.12.pppoe1216|up|up| 
+LRI1MB|BE5.12.pppoe1217|up|up| 
+LRI1MB|BE5.12.pppoe1221|up|up| 
+LRI1MB|BE5.12.pppoe1223|up|up| 
+LRI1MB|BE5.12.pppoe1231|up|up| 
+LRI1MB|BE5.12.pppoe1235|up|up| 
+LRI1MB|BE5.12.pppoe1238|up|up| 
+LRI1MB|BE5.12.pppoe1239|up|up| 
+LRI1MB|BE5.12.pppoe1242|up|up| 
+LRI1MB|BE5.12.pppoe1244|up|up| 
+LRI1MB|BE5.12.pppoe1246|up|up| 
+LRI1MB|BE5.12.pppoe1248|up|up| 
+LRI1MB|BE5.12.pppoe1250|up|up| 
+LRI1MB|BE5.12.pppoe1259|up|up| 
+LRI1MB|BE5.12.pppoe1260|up|up| 
+LRI1MB|BE5.12.pppoe1262|up|up| 
+LRI1MB|BE5.12.pppoe1263|up|up| 
+LRI1MB|BE5.12.pppoe1264|up|up| 
+LRI1MB|BE5.12.pppoe1265|up|up| 
+LRI1MB|BE5.12.pppoe1267|up|up| 
+LRI1MB|BE5.12.pppoe1270|up|up| 
+LRI1MB|BE5.12.pppoe1273|up|up| 
+LRI1MB|BE5.12.pppoe1282|up|up| 
+LRI1MB|BE5.12.pppoe1284|up|up| 
+LRI1MB|BE5.12.pppoe1285|up|up| 
+LRI1MB|BE5.12.pppoe1292|up|up| 
+LRI1MB|BE5.12.pppoe1293|up|up| 
+LRI1MB|BE5.12.pppoe1295|up|up| 
+LRI1MB|BE5.12.pppoe1306|up|up| 
+LRI1MB|BE5.12.pppoe1329|up|up| 
+LRI1MB|BE5.12.pppoe1330|up|up| 
+LRI1MB|BE5.12.pppoe1346|up|up| 
+LRI1MB|BE5.12.pppoe1348|up|up| 
+LRI1MB|BE5.12.pppoe1379|up|up| 
+LRI1MB|BE5.12.pppoe1398|up|up| 
+LRI1MB|BE5.12.pppoe1417|up|up| 
+LRI1MB|BE5.12.pppoe1424|up|up| 
+LRI1MB|BE5.12.pppoe1433|up|up| 
+LRI1MB|BE5.12.pppoe1447|up|up| 
+LRI1MB|BE5.12.pppoe1452|up|up| 
+LRI1MB|BE5.12.pppoe1514|up|up| 
+LRI1MB|BE5.12.pppoe1566|up|up| 
+LRI1MB|BE5.12.pppoe1576|up|up| 
+LRI1MB|BE5.12.pppoe1618|up|up| 
+LRI1MB|BE5.12.pppoe1655|up|up| 
+LRI1MB|BE5.12.pppoe1656|up|up| 
+LRI1MB|BE5.12.pppoe1657|up|up| 
+LRI1MB|BE5.12.pppoe1659|up|up| 
+LRI1MB|BE5.12.pppoe1660|up|up| 
+LRI1MB|BE5.12.pppoe1662|up|up| 
+LRI1MB|BE5.12.pppoe1665|up|up| 
+LRI1MB|BE5.12.pppoe1666|up|up| 
+LRI1MB|BE5.12.pppoe1668|up|up| 
+LRI1MB|BE5.12.pppoe1669|up|up| 
+LRI1MB|BE5.12.pppoe1671|up|up| 
+LRI1MB|BE5.12.pppoe1674|up|up| 
+LRI1MB|BE5.12.pppoe1675|up|up| 
+LRI1MB|BE5.12.pppoe1677|up|up| 
+LRI1MB|BE5.12.pppoe1681|up|up| 
+LRI1MB|BE5.12.pppoe1682|up|up| 
+LRI1MB|BE5.12.pppoe1687|up|up| 
+LRI1MB|BE5.12.pppoe1688|up|up| 
+LRI1MB|BE5.12.pppoe1690|up|up| 
+LRI1MB|BE5.12.pppoe1692|up|up| 
+LRI1MB|BE5.12.pppoe1693|up|up| 
+LRI1MB|BE5.12.pppoe1694|up|up| 
+LRI1MB|BE5.12.pppoe1696|up|up| 
+LRI1MB|BE5.12.pppoe1698|up|up| 
+LRI1MB|BE5.12.pppoe1701|up|up| 
+LRI1MB|BE5.12.pppoe1702|up|up| 
+LRI1MB|BE5.12.pppoe1705|up|up| 
+LRI1MB|BE5.12.pppoe1706|up|up| 
+LRI1MB|BE5.12.pppoe1708|up|up| 
+LRI1MB|BE5.12.pppoe1715|up|up| 
+LRI1MB|BE5.12.pppoe1716|up|up| 
+LRI1MB|BE5.12.pppoe1718|up|up| 
+LRI1MB|BE5.12.pppoe1719|up|up| 
+LRI1MB|BE5.12.pppoe1721|up|up| 
+LRI1MB|BE5.12.pppoe1723|up|up| 
+LRI1MB|BE5.12.pppoe1725|up|up| 
+LRI1MB|BE5.12.pppoe1726|up|up| 
+LRI1MB|BE5.12.pppoe1727|up|up| 
+LRI1MB|BE5.12.pppoe1728|up|up| 
+LRI1MB|BE5.12.pppoe1729|up|up| 
+LRI1MB|BE5.12.pppoe1731|up|up| 
+LRI1MB|BE5.12.pppoe1732|up|up| 
+LRI1MB|BE5.12.pppoe1736|up|up| 
+LRI1MB|BE5.12.pppoe1737|up|up| 
+LRI1MB|BE5.12.pppoe1738|up|up| 
+LRI1MB|BE5.12.pppoe1740|up|up| 
+LRI1MB|BE5.12.pppoe1742|up|up| 
+LRI1MB|BE5.12.pppoe1744|up|up| 
+LRI1MB|BE5.12.pppoe1745|up|up| 
+LRI1MB|BE5.12.pppoe1746|up|up| 
+LRI1MB|BE5.12.pppoe1753|up|up| 
+LRI1MB|BE5.12.pppoe1755|up|up| 
+LRI1MB|BE5.12.pppoe1757|up|up| 
+LRI1MB|BE5.12.pppoe1759|up|up| 
+LRI1MB|BE5.12.pppoe1760|up|up| 
+LRI1MB|BE5.12.pppoe1761|up|up| 
+LRI1MB|BE5.12.pppoe1763|up|up| 
+LRI1MB|BE5.12.pppoe1764|up|up| 
+LRI1MB|BE5.12.pppoe1765|up|up| 
+LRI1MB|BE5.12.pppoe1767|up|up| 
+LRI1MB|BE5.12.pppoe1768|up|up| 
+LRI1MB|BE5.12.pppoe1769|up|up| 
+LRI1MB|BE5.12.pppoe1772|up|up| 
+LRI1MB|BE5.12.pppoe1774|up|up| 
+LRI1MB|BE5.12.pppoe1776|up|up| 
+LRI1MB|BE5.12.pppoe1778|up|up| 
+LRI1MB|BE5.12.pppoe1780|up|up| 
+LRI1MB|BE5.12.pppoe1782|up|up| 
+LRI1MB|BE5.12.pppoe1783|up|up| 
+LRI1MB|BE5.12.pppoe1784|up|up| 
+LRI1MB|BE5.12.pppoe1787|up|up| 
+LRI1MB|BE5.12.pppoe1788|up|up| 
+LRI1MB|BE5.12.pppoe1789|up|up| 
+LRI1MB|BE5.12.pppoe1791|up|up| 
+LRI1MB|BE5.12.pppoe1794|up|up| 
+LRI1MB|BE5.12.pppoe1800|up|up| 
+LRI1MB|BE5.12.pppoe1802|up|up| 
+LRI1MB|BE5.12.pppoe1803|up|up| 
+LRI1MB|BE5.12.pppoe1804|up|up| 
+LRI1MB|BE5.12.pppoe1806|up|up| 
+LRI1MB|BE5.12.pppoe1807|up|up| 
+LRI1MB|BE5.12.pppoe1808|up|up| 
+LRI1MB|BE5.12.pppoe1809|up|up| 
+LRI1MB|BE5.12.pppoe1810|up|up| 
+LRI1MB|BE5.12.pppoe1812|up|up| 
+LRI1MB|BE5.12.pppoe1814|up|up| 
+LRI1MB|BE5.12.pppoe1817|up|up| 
+LRI1MB|BE5.12.pppoe1820|up|up| 
+LRI1MB|BE5.12.pppoe1821|up|up| 
+LRI1MB|BE5.12.pppoe1822|up|up| 
+LRI1MB|BE5.12.pppoe1824|up|up| 
+LRI1MB|BE5.12.pppoe1833|up|up| 
+LRI1MB|BE5.12.pppoe1834|up|up| 
+LRI1MB|BE5.12.pppoe1835|up|up| 
+LRI1MB|BE5.12.pppoe1836|up|up| 
+LRI1MB|BE5.12.pppoe1838|up|up| 
+LRI1MB|BE5.12.pppoe1839|up|up| 
+LRI1MB|BE5.12.pppoe1840|up|up| 
+LRI1MB|BE5.12.pppoe1842|up|up| 
+LRI1MB|BE5.12.pppoe1843|up|up| 
+LRI1MB|BE5.12.pppoe1846|up|up| 
+LRI1MB|BE5.12.pppoe1847|up|up| 
+LRI1MB|BE5.12.pppoe1849|up|up| 
+LRI1MB|BE5.12.pppoe1850|up|up| 
+LRI1MB|BE5.12.pppoe1853|up|up| 
+LRI1MB|BE5.12.pppoe1856|up|up| 
+LRI1MB|BE5.12.pppoe1857|up|up| 
+LRI1MB|BE5.12.pppoe1862|up|up| 
+LRI1MB|BE5.12.pppoe1865|up|up| 
+LRI1MB|BE5.12.pppoe1866|up|up| 
+LRI1MB|BE5.12.pppoe1867|up|up| 
+LRI1MB|BE5.12.pppoe1871|up|up| 
+LRI1MB|BE5.12.pppoe1872|up|up| 
+LRI1MB|BE5.12.pppoe1873|up|up| 
+LRI1MB|BE5.12.pppoe1874|up|up| 
+LRI1MB|BE5.12.pppoe1876|up|up| 
+LRI1MB|BE5.12.pppoe1877|up|up| 
+LRI1MB|BE5.12.pppoe1879|up|up| 
+LRI1MB|BE5.12.pppoe1881|up|up| 
+LRI1MB|BE5.12.pppoe1884|up|up| 
+LRI1MB|BE5.12.pppoe1885|up|up| 
+LRI1MB|BE5.12.pppoe1886|up|up| 
+LRI1MB|BE5.12.pppoe1889|up|up| 
+LRI1MB|BE5.12.pppoe1895|up|up| 
+LRI1MB|BE5.12.pppoe1898|up|up| 
+LRI1MB|BE5.12.pppoe1900|up|up| 
+LRI1MB|BE5.12.pppoe1925|up|up| 
+LRI1MB|BE5.12.pppoe1969|up|up| 
+LRI1MB|BE5.12.pppoe1989|up|up| 
+LRI1MB|BE5.12.pppoe2025|up|up| 
+LRI1MB|BE5.12.pppoe2047|up|up| 
+LRI1MB|BE5.12.pppoe2049|up|up| 
+LRI1MB|BE5.12.pppoe2050|up|up| 
+LRI1MB|BE5.12.pppoe2062|up|up| 
+LRI1MB|BE5.12.pppoe2098|up|up| 
+LRI1MB|BE5.12.pppoe2142|up|up| 
+LRI1MB|BE5.12.pppoe2148|up|up| 
+LRI1MB|BE5.12.pppoe2153|up|up| 
+LRI1MB|BE5.12.pppoe2157|up|up| 
+LRI1MB|BE5.12.pppoe2165|up|up| 
+LRI1MB|BE5.12.pppoe2166|up|up| 
+LRI1MB|BE5.12.pppoe2171|up|up| 
+LRI1MB|BE5.12.pppoe2172|up|up| 
+LRI1MB|BE5.12.pppoe2195|up|up| 
+LRI1MB|BE5.12.pppoe2196|up|up| 
+LRI1MB|BE5.12.pppoe2197|up|up| 
+LRI1MB|BE5.12.pppoe2199|up|up| 
+LRI1MB|BE5.12.pppoe2213|up|up| 
+LRI1MB|BE5.12.pppoe2214|up|up| 
+LRI1MB|BE5.12.pppoe2216|up|up| 
+LRI1MB|BE5.12.pppoe2223|up|up| 
+LRI1MB|BE5.12.pppoe2226|up|up| 
+LRI1MB|BE5.12.pppoe2230|up|up| 
+LRI1MB|BE5.12.pppoe2232|up|up| 
+LRI1MB|BE5.12.pppoe2264|up|up| 
+LRI1MB|BE5.12.pppoe2272|up|up| 
+LRI1MB|BE5.12.pppoe2284|up|up| 
+LRI1MB|BE5.12.pppoe2286|up|up| 
+LRI1MB|BE5.12.pppoe2295|up|up| 
+LRI1MB|BE5.12.pppoe2351|up|up| 
+LRI1MB|BE5.12.pppoe2376|up|up| 
+LRI1MB|BE5.12.pppoe2377|up|up| 
+LRI1MB|BE5.12.pppoe2379|up|up| 
+LRI1MB|BE5.12.pppoe2407|up|up| 
+LRI1MB|BE5.12.pppoe2412|up|up| 
+LRI1MB|BE5.12.pppoe2463|up|up| 
+LRI1MB|BE5.12.pppoe2475|up|up| 
+LRI1MB|BE5.12.pppoe2484|up|up| 
+LRI1MB|BE5.12.pppoe2485|up|up| 
+LRI1MB|BE5.12.pppoe2491|up|up| 
+LRI1MB|BE5.12.pppoe2499|up|up| 
+LRI1MB|BE5.12.pppoe2529|up|up| 
+LRI1MB|BE5.12.pppoe2535|up|up| 
+LRI1MB|BE5.12.pppoe2548|up|up| 
+LRI1MB|BE5.12.pppoe2550|up|up| 
+LRI1MB|BE5.12.pppoe2557|up|up| 
+LRI1MB|BE5.12.pppoe2561|up|up| 
+LRI1MB|BE5.12.pppoe2562|up|up| 
+LRI1MB|BE5.12.pppoe2586|up|up| 
+LRI1MB|BE5.12.pppoe2612|up|up| 
+LRI1MB|BE5.12.pppoe2798|up|up| 
+LRI1MB|BE5.12.pppoe2802|up|up| 
+LRI1MB|BE5.12.pppoe2804|up|up| 
+LRI1MB|BE5.12.pppoe2808|up|up| 
+LRI1MB|BE5.12.pppoe2851|up|up| 
+LRI1MB|BE5.12.pppoe2853|up|up| 
+LRI1MB|BE5.12.pppoe2862|up|up| 
+LRI1MB|BE5.12.pppoe2895|up|up| 
+LRI1MB|BE5.12.pppoe2897|up|up| 
+LRI1MB|BE5.12.pppoe2900|up|up| 
+LRI1MB|BE5.12.pppoe2916|up|up| 
+LRI1MB|BE5.12.pppoe2928|up|up| 
+LRI1MB|BE5.12.pppoe2931|up|up| 
+LRI1MB|BE5.12.pppoe2964|up|up| 
+LRI1MB|BE5.12.pppoe2965|up|up| 
+LRI1MB|BE5.12.pppoe2985|up|up| 
+LRI1MB|BE5.12.pppoe2989|up|up| 
+LRI1MB|BE5.12.pppoe2994|up|up| 
+LRI1MB|BE5.12.pppoe3003|up|up| 
+LRI1MB|BE5.12.pppoe3026|up|up| 
+LRI1MB|BE5.12.pppoe3030|up|up| 
+LRI1MB|BE5.12.pppoe3038|up|up| 
+LRI1MB|BE5.12.pppoe3048|up|up| 
+LRI1MB|BE5.12.pppoe3060|up|up| 
+LRI1MB|BE5.12.pppoe3063|up|up| 
+LRI1MB|BE5.12.pppoe3174|up|up| 
+LRI1MB|BE5.12.pppoe3240|up|up| 
+LRI1MB|BE5.12.pppoe3248|up|up| 
+LRI1MB|BE5.12.pppoe3252|up|up| 
+LRI1MB|BE5.12.pppoe3264|up|up| 
+LRI1MB|BE5.12.pppoe3274|up|up| 
+LRI1MB|BE5.12.pppoe3285|up|up| 
+LRI1MB|BE5.12.pppoe3298|up|up| 
+LRI1MB|BE5.12.pppoe3327|up|up| 
+LRI1MB|BE5.12.pppoe3362|up|up| 
+LRI1MB|BE5.12.pppoe3364|up|up| 
+LRI1MB|BE5.12.pppoe3408|up|up| 
+LRI1MB|BE5.12.pppoe3409|up|up| 
+LRI1MB|BE5.12.pppoe3413|up|up| 
+LRI1MB|BE5.12.pppoe3418|up|up| 
+LRI1MB|BE5.12.pppoe3422|up|up| 
+LRI1MB|BE5.12.pppoe3424|up|up| 
+LRI1MB|BE5.12.pppoe3446|up|up| 
+LRI1MB|BE5.12.pppoe3484|up|up| 
+LRI1MB|BE5.12.pppoe3485|up|up| 
+LRI1MB|BE5.12.pppoe3497|up|up| 
+LRI1MB|BE5.12.pppoe3504|up|up| 
+LRI1MB|BE5.12.pppoe3515|up|up| 
+LRI1MB|BE5.12.pppoe3517|up|up| 
+LRI1MB|BE5.12.pppoe3530|up|up| 
+LRI1MB|BE5.12.pppoe3544|up|up| 
+LRI1MB|BE5.12.pppoe3547|up|up| 
+LRI1MB|BE5.12.pppoe3551|up|up| 
+LRI1MB|BE5.12.pppoe3552|up|up| 
+LRI1MB|BE5.12.pppoe3554|up|up| 
+LRI1MB|BE5.12.pppoe3562|up|up| 
+LRI1MB|BE5.12.pppoe3581|up|up| 
+LRI1MB|BE5.12.pppoe3588|up|up| 
+LRI1MB|BE5.12.pppoe3595|up|up| 
+LRI1MB|BE5.12.pppoe3601|up|up| 
+LRI1MB|BE5.12.pppoe3609|up|up| 
+LRI1MB|BE5.12.pppoe3618|up|up| 
+LRI1MB|BE5.12.pppoe3667|up|up| 
+LRI1MB|BE5.12.pppoe3676|up|up| 
+LRI1MB|BE5.12.pppoe3697|up|up| 
+LRI1MB|BE5.12.pppoe3699|up|up| 
+LRI1MB|BE5.12.pppoe3700|up|up| 
+LRI1MB|BE5.12.pppoe3713|up|up| 
+LRI1MB|BE5.12.pppoe3717|up|up| 
+LRI1MB|BE5.12.pppoe3725|up|up| 
+LRI1MB|BE5.12.pppoe3812|up|up| 
+LRI1MB|BE5.12.pppoe3814|up|up| 
+LRI1MB|BE5.12.pppoe3816|up|up| 
+LRI1MB|BE5.12.pppoe3834|up|up| 
+LRI1MB|BE5.12.pppoe3851|up|up| 
+LRI1MB|BE5.12.pppoe3875|up|up| 
+LRI1MB|BE5.12.pppoe3876|up|up| 
+LRI1MB|BE5.12.pppoe3881|up|up| 
+LRI1MB|BE5.12.pppoe3882|up|up| 
+LRI1MB|BE5.12.pppoe3896|up|up| 
+LRI1MB|BE5.12.pppoe3916|up|up| 
+LRI1MB|BE5.12.pppoe3927|up|up| 
+LRI1MB|BE5.12.pppoe3952|up|up| 
+LRI1MB|BE5.12.pppoe3955|up|up| 
+LRI1MB|BE5.12.pppoe3982|up|up| 
+LRI1MB|BE5.12.pppoe4028|up|up| 
+LRI1MB|BE5.12.pppoe4034|up|up| 
+LRI1MB|BE5.12.pppoe4037|up|up| 
+LRI1MB|BE5.12.pppoe4041|up|up| 
+LRI1MB|BE5.12.pppoe4042|up|up| 
+LRI1MB|BE5.12.pppoe4048|up|up| 
+LRI1MB|BE5.12.pppoe4049|up|up| 
+LRI1MB|BE5.12.pppoe4064|up|up| 
+LRI1MB|BE5.12.pppoe4068|up|up| 
+LRI1MB|BE5.12.pppoe4072|up|up| 
+LRI1MB|BE5.12.pppoe4100|up|up| 
+LRI1MB|BE5.12.pppoe4114|up|up| 
+LRI1MB|BE5.12.pppoe4130|up|up| 
+LRI1MB|BE5.12.pppoe4164|up|up| 
+LRI1MB|BE5.12.pppoe4171|up|up| 
+LRI1MB|BE5.12.pppoe4174|up|up| 
+LRI1MB|BE5.12.pppoe4176|up|up| 
+LRI1MB|BE5.12.pppoe4177|up|up| 
+LRI1MB|BE5.12.pppoe4178|up|up| 
+LRI1MB|BE5.12.pppoe4180|up|up| 
+LRI1MB|BE5.12.pppoe4183|up|up| 
+LRI1MB|BE5.12.pppoe4198|up|up| 
+LRI1MB|BE5.12.pppoe4240|up|up| 
+LRI1MB|BE5.12.pppoe4276|up|up| 
+LRI1MB|BE5.12.pppoe4283|up|up| 
+LRI1MB|BE5.12.pppoe4288|up|up| 
+LRI1MB|BE5.12.pppoe4290|up|up| 
+LRI1MB|BE5.12.pppoe4299|up|up| 
+LRI1MB|BE5.12.pppoe4303|up|up| 
+LRI1MB|BE5.12.pppoe4305|up|up| 
+LRI1MB|BE5.12.pppoe4306|up|up| 
+LRI1MB|BE5.12.pppoe4309|up|up| 
+LRI1MB|BE5.12.pppoe4310|up|up| 
+LRI1MB|BE5.12.pppoe4314|up|up| 
+LRI1MB|BE5.12.pppoe4316|up|up| 
+LRI1MB|BE5.12.pppoe4333|up|up| 
+LRI1MB|BE5.12.pppoe4341|up|up| 
+LRI1MB|BE5.12.pppoe4356|up|up| 
+LRI1MB|BE5.12.pppoe4361|up|up| 
+LRI1MB|BE5.12.pppoe4367|up|up| 
+LRI1MB|BE5.12.pppoe4372|up|up| 
+LRI1MB|BE5.12.pppoe4381|up|up| 
+LRI1MB|BE5.12.pppoe4382|up|up| 
+LRI1MB|BE5.12.pppoe4384|up|up| 
+LRI1MB|BE5.12.pppoe4387|up|up| 
+LRI1MB|BE5.12.pppoe4389|up|up| 
+LRI1MB|BE5.12.pppoe4390|up|up| 
+LRI1MB|BE5.12.pppoe4392|up|up| 
+LRI1MB|BE5.12.pppoe4393|up|up| 
+LRI1MB|BE5.12.pppoe4396|up|up| 
+LRI1MB|BE5.12.pppoe4401|up|up| 
+LRI1MB|BE5.12.pppoe4402|up|up| 
+LRI1MB|BE5.12.pppoe4406|up|up| 
+LRI1MB|BE5.12.pppoe4410|up|up| 
+LRI1MB|BE5.12.pppoe4413|up|up| 
+LRI1MB|BE5.12.pppoe4415|up|up| 
+LRI1MB|BE5.12.pppoe4416|up|up| 
+LRI1MB|BE5.12.pppoe4417|up|up| 
+LRI1MB|BE5.12.pppoe4419|up|up| 
+LRI1MB|BE5.12.pppoe4422|up|up| 
+LRI1MB|BE5.12.pppoe4424|up|up| 
+LRI1MB|BE5.12.pppoe4427|up|up| 
+LRI1MB|BE5.12.pppoe4434|up|up| 
+LRI1MB|BE5.12.pppoe4435|up|up| 
+LRI1MB|BE5.12.pppoe4438|up|up| 
+LRI1MB|BE5.12.pppoe4439|up|up| 
+LRI1MB|BE5.12.pppoe4444|up|up| 
+LRI1MB|BE5.12.pppoe4448|up|up| 
+LRI1MB|BE5.12.pppoe4449|up|up| 
+LRI1MB|BE5.12.pppoe4450|up|up| 
+LRI1MB|BE5.12.pppoe4458|up|up| 
+LRI1MB|BE5.12.pppoe4461|up|up| 
+LRI1MB|BE5.12.pppoe4462|up|up| 
+LRI1MB|BE5.12.pppoe4463|up|up| 
+LRI1MB|BE5.12.pppoe4466|up|up| 
+LRI1MB|BE5.12.pppoe4467|up|up| 
+LRI1MB|BE5.12.pppoe4468|up|up| 
+LRI1MB|BE5.12.pppoe4472|up|up| 
+LRI1MB|BE5.12.pppoe4493|up|up| 
+LRI1MB|BE5.12.pppoe4499|up|up| 
+LRI1MB|BE5.12.pppoe4514|up|up| 
+LRI1MB|BE5.12.pppoe4526|up|up| 
+LRI1MB|BE5.12.pppoe4543|up|up| 
+LRI1MB|BE5.12.pppoe4564|up|up| 
+LRI1MB|BE5.12.pppoe4566|up|up| 
+LRI1MB|BE5.12.pppoe4572|up|up| 
+LRI1MB|BE5.12.pppoe4580|up|up| 
+LRI1MB|BE5.12.pppoe4586|up|up| 
+LRI1MB|BE5.12.pppoe4590|up|up| 
+LRI1MB|BE5.12.pppoe4600|up|up| 
+LRI1MB|BE5.12.pppoe4603|up|up| 
+LRI1MB|BE5.12.pppoe4613|up|up| 
+LRI1MB|BE5.12.pppoe4614|up|up| 
+LRI1MB|BE5.12.pppoe4621|up|up| 
+LRI1MB|BE5.12.pppoe4622|up|up| 
+LRI1MB|BE5.12.pppoe4623|up|up| 
+LRI1MB|BE5.12.pppoe4626|up|up| 
+LRI1MB|BE5.12.pppoe4637|up|up| 
+LRI1MB|BE5.12.pppoe4638|up|up| 
+LRI1MB|BE5.12.pppoe4646|up|up| 
+LRI1MB|BE5.12.pppoe4648|up|up| 
+LRI1MB|BE5.12.pppoe4659|up|up| 
+LRI1MB|BE5.12.pppoe4665|up|up| 
+LRI1MB|BE5.12.pppoe4667|up|up| 
+LRI1MB|BE5.12.pppoe4669|up|up| 
+LRI1MB|BE5.12.pppoe4702|up|up| 
+LRI1MB|BE5.12.pppoe4720|up|up| 
+LRI1MB|BE5.12.pppoe4725|up|up| 
+LRI1MB|BE5.12.pppoe4729|up|up| 
+LRI1MB|BE5.12.pppoe4737|up|up| 
+LRI1MB|BE5.12.pppoe4739|up|up| 
+LRI1MB|BE5.12.pppoe4751|up|up| 
+LRI1MB|BE5.12.pppoe4758|up|up| 
+LRI1MB|BE5.12.pppoe4764|up|up| 
+LRI1MB|BE5.12.pppoe4765|up|up| 
+LRI1MB|BE5.12.pppoe4772|up|up| 
+LRI1MB|BE5.12.pppoe4773|up|up| 
+LRI1MB|BE5.12.pppoe4798|up|up| 
+LRI1MB|BE5.12.pppoe4799|up|up| 
+LRI1MB|BE5.12.pppoe4803|up|up| 
+LRI1MB|BE5.12.pppoe4805|up|up| 
+LRI1MB|BE5.12.pppoe4811|up|up| 
+LRI1MB|BE5.12.pppoe4823|up|up| 
+LRI1MB|BE5.12.pppoe4825|up|up| 
+LRI1MB|BE5.12.pppoe4826|up|up| 
+LRI1MB|BE5.12.pppoe4827|up|up| 
+LRI1MB|BE5.12.pppoe4828|up|up| 
+LRI1MB|BE5.12.pppoe4831|up|up| 
+LRI1MB|BE5.12.pppoe4832|up|up| 
+LRI1MB|BE5.12.pppoe4833|up|up| 
+LRI1MB|BE5.12.pppoe4835|up|up| 
+LRI1MB|BE5.12.pppoe4839|up|up| 
+LRI1MB|BE5.12.pppoe4851|up|up| 
+LRI1MB|BE5.12.pppoe4856|up|up| 
+LRI1MB|BE5.12.pppoe4861|up|up| 
+LRI1MB|BE5.12.pppoe4866|up|up| 
+LRI1MB|BE5.12.pppoe4872|up|up| 
+LRI1MB|BE5.12.pppoe4880|up|up| 
+LRI1MB|BE5.12.pppoe4903|up|up| 
+LRI1MB|BE5.12.pppoe4906|up|up| 
+LRI1MB|BE5.12.pppoe4913|up|up| 
+LRI1MB|BE5.12.pppoe4914|up|up| 
+LRI1MB|BE5.12.pppoe4919|up|up| 
+LRI1MB|BE5.12.pppoe4921|up|up| 
+LRI1MB|BE5.12.pppoe4922|up|up| 
+LRI1MB|BE5.12.pppoe4923|up|up| 
+LRI1MB|BE5.12.pppoe4924|up|up| 
+LRI1MB|BE5.12.pppoe4925|up|up| 
+LRI1MB|BE5.12.pppoe4926|up|up| 
+LRI1MB|BE5.12.pppoe4927|up|up| 
+LRI1MB|BE5.12.pppoe4930|up|up| 
+LRI1MB|BE5.12.pppoe4931|up|up| 
+LRI1MB|BE5.12.pppoe4933|up|up| 
+LRI1MB|BE5.12.pppoe4934|up|up| 
+LRI1MB|BE5.12.pppoe4936|up|up| 
+LRI1MB|BE5.12.pppoe4938|up|up| 
+LRI1MB|BE5.12.pppoe4939|up|up| 
+LRI1MB|BE5.12.pppoe4951|up|up| 
+LRI1MB|BE5.12.pppoe4955|up|up| 
+LRI1MB|BE5.12.pppoe4962|up|up| 
+LRI1MB|BE5.12.pppoe4971|up|up| 
+LRI1MB|BE5.12.pppoe4981|up|up| 
+LRI1MB|BE5.12.pppoe4999|up|up| 
+LRI1MB|BE5.12.pppoe5001|up|up| 
+LRI1MB|BE5.12.pppoe5008|up|up| 
+LRI1MB|BE5.12.pppoe5009|up|up| 
+LRI1MB|BE5.12.pppoe5013|up|up| 
+LRI1MB|BE5.12.pppoe5016|up|up| 
+LRI1MB|BE5.12.pppoe5017|up|up| 
+LRI1MB|BE5.12.pppoe5020|up|up| 
+LRI1MB|BE5.12.pppoe5041|up|up| 
+LRI1MB|BE5.12.pppoe5043|up|up| 
+LRI1MB|BE5.12.pppoe5052|up|up| 
+LRI1MB|BE5.12.pppoe5058|up|up| 
+LRI1MB|BE5.12.pppoe5061|up|up| 
+LRI1MB|BE5.12.pppoe5063|up|up| 
+LRI1MB|BE5.12.pppoe5065|up|up| 
+LRI1MB|BE5.12.pppoe5079|up|up| 
+LRI1MB|BE5.12.pppoe5086|up|up| 
+LRI1MB|BE5.12.pppoe5092|up|up| 
+LRI1MB|BE5.12.pppoe5098|up|up| 
+LRI1MB|BE5.12.pppoe5105|up|up| 
+LRI1MB|BE5.12.pppoe5108|up|up| 
+LRI1MB|BE5.12.pppoe5114|up|up| 
+LRI1MB|BE5.12.pppoe5118|up|up| 
+LRI1MB|BE5.12.pppoe5120|up|up| 
+LRI1MB|BE5.12.pppoe5123|up|up| 
+LRI1MB|BE5.12.pppoe5124|up|up| 
+LRI1MB|BE5.12.pppoe5128|up|up| 
+LRI1MB|BE5.12.pppoe5133|up|up| 
+LRI1MB|BE5.12.pppoe5139|up|up| 
+LRI1MB|BE5.12.pppoe5154|up|up| 
+LRI1MB|BE5.12.pppoe5155|up|up| 
+LRI1MB|BE5.12.pppoe5156|up|up| 
+LRI1MB|BE5.12.pppoe5160|up|up| 
+LRI1MB|BE5.12.pppoe5162|up|up| 
+LRI1MB|BE5.12.pppoe5164|up|up| 
+LRI1MB|BE5.12.pppoe5168|up|up| 
+LRI1MB|BE5.12.pppoe5176|up|up| 
+LRI1MB|BE5.12.pppoe5180|up|up| 
+LRI1MB|BE5.12.pppoe5188|up|up| 
+LRI1MB|BE5.12.pppoe5198|up|up| 
+LRI1MB|BE5.12.pppoe5201|up|up| 
+LRI1MB|BE5.12.pppoe5210|up|up| 
+LRI1MB|BE5.12.pppoe5211|up|up| 
+LRI1MB|BE5.12.pppoe5218|up|up| 
+LRI1MB|BE5.12.pppoe5219|up|up| 
+LRI1MB|BE5.12.pppoe5220|up|up| 
+LRI1MB|BE5.12.pppoe5221|up|up| 
+LRI1MB|BE5.12.pppoe5222|up|up| 
+LRI1MB|BE5.12.pppoe5223|up|up| 
+LRI1MB|BE5.12.pppoe5224|up|up| 
+LRI1MB|BE5.12.pppoe5225|up|up| 
+LRI1MB|BE5.12.pppoe5227|up|up| 
+LRI1MB|BE5.12.pppoe5228|up|up| 
+LRI1MB|BE5.12.pppoe5229|up|up| 
+LRI1MB|BE5.12.pppoe5230|up|up| 
+LRI1MB|BE5.12.pppoe5231|up|up| 
+LRI1MB|BE5.12.pppoe5233|up|up| 
+LRI1MB|BE5.12.pppoe5234|up|up| 
+LRI1MB|BE5.12.pppoe5235|up|up| 
+LRI1MB|BE5.12.pppoe5236|up|up| 
+LRI1MB|BE5.12.pppoe5237|up|up| 
+LRI1MB|BE5.12.pppoe5238|up|up| 
+LRI1MB|BE5.12.pppoe5239|up|up| 
+LRI1MB|BE5.12.pppoe5241|up|up| 
+LRI1MB|BE5.12.pppoe5242|up|up| 
+LRI1MB|BE5.12.pppoe5243|up|up| 
+LRI1MB|BE5.12.pppoe5244|up|up| 
+LRI1MB|BE5.12.pppoe5245|up|up| 
+LRI1MB|BE5.12.pppoe5246|up|up| 
+LRI1MB|BE5.12.pppoe5247|up|up| 
+LRI1MB|BE5.12.pppoe5248|up|up| 
+LRI1MB|BE5.12.pppoe5251|up|up| 
+LRI1MB|BE5.12.pppoe5252|up|up| 
+LRI1MB|BE5.12.pppoe5253|up|up| 
+LRI1MB|BE5.12.pppoe5256|up|up| 
+LRI1MB|BE5.12.pppoe5257|up|up| 
+LRI1MB|BE5.12.pppoe5258|up|up| 
+LRI1MB|BE5.12.pppoe5259|up|up| 
+LRI1MB|BE5.12.pppoe5260|up|up| 
+LRI1MB|BE5.12.pppoe5261|up|up| 
+LRI1MB|BE5.12.pppoe5263|up|up| 
+LRI1MB|BE5.12.pppoe5264|up|up| 
+LRI1MB|BE5.12.pppoe5265|up|up| 
+LRI1MB|BE5.12.pppoe5266|up|up| 
+LRI1MB|BE5.12.pppoe5270|up|up| 
+LRI1MB|BE5.12.pppoe5275|up|up| 
+LRI1MB|BE5.12.pppoe5284|up|up| 
+LRI1MB|BE5.12.pppoe5298|up|up| 
+LRI1MB|BE5.12.pppoe5299|up|up| 
+LRI1MB|BE5.12.pppoe5310|up|up| 
+LRI1MB|BE5.12.pppoe5311|up|up| 
+LRI1MB|BE5.12.pppoe5313|up|up| 
+LRI1MB|BE5.12.pppoe5314|up|up| 
+LRI1MB|BE5.12.pppoe5320|up|up| 
+LRI1MB|BE5.12.pppoe5326|up|up| 
+LRI1MB|BE5.12.pppoe5328|up|up| 
+LRI1MB|BE5.12.pppoe5332|up|up| 
+LRI1MB|BE5.12.pppoe5335|up|up| 
+LRI1MB|BE5.12.pppoe5337|up|up| 
+LRI1MB|BE5.12.pppoe5338|up|up| 
+LRI1MB|BE5.12.pppoe5340|up|up| 
+LRI1MB|BE5.12.pppoe5342|up|up| 
+LRI1MB|BE5.12.pppoe5350|up|up| 
+LRI1MB|BE5.12.pppoe5353|up|up| 
+LRI1MB|BE5.12.pppoe5354|up|up| 
+LRI1MB|BE5.12.pppoe5355|up|up| 
+LRI1MB|BE5.12.pppoe5358|up|up| 
+LRI1MB|BE5.12.pppoe5364|up|up| 
+LRI1MB|BE5.12.pppoe5365|up|up| 
+LRI1MB|BE5.12.pppoe5371|up|up| 
+LRI1MB|BE5.12.pppoe5372|up|up| 
+LRI1MB|BE5.12.pppoe5373|up|up| 
+LRI1MB|BE5.12.pppoe5376|up|up| 
+LRI1MB|BE5.12.pppoe5377|up|up| 
+LRI1MB|BE5.12.pppoe5379|up|up| 
+LRI1MB|BE5.12.pppoe5380|up|up| 
+LRI1MB|BE5.12.pppoe5386|up|up| 
+LRI1MB|BE5.12.pppoe5387|up|up| 
+LRI1MB|BE5.12.pppoe5389|up|up| 
+LRI1MB|BE5.12.pppoe5390|up|up| 
+LRI1MB|BE5.12.pppoe5391|up|up| 
+LRI1MB|BE5.12.pppoe5394|up|up| 
+LRI1MB|BE5.12.pppoe5395|up|up| 
+LRI1MB|BE5.12.pppoe5396|up|up| 
+LRI1MB|BE5.12.pppoe5401|up|up| 
+LRI1MB|BE5.12.pppoe5402|up|up| 
+LRI1MB|BE5.12.pppoe5404|up|up| 
+LRI1MB|BE5.12.pppoe5407|up|up| 
+LRI1MB|BE5.12.pppoe5410|up|up| 
+LRI1MB|BE5.12.pppoe5411|up|up| 
+LRI1MB|BE5.12.pppoe5414|up|up| 
+LRI1MB|BE5.12.pppoe5434|up|up| 
+LRI1MB|BE5.12.pppoe5435|up|up| 
+LRI1MB|BE5.12.pppoe5439|up|up| 
+LRI1MB|BE5.12.pppoe5443|up|up| 
+LRI1MB|BE5.12.pppoe5475|up|up| 
+LRI1MB|BE5.12.pppoe5481|up|up| 
+LRI1MB|BE5.12.pppoe5496|up|up| 
+LRI1MB|BE5.12.pppoe5502|up|up| 
+LRI1MB|BE5.12.pppoe5510|up|up| 
+LRI1MB|BE5.12.pppoe5513|up|up| 
+LRI1MB|BE5.12.pppoe5515|up|up| 
+LRI1MB|BE5.12.pppoe5517|up|up| 
+LRI1MB|BE5.12.pppoe5519|up|up| 
+LRI1MB|BE5.12.pppoe5522|up|up| 
+LRI1MB|BE5.12.pppoe5524|up|up| 
+LRI1MB|BE5.12.pppoe5531|up|up| 
+LRI1MB|BE5.12.pppoe5533|up|up| 
+LRI1MB|BE5.12.pppoe5536|up|up| 
+LRI1MB|BE5.12.pppoe5538|up|up| 
+LRI1MB|BE5.12.pppoe5539|up|up| 
+LRI1MB|BE5.12.pppoe5542|up|up| 
+LRI1MB|BE5.12.pppoe5546|up|up| 
+LRI1MB|BE5.12.pppoe5549|up|up| 
+LRI1MB|BE5.12.pppoe5553|up|up| 
+LRI1MB|BE5.12.pppoe5555|up|up| 
+LRI1MB|BE5.12.pppoe5558|up|up| 
+LRI1MB|BE5.12.pppoe5559|up|up| 
+LRI1MB|BE5.12.pppoe5560|up|up| 
+LRI1MB|BE5.12.pppoe5571|up|up| 
+LRI1MB|BE5.12.pppoe5577|up|up| 
+LRI1MB|BE5.12.pppoe5587|up|up| 
+LRI1MB|BE5.12.pppoe5593|up|up| 
+LRI1MB|BE5.12.pppoe5597|up|up| 
+LRI1MB|BE5.12.pppoe5598|up|up| 
+LRI1MB|BE5.12.pppoe5603|up|up| 
+LRI1MB|BE5.12.pppoe5604|up|up| 
+LRI1MB|BE5.12.pppoe5607|up|up| 
+LRI1MB|BE5.12.pppoe5608|up|up| 
+LRI1MB|BE5.12.pppoe5611|up|up| 
+LRI1MB|BE5.12.pppoe5613|up|up| 
+LRI1MB|BE5.12.pppoe5616|up|up| 
+LRI1MB|BE5.12.pppoe5618|up|up| 
+LRI1MB|BE5.12.pppoe5621|up|up| 
+LRI1MB|BE5.12.pppoe5622|up|up| 
+LRI1MB|BE5.12.pppoe5623|up|up| 
+LRI1MB|BE5.12.pppoe5628|up|up| 
+LRI1MB|BE5.12.pppoe5629|up|up| 
+LRI1MB|BE5.12.pppoe5636|up|up| 
+LRI1MB|BE5.12.pppoe5637|up|up| 
+LRI1MB|BE5.12.pppoe5639|up|up| 
+LRI1MB|BE5.12.pppoe5640|up|up| 
+LRI1MB|BE5.12.pppoe5641|up|up| 
+LRI1MB|BE5.12.pppoe5645|up|up| 
+LRI1MB|BE5.12.pppoe5650|up|up| 
+LRI1MB|BE5.12.pppoe5653|up|up| 
+LRI1MB|BE5.12.pppoe5656|up|up| 
+LRI1MB|BE5.12.pppoe5658|up|up| 
+LRI1MB|BE5.12.pppoe5661|up|up| 
+LRI1MB|BE5.12.pppoe5662|up|up| 
+LRI1MB|BE5.12.pppoe5667|up|up| 
+LRI1MB|BE5.12.pppoe5671|up|up| 
+LRI1MB|BE5.12.pppoe5672|up|up| 
+LRI1MB|BE5.12.pppoe5673|up|up| 
+LRI1MB|BE5.12.pppoe5675|up|up| 
+LRI1MB|BE5.12.pppoe5677|up|up| 
+LRI1MB|BE5.12.pppoe5678|up|up| 
+LRI1MB|BE5.12.pppoe5693|up|up| 
+LRI1MB|BE5.12.pppoe5705|up|up| 
+LRI1MB|BE5.12.pppoe5707|up|up| 
+LRI1MB|BE5.12.pppoe5709|up|up| 
+LRI1MB|BE5.12.pppoe5710|up|up| 
+LRI1MB|BE5.12.pppoe5711|up|up| 
+LRI1MB|BE5.12.pppoe5712|up|up| 
+LRI1MB|BE5.12.pppoe5714|up|up| 
+LRI1MB|BE5.12.pppoe5715|up|up| 
+LRI1MB|BE5.12.pppoe5725|up|up| 
+LRI1MB|BE5.12.pppoe5733|up|up| 
+LRI1MB|BE5.12.pppoe5737|up|up| 
+LRI1MB|BE5.12.pppoe5740|up|up| 
+LRI1MB|BE5.12.pppoe5743|up|up| 
+LRI1MB|BE5.12.pppoe5747|up|up| 
+LRI1MB|BE5.12.pppoe5749|up|up| 
+LRI1MB|BE5.12.pppoe5752|up|up| 
+LRI1MB|BE5.12.pppoe5755|up|up| 
+LRI1MB|BE5.12.pppoe5756|up|up| 
+LRI1MB|BE5.12.pppoe5759|up|up| 
+LRI1MB|BE5.12.pppoe5760|up|up| 
+LRI1MB|BE5.12.pppoe5762|up|up| 
+LRI1MB|BE5.12.pppoe5764|up|up| 
+LRI1MB|BE5.12.pppoe5773|up|up| 
+LRI1MB|BE5.12.pppoe5782|up|up| 
+LRI1MB|BE5.12.pppoe5785|up|up| 
+LRI1MB|BE5.12.pppoe5786|up|up| 
+LRI1MB|BE5.12.pppoe5793|up|up| 
+LRI1MB|BE5.12.pppoe5794|up|up| 
+LRI1MB|BE5.12.pppoe5808|up|up| 
+LRI1MB|BE5.12.pppoe5813|up|up| 
+LRI1MB|BE5.12.pppoe5814|up|up| 
+LRI1MB|BE5.12.pppoe5817|up|up| 
+LRI1MB|BE5.12.pppoe5818|up|up| 
+LRI1MB|BE5.12.pppoe5819|up|up| 
+LRI1MB|BE5.12.pppoe5821|up|up| 
+LRI1MB|BE5.12.pppoe5822|up|up| 
+LRI1MB|BE5.12.pppoe5823|up|up| 
+LRI1MB|BE5.12.pppoe5826|up|up| 
+LRI1MB|BE5.12.pppoe5830|up|up| 
+LRI1MB|BE5.12.pppoe5833|up|up| 
+LRI1MB|BE5.12.pppoe5834|up|up| 
+LRI1MB|BE5.12.pppoe5835|up|up| 
+LRI1MB|BE5.12.pppoe5841|up|up| 
+LRI1MB|BE5.12.pppoe5842|up|up| 
+LRI1MB|BE5.12.pppoe5843|up|up| 
+LRI1MB|BE5.12.pppoe5848|up|up| 
+LRI1MB|BE5.12.pppoe5850|up|up| 
+LRI1MB|BE5.12.pppoe5864|up|up| 
+LRI1MB|BE5.12.pppoe5865|up|up| 
+LRI1MB|BE5.12.pppoe5868|up|up| 
+LRI1MB|BE5.12.pppoe5869|up|up| 
+LRI1MB|BE5.12.pppoe5870|up|up| 
+LRI1MB|BE5.12.pppoe5872|up|up| 
+LRI1MB|BE5.12.pppoe5873|up|up| 
+LRI1MB|BE5.12.pppoe5874|up|up| 
+LRI1MB|BE5.12.pppoe5877|up|up| 
+LRI1MB|BE5.12.pppoe5878|up|up| 
+LRI1MB|BE5.12.pppoe5882|up|up| 
+LRI1MB|BE5.12.pppoe5884|up|up| 
+LRI1MB|BE5.12.pppoe5885|up|up| 
+LRI1MB|BE5.12.pppoe5894|up|up| 
+LRI1MB|BE5.12.pppoe5896|up|up| 
+LRI1MB|BE5.12.pppoe5906|up|up| 
+LRI1MB|BE5.12.pppoe5913|up|up| 
+LRI1MB|BE5.12.pppoe5916|up|up| 
+LRI1MB|BE5.12.pppoe5918|up|up| 
+LRI1MB|BE5.12.pppoe5923|up|up| 
+LRI1MB|BE5.12.pppoe5927|up|up| 
+LRI1MB|BE5.12.pppoe5929|up|up| 
+LRI1MB|BE5.12.pppoe5932|up|up| 
+LRI1MB|BE5.12.pppoe5933|up|up| 
+LRI1MB|BE5.12.pppoe5939|up|up| 
+LRI1MB|BE5.12.pppoe5941|up|up| 
+LRI1MB|BE5.12.pppoe5944|up|up| 
+LRI1MB|BE5.12.pppoe5957|up|up| 
+LRI1MB|BE5.12.pppoe5958|up|up| 
+LRI1MB|BE5.12.pppoe5960|up|up| 
+LRI1MB|BE5.12.pppoe5965|up|up| 
+LRI1MB|BE5.12.pppoe5970|up|up| 
+LRI1MB|BE5.12.pppoe5973|up|up| 
+LRI1MB|BE5.12.pppoe5974|up|up| 
+LRI1MB|BE5.12.pppoe5976|up|up| 
+LRI1MB|BE5.12.pppoe5977|up|up| 
+LRI1MB|BE5.12.pppoe5979|up|up| 
+LRI1MB|BE5.12.pppoe5981|up|up| 
+LRI1MB|BE5.12.pppoe5984|up|up| 
+LRI1MB|BE5.12.pppoe5985|up|up| 
+LRI1MB|BE5.12.pppoe5986|up|up| 
+LRI1MB|BE5.12.pppoe5992|up|up| 
+LRI1MB|BE5.12.pppoe5994|up|up| 
+LRI1MB|BE5.12.pppoe5996|up|up| 
+LRI1MB|BE5.12.pppoe5997|up|up| 
+LRI1MB|BE5.12.pppoe5998|up|up| 
+LRI1MB|BE5.12.pppoe5999|up|up| 
+LRI1MB|BE5.12.pppoe6000|up|up| 
+LRI1MB|BE5.12.pppoe6003|up|up| 
+LRI1MB|BE5.12.pppoe6005|up|up| 
+LRI1MB|BE5.12.pppoe6006|up|up| 
+LRI1MB|BE5.12.pppoe6009|up|up| 
+LRI1MB|BE5.12.pppoe6012|up|up| 
+LRI1MB|BE5.12.pppoe6013|up|up| 
+LRI1MB|BE5.12.pppoe6015|up|up| 
+LRI1MB|BE5.12.pppoe6020|up|up| 
+LRI1MB|BE5.12.pppoe6022|up|up| 
+LRI1MB|BE5.12.pppoe6023|up|up| 
+LRI1MB|BE5.12.pppoe6026|up|up| 
+LRI1MB|BE5.12.pppoe6027|up|up| 
+LRI1MB|BE5.12.pppoe6030|up|up| 
+LRI1MB|BE5.12.pppoe6037|up|up| 
+LRI1MB|BE5.12.pppoe6038|up|up| 
+LRI1MB|BE5.12.pppoe6040|up|up| 
+LRI1MB|BE5.12.pppoe6041|up|up| 
+LRI1MB|BE5.12.pppoe6043|up|up| 
+LRI1MB|BE5.12.pppoe6046|up|up| 
+LRI1MB|BE5.12.pppoe6052|up|up| 
+LRI1MB|BE5.12.pppoe6056|up|up| 
+LRI1MB|BE5.12.pppoe6060|up|up| 
+LRI1MB|BE5.12.pppoe6061|up|up| 
+LRI1MB|BE5.12.pppoe6062|up|up| 
+LRI1MB|BE5.12.pppoe6064|up|up| 
+LRI1MB|BE5.12.pppoe6065|up|up| 
+LRI1MB|BE5.12.pppoe6067|up|up| 
+LRI1MB|BE5.12.pppoe6068|up|up| 
+LRI1MB|BE5.12.pppoe6069|up|up| 
+LRI1MB|BE5.12.pppoe6071|up|up| 
+LRI1MB|BE5.12.pppoe6073|up|up| 
+LRI1MB|BE5.12.pppoe6074|up|up| 
+LRI1MB|BE5.12.pppoe6077|up|up| 
+LRI1MB|BE5.12.pppoe6078|up|up| 
+LRI1MB|BE5.12.pppoe6081|up|up| 
+LRI1MB|BE5.12.pppoe6082|up|up| 
+LRI1MB|BE5.12.pppoe6083|up|up| 
+LRI1MB|BE5.12.pppoe6085|up|up| 
+LRI1MB|BE5.12.pppoe6086|up|up| 
+LRI1MB|BE5.12.pppoe6089|up|up| 
+LRI1MB|BE5.12.pppoe6091|up|up| 
+LRI1MB|BE5.12.pppoe6093|up|up| 
+LRI1MB|BE5.12.pppoe6094|up|up| 
+LRI1MB|BE5.12.pppoe6098|up|up| 
+LRI1MB|BE5.12.pppoe6099|up|up| 
+LRI1MB|BE5.12.pppoe6100|up|up| 
+LRI1MB|BE5.12.pppoe6102|up|up| 
+LRI1MB|BE5.12.pppoe6103|up|up| 
+LRI1MB|BE5.12.pppoe6105|up|up| 
+LRI1MB|BE5.12.pppoe6108|up|up| 
+LRI1MB|BE5.12.pppoe6111|up|up| 
+LRI1MB|BE5.12.pppoe6112|up|up| 
+LRI1MB|BE5.12.pppoe6113|up|up| 
+LRI1MB|BE5.12.pppoe6115|up|up| 
+LRI1MB|BE5.12.pppoe6116|up|up| 
+LRI1MB|BE5.12.pppoe6117|up|up| 
+LRI1MB|BE5.12.pppoe6119|up|up| 
+LRI1MB|BE5.12.pppoe6120|up|up| 
+LRI1MB|BE5.12.pppoe6122|up|up| 
+LRI1MB|BE5.12.pppoe6126|up|up| 
+LRI1MB|BE5.12.pppoe6127|up|up| 
+LRI1MB|BE5.12.pppoe6132|up|up| 
+LRI1MB|BE5.12.pppoe6133|up|up| 
+LRI1MB|BE5.12.pppoe6136|up|up| 
+LRI1MB|BE5.12.pppoe6137|up|up| 
+LRI1MB|BE5.12.pppoe6139|up|up| 
+LRI1MB|BE5.12.pppoe6144|up|up| 
+LRI1MB|BE5.12.pppoe6147|up|up| 
+LRI1MB|BE5.12.pppoe6149|up|up| 
+LRI1MB|BE5.12.pppoe6150|up|up| 
+LRI1MB|BE5.12.pppoe6151|up|up| 
+LRI1MB|BE5.12.pppoe6155|up|up| 
+LRI1MB|BE5.12.pppoe6162|up|up| 
+LRI1MB|BE5.12.pppoe6175|up|up| 
+LRI1MB|BE5.12.pppoe6176|up|up| 
+LRI1MB|BE5.12.pppoe6177|up|up| 
+LRI1MB|BE5.12.pppoe6179|up|up| 
+LRI1MB|BE5.12.pppoe6180|up|up| 
+LRI1MB|BE5.12.pppoe6186|up|up| 
+LRI1MB|BE5.12.pppoe6187|up|up| 
+LRI1MB|BE5.12.pppoe6188|up|up| 
+LRI1MB|BE5.12.pppoe6192|up|up| 
+LRI1MB|BE5.12.pppoe6193|up|up| 
+LRI1MB|BE5.12.pppoe6199|up|up| 
+LRI1MB|BE5.12.pppoe6200|up|up| 
+LRI1MB|BE5.12.pppoe6202|up|up| 
+LRI1MB|BE5.12.pppoe6203|up|up| 
+LRI1MB|BE5.12.pppoe6204|up|up| 
+LRI1MB|BE5.12.pppoe6205|up|up| 
+LRI1MB|BE5.12.pppoe6206|up|up| 
+LRI1MB|BE5.12.pppoe6207|up|up| 
+LRI1MB|BE5.12.pppoe6208|up|up| 
+LRI1MB|BE5.12.pppoe6209|up|up| 
+LRI1MB|BE5.12.pppoe6211|up|up| 
+LRI1MB|BE5.12.pppoe6213|up|up| 
+LRI1MB|BE5.12.pppoe6214|up|up| 
+LRI1MB|BE5.12.pppoe6216|up|up| 
+LRI1MB|BE5.12.pppoe6217|up|up| 
+LRI1MB|BE5.12.pppoe6218|up|up| 
+LRI1MB|BE5.12.pppoe6220|up|up| 
+LRI1MB|BE5.12.pppoe6221|up|up| 
+LRI1MB|BE5.12.pppoe6222|up|up| 
+LRI1MB|BE5.12.pppoe6224|up|up| 
+LRI1MB|BE5.12.pppoe6225|up|up| 
+LRI1MB|BE5.12.pppoe6228|up|up| 
+LRI1MB|BE5.12.pppoe6229|up|up| 
+LRI1MB|BE5.12.pppoe6230|up|up| 
+LRI1MB|BE5.12.pppoe6231|up|up| 
+LRI1MB|BE5.12.pppoe6234|up|up| 
+LRI1MB|BE5.12.pppoe6235|up|up| 
+LRI1MB|BE5.12.pppoe6236|up|up| 
+LRI1MB|BE5.12.pppoe6238|up|up| 
+LRI1MB|BE5.12.pppoe6240|up|up| 
+LRI1MB|BE5.12.pppoe6241|up|up| 
+LRI1MB|BE5.12.pppoe6242|up|up| 
+LRI1MB|BE5.12.pppoe6243|up|up| 
+LRI1MB|BE5.2101|up|up|[GESTION] LRIO01 HUA 5600_T [GPON]
+LRI1MB|BE5.3101|up|up|[DHCP] [TOIP] LRIO01 HUA 5600_T [GPON]
+LRI1MB|BE6|up|up|[ACCESO HSI][BE] LQBM01 - Linea 13005146
+LRI1MB|BE6.6|up|up|IPTV LQBM01 IGMP-PIM
+LRI1MB|BE6.7|up|up|[DHCP] [IPTV] LQBM01 HUA 5600_T [GPON]
+LRI1MB|BE6.11|up|up|[DATOS] LQBM01 11 HUA 5600_T [GPON]
+LRI1MB|BE6.12|up|up|[DATOS] LQBM01 12 HUA 5600_T [GPON]
+LRI1MB|BE6.13|up|up|[DATOS] LQBM01 13 HUA 5600_T [GPON]
+LRI1MB|BE6.13.pppoe3|up|up| 
+LRI1MB|BE6.13.pppoe9|up|up| 
+LRI1MB|BE6.13.pppoe10|up|up| 
+LRI1MB|BE6.13.pppoe13|up|up| 
+LRI1MB|BE6.13.pppoe26|up|up| 
+LRI1MB|BE6.13.pppoe28|up|up| 
+LRI1MB|BE6.13.pppoe33|up|up| 
+LRI1MB|BE6.13.pppoe35|up|up| 
+LRI1MB|BE6.13.pppoe36|up|up| 
+LRI1MB|BE6.13.pppoe40|up|up| 
+LRI1MB|BE6.13.pppoe42|up|up| 
+LRI1MB|BE6.13.pppoe43|up|up| 
+LRI1MB|BE6.13.pppoe45|up|up| 
+LRI1MB|BE6.13.pppoe48|up|up| 
+LRI1MB|BE6.13.pppoe51|up|up| 
+LRI1MB|BE6.13.pppoe59|up|up| 
+LRI1MB|BE6.13.pppoe62|up|up| 
+LRI1MB|BE6.13.pppoe66|up|up| 
+LRI1MB|BE6.13.pppoe67|up|up| 
+LRI1MB|BE6.13.pppoe68|up|up| 
+LRI1MB|BE6.13.pppoe69|up|up| 
+LRI1MB|BE6.13.pppoe71|up|up| 
+LRI1MB|BE6.13.pppoe78|up|up| 
+LRI1MB|BE6.13.pppoe88|up|up| 
+LRI1MB|BE6.13.pppoe89|up|up| 
+LRI1MB|BE6.13.pppoe90|up|up| 
+LRI1MB|BE6.13.pppoe92|up|up| 
+LRI1MB|BE6.13.pppoe95|up|up| 
+LRI1MB|BE6.13.pppoe97|up|up| 
+LRI1MB|BE6.13.pppoe102|up|up| 
+LRI1MB|BE6.13.pppoe103|up|up| 
+LRI1MB|BE6.13.pppoe104|up|up| 
+LRI1MB|BE6.13.pppoe105|up|up| 
+LRI1MB|BE6.13.pppoe107|up|up| 
+LRI1MB|BE6.13.pppoe109|up|up| 
+LRI1MB|BE6.13.pppoe110|up|up| 
+LRI1MB|BE6.13.pppoe112|up|up| 
+LRI1MB|BE6.13.pppoe115|up|up| 
+LRI1MB|BE6.13.pppoe116|up|up| 
+LRI1MB|BE6.13.pppoe119|up|up| 
+LRI1MB|BE6.13.pppoe122|up|up| 
+LRI1MB|BE6.13.pppoe124|up|up| 
+LRI1MB|BE6.13.pppoe128|up|up| 
+LRI1MB|BE6.13.pppoe133|up|up| 
+LRI1MB|BE6.13.pppoe136|up|up| 
+LRI1MB|BE6.13.pppoe139|up|up| 
+LRI1MB|BE6.13.pppoe140|up|up| 
+LRI1MB|BE6.13.pppoe143|up|up| 
+LRI1MB|BE6.13.pppoe144|up|up| 
+LRI1MB|BE6.13.pppoe147|up|up| 
+LRI1MB|BE6.13.pppoe151|up|up| 
+LRI1MB|BE6.13.pppoe156|up|up| 
+LRI1MB|BE6.13.pppoe160|up|up| 
+LRI1MB|BE6.13.pppoe161|up|up| 
+LRI1MB|BE6.13.pppoe162|up|up| 
+LRI1MB|BE6.13.pppoe164|up|up| 
+LRI1MB|BE6.13.pppoe165|up|up| 
+LRI1MB|BE6.13.pppoe173|up|up| 
+LRI1MB|BE6.13.pppoe179|up|up| 
+LRI1MB|BE6.13.pppoe182|up|up| 
+LRI1MB|BE6.13.pppoe183|up|up| 
+LRI1MB|BE6.13.pppoe184|up|up| 
+LRI1MB|BE6.13.pppoe185|up|up| 
+LRI1MB|BE6.13.pppoe187|up|up| 
+LRI1MB|BE6.13.pppoe189|up|up| 
+LRI1MB|BE6.13.pppoe190|up|up| 
+LRI1MB|BE6.13.pppoe191|up|up| 
+LRI1MB|BE6.13.pppoe195|up|up| 
+LRI1MB|BE6.13.pppoe201|up|up| 
+LRI1MB|BE6.13.pppoe210|up|up| 
+LRI1MB|BE6.13.pppoe214|up|up| 
+LRI1MB|BE6.13.pppoe216|up|up| 
+LRI1MB|BE6.13.pppoe217|up|up| 
+LRI1MB|BE6.13.pppoe219|up|up| 
+LRI1MB|BE6.13.pppoe220|up|up| 
+LRI1MB|BE6.13.pppoe222|up|up| 
+LRI1MB|BE6.13.pppoe229|up|up| 
+LRI1MB|BE6.13.pppoe242|up|up| 
+LRI1MB|BE6.13.pppoe244|up|up| 
+LRI1MB|BE6.13.pppoe251|up|up| 
+LRI1MB|BE6.13.pppoe254|up|up| 
+LRI1MB|BE6.13.pppoe259|up|up| 
+LRI1MB|BE6.13.pppoe261|up|up| 
+LRI1MB|BE6.13.pppoe262|up|up| 
+LRI1MB|BE6.13.pppoe265|up|up| 
+LRI1MB|BE6.13.pppoe266|up|up| 
+LRI1MB|BE6.13.pppoe269|up|up| 
+LRI1MB|BE6.13.pppoe270|up|up| 
+LRI1MB|BE6.13.pppoe271|up|up| 
+LRI1MB|BE6.13.pppoe277|up|up| 
+LRI1MB|BE6.13.pppoe278|up|up| 
+LRI1MB|BE6.13.pppoe300|up|up| 
+LRI1MB|BE6.13.pppoe301|up|up| 
+LRI1MB|BE6.13.pppoe302|up|up| 
+LRI1MB|BE6.13.pppoe303|up|up| 
+LRI1MB|BE6.13.pppoe304|up|up| 
+LRI1MB|BE6.13.pppoe305|up|up| 
+LRI1MB|BE6.13.pppoe306|up|up| 
+LRI1MB|BE6.13.pppoe308|up|up| 
+LRI1MB|BE6.13.pppoe311|up|up| 
+LRI1MB|BE6.13.pppoe312|up|up| 
+LRI1MB|BE6.13.pppoe314|up|up| 
+LRI1MB|BE6.13.pppoe317|up|up| 
+LRI1MB|BE6.13.pppoe324|up|up| 
+LRI1MB|BE6.13.pppoe325|up|up| 
+LRI1MB|BE6.13.pppoe327|up|up| 
+LRI1MB|BE6.13.pppoe329|up|up| 
+LRI1MB|BE6.13.pppoe331|up|up| 
+LRI1MB|BE6.13.pppoe334|up|up| 
+LRI1MB|BE6.13.pppoe336|up|up| 
+LRI1MB|BE6.13.pppoe337|up|up| 
+LRI1MB|BE6.13.pppoe339|up|up| 
+LRI1MB|BE6.13.pppoe340|up|up| 
+LRI1MB|BE6.13.pppoe343|up|up| 
+LRI1MB|BE6.13.pppoe344|up|up| 
+LRI1MB|BE6.13.pppoe345|up|up| 
+LRI1MB|BE6.13.pppoe352|up|up| 
+LRI1MB|BE6.13.pppoe354|up|up| 
+LRI1MB|BE6.13.pppoe359|up|up| 
+LRI1MB|BE6.13.pppoe361|up|up| 
+LRI1MB|BE6.13.pppoe368|up|up| 
+LRI1MB|BE6.13.pppoe370|up|up| 
+LRI1MB|BE6.13.pppoe372|up|up| 
+LRI1MB|BE6.13.pppoe373|up|up| 
+LRI1MB|BE6.13.pppoe374|up|up| 
+LRI1MB|BE6.13.pppoe375|up|up| 
+LRI1MB|BE6.13.pppoe377|up|up| 
+LRI1MB|BE6.13.pppoe379|up|up| 
+LRI1MB|BE6.13.pppoe380|up|up| 
+LRI1MB|BE6.13.pppoe381|up|up| 
+LRI1MB|BE6.13.pppoe382|up|up| 
+LRI1MB|BE6.13.pppoe384|up|up| 
+LRI1MB|BE6.13.pppoe385|up|up| 
+LRI1MB|BE6.13.pppoe388|up|up| 
+LRI1MB|BE6.13.pppoe390|up|up| 
+LRI1MB|BE6.13.pppoe394|up|up| 
+LRI1MB|BE6.13.pppoe395|up|up| 
+LRI1MB|BE6.13.pppoe396|up|up| 
+LRI1MB|BE6.13.pppoe398|up|up| 
+LRI1MB|BE6.13.pppoe402|up|up| 
+LRI1MB|BE6.13.pppoe404|up|up| 
+LRI1MB|BE6.13.pppoe406|up|up| 
+LRI1MB|BE6.13.pppoe409|up|up| 
+LRI1MB|BE6.13.pppoe412|up|up| 
+LRI1MB|BE6.13.pppoe416|up|up| 
+LRI1MB|BE6.13.pppoe417|up|up| 
+LRI1MB|BE6.13.pppoe419|up|up| 
+LRI1MB|BE6.13.pppoe420|up|up| 
+LRI1MB|BE6.13.pppoe426|up|up| 
+LRI1MB|BE6.13.pppoe428|up|up| 
+LRI1MB|BE6.13.pppoe430|up|up| 
+LRI1MB|BE6.13.pppoe432|up|up| 
+LRI1MB|BE6.13.pppoe434|up|up| 
+LRI1MB|BE6.13.pppoe436|up|up| 
+LRI1MB|BE6.13.pppoe439|up|up| 
+LRI1MB|BE6.13.pppoe440|up|up| 
+LRI1MB|BE6.13.pppoe441|up|up| 
+LRI1MB|BE6.13.pppoe444|up|up| 
+LRI1MB|BE6.13.pppoe446|up|up| 
+LRI1MB|BE6.13.pppoe448|up|up| 
+LRI1MB|BE6.13.pppoe450|up|up| 
+LRI1MB|BE6.13.pppoe451|up|up| 
+LRI1MB|BE6.13.pppoe453|up|up| 
+LRI1MB|BE6.13.pppoe454|up|up| 
+LRI1MB|BE6.13.pppoe456|up|up| 
+LRI1MB|BE6.13.pppoe457|up|up| 
+LRI1MB|BE6.13.pppoe458|up|up| 
+LRI1MB|BE6.13.pppoe459|up|up| 
+LRI1MB|BE6.13.pppoe462|up|up| 
+LRI1MB|BE6.13.pppoe463|up|up| 
+LRI1MB|BE6.13.pppoe464|up|up| 
+LRI1MB|BE6.13.pppoe467|up|up| 
+LRI1MB|BE6.13.pppoe470|up|up| 
+LRI1MB|BE6.13.pppoe472|up|up| 
+LRI1MB|BE6.13.pppoe473|up|up| 
+LRI1MB|BE6.13.pppoe474|up|up| 
+LRI1MB|BE6.13.pppoe475|up|up| 
+LRI1MB|BE6.13.pppoe476|up|up| 
+LRI1MB|BE6.13.pppoe479|up|up| 
+LRI1MB|BE6.13.pppoe481|up|up| 
+LRI1MB|BE6.13.pppoe482|up|up| 
+LRI1MB|BE6.13.pppoe484|up|up| 
+LRI1MB|BE6.13.pppoe485|up|up| 
+LRI1MB|BE6.13.pppoe486|up|up| 
+LRI1MB|BE6.13.pppoe487|up|up| 
+LRI1MB|BE6.13.pppoe491|up|up| 
+LRI1MB|BE6.13.pppoe492|up|up| 
+LRI1MB|BE6.13.pppoe493|up|up| 
+LRI1MB|BE6.13.pppoe494|up|up| 
+LRI1MB|BE6.13.pppoe497|up|up| 
+LRI1MB|BE6.13.pppoe501|up|up| 
+LRI1MB|BE6.13.pppoe504|up|up| 
+LRI1MB|BE6.13.pppoe505|up|up| 
+LRI1MB|BE6.13.pppoe507|up|up| 
+LRI1MB|BE6.13.pppoe511|up|up| 
+LRI1MB|BE6.13.pppoe512|up|up| 
+LRI1MB|BE6.13.pppoe517|up|up| 
+LRI1MB|BE6.13.pppoe519|up|up| 
+LRI1MB|BE6.13.pppoe520|up|up| 
+LRI1MB|BE6.13.pppoe521|up|up| 
+LRI1MB|BE6.13.pppoe523|up|up| 
+LRI1MB|BE6.13.pppoe524|up|up| 
+LRI1MB|BE6.13.pppoe526|up|up| 
+LRI1MB|BE6.13.pppoe528|up|up| 
+LRI1MB|BE6.13.pppoe529|up|up| 
+LRI1MB|BE6.13.pppoe532|up|up| 
+LRI1MB|BE6.13.pppoe534|up|up| 
+LRI1MB|BE6.13.pppoe538|up|up| 
+LRI1MB|BE6.13.pppoe544|up|up| 
+LRI1MB|BE6.13.pppoe545|up|up| 
+LRI1MB|BE6.13.pppoe546|up|up| 
+LRI1MB|BE6.13.pppoe547|up|up| 
+LRI1MB|BE6.13.pppoe548|up|up| 
+LRI1MB|BE6.13.pppoe549|up|up| 
+LRI1MB|BE6.13.pppoe556|up|up| 
+LRI1MB|BE6.13.pppoe557|up|up| 
+LRI1MB|BE6.13.pppoe560|up|up| 
+LRI1MB|BE6.13.pppoe561|up|up| 
+LRI1MB|BE6.13.pppoe563|up|up| 
+LRI1MB|BE6.13.pppoe564|up|up| 
+LRI1MB|BE6.13.pppoe565|up|up| 
+LRI1MB|BE6.13.pppoe566|up|up| 
+LRI1MB|BE6.13.pppoe568|up|up| 
+LRI1MB|BE6.13.pppoe569|up|up| 
+LRI1MB|BE6.13.pppoe570|up|up| 
+LRI1MB|BE6.13.pppoe571|up|up| 
+LRI1MB|BE6.13.pppoe574|up|up| 
+LRI1MB|BE6.13.pppoe575|up|up| 
+LRI1MB|BE6.13.pppoe576|up|up| 
+LRI1MB|BE6.13.pppoe577|up|up| 
+LRI1MB|BE6.13.pppoe579|up|up| 
+LRI1MB|BE6.13.pppoe581|up|up| 
+LRI1MB|BE6.13.pppoe584|up|up| 
+LRI1MB|BE6.13.pppoe585|up|up| 
+LRI1MB|BE6.13.pppoe586|up|up| 
+LRI1MB|BE6.13.pppoe587|up|up| 
+LRI1MB|BE6.13.pppoe590|up|up| 
+LRI1MB|BE6.13.pppoe595|up|up| 
+LRI1MB|BE6.13.pppoe597|up|up| 
+LRI1MB|BE6.13.pppoe599|up|up| 
+LRI1MB|BE6.13.pppoe602|up|up| 
+LRI1MB|BE6.13.pppoe606|up|up| 
+LRI1MB|BE6.13.pppoe609|up|up| 
+LRI1MB|BE6.13.pppoe611|up|up| 
+LRI1MB|BE6.13.pppoe612|up|up| 
+LRI1MB|BE6.13.pppoe615|up|up| 
+LRI1MB|BE6.13.pppoe616|up|up| 
+LRI1MB|BE6.13.pppoe617|up|up| 
+LRI1MB|BE6.13.pppoe618|up|up| 
+LRI1MB|BE6.13.pppoe620|up|up| 
+LRI1MB|BE6.13.pppoe621|up|up| 
+LRI1MB|BE6.13.pppoe625|up|up| 
+LRI1MB|BE6.13.pppoe626|up|up| 
+LRI1MB|BE6.13.pppoe630|up|up| 
+LRI1MB|BE6.13.pppoe633|up|up| 
+LRI1MB|BE6.13.pppoe634|up|up| 
+LRI1MB|BE6.13.pppoe637|up|up| 
+LRI1MB|BE6.13.pppoe638|up|up| 
+LRI1MB|BE6.13.pppoe640|up|up| 
+LRI1MB|BE6.13.pppoe641|up|up| 
+LRI1MB|BE6.13.pppoe642|up|up| 
+LRI1MB|BE6.13.pppoe644|up|up| 
+LRI1MB|BE6.13.pppoe648|up|up| 
+LRI1MB|BE6.13.pppoe649|up|up| 
+LRI1MB|BE6.13.pppoe651|up|up| 
+LRI1MB|BE6.13.pppoe652|up|up| 
+LRI1MB|BE6.13.pppoe654|up|up| 
+LRI1MB|BE6.13.pppoe655|up|up| 
+LRI1MB|BE6.13.pppoe658|up|up| 
+LRI1MB|BE6.13.pppoe661|up|up| 
+LRI1MB|BE6.13.pppoe662|up|up| 
+LRI1MB|BE6.13.pppoe664|up|up| 
+LRI1MB|BE6.13.pppoe665|up|up| 
+LRI1MB|BE6.13.pppoe666|up|up| 
+LRI1MB|BE6.13.pppoe671|up|up| 
+LRI1MB|BE6.13.pppoe672|up|up| 
+LRI1MB|BE6.13.pppoe673|up|up| 
+LRI1MB|BE6.13.pppoe675|up|up| 
+LRI1MB|BE6.13.pppoe676|up|up| 
+LRI1MB|BE6.13.pppoe677|up|up| 
+LRI1MB|BE6.13.pppoe680|up|up| 
+LRI1MB|BE6.13.pppoe684|up|up| 
+LRI1MB|BE6.13.pppoe686|up|up| 
+LRI1MB|BE6.13.pppoe687|up|up| 
+LRI1MB|BE6.13.pppoe691|up|up| 
+LRI1MB|BE6.13.pppoe692|up|up| 
+LRI1MB|BE6.13.pppoe694|up|up| 
+LRI1MB|BE6.13.pppoe695|up|up| 
+LRI1MB|BE6.13.pppoe710|up|up| 
+LRI1MB|BE6.13.pppoe715|up|up| 
+LRI1MB|BE6.13.pppoe725|up|up| 
+LRI1MB|BE6.13.pppoe727|up|up| 
+LRI1MB|BE6.13.pppoe732|up|up| 
+LRI1MB|BE6.13.pppoe744|up|up| 
+LRI1MB|BE6.13.pppoe758|up|up| 
+LRI1MB|BE6.13.pppoe762|up|up| 
+LRI1MB|BE6.13.pppoe796|up|up| 
+LRI1MB|BE6.13.pppoe800|up|up| 
+LRI1MB|BE6.13.pppoe803|up|up| 
+LRI1MB|BE6.13.pppoe806|up|up| 
+LRI1MB|BE6.13.pppoe807|up|up| 
+LRI1MB|BE6.13.pppoe812|up|up| 
+LRI1MB|BE6.13.pppoe816|up|up| 
+LRI1MB|BE6.13.pppoe825|up|up| 
+LRI1MB|BE6.13.pppoe826|up|up| 
+LRI1MB|BE6.13.pppoe828|up|up| 
+LRI1MB|BE6.13.pppoe835|up|up| 
+LRI1MB|BE6.13.pppoe863|up|up| 
+LRI1MB|BE6.13.pppoe887|up|up| 
+LRI1MB|BE6.13.pppoe899|up|up| 
+LRI1MB|BE6.13.pppoe904|up|up| 
+LRI1MB|BE6.13.pppoe905|up|up| 
+LRI1MB|BE6.13.pppoe907|up|up| 
+LRI1MB|BE6.13.pppoe936|up|up| 
+LRI1MB|BE6.13.pppoe946|up|up| 
+LRI1MB|BE6.13.pppoe959|up|up| 
+LRI1MB|BE6.13.pppoe974|up|up| 
+LRI1MB|BE6.13.pppoe981|up|up| 
+LRI1MB|BE6.13.pppoe990|up|up| 
+LRI1MB|BE6.13.pppoe1004|up|up| 
+LRI1MB|BE6.13.pppoe1021|up|up| 
+LRI1MB|BE6.13.pppoe1042|up|up| 
+LRI1MB|BE6.13.pppoe1057|up|up| 
+LRI1MB|BE6.13.pppoe1058|up|up| 
+LRI1MB|BE6.13.pppoe1064|up|up| 
+LRI1MB|BE6.13.pppoe1071|up|up| 
+LRI1MB|BE6.13.pppoe1077|up|up| 
+LRI1MB|BE6.13.pppoe1087|up|up| 
+LRI1MB|BE6.13.pppoe1107|up|up| 
+LRI1MB|BE6.13.pppoe1118|up|up| 
+LRI1MB|BE6.13.pppoe1121|up|up| 
+LRI1MB|BE6.13.pppoe1126|up|up| 
+LRI1MB|BE6.13.pppoe1143|up|up| 
+LRI1MB|BE6.13.pppoe1163|up|up| 
+LRI1MB|BE6.13.pppoe1165|up|up| 
+LRI1MB|BE6.13.pppoe1168|up|up| 
+LRI1MB|BE6.13.pppoe1170|up|up| 
+LRI1MB|BE6.13.pppoe1178|up|up| 
+LRI1MB|BE6.13.pppoe1179|up|up| 
+LRI1MB|BE6.13.pppoe1195|up|up| 
+LRI1MB|BE6.13.pppoe1202|up|up| 
+LRI1MB|BE6.13.pppoe1232|up|up| 
+LRI1MB|BE6.13.pppoe1243|up|up| 
+LRI1MB|BE6.13.pppoe1245|up|up| 
+LRI1MB|BE6.13.pppoe1255|up|up| 
+LRI1MB|BE6.13.pppoe1273|up|up| 
+LRI1MB|BE6.13.pppoe1276|up|up| 
+LRI1MB|BE6.13.pppoe1278|up|up| 
+LRI1MB|BE6.13.pppoe1287|up|up| 
+LRI1MB|BE6.13.pppoe1297|up|up| 
+LRI1MB|BE6.13.pppoe1298|up|up| 
+LRI1MB|BE6.13.pppoe1317|up|up| 
+LRI1MB|BE6.13.pppoe1333|up|up| 
+LRI1MB|BE6.13.pppoe1335|up|up| 
+LRI1MB|BE6.13.pppoe1342|up|up| 
+LRI1MB|BE6.13.pppoe1353|up|up| 
+LRI1MB|BE6.13.pppoe1362|up|up| 
+LRI1MB|BE6.13.pppoe1368|up|up| 
+LRI1MB|BE6.13.pppoe1369|up|up| 
+LRI1MB|BE6.13.pppoe1383|up|up| 
+LRI1MB|BE6.13.pppoe1389|up|up| 
+LRI1MB|BE6.13.pppoe1393|up|up| 
+LRI1MB|BE6.13.pppoe1395|up|up| 
+LRI1MB|BE6.13.pppoe1399|up|up| 
+LRI1MB|BE6.13.pppoe1417|up|up| 
+LRI1MB|BE6.13.pppoe1425|up|up| 
+LRI1MB|BE6.13.pppoe1428|up|up| 
+LRI1MB|BE6.13.pppoe1439|up|up| 
+LRI1MB|BE6.13.pppoe1458|up|up| 
+LRI1MB|BE6.13.pppoe1464|up|up| 
+LRI1MB|BE6.13.pppoe1467|up|up| 
+LRI1MB|BE6.13.pppoe1471|up|up| 
+LRI1MB|BE6.13.pppoe1473|up|up| 
+LRI1MB|BE6.13.pppoe1482|up|up| 
+LRI1MB|BE6.13.pppoe1485|up|up| 
+LRI1MB|BE6.13.pppoe1490|up|up| 
+LRI1MB|BE6.13.pppoe1494|up|up| 
+LRI1MB|BE6.13.pppoe1496|up|up| 
+LRI1MB|BE6.13.pppoe1501|up|up| 
+LRI1MB|BE6.13.pppoe1503|up|up| 
+LRI1MB|BE6.13.pppoe1505|up|up| 
+LRI1MB|BE6.13.pppoe1523|up|up| 
+LRI1MB|BE6.13.pppoe1524|up|up| 
+LRI1MB|BE6.13.pppoe1525|up|up| 
+LRI1MB|BE6.13.pppoe1529|up|up| 
+LRI1MB|BE6.13.pppoe1539|up|up| 
+LRI1MB|BE6.13.pppoe1548|up|up| 
+LRI1MB|BE6.13.pppoe1552|up|up| 
+LRI1MB|BE6.13.pppoe1554|up|up| 
+LRI1MB|BE6.13.pppoe1556|up|up| 
+LRI1MB|BE6.13.pppoe1558|up|up| 
+LRI1MB|BE6.13.pppoe1572|up|up| 
+LRI1MB|BE6.13.pppoe1575|up|up| 
+LRI1MB|BE6.13.pppoe1581|up|up| 
+LRI1MB|BE6.13.pppoe1592|up|up| 
+LRI1MB|BE6.13.pppoe1596|up|up| 
+LRI1MB|BE6.13.pppoe1605|up|up| 
+LRI1MB|BE6.13.pppoe1607|up|up| 
+LRI1MB|BE6.13.pppoe1608|up|up| 
+LRI1MB|BE6.13.pppoe1614|up|up| 
+LRI1MB|BE6.13.pppoe1617|up|up| 
+LRI1MB|BE6.13.pppoe1626|up|up| 
+LRI1MB|BE6.13.pppoe1627|up|up| 
+LRI1MB|BE6.13.pppoe1628|up|up| 
+LRI1MB|BE6.13.pppoe1650|up|up| 
+LRI1MB|BE6.13.pppoe1662|up|up| 
+LRI1MB|BE6.13.pppoe1672|up|up| 
+LRI1MB|BE6.13.pppoe1674|up|up| 
+LRI1MB|BE6.13.pppoe1677|up|up| 
+LRI1MB|BE6.13.pppoe1679|up|up| 
+LRI1MB|BE6.13.pppoe1691|up|up| 
+LRI1MB|BE6.13.pppoe1698|up|up| 
+LRI1MB|BE6.13.pppoe1700|up|up| 
+LRI1MB|BE6.13.pppoe1703|up|up| 
+LRI1MB|BE6.13.pppoe1705|up|up| 
+LRI1MB|BE6.13.pppoe1706|up|up| 
+LRI1MB|BE6.13.pppoe1712|up|up| 
+LRI1MB|BE6.13.pppoe1718|up|up| 
+LRI1MB|BE6.13.pppoe1722|up|up| 
+LRI1MB|BE6.13.pppoe1723|up|up| 
+LRI1MB|BE6.13.pppoe1726|up|up| 
+LRI1MB|BE6.13.pppoe1727|up|up| 
+LRI1MB|BE6.13.pppoe1730|up|up| 
+LRI1MB|BE6.13.pppoe1731|up|up| 
+LRI1MB|BE6.13.pppoe1738|up|up| 
+LRI1MB|BE6.13.pppoe1750|up|up| 
+LRI1MB|BE6.13.pppoe1753|up|up| 
+LRI1MB|BE6.13.pppoe1766|up|up| 
+LRI1MB|BE6.13.pppoe1774|up|up| 
+LRI1MB|BE6.13.pppoe1775|up|up| 
+LRI1MB|BE6.13.pppoe1776|up|up| 
+LRI1MB|BE6.13.pppoe1778|up|up| 
+LRI1MB|BE6.13.pppoe1784|up|up| 
+LRI1MB|BE6.13.pppoe1785|up|up| 
+LRI1MB|BE6.13.pppoe1786|up|up| 
+LRI1MB|BE6.13.pppoe1790|up|up| 
+LRI1MB|BE6.13.pppoe1793|up|up| 
+LRI1MB|BE6.13.pppoe1796|up|up| 
+LRI1MB|BE6.13.pppoe1797|up|up| 
+LRI1MB|BE6.13.pppoe1806|up|up| 
+LRI1MB|BE6.13.pppoe1807|up|up| 
+LRI1MB|BE6.13.pppoe1810|up|up| 
+LRI1MB|BE6.13.pppoe1819|up|up| 
+LRI1MB|BE6.13.pppoe1825|up|up| 
+LRI1MB|BE6.13.pppoe1828|up|up| 
+LRI1MB|BE6.13.pppoe1836|up|up| 
+LRI1MB|BE6.13.pppoe1839|up|up| 
+LRI1MB|BE6.13.pppoe1845|up|up| 
+LRI1MB|BE6.13.pppoe1851|up|up| 
+LRI1MB|BE6.13.pppoe1852|up|up| 
+LRI1MB|BE6.13.pppoe1855|up|up| 
+LRI1MB|BE6.13.pppoe1859|up|up| 
+LRI1MB|BE6.13.pppoe1862|up|up| 
+LRI1MB|BE6.13.pppoe1867|up|up| 
+LRI1MB|BE6.13.pppoe1868|up|up| 
+LRI1MB|BE6.13.pppoe1869|up|up| 
+LRI1MB|BE6.13.pppoe1870|up|up| 
+LRI1MB|BE6.13.pppoe1874|up|up| 
+LRI1MB|BE6.13.pppoe1892|up|up| 
+LRI1MB|BE6.13.pppoe1910|up|up| 
+LRI1MB|BE6.13.pppoe1913|up|up| 
+LRI1MB|BE6.13.pppoe1918|up|up| 
+LRI1MB|BE6.13.pppoe1919|up|up| 
+LRI1MB|BE6.13.pppoe1921|up|up| 
+LRI1MB|BE6.13.pppoe1927|up|up| 
+LRI1MB|BE6.13.pppoe1929|up|up| 
+LRI1MB|BE6.13.pppoe1932|up|up| 
+LRI1MB|BE6.13.pppoe1934|up|up| 
+LRI1MB|BE6.13.pppoe1938|up|up| 
+LRI1MB|BE6.13.pppoe1942|up|up| 
+LRI1MB|BE6.13.pppoe1943|up|up| 
+LRI1MB|BE6.13.pppoe1947|up|up| 
+LRI1MB|BE6.13.pppoe1955|up|up| 
+LRI1MB|BE6.13.pppoe1958|up|up| 
+LRI1MB|BE6.13.pppoe1959|up|up| 
+LRI1MB|BE6.13.pppoe1971|up|up| 
+LRI1MB|BE6.13.pppoe1978|up|up| 
+LRI1MB|BE6.13.pppoe1979|up|up| 
+LRI1MB|BE6.13.pppoe1981|up|up| 
+LRI1MB|BE6.13.pppoe1986|up|up| 
+LRI1MB|BE6.13.pppoe1988|up|up| 
+LRI1MB|BE6.13.pppoe1989|up|up| 
+LRI1MB|BE6.13.pppoe1991|up|up| 
+LRI1MB|BE6.13.pppoe1992|up|up| 
+LRI1MB|BE6.13.pppoe1994|up|up| 
+LRI1MB|BE6.13.pppoe1998|up|up| 
+LRI1MB|BE6.13.pppoe2001|up|up| 
+LRI1MB|BE6.13.pppoe2005|up|up| 
+LRI1MB|BE6.13.pppoe2011|up|up| 
+LRI1MB|BE6.13.pppoe2014|up|up| 
+LRI1MB|BE6.13.pppoe2016|up|up| 
+LRI1MB|BE6.13.pppoe2028|up|up| 
+LRI1MB|BE6.13.pppoe2029|up|up| 
+LRI1MB|BE6.13.pppoe2033|up|up| 
+LRI1MB|BE6.13.pppoe2034|up|up| 
+LRI1MB|BE6.13.pppoe2035|up|up| 
+LRI1MB|BE6.13.pppoe2038|up|up| 
+LRI1MB|BE6.13.pppoe2042|up|up| 
+LRI1MB|BE6.13.pppoe2043|up|up| 
+LRI1MB|BE6.13.pppoe2044|up|up| 
+LRI1MB|BE6.13.pppoe2045|up|up| 
+LRI1MB|BE6.13.pppoe2048|up|up| 
+LRI1MB|BE6.13.pppoe2049|up|up| 
+LRI1MB|BE6.13.pppoe2055|up|up| 
+LRI1MB|BE6.13.pppoe2056|up|up| 
+LRI1MB|BE6.13.pppoe2065|up|up| 
+LRI1MB|BE6.13.pppoe2066|up|up| 
+LRI1MB|BE6.13.pppoe2075|up|up| 
+LRI1MB|BE6.13.pppoe2077|up|up| 
+LRI1MB|BE6.13.pppoe2082|up|up| 
+LRI1MB|BE6.13.pppoe2090|up|up| 
+LRI1MB|BE6.13.pppoe2097|up|up| 
+LRI1MB|BE6.13.pppoe2101|up|up| 
+LRI1MB|BE6.13.pppoe2102|up|up| 
+LRI1MB|BE6.13.pppoe2110|up|up| 
+LRI1MB|BE6.13.pppoe2116|up|up| 
+LRI1MB|BE6.13.pppoe2123|up|up| 
+LRI1MB|BE6.13.pppoe2129|up|up| 
+LRI1MB|BE6.13.pppoe2131|up|up| 
+LRI1MB|BE6.13.pppoe2135|up|up| 
+LRI1MB|BE6.13.pppoe2142|up|up| 
+LRI1MB|BE6.13.pppoe2145|up|up| 
+LRI1MB|BE6.13.pppoe2161|up|up| 
+LRI1MB|BE6.13.pppoe2165|up|up| 
+LRI1MB|BE6.13.pppoe2172|up|up| 
+LRI1MB|BE6.13.pppoe2175|up|up| 
+LRI1MB|BE6.13.pppoe2177|up|up| 
+LRI1MB|BE6.13.pppoe2180|up|up| 
+LRI1MB|BE6.13.pppoe2188|up|up| 
+LRI1MB|BE6.13.pppoe2191|up|up| 
+LRI1MB|BE6.13.pppoe2199|up|up| 
+LRI1MB|BE6.13.pppoe2201|up|up| 
+LRI1MB|BE6.13.pppoe2203|up|up| 
+LRI1MB|BE6.13.pppoe2204|up|up| 
+LRI1MB|BE6.13.pppoe2209|up|up| 
+LRI1MB|BE6.13.pppoe2219|up|up| 
+LRI1MB|BE6.13.pppoe2220|up|up| 
+LRI1MB|BE6.13.pppoe2224|up|up| 
+LRI1MB|BE6.13.pppoe2225|up|up| 
+LRI1MB|BE6.13.pppoe2229|up|up| 
+LRI1MB|BE6.13.pppoe2232|up|up| 
+LRI1MB|BE6.13.pppoe2236|up|up| 
+LRI1MB|BE6.13.pppoe2238|up|up| 
+LRI1MB|BE6.13.pppoe2241|up|up| 
+LRI1MB|BE6.13.pppoe2242|up|up| 
+LRI1MB|BE6.13.pppoe2243|up|up| 
+LRI1MB|BE6.13.pppoe2245|up|up| 
+LRI1MB|BE6.13.pppoe2255|up|up| 
+LRI1MB|BE6.13.pppoe2257|up|up| 
+LRI1MB|BE6.13.pppoe2259|up|up| 
+LRI1MB|BE6.13.pppoe2260|up|up| 
+LRI1MB|BE6.13.pppoe2261|up|up| 
+LRI1MB|BE6.13.pppoe2265|up|up| 
+LRI1MB|BE6.13.pppoe2266|up|up| 
+LRI1MB|BE6.13.pppoe2271|up|up| 
+LRI1MB|BE6.13.pppoe2272|up|up| 
+LRI1MB|BE6.13.pppoe2273|up|up| 
+LRI1MB|BE6.13.pppoe2274|up|up| 
+LRI1MB|BE6.13.pppoe2276|up|up| 
+LRI1MB|BE6.13.pppoe2281|up|up| 
+LRI1MB|BE6.13.pppoe2289|up|up| 
+LRI1MB|BE6.13.pppoe2302|up|up| 
+LRI1MB|BE6.13.pppoe2304|up|up| 
+LRI1MB|BE6.13.pppoe2307|up|up| 
+LRI1MB|BE6.13.pppoe2310|up|up| 
+LRI1MB|BE6.13.pppoe2311|up|up| 
+LRI1MB|BE6.13.pppoe2317|up|up| 
+LRI1MB|BE6.13.pppoe2320|up|up| 
+LRI1MB|BE6.13.pppoe2323|up|up| 
+LRI1MB|BE6.13.pppoe2334|up|up| 
+LRI1MB|BE6.13.pppoe2338|up|up| 
+LRI1MB|BE6.13.pppoe2339|up|up| 
+LRI1MB|BE6.13.pppoe2340|up|up| 
+LRI1MB|BE6.13.pppoe2341|up|up| 
+LRI1MB|BE6.13.pppoe2350|up|up| 
+LRI1MB|BE6.13.pppoe2352|up|up| 
+LRI1MB|BE6.13.pppoe2359|up|up| 
+LRI1MB|BE6.13.pppoe2363|up|up| 
+LRI1MB|BE6.13.pppoe2366|up|up| 
+LRI1MB|BE6.13.pppoe2367|up|up| 
+LRI1MB|BE6.13.pppoe2368|up|up| 
+LRI1MB|BE6.13.pppoe2369|up|up| 
+LRI1MB|BE6.13.pppoe2371|up|up| 
+LRI1MB|BE6.13.pppoe2372|up|up| 
+LRI1MB|BE6.13.pppoe2374|up|up| 
+LRI1MB|BE6.13.pppoe2376|up|up| 
+LRI1MB|BE6.13.pppoe2377|up|up| 
+LRI1MB|BE6.13.pppoe2378|up|up| 
+LRI1MB|BE6.13.pppoe2379|up|up| 
+LRI1MB|BE6.13.pppoe2380|up|up| 
+LRI1MB|BE6.13.pppoe2381|up|up| 
+LRI1MB|BE6.13.pppoe2383|up|up| 
+LRI1MB|BE6.13.pppoe2391|up|up| 
+LRI1MB|BE6.13.pppoe2396|up|up| 
+LRI1MB|BE6.13.pppoe2398|up|up| 
+LRI1MB|BE6.13.pppoe2400|up|up| 
+LRI1MB|BE6.13.pppoe2411|up|up| 
+LRI1MB|BE6.13.pppoe2412|up|up| 
+LRI1MB|BE6.13.pppoe2416|up|up| 
+LRI1MB|BE6.13.pppoe2423|up|up| 
+LRI1MB|BE6.13.pppoe2426|up|up| 
+LRI1MB|BE6.13.pppoe2431|up|up| 
+LRI1MB|BE6.13.pppoe2434|up|up| 
+LRI1MB|BE6.13.pppoe2435|up|up| 
+LRI1MB|BE6.13.pppoe2441|up|up| 
+LRI1MB|BE6.13.pppoe2444|up|up| 
+LRI1MB|BE6.13.pppoe2446|up|up| 
+LRI1MB|BE6.13.pppoe2447|up|up| 
+LRI1MB|BE6.13.pppoe2448|up|up| 
+LRI1MB|BE6.13.pppoe2449|up|up| 
+LRI1MB|BE6.13.pppoe2451|up|up| 
+LRI1MB|BE6.13.pppoe2454|up|up| 
+LRI1MB|BE6.13.pppoe2456|up|up| 
+LRI1MB|BE6.13.pppoe2457|up|up| 
+LRI1MB|BE6.13.pppoe2458|up|up| 
+LRI1MB|BE6.13.pppoe2459|up|up| 
+LRI1MB|BE6.13.pppoe2461|up|up| 
+LRI1MB|BE6.13.pppoe2462|up|up| 
+LRI1MB|BE6.13.pppoe2467|up|up| 
+LRI1MB|BE6.13.pppoe2474|up|up| 
+LRI1MB|BE6.13.pppoe2477|up|up| 
+LRI1MB|BE6.13.pppoe2478|up|up| 
+LRI1MB|BE6.13.pppoe2480|up|up| 
+LRI1MB|BE6.13.pppoe2482|up|up| 
+LRI1MB|BE6.13.pppoe2486|up|up| 
+LRI1MB|BE6.13.pppoe2488|up|up| 
+LRI1MB|BE6.13.pppoe2489|up|up| 
+LRI1MB|BE6.13.pppoe2490|up|up| 
+LRI1MB|BE6.13.pppoe2491|up|up| 
+LRI1MB|BE6.13.pppoe2493|up|up| 
+LRI1MB|BE6.13.pppoe2494|up|up| 
+LRI1MB|BE6.13.pppoe2495|up|up| 
+LRI1MB|BE6.13.pppoe2497|up|up| 
+LRI1MB|BE6.13.pppoe2500|up|up| 
+LRI1MB|BE6.13.pppoe2502|up|up| 
+LRI1MB|BE6.13.pppoe2503|up|up| 
+LRI1MB|BE6.13.pppoe2505|up|up| 
+LRI1MB|BE6.13.pppoe2508|up|up| 
+LRI1MB|BE6.13.pppoe2509|up|up| 
+LRI1MB|BE6.13.pppoe2510|up|up| 
+LRI1MB|BE6.13.pppoe2516|up|up| 
+LRI1MB|BE6.13.pppoe2519|up|up| 
+LRI1MB|BE6.13.pppoe2520|up|up| 
+LRI1MB|BE6.13.pppoe2522|up|up| 
+LRI1MB|BE6.13.pppoe2531|up|up| 
+LRI1MB|BE6.13.pppoe2533|up|up| 
+LRI1MB|BE6.13.pppoe2534|up|up| 
+LRI1MB|BE6.13.pppoe2535|up|up| 
+LRI1MB|BE6.13.pppoe2536|up|up| 
+LRI1MB|BE6.13.pppoe2539|up|up| 
+LRI1MB|BE6.13.pppoe2541|up|up| 
+LRI1MB|BE6.13.pppoe2545|up|up| 
+LRI1MB|BE6.13.pppoe2551|up|up| 
+LRI1MB|BE6.13.pppoe2554|up|up| 
+LRI1MB|BE6.13.pppoe2557|up|up| 
+LRI1MB|BE6.13.pppoe2561|up|up| 
+LRI1MB|BE6.13.pppoe2562|up|up| 
+LRI1MB|BE6.13.pppoe2563|up|up| 
+LRI1MB|BE6.13.pppoe2564|up|up| 
+LRI1MB|BE6.13.pppoe2571|up|up| 
+LRI1MB|BE6.13.pppoe2573|up|up| 
+LRI1MB|BE6.13.pppoe2574|up|up| 
+LRI1MB|BE6.13.pppoe2575|up|up| 
+LRI1MB|BE6.13.pppoe2576|up|up| 
+LRI1MB|BE6.13.pppoe2577|up|up| 
+LRI1MB|BE6.13.pppoe2579|up|up| 
+LRI1MB|BE6.13.pppoe2580|up|up| 
+LRI1MB|BE6.13.pppoe2581|up|up| 
+LRI1MB|BE6.13.pppoe2582|up|up| 
+LRI1MB|BE6.13.pppoe2591|up|up| 
+LRI1MB|BE6.13.pppoe2592|up|up| 
+LRI1MB|BE6.13.pppoe2593|up|up| 
+LRI1MB|BE6.13.pppoe2595|up|up| 
+LRI1MB|BE6.13.pppoe2596|up|up| 
+LRI1MB|BE6.13.pppoe2597|up|up| 
+LRI1MB|BE6.13.pppoe2598|up|up| 
+LRI1MB|BE6.13.pppoe2599|up|up| 
+LRI1MB|BE6.13.pppoe2600|up|up| 
+LRI1MB|BE6.13.pppoe2601|up|up| 
+LRI1MB|BE6.13.pppoe2602|up|up| 
+LRI1MB|BE6.13.pppoe2603|up|up| 
+LRI1MB|BE6.13.pppoe2604|up|up| 
+LRI1MB|BE6.13.pppoe2605|up|up| 
+LRI1MB|BE6.13.pppoe2607|up|up| 
+LRI1MB|BE6.13.pppoe2608|up|up| 
+LRI1MB|BE6.13.pppoe2610|up|up| 
+LRI1MB|BE6.13.pppoe2612|up|up| 
+LRI1MB|BE6.13.pppoe2613|up|up| 
+LRI1MB|BE6.13.pppoe2614|up|up| 
+LRI1MB|BE6.13.pppoe2615|up|up| 
+LRI1MB|BE6.13.pppoe2620|up|up| 
+LRI1MB|BE6.13.pppoe2622|up|up| 
+LRI1MB|BE6.13.pppoe2623|up|up| 
+LRI1MB|BE6.13.pppoe2624|up|up| 
+LRI1MB|BE6.13.pppoe2625|up|up| 
+LRI1MB|BE6.13.pppoe2626|up|up| 
+LRI1MB|BE6.13.pppoe2627|up|up| 
+LRI1MB|BE6.13.pppoe2628|up|up| 
+LRI1MB|BE6.13.pppoe2629|up|up| 
+LRI1MB|BE6.13.pppoe2631|up|up| 
+LRI1MB|BE6.13.pppoe2632|up|up| 
+LRI1MB|BE6.13.pppoe2633|up|up| 
+LRI1MB|BE6.13.pppoe2634|up|up| 
+LRI1MB|BE6.13.pppoe2635|up|up| 
+LRI1MB|BE6.13.pppoe2637|up|up| 
+LRI1MB|BE6.13.pppoe2639|up|up| 
+LRI1MB|BE6.13.pppoe2640|up|up| 
+LRI1MB|BE6.13.pppoe2642|up|up| 
+LRI1MB|BE6.13.pppoe2643|up|up| 
+LRI1MB|BE6.13.pppoe2644|up|up| 
+LRI1MB|BE6.13.pppoe2645|up|up| 
+LRI1MB|BE6.13.pppoe2646|up|up| 
+LRI1MB|BE6.2101|up|up|[GESTION] LQBM01 HUA 5600_T [GPON]
+LRI1MB|BE6.3101|up|up|[DHCP] [TOIP] LQBM01 HUA 5600_T [GPON]
+LRI1MB|BE100|up|up| 
+LRI1MB|BE100.1|up|up|Uplink DSLAM CHI21D HW5600
+LRI1MB|BE100.2|up|up|Uplink DSLAM CHI11D HW5100
+LRI1MB|BE100.3|up|up|Uplink HSI_PLLG01
+LRI1MB|BE100.9|up|up|Uplink HSI_PAQG01
+LRI1MB|BE100.10|up|up|Uplink HSI_CNWG01
+LRI1MB|BE100.11|up|up|Uplink DSLAM RJ3G01 RJ4G01 UA5000
+LRI1MB|BE100.12|up|up|Uplink HSI_LN2G01 UA5000
+LRI1MB|BE100.13|up|up|Uplink DSLAM GUSG01 MA5600T
+LRI1MB|BE100.14|up|up|Uplink 2 DSLAM AIM11D
+LRI1MB|BE100.15|up|up|Uplink ADSL NGN 7MAG01 MA5600T
+LRI1MB|BE100.16|up|up|Uplink HSI_VGSG01
+LRI1MB|BE100.17|up|up|Uplink DSLAM LQB21D HW5600
+LRI1MB|BE100.19|up|up|Uplink HSI_TAMG01
+LRI1MB|BE100.20|up|up|Uplink HSI_PZCG01
+LRI1MB|BE100.21|up|up|Uplink HSI_MLZG01 - BE2
+LRI1MB|BE100.22|up|up|Uplink HSI_SLQG01
+LRI1MB|BE100.23|up|up|Uplink HSI_BI8G01
+LRI1MB|BE100.24|up|up|Uplink HSI_BI9G01
+LRI1MB|BE100.25|up|up|Uplink HSI_BFFG01
+LRI1MB|BE100.26|up|up|Uplink HSI_BSWG01
+LRI1MB|BE100.31|up|up|Uplink DSLAM NGN 1RWG01 MA5603T
+LRI1MB|BE100.32|up|up|Uplink DSLAM NGN_1T1G01 MA5616
+LRI1MB|BE100.33|up|up|Uplink DSLAM NGN_1T6G01 MA56166
+LRI1MB|BE100.34|up|up|Uplink DSLAM NGN NLSG01 MA5600
+LRI1MB|BE100.35|up|up|Uplink HSI ZVIG01 HUAWEI5603T
+LRI1MB|BE100.36|up|up|Uplink HSI FS1G01 HUAWEI D200
+LRI1MB|BE100.37|up|up|Uplink HSI BIWG01 HUAWEI D500
+LRI1MB|BE100.38|up|up|Uplink HSI SWVG01 HUAWEI D200
+LRI1MB|BE100.39|up|up|Uplink DSLAM CHI41D HUAWEI5600
+LRI1MB|BE100.46|up|up|Uplink DSLAM LQB31D HW 5600
+LRI1MB|BE100.47|up|up|Uplink DSLAM LN221D ZTE9210
+LRI1MB|BE100.48|up|up|Uplink HSI TIG21D
+LRI1MB|BE100.49|up|up|Uplink HSI_FIAG01
+LRI1MB|BE100.239|up|up|Uplink DSLAM_PRUEBA_PBA11D
+LRI1MB|BE100.240|up|up|Uplink PRUEBA
+LRI1MB|BE100.2419|up|up|Uplink DSLAM NGS11D HW5600
+LRI1MB|BE100.2529|up|up|Uplink DSLAM BWZG01 ZTE
+LRI1MB|BE100.2539|up|up|Uplink DSLAM VZNG01 ZTE
+LRI1MB|BE100.10004|up|up|Uplink DSLAM CHIM01 ALU7302
+LRI1MB|BE100.13969|up|up|Uplink DSLAM CZE11D
+LRI1MB|BE100.13973|up|up|Uplink DSLAM AIM11D
+LRI1MB|BE100.13974|up|up|Uplink DSLAM LRI21D
+LRI1MB|BE100.14000|up|up|Uplink DSLAM CHMM01
+LRI1MB|BE200|up|up|Enlace 20G. GOBIERNO LA RIOJA REFE 402836 (agrupa Ten0/6/0/2 - Ten0/6/0/3)
+LRI1MB|BE201|up|up|Enlace 20G. GOBIERNO LA RIOJA REFE 646694 (agrupaTenGigE0/5/1/11yTenGigE0/5/1/12)
+LRI1MB|BE1001|admin-down|admin-down|LAG LRI3MU_Eth-Trunk-1
+LRI1MB|BE1001.3639|admin-down|admin-down|Acceso ICORP_93621_3639 - AMCO
+LRI1MB|BE1002|up|up|LAG Frontera PTN ALU 18LRI01 agrupa Te0/1/0/3 - Te0/0/1/1
+LRI1MB|BE1002.150|up|up|Frontera PTN A18LRI01/17/f01 - TIG21D
+LRI1MB|BE1002.960|up|up|Uplink VPN_3000022102_960
+LRI1MB|BE1002.972|admin-down|admin-down|Enlace a CHI2MU_G1/1/0.972
+LRI1MB|BE1002.973|admin-down|admin-down|Enlace a CHI2MU_G4/1/23.973
+LRI1MB|BE1002.974|admin-down|admin-down|Enlace a CHI2MU_G8/1/19.974
+LRI1MB|BE1002.980|up|up|Frontera PTN 18LRI01/17/1 - ICORP_46400_980
+LRI1MB|BE1002.983|admin-down|admin-down|Enlace a CHI2MU_G8/1/0.983
+LRI1MB|BE1002.1203|up|up|Frontera PTN 18LRI01/17/1 - VPN_16306_1203
+LRI1MB|BE1002.1246|up|up|GESTION_TX_PATQUIA_OTDR- OTPAQ01 PTN 5RPAQ01 L: 60000646
+LRI1MB|BE1002.1247|up|up|Gestion Tx 1RSLQ01 Salicas por PTN 5CSLQ01 Linea 70001343
+LRI1MB|BE1002.1248|up|up|Gestion Tx 1PPYJ01 Pituil por PTN 5CPYJ01 Linea 70001342
+LRI1MB|BE1002.1249|up|up|GESTION_TX_SALICAS_OTDR PTN 5CSLQ01 L: 60000642
+LRI1MB|BE1002.2497|up|up|Uplink NGN_CHMG01
+LRI1MB|BE1002.2530|up|up|Frontera PTN 18LRI01/17/1 - VPN_16306_2530
+LRI1MB|BE1002.10970|up|up|Acceso HSI_CNWG01 HW5616
+LRI1MB|BE1002.12402|up|up|Acceso HSI_VGSG01
+LRI1MB|BE1002.13610|up|up|Acceso HSI_MLZG01 - 13002713 - MALANZAN - LA RIOJA
+LRI1MB|BE1002.13616|up|up|Acceso HSI_PLLG01 - 13001779
+LRI1MB|BE1002.13617|up|up|Acceso HSI_PAQG01 - 13002581 - PATQUIA - LA RIOJA
+LRI1MB|BE1002.13619|up|up|Acceso HSI_FIAG0101
+LRI1MB|BE1002.13646|up|up|Acceso HSI_SLQG01 - 13003324 - SALICAS - LA RIOJA
+LRI1MB|BE1002.13647|up|up|Acceso HSI_PZCG01
+LRI1MB|BE1002.13649|up|up|Acceso HSI_TAMG01
+LRI1MB|BE1002.30970|up|up|Acceso NGN_CNWG01 HW5616
+LRI1MB|BE1002.32232|up|up|Acceso NGN_NGSG01 - 13001857
+LRI1MB|BE1002.32402|up|up|Acceso NGN_VGSG01
+LRI1MB|BE1002.33610|up|up|Acceso NGN MLZG01 - 13002713 - MALANZAN - LA RIOJA
+LRI1MB|BE1002.33616|up|up|Acceso NGN_PLLG01 - 13001779
+LRI1MB|BE1002.33617|up|up|Acceso NGN_PAQG01 - 13002581 - PATQUIA - LA RIOJA
+LRI1MB|BE1002.33618|up|up|Acceso NGN_TIGG01
+LRI1MB|BE1002.33619|up|up|Acceso NGN_FIAG0101
+LRI1MB|BE1002.33620|up|up|Acceso NGN_TIGH01
+LRI1MB|BE1002.33647|up|up|Acceso NGN_PZCG01
+LRI1MB|BE1002.33649|up|up|Acceso NGN_TAMG01
+LRI1MB|BE1002.103785|up|up|Uplink DSLAM CHMM01
+LRI1MB|BE1002.336462|up|up|[SIGN] SLQG01 HUA 5600_T [NGN]
+LRI1MB|BE1002.336463|up|up|[RTP] SLQG01 HUA 5600_T [NGN]
+LRI1MB|BE1002.336464|up|up|[GESTION] SLQG01 HUA 5600_T [NGN]
+LRI1MB|BE1002.12011000|up|up|eNODOB - PUNTA_DEL_NEGRO - LRI1MB 1/0/3 - A09-S081 - (1) (682928) - S1
+LRI1MB|BE1002.12011001|up|up|eNODOB - PUNTA_DEL_NEGRO - LRI1MB 1/0/3 - A09-S081 - (2) (682928) - S1MME
+LRI1MB|BE1002.12011002|up|up|eNODOB - PUNTA_DEL_NEGRO - LRI1MB 1/0/3 - A09-S081 - (3) (682928) - GOMRAN
+LRI1MB|BE1002.12011003|up|up|NODOB - PUNTA_DEL_NEGRO - LRI1MB 1/0/3 - A09-S081 - (1) (682933) - 3G
+LRI1MB|BE1002.12011004|up|up|NODOB - PUNTA_DEL_NEGRO - LRI1MB 1/0/3 - A09-S081 - (1) (688752) - 2G
+LRI1MB|BE1002.12021009|up|up|eNODOB - TAMA - LRI1MB 0/1/0/3 - A09-S016 - (1) (525851) - S1
+LRI1MB|BE1002.12021010|up|up|eNODOB - TAMA - LRI1MB 0/1/0/3 - A09-S016 - (2) (525851) - S1MME
+LRI1MB|BE1002.12021011|up|up|eNODOB - TAMA - LRI1MB 0/1/0/3 - A09-S016 - (3) (525851) - GOMRAN
+LRI1MB|BE1002.12021012|up|up|NODOB - TAMA - LRI1MB 0/1/0/3 - A09-S016 - (1) (525871) - 3G
+LRI1MB|BE1002.12021013|up|up|NODOB - TAMA - LRI1MB 0/1/0/3 - A09-S016 - (1) (526552) - 2G
+LRI1MB|BE1002.12051000|up|up|eNODOB - PITUIL_A09-S063 - (1) (682938) - S1
+LRI1MB|BE1002.12051001|up|up|eNODOB - PITUIL_A09-S063 - (2) (682938) - S1MME
+LRI1MB|BE1002.12051002|up|up|eNODOB - PITUIL_A09-S063 - (3) (682938) - GOMRAN
+LRI1MB|BE1002.12051003|up|up|NODOB - PITUIL_A09-S063 - (1) (682939) - 3G
+LRI1MB|BE1002.12051004|up|up|NODOB - PITUIL_A09-S063 - (1) (688747) - 2G
+LRI1MB|BE1002.12071000|up|up|eNODOB - FIAMBALA - LRI1MB 0/1/0/3 - A10-S027 - (1) (523171) - S1
+LRI1MB|BE1002.12071001|up|up|eNODOB - FIAMBALA - LRI1MB 0/1/0/3 - A10-S027 - (2) (523171) - S1MME
+LRI1MB|BE1002.12071002|up|up|eNODOB - FIAMBALA - LRI1MB 0/1/0/3 - A10-S027 - (3) (523171) - GOMRAN
+LRI1MB|BE1002.12071003|up|up|NODOB - FIAMBALA - LRI1MB 0/1/0/3 - A10-S027 - (1) (523221) - 3G
+LRI1MB|BE1002.12071004|up|up|NODOB - FIAMBALA - LRI1MB 0/1/0/3 - A10-S027 - (1) (523203) - 2G
+LRI1MB|BE1002.12071005|up|up|eNODOB - FIAMBALA - LRI1MB 0/1/0/3 - A10-S027_RSCLR - (939543) - S1 RS_CLARO
+LRI1MB|BE1002.12071006|up|up|eNODOB - FIAMBALA - LRI1MB 0/1/0/3 - A10-S027_RSCLR - (939543) - S1MME RS_CLARO
+LRI1MB|BE1002.12081000|up|up|eNODOB - TINOGASTA_A10-S029 - (1) (523185) - S1
+LRI1MB|BE1002.12081001|up|up|eNODOB - TINOGASTA_A10-S029 - (2) (523185) - S1MME
+LRI1MB|BE1002.12081002|up|up|eNODOB - TINOGASTA_A10-S029 - (3) (523185) - GOMRAN
+LRI1MB|BE1002.12081003|up|up|NODOB - TINOGASTA_A10-S029 - (1) (521011) - 3G
+LRI1MB|BE1002.12081004|up|up|NODOB - TINOGASTA_A10-S029 - (1) (523218) - 2G
+LRI1MB|BE1002.12081005|up|up|eNODOB - TINOGASTA_A10-S029_RSCLR - (948362) - RS CLARO S1
+LRI1MB|BE1002.12081006|up|up|eNODOB - TINOGASTA_A10-S029_RSCLR - (948362) - RS CLARO S1MME
+LRI1MB|BE1002.12090002|up|up|VPN PLATINUM - ENERGIAS SUSTENTABLES S.A. - REF:878994 - L:2857815 - ACC:1QG9801_IDU/00/22Gb-ETH-O
+LRI1MB|BE1002.12090003|up|up|INTEGRA - ENERGIAS SUSTENTABLES S.A. - REF:879000 - L:2857821 - ACC:1QG9801_IDU/00/22Gb-ETH-O
+LRI1MB|BE1002.12101000|up|up|eNODOB - TINOGASTA_2 - LRI1MB 0/1/0/3 - A10-S098 - (1) (761130) - S1
+LRI1MB|BE1002.12101001|up|up|eNODOB - TINOGASTA_2 - LRI1MB 0/1/0/3 - A10-S098 - (2) (761130) - S1MME
+LRI1MB|BE1002.12101002|up|up|eNODOB - TINOGASTA_2 - LRI1MB 0/1/0/3 - A10-S098 - (3) (761130) - GOMRAN
+LRI1MB|BE1002.12101003|up|up|NODOB - TINOGASTA_2 - LRI1MB 0/1/0/3 - A10-S098 - (1) (761129) - 3G
+LRI1MB|BE1002.12101004|up|up|NODOB - TINOGASTA_2 - LRI1MB 0/1/0/3 - A10-S098 - (1) (761128) - 2G
+LRI1MB|BE1002.12101005|up|up|eNODOB - TINOGASTA_2 - LRI1MB 0/1/0/3 - A10-S098_RSCLR - (945145) - RS CLARO S1
+LRI1MB|BE1002.12101006|up|up|eNODOB - TINOGASTA_2 - LRI1MB 0/1/0/3 - A10-S098_RSCLR - (945145) - RS CLARO S1MME
+LRI1MB|BE1002.12450002|up|up|VPN - INTA - Ref:784200 - Linea:2847672 - Acc:5RTIG01-05-08
+LRI1MB|BE1002.12501003|up|up|NODOB - VILLA_UNION_CENTRAL - LRI1MB BE1002 - A09-S106 - (1) (682932) - 3G
+LRI1MB|BE1002.12501004|up|up|eNODOB - VILLA_UNION_CENTRAL - LRI1MB BE1002 - A09-S106 - (2) (682931) - S1MME
+LRI1MB|BE1002.12501005|up|up|eNODOB - VILLA_UNION_CENTRAL - LRI1MB BE1002 - A09-S106 - (3) (682931) - GOMRAN
+LRI1MB|BE1002.13021000|up|up|eNODOB - PATQUIA_REP - A09-S018 - (1) (525832) - S1
+LRI1MB|BE1002.13021001|up|up|eNODOB - - PATQUIA_REP - A09-S018 - (2) (525832) - S1MME
+LRI1MB|BE1002.13021002|up|up|eNODOB - - PATQUIA_REP - A09-S018 - (3) (525832) - GOMRAN
+LRI1MB|BE1002.13021003|up|up|NODOB - PATQUIA_REP - A09-S018 - (1) (525829) - 3G
+LRI1MB|BE1002.13021004|up|up|NODOB - PATQUIA_REP - A09-S018 - (1) (526185) - 2G
+LRI1MB|BE1002.13031000|up|up|eNODOB - VICHIGASTA - LRI1MB 1002 - A09-S007 - (1) (525854) - S1
+LRI1MB|BE1002.13031001|up|up|eNODOB - VICHIGASTA - LRI1MB 1002 - A09-S007 - (2) (525854) - S1MME
+LRI1MB|BE1002.13031002|up|up|eNODOB - VICHIGASTA - LRI1MB 1002 - A09-S007 - (3) (525854) - GOMRAN
+LRI1MB|BE1002.13031003|up|up|eNODOB - VICHIGASTA - LRI1MB 1002 - A09-S007 - (1) (525874) - 3G
+LRI1MB|BE1002.13031004|up|up|eNODOB - VICHIGASTA - LRI1MB 1002 - A09-S007 - (1) (526556) - 2G
+LRI1MB|BE1002.13041000|up|up|eNODOB - SANOGASTA - LRI1MB 0/1/0/3 - A09-S030 - (1) (525846) - S1
+LRI1MB|BE1002.13041001|up|up|eNODOB - SANOGASTA - LRI1MB 0/1/0/3 - A09-S030 - (2) (525846) - S1MME
+LRI1MB|BE1002.13041002|up|up|eNODOB - SANOGASTA - LRI1MB 0/1/0/3 - A09-S030 - (3) (525846) - GOMRAN
+LRI1MB|BE1002.13041003|up|up|eNODOB - SANOGASTA - LRI1MB 0/1/0/3 - A09-S030 - (1) (525866) - 3G
+LRI1MB|BE1002.13041004|up|up|eNODOB - SANOGASTA - LRI1MB 0/1/0/3 - A09-S030 - (1) (526546) - 2G
+LRI1MB|BE1002.13061000|up|up|eNODOB - PORTEZUELO_A09-S025 - (1) (682946) - S1
+LRI1MB|BE1002.13061001|up|up|eNODOB - PORTEZUELO_A09-S025 - (2) (682946) - S1MME
+LRI1MB|BE1002.13061002|up|up|eNODOB - PORTEZUELO_A09-S025 - (3) (682946) - GOMRAN
+LRI1MB|BE1002.13061003|up|up|eNODOB - PORTEZUELO_A09-S025 - (1) (682947) - 3G
+LRI1MB|BE1002.13061004|up|up|eNODOB - PORTEZUELO_A09-S025 - (1) (688757) - 2G
+LRI1MB|BE1002.15530002|up|up|Gestion_SW_adapt-MUN DE FIAMBALA-REF:278910-Lin:2782951-Acc:1GFIA01/LAN1
+LRI1MB|BE1002.15530003|up|up|INT-MUN DE FIAMBALA(Router+LAN)-REF:278910 - Linea: 2782951-Acc:1GFIA01/LAN1
+LRI1MB|BE1002.23011000|up|up|eNODOB - NONOGASTA_A09-S032 - (1) (682945) - S1
+LRI1MB|BE1002.23011001|up|up|eNODOB - NONOGASTA_A09-S032 - (2) (682945) - S1MME
+LRI1MB|BE1002.23011002|up|up|eNODOB - NONOGASTA_A09-S032 - (3) (682945) - GOMRAN
+LRI1MB|BE1002.23011003|up|up|eNODOB - NONOGASTA_A09-S032 - (1) (682944) - 3G
+LRI1MB|BE1002.23011004|up|up|eNODOB - NONOGASTA_A09-S032 - (1) (688756) - 2G
+LRI1MB|BE1002.23011007|up|up|eNODOB - NONOGASTA_A09-S032_RSMVS - (39240) - S1 RS MOVISTAR
+LRI1MB|BE1002.23011008|up|up|eNODOB - NONOGASTA_A09-S032_RSMVS - (39240) - S1MME RS MOVISTAR
+LRI1MB|BE1002.23031018|up|up|eNODOB - PUNTA_DE_LOS_LLANOS - LRI1MB 0/1/0/3 - A09-S054 - (1) (682940) - S1
+LRI1MB|BE1002.23031019|up|up|eNODOB - PUNTA_DE_LOS_LLANOS - LRI1MB 0/1/0/3 - A09-S054 - (2) (682940) - S1MME
+LRI1MB|BE1002.23031020|up|up|eNODOB - PUNTA_DE_LOS_LLANOS - LRI1MB 0/1/0/3 - A09-S054 - (3) (682940) - GOMRAN
+LRI1MB|BE1002.23031021|up|up|NODOB - PUNTA_DE_LOS_LLANOS - LRI1MB 0/1/0/3 - A09-S054 - (1) (682941) - 3G
+LRI1MB|BE1002.23031029|up|up|NODOB - PUNTA_DE_LOS_LLANOS - LRI1MB 0/1/0/3 - A09-S054 - (1) (688748) - 2G
+LRI1MB|BE1002.23041000|up|up|eNODOB - LA_PUNTILLA_TINOGASTA - LRI1MB LRI1MB - A10-S038 - (1) (526825) - S1
+LRI1MB|BE1002.23041001|up|up|eNODOB - LA_PUNTILLA_TINOGASTA - LRI1MB LRI1MB - A10-S038 - (2) (526825) - S1MME
+LRI1MB|BE1002.23041002|up|up|eNODOB - LA_PUNTILLA_TINOGASTA - LRI1MB LRI1MB - A10-S038 - (3) (526825) - GOMRAN
+LRI1MB|BE1002.23041003|up|up|NODOB - LA_PUNTILLA_TINOGASTA - LRI1MB LRI1MB - A10-S038 - (1) (526730) - 3G
+LRI1MB|BE1002.23041004|up|up|NODOB - LA_PUNTILLA_TINOGASTA - LRI1MB LRI1MB - A10-S038 - (1) (526522) - 2G
+LRI1MB|BE1002.23051000|up|up|eNODOB - LA_AGUADITA - LRI1MB 0/1/1/1 - A10-S109 - (1) (523174) - S1
+LRI1MB|BE1002.23051001|up|up|eNODOB - LA_AGUADITA - LRI1MB 0/1/1/1 - A10-S109 - (2) (523174) - S1MME
+LRI1MB|BE1002.23051002|up|up|eNODOB - LA_AGUADITA - LRI1MB 0/1/1/1 - A10-S109 - (3) (523174) - GOMRAN
+LRI1MB|BE1002.23051003|up|up|NODOB - LA_AGUADITA - LRI1MB 0/1/1/1 - A10-S109 - (1) (523225) - 3G
+LRI1MB|BE1002.23051004|up|up|NODOB - LA_AGUADITA - LRI1MB 0/1/1/1 - A10-S109 - (1) (523207) - 2G
+LRI1MB|BE1002.24380101|up|up|Acceso VPN_LTE_A09-S053-S005 - TX
+LRI1MB|BE1002.24381000|up|up|eNODOB - CHAMICAL_CENTRO_A09-S053 - (1) (447584) - S1
+LRI1MB|BE1002.24381001|up|up|eNODOB - CHAMICAL_CENTRO_A09-S053 - (2) (447584) - S1MME
+LRI1MB|BE1002.24381002|up|up|eNODOB - CHAMICAL_CENTRO_A09-S053 - (3) (447584) - GOMRAN
+LRI1MB|BE1002.24381003|up|up|eNODOB - CHAMICAL_A09-S005 - (1) (447633) - S1
+LRI1MB|BE1002.24381004|up|up|eNODOB - CHAMICAL_A09-S005 - (2) (447633) - S1MME
+LRI1MB|BE1002.24381005|up|up|eNODOB - CHAMICAL_A09-S005 - (3) (447633) - GOMRAN
+LRI1MB|BE1002.24381008|up|up|eNODOB - CHAMICAL_A09-S005 - (1) (682951) - 3G
+LRI1MB|BE1002.24381017|up|up|eNODOB - CHAMICAL_CENTRO_A09-S053 - (1) (682943) - 3G
+LRI1MB|BE1002.24381022|up|up|eNODOB - LOMA_BLANCA_A09-S065 - (1) (682936) - S1
+LRI1MB|BE1002.24381023|up|up|eNODOB - LOMA_BLANCA_A09-S065 - (2) (682936) - S1MME
+LRI1MB|BE1002.24381024|up|up|eNODOB - LOMA_BLANCA_A09-S065 - (3) (682936) - GOMRAN
+LRI1MB|BE1002.24381025|up|up|eNODOB - LOMA_BLANCA_A09-S065 - (1) (682937) - 3G
+LRI1MB|BE1002.24381026|up|up|eNODOB - CHAMICAL_A09-S005 - (1) (688758) - 2G
+LRI1MB|BE1002.24381028|up|up|eNODOB - CHAMICAL_CENTRO_A09-S053 - (1) (688755) - 2G
+LRI1MB|BE1002.24381030|up|up|eNODOB - LOMA_BLANCA_A09-S065 - (1) (688754) - 2G
+LRI1MB|BE1002.24381031|up|up|eNODOB - OLTA_A09-S012 - (1) (682948) - S1
+LRI1MB|BE1002.24381032|up|up|eNODOB - OLTA_A09-S012 - (2) (682948) - S1MME
+LRI1MB|BE1002.24381033|up|up|eNODOB - OLTA_A09-S012 - (3) (682948) - GOMRAN
+LRI1MB|BE1002.24381034|up|up|eNODOB - OLTA_A09-S012 - (1) (682949) - 3G
+LRI1MB|BE1002.24381035|up|up|eNODOB - OLTA_A09-S012 - (1) (688749) - 2G
+LRI1MB|Lo0|up|up| 
+LRI1MB|Lo1|up|up|IP UNNUMBERED VIRTUAL-TEMPLATE 1
+LRI1MB|Lo12|up|up|IP UNNUMBERED tasario-vpn - VPN BRONZE INTERCARRIER. - Banco Rio Tasa
+LRI1MB|Lo55|up|up|IP UNNUMBERED vpn-disco - JUMBO RETAIL ARGENTINA SOCIEDA
+LRI1MB|Lo56|up|up|IP UNNUMBERED gms-vpn
+LRI1MB|Lo77|up|up|IP unnumbered Wpatron
+LRI1MB|Lo78|up|up|IP UNNUMERED vpn-credicoop
+LRI1MB|Lo80|up|up|IP UNNUMBERED VPN JOCKEY
+LRI1MB|Lo85|up|up|IP UNNUMBERED VPN ADVANCECOR
+LRI1MB|Lo88|up|up|IP UNNUMBERED vpngasnor
+LRI1MB|Lo103|up|up|IP UNNUMBERED ospecom-vpn - VPN BRONZE - OSPECOM
+LRI1MB|Lo144|up|up|IP UNNUMERED ser-vpn
+LRI1MB|Lo148|up|up|IP UNNUMERED ribeiro-vpn
+LRI1MB|Lo149|up|up|IP UNNUMBERED bna-vpn - VPN BRONZE - BANCO DE LA NACION ARGENTINA
+LRI1MB|Lo152|up|up|IP UNNUMERED rentastucuman-vpn
+LRI1MB|Lo157|up|up|IP UNNUMBERED vpn-williner - VPN BRONZE - SUCESORES DE ALFREDO WILLINER S.A.
+LRI1MB|Lo159|up|up|IP UNNUMBERED vpn-c_y_r_e - VPN CYRE SACIFI E I
+LRI1MB|Lo162|up|up|IP UNNUMBERED hipodromo-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+LRI1MB|Lo169|up|up|IP UNNUMBERED VPN-TECNOACCION1 - VPN BRONZE - TECNO ACCION S.A.
+LRI1MB|Lo172|up|up|IP UNNUMBERED policiacordoba-vpn - VPN BRONZE - POLICIA DE LA PCIA DE CBA
+LRI1MB|Lo178|up|up|vrf aguasdesalta-vpn
+LRI1MB|Lo198|up|up|IP UNNUMBERED vpn-gire-1 - VPN BRONZE - GIRE S.A.
+LRI1MB|Lo252|up|up|IP UNNUMBERED derudderhermanos-vpn - VPN BRONZE - DERUDDER HERMANOS S.R.L.
+LRI1MB|Lo256|up|up|IP UNNUMBERED sepsa
+LRI1MB|Lo265|up|up|IP UNNUMBERED vpn-planauto - VPN BRONZE - FIRMAT PLANAUTO S.A.
+LRI1MB|Lo279|up|up|IP UNNUMBERED hsbc-vpn - VPN BRONZE - HSBC BANK ARGENTINA S.A
+LRI1MB|Lo297|up|up|IP UNNUMBERED bcopatagonia-vpn - VPN BRONZE BANCO PATAGONIA
+LRI1MB|Lo347|up|up|IP UNNUMBERED bcogalicia-vpn - VPN BRONZE - BANCO DE GALICIA Y BUENOS AIRE S S.A.
+LRI1MB|Lo433|up|up|IP UNNUMBERED hipodromo-3-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+LRI1MB|Lo434|up|up|IP UNNUMBERED supermat2-vpn - VPN BRONZE - SUPERMAT S.A.C.I.F.I.A.
+LRI1MB|Lo479|up|up|IP UNNUMBERED solido-vpn - VPN BRONZE - SOLIDO S.R.L.
+LRI1MB|Lo480|up|up|IP UNNUMBERED ospe-vpn - VPN BRONZE - OBRA SOCIAL DE PETROLEROS O.S. PE.
+LRI1MB|Lo514|up|up|IP UNNUMBERED dgc larioja-vpn - VPN BRONZE - DIREC. GRAL. DE COMUNICACIONES GOB. DE LA PCIA. DE LA RIOJA
+LRI1MB|Lo516|up|up|IP UNNUMBERED totalgaz-vpn - VPN BRONZE - TOTAL ESPECIALIDADES ARGENTINA SOCIEDAD ANONIMA
+LRI1MB|Lo550|up|up|IP UNNUMBERED scristobalcaja-vpn - VPN BRONZE - SAN CRISTOBAL CAJA
+LRI1MB|Lo594|up|up|IP UNNUMBERED diaarg-vpn - VPN BRONZE - DIA ARGENTINA S.A.
+LRI1MB|Lo601|up|up|IP UNNUMBERED alpargatas-vpn - VPN BRONZE - ALPARGATAS CALZADOS S.A.
+LRI1MB|Lo605|up|up|IP UNNUMBERED unilarioja-vpn - VPN BRONZE - UNIVERSIDAD NACIONAL DE LA RIOJA
+LRI1MB|Lo649|up|up|IP UNNUMERED municordoba-vpn - VPN BRONZE - MUNICIPALIDAD DE CORDOBA - Ref.609778
+LRI1MB|Lo671|up|up|IP UNNUMBERED siprosa-vpn - VPN BRONZE - SISTEMA PROVINCIAL DE SALUD GO B.DE TUCUMAN
+LRI1MB|Lo701|up|up|IP UNNUMBERED pianezzola-vpn - VPN BRONZE - PIANEZZOLA S.A.
+LRI1MB|Lo707|up|up|IP UNNUMBERED correo-vpn - VPN BRONZE - CORREO OFICIAL DE LA REP.ARG.
+LRI1MB|Lo732|up|up|IP UNNUMBERED bago-vpn - VPN BRONZE - LABORATORIOS BAGO S.A.
+LRI1MB|Lo739|up|up|IP UNNUMBERED arcore-vpn - VPN BRONZE - ARCORE S.A.
+LRI1MB|Lo940|up|up|IP UNNUMBERED hamciaseg-vpn - VPN BRONZE - HAMBURGO CIA DE SEGUROS S.A
+LRI1MB|Lo970|up|up|IP UNNUMERED swissmedical-vpn - VPN BRONZE SWISS MEDICAL
+LRI1MB|Lo978|up|up|IP UNNUMBERED amcaasomutu-vpn - VPN BRONZE - A.M.C.A. - ASOC. MUTUAL DE CON DUCTORES DE AUTOMOTORES
+LRI1MB|Lo980|up|up|IP UNNUMBERED cjuleriaque-vpn - VPN BRONZE - CARLOS JULERIAQUE S.R.L.
+LRI1MB|Lo992|up|up|IP UNNUMERED goblarioja-vpn
+LRI1MB|Lo1017|up|up|IP UNNUMBERED asmuprofa-vpn - VPN BRONZE - ASOCIACION MUTUAL DE PROTECCIO N FAMILIAR
+LRI1MB|Lo1032|up|up|- Small Office Causer - Ref 283820
+LRI1MB|Lo1041|up|up|IP UNNUMBERED lobruno-vpn - VPN BRONZE - LO BRUNO S.A.
+LRI1MB|Lo1099|up|up|IP UNNUMBERED acasalud-vpn - VPN BRONZE - ACA SALUD COOP DE PREST
+LRI1MB|Lo1108|up|up|IP UNNUMBERED osba-vpn - VPN BRONZE - OBRA SOCIAL BANCARIA ARGENTINA - O.S.B.A.
+LRI1MB|Lo1219|up|up|SIMONS DE ARGENTINA SAIC
+LRI1MB|Lo1226|up|up|IP UNNUMERED argentconec-vpn
+LRI1MB|Lo1241|up|up|Referencia: 267549 chubbargseg-vpn
+LRI1MB|Lo1312|up|up|IP UNNUMBERED wifioffload-vpn
+LRI1MB|Lo1318|up|up|IP UNNUMBERED atos-vpn - VPN BRONZE - ATOS IT SOLUTIONS AND SERVICES
+LRI1MB|Lo1385|up|up|IP UNNUMERED garbacontenidos-vpn
+LRI1MB|Lo1391|up|up|IP UNNUMERED falconebidetto-vpn - VPN BRONZE FALCONE BODETTO S.A.
+LRI1MB|Lo1644|up|up|IP UNNUMBERED corbalannor-vpn - VPN BRONZE - CORBALAN NORBERTO E. - Ref.596789
+LRI1MB|Lo3143|up|up|IP UNNUMBERED tasabancofrances-vpn - VPN BRONZE INTERCARRIER. - Tasa subcliente Banco Frances
+LRI1MB|Nu0|up|up| 
+LRI1MB|PE2|up|up|HSI_LRIN01
+LRI1MB|PE2.2101|up|up|GESTION LRIN01 ALU7302
+LRI1MB|PE2.3101|up|up|[TOIP] LRIN01 ALU 7302 [ADS2]
+LRI1MB|PE2.4101|up|up|[DATOS] LRIN01 ALC 7302 [VDS2]
+LRI1MB|PE2.4101.pppoe28|up|up| 
+LRI1MB|PE2.4101.pppoe32|up|up| 
+LRI1MB|PE2.4101.pppoe55|up|up| 
+LRI1MB|PE2.4101.pppoe658|up|up| 
+LRI1MB|PE2.4101.pppoe757|up|up| 
+LRI1MB|PE2.4101.pppoe1267|up|up| 
+LRI1MB|PE2.4101.pppoe1333|up|up| 
+LRI1MB|PE2.4101.pppoe1642|up|up| 
+LRI1MB|PE2.4101.pppoe1831|up|up| 
+LRI1MB|PE2.4101.pppoe2018|up|up| 
+LRI1MB|PE2.4101.pppoe2058|up|up| 
+LRI1MB|PE2.4101.pppoe2419|up|up| 
+LRI1MB|PE2.4101.pppoe2658|up|up| 
+LRI1MB|PE2.4101.pppoe2670|up|up| 
+LRI1MB|PE2.4101.pppoe2678|up|up| 
+LRI1MB|PE2.4101.pppoe2715|up|up| 
+LRI1MB|PE2.4101.pppoe3088|up|up| 
+LRI1MB|PE2.4101.pppoe3134|up|up| 
+LRI1MB|PE2.4101.pppoe3342|up|up| 
+LRI1MB|PE2.4101.pppoe3386|up|up| 
+LRI1MB|PE2.4101.pppoe3437|up|up| 
+LRI1MB|PE2.4101.pppoe3484|up|up| 
+LRI1MB|PE2.4101.pppoe3485|up|up| 
+LRI1MB|PE2.4101.pppoe3501|up|up| 
+LRI1MB|PE2.4101.pppoe3629|up|up| 
+LRI1MB|PE2.4101.pppoe3696|up|up| 
+LRI1MB|PE2.4101.pppoe3753|up|up| 
+LRI1MB|PE2.4101.pppoe3775|up|up| 
+LRI1MB|PE2.4101.pppoe3776|up|up| 
+LRI1MB|PE2.4101.pppoe3795|up|up| 
+LRI1MB|PE2.4101.pppoe3800|up|up| 
+LRI1MB|PE2.4101.pppoe3837|up|up| 
+LRI1MB|PE2.4101.pppoe3840|up|up| 
+LRI1MB|PE2.4101.pppoe3845|up|up| 
+LRI1MB|PE2.4101.pppoe3846|up|up| 
+LRI1MB|PE2.4101.pppoe3851|up|up| 
+LRI1MB|PE2.4101.pppoe3856|up|up| 
+LRI1MB|PE2.4101.pppoe3872|up|up| 
+LRI1MB|PE2.4101.pppoe3874|up|up| 
+LRI1MB|PE2.4101.pppoe3876|up|up| 
+LRI1MB|PE2.4101.pppoe3880|up|up| 
+LRI1MB|PE2.4101.pppoe3895|up|up| 
+LRI1MB|PE2.4101.pppoe3926|up|up| 
+LRI1MB|PE2.4101.pppoe3929|up|up| 
+LRI1MB|PE2.4101.pppoe3930|up|up| 
+LRI1MB|PE2.4101.pppoe3936|up|up| 
+LRI1MB|PE2.4101.pppoe3942|up|up| 
+LRI1MB|PE2.4101.pppoe3975|up|up| 
+LRI1MB|PE2.4101.pppoe3983|up|up| 
+LRI1MB|PE2.4101.pppoe3987|up|up| 
+LRI1MB|PE2.4101.pppoe3988|up|up| 
+LRI1MB|PE2.4101.pppoe3991|up|up| 
+LRI1MB|PE2.4101.pppoe4003|up|up| 
+LRI1MB|PE2.4101.pppoe4005|up|up| 
+LRI1MB|PE2.4101.pppoe4007|up|up| 
+LRI1MB|PE2.4101.pppoe4013|up|up| 
+LRI1MB|PE2.4101.pppoe4014|up|up| 
+LRI1MB|PE2.4101.pppoe4016|up|up| 
+LRI1MB|PE2.4101.pppoe4025|up|up| 
+LRI1MB|PE2.4101.pppoe4038|up|up| 
+LRI1MB|PE2.4101.pppoe4041|up|up| 
+LRI1MB|PE2.4101.pppoe4043|up|up| 
+LRI1MB|PE2.4101.pppoe4044|up|up| 
+LRI1MB|PE2.4101.pppoe4048|up|up| 
+LRI1MB|PE2.4101.pppoe4051|up|up| 
+LRI1MB|PE2.4101.pppoe4054|up|up| 
+LRI1MB|PE2.4101.pppoe4055|up|up| 
+LRI1MB|PE2.4101.pppoe4057|up|up| 
+LRI1MB|PE3|up|up|HSI_6C6G01
+LRI1MB|PE3.3101|up|up|[TOIP] 6C6G01 HUA 5600T [ADS2]
+LRI1MB|PE3.4101|up|up|[DATOS] 6C6G01 HUA 5600_T [VDS2]
+LRI1MB|PE9|up|up|HSI_LRI51D
+LRI1MB|PE9.20|up|up|VPN-TDATA-BCORIO - ADSL:3822462589 Acc:LRI51D 4/20
+LRI1MB|PE9.2101|up|up|GESTION DSLAM LRI51D
+LRI1MB|PE9.3101|up|up|[TOIP] LRI51D ZTE 9210 [ADS2]
+LRI1MB|PE9.4101|up|up|[DATOS] LRI51D ZTE 9210 [ADS2]
+LRI1MB|PE10|up|up|HSI_LRI81D
+LRI1MB|PE10.2101|up|up|GESTION LRI81D ZTE9210
+LRI1MB|PE10.3101|up|up|[TOIP] LRI81D ZTE 9210 [ADS2]
+LRI1MB|PE10.4101|up|up|[DATOS] LRI81D ZTE 9210 [ADS2]
+LRI1MB|PE11|up|up|HSI_LRI91D
+LRI1MB|PE11.2101|up|up|GESTION LRI91D ZTE9210
+LRI1MB|PE11.3101|up|up|[TOIP] LRI91D ZTE 9210 [ADS2]
+LRI1MB|PE11.4101|up|up|[DATOS] LRI91D ZTE 9210 [ADS2]
+LRI1MB|PE12|up|up|HSI_LRIA1D
+LRI1MB|PE12.2101|up|up|GESTION LRIA1D ZTE9210
+LRI1MB|PE12.3101|up|up|[TOIP] LRIA1D ZTE 9210 [ADS2]
+LRI1MB|PE12.4101|up|up|[DATOS] LRIA1D ZTE 9210 [ADS2]
+LRI1MB|PE13|up|up|HSI_LRIB1D
+LRI1MB|PE13.2101|up|up|GESTION LRIB1D ZTE9210
+LRI1MB|PE13.3101|up|up|[TOIP] LRIB1D ZTE 9210 [ADS2]
+LRI1MB|PE13.4101|up|up|[DATOS] LRIB1D ZTE 9210 [ADS2]
+LRI1MB|PE15|up|up|HSI_LRIM01
+LRI1MB|PE15.2101|up|up|GESTION LRIM01 ALU7302
+LRI1MB|PE15.3101|up|up|[TOIP] LRIM01 ALU 7302 [ADS2]
+LRI1MB|PE15.4101|up|up|[DATOS] LRIM01 ALC 7302 [VDS2]
+LRI1MB|PE16|up|up|HSI_6JVG01
+LRI1MB|PE16.3101|up|up|[TOIP] 6JVG01 HUA 5600T [ADS2]
+LRI1MB|PE16.4101|up|up|[DATOS] 6JVG01 HUA 5600_T [VDS2]
+LRI1MB|PE17|up|up|HSI_MIN21D
+LRI1MB|PE17.2101|up|up|GESTION MIN21D ZTE9800
+LRI1MB|PE17.3101|up|up|[TOIP] MIN21D ZTE 9800 [ADS2]
+LRI1MB|PE17.4101|up|up|[DATOS] MIN21D ZTE 9800 [ADS2]
+LRI1MB|PE20|up|up|HSI_LN211D
+LRI1MB|PE20.2101|up|up|LN211D VPN-GESTION-ADSL ZTE9210
+LRI1MB|PE20.3101|up|up|[TOIP] LN211D ZTE 9210 [ADS2]
+LRI1MB|PE20.4101|up|up|[DATOS] LN211D ZTE 9210 [ADS2]
+LRI1MB|PE22|up|up|HSI_LRI71D
+LRI1MB|PE22.2101|up|up|GESTION LRI71D ZTE9800
+LRI1MB|PE22.3101|up|up|[TOIP] LRI71D ZTE 9800 [ADS2]
+LRI1MB|PE22.4101|up|up|[DATOS] LRI71D ZTE 9800 [ADS2]
+LRI1MB|PE24|up|up|HSI_LQB11D
+LRI1MB|PE24.2101|up|up|GESTION LQB11D HW5100
+LRI1MB|PE24.4101|up|up|[DATOS] LQB11D HUA 5100 [ADSL]
+LRI1MB|PE25|up|up|HSI_LRI61D
+LRI1MB|PE25.2101|up|up|GESTION LRI61D ZTE9210
+LRI1MB|PE25.3101|up|up|[TOIP] LRI61D ZTE 9210 [ADS2]
+LRI1MB|PE25.4101|up|up|[DATOS] LRI61D ZTE 9210 [ADS2]
+LRI1MB|PE25.4101.pppoe112|up|up| 
+LRI1MB|PE25.4101.pppoe128|up|up| 
+LRI1MB|PE25.4101.pppoe249|up|up| 
+LRI1MB|PE25.4101.pppoe256|up|up| 
+LRI1MB|PE25.4101.pppoe257|up|up| 
+LRI1MB|PE25.4101.pppoe281|up|up| 
+LRI1MB|PE25.4101.pppoe308|up|up| 
+LRI1MB|PE25.4101.pppoe356|up|up| 
+LRI1MB|PE25.4101.pppoe409|up|up| 
+LRI1MB|PE25.4101.pppoe481|up|up| 
+LRI1MB|PE25.4101.pppoe500|up|up| 
+LRI1MB|PE25.4101.pppoe562|up|up| 
+LRI1MB|PE25.4101.pppoe567|up|up| 
+LRI1MB|PE25.4101.pppoe583|up|up| 
+LRI1MB|PE25.4101.pppoe586|up|up| 
+LRI1MB|PE25.4101.pppoe651|up|up| 
+LRI1MB|PE25.4101.pppoe659|up|up| 
+LRI1MB|PE25.4101.pppoe702|up|up| 
+LRI1MB|PE25.4101.pppoe703|up|up| 
+LRI1MB|PE25.4101.pppoe710|up|up| 
+LRI1MB|PE25.4101.pppoe712|up|up| 
+LRI1MB|PE25.4101.pppoe713|up|up| 
+LRI1MB|PE25.4101.pppoe714|up|up| 
+LRI1MB|PE25.4101.pppoe720|up|up| 
+LRI1MB|PE25.4101.pppoe735|up|up| 
+LRI1MB|PE25.4101.pppoe759|up|up| 
+LRI1MB|PE25.4101.pppoe775|up|up| 
+LRI1MB|PE25.4101.pppoe838|up|up| 
+LRI1MB|PE25.4101.pppoe844|up|up| 
+LRI1MB|PE25.4101.pppoe845|up|up| 
+LRI1MB|PE25.4101.pppoe847|up|up| 
+LRI1MB|PE25.4101.pppoe849|up|up| 
+LRI1MB|PE25.4101.pppoe850|up|up| 
+LRI1MB|PE25.4101.pppoe852|up|up| 
+LRI1MB|PE25.4101.pppoe857|up|up| 
+LRI1MB|PE25.4101.pppoe868|up|up| 
+LRI1MB|PE25.4101.pppoe873|up|up| 
+LRI1MB|PE25.4101.pppoe876|up|up| 
+LRI1MB|PE25.4101.pppoe879|up|up| 
+LRI1MB|PE25.4101.pppoe891|up|up| 
+LRI1MB|PE25.4101.pppoe902|up|up| 
+LRI1MB|PE25.4101.pppoe930|up|up| 
+LRI1MB|PE25.4101.pppoe960|up|up| 
+LRI1MB|PE25.4101.pppoe969|up|up| 
+LRI1MB|PE25.4101.pppoe970|up|up| 
+LRI1MB|PE25.4101.pppoe977|up|up| 
+LRI1MB|PE25.4101.pppoe991|up|up| 
+LRI1MB|PE35|up|up|HSI_LN2M01
+LRI1MB|PE35.2101|up|up|[GESTION] LN2M01 HUA 5600T [GPON]
+LRI1MB|PE35.3101|up|up|[TOIP] LN2M01 HUA 5600T [GPON]
+LRI1MB|PE36|up|up|HSI_LN2M01_01
+LRI1MB|PE36.4101|up|up|[DATOS] LN2M01 11 HUA 5600_T [GPON]
+LRI1MB|PE37|up|up|HSI_LN2M01_02
+LRI1MB|PE37.4101|up|up|[DATOS] LN2M01 12 HUA 5600_T [GPON]
+LRI1MB|PE38|up|up|HSI_LN2M01_03
+LRI1MB|PE38.4101|up|up|[DATOS] LN2M01 13 HUA 5600_T [GPON]
+LRI1MB|PE49|up|up|HSI_LRIC1D
+LRI1MB|PE49.2101|up|up|GESTION LRIC1D ZTE9210
+LRI1MB|PE49.3101|up|up|[TOIP] LRIC1D ZTE 9210 [ADS2]
+LRI1MB|PE49.4101|up|up|[DATOS] LRIC1D ZTE 9210 [ADS2]
+LRI1MB|PE50|up|up|HSI_LRID1D
+LRI1MB|PE50.2101|up|up|GESTION LRID1D ZTE9210
+LRI1MB|PE50.3101|up|up|[TOIP] LRID1D ZTE 9210 [ADS2]
+LRI1MB|PE50.4101|up|up|[DATOS] LRID1D ZTE 9210 [ADS2]
+LRI1MB|PE51|up|up|HSI_LRIE1D
+LRI1MB|PE51.2101|up|up|GESTION LRIE1D ZTE 9210
+LRI1MB|PE51.3101|up|up|[TOIP] LRIE1D ZTE 9210 [ADS2]
+LRI1MB|PE51.4101|up|up|[DATOS] LRIE1D ZTE 9210 [ADS2+]
+LRI1MB|PE52|up|up|HSI_LRIF1D
+LRI1MB|PE52.2101|up|up|GESTION LRIF1D ZTE9210
+LRI1MB|PE52.3101|up|up|[TOIP] LRIF1D ZTE 9210 [ADS2]
+LRI1MB|PE52.4101|up|up|[DATOS] LRIF1D ZTE 9210 [ADS2]
+LRI1MB|PE52.4101.pppoe342|up|up| 
+LRI1MB|PE52.4101.pppoe531|up|up| 
+LRI1MB|PE54|up|up|HSI_RJ6G01
+LRI1MB|PE54.4101|up|up|[DATOS] RJ6G01 HUA 5000 [ADS2]
+LRI1MB|PE54.4101.pppoe239|up|up| 
+LRI1MB|PE54.4101.pppoe240|up|up| 
+LRI1MB|PE54.4101.pppoe267|up|up| 
+LRI1MB|PE54.4101.pppoe277|up|up| 
+LRI1MB|PE54.4101.pppoe360|up|up| 
+LRI1MB|PE54.4101.pppoe398|up|up| 
+LRI1MB|PE54.4101.pppoe403|up|up| 
+LRI1MB|PE54.4101.pppoe459|up|up| 
+LRI1MB|PE54.4101.pppoe510|up|up| 
+LRI1MB|PE54.4101.pppoe515|up|up| 
+LRI1MB|PE54.4101.pppoe516|up|up| 
+LRI1MB|PE54.4101.pppoe531|up|up| 
+LRI1MB|PE54.4101.pppoe597|up|up| 
+LRI1MB|PE54.4101.pppoe635|up|up| 
+LRI1MB|PE54.4101.pppoe637|up|up| 
+LRI1MB|PE54.4101.pppoe638|up|up| 
+LRI1MB|PE54.4101.pppoe733|up|up| 
+LRI1MB|PE54.4101.pppoe737|up|up| 
+LRI1MB|PE54.4101.pppoe792|up|up| 
+LRI1MB|PE54.4101.pppoe799|up|up| 
+LRI1MB|PE54.4101.pppoe881|up|up| 
+LRI1MB|PE54.4101.pppoe956|up|up| 
+LRI1MB|PE54.4101.pppoe966|up|up| 
+LRI1MB|PE58|up|up|HSI_LAMM01
+LRI1MB|PE58.2101|up|up|[GESTION] LAMM01 ALU7302
+LRI1MB|PE58.3101|up|up|[TOIP] LAMM01 ALU 7302 [ADS2]
+LRI1MB|PE58.4101|up|up|[DATOS] LAMM01 ALU7302
+LRI1MB|PE60|up|up|HSI_LRIR01
+LRI1MB|PE60.2101|up|up|GESTION LRIR01 HUA 5800 LA RIOJA EQ. 4 [GPON]
+LRI1MB|PE60.3101|up|up|[TOIP] LRIR01 HUA 5800 [ADS2]
+LRI1MB|PE60.4101|up|up|DSLAM LRIR01 HUA 5800 LA RIOJA EQ. 4
+LRI1MB|PE61|up|up|HSI_LRIR01_1 
+LRI1MB|PE61.4101|up|up|DSLAM   LRIR01 HUA 5800 LA RIOJA EQ. 4
+LRI1MB|PE62|up|up|HSI_ LRIR01_2
+LRI1MB|PE62.4101|up|up|DSLAM LRIR01 HUA 5800 LA RIOJA EQ. 4
+LRI1MB|PE63|up|up|HSI_ LRIR01_3
+LRI1MB|PE63.4101|up|up|DSLAM  LRIR01 HUA 5800 LA RIOJA EQ. 4
+LRI1MB|PE64|up|up|HSI_VDSM01
+LRI1MB|PE64.2101|up|up|[GESTION] VDSM01 ALC 7302 - L: 13002195
+LRI1MB|PE64.3101|up|up|[TOIP] VDSM01 ALC 7302 [ADS2]
+LRI1MB|PE64.4101|up|up|[DATOS] VDSM01 ALC 7302 - L: 13002195
+LRI1MB|PE64.4101.pppoe14|up|up| 
+LRI1MB|PE64.4101.pppoe189|up|up| 
+LRI1MB|PE64.4101.pppoe763|up|up| 
+LRI1MB|PE64.4101.pppoe764|up|up| 
+LRI1MB|PE64.4101.pppoe766|up|up| 
+LRI1MB|PE64.4101.pppoe767|up|up| 
+LRI1MB|PE66|up|up|HSI_TIG11D
+LRI1MB|PE66.2101|up|up|[GESTION] TIG11D ZTE9800[ADS2]
+LRI1MB|PE66.4101|up|up|[DATOS] TIG11D ZTE9800 [ADS2][L2]
+LRI1MB|PE68|up|up|HSI_CHI51D
+LRI1MB|PE68.2101|up|up|GESTION CHI51D HUA 5100
+LRI1MB|PE68.4101|up|up|[DATOS] CHI51D HUA 5100 [ADS]
+LRI1MB|PE69|up|up|HSI_CHI31D
+LRI1MB|PE69.2101|up|up|GESTION CHI31D HW5600
+LRI1MB|PE69.3101|up|up|[TOIP] CHI31D HUA 5600 [ADS2]
+LRI1MB|PE69.4101|up|up|DSLAM CHI31D HW5600
+LRI1MB|PE70|up|up|HSI_BBWG01
+LRI1MB|PE70.4101|up|up|[DATOS] BBWG01 UA5000 [ADS2]
+LRI1MB|PE71|up|up|HSI_RW1G01
+LRI1MB|PE71.4101|up|up|[DATOS] RW1G01 HUA 5000 [ADS2]
+LRI1MB|PE72|up|up|HSI_FD4G01
+LRI1MB|PE72.4101|up|up|[DATOS] FD4G01 HUA 5000 [ADS2]
+LRI1MB|PE73|up|up|HSI_RJ5G01
+LRI1MB|PE73.4101|up|up|[DATOS] RJ5G01 UA5000 [ADS2]
+LRI1MB|PE74|up|up|HSI_FD2G01 - FD3G01
+LRI1MB|PE74.3101|up|up|[TOIP] FD2G01 HUA 5000 [ADS2]
+LRI1MB|PE74.4101|up|up|[DATOS] FD2G01 - FD3G01 HUA 5000 [ADS2]
+LRI1MB|PE75|up|up|HSI C3NG01
+LRI1MB|PE75.3101|up|up|[TOIP] C3NG01 ZTE 5200 [ADS2]
+LRI1MB|PE75.4101|up|up|[DATOS]  C3NG01 ZTE 5200 [ADS2]
+LRI1MB|PE76|up|up|HSI_BFVG01
+LRI1MB|PE76.4101|up|up|[DATOS] BFVG01 HUA 5000 [ADS2]
+LRI1MB|PE77|up|up|HSI_TMOG01
+LRI1MB|PE77.4101|up|up|[DATOS] TMOG01 HUA 5000 [ADS2]
+LRI1MB|PE78|up|up|HSI_FDVG01
+LRI1MB|PE78.4101|up|up|[DATOS] FDVG01 HUA 5000 - 9702077[ADS2]
+LRI1MB|PE79|up|up|HSI_FS2G01
+LRI1MB|PE79.3101|up|up|[TOIP] FS2G01 HUA 5000 [ADS2]
+LRI1MB|PE79.4101|up|up|[DATOS] FS2G01 HUA 5000 - 13000695[ADS2]
+LRI1MB|PE80|up|up|HSI_RW2G01
+LRI1MB|PE80.4101|up|up|[DATOS] RW2G01 HUA 5000 [ADS2]
+LRI1MB|PE81|up|up|HSI_ELJM01
+LRI1MB|PE81.2101|up|up|[GESTION] ELJM01 HUA 5600T [VDSL]
+LRI1MB|PE81.3101|up|up|[TOIP] ELJM01 HUA 5600T [VDSL]
+LRI1MB|PE81.4101|up|up|[DATOS] ELJM01 HUA 5600T [VDSL]
+LRI1MB|PE81.4101.pppoe407|up|up| 
+LRI1MB|PE81.4101.pppoe420|up|up| 
+LRI1MB|PE81.4101.pppoe428|up|up| 
+LRI1MB|PE82|up|up|HSI_MLZM01
+LRI1MB|PE82.2101|up|up|[GESTION] MLZM01 HUA 5600T [ADSL] 11005587
+LRI1MB|PE82.3101|up|up|[TOIP] MLZM01 HUA 5600T [ADSL]
+LRI1MB|PE82.4101|up|up|[DATOS] MLZM01 HUA 5600T [ADSL] 11005587
+LRI1MB|PE82.4101.pppoe103|up|up| 
+LRI1MB|PE82.4101.pppoe104|up|up| 
+LRI1MB|PE82.4101.pppoe105|up|up| 
+LRI1MB|PE84|up|up|HSI_CXPM01
+LRI1MB|PE84.2101|up|up|GESTION CXPM01 HW5600T
+LRI1MB|PE84.3101|up|up|[TOIP] CXPM01 HUA 5600T [VDSL]
+LRI1MB|PE84.4101|up|up|[DATOS] CXPM01 HUA 5600_T [VDS2]
+LRI1MB|PE86|up|up|HSI_VUNM01
+LRI1MB|PE86.2101|up|up|GESTION VUNM01 MA5603
+LRI1MB|PE86.3101|up|up|[TOIP] VUNM01 HUA 5603 [ADS2]
+LRI1MB|PE86.4101|up|up|VUNM01 MA5603
+LRI1MB|PE86.4101.pppoe105|up|up| 
+LRI1MB|PE86.4101.pppoe106|up|up| 
+LRI1MB|PE86.4101.pppoe108|up|up| 
+LRI1MB|PE87|up|up|HSI_TAMM01
+LRI1MB|PE87.2101|up|up|[GESTION] TAMM01  HUA 5600 [ADSL] 
+LRI1MB|PE87.4101|up|up|[DATOS] TAMM01 HUA 5600 [ADSL]
+LRI1MB|PE92|admin-down|admin-down|HSI_LQB31D
+LRI1MB|PE92.2101|admin-down|admin-down|GESTION LQB31D HW 5600
+LRI1MB|PE92.4101|admin-down|admin-down|[DATOS] LQB31D HUA 5600 [ADS2]
+LRI1MB|PE107|up|up|HSI_FMTM01
+LRI1MB|PE107.2101|up|up|GESTION FMTM01 HUA 5000
+LRI1MB|PE107.4101|up|up|[DATOS] FMTM01 HUA 5000 [ADS]
+LRI1MB|PE110|up|up|HSI_VCIM01
+LRI1MB|PE110.2101|up|up|GESTION VCIM01 HUA MA5600T 11005605
+LRI1MB|PE110.3101|up|up|[TOIP] VCIM01 HUA 5600T [ADS2]
+LRI1MB|PE110.4101|up|up|[DATOS] VCIM01 HUA MA5600T [ADS] 11005605
+LRI1MB|PE111|up|up|PRESURIZACION VILLA UNION - REF:943618
+LRI1MB|PE111.2|up|up|PRESURIZACION VILLA UNION - REF:943618
+LRI1MB|Mg0/RSP0/CPU0/0|admin-down|admin-down| 
+LRI1MB|Mg0/RSP0/CPU0/1|admin-down|admin-down| 
+LRI1MB|PT0/RSP0/CPU0/0|admin-down|admin-down| 
+LRI1MB|Mg0/RSP1/CPU0/0|admin-down|admin-down| 
+LRI1MB|Mg0/RSP1/CPU0/1|admin-down|admin-down| 
+LRI1MB|PT0/RSP1/CPU0/0|admin-down|admin-down| 
+LRI1MB|Te0/0/0/0|admin-down|admin-down|Enlace 10G NN A COE1NA Te0/10/0/11 (Linea:13001880) - UPLINK BBIP
+LRI1MB|Te0/0/0/1|admin-down|admin-down|HAIRPINNIG 1 HSI IN (Linea:13001953) - IN
+LRI1MB|Te0/0/0/2|admin-down|admin-down|HAIRPINNIG 1 HSI OUT (Linea:13001953) - OUT
+LRI1MB|Te0/0/0/3|up|up|Enlace 10G FO LRI3MU_G1/0/0 (Linea:11001931) - UPLINK AGN
+LRI1MB|Te0/0/1/0|admin-down|admin-down|Enlace 10G DWDM SEZ1MU_G8/0/0 (Linea:13002092) - UPLINK AGN
+LRI1MB|Te0/0/1/1|up|up|Enlace 10G A 18LRI01_G18/1 (Linea:13001399) Frontera PTN ALU
+LRI1MB|Te0/0/1/2|admin-down|admin-down|Enlace 10G NN A COE1NA Te0/10/0/21 (Linea:13002748) - UPLINK BBIP
+LRI1MB|Te0/0/1/3|admin-down|admin-down|Enlace 10G NN BUA1NA Te0/0/0/0 (Linea:13002750) - UPLINK BBIP
+LRI1MB|Te0/1/0/0|admin-down|admin-down|Enlace 10G NN A SDE1MB Te0/1/0/0 (Linea:13001879) - UPLINK BBIP
+LRI1MB|Te0/1/0/1|up|up|[HRP-CORP]HAIRPINNING CORPORATIVOS L3 - Linea 13001980
+LRI1MB|Te0/1/0/1.60003|up|up|RTP NGSG01 UA5000 NONOGASTA LA RIOJA L.13001857
+LRI1MB|Te0/1/0/1.60004|up|up|IPMB NGSG01 UA5000 NONOGASTA LA RIOJA L.13001857
+LRI1MB|Te0/1/0/1.60005|up|up|PVM NGSG01 UA5000 NONOGASTA LA RIOJA L.13001857
+LRI1MB|Te0/1/0/1.80008|up|up|VPN - SISTEMAS ELECTRONICOS SA - Ref.672930 - Linea 2811184 - Acc:LRI3MU 8/1/4
+LRI1MB|Te0/1/0/1.100002|up|up|[SIGN] PAQG01 HUA 5603_T [NGN]
+LRI1MB|Te0/1/0/1.100003|up|up|[RTP] PAQG01 HUA 5603_T [NGN]
+LRI1MB|Te0/1/0/1.100004|up|up|[GESTION] PAQG01 HUA 5603_T [NGN]
+LRI1MB|Te0/1/0/1.110011|admin-down|admin-down|VPN PLATINUM - LABORATORIOS BAGO S.A. - Ref:674918 Lin:2812262 - Acc:LRI2MU 1/1/15.11
+LRI1MB|Te0/1/0/1.130013|admin-down|admin-down|VPN - Juncadella - Ref: 670802 - Linea: 2809500- Acc:LRI3MU 8/1/6.13
+LRI1MB|Te0/1/0/1.130014|admin-down|admin-down|VPN - Juncadella - Ref: 670802 - Linea: 2809500- Acc:LRI3MU 8/1/6.13 -VPN 4MB
+LRI1MB|Te0/1/0/1.160016|admin-down|admin-down|VPN PLATINUM - INSTITUTO NACIONAL DE VITIVINICULTURA - Ref:675328 - Lin:2812497 - Acc:CHI2MU 1/1/14
+LRI1MB|Te0/1/0/1.170002|admin-down|admin-down|Integra - GISCH LUDWIG - Ref:681673 - Lin:2817824 - Acc:35AIM01 5/1
+LRI1MB|Te0/1/0/1.210002|up|up|SIGN PLLG01 MA5616 PUNTA DE LOS LLANOS L.13001779
+LRI1MB|Te0/1/0/1.210003|up|up|RTP PLLG01 MA5616 PUNTA DE LOS LLANOS L.13001779
+LRI1MB|Te0/1/0/1.210004|up|up|GESTION PLLG01 MA5616 PUNTA DE LOS LLANOS L.13001779
+LRI1MB|Te0/1/0/1.240024|admin-down|admin-down|SPYCHU - Ref:716593 - Lin:2824105
+LRI1MB|Te0/1/0/1.250003|up|up|TIP_TIPCOOPQUINESVDO(2826248)REFE:719085_Acc:VDO1MU.2/0/13_Ges.TECO(TIPTECHNOLOGYVDO)
+LRI1MB|Te0/1/0/1.260026|admin-down|admin-down|VPN - INTA - Ref 715647 - Lin:2823291 - Acc:LRI3MU 4/0/7.26
+LRI1MB|Te0/1/0/1.270003|up|up|SIG+RTP MLZG01 UA5000 MALANZAN - LA RIOJA 13002713
+LRI1MB|Te0/1/0/1.270004|up|up|IPMB MLZG01 UA5000 MALANZAN - LA RIOJA 13002713
+LRI1MB|Te0/1/0/1.270005|up|up|PVM MLZG01 UA5000 MALANZAN - LA RIOJA 13002713
+LRI1MB|Te0/1/0/1.290002|admin-down|admin-down|VPN - INTA - Ref:715655 - Lin:2823305 - SDH:62VUN01/18/04 VPN_8364
+LRI1MB|Te0/1/0/1.300003|up|up|[RTP][SIGN] VGSG01 HUA 5000 [NGN]
+LRI1MB|Te0/1/0/1.300004|up|up|[GESTION][IPMB] VGSG01 HUA 5000 [NGN]
+LRI1MB|Te0/1/0/1.300005|up|up|[GESTION][PVM] VGSG01 HUA 5000 [NGN]
+LRI1MB|Te0/1/0/1.340034|admin-down|admin-down|VPN PLATINUM - UNISOL SA - REF:680798 - LIN:2815271 - ACC:LRI3MU 8/1/7.34
+LRI1MB|Te0/1/0/1.360002|up|up|RTP HUAWEI TAMG01 BARRIO TAMA L 13002975
+LRI1MB|Te0/1/0/1.360003|up|up|RTP HUAWEI TAMG01 BARRIO TAMA L 13002975
+LRI1MB|Te0/1/0/1.360004|up|up|IPMB HUAWEI TAMG01 BARRIO TAMA L 13002975
+LRI1MB|Te0/1/0/1.370002|up|up|SIGN HUAWEI PZCG01 PORTEZUELO_PZCG01 LINEA:13002974
+LRI1MB|Te0/1/0/1.370003|up|up|RTP HUAWEI PZCG01 PORTEZUELO_PZCG01 LINEA:13002974
+LRI1MB|Te0/1/0/1.370004|up|up|IPMB HUAWEI PZCG01 PORTEZUELO_PZCG01 LINEA:13002974
+LRI1MB|Te0/1/0/1.380003|admin-down|admin-down|VPN - INTA - Ref 717534 - Linea 2824709 - Acc:CHI2MU Gi8/1/6
+LRI1MB|Te0/1/0/1.410006|admin-down|admin-down|VPN - Poder Judicial Cba - Ref:713310 - Lin:2821638 - CZE1MU 5/0/9
+LRI1MB|Te0/1/0/1.420008|admin-down|admin-down|Integra Gener.Mediterranea REFE 723513 linea 2827641
+LRI1MB|Te0/1/0/1.460002|up|up|TIP_TIPCEVALLOSCZE(2840738)REFE:751058_Acc:CZE1MU Gi5/0/10.46_Ges.TECO
+LRI1MB|Te0/1/0/1.494001|admin-down|admin-down|L2L_L2LTECHNOLOGYBEL(2847708)REFE:783976_Acc:LRI3MU-4/1/10_Ges.TECO
+LRI1MB|Te0/1/0/1.500002|up|up|[SIGN] FIAG01 HUA 5600_T [NGN]
+LRI1MB|Te0/1/0/1.500003|up|up|[RTP] FIAG01 HUA 5600_T [NGN]
+LRI1MB|Te0/1/0/1.500004|up|up|[GESTION] FIAG01 HUA 5600_T [NGN]
+LRI1MB|Te0/1/0/1.510002|up|up|[SIGN] TIGG01 HUA 5600_T [NGN]
+LRI1MB|Te0/1/0/1.510003|up|up|[RTP] TIGG01 HUA 5600_T [NGN]
+LRI1MB|Te0/1/0/1.510004|up|up|[GESTION] TIGG01 HUA 5600_T [NGN]
+LRI1MB|Te0/1/0/1.520002|up|up|[SIGN] TIGH01 HUA 5600_T [NGN]
+LRI1MB|Te0/1/0/1.520003|up|up|[RTP] TIGH01 HUA 5600_T [NGN]
+LRI1MB|Te0/1/0/1.520004|up|up|[GESTION] TIGH01 HUA 5600_T [NGN]
+LRI1MB|Te0/1/0/1.530002|admin-down|admin-down|VPN PLATINIUM - CORREO DE LA REPUBLICA - Ref:779178 - Linea:2845057 - Acc:LRI3MU G4/1/5
+LRI1MB|Te0/1/0/1.550002|up|up|SIGN LRIT UMG8900 LA RIOJA
+LRI1MB|Te0/1/0/1.550003|up|up|RTP LRIT UMG8900 LA RIOJA
+LRI1MB|Te0/1/0/1.550005|up|up|GESTION NGN LRIT UMG8900 LA RIOJA
+LRI1MB|Te0/1/0/1.1800002|up|up|SIGN. CNWG01 MA5616 CHANIAR CHANAR LA RIOJA L.13001868
+LRI1MB|Te0/1/0/1.1800003|up|up|RTP CNWG01 MA5616 CHANIAR CHANAR LA RIOJA L.13001868
+LRI1MB|Te0/1/0/1.1800004|up|up|GESTION CNWG01 MA5616 CHANIAR CHANAR LA RIOJA L.13001868
+LRI1MB|Te0/1/0/1.3900339|up|up|L2L - RIU REDES DE INTERCONEXION UNIVERSITARIA - REF:732852 - Acc:CHI2MU G8/1/7 GESTION
+LRI1MB|Te0/1/0/1.5454001|up|up|L2LLEVEL3LRI(2834581)REFE:738527_Acc:LRI3MU.4/1/6_Ges.TECO
+LRI1MB|Te0/1/0/1.9800002|up|up|INTEGRA - CV - Universidad Nacional de La Rioja - Ref:534594 - Lin:2812944
+LRI1MB|Te0/1/0/1.12481003|admin-down|admin-down|eNODOB - CANDELARIA - VDO1MU 3/0/12 - A03-D026 - (1) (695079) - 3G
+LRI1MB|Te0/1/0/1.14240003|up|up|TIP_TIPXFCOMUNICACIONESVUN(5664630)REFE:402824_Acc:VUN1MU_0/1/2_Ges.TECO
+LRI1MB|Te0/1/0/1.16440002|admin-down|admin-down|TIP - COOPERATIVA VILLA DOLORES -L:5618196
+LRI1MB|Te0/1/0/1.24330002|admin-down|admin-down|INTEGRA 50M-UNIV CHILECITO-R:198900 L:2715350
+LRI1MB|Te0/1/0/1.25300002|up|up|VPN Head Quarter - INTA - Ref:628031 - Lin:2751595 - acc:1WIO401_IDU/4/3
+LRI1MB|Te0/1/0/1.25500002|admin-down|admin-down|VPN Platinum - INTA - Ref:579860 Lin:2764705 Acc:CHI2MU 1/1/15
+LRI1MB|Te0/1/0/1.25500003|admin-down|admin-down|VPN Platinum - INTA - Ref:579860 Lin:2764705 Acc:CHI2MU 1/1/15
+LRI1MB|Te0/1/0/1.39981000|admin-down|admin-down|eNODOB - CHAMICAL_CENTRO - LRI1MB BE1002 A09-S053 (1) (447584) - S1
+LRI1MB|Te0/1/0/1.39981001|admin-down|admin-down|eNODOB - CHAMICAL_CENTRO - LRI1MB BE1002 A09-S053 (2) (447584) - S1MME
+LRI1MB|Te0/1/0/1.39981002|admin-down|admin-down|eNODOB - CHAMICAL_CENTRO - LRI1MB BE1002 A09-S053 (3) (447584) - GOMRAN
+LRI1MB|Te0/1/0/1.39981003|admin-down|admin-down|eNODOB - CHAMICAL - LRI1MB BE1002 A09-S005 (1) (447633) - S1
+LRI1MB|Te0/1/0/1.39981004|admin-down|admin-down|eNODOB - CHAMICAL - LRI1MB BE1002 A09-S005 (2) (447633) - S1MME
+LRI1MB|Te0/1/0/1.39981005|admin-down|admin-down|eNODOB - CHAMICAL - LRI1MB BE1002 A09-S005 (3) (447633) - GOMRAN
+LRI1MB|Te0/1/0/1.40000003|up|up|[RTP][SIGN] CHMG01 HUA 5000 [NGN]
+LRI1MB|Te0/1/0/1.40000004|up|up|[GESTION][IPMB] CHMG01 HUA 5000 [NGN]
+LRI1MB|Te0/1/0/1.40000005|up|up|[GESTION][PVM] CHMG01 HUA 5000 [NGN]
+LRI1MB|Te0/1/0/2|up|up|HAIRPINNING CORPORATIVOS L2 - Linea 13001980
+LRI1MB|Te0/1/0/2.5|admin-down|admin-down| 
+LRI1MB|Te0/1/0/2.6|up|up|Uplink NGN_NGSG01 - Te0/1/0/20
+LRI1MB|Te0/1/0/2.10|up|up|Uplink NGN_PAQG01 - HAIRPINNING CORPORATIVOS L2
+LRI1MB|Te0/1/0/2.18|up|up|Uplink NGN_CNWG01
+LRI1MB|Te0/1/0/2.21|up|up|Uplink NGN_PLLG01
+LRI1MB|Te0/1/0/2.27|up|up|Uplink NGN MLZG01 - HPINNING CORP L2
+LRI1MB|Te0/1/0/2.28|up|up| 
+LRI1MB|Te0/1/0/2.30|up|up|Uplink NGN_VGSG01
+LRI1MB|Te0/1/0/2.34|up|up|VPN PLATINUM - UNISOL SA - REF:680798 - LIN:2815271 - ACC:LRI3MU 8/1/7.34
+LRI1MB|Te0/1/0/2.36|up|up|Uplink NGN_TAMG01
+LRI1MB|Te0/1/0/2.37|up|up|Uplink NGN_PZCG01
+LRI1MB|Te0/1/0/2.39|up|up|TLS - RIU - REF:653622 - Lin:2799695 - HAIRPIRING
+LRI1MB|Te0/1/0/2.42|up|up|UPLINK VPN_8107 REF:723513
+LRI1MB|Te0/1/0/2.48|up|up|eNODOB ESTACION_CRUZ_DEL_EJE - CZE1MU (447615) (518662) (522647) - CZE1MU 6/0/4
+LRI1MB|Te0/1/0/2.50|up|up|Uplink NGN_FIAG0101
+LRI1MB|Te0/1/0/2.51|up|up|Uplink NGN_TIGG01
+LRI1MB|Te0/1/0/2.52|up|up|Uplink NGN_TIGH01
+LRI1MB|Te0/1/0/2.55|up|up|Uplink NGN_LRIT
+LRI1MB|Te0/1/0/2.120|up|up|Uplink VDSLCORP LN2M01 HUA 5600T
+LRI1MB|Te0/1/0/2.545|up|up|L2LLEVEL3LRI(2834581)REFE:738527
+LRI1MB|Te0/1/0/2.980|up|up|Uplink ICORP_46400_980- HAIRPINNING
+LRI1MB|Te0/1/0/2.1050|up|up|eNODOB QUINES - VDO1MU (694230) - A35-D010
+LRI1MB|Te0/1/0/2.1203|up|up|Uplink - VPN_16306_1203 - HAIRPINNING
+LRI1MB|Te0/1/0/2.1248|up|up|eNODOB CANDELARIA - VDO1MU (695079)
+LRI1MB|Te0/1/0/2.1424|up|up|Uplink ICORP_21478_1424 HAIRPINNING
+LRI1MB|Te0/1/0/2.1501|up|up|Uplink ICORP_93373_1501 HAIRPINNING
+LRI1MB|Te0/1/0/2.2433|up|up|Uplink ICORP_4857 - INTEGRA-UNIV CHILECITO- L:2715350
+LRI1MB|Te0/1/0/2.2530|up|up|Uplink VPN_16306_2530 - HAIRPINNING
+LRI1MB|Te0/1/0/2.2533|up|up|Uplink ELAN_9400_3213 - HAIRPINNING OUT
+LRI1MB|Te0/1/0/2.3880|admin-down|admin-down| 
+LRI1MB|Te0/1/0/2.3881|admin-down|admin-down| 
+LRI1MB|Te0/1/0/2.3998|up|up|Uplink VPN_LTE_A09-S053-S005 - HAIRPINNING
+LRI1MB|Te0/1/0/2.3999|up|up|Uplink VPN_3000022102_960 - Bundle-Ether1002
+LRI1MB|Te0/1/0/2.4000|up|up|Acceso NGN_CHMG01
+LRI1MB|Te0/1/0/2.80008|up|up|VPN - SISTEMAS ELECTRONICOS SA - Ref.672930 - Linea 2811184 - Acc:LRI3MU 8/1/4.8
+LRI1MB|Te0/1/0/2.110011|up|up|VPN PLATINUM - LABORATORIOS BAGO S.A. - Ref:674918 Lin:2812262 - Acc:LRI2MU 1/1/15.11
+LRI1MB|Te0/1/0/2.130013|up|up|VPN - juncadella - Ref: 670802- Linea: 2809500- Acc: LRI3MU 8/1/6
+LRI1MB|Te0/1/0/2.160016|up|up|VPN PLATINUM - INSTITUTO NACIONAL DE VITIVINICULTURA - Ref:675328 - Lin:2812497 - Acc:CHI2MU 1/1/14
+LRI1MB|Te0/1/0/2.170002|up|up|Integra - GISCH LUDWIG - Ref:681673 - Lin:2817824 - Acc:35AIM01 5/1
+LRI1MB|Te0/1/0/2.240024|up|up|SPYCHU - Ref:716593 - Lin:2824105
+LRI1MB|Te0/1/0/2.250003|up|up|TIP_TIPCOOPQUINESVDO(2826248)REFE:719085
+LRI1MB|Te0/1/0/2.260026|up|up|VPN - INTA - Ref 715647 - Lin:2823291 - Acc:LRI3MU 4/0/7.26
+LRI1MB|Te0/1/0/2.290002|up|up|VPN - INTA - Ref:715655 - Lin:2823305 - SDH:62VUN01/18/04 VPN_8364
+LRI1MB|Te0/1/0/2.380003|up|up|VPN - INTA - Ref 717534 - Linea 2824709 - Acc:CHI2MU Gi8/1/6
+LRI1MB|Te0/1/0/2.410006|admin-down|admin-down|Uplink VPN - Poder Judicial Cba - Ref:713310 - Lin:2821638 - CZE1MU 5/0/9
+LRI1MB|Te0/1/0/2.460002|up|up|TIP_TIPCEVALLOSCZE(2840738)REFE:751058
+LRI1MB|Te0/1/0/2.494001|up|up|L2L_L2LTECHNOLOGYBEL(2847708)REFE:783976
+LRI1MB|Te0/1/0/2.530002|up|up|VPN PLATINIUM - CORREO DE LA REPUBLICA - Ref:779178 - Linea:2845057 - HAIRPIRING
+LRI1MB|Te0/1/0/2.5444000|up|up|L2LLEVEL3LCR(2837472)REFE:743508
+LRI1MB|Te0/1/0/2.16440002|up|up|TIP - COOPERATIVA VILLA DOLORES -L:5618196
+LRI1MB|Te0/1/0/2.16920002|up|up|TIP - COOPERATIVA TELEFONICA OTROS - Ref:356884 Linea:5622224 Acc:VDO1MU 2/0/13
+LRI1MB|Te0/1/0/2.25500000|up|up|VPN Platinum - INTA - Ref:579860 Lin:2764705
+LRI1MB|Te0/1/0/3|up|up|Enlace 10G A 18LRI01_G17/1 (Linea:13001938) Frontera PTN ALU
+LRI1MB|Te0/1/1/0|up|up|Enlace 10G FO LRI3MU_G8/0/0 (Linea:13001932) - UPLINK AGN
+LRI1MB|Te0/1/1/1|admin-down|admin-down|Enlace 10G NN BUA1NA Te0/0/0/1 (Linea:13002751) - UPLINK BBIP
+LRI1MB|Te0/1/1/1.1600002|admin-down|admin-down|TIP - COOPERATIVA VILLA DOLORES -L:5618196 VOLCADO a COE1MB# Te0/1/1/1.1600002
+LRI1MB|Te0/1/1/2|admin-down|admin-down| 
+LRI1MB|Te0/1/1/3|admin-down|admin-down|ENLACE 10G A COE1NA Te0/10/0/14 (Linea:13002749) - UPLINK BBIP
+LRI1MB|Gi0/2/0/0|down|down|VPN PLATINUM - BANCO MACRO SA - REF:938642 - LINEA:2868563 - ACC: LRI1MB 0/2/0/0
+LRI1MB|Gi0/2/0/1|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/2|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/3|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/4|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/5|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/6|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/7|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/8|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/9|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/10|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/11|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/12|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/13|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/14|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/15|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/16|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/17|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/18|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/19|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/20|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/21|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/22|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/23|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/24|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/25|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/26|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/27|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/28|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/29|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/30|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/31|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/32|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/33|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/34|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/35|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/36|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/37|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/38|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/39|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/40|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/41|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/42|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/43|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/44|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/45|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/46|admin-down|admin-down| 
+LRI1MB|Gi0/2/0/47|admin-down|admin-down| 
+LRI1MB|Hu0/4/0/0|up|up|Enlace 100G a BUA1NA Hu0/18/0/6 (Linea:13007076) - UPLINK BBIP
+LRI1MB|Hu0/4/0/1|down|down| 
+LRI1MB|Te0/4/1/0|admin-down|admin-down| 
+LRI1MB|Te0/4/1/1|up|up|Enlace 10G FO LRI3MU_G3/0/4 (Linea:13006605) - UPLINK AGN
+LRI1MB|Te0/4/1/2|up|up|Enlace 10G FO LRI3MU_G3/0/5 (Linea:13006606) - UPLINK AGN
+LRI1MB|Te0/4/1/3|up|up|Enlace 10G FO LRI3MU_G8/0/1 (Linea:13007280) - UPLINK AGN
+LRI1MB|Te0/4/1/4|admin-down|admin-down| 
+LRI1MB|Te0/4/1/5|admin-down|admin-down| 
+LRI1MB|Te0/4/1/6|up|up|[ACCESO HSI][BE] LRIO01 - Linea 13005147
+LRI1MB|Te0/4/1/7|up|up|[ACCESO HSI][BE] LQBM01 - Linea 13005146
+LRI1MB|Te0/4/1/8|admin-down|admin-down| 
+LRI1MB|Te0/4/1/9|admin-down|admin-down| 
+LRI1MB|Te0/4/1/10|admin-down|admin-down| 
+LRI1MB|Te0/4/1/11|admin-down|admin-down| 
+LRI1MB|Te0/4/1/12|admin-down|admin-down| 
+LRI1MB|Te0/4/1/13|admin-down|admin-down| 
+LRI1MB|Te0/4/1/14|admin-down|admin-down| 
+LRI1MB|Te0/4/1/15|admin-down|admin-down| 
+LRI1MB|Te0/4/1/16|admin-down|admin-down| 
+LRI1MB|Te0/4/1/17|admin-down|admin-down| 
+LRI1MB|Te0/4/1/18|admin-down|admin-down| 
+LRI1MB|Te0/4/1/19|admin-down|admin-down| 
+LRI1MB|Hu0/5/0/0|up|up|Enlace 100G a COE1NA Hu0/15/0/5 (Linea:13007077) - UPLINK BBIP
+LRI1MB|Hu0/5/0/1|down|down| 
+LRI1MB|Te0/5/1/0|up|up|Enlace 10G FO LRI3MU_G2/0/9 (Linea:13007281) - UPLINK AGN
+LRI1MB|Te0/5/1/1|admin-down|admin-down| 
+LRI1MB|Te0/5/1/2|admin-down|admin-down| 
+LRI1MB|Te0/5/1/3|up|up|HAIRPINNIG 1 HSI IN (Linea:7001003) - IN
+LRI1MB|Te0/5/1/4|up|up|HAIRPINNIG 1 HSI OUT (Linea:7001003) - OUT
+LRI1MB|Te0/5/1/5|up|up|HAIRPINNIG 1 HSI IN (Linea:7001003) - IN
+LRI1MB|Te0/5/1/6|up|up|HAIRPINNIG 1 HSI OUT (Linea:7001003) - OUT
+LRI1MB|Te0/5/1/7|up|up|[ACCESO HSI][BE] LRIP01 - Linea 13005258
+LRI1MB|Te0/5/1/8|up|up|[ACCESO HSI][BE] LRIQ01 - Linea 13005259
+LRI1MB|Te0/5/1/9|admin-down|admin-down| 
+LRI1MB|Te0/5/1/10|admin-down|admin-down| 
+LRI1MB|Te0/5/1/11|up|up|TIPGOBLARIOJALRI_SEC(2795202)REF:646694_F.O.Faldeo144.Pelos97/98
+LRI1MB|Te0/5/1/12|up|up|TIPGOBLARIOJALRI_SEC(2849242)REF:646694_F.O.Faldeo144.Pelos13/14
+LRI1MB|Te0/5/1/13|admin-down|admin-down| 
+LRI1MB|Te0/5/1/14|admin-down|admin-down| 
+LRI1MB|Te0/5/1/15|admin-down|admin-down| 
+LRI1MB|Te0/5/1/16|admin-down|admin-down| 
+LRI1MB|Te0/5/1/17|admin-down|admin-down| 
+LRI1MB|Te0/5/1/18|admin-down|admin-down| 
+LRI1MB|Te0/5/1/19|admin-down|admin-down| 
+LRI1MB|Te0/6/0/0|admin-down|admin-down| 
+LRI1MB|Te0/6/0/1|admin-down|admin-down| 
+LRI1MB|Te0/6/0/2|up|up|TIPGOBLARIOJA(5666158)REF:402836F.O.Faldeo48.Pelos45/46
+LRI1MB|Te0/6/0/3|up|up|TIPGOBLARIOJA(5666159)REF:402836_F.O.Faldeo144.Pelos101/102
+LRI1MB|Te0/6/0/4|down|down|TIPGOBLARIOJA()REF:402836
+LRI1MB|Te0/6/0/5|down|down| 
+LRI1MB|Te0/6/0/6|down|down|INTEGRA - OSPRERA - REF: 946024 - LINEA: 2869549 - ACC: LRI1MB 0/6/0/6
+LRI1MB|Te0/6/0/7|down|down|INTEGRA - EDELAR S.A. - REF: 949078 - LINEA: 2768079
+LRI1MB|Te0/6/0/7.2|down|down|INTEGRA - EDELAR S.A. - REF: 949078 - LINEA: 2768079 - ACC: TenGigE0/6/0/7
+LRI1MB|Te0/6/0/8|admin-down|admin-down| 
+LRI1MB|Te0/6/0/9|admin-down|admin-down| 
+LRI1MB|Te0/6/0/10|admin-down|admin-down| 
+LRI1MB|Te0/6/0/11|admin-down|admin-down| 
+LRI1MB|Te0/6/0/12|admin-down|admin-down| 
+LRI1MB|Te0/6/0/13|admin-down|admin-down| 
+LRI1MB|Te0/6/0/14|admin-down|admin-down| 
+LRI1MB|Te0/6/0/15|admin-down|admin-down| 
+LRI1MB|Te0/6/0/16|admin-down|admin-down| 
+LRI1MB|Te0/6/0/17|admin-down|admin-down| 
+LRI1MB|Te0/6/0/18|admin-down|admin-down| 
+LRI1MB|Te0/6/0/19|admin-down|admin-down| 
+LRI1MB|Te0/6/0/20|admin-down|admin-down| 
+LRI1MB|Te0/6/0/21|admin-down|admin-down| 
+LRI1MB|Te0/6/0/22|admin-down|admin-down| 
+LRI1MB|Te0/6/0/23|admin-down|admin-down| 
+LRI1MB|Te0/6/0/24|admin-down|admin-down| 
+LRI1MB|Te0/6/0/25|admin-down|admin-down| 
+LRI1MB|Te0/6/0/26|admin-down|admin-down| 
+LRI1MB|Te0/6/0/27|admin-down|admin-down| 
+LRI1MB|Te0/6/0/28|admin-down|admin-down| 
+LRI1MB|Te0/6/0/29|admin-down|admin-down| 
+LRI1MB|Te0/6/0/30|admin-down|admin-down| 
+LRI1MB|Te0/6/0/31|admin-down|admin-down| 
+LRI1MB|Te0/6/0/32|admin-down|admin-down| 
+LRI1MB|Te0/6/0/33|admin-down|admin-down| 
+LRI1MB|Te0/6/0/34|admin-down|admin-down| 
+LRI1MB|Te0/6/0/35|admin-down|admin-down| 
+LRI1MB|Te0/6/0/36|admin-down|admin-down| 
+LRI1MB|Te0/6/0/37|admin-down|admin-down| 
+LRI1MB|Te0/6/0/38|admin-down|admin-down| 
+LRI1MB|Te0/6/0/39|admin-down|admin-down| 
+LRI1MB|Te0/6/0/40|admin-down|admin-down| 
+LRI1MB|Te0/6/0/41|admin-down|admin-down| 
+LRI1MB|Te0/6/0/42|admin-down|admin-down| 
+LRI1MB|Te0/6/0/43|admin-down|admin-down| 
+LRI1MB|Te0/6/0/44|admin-down|admin-down| 
+LRI1MB|Te0/6/0/45|admin-down|admin-down| 
+LRI1MB|Te0/6/0/46|admin-down|admin-down| 
+LRI1MB|Te0/6/0/47|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/0|up|up|[VPN PLATINUM_BANCO PATAGONIA S.A._REF: 938264_LIN: ]
+LRI1MB|Gi0/7/0/0.2|up|up|[VPN PLATINUM_BANCO PATAGONIA S.A._REF: 938264_LIN: ]
+LRI1MB|Gi0/7/0/1|up|up|VPN PLATINUM_AFIP_REF: 945524_LIN: 2869315
+LRI1MB|Gi0/7/0/1.2|up|up|VPN PLATINUM_AFIP_REF: 945524_LIN: 2869315 ACC LRI1MB 0/7/0/1.2
+LRI1MB|Gi0/7/0/1.3|up|up|VPN PLATINUM_GESTION_AFIP_REF: 945524_LIN: 2869315 ACC LRI1MB 0/7/0/1.3
+LRI1MB|Gi0/7/0/2|up|up|INTEGRA - OSPRERA - REF: 946024 - LINEA: 2869549 - ACC: LRI1MB 0/7/0/2
+LRI1MB|Gi0/7/0/2.2|up|up|INTEGRA - OSPRERA - REF: 946024 - LINEA: 2869549 - ACC: LRI1MB 0/7/0/2
+LRI1MB|Gi0/7/0/3|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/4|down|down|VPN PLATINUM - CENCOSUD SA - REF: 947564 - LINEA: 2870506 - ACC: LRI1MB 0/7/0/4
+LRI1MB|Gi0/7/0/4.4|down|down|VPN PLATINUM - CENCOSUD SA - REF: 947564 - LINEA: 2870506 - ACC: LRI1MB 0/7/0/4
+LRI1MB|Gi0/7/0/5|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/6|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/7|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/8|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/9|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/10|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/11|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/12|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/13|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/14|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/15|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/16|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/17|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/18|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/19|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/20|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/21|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/22|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/23|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/24|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/25|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/26|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/27|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/28|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/29|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/30|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/31|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/32|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/33|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/34|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/35|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/36|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/37|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/38|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/39|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/40|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/41|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/42|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/43|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/44|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/45|admin-down|admin-down| 
+LRI1MB|Gi0/7/0/46|admin-down|admin-down| 
+
+

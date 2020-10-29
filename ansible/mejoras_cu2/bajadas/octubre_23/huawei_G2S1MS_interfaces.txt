@@ -1,0 +1,38 @@
+shelfname|interface|portoperationalstate|protocol|info1
+G2S1MS|DCN-Serial0/2/0:0|UP|UP|HUAWEI, DCN-Serial0/2/0:0 Interface
+G2S1MS|DCN-Serial0/2/1:0|UP|UP|HUAWEI, DCN-Serial0/2/1:0 Interface
+G2S1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+G2S1MS|GigabitEthernet0/2/0|UP|DOWN|CONEXION A G2Z1MS GigabitEthernet0/2/1.2 REIP SPU1143 - Linea:15008751
+G2S1MS|GigabitEthernet0/2/0.2|UP|UP|HUAWEI, GigabitEthernet0/2/0.2 Interface
+G2S1MS|GigabitEthernet0/2/0.1000|UP|UP|ENLACE A G2Z1MS 0/2/1 - Luminaria AUBASA 23 - (1) (763732) - S1
+G2S1MS|GigabitEthernet0/2/0.1001|UP|UP|ENLACE A G2Z1MS 0/2/1 - Luminaria AUBASA 23 - (2) (763732) - S1MME
+G2S1MS|GigabitEthernet0/2/0.1002|UP|UP|ENLACE A G2Z1MS 0/2/1 - Luminaria AUBASA 23 - (3) (763732) - GOMRAN
+G2S1MS|GigabitEthernet0/2/0.1003|UP|UP|ENLACE A G2Z1MS 0/2/1 - Luminaria AUBASA 23 - (1) (763731) - 3G
+G2S1MS|GigabitEthernet0/2/0.1004|UP|UP|ENLACE A G2Z1MS 0/2/1 - Luminaria AUBASA 23 - (1) (763681) - 2G
+G2S1MS|GigabitEthernet0/2/1|UP|DOWN|HUAWEI, GigabitEthernet0/2/1 Interface
+G2S1MS|GigabitEthernet0/2/1.2|UP|UP|HUAWEI, GigabitEthernet0/2/1.2 Interface
+G2S1MS|GigabitEthernet0/2/1.1000|UP|UP|ENLACE A G2Q1MS 0/2/0- AUBASA LUMINARIA 25 - (1) (767085) - S1
+G2S1MS|GigabitEthernet0/2/1.1001|UP|UP|ENLACE A G2Q1MS 0/2/0- AUBASA LUMINARIA 25 - (2) (767085) - S1MME
+G2S1MS|GigabitEthernet0/2/1.1002|UP|UP|ENLACE A G2Q1MS 0/2/0- AUBASA LUMINARIA 25 - (3) (767085) - GOMRAN
+G2S1MS|GigabitEthernet0/2/1.1003|UP|UP|ENLACE A G2Q1MS 0/2/0- AUBASA LUMINARIA 25 - (1) (767084) - 3G
+G2S1MS|GigabitEthernet0/2/1.1004|UP|UP|ENLACE A G2Q1MS 0/2/0- AUBASA LUMINARIA 25 - (1) (767083)- 2G
+G2S1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+G2S1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+G2S1MS|GigabitEthernet0/2/4|UP|DOWN|eNODOB LUMINARIA_AUBASA_23 - SPU1143 (763732) NODOB (763731) (763681)
+G2S1MS|GigabitEthernet0/2/4.1000|UP|UP|eNODOB - LUMINARIA_AUBASA_23 - SPU1143 - (1) (763732) - S1
+G2S1MS|GigabitEthernet0/2/4.1001|UP|UP|eNODOB - LUMINARIA_AUBASA_23 - SPU1143 - (2) (763732) - S1MME
+G2S1MS|GigabitEthernet0/2/4.1002|UP|UP|eNODOB - LUMINARIA_AUBASA_23 - SPU1143 - (3) (763732) - GOMRAN
+G2S1MS|GigabitEthernet0/2/4.1003|UP|UP|NODOB - LUMINARIA_AUBASA_23 - SPU1143 - (1) (763731) - 3G
+G2S1MS|GigabitEthernet0/2/4.1004|UP|UP|NODOB - LUMINARIA_AUBASA_23 - SPU1143- (1) (763681) - 2G
+G2S1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+G2S1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+G2S1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+G2S1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+G2S1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+G2S1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+G2S1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+G2S1MS|LoopBack0|UP|UP|HUAWEI, LoopBack0 Interface
+G2S1MS|LoopBack1023|UP|UP|DCN loopback interface
+G2S1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+
+

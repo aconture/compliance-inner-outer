@@ -1,0 +1,34 @@
+shelfname|interface|portoperationalstate|protocol|info1
+VPT1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+VPT1MU|GE0/1/0|up|down|CONEXION A 1NVPT01 - Linea:60000664
+VPT1MU|GE0/1/0.1020|up|up|UPLINK A VPI1MU GigabitEthernet0/2/8.1020 1NVPT01 - SDH HUAWEI
+VPT1MU|GE0/1/0.1021|up|up|UPLINK A VPI1MU GigabitEthernet0/2/8.1021 1NVPT01 - 2G
+VPT1MU|GE0/1/0.1022|up|up|UPLINK A VPI1MU GigabitEthernet0/2/8.1022 1NVPT01 - 3G
+VPT1MU|GE0/1/0.1023|up|up|UPLINK A VPI1MU GigabitEthernet0/2/8.1023 1NVPT01 - S1
+VPT1MU|GE0/1/0.1024|up|up|UPLINK A VPI1MU GigabitEthernet0/2/8.1024 1NVPT01 - S1MME
+VPT1MU|GE0/1/0.1025|up|up|UPLINK A VPI1MU GigabitEthernet0/2/8.1025 1NVPT01 - GOMRAN
+VPT1MU|GE0/1/0.1026|up|up|UPLINK A VPI1MU GigabitEthernet0/2/8.1026 1NVPT01 - NGN
+VPT1MU|GE0/1/0.1027|up|up|UPLINK A VPI1MU GigabitEthernet0/2/8.1027 1NVPT01 - POPUSA
+VPT1MU|GE0/1/0.1028|up|up|UPLINK A VPI1MU GigabitEthernet0/2/8.1028 1NVPT01 - DCN-GESTION
+VPT1MU|GE0/1/0.1029|up|up|GESTION VPI1MU GigabitEthernet0/2/8.1029 - Linea:60000664
+VPT1MU|GE0/1/1|down|down|HUAWEI, GigabitEthernet0/1/1 Interface
+VPT1MU|GE0/1/2|down|down|HUAWEI, GigabitEthernet0/1/2 Interface
+VPT1MU|GE0/1/3|down|down|HUAWEI, GigabitEthernet0/1/3 Interface
+VPT1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Interface
+VPT1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Interface
+VPT1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Interface
+VPT1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Interface
+VPT1MU|GE0/2/0|down|down|HUAWEI, GigabitEthernet0/2/0 Interface
+VPT1MU|GE0/2/1|down|down|HUAWEI, GigabitEthernet0/2/1 Interface
+VPT1MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Interface
+VPT1MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Interface
+VPT1MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Interface
+VPT1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Interface
+VPT1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Interface
+VPT1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Interface
+VPT1MU|GE0/3/0|down|down|HUAWEI, GigabitEthernet0/3/0 Interface
+VPT1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Interface
+VPT1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Interface
+VPT1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Interface
+
+

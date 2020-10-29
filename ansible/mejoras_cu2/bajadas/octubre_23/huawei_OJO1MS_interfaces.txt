@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+OJO1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+OJO1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A DWSUM01 - 2BB_19 - ANA2MU Eth-trunk4.1250 Linea.13005005
+OJO1MS|GigabitEthernet0/2/1|UP|UP|Acc VAZQUEZ JULIO RENE S.R.L.REF730787 Linea 2828950
+OJO1MS|GigabitEthernet0/2/2|UP|UP|HYPERWAY HIGH OFFICE - BANCO DE SANTIAGO DEL ESTERO  S.A. - Ref:780751 - Lin:2845997
+OJO1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+OJO1MS|GigabitEthernet0/2/4|DOWN|DOWN|TIP_INTELIGLOBEOJO REFE:918025(2866434)
+OJO1MS|GigabitEthernet0/2/5|UP|UP|VPN PLATINUM - EDESE S.A. - Ref:940438 - Lin:2868207
+OJO1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+OJO1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+OJO1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+OJO1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+OJO1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+OJO1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+OJO1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+OJO1MS|Vlanif1250|UP|UP|VLAN_GESTION_ANA2MU Eth-trunk4.1250 Linea.13005005
+
+

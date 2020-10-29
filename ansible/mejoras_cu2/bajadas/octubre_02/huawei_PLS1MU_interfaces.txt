@@ -1,0 +1,40 @@
+shelfname|interface|portoperationalstate|protocol|info1
+PLS1MU|Eth0/0/0|up|up|HUAWEI, Ethernet0/0/0 Interface
+PLS1MU|GE0/1/0|up|down|CONEXION A RADIO DRAGON WAVE DWPLS02 - 2BB_19/02 - PRS3MU Eth-Trunk9.1217 - Linea.80002211
+PLS1MU|GE0/1/0.1217|up|up|ATN950 PALO SANTO PRS3MU Eth-trunk9.1217 linea 80002211 - GESTION
+PLS1MU|GE0/1/0.1226|up|up|UPLINK A PRS3MU Eth-trunk9.1226 -2G
+PLS1MU|GE0/1/0.1227|up|up|UPLINK A PRS3MU Eth-trunk9.1227 -3G
+PLS1MU|GE0/1/0.1228|up|up|UPLINK A PRS3MU Eth-trunk9.1228 -S1
+PLS1MU|GE0/1/0.1229|up|up|UPLINK A PRS3MU Eth-trunk9.1229 -S1MME
+PLS1MU|GE0/1/0.1230|up|up|UPLINK A PRS3MU Eth-trunk9.1230 -GOMRAN
+PLS1MU|GE0/1/0.1234|up|up|UPLINK A PRS3MU Eth-trunk9.1234 -POPUSA
+PLS1MU|GE0/1/0.1236|up|up|UPLINK A PRS3MU Eth-trunk9.1236 -NGN
+PLS1MU|GE0/1/0.1238|up|up|UPLINK A PRS3MU Eth-trunk9.1238 -DCN-GESTION
+PLS1MU|GE0/1/0.1240|up|up|UPLINK A PRS3MU Eth-trunk9.1240 -SDH HUAWEI
+PLS1MU|GE0/1/1|up|down|eNODOB PALO_SANTO - A22-S019 (685147) NODOB (685120) (685121)
+PLS1MU|GE0/1/1.1000|up|up|eNODOB - PALO_SANTO - A22-S019 -(1) (685147) - S1
+PLS1MU|GE0/1/1.1001|up|up|eNODOB - PALO_SANTO - A22-S019 -(2) (685147) - S1MME
+PLS1MU|GE0/1/1.1002|up|up|eNODOB - PALO_SANTO - A22-S019 -(3) (685147) - GOMRAN
+PLS1MU|GE0/1/1.1003|up|up|NODOB - PALO_SANTO - A22-S019 - (1) (685120) - 3G
+PLS1MU|GE0/1/1.1004|up|up|NODOB - PALO_SANTO - A22-S019 - (1) (685121) - 2G
+PLS1MU|GE0/1/1.1217|up|down|HUAWEI, GigabitEthernet0/1/1.1217Interface
+PLS1MU|GE0/1/2|down|down|HUAWEI, GigabitEthernet0/1/2 Interface
+PLS1MU|GE0/1/3|down|down|INTEGRA - ZALAZAR DERMIDIO RAUL -Ref:916576 Lin:2865586 Acc:CTE1MB PW-Ether299
+PLS1MU|GE0/1/3.2|down|down|INTEGRA - ZALAZAR DERMIDIO RAUL -Ref:916576 Lin:2865586 Acc:CTE1MB PW-Ether299
+PLS1MU|GE0/1/4|down|down|HUAWEI, GigabitEthernet0/1/4 Interface
+PLS1MU|GE0/1/5|down|down|HUAWEI, GigabitEthernet0/1/5 Interface
+PLS1MU|GE0/1/6|down|down|HUAWEI, GigabitEthernet0/1/6 Interface
+PLS1MU|GE0/1/7|down|down|HUAWEI, GigabitEthernet0/1/7 Interface
+PLS1MU|GE0/2/0|down|down|HUAWEI, GigabitEthernet0/2/0 Interface
+PLS1MU|GE0/2/1|down|down|HUAWEI, GigabitEthernet0/2/1 Interface
+PLS1MU|GE0/2/2|down|down|HUAWEI, GigabitEthernet0/2/2 Interface
+PLS1MU|GE0/2/3|down|down|HUAWEI, GigabitEthernet0/2/3 Interface
+PLS1MU|GE0/2/4|down|down|HUAWEI, GigabitEthernet0/2/4 Interface
+PLS1MU|GE0/2/5|down|down|HUAWEI, GigabitEthernet0/2/5 Interface
+PLS1MU|GE0/2/6|down|down|HUAWEI, GigabitEthernet0/2/6 Interface
+PLS1MU|GE0/2/7|down|down|HUAWEI, GigabitEthernet0/2/7 Interface
+PLS1MU|GE0/3/1|down|down|HUAWEI, GigabitEthernet0/3/1 Interface
+PLS1MU|GE0/3/2|down|down|HUAWEI, GigabitEthernet0/3/2 Interface
+PLS1MU|GE0/3/3|down|down|HUAWEI, GigabitEthernet0/3/3 Interface
+
+

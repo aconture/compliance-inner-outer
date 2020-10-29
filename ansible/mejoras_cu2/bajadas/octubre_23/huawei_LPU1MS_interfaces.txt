@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+LPU1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+LPU1MS|GigabitEthernet0/2/0|UP|UP|CONEXION A DWLPU01 2BB_19 - COE4MU Eth-Trunk2.1248 - Linea.70001429
+LPU1MS|GigabitEthernet0/2/1|Administratively DOWN|DOWN|VOLCADO a LPU1MU
+LPU1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+LPU1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+LPU1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+LPU1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+LPU1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+LPU1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+LPU1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+LPU1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+LPU1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+LPU1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+LPU1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+LPU1MS|Vlanif1248|UP|UP|VLAN_GESTION_COE4MU Eth-Trunk2.1248 - Linea.70001429
+
+

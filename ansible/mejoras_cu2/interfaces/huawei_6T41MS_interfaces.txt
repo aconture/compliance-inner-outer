@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+6T41MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+6T41MS|GigabitEthernet0/2/16|UP|UP|NODOB - VILLA_GESELL_BOULEVAR -  A41-B541
+6T41MS|GigabitEthernet0/2/17|DOWN|DOWN|PUERTO DE PRUEBA
+6T41MS|GigabitEthernet0/2/18|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/18 Interface
+6T41MS|GigabitEthernet0/2/19|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/19 Interface
+6T41MS|GigabitEthernet0/2/20|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/20 Interface
+6T41MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+6T41MS|GigabitEthernet0/2/22|UP|UP|### A COTEL Mar azul ### a 6T61MS
+6T41MS|GigabitEthernet0/2/23|UP|UP|### A COTEL Centro ###
+6T41MS|GigabitEthernet0/2/24|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/24 Interface
+6T41MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+6T41MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+6T41MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+6T41MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+6T41MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+6T41MS|Vlanif2473|UP|UP|HUAWEI, Vlanif2473 Interface
+
+

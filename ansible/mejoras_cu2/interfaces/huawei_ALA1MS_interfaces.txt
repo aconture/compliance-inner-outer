@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+ALA1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+ALA1MS|GigabitEthernet0/2/0|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/0 Interface
+ALA1MS|GigabitEthernet0/2/1|DOWN|DOWN|VPN PLATINUM - MINIST.DE GOB.Y REF.DEL EST.STA FE - REF: 795942 - LINEA: 2864884 - ACC: ALA1MS 0/2/1
+ALA1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+ALA1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+ALA1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+ALA1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+ALA1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+ALA1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+ALA1MS|GigabitEthernet0/2/8|UP|UP|CONEXION A REC3MU Eth-Trunk6.1216 REIP 1QALA01/0/21 - Linea.80002648
+ALA1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+ALA1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+ALA1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+ALA1MS|LoopBack1023|UP|UP|DCN loopback interface
+ALA1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+ALA1MS|Vlanif1216|UP|UP|VLAN_GESTION REC3MU Eth-Trunk6.1216 - Linea 80002648
+
+

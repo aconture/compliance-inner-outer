@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+CMB1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+CMB1MS|GigabitEthernet0/2/0|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/0 Interface
+CMB1MS|GigabitEthernet0/2/1|UP|UP|VPN 6M INGENIO Y REFINERIA Ref: 742384 Lin: 2836797 BBIP: MUS3MU 16/0/9.119
+CMB1MS|GigabitEthernet0/2/2|UP|UP|INTEGRA - CONTROL UNION NORTE - REF:792781 LIN:2851704
+CMB1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+CMB1MS|GigabitEthernet0/2/4|UP|UP|CONEXION A PTN 5CCMB01 - Linea.13005109
+CMB1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+CMB1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+CMB1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+CMB1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+CMB1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+CMB1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+CMB1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+CMB1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+CMB1MS|Vlanif1240|UP|UP|VLAN_GESTION_BUA3MU Eth-trunk15.1240_Linea.13005109
+
+

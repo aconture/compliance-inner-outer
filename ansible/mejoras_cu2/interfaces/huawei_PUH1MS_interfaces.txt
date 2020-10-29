@@ -1,0 +1,18 @@
+shelfname|interface|portoperationalstate|protocol|info1
+PUH1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+PUH1MS|GigabitEthernet0/2/0|UP|UP|HUAWEI, GigabitEthernet0/2/0 Interface
+PUH1MS|GigabitEthernet0/2/1|UP|UP|eNODOB - PUMAHUASI_TECO - SSJ3MU 2/0/2 - A21-S400 (752785) NODOB (752786)(752787)
+PUH1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+PUH1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+PUH1MS|GigabitEthernet0/2/4|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/4 Interface
+PUH1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+PUH1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+PUH1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+PUH1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+PUH1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+PUH1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+PUH1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+PUH1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+PUH1MS|Vlanif1037|UP|UP|HUAWEI, Vlanif1037 Interface
+
+

@@ -1,0 +1,32 @@
+shelfname|interface|portoperationalstate|protocol|info1
+G3U1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+G3U1MS|GigabitEthernet0/2/0|UP|DOWN|CONEXION A G3S1MS GigabitEthernet0/2/1 - Linea:15008730
+G3U1MS|GigabitEthernet0/2/0.2|UP|UP|Enlace 1Gb FO Linea:15008730 - UPLINK METRO
+G3U1MS|GigabitEthernet0/2/0.1000|UP|UP|ENLACE A G3S1MS 0/2/1 -AUBASA LUMINARIA 02- (1) (763753) - S1
+G3U1MS|GigabitEthernet0/2/0.1001|UP|UP|ENLACE A G3S1MS 0/2/1 -AUBASA LUMINARIA 02- (2) (763753) - S1MME
+G3U1MS|GigabitEthernet0/2/0.1002|UP|UP|ENLACE A G3S1MS 0/2/1 -AUBASA LUMINARIA 02- (3) (763753) - GOMRAN
+G3U1MS|GigabitEthernet0/2/0.1003|UP|UP|ENLACE A G3S1MS 0/2/1 -AUBASA LUMINARIA 02- (1) (763752) - 3G
+G3U1MS|GigabitEthernet0/2/0.1004|UP|UP|ENLACE A G3S1MS 0/2/1 -AUBASA LUMINARIA 02- (1) (763751) - 2G
+G3U1MS|GigabitEthernet0/2/1|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/1 Interface
+G3U1MS|GigabitEthernet0/2/2|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/2 Interface
+G3U1MS|GigabitEthernet0/2/3|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/3 Interface
+G3U1MS|GigabitEthernet0/2/4|UP|DOWN|eNODOB LUMINARIA_AUBASA_02 - SPU535 (763753) NODOB (763752) (763751)
+G3U1MS|GigabitEthernet0/2/4.1000|UP|UP|eNODOB - LUMINARIA_AUBASA_02 - SPU535 - (1) (763753) - S1
+G3U1MS|GigabitEthernet0/2/4.1001|UP|UP|eNODOB - LUMINARIA_AUBASA_02 - SPU535 - (2) (763753) - S1MME
+G3U1MS|GigabitEthernet0/2/4.1002|UP|UP|eNODOB - LUMINARIA_AUBASA_02 - SPU535 - (3) (763753) - GOMRAN
+G3U1MS|GigabitEthernet0/2/4.1003|UP|UP|NODOB - LUMINARIA_AUBASA_02 - SPU535 - (1) (763752) - 3G
+G3U1MS|GigabitEthernet0/2/4.1004|UP|UP|NODOB - LUMINARIA_AUBASA_02 - SPU535- (1) (763751) - 2G
+G3U1MS|GigabitEthernet0/2/5|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/5 Interface
+G3U1MS|GigabitEthernet0/2/6|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/6 Interface
+G3U1MS|GigabitEthernet0/2/7|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/7 Interface
+G3U1MS|GigabitEthernet0/2/8|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/8 Interface
+G3U1MS|GigabitEthernet0/2/9|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/9 Interface
+G3U1MS|GigabitEthernet0/2/10|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/10 Interface
+G3U1MS|GigabitEthernet0/2/11|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/11 Interface
+G3U1MS|LoopBack0|UP|UP|HUAWEI, LoopBack0 Interface
+G3U1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+G3U1MS|Vlanif2|DOWN|DOWN|HUAWEI, Vlanif2 Interface
+G3U1MS|Vlanif3|DOWN|DOWN|HUAWEI, Vlanif3 Interface
+G3U1MS|Vlanif10|DOWN|DOWN|HUAWEI, Vlanif10 Interface
+
+

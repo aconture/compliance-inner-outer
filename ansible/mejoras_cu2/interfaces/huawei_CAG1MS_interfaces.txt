@@ -1,0 +1,19 @@
+shelfname|interface|portoperationalstate|protocol|info1
+CAG1MS|Ethernet0/0/0|DOWN|DOWN|HUAWEI, Ethernet0/0/0 Interface
+CAG1MS|GigabitEthernet0/2/16|UP|UP|CONEXION A RADIO DRAGON WAVE DWCAG01/2BB_19/02 Linea:70001035
+CAG1MS|GigabitEthernet0/2/17|UP|UP|BcoSEstero REF673212-Linea-2811219-CAG01MS0-2-17
+CAG1MS|GigabitEthernet0/2/18|Administratively DOWN|DOWN|Integra 50M GUERRA JORGE ARIEL  Ref:784315 Lin: 2847702 BBIP: SDE4MU Eth-Trunk 20.15090002
+CAG1MS|GigabitEthernet0/2/19|UP|UP|eNODOB - CAMPO GALLO - A12-S003 - (691413) NODOB (694416)(691620)
+CAG1MS|GigabitEthernet0/2/20|UP|UP|INTEGRA - ESTANCIAS PILAR S.A. - REF: 937504 - LINEA: 2867445 - ACC: CAG1MS 0/2/20
+CAG1MS|GigabitEthernet0/2/21|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/21 Interface
+CAG1MS|GigabitEthernet0/2/22|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/22 Interface
+CAG1MS|GigabitEthernet0/2/23|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/23 Interface
+CAG1MS|GigabitEthernet0/2/24|UP|UP|CONEXION A SDH 62CAG01/09/10 - Linea:2808919
+CAG1MS|GigabitEthernet0/2/25|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/25 Interface
+CAG1MS|GigabitEthernet0/2/26|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/26 Interface
+CAG1MS|GigabitEthernet0/2/27|DOWN|DOWN|HUAWEI, GigabitEthernet0/2/27 Interface
+CAG1MS|NULL0|UP|UP|HUAWEI, NULL0 Interface
+CAG1MS|Serial0/2/0:1|DOWN|DOWN|HUAWEI, Serial0/2/0:1 Interface
+CAG1MS|Vlanif1257|UP|UP|GESTION - SDE4MU Eth-Trunk 20.1257 - Linea.70001035
+
+

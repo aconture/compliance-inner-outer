@@ -1,0 +1,648 @@
+shelfname|interface|portoperationalstate|protocol|info1
+BEP1MU|BE1|up|up|[ACCESO HSI][BE] B6DG01 11001827
+BEP1MU|BE1.2|up|up|[SIGN] B6DG01 HUA 5603_T [NGN]
+BEP1MU|BE1.3|up|up|[RTP] B6DG01 HUA 5603_T [NGN]
+BEP1MU|BE1.4|up|up|[GESTION] B6DG01 HUA 5603_T [NGN]
+BEP1MU|BE1.3101|up|up|[TOIP] B6DG01 HUA 5603_T [VDS2]
+BEP1MU|BE1.4101|up|up|[DATOS] B6DG01 HUA 5603_T [VDS2][L3]
+BEP1MU|BE2|up|up|[ACCESO HSI][BE] 2QBG01 11001825
+BEP1MU|BE2.2|up|up|[SIGN] 2QBG01 HUA 5600_T [NGN]
+BEP1MU|BE2.3|up|up|[RTP] 2QBG01 HUA 5600_T [NGN]
+BEP1MU|BE2.4|up|up|[GESTION] 2QBG01 HUA 5600_T [NGN]
+BEP1MU|BE2.2101|up|down|[GESTION] 2QBG01 HUA 5600_T [VDS2]
+BEP1MU|BE2.3101|up|up|[TOIP] 2QBG01 HUA 5600_T [VDS2]
+BEP1MU|BE2.4101|up|up|[DATOS] 2QBG01 HUA 5600_T [VDS2]
+BEP1MU|BE4|up|up|[ACCESO HSI][BE] BEP11D 11000043
+BEP1MU|BE4.2101|up|up|[GESTION] BEP11D ZTE 9800 [ADS2]
+BEP1MU|BE4.3101|up|up|[TOIP] BEP11D ZTE 9800 [ADS2]
+BEP1MU|BE4.3616|up|up|VPN Head Quarter - RIBEIRO - Ref:296100 Lin:2733997 Acc:BEP11D 17 - 1
+BEP1MU|BE4.3618|up|up|VPN GOLD - WAL MART ARGENTINA - Ref:306850 - Lin:2737334 - Acc:BEP11D 0/17/3
+BEP1MU|BE4.3623|up|up|VPN Head Quarter - GIRE S.A. - Ref:596936 Lin:2773547 Acc:BEP11D 17/8
+BEP1MU|BE4.3630|up|up|VPN - Hipotecario - Ref: 662094 - Linea:2804398 - Acc:BEP11D 1-17-15
+BEP1MU|BE4.3808|up|up|VPN Head Quarter - RIBEIRO - Ref:296100 - GESTIONXAVI
+BEP1MU|BE4.3810|up|up|Gestion - WAL MART ARGENTINA - Ref:306850 - Lin:2737334 - Acc:BEP11D 0/17/3
+BEP1MU|BE4.3812|up|up|Integra Light 2M - NEOGAME SA - Ref:550293 Lin:2755559 Acc:BEP11D1-1-17-5Y6
+BEP1MU|BE4.3814|up|up|Integra Light - RIBEIRO - Ref:595059 Lin:2773345 Acc:BEP11D 17-7
+BEP1MU|BE4.3815|up|up|N/N BEP11D
+BEP1MU|BE4.3818|admin-down|admin-down|IntegraLight - VICTOR MOTOS S.H. - Ref:643015 - Lin:2793580 Acc:BEP11D SHDSL-1-1-17-11
+BEP1MU|BE4.3822|up|up|VPN - Hipotecario - Ref: 662094 - Linea:2804398 - Acc:BEP11D 1-17-15
+BEP1MU|BE4.4101|up|up|[DATOS] BEP11D ZTE 9800 [ADS2][L3]
+BEP1MU|BE5|up|up|[ACCESO HSI][BE] BEL21D 15003961
+BEP1MU|BE5.2101|up|up|[GESTION] BEP21D ZTE 5800 [ADS2]
+BEP1MU|BE5.3101|up|up|[TOIP] BEP21D ZTE 9800 [ADS2]
+BEP1MU|BE5.4101|up|up|[DATOS] BEP21D ZTE 9800 [ADS2][L3]
+BEP1MU|BE6|up|up|[ACCESO HSI][BE] 12SG01 11001066
+BEP1MU|BE6.2|up|up|[SIGN] 12SG01 HUA 5600_T [NGN]
+BEP1MU|BE6.3|up|up|[RTP] 12SG01 HUA 5600_T [NGN]
+BEP1MU|BE6.4|up|up|[GESTION] 12SG01 HUA 5600_T [NGN]
+BEP1MU|BE6.3101|up|up|[TOIP] 12SG01 HUA 5600_T [VDS2]
+BEP1MU|BE6.4101|up|up|[DATOS] 12SG01 HUA 5600_T [VDS2][L3]
+BEP1MU|BE6.4101.pppoe3375|up|up| 
+BEP1MU|BE6.4101.pppoe3376|up|up| 
+BEP1MU|BE6.4101.pppoe3378|up|up| 
+BEP1MU|BE6.4101.pppoe3382|up|up| 
+BEP1MU|BE6.4101.pppoe3383|up|up| 
+BEP1MU|BE6.4101.pppoe3384|up|up| 
+BEP1MU|BE6.4101.pppoe3385|up|up| 
+BEP1MU|BE6.4101.pppoe3389|up|up| 
+BEP1MU|BE6.4101.pppoe3390|up|up| 
+BEP1MU|BE6.4101.pppoe3392|up|up| 
+BEP1MU|BE6.4101.pppoe3394|up|up| 
+BEP1MU|BE6.4101.pppoe3395|up|up| 
+BEP1MU|BE6.4101.pppoe3398|up|up| 
+BEP1MU|BE6.4101.pppoe3402|up|up| 
+BEP1MU|BE6.4101.pppoe3404|up|up| 
+BEP1MU|BE6.4101.pppoe3407|up|up| 
+BEP1MU|BE6.4101.pppoe3412|up|up| 
+BEP1MU|BE6.4101.pppoe3413|up|up| 
+BEP1MU|BE6.4101.pppoe3414|up|up| 
+BEP1MU|BE6.4101.pppoe3415|up|up| 
+BEP1MU|BE6.4101.pppoe3416|up|up| 
+BEP1MU|BE6.4101.pppoe3421|up|up| 
+BEP1MU|BE6.4101.pppoe3422|up|up| 
+BEP1MU|BE6.4101.pppoe3426|up|up| 
+BEP1MU|BE6.4101.pppoe3428|up|up| 
+BEP1MU|BE6.4101.pppoe3429|up|up| 
+BEP1MU|BE6.4101.pppoe3434|up|up| 
+BEP1MU|BE6.4101.pppoe3445|up|up| 
+BEP1MU|BE6.4101.pppoe3447|up|up| 
+BEP1MU|BE6.4101.pppoe3452|up|up| 
+BEP1MU|BE6.4101.pppoe3454|up|up| 
+BEP1MU|BE6.4101.pppoe3459|up|up| 
+BEP1MU|BE6.4101.pppoe3462|up|up| 
+BEP1MU|BE6.4101.pppoe3468|up|up| 
+BEP1MU|BE6.4101.pppoe3474|up|up| 
+BEP1MU|BE6.4101.pppoe3476|up|up| 
+BEP1MU|BE6.4101.pppoe3477|up|up| 
+BEP1MU|BE6.4101.pppoe3484|up|up| 
+BEP1MU|BE6.4101.pppoe3485|up|up| 
+BEP1MU|BE6.4101.pppoe3493|up|up| 
+BEP1MU|BE6.4101.pppoe3496|up|up| 
+BEP1MU|BE6.4101.pppoe3500|up|up| 
+BEP1MU|BE6.4101.pppoe3503|up|up| 
+BEP1MU|BE6.4101.pppoe3510|up|up| 
+BEP1MU|BE6.4101.pppoe3511|up|up| 
+BEP1MU|BE6.4101.pppoe3512|up|up| 
+BEP1MU|BE6.4101.pppoe3514|up|up| 
+BEP1MU|BE6.4101.pppoe3515|up|up| 
+BEP1MU|BE6.4101.pppoe3516|up|up| 
+BEP1MU|BE6.4101.pppoe3517|up|up| 
+BEP1MU|BE6.4101.pppoe3518|up|up| 
+BEP1MU|BE6.4101.pppoe3523|up|up| 
+BEP1MU|BE6.4101.pppoe3530|up|up| 
+BEP1MU|BE6.4101.pppoe3532|up|up| 
+BEP1MU|BE6.4101.pppoe3533|up|up| 
+BEP1MU|BE6.4101.pppoe3539|up|up| 
+BEP1MU|BE6.4101.pppoe3545|up|up| 
+BEP1MU|BE6.4101.pppoe3549|up|up| 
+BEP1MU|BE6.4101.pppoe3552|up|up| 
+BEP1MU|BE6.4101.pppoe3553|up|up| 
+BEP1MU|BE6.4101.pppoe3554|up|up| 
+BEP1MU|BE6.4101.pppoe3556|up|up| 
+BEP1MU|BE6.4101.pppoe3558|up|up| 
+BEP1MU|BE6.4101.pppoe3565|up|up| 
+BEP1MU|BE6.4101.pppoe3566|up|up| 
+BEP1MU|BE6.4101.pppoe3567|up|up| 
+BEP1MU|BE6.4101.pppoe3568|up|up| 
+BEP1MU|BE6.4101.pppoe3570|up|up| 
+BEP1MU|BE6.4101.pppoe3577|up|up| 
+BEP1MU|BE6.4101.pppoe3580|up|up| 
+BEP1MU|BE6.4101.pppoe3583|up|up| 
+BEP1MU|BE6.4101.pppoe3585|up|up| 
+BEP1MU|BE6.4101.pppoe3587|up|up| 
+BEP1MU|BE6.4101.pppoe3590|up|up| 
+BEP1MU|BE6.4101.pppoe3591|up|up| 
+BEP1MU|BE6.4101.pppoe3594|up|up| 
+BEP1MU|BE6.4101.pppoe3597|up|up| 
+BEP1MU|BE6.4101.pppoe3599|up|up| 
+BEP1MU|BE6.4101.pppoe3601|up|up| 
+BEP1MU|BE6.4101.pppoe3602|up|up| 
+BEP1MU|BE6.4101.pppoe3603|up|up| 
+BEP1MU|BE6.4101.pppoe3604|up|up| 
+BEP1MU|BE6.4101.pppoe3606|up|up| 
+BEP1MU|BE6.4101.pppoe3609|up|up| 
+BEP1MU|BE6.4101.pppoe3618|up|up| 
+BEP1MU|BE6.4101.pppoe3619|up|up| 
+BEP1MU|BE6.4101.pppoe3623|up|up| 
+BEP1MU|BE6.4101.pppoe3627|up|up| 
+BEP1MU|BE6.4101.pppoe3634|up|up| 
+BEP1MU|BE6.4101.pppoe3639|up|up| 
+BEP1MU|BE6.4101.pppoe3640|up|up| 
+BEP1MU|BE6.4101.pppoe3642|up|up| 
+BEP1MU|BE6.4101.pppoe3647|up|up| 
+BEP1MU|BE6.4101.pppoe3651|up|up| 
+BEP1MU|BE6.4101.pppoe3654|up|up| 
+BEP1MU|BE6.4101.pppoe3657|up|up| 
+BEP1MU|BE6.4101.pppoe3664|up|up| 
+BEP1MU|BE6.4101.pppoe3667|up|up| 
+BEP1MU|BE6.4101.pppoe3677|up|up| 
+BEP1MU|BE6.4101.pppoe3682|up|up| 
+BEP1MU|BE6.4101.pppoe3686|up|up| 
+BEP1MU|BE6.4101.pppoe3689|up|up| 
+BEP1MU|BE6.4101.pppoe3691|up|up| 
+BEP1MU|BE6.4101.pppoe3693|up|up| 
+BEP1MU|BE6.4101.pppoe3694|up|up| 
+BEP1MU|BE6.4101.pppoe3695|up|up| 
+BEP1MU|BE6.4101.pppoe3698|up|up| 
+BEP1MU|BE6.4101.pppoe3699|up|up| 
+BEP1MU|BE6.4101.pppoe3701|up|up| 
+BEP1MU|BE6.4101.pppoe3704|up|up| 
+BEP1MU|BE6.4101.pppoe3709|up|up| 
+BEP1MU|BE6.4101.pppoe3713|up|up| 
+BEP1MU|BE6.4101.pppoe3714|up|up| 
+BEP1MU|BE6.4101.pppoe3719|up|up| 
+BEP1MU|BE6.4101.pppoe3723|up|up| 
+BEP1MU|BE6.4101.pppoe3724|up|up| 
+BEP1MU|BE6.4101.pppoe3730|up|up| 
+BEP1MU|BE6.4101.pppoe3731|up|up| 
+BEP1MU|BE6.4101.pppoe3743|up|up| 
+BEP1MU|BE6.4101.pppoe3750|up|up| 
+BEP1MU|BE6.4101.pppoe3758|up|up| 
+BEP1MU|BE6.4101.pppoe3764|up|up| 
+BEP1MU|BE6.4101.pppoe3768|up|up| 
+BEP1MU|BE6.4101.pppoe3778|up|up| 
+BEP1MU|BE6.4101.pppoe3789|up|up| 
+BEP1MU|BE6.4101.pppoe3868|up|up| 
+BEP1MU|BE6.4101.pppoe3916|up|up| 
+BEP1MU|BE6.4101.pppoe3922|up|up| 
+BEP1MU|BE6.4101.pppoe3979|up|up| 
+BEP1MU|BE6.4101.pppoe3984|up|up| 
+BEP1MU|BE6.4101.pppoe4074|up|up| 
+BEP1MU|BE6.4101.pppoe4085|up|up| 
+BEP1MU|BE6.4101.pppoe4090|up|up| 
+BEP1MU|BE6.4101.pppoe4101|up|up| 
+BEP1MU|BE6.4101.pppoe4120|up|up| 
+BEP1MU|BE6.4101.pppoe4122|up|up| 
+BEP1MU|BE6.4101.pppoe4124|up|up| 
+BEP1MU|BE6.4101.pppoe4128|up|up| 
+BEP1MU|BE6.4101.pppoe4131|up|up| 
+BEP1MU|BE6.4101.pppoe4138|up|up| 
+BEP1MU|BE6.4101.pppoe4183|up|up| 
+BEP1MU|BE6.4101.pppoe4214|up|up| 
+BEP1MU|BE6.4101.pppoe4220|up|up| 
+BEP1MU|BE6.4101.pppoe4244|up|up| 
+BEP1MU|BE6.4101.pppoe4321|up|up| 
+BEP1MU|BE6.4101.pppoe4334|up|up| 
+BEP1MU|BE6.4101.pppoe4348|up|up| 
+BEP1MU|BE6.4101.pppoe4359|up|up| 
+BEP1MU|BE6.4101.pppoe4387|up|up| 
+BEP1MU|BE6.4101.pppoe4405|up|up| 
+BEP1MU|BE6.4101.pppoe4406|up|up| 
+BEP1MU|BE6.4101.pppoe4407|up|up| 
+BEP1MU|BE6.4101.pppoe4409|up|up| 
+BEP1MU|BE6.4101.pppoe4417|up|up| 
+BEP1MU|BE6.4101.pppoe4418|up|up| 
+BEP1MU|BE6.4101.pppoe4419|up|up| 
+BEP1MU|BE6.4101.pppoe4465|up|up| 
+BEP1MU|BE6.4101.pppoe4475|up|up| 
+BEP1MU|BE6.4101.pppoe4486|up|up| 
+BEP1MU|BE6.4101.pppoe4494|up|up| 
+BEP1MU|BE6.4101.pppoe4502|up|up| 
+BEP1MU|BE6.4101.pppoe4510|up|up| 
+BEP1MU|BE6.4101.pppoe4516|up|up| 
+BEP1MU|BE6.4101.pppoe4535|up|up| 
+BEP1MU|BE6.4101.pppoe4540|up|up| 
+BEP1MU|BE6.4101.pppoe4541|up|up| 
+BEP1MU|BE6.4101.pppoe4561|up|up| 
+BEP1MU|BE6.4101.pppoe4568|up|up| 
+BEP1MU|BE6.4101.pppoe4576|up|up| 
+BEP1MU|BE6.4101.pppoe4580|up|up| 
+BEP1MU|BE6.4101.pppoe4583|up|up| 
+BEP1MU|BE6.4101.pppoe4587|up|up| 
+BEP1MU|BE6.4101.pppoe4594|up|up| 
+BEP1MU|BE6.4101.pppoe4613|up|up| 
+BEP1MU|BE6.4101.pppoe4629|up|up| 
+BEP1MU|BE6.4101.pppoe4631|up|up| 
+BEP1MU|BE6.4101.pppoe4634|up|up| 
+BEP1MU|BE6.4101.pppoe4636|up|up| 
+BEP1MU|BE6.4101.pppoe4641|up|up| 
+BEP1MU|BE6.4101.pppoe4646|up|up| 
+BEP1MU|BE6.4101.pppoe4649|up|up| 
+BEP1MU|BE6.4101.pppoe4675|up|up| 
+BEP1MU|BE6.4101.pppoe4730|up|up| 
+BEP1MU|BE6.4101.pppoe4733|up|up| 
+BEP1MU|BE6.4101.pppoe4751|up|up| 
+BEP1MU|BE6.4101.pppoe4752|up|up| 
+BEP1MU|BE6.4101.pppoe4796|up|up| 
+BEP1MU|BE6.4101.pppoe4804|up|up| 
+BEP1MU|BE6.4101.pppoe4820|up|up| 
+BEP1MU|BE6.4101.pppoe4827|up|up| 
+BEP1MU|BE6.4101.pppoe4831|up|up| 
+BEP1MU|BE6.4101.pppoe4844|up|up| 
+BEP1MU|BE6.4101.pppoe4860|up|up| 
+BEP1MU|BE6.4101.pppoe4863|up|up| 
+BEP1MU|BE6.4101.pppoe4872|up|up| 
+BEP1MU|BE6.4101.pppoe4882|up|up| 
+BEP1MU|BE6.4101.pppoe4893|up|up| 
+BEP1MU|BE6.4101.pppoe4927|up|up| 
+BEP1MU|BE6.4101.pppoe4980|up|up| 
+BEP1MU|BE6.4101.pppoe4981|up|up| 
+BEP1MU|BE6.4101.pppoe4994|up|up| 
+BEP1MU|BE6.4101.pppoe5012|up|up| 
+BEP1MU|BE6.4101.pppoe5020|up|up| 
+BEP1MU|BE6.4101.pppoe5024|up|up| 
+BEP1MU|BE6.4101.pppoe5059|up|up| 
+BEP1MU|BE6.4101.pppoe5077|up|up| 
+BEP1MU|BE6.4101.pppoe5084|up|up| 
+BEP1MU|BE6.4101.pppoe5089|up|up| 
+BEP1MU|BE6.4101.pppoe5095|up|up| 
+BEP1MU|BE6.4101.pppoe5102|up|up| 
+BEP1MU|BE6.4101.pppoe5116|up|up| 
+BEP1MU|BE6.4101.pppoe5127|up|up| 
+BEP1MU|BE6.4101.pppoe5154|up|up| 
+BEP1MU|BE6.4101.pppoe5168|up|up| 
+BEP1MU|BE6.4101.pppoe5178|up|up| 
+BEP1MU|BE6.4101.pppoe5195|up|up| 
+BEP1MU|BE6.4101.pppoe5200|up|up| 
+BEP1MU|BE6.4101.pppoe5201|up|up| 
+BEP1MU|BE6.4101.pppoe5202|up|up| 
+BEP1MU|BE6.4101.pppoe5204|up|up| 
+BEP1MU|BE6.4101.pppoe5206|up|up| 
+BEP1MU|BE6.4101.pppoe5210|up|up| 
+BEP1MU|BE6.4101.pppoe5212|up|up| 
+BEP1MU|BE6.4101.pppoe5213|up|up| 
+BEP1MU|BE6.4101.pppoe5215|up|up| 
+BEP1MU|BE6.4101.pppoe5232|up|up| 
+BEP1MU|BE6.4101.pppoe5233|up|up| 
+BEP1MU|BE6.4101.pppoe5247|up|up| 
+BEP1MU|BE6.4101.pppoe5257|up|up| 
+BEP1MU|BE6.4101.pppoe5281|up|up| 
+BEP1MU|BE6.4101.pppoe5300|up|up| 
+BEP1MU|BE6.4101.pppoe5301|up|up| 
+BEP1MU|BE6.4101.pppoe5302|up|up| 
+BEP1MU|BE6.4101.pppoe5304|up|up| 
+BEP1MU|BE6.4101.pppoe5309|up|up| 
+BEP1MU|BE6.4101.pppoe5310|up|up| 
+BEP1MU|BE6.4101.pppoe5313|up|up| 
+BEP1MU|BE6.4101.pppoe5317|up|up| 
+BEP1MU|BE6.4101.pppoe5322|up|up| 
+BEP1MU|BE6.4101.pppoe5323|up|up| 
+BEP1MU|BE6.4101.pppoe5324|up|up| 
+BEP1MU|BE6.4101.pppoe5331|up|up| 
+BEP1MU|BE6.4101.pppoe5342|up|up| 
+BEP1MU|BE6.4101.pppoe5345|up|up| 
+BEP1MU|BE6.4101.pppoe5355|up|up| 
+BEP1MU|BE6.4101.pppoe5356|up|up| 
+BEP1MU|BE6.4101.pppoe5361|up|up| 
+BEP1MU|BE6.4101.pppoe5369|up|up| 
+BEP1MU|BE6.4101.pppoe5371|up|up| 
+BEP1MU|BE6.4101.pppoe5391|up|up| 
+BEP1MU|BE6.4101.pppoe5405|up|up| 
+BEP1MU|BE6.4101.pppoe5422|up|up| 
+BEP1MU|BE6.4101.pppoe5431|up|up| 
+BEP1MU|BE6.4101.pppoe5439|up|up| 
+BEP1MU|BE6.4101.pppoe5444|up|up| 
+BEP1MU|BE6.4101.pppoe5460|up|up| 
+BEP1MU|BE6.4101.pppoe5469|up|up| 
+BEP1MU|BE6.4101.pppoe5472|up|up| 
+BEP1MU|BE6.4101.pppoe5473|up|up| 
+BEP1MU|BE6.4101.pppoe5488|up|up| 
+BEP1MU|BE6.4101.pppoe5490|up|up| 
+BEP1MU|BE6.4101.pppoe5493|up|up| 
+BEP1MU|BE6.4101.pppoe5506|up|up| 
+BEP1MU|BE6.4101.pppoe5517|up|up| 
+BEP1MU|BE6.4101.pppoe5539|up|up| 
+BEP1MU|BE6.4101.pppoe5542|up|up| 
+BEP1MU|BE6.4101.pppoe5557|up|up| 
+BEP1MU|BE6.4101.pppoe5559|up|up| 
+BEP1MU|BE6.4101.pppoe5561|up|up| 
+BEP1MU|BE6.4101.pppoe5562|up|up| 
+BEP1MU|BE6.4101.pppoe5564|up|up| 
+BEP1MU|BE6.4101.pppoe5565|up|up| 
+BEP1MU|BE6.4101.pppoe5567|up|up| 
+BEP1MU|BE6.4101.pppoe5569|up|up| 
+BEP1MU|BE6.4101.pppoe5571|up|up| 
+BEP1MU|BE6.4101.pppoe5575|up|up| 
+BEP1MU|BE6.4101.pppoe5576|up|up| 
+BEP1MU|BE6.4101.pppoe5579|up|up| 
+BEP1MU|BE6.4101.pppoe5591|up|up| 
+BEP1MU|BE6.4101.pppoe5592|up|up| 
+BEP1MU|BE6.4101.pppoe5602|up|up| 
+BEP1MU|BE6.4101.pppoe5604|up|up| 
+BEP1MU|BE6.4101.pppoe5607|up|up| 
+BEP1MU|BE6.4101.pppoe5609|up|up| 
+BEP1MU|BE6.4101.pppoe5623|up|up| 
+BEP1MU|BE6.4101.pppoe5629|up|up| 
+BEP1MU|BE6.4101.pppoe5631|up|up| 
+BEP1MU|BE6.4101.pppoe5639|up|up| 
+BEP1MU|BE6.4101.pppoe5642|up|up| 
+BEP1MU|BE6.4101.pppoe5644|up|up| 
+BEP1MU|BE6.4101.pppoe5647|up|up| 
+BEP1MU|BE6.4101.pppoe5659|up|up| 
+BEP1MU|BE6.4101.pppoe5664|up|up| 
+BEP1MU|BE6.4101.pppoe5673|up|up| 
+BEP1MU|BE6.4101.pppoe5677|up|up| 
+BEP1MU|BE6.4101.pppoe5681|up|up| 
+BEP1MU|BE6.4101.pppoe5682|up|up| 
+BEP1MU|BE6.4101.pppoe5689|up|up| 
+BEP1MU|BE6.4101.pppoe5696|up|up| 
+BEP1MU|BE6.4101.pppoe5706|up|up| 
+BEP1MU|BE6.4101.pppoe5709|up|up| 
+BEP1MU|BE6.4101.pppoe5714|up|up| 
+BEP1MU|BE6.4101.pppoe5736|up|up| 
+BEP1MU|BE6.4101.pppoe5737|up|up| 
+BEP1MU|BE6.4101.pppoe5741|up|up| 
+BEP1MU|BE6.4101.pppoe5778|up|up| 
+BEP1MU|BE6.4101.pppoe5784|up|up| 
+BEP1MU|BE6.4101.pppoe5785|up|up| 
+BEP1MU|BE6.4101.pppoe5789|up|up| 
+BEP1MU|BE6.4101.pppoe5790|up|up| 
+BEP1MU|BE6.4101.pppoe5791|up|up| 
+BEP1MU|BE6.4101.pppoe5797|up|up| 
+BEP1MU|BE6.4101.pppoe5806|up|up| 
+BEP1MU|BE6.4101.pppoe5807|up|up| 
+BEP1MU|BE6.4101.pppoe5808|up|up| 
+BEP1MU|BE6.4101.pppoe5810|up|up| 
+BEP1MU|BE6.4101.pppoe5811|up|up| 
+BEP1MU|BE6.4101.pppoe5816|up|up| 
+BEP1MU|BE6.4101.pppoe5821|up|up| 
+BEP1MU|BE6.4101.pppoe5830|up|up| 
+BEP1MU|BE6.4101.pppoe5835|up|up| 
+BEP1MU|BE6.4101.pppoe5838|up|up| 
+BEP1MU|BE6.4101.pppoe5843|up|up| 
+BEP1MU|BE6.4101.pppoe5845|up|up| 
+BEP1MU|BE6.4101.pppoe5859|up|up| 
+BEP1MU|BE6.4101.pppoe5867|up|up| 
+BEP1MU|BE6.4101.pppoe5874|up|up| 
+BEP1MU|BE6.4101.pppoe5877|up|up| 
+BEP1MU|BE6.4101.pppoe5884|up|up| 
+BEP1MU|BE6.4101.pppoe5886|up|up| 
+BEP1MU|BE6.4101.pppoe5887|up|up| 
+BEP1MU|BE6.4101.pppoe5890|up|up| 
+BEP1MU|BE6.4101.pppoe5893|up|up| 
+BEP1MU|BE6.4101.pppoe5895|up|up| 
+BEP1MU|BE6.4101.pppoe5899|up|up| 
+BEP1MU|BE6.4101.pppoe5902|up|up| 
+BEP1MU|BE6.4101.pppoe5903|up|up| 
+BEP1MU|BE6.4101.pppoe5904|up|up| 
+BEP1MU|BE6.4101.pppoe5907|up|up| 
+BEP1MU|BE6.4101.pppoe5912|up|up| 
+BEP1MU|BE6.4101.pppoe5916|up|up| 
+BEP1MU|BE6.4101.pppoe5920|up|up| 
+BEP1MU|BE6.4101.pppoe5924|up|up| 
+BEP1MU|BE6.4101.pppoe5940|up|up| 
+BEP1MU|BE6.4101.pppoe5946|up|up| 
+BEP1MU|BE6.4101.pppoe5948|up|up| 
+BEP1MU|BE6.4101.pppoe5950|up|up| 
+BEP1MU|BE6.4101.pppoe5951|up|up| 
+BEP1MU|BE6.4101.pppoe5954|up|up| 
+BEP1MU|BE6.4101.pppoe5955|up|up| 
+BEP1MU|BE6.4101.pppoe5958|up|up| 
+BEP1MU|BE6.4101.pppoe5960|up|up| 
+BEP1MU|BE6.4101.pppoe5968|up|up| 
+BEP1MU|BE6.4101.pppoe5974|up|up| 
+BEP1MU|BE6.4101.pppoe5975|up|up| 
+BEP1MU|BE6.4101.pppoe5976|up|up| 
+BEP1MU|BE6.4101.pppoe5980|up|up| 
+BEP1MU|BE6.4101.pppoe5982|up|up| 
+BEP1MU|BE6.4101.pppoe5984|up|up| 
+BEP1MU|BE6.4101.pppoe5985|up|up| 
+BEP1MU|BE6.4101.pppoe5987|up|up| 
+BEP1MU|BE6.4101.pppoe5988|up|up| 
+BEP1MU|BE6.4101.pppoe5989|up|up| 
+BEP1MU|BE6.4101.pppoe5990|up|up| 
+BEP1MU|BE6.4101.pppoe5991|up|up| 
+BEP1MU|BE6.4101.pppoe5992|up|up| 
+BEP1MU|Lo0|up|up| 
+BEP1MU|Lo1|up|up|IP UNNUMBERED
+BEP1MU|Lo12|up|up|IP UNNUMBERED vpn-tdata-bcorio - VPN BRONZE INTERCARRIER - TASA - Banco rio
+BEP1MU|Lo26|up|up|IP UNNUMBERED VPN-gpba
+BEP1MU|Lo68|up|up|IP UNNUMBERED VPN PRIMA
+BEP1MU|Lo73|up|up|IP UNNUMBERED bonesi-vpn - VPN BRONZE - BONESI SOCIEDAD ANONIMA
+BEP1MU|Lo77|up|up|VPN WEB PATRON
+BEP1MU|Lo78|up|up|IP UNNUMBERED vpn-credicoop - VPN BRONZE - BANCO CREDICOOP COOP. LTDO.
+BEP1MU|Lo80|up|up|IP UNNUMBERED VPN JOCKEY
+BEP1MU|Lo90|up|up|IP UNNUMBERED munisam-vpn - VPN BRONZE - MUNICIPALIDAD DE GRAL. SAN MARTIN SEC. HAC. Y ECONO.
+BEP1MU|Lo100|up|up|Interfaz de gestion ADSL
+BEP1MU|Lo103|up|up|IP UNNUMBERED ospecom-vpn - VPN BRONZE - OSPECOM
+BEP1MU|Lo127|up|up|IP UNNUMERED vpn-vestiditos - VPN BRONZE - VESTIDITOS S.A.
+BEP1MU|Lo147|up|up|IP UNNUMERED darclibertador-vpn
+BEP1MU|Lo149|up|up|IP UNNUMBERED bna-vpn
+BEP1MU|Lo157|up|up|IP UNNUMBERED vpn-williner - VPN BRONZE - SUCESORES DE ALFREDO WILLINER S.A.
+BEP1MU|Lo162|up|up|IP UNNUMBERED hipodromo-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+BEP1MU|Lo182|up|up|garbarino-vpn - VPN BRONZE - GARBARINO
+BEP1MU|Lo198|up|up|IP UNNUMBERED vpn-gire-1 - VPN BRONZE - GIRE S.A.
+BEP1MU|Lo249|up|up|IP UNNUMBERED ncentralarg-vpn - VPN BRONZE - NUEVO CENTRAL ARGENTINO S.A.
+BEP1MU|Lo256|up|up|IP UNNUMBERED sepsa-vpn - VPN BRONZE - SERV.ELECTRONICO DE PAGO S.A.
+BEP1MU|Lo279|up|up|IP UNNUMBERED hsbc-vpn - VPN BRONZE - HSBC BANK ARGENTINA S.A.
+BEP1MU|Lo347|up|up|IP UNNUMBERED bcogalicia-vpn - VPN BRONZE - BANCO DE GALICIA Y BUENOS AIRE S S.A.
+BEP1MU|Lo433|up|up|IP UNNUMBERED hipodromo-3-vpn - VPN BRONZE - HIPODROMO ARGENTINO DE PALERMO S.A.
+BEP1MU|Lo454|up|up|IP UNNUMBERED poderjudicial-vpn - VPN BRONZE - PODER JUDICIAL DE LA PROVINCIA
+BEP1MU|Lo459|up|up|IP UNNUMERED clama-vpn
+BEP1MU|Lo479|up|up|IP UNNUMBERED solido-vpn - VPN BRONZE - SOLIDO S.R.L.
+BEP1MU|Lo507|up|up|IP UNNUMBERED maxima-vpn - VPN BRONZE - MAXIMA S.A. A.F.J.P.
+BEP1MU|Lo509|up|up|IP UNNUMBERED citibank-vpn - VPN BRONZE - CITIBANK N.A.
+BEP1MU|Lo546|up|up|IP UNNUMBERED ituran-vpn - VPN BRONZE - ITURAN
+BEP1MU|Lo594|up|up|IP UNNUMBERED diaarg-vpn - VPN BRONZE - DIA ARGENTINA S.A.
+BEP1MU|Lo601|up|up|IP UNNUMBERED alpargatas-vpn - VPN BRONZE - ALPARGATAS CALZADOS S.A.
+BEP1MU|Lo653|up|up|IP UNNUMBERED bigbloom-vpn - VPN BRONZE - BIG BLOOM S.A.
+BEP1MU|Lo707|up|up|IP UNNUMBERED correo-vpn - VPN BRONZE - CORREO OFICIAL DE LA REP.ARG.
+BEP1MU|Lo980|up|up|IP UNNUMBERED cjuleriaque-vpn - VPN BRONZE - CARLOS JULERIAQUE S.R.L.
+BEP1MU|Lo1017|up|up|IP UNNUMBERED asmuprofa-vpn - VPN BRONZE - ASOCIACION MUTUAL DE PROTECCIO N FAMILIAR
+BEP1MU|Lo1059|up|up|fravega-vpn - VPN BRONZE - FRAVEGA
+BEP1MU|Lo1154|up|up|IP UNNUMBERED arcosdora2-vpn
+BEP1MU|Lo1219|up|up|SIMONS DE ARGENTINA SAIC
+BEP1MU|Lo1226|up|up|IP UNNUMERED argentconec-vpn
+BEP1MU|Lo1312|up|up|IP UNNUMBERED wifioffload-vpn
+BEP1MU|Lo1385|up|up|IP UNNUMERED garbacontenidos-vpn - VPN BRONZE - GARBARINO S.A.
+BEP1MU|Lo1471|up|up|IP UNNUMERED unigestopems-vpn - VPN BRONZE - UNIDAD DE GESTION OPERATIVA MITRE SARMIENTO S.A.
+BEP1MU|Lo13143|up|up|IP UNNUMBERED tasabancofrances-vpn - VPN BRONZE INTERCARRIER. - TASA subcliente Bco. Frances
+BEP1MU|Lo57015|up|up|IP UNNUMBERED tasabapro-vpn - VPN BRONZE INTERCARRIER. - Tasa sub
+BEP1MU|Nu0|up|up| 
+BEP1MU|Mg0/RSP0/CPU0/0|admin-down|admin-down| 
+BEP1MU|Mg0/RSP0/CPU0/1|admin-down|admin-down| 
+BEP1MU|PT0/RSP0/CPU0/0|admin-down|admin-down| 
+BEP1MU|Mg0/RSP1/CPU0/0|admin-down|admin-down| 
+BEP1MU|Mg0/RSP1/CPU0/1|admin-down|admin-down| 
+BEP1MU|PT0/RSP1/CPU0/0|admin-down|admin-down| 
+BEP1MU|Te0/0/0/0|down|down|Enlace 10G A CTE1NA_Te0/0/0/11 (Linea:11004818) - UPLINK BBIP
+BEP1MU|Te0/0/0/1|admin-down|admin-down| 
+BEP1MU|Te0/0/0/2|admin-down|admin-down| 
+BEP1MU|Te0/0/0/3|admin-down|admin-down| 
+BEP1MU|Te0/0/0/4|admin-down|admin-down| 
+BEP1MU|Te0/0/0/5|admin-down|admin-down| 
+BEP1MU|Te0/0/0/6|admin-down|admin-down| 
+BEP1MU|Te0/0/0/7|admin-down|admin-down| 
+BEP1MU|Te0/0/0/8|admin-down|admin-down| 
+BEP1MU|Te0/0/0/9|admin-down|admin-down| 
+BEP1MU|Te0/0/0/10|admin-down|admin-down| 
+BEP1MU|Te0/0/0/11|admin-down|admin-down| 
+BEP1MU|Te0/0/0/12|admin-down|admin-down| 
+BEP1MU|Te0/0/0/13|admin-down|admin-down| 
+BEP1MU|Te0/0/0/14|admin-down|admin-down| 
+BEP1MU|Te0/0/0/15|admin-down|admin-down| 
+BEP1MU|Te0/0/0/16|admin-down|admin-down| 
+BEP1MU|Te0/0/0/17|admin-down|admin-down| 
+BEP1MU|Te0/0/0/18|admin-down|admin-down| 
+BEP1MU|Te0/0/0/19|admin-down|admin-down| 
+BEP1MU|Te0/1/0/0|admin-down|admin-down| 
+BEP1MU|Te0/1/0/1|admin-down|admin-down| 
+BEP1MU|Te0/1/0/2|up|up|Enlace 10G A RES1NA_Te0/0/0/14 (Linea:11004819) - UPLINK BBIP
+BEP1MU|Te0/1/0/3|admin-down|admin-down| 
+BEP1MU|Te0/1/0/4|admin-down|admin-down| 
+BEP1MU|Te0/1/0/5|admin-down|admin-down| 
+BEP1MU|Te0/1/0/6|admin-down|admin-down| 
+BEP1MU|Te0/1/0/7|admin-down|admin-down| 
+BEP1MU|Te0/1/0/8|admin-down|admin-down| 
+BEP1MU|Te0/1/0/9|admin-down|admin-down| 
+BEP1MU|Te0/1/0/10|admin-down|admin-down| 
+BEP1MU|Te0/1/0/11|admin-down|admin-down| 
+BEP1MU|Te0/1/0/12|admin-down|admin-down| 
+BEP1MU|Te0/1/0/13|admin-down|admin-down| 
+BEP1MU|Te0/1/0/14|admin-down|admin-down| 
+BEP1MU|Te0/1/0/15|admin-down|admin-down| 
+BEP1MU|Te0/1/0/16|admin-down|admin-down| 
+BEP1MU|Te0/1/0/17|admin-down|admin-down| 
+BEP1MU|Te0/1/0/18|admin-down|admin-down| 
+BEP1MU|Te0/1/0/19|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/0|up|up|[ACCESO HSI][BE] B6DG01 11001827
+BEP1MU|Gi0/5/0/1|up|up|[ACCESO HSI][BE] 2QBG01 11001825
+BEP1MU|Gi0/5/0/2|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/3|up|up|[ACCESO HSI][BE] BEP11D 11000043
+BEP1MU|Gi0/5/0/4|up|up|[ACCESO HSI][BE] BEP21D L:15003961 - 2/2
+BEP1MU|Gi0/5/0/5|up|up|[ACCESO HSI][BE] BEP11D 11005467
+BEP1MU|Gi0/5/0/6|up|up|[ACCESO HSI][BE] 12SG01 11001066 - 2/2
+BEP1MU|Gi0/5/0/7|up|up|INTEGRA - VEGA GUSTAVO ALBERTO - REF: 945585 - LINEA: 2869279 - ACC: BEP1MU 0/5/0/7
+BEP1MU|Gi0/5/0/7.2|up|up|INTEGRA - VEGA GUSTAVO ALBERTO - REF: 945585 - LINEA: 2869279 - ACC: BEP1MU 0/5/0/7
+BEP1MU|Gi0/5/0/8|down|down|- REF: 945585 - LINEA: 2869279 - ACC: BEP1MU 0/5/0/8
+BEP1MU|Gi0/5/0/9|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/10|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/11|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/12|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/13|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/14|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/15|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/16|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/17|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/18|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/19|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/20|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/21|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/22|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/23|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/24|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/25|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/26|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/27|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/28|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/29|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/30|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/31|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/32|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/33|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/34|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/35|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/36|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/37|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/38|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/39|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/40|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/41|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/42|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/43|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/44|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/45|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/46|admin-down|admin-down| 
+BEP1MU|Gi0/5/0/47|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/0|up|up|eNODOB - FORMOSA_CALLE_GUASTALLA - A22-S228 (940177)
+BEP1MU|Gi0/6/0/0.1000|up|up|eNODOB - FORMOSA_CALLE_GUASTALLA - A22-S228 (940177) - S1
+BEP1MU|Gi0/6/0/0.1001|up|up|eNODOB - FORMOSA_CALLE_GUASTALLA - A22-S228 (940177) - S1MME
+BEP1MU|Gi0/6/0/0.1002|up|up|eNODOB - FORMOSA_CALLE_GUASTALLA - A22-S228 (940177) - GOMRAN
+BEP1MU|Gi0/6/0/0.1003|up|up|NODOB - FORMOSA_CALLE_GUASTALLA - A22-S228 (940177) - 3G
+BEP1MU|Gi0/6/0/0.1004|up|up|NODOB - FORMOSA_CALLE_GUASTALLA - A22-S228 (940177) - 2G
+BEP1MU|Gi0/6/0/1|up|up|[ACCESO HSI][BE] BEP21D L:15003961 - 1/2
+BEP1MU|Gi0/6/0/2|up|up|[ACCESO HSI][BE] 12SG01 11001066 - 1/2
+BEP1MU|Gi0/6/0/3|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/4|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/5|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/6|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/7|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/8|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/9|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/10|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/11|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/12|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/13|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/14|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/15|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/16|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/17|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/18|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/19|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/20|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/21|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/22|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/23|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/24|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/25|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/26|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/27|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/28|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/29|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/30|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/31|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/32|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/33|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/34|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/35|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/36|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/37|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/38|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/39|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/40|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/41|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/42|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/43|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/44|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/45|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/46|admin-down|admin-down| 
+BEP1MU|Gi0/6/0/47|admin-down|admin-down| 
+BEP1MU|Te0/7/0/0|admin-down|admin-down| 
+BEP1MU|Te0/7/0/1|admin-down|admin-down| 
+BEP1MU|Te0/7/0/2|admin-down|admin-down| 
+BEP1MU|Te0/7/0/3|admin-down|admin-down| 
+BEP1MU|Te0/7/0/4|admin-down|admin-down| 
+BEP1MU|Te0/7/0/5|admin-down|admin-down| 
+BEP1MU|Te0/7/0/6|admin-down|admin-down| 
+BEP1MU|Te0/7/0/7|admin-down|admin-down| 
+BEP1MU|Te0/7/0/8|admin-down|admin-down| 
+BEP1MU|Te0/7/0/9|admin-down|admin-down| 
+BEP1MU|Te0/7/0/10|admin-down|admin-down| 
+BEP1MU|Te0/7/0/11|admin-down|admin-down| 
+BEP1MU|Te0/7/0/12|admin-down|admin-down| 
+BEP1MU|Te0/7/0/13|admin-down|admin-down| 
+BEP1MU|Te0/7/0/14|admin-down|admin-down| 
+BEP1MU|Te0/7/0/15|admin-down|admin-down| 
+BEP1MU|Te0/7/0/16|admin-down|admin-down| 
+BEP1MU|Te0/7/0/17|admin-down|admin-down| 
+BEP1MU|Te0/7/0/18|admin-down|admin-down| 
+BEP1MU|Te0/7/0/19|admin-down|admin-down| 
+BEP1MU|Te0/7/0/20|admin-down|admin-down| 
+BEP1MU|Te0/7/0/21|admin-down|admin-down| 
+BEP1MU|Te0/7/0/22|admin-down|admin-down| 
+BEP1MU|Te0/7/0/23|admin-down|admin-down| 
+BEP1MU|Te0/7/0/24|admin-down|admin-down| 
+BEP1MU|Te0/7/0/25|admin-down|admin-down| 
+BEP1MU|Te0/7/0/26|admin-down|admin-down| 
+BEP1MU|Te0/7/0/27|admin-down|admin-down| 
+BEP1MU|Te0/7/0/28|admin-down|admin-down| 
+BEP1MU|Te0/7/0/29|admin-down|admin-down| 
+BEP1MU|Te0/7/0/30|admin-down|admin-down| 
+BEP1MU|Te0/7/0/31|admin-down|admin-down| 
+BEP1MU|Te0/7/0/32|admin-down|admin-down| 
+BEP1MU|Te0/7/0/33|admin-down|admin-down| 
+BEP1MU|Te0/7/0/34|admin-down|admin-down| 
+BEP1MU|Te0/7/0/35|admin-down|admin-down| 
+BEP1MU|Te0/7/0/36|admin-down|admin-down| 
+BEP1MU|Te0/7/0/37|admin-down|admin-down| 
+BEP1MU|Te0/7/0/38|admin-down|admin-down| 
+BEP1MU|Te0/7/0/39|admin-down|admin-down| 
+BEP1MU|Te0/7/0/40|admin-down|admin-down| 
+BEP1MU|Te0/7/0/41|admin-down|admin-down| 
+BEP1MU|Te0/7/0/42|admin-down|admin-down| 
+BEP1MU|Te0/7/0/43|admin-down|admin-down| 
+BEP1MU|Te0/7/0/44|admin-down|admin-down| 
+BEP1MU|Te0/7/0/45|admin-down|admin-down| 
+BEP1MU|Te0/7/0/46|admin-down|admin-down| 
+
+
