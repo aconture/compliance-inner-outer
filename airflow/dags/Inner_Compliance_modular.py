@@ -126,7 +126,9 @@ def naming_inv(**context):
 #####################################################################
 
 def naming_ne(**context):
+    
     manual = """
+    
     Esta funcion modifica el contenido de ciertos campos traidos desde los NE.
     La lectura la realiza de la tabla NE.
     El resultado lo guarda en la tabla NE.
@@ -135,6 +137,7 @@ def naming_ne(**context):
       none
     Returns:
       none
+    
     """
 
     table_ = 'NE'
@@ -294,12 +297,7 @@ def Caso2_revisar(**context):
     df_rev = lib.teco_reports._format_reporte_compliance(df_rev)
 
     conn.close()
-
     logging.info ('\n:::Registros a revisar: {}'.format(len(df_rev)))
-
-    #_gen_excel(df_rev,'revisar')
-
-    #print (len(df_rev))
     df_rev.to_csv('reports/auxiliar/rev.csv', index=False)
 
 def Caso3_ne_inv(**context):
@@ -417,7 +415,7 @@ _carga_inv_to_db = PythonOperator(
     task_id='Carga_inv_to_db',
     python_callable=Load_inv,
     op_kwargs={
-        #'file':'Table-id_722018305.csv',
+
         'file':['EthernetPortsByIpShelf.txt'],
         'dir':'Inner',
         'role': '*',
@@ -432,8 +430,6 @@ _carga_ne_to_db = PythonOperator(
     task_id='Carga_ne_to_db',
     python_callable=Load_inv,
     op_kwargs={    
-        #'file':'huawei_IC1.HOR1_interfaces.txt',
-        #'file':'huawei_IC1.SLO1_interfaces.txt',
         'file':['*'],
         'dir':'Inner/cu1/interfaces',
         'role': '*',
@@ -502,10 +498,8 @@ _imprime_reporte = PythonOperator(
 
 _envia_mail1 = EmailOperator(
     task_id='Email_to_canal',
-    to="c23383e8.teco.com.ar@amer.teams.ms", #canal teams de in-house
-    #to="b70919fe.teco.com.ar@amer.teams.ms", #mail del canal de compliance
+    to="6b8581f6.teco.com.ar@amer.teams.ms", #canal teams de in-house
     subject="Compliance Inner&Outer - Resultado de Ejecucion {{ ds }}",
-    #html_content="<h3> Esto es una prueba del envio de mail al finalizar la ejecucion del pipe </h3>",
     html_content=lib.teco_reports._cuerpo_mail(),
     files=["/usr/local/airflow/reports/reporte.xlsx"],
     dag=dag

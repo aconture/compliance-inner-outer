@@ -79,7 +79,8 @@ def gen_excel(**context):
 #####################################################################
 
 def _cuerpo_mail():
-    """
+    
+    manual = """
     Lee el resumen generado y almacenado en reports/auxiliar/ para usarlo en el cuerpo del mail de resultado de la operacion.
     """
     with open('reports/auxiliar/resumen.html', 'r') as f:

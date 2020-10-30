@@ -45,11 +45,6 @@ def scp_files(**context):
 
     if (update):
         try:
-            #connection = BaseHook.get_connection(conn_id)
-            #host = connection.host
-            #user = connection.login
-            #passw = connection.password
-
             os.system('rm {}*.txt'.format(local_dir)) #Limpiamos directorio
             logging.info ('::: Inicializado el directorio de *.txt local: {0}'.format(local_dir))
             
@@ -57,7 +52,6 @@ def scp_files(**context):
             #os.system('sshpass -p {0} scp {1}@{2}:{3}*.txt {4}'.format(passw,user,host,remote_dir,local_dir))
             os.system('cp -p {0}*.txt {1}'.format(remote_dir,local_dir))
             logging.info ('::: Archivos *.txt ansible copiados al directorio local')
-
         except:
             logging.error (':::! Problema en la conexión al servidor remoto.\n')
             return -1

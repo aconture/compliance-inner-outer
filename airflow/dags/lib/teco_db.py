@@ -22,7 +22,6 @@ def _insert_cursor(dataframe,tabla_postgres, lista_columnas):
       none
 
     """
-
     pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
     conn = pg_hook.get_conn()
     pg_cursor = conn.cursor()
