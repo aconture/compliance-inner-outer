@@ -21,6 +21,9 @@ services:
             - POSTGRES_DB=airflow
         volumes:
             - airflow-postgres-data:/var/lib/postgresql/data
+        ports:
+            - "5432:5432"
+
     webserver:
         container_name: airflow-webserver
         #image: apache/airflow:1.10.12-python3.7

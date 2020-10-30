@@ -5,6 +5,7 @@ import logging
 from time import sleep
 from datetime import datetime, timedelta
 import os
+import ansible_runner
 
 
 #####################################################################
@@ -75,7 +76,6 @@ def call_ansible(**context):
         "pass":"pass del usuario en el ansible proxy"
 
     """
-
     try:
         conn_id = context['connection']
     except:
@@ -88,9 +88,19 @@ def call_ansible(**context):
     if (update):
         logging.info (':::La base de Network Element tiene fecha en el pasado. Ejecutando Ansible para actualizar.')
         try:
-            os.system ('rm /usr/local/ansible/mejoras_cu1/interfaces/*.txt; cd /usr/local/ansible/mejoras_cu1/yaml; ansible-playbook main.yaml')
+            #os.system ('rm /usr/local/ansible/mejoras_cu1/interfaces/*.txt; cd /usr/local/ansible/mejoras_cu1/yaml; ansible-playbook main.yaml')
+            
+            r = ansible_runner.run(private_data_dir='/usr/local/ansible/mejoras_cu1/yaml', playbook='main.yaml')
+            print("{}: {}".format(r.status, r.rc))
+            # successful: 0
+            for each_host_event in r.events:
+                print(each_host_event['event'])
+            print("Final status:")
+            print(r.stats)  
+
         except:
             logging.error ('\n\n:::! Problema en la conexión al servidor remoto.\n')
+            print(r.stats)
             return -1
     else:
         logging.info (':::Base de datos de NE ya actualizada, no es necesario actualizar.')
@@ -101,8 +111,7 @@ def call_ansible(**context):
 
 def _check_vigencia(**context):
     
-    manual = """
-    
+    """
     Chequea si el directorio esta actualizado. 
 
     args:

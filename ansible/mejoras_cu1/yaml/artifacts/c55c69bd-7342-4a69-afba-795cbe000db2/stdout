@@ -1,0 +1,39 @@
+
+PLAY [Interfaces] **************************************************************
+
+TASK [HUAWEI IC INTERFACE DESCRIPTION] *****************************************
+[1;35m[WARNING]: Platform linux on host IC1.HOR1 is using the discovered Python[0m
+[1;35minterpreter at /usr/local/bin/python3.7, but future installation of another[0m
+[1;35mPython interpreter could change this. See https://docs.ansible.com/ansible/2.9/[0m
+[1;35mreference_appendices/interpreter_discovery.html for more information.[0m
+[0;32mok: [IC1.HOR1][0m
+
+TASK [debug] *******************************************************************
+[0;36mskipping: [IC1.HOR1][0m
+
+TASK [Creacion de Variables Huawei] ********************************************
+[0;32mok: [IC1.HOR1][0m
+
+TASK [Render Template Huawei] **************************************************
+[0;32mok: [IC1.HOR1][0m
+
+TASK [ASR SHOW INTERFACES] *****************************************************
+[0;36mskipping: [IC1.HOR1][0m
+
+TASK [debug] *******************************************************************
+[0;36mskipping: [IC1.HOR1][0m
+
+TASK [Creacion de Variables Cisco] *********************************************
+[0;36mskipping: [IC1.HOR1][0m
+
+
+TASK [Render Template Cisco] ***************************************************
+[0;36mskipping: [IC1.HOR1][0m
+
+PLAY RECAP *********************************************************************
+[0;32mIC1.HOR1[0m                   : [0;32mok=3   [0m changed=0    unreachable=0    failed=0    [0;36mskipped=5   [0m rescued=0    ignored=0   
+
+
+PLAY RECAP *********************************************************************
+[0;32mIC1.HOR1[0m                   : [0;32mok=3   [0m changed=0    unreachable=0    failed=0    [0;36mskipped=5   [0m rescued=0    ignored=0   
+

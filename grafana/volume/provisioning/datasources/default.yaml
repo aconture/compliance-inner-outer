@@ -4,3 +4,18 @@ datasources:
     type: prometheus
     access: proxy
     url: http://prometheus:9090
+    
+  #- name: PostgreSQL
+  #  # <string, required> datasource type. Required
+  #  type: Postgres
+  #  # <string, required> access mode. proxy or direct (Server or Browser in the UI). Required
+  #  access: proxy
+  #  # <string> url
+  #  url: 172.29.14.123:5432
+  #  # <string> Deprecated, use secureJsonData.password
+  #  password: airflow
+  #  # <string> database user, if used
+  #  user: airflow
+  #  # <string> database name, if used
+  #  database: airflow
+  #  # <bool> enable/disable basic auth
