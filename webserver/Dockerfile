@@ -17,7 +17,8 @@ RUN pip install ansible==2.9.11
 RUN	pip install bottle==0.12.18 \
 	&& pip install openpyxl==3.0.3 \
         && pip install textfsm==1.1.0 \
-        && pip install paramiko==2.7.1
+        && pip install paramiko==2.7.1 \
+        && pip install ansible_runner
 RUN mkdir /etc/ansible && chmod +755 /etc/ansible
 RUN mkdir /usr/local/airflow && chown -R airflow /usr/local/airflow
 RUN chmod 777 /usr/local/airflow
