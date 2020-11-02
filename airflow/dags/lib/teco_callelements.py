@@ -111,7 +111,7 @@ def call_ansible(**context):
 
 def _check_vigencia(**context):
     
-    """
+    manual = """
     Chequea si el directorio esta actualizado. 
 
     args:

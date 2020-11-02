@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "d2f284c4-4b88-4426-a809-62520cc8e41b", "counter": 7, "stdout": "interpreter at /usr/local/bin/python3.7, but future installation of another", "start_line": 5, "end_line": 6, "runner_ident": "355cc7cd-0dc0-4fc0-9a5c-13a206861bb8"}

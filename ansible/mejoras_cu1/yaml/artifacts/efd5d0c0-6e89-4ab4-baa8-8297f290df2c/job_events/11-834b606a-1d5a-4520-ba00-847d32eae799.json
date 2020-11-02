@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "834b606a-1d5a-4520-ba00-847d32eae799", "counter": 11, "stdout": "[WARNING]: Platform linux on host BEL1NA is using the discovered Python", "start_line": 9, "end_line": 10, "runner_ident": "efd5d0c0-6e89-4ab4-baa8-8297f290df2c"}

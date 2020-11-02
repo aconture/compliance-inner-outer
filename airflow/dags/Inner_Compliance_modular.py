@@ -18,6 +18,7 @@ import lib.teco_reports
 #arg
 
 default_args = {
+
     'owner': 'MVP.In-house',
     'depends_on_past': False,
     'start_date': datetime(2020, 1, 1),
@@ -34,6 +35,7 @@ default_args = {
 #####################################################################
 #####################################################################
 #dag
+
 dag = DAG(
     dag_id='Compliance_Inner_Outer-MODULAR', 
     schedule_interval= None,
@@ -48,9 +50,7 @@ dag = DAG(
 def naming_inv(**context):
     
     manual = """
-    
     Esta funcion modifica el contenido de ciertos campos traidos desde el inventario para que puedan ser comparados con el archivo que trae ansible desde el NE.
-
     La lectura la realiza de la tabla inv_itf.
     El resultado lo guarda en la tabla par_inv_itf. Esta tabla va a ser un subset de la tabla origen, que va atener solamente los registros que son comparados de acuerdo al 'networkrole'.
 
@@ -64,6 +64,7 @@ def naming_inv(**context):
     table_ = 'inv_itf'
     table_dest = 'par_inv_itf'
 
+    #Inicializamos la base
     pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
     conn = pg_hook.get_conn()
 
@@ -128,7 +129,6 @@ def naming_inv(**context):
 def naming_ne(**context):
     
     manual = """
-    
     Esta funcion modifica el contenido de ciertos campos traidos desde los NE.
     La lectura la realiza de la tabla NE.
     El resultado lo guarda en la tabla NE.
@@ -167,8 +167,7 @@ def naming_ne(**context):
 def Caso1_ok_v2(**context):
 
     manual = """
-
-            Esta funcion determina los registros correctamente sincronizados entre el NE y el inventario.
+    Esta funcion determina los registros correctamente sincronizados entre el NE y el inventario.
     Args: 
       none
     Returns:
@@ -240,8 +239,7 @@ def Caso1_ok_v2(**context):
 def Caso2_revisar(**context):
 
     manual = """
-
-            Esta funcion determina los registros que hay que revisar entre el NE y el inventario, por tener estados inconsistentes.
+    Esta funcion determina los registros que hay que revisar entre el NE y el inventario, por tener estados inconsistentes.
     Args: 
       none
     Returns:
@@ -304,7 +302,7 @@ def Caso3_ne_inv(**context):
 
     manual = """
 
-            Esta funcion determina los registros que existen en el NE y NO existen en el inventario.
+    Esta funcion determina los registros que existen en el NE y NO existen en el inventario.
     Args: 
       none
     Returns:
@@ -356,7 +354,7 @@ def Caso4_inv_ne(**context):
 
     manual = """
 
-            Esta funcion determina los registros que existen en el Inventario y NO existen en el NE.
+    Esta funcion determina los registros que existen en el Inventario y NO existen en el NE.
     Args: 
       none
     Returns:

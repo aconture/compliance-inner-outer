@@ -4,11 +4,12 @@ import os
 import lib.teco_db
 from airflow.hooks import PostgresHook
 
+#####################################################################
+#####################################################################
 
 def gen_excel(**context):
     
-    manual = """
-    
+    """
     Esta funcion 
         -genera un archivo excel con el contenido de los 'n' archivos csv que lee en el directorio. Requiere que todos los archivos csv tengan los mismos campos.
         Para que no repita el nombre de la solapa del excel, se debe invocar a la funcion init_report, que borra el excel que existe previamente.
@@ -80,9 +81,12 @@ def gen_excel(**context):
 
 def _cuerpo_mail():
     
-    manual = """
-    Lee el resumen generado y almacenado en reports/auxiliar/ para usarlo en el cuerpo del mail de resultado de la operacion.
     """
+
+    Lee el resumen generado y almacenado en reports/auxiliar/ para usarlo en el cuerpo del mail de resultado de la operacion.
+    
+    """
+
     with open('reports/auxiliar/resumen.html', 'r') as f:
         html_string = f.read()
     f.close

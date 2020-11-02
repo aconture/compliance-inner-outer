@@ -1,0 +1,44 @@
+
+PLAY [Interfaces] **************************************************************
+
+TASK [HUAWEI IC INTERFACE DESCRIPTION] *****************************************
+[WARNING]: Platform linux on host IC1.HOR1 is using the discovered Pythonreference_appendices/interpreter_discovery.html for more information.
+ok: [IC1.HOR1]
+[WARNING]: Platform linux on host BEL1NA is using the discovered Python
+interpreter at /usr/local/bin/python3.7, but future installation of another
+Python interpreter could change this. See https://docs.ansible.com/ansible/2.9/
+reference_appendices/interpreter_discovery.html for more information.
+fatal: [BEL1NA]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/local/bin/python3.7"}, "changed": false, "msg": "Failed to authenticate: Authentication failed."}
+...ignoring
+
+TASK [debug] *******************************************************************
+skipping: [IC1.HOR1]
+ok: [BEL1NA] => {
+    "msg": "Fallo Loggeo"
+}
+
+TASK [Creacion de Variables Huawei] ********************************************
+fatal: [BEL1NA]: FAILED! => {"msg": "parse_cli_textfsm input should be a string, but was given a input of <class 'ansible.template.AnsibleUndefined'>"}
+ok: [IC1.HOR1]
+
+TASK [Render Template Huawei] **************************************************
+ok: [IC1.HOR1]
+
+TASK [ASR SHOW INTERFACES] *****************************************************
+skipping: [IC1.HOR1]
+
+TASK [debug] *******************************************************************
+skipping: [IC1.HOR1]
+
+TASK [Creacion de Variables Cisco] *********************************************
+skipping: [IC1.HOR1]
+
+TASK [Render Template Cisco] ***************************************************
+skipping: [IC1.HOR1]
+BEL1NA                     : ok=2    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=1   
+IC1.HOR1                   : ok=3    changed=0    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
+PLAY RECAP *********************************************************************
+BEL1NA                     : ok=2    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=1   
+IC1.HOR1                   : ok=3    changed=0    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+
