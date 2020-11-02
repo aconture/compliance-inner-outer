@@ -1,14 +1,23 @@
+[OC]
+BEL1NA
+
 [IC]
 IC1.HOR1
-BEL1NA
 
 [IC:vars]
 vendor=HUAWEI
 model=NE9000
 ansible_network_os=ce
 
+[OC:vars]
+vendor=CISCO
+model=ASR
+ansible_network_os=iosxr
+
+
 [EQUIPOS:children]
 IC
+OC
 
 [EQUIPOS:vars]
 #ansible_password=c.H4rLY*Ec0
