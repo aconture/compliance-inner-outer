@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "163f79e1-4645-4e7b-9fac-7e01b06fb8f8", "counter": 9, "stdout": "Python interpreter could change this. See https://docs.ansible.com/ansible/2.9/", "start_line": 7, "end_line": 8, "runner_ident": "718d818c-7768-4249-abbb-b00600cfc55d"}
