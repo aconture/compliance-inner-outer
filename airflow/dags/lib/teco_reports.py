@@ -60,7 +60,7 @@ def gen_excel(**context):
     sql_delete = 'delete from core_history where fecha=\'{0}\''.format(f_ejecucion)
     lib.teco_db._delete_cursor(sql_delete)
     #registro el resumen en la tabla historico de la base de datos:
-    lista_columnas = ['NE', 'ok', 'revisar', 'finv', 'fecha']
+    lista_columnas = ['NE', 'finv', 'ok', 'revisar', 'fecha']
     lib.teco_db._insert_cursor (data_resumen_dataframe, tabla, lista_columnas)
 
     #print (dataframe)
