@@ -495,7 +495,8 @@ _imprime_reporte = PythonOperator(
 
 _envia_mail1 = EmailOperator(
     task_id='Email_to_canal',
-    to="c23383e8.teco.com.ar@amer.teams.ms", #canal teams de in-house
+    to="6b8581f6.teco.com.ar@amer.teams.ms",
+    #to="c23383e8.teco.com.ar@amer.teams.ms", #canal teams de in-house
     subject="Compliance Inner&Outer - Resultado de Ejecucion {{ ds }}",
     html_content=lib.teco_reports._cuerpo_mail(),
     files=["/usr/local/airflow/reports/reporte.xlsx"],

@@ -3,6 +3,7 @@ BEL1NA
 
 [IC]
 IC1.HOR1
+IC1.SLO1
 
 [IC:vars]
 vendor=HUAWEI

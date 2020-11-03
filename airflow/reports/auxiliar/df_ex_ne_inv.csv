@@ -10,3 +10,14 @@ shelfNetworkRole,NE,shelfHardware,interface,Recurso,portBandwidth,EstadoRed,Esta
 0-Crear en Inventario,IC1.HOR1,N/A,Eth-Trunk114,IC1.HOR1Eth-Trunk114,N/A,up,N/A,CNX:ENLACE:ROS6.HOR1 (100GE2/1/3 + 100GE2/1/4 + 100GE2/1/5),N/A,Falta_en_inventario
 0-Crear en Inventario,IC1.HOR1,N/A,Eth-Trunk115,IC1.HOR1Eth-Trunk115,N/A,up,N/A,CNX:ENLACE:ROS6.SLO1 (100GE9/1/0 + 100GE9/1/1 + 100GE9/1/2),N/A,Falta_en_inventario
 0-Crear en Inventario,IC1.HOR1,N/A,GE0/0/0,IC1.HOR1GE0/0/0,N/A,down,N/A,NaN,N/A,Falta_en_inventario
+0-Crear en Inventario,IC1.SLO1,N/A,Eth-Trunk106,IC1.SLO1Eth-Trunk106,N/A,up,N/A,CNX:ENLACE:MUN1NA (100GE9/0/0 + 100GE9/0/1 + 100GE9/0/2 + 100GE9/0/3 + 100GE9/0/4),N/A,Falta_en_inventario
+0-Crear en Inventario,IC1.SLO1,N/A,Eth-Trunk107,IC1.SLO1Eth-Trunk107,N/A,up,N/A,CNX:ENLACE:MUN1NA (100GE9/1/6 + 100GE9/1/7 + 100GE9/1/8 + 100GE9/1/9 + 100GE9/1/10),N/A,Falta_en_inventario
+0-Crear en Inventario,IC1.SLO1,N/A,Eth-Trunk108,IC1.SLO1Eth-Trunk108,N/A,up,N/A,CNX:ENLACE:RSC1NA (100GE8/0/0 + 100GE8/0/1 + 100GE8/0/2 + 100GE8/0/3 + 100GE8/0/4 + 100GE8/0/5 + 100GE8/0/6 + 100GE8/0/7),N/A,Falta_en_inventario
+0-Crear en Inventario,IC1.SLO1,N/A,Eth-Trunk109,IC1.SLO1Eth-Trunk109,N/A,up,N/A,CNX:ENLACE:CEN1NA (100GE3/0/0 + 100GE3/0/1 + 100GE3/0/2 + 100GE3/0/3 + 100GE3/0/4 + 100GE3/0/5 + 100GE3/0/6 + 100GE3/0/7),N/A,Falta_en_inventario
+0-Crear en Inventario,IC1.SLO1,N/A,Eth-Trunk110,IC1.SLO1Eth-Trunk110,N/A,up,N/A,CNX:ENLACE:ROC2.SLO1 (100GE2/0/0 + 100GE2/0/1 + 100GE2/0/2 + 100GE2/0/3 + 100GE2/0/4 + 100GE2/0/5 + 100GE2/0/6 + 100GE2/0/7),N/A,Falta_en_inventario
+0-Crear en Inventario,IC1.SLO1,N/A,Eth-Trunk111,IC1.SLO1Eth-Trunk111,N/A,up,N/A,CNX:ENLACE:ROE1.SLO1 (100GE2/0/11 + 100GE2/0/12 + 100GE2/0/13 + 100GE2/0/14 + 100GE2/0/15 + 100GE2/0/16 + 100GE2/0/17 + 100GE2/0/18 + 100GE2/0/19 + 100GE2/1/0 + 100GE2/1/1 + 100GE2/1/2 + 100GE2/1/3 + 100GE2/1/7 - 100GE2/1/13),N/A,Falta_en_inventario
+0-Crear en Inventario,IC1.SLO1,N/A,Eth-Trunk112,IC1.SLO1Eth-Trunk112,N/A,up,N/A,CNX:ENLACE:ROE1.HOR1 (100GE9/0/5 + 100GE9/0/6 + 100GE9/0/7 + 100GE9/0/8 + 100GE9/0/9 + 100GE9/0/10 + 100GE9/0/11),N/A,Falta_en_inventario
+0-Crear en Inventario,IC1.SLO1,N/A,Eth-Trunk113,IC1.SLO1Eth-Trunk113,N/A,up,N/A,CNX:ENLACE:ROC2.BEL1 (100GE9/0/12 + 100GE9/0/13 + 100GE9/0/14 + 100GE9/0/15 + 100GE9/0/16 + 100GE9/0/17 + 100GE9/0/18),N/A,Falta_en_inventario
+0-Crear en Inventario,IC1.SLO1,N/A,Eth-Trunk114,IC1.SLO1Eth-Trunk114,N/A,up,N/A,CNX:ENLACE:ROS7.HOR1 (100GE9/0/19 + 100GE9/1/0 + 100GE9/1/1),N/A,Falta_en_inventario
+0-Crear en Inventario,IC1.SLO1,N/A,Eth-Trunk115,IC1.SLO1Eth-Trunk115,N/A,up,N/A,CNX:ENLACE:ROS7.SLO1 (100GE2/1/4 + 100GE2/1/5 + 100GE2/1/6),N/A,Falta_en_inventario
+0-Crear en Inventario,IC1.SLO1,N/A,GE0/0/0,IC1.SLO1GE0/0/0,N/A,down,N/A,NaN,N/A,Falta_en_inventario
