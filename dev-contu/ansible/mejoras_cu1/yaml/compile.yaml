@@ -1,3 +1,0 @@
----
-- name: run my script!
-  shell: ../python/uni_txtint.py

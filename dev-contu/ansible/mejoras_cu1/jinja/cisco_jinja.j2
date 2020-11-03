@@ -1,6 +1,0 @@
-shelfname|interface|portoperationalstate|protocol|info1
-{% for item in range(var_cisco|length) %}
-{{inventory_hostname}}|{{var_cisco[item].PORT}}|{{ var_cisco[item].STATUS}}|{{var_cisco[item].PROTOCOL}}|{{var_cisco[item].DESCRIP | regex_replace('\|')}}
-{% endfor %}
-
-

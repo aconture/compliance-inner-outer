@@ -1,8 +1,0 @@
-mail.example.com
-
-[webservers]
-foo.example.com
-bar.example.com
-
-[dbservers]
-postgres-airflow
