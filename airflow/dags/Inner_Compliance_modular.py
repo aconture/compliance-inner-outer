@@ -236,6 +236,8 @@ def Caso1_ok_v2(**context):
     df_ok.to_csv('reports/auxiliar/ok.csv', index=False)
     #df_all.to_json('prueba.json', orient='records', lines=True)
 
+#####################################################################
+
 def Caso2_revisar(**context):
 
     manual = """
@@ -298,6 +300,9 @@ def Caso2_revisar(**context):
     logging.info ('\n:::Registros a revisar: {}'.format(len(df_rev)))
     df_rev.to_csv('reports/auxiliar/rev.csv', index=False)
 
+
+#####################################################################
+
 def Caso3_ne_inv(**context):
 
     manual = """
@@ -349,6 +354,9 @@ def Caso3_ne_inv(**context):
 
     #_gen_excel(df_ex_ne_inv,'FaltaEnInv')
     df_ex_ne_inv.to_csv('reports/auxiliar/df_ex_ne_inv.csv', index=False)
+
+
+#####################################################################
 
 def Caso4_inv_ne(**context):
 
