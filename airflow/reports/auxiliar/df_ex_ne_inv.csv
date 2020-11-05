@@ -1,4 +1,274 @@
 shelfNetworkRole,NE,shelfHardware,interface,Recurso,portBandwidth,EstadoRed,EstadoLisy,DescRed,DescLisy,EvEstado
+0-Crear en Inventario,CTE1NA,N/A,BE117,CTE1NABE117,N/A,up,N/A,CNX:ENLACE:MUS1NA (Hu0/16/0/0 + Hu0/16/0/2 + Hu0/16/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,BE20,BUA1NABE20,N/A,admin-down,N/A,A MUSGGC1SA Port-Channel 20,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,BE20.200,BUA1NABE20.200,N/A,admin-down,N/A,VLAN GESTION DE MUSGGC1SA POR BUA1NA,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,BE100,BUA1NABE100,N/A,up,N/A,A MUSCDN01 (Agrupa Hu0/16/0/0 - Hu0/16/0/1),N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,BE101,BUA1NABE101,N/A,up,N/A,A MUSCDN02 (Agrupa Hu0/17/0/0 - Hu0/17/0/1),N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,BE102,BUA1NABE102,N/A,up,N/A,A MUSCDN03 (Agrupa Hu0/16/0/2 - Hu0/16/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,BE103,BUA1NABE103,N/A,up,N/A,A MUSCDN04 (Agrupa Hu0/17/0/2 - Hu0/17/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,BE104,BUA1NABE104,N/A,up,N/A,A BUACDN02 (Agrupa Hu0/16/0/5 - Hu0/18/0/5),N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,BE115,BUA1NABE115,N/A,up,N/A,CNX:ENLACE:MUS1NA (Hu0/19/0/0 + Hu0/19/0/1 + Hu0/19/0/2 + Hu0/19/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,BE116,BUA1NABE116,N/A,up,N/A,CNX:ENLACE:COE1NA (Hu0/15/0/0 + Hu0/15/0/1 + Hu0/15/0/2 + Hu0/15/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,BE117,BUA1NABE117,N/A,up,N/A,CNX:ENLACE:RES1NA (Hu0/18/0/0 + Hu0/18/0/1 + Hu0/18/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Lo0,BUA1NALo0,N/A,up,N/A,AREA O - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Lo4,BUA1NALo4,N/A,up,N/A,AREA 4 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Lo8,BUA1NALo8,N/A,up,N/A,AREA 8 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Lo39,BUA1NALo39,N/A,up,N/A,AREA 39 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Lo41,BUA1NALo41,N/A,up,N/A,AREA 41 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Lo49,BUA1NALo49,N/A,up,N/A,AREA 49 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Lo55,BUA1NALo55,N/A,up,N/A,AREA 55 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Lo84,BUA1NALo84,N/A,up,N/A,AREA 84 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Lo89,BUA1NALo89,N/A,up,N/A,AREA 89 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Lo90,BUA1NALo90,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Lo98,BUA1NALo98,N/A,up,N/A,AREA 98 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Lo1234,BUA1NALo1234,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Nu0,BUA1NANu0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Mg0/RP0/CPU0/0,BUA1NAMg0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Mg0/RP0/CPU0/1,BUA1NAMg0/RP0/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,PT0/RP0/CPU0/0,BUA1NAPT0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Mg0/RP1/CPU0/0,BUA1NAMg0/RP1/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BUA1NA,N/A,Mg0/RP1/CPU0/1,BUA1NAMg0/RP1/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,BE20,RES1NABE20,N/A,down,N/A,A CTEGGC1SA Port-Channel 20,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,BE20.200,RES1NABE20.200,N/A,down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,BE40,RES1NABE40,N/A,up,N/A,Enlace 100G DWDM PZU3MU_G3/0/0 (Linea:11005050) - UPLINK AGN,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,BE101,RES1NABE101,N/A,up,N/A,A CTECDN02 (Agrupa Hu0/17/0/0 y Hu0/17/0/1,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,BE102,RES1NABE102,N/A,up,N/A,A RESCDN01 (Agrupa Hu0/19/0/0 y Hu0/19/0/1),N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,BE103,RES1NABE103,N/A,admin-down,N/A,A CTECDN04 (Agrupa Hu0/19/0/2 y Hu0/19/0/3,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,BE105,RES1NABE105,N/A,up,N/A,A CTECDN01 (Agrupa Hu0/17/0/2 y Hu0/17/0/3,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,BE106,RES1NABE106,N/A,up,N/A,A RESCDN02 (Agrupa Hu0/14/0/0 y Hu0/15/0/0),N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,BE116,RES1NABE116,N/A,up,N/A,CNX:ENLACE:IRD1NA (Hu0/15/0/0 + Hu0/15/0/1 + Hu0/15/0/2 + Hu0/15/0/3 + Hu0/15/0/4 + Hu0/15/0/5),N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,BE117,RES1NABE117,N/A,up,N/A,CNX:ENLACE:BUA1NA (Hu0/18/0/2 + Hu0/18/0/3 + Hu0/18/0/7),N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,BE118,RES1NABE118,N/A,up,N/A,CNX:ENLACE:CTE1NA (Hu0/14/0/3 + Hu0/14/0/4 + Hu0/14/0/5 + Hu0/14/0/6),N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,BE200,RES1NABE200,N/A,up,N/A,Enlace 100G FO CCU1MU_G0/6/0 (Linea:11005716) - UPLINK AGN,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Lo0,RES1NALo0,N/A,up,N/A,AREA 0 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Lo7,RES1NALo7,N/A,up,N/A,AREA 7 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Lo8,RES1NALo8,N/A,up,N/A,AREA 8 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Lo14,RES1NALo14,N/A,up,N/A,AREA 14 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Lo20,RES1NALo20,N/A,up,N/A,AREA 20 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Lo25,RES1NALo25,N/A,up,N/A,AREA 25 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Lo27,RES1NALo27,N/A,up,N/A,AREA 27 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Lo29,RES1NALo29,N/A,up,N/A,AREA 29 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Lo52,RES1NALo52,N/A,up,N/A,AREA 52 OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Lo87,RES1NALo87,N/A,up,N/A,AREA 87 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Lo91,RES1NALo91,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Lo95,RES1NALo95,N/A,up,N/A,AREA 95 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Lo157,RES1NALo157,N/A,up,N/A,AREA 157 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Nu0,RES1NANu0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Mg0/RP0/CPU0/0,RES1NAMg0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Mg0/RP0/CPU0/1,RES1NAMg0/RP0/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,PT0/RP0/CPU0/0,RES1NAPT0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Mg0/RP1/CPU0/0,RES1NAMg0/RP1/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RES1NA,N/A,Mg0/RP1/CPU0/1,RES1NAMg0/RP1/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,BE118,CTE1NABE118,N/A,up,N/A,CNX:ENLACE:RES1NA (Hu0/15/0/3 + Hu0/15/0/4 + Hu0/15/0/5 + Hu0/15/0/6),N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,BE1,COE1NABE1,N/A,down,N/A,A COEGGC1SA Port-Channel 10 (Agrupa Hu0/2/0/0 y Hu0/4/0/0),N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,BE1.100,COE1NABE1.100,N/A,admin-down,N/A,Gestion COEGGC1SA - Peer eBGP Servicios x Plana,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,BE31,COE1NABE31,N/A,up,N/A,CNX:ENLACE:ROA1.CBE1(0/6/0/5+Hu0/6/0/5->BE31) Linea: 13007391,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,BE41,COE1NABE41,N/A,up,N/A,CNX:ENLACE:ROA1.CBS1(Hu0/1/0/7 ->BE41) Linea: 13007419,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,BE100,COE1NABE100,N/A,up,N/A,A COECDN01 (Agrupa Hu0/0/1/0 y Hu0/0/1/1),N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,BE101,COE1NABE101,N/A,up,N/A,A COECDN02 (Agrupa Hu0/0/1/0 y Hu0/0/1/1),N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,BE102,COE1NABE102,N/A,up,N/A,A CDNGW1.CEN1 (Agrupa Hu0/3/0/0-1-2-3-4-6),N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,BE108,COE1NABE108,N/A,up,N/A,CNX:ENLACE:CEN1NA (Hu0/6/0/0 + Hu0/6/0/1 + Hu0/6/0/2 + Hu0/6/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,BE109,COE1NABE109,N/A,up,N/A,CNX:ENLACE:IC1.HOR1 (Hu0/1/0/0 + Hu0/1/0/1 + Hu0/1/0/2 + Hu0/1/0/3 + Hu0/1/0/4 + Hu0/1/0/5 + Hu0/1/0/6),N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,BE110,COE1NABE110,N/A,up,N/A,CNX:ENLACE:ROA1.CBO1 (Hu-0/6/0/4),N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,BE116,COE1NABE116,N/A,up,N/A,CNX:ENLACE:BUA1NA (Hu0/15/0/0 + Hu0/15/0/1 + Hu0/15/0/2 + Hu0/15/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,BE200,COE1NABE200,N/A,admin-down,N/A,A CENCDN01 (Agrupa Hu0/0/1/2 y Hu0/0/1/3),N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,BE201,COE1NABE201,N/A,up,N/A,A CENCDN02 (Agrupa Hu0/0/1/2 y Hu0/0/1/3),N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo0,COE1NALo0,N/A,up,N/A,AREA 0 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo1,COE1NALo1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo5,COE1NALo5,N/A,up,N/A,AREA 5 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo12,COE1NALo12,N/A,up,N/A,AREA 12 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo13,COE1NALo13,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo39,COE1NALo39,N/A,up,N/A,AREA 39 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo41,COE1NALo41,N/A,up,N/A,AREA 41 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo49,COE1NALo49,N/A,up,N/A,AREA 49 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo55,COE1NALo55,N/A,up,N/A,AREA 55 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo61,COE1NALo61,N/A,up,N/A,AREA 61 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo62,COE1NALo62,N/A,up,N/A,AREA62 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo76,COE1NALo76,N/A,up,N/A,AREA 76 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo80,COE1NALo80,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo84,COE1NALo84,N/A,up,N/A,AREA 84 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo89,COE1NALo89,N/A,up,N/A,AREA 89 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Lo98,COE1NALo98,N/A,up,N/A,AREA 98 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Nu0,COE1NANu0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Mg0/RP0/CPU0/0,COE1NAMg0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Mg0/RP0/CPU0/1,COE1NAMg0/RP0/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,PT0/RP0/CPU0/0,COE1NAPT0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Mg0/RP1/CPU0/0,COE1NAMg0/RP1/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,COE1NA,N/A,Mg0/RP1/CPU0/1,COE1NAMg0/RP1/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE1,MUN1NABE1,N/A,up,N/A,CDN ANEVIA- Enlace 20G a MUN-SE-1,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE1.102,MUN1NABE1.102,N/A,admin-down,N/A,VPNGESTION-EDGE-CABLE(linea15007535)Gest.Cable.(ExCDN),N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE1.103,MUN1NABE1.103,N/A,admin-down,N/A,VPNGESTION-EDGE-ANEVIA(linea15007535)Gest.Cable.(ExCDN),N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE1.200,MUN1NABE1.200,N/A,up,N/A,CONEXION CDN ANEVIA - STREAMER MUNRO 1 OUT,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE2,MUN1NABE2,N/A,down,N/A,"Enlace 60G a FACEBOOK (Linea: 2810589, 2812879, 2810590, 2812880, 2772586, 2807298) FB:BR01",N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE3,MUN1NABE3,N/A,admin-down,N/A,PEERING 200G a FACEBOOK (Linea: 2836782 y 2840049) FB:BR03,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE4,MUN1NABE4,N/A,up,N/A,CNX:ENLACE:ROA1.CEN1 (Hu0/9/0/2 + Te0/11/1/12 + Te0/10/0/10),N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE5,MUN1NABE5,N/A,up,N/A,CNX:ENLACE:ROA1.RET1 (Te0/11/1/10 + Te0/10/0/11 + Te0/11/1/13 + Te0/10/0/14 + Te0/10/0/15 + Te0/10/0/16 + Te0/10/0/17 + Te0/10/0/18),N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE6,MUN1NABE6,N/A,up,N/A,CNX:ENLACE: Nodo-ROA1.VCR1 (Hu0/4/0/3 + Hu0/5/0/1) Linea 15009295,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE20,MUN1NABE20,N/A,admin-down,N/A,Enlace 300G A CABLEVISION - PEERING NAC - REFE(666207) LINEA(2807047) y LINEA(2842582),N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE100,MUN1NABE100,N/A,up,N/A,A MUNCDN01 Agrupa Hu0/13/0/4 y Hu,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE101,MUN1NABE101,N/A,up,N/A,A MUNCDN02 Agrupa Hu0/13/0/5 y Hu,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE102,MUN1NABE102,N/A,up,N/A,A MUNCDN03 Agrupa Hu0/15/0/6 HU0/16/0/6 HU0/18/0/6,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE106,MUN1NABE106,N/A,up,N/A,CNX:ENLACE:IC1.SLO1 (Hu0/15/0/0 + Hu0/15/0/1 + Hu0/15/0/2 + Hu0/15/0/3 + Hu0/15/0/5),N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE107,MUN1NABE107,N/A,up,N/A,CNX:ENLACE:IC1.SLO1 (Hu0/18/0/2 + Hu0/18/0/3 + Hu0/18/0/4 + Hu0/18/0/5 + Hu0/18/0/7),N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE200,MUN1NABE200,N/A,up,N/A,A BELCDN01 Agrupa Hu0/13/0/6 y Hu,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,BE201,MUN1NABE201,N/A,up,N/A,A BELCDN02 Agrupa Hu0/14/0/6 y Hu,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Lo0,MUN1NALo0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Lo1,MUN1NALo1,N/A,up,N/A,AREA 1 OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Lo2,MUN1NALo2,N/A,up,N/A,AREA 2 OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Lo3,MUN1NALo3,N/A,up,N/A,loopback Area 3,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Lo17,MUN1NALo17,N/A,up,N/A,AREA 17 OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Lo37,MUN1NALo37,N/A,up,N/A,OSPF - AREA 37,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Lo51,MUN1NALo51,N/A,up,N/A,OSPF - AREA 51,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Lo74,MUN1NALo74,N/A,up,N/A,Loopback Area 74,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Lo79,MUN1NALo79,N/A,up,N/A,OSPF - AREA 79,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Lo81,MUN1NALo81,N/A,up,N/A,AREA 81 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Lo94,MUN1NALo94,N/A,up,N/A,Loopback Area 94,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Lo161,MUN1NALo161,N/A,up,N/A,AREA 161 - OSPF TNN1MU,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Lo163,MUN1NALo163,N/A,up,N/A,AREA 163 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Lo1000,MUN1NALo1000,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Nu0,MUN1NANu0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Mg0/RP0/CPU0/0,MUN1NAMg0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Mg0/RP0/CPU0/1,MUN1NAMg0/RP0/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,PT0/RP0/CPU0/0,MUN1NAPT0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Mg0/RP1/CPU0/0,MUN1NAMg0/RP1/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Mg0/RP1/CPU0/1,MUN1NAMg0/RP1/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Te0/10/0/7.100,MUN1NATe0/10/0/7.100,N/A,up,N/A,CONEXION CDN ANEVIA - GESTION (Linea:15001766),N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Te0/10/0/7.104,MUN1NATe0/10/0/7.104,N/A,admin-down,N/A,VPNGESTION-EDGE-CABLE(linea15007535)Gest.Cable.(ExCDN),N/A,Falta_en_inventario
+0-Crear en Inventario,MUN1NA,N/A,Te0/10/0/7.105,MUN1NATe0/10/0/7.105,N/A,admin-down,N/A,VPNGESTION-EDGE-ANEVIA(linea15007535)Gest.Cable.(ExCDN),N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,BE1,CEN1NABE1,N/A,down,N/A,A COEGGC1SA Port-Channel 20 (Agrupa Hu0/1/0/0 y Hu0/4/0/0),N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,BE1.200,CEN1NABE1.200,N/A,admin-down,N/A,Gestion COEGGC1SA - Peer eBGP Servicios x Plana,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,BE4,CEN1NABE4,N/A,up,N/A,Enlace 120G DWDM RCU4MU Eth trunk4 - UPLINK AGN,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,BE30,CEN1NABE30,N/A,up,N/A,CNX:ENLACE:ROA1.CBE1(Hu0/4/0/0+Hu0/4/0/1 ->BE30) Linea: 13007390,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,BE40,CEN1NABE40,N/A,up,N/A,CNX:ENLACE:ROA1.CBS1(Hu0/3/0/7 ->BE40) Linea: 13007418,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,BE100,CEN1NABE100,N/A,admin-down,N/A,A CENCDN01 (Agrupa Hu1/0 y Hu1/1),N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,BE101,CEN1NABE101,N/A,up,N/A,A CENCDN02 (Agrupa Hu1/0 y Hu1/1),N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,BE102,CEN1NABE102,N/A,up,N/A,CNX:ENLACE:CDNGW1.CEN1 (Hu0/3/0/0-1-2-3-4-5-6),N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,BE108,CEN1NABE108,N/A,up,N/A,CNX:ENLACE:COE1NA (Hu0/6/0/0 + Hu0/6/0/1 + Hu0/6/0/2 + Hu0/6/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,BE109,CEN1NABE109,N/A,up,N/A,CNX:ENLACE:IC1.SLO1 (Hu0/2/0/0 + Hu0/2/0/1 + Hu0/2/0/2 + Hu0/2/0/3 + Hu0/2/0/4 + Hu0/2/0/5 + Hu0/2/0/6 + Hu0/2/0/7),N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,BE110,CEN1NABE110,N/A,up,N/A,CNX:ENLACE:ROA1.CBO1 (Hu-0/6/0/4),N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,BE116,CEN1NABE116,N/A,up,N/A,CNX:ENLACE:MUS1NA (Hu0/17/0/0 + Hu0/17/0/1 + Hu0/17/0/2 + Hu0/17/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,BE200,CEN1NABE200,N/A,up,N/A,A COECDN01 (Agrupa Hu0/0/1/2 y Hu0/0/1/3),N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,BE201,CEN1NABE201,N/A,up,N/A,A COECDN02 (Agrupa Hu0/0/1/2 y Hu0/0/1/3),N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo0,CEN1NALo0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo1,CEN1NALo1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo5,CEN1NALo5,N/A,up,N/A,AREA 5 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo9,CEN1NALo9,N/A,up,N/A,AREA 9 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo19,CEN1NALo19,N/A,up,N/A,AREA 19 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo23,CEN1NALo23,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo28,CEN1NALo28,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo30,CEN1NALo30,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo31,CEN1NALo31,N/A,up,N/A,AREA 31 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo36,CEN1NALo36,N/A,up,N/A,AREA 36 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo40,CEN1NALo40,N/A,up,N/A,AREA 40 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo42,CEN1NALo42,N/A,up,N/A,OSPF - AREA 42,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo47,CEN1NALo47,N/A,up,N/A,Loopback Area 47,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo60,CEN1NALo60,N/A,up,N/A,Loopback Area 60,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo70,CEN1NALo70,N/A,up,N/A,AREA70 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo77,CEN1NALo77,N/A,up,N/A,AREA 77 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo78,CEN1NALo78,N/A,up,N/A,AREA 78 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo80,CEN1NALo80,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo85,CEN1NALo85,N/A,up,N/A,AREA 85 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo86,CEN1NALo86,N/A,up,N/A,AREA 86 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo96,CEN1NALo96,N/A,up,N/A,AREA 96 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo97,CEN1NALo97,N/A,up,N/A,AREA 97 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo99,CEN1NALo99,N/A,up,N/A,AREA 99 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo100,CEN1NALo100,N/A,up,N/A,AREA 100 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Lo160,CEN1NALo160,N/A,up,N/A,AREA160 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Nu0,CEN1NANu0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Mg0/RP0/CPU0/0,CEN1NAMg0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Mg0/RP0/CPU0/1,CEN1NAMg0/RP0/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,PT0/RP0/CPU0/0,CEN1NAPT0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Mg0/RP1/CPU0/0,CEN1NAMg0/RP1/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CEN1NA,N/A,Mg0/RP1/CPU0/1,CEN1NAMg0/RP1/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,BE3,IRD1NABE3,N/A,down,N/A,A RSCGGC1SA Port-Channel 3 (Agrupa Hu0/0/0/2 y H0/3/0/2),N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,BE3.200,IRD1NABE3.200,N/A,down,N/A,VLAN GESTION DE RSCGGC1SA POR RSC1NA,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,BE5,IRD1NABE5,N/A,up,N/A,Enlace 120G DWDM RCU4MU Eth trunk5 - UPLINK AGN,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,BE100,IRD1NABE100,N/A,up,N/A,A RSCCDN01 (Agrupa Hu0/13/0/5 y Hu0/13/0/6),N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,BE101,IRD1NABE101,N/A,up,N/A,A RSCCDN02 (Agrupa Hu0/14/0/4 y Hu0/14/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,BE102,IRD1NABE102,N/A,up,N/A,A IRDCDN01 (Agrupa Hu0/16/0/0 y Hu0/16/0/1),N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,BE103,IRD1NABE103,N/A,up,N/A,A IRDCDN02 (Agrupa Hu0/15/0/0 y Hu0/15/0/1),N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,BE104,IRD1NABE104,N/A,down,N/A,A CDNGW1.RSC1,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,BE108,IRD1NABE108,N/A,up,N/A,CNX:ENLACE:IC1.HOR1 (Hu0/5/0/2 + Hu0/17/0/0 + Hu0/17/0/1 + Hu0/17/0/2),N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,BE109,IRD1NABE109,N/A,up,N/A,CNX:ENLACE:RSC1NA (Hu0/5/0/3 + Hu0/5/0/4 + Hu0/7/0/3 + Hu0/7/0/4),N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,BE116,IRD1NABE116,N/A,up,N/A,ENLACE:RES1NA (Hu0/6/0/0 + Hu0/6/0/1 + Hu0/6/0/2 + Hu0/6/0/3 + Hu0/6/0/4 + Hu0/6/0/5),N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,BE123,IRD1NABE123,N/A,up,N/A,CNX:ENLACE:ROA1.ROS1 (Hu-0/5/0/5) Linea: 11005756,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,BE124,IRD1NABE124,N/A,up,N/A,CNX:ENLACE:ROA1.RON1(Te0/10/1/3+Te0/10/1/5+Te0/10/1/6+Te0/11/0/19+Te0/10/1/7->ae21),N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo0,IRD1NALo0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo1,IRD1NALo1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo6,IRD1NALo6,N/A,up,N/A,Loopback Area 6,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo13,IRD1NALo13,N/A,up,N/A,loopback Area 13,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo14,IRD1NALo14,N/A,up,N/A,AREA 14 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo16,IRD1NALo16,N/A,up,N/A,loopback Area 16,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo19,IRD1NALo19,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo26,IRD1NALo26,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo28,IRD1NALo28,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo31,IRD1NALo31,N/A,up,N/A,AREA 31 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo33,IRD1NALo33,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo42,IRD1NALo42,N/A,up,N/A,OSPF - AREA 42,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo45,IRD1NALo45,N/A,up,N/A,loopback Area 45,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo47,IRD1NALo47,N/A,up,N/A,Loopback Area 47,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo51,IRD1NALo51,N/A,up,N/A,AREA 51 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo61,IRD1NALo61,N/A,up,N/A,AREA 61 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo62,IRD1NALo62,N/A,up,N/A,AREA62 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo63,IRD1NALo63,N/A,up,N/A,AREA63 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo64,IRD1NALo64,N/A,up,N/A,AREA 64 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo65,IRD1NALo65,N/A,up,N/A,AREA 65 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo68,IRD1NALo68,N/A,up,N/A,AREA68 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo70,IRD1NALo70,N/A,up,N/A,AREA 70 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo71,IRD1NALo71,N/A,up,N/A,AREA 71 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo75,IRD1NALo75,N/A,up,N/A,AREA 75 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo76,IRD1NALo76,N/A,up,N/A,AREA 76 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo77,IRD1NALo77,N/A,up,N/A,AREA 77 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo82,IRD1NALo82,N/A,up,N/A,AREA 82 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo88,IRD1NALo88,N/A,up,N/A,AREA 88 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo93,IRD1NALo93,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo95,IRD1NALo95,N/A,up,N/A,AREA 95 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo99,IRD1NALo99,N/A,up,N/A,AREA 99 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo156,IRD1NALo156,N/A,up,N/A,AREA156 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo158,IRD1NALo158,N/A,up,N/A,AREA158 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo159,IRD1NALo159,N/A,up,N/A,AREA 159 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo163,IRD1NALo163,N/A,up,N/A,AREA 163 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Lo167,IRD1NALo167,N/A,up,N/A,AREA167-OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Nu0,IRD1NANu0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Mg0/RP0/CPU0/0,IRD1NAMg0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Mg0/RP0/CPU0/1,IRD1NAMg0/RP0/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,PT0/RP0/CPU0/0,IRD1NAPT0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Mg0/RP1/CPU0/0,IRD1NAMg0/RP1/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,IRD1NA,N/A,Mg0/RP1/CPU0/1,IRD1NAMg0/RP1/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,BE10,MUS1NABE10,N/A,admin-down,N/A,A MUSGGC1SA Port-Channel 10,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,BE10.100,MUS1NABE10.100,N/A,admin-down,N/A,VLAN GESTION DE MUSGGC1SA POR MUS1NA,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,BE100,MUS1NABE100,N/A,up,N/A,A MUSCDN01 (Agrupa Hu0/16/0/0),N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,BE101,MUS1NABE101,N/A,up,N/A,A MUSCDN02 (Agrupa Hu0/16/0/1),N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,BE102,MUS1NABE102,N/A,up,N/A,A MUSCDN03 (Agrupa Hu0/16/0/2),N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,BE103,MUS1NABE103,N/A,up,N/A,A MUSCDN04 (Agrupa Hu0/16/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,BE104,MUS1NABE104,N/A,up,N/A,A BUACDN02 (Agrupa Hu0/14/0/6 y 7),N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,BE115,MUS1NABE115,N/A,up,N/A,CNX:ENLACE:BUA1NA (Hu0/13/0/0 + Hu0/13/0/1 + Hu0/13/0/2 + Hu0/13/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,BE116,MUS1NABE116,N/A,up,N/A,CNX:ENLACE:CEN1NA (Hu0/13/0/4 + Hu0/13/0/5 + Hu0/13/0/6 + Hu0/13/0/7),N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,BE117,MUS1NABE117,N/A,up,N/A,CNX:ENLACE:CTE1NA (Hu0/18/0/0 + Hu0/18/0/2 + Hu0/18/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo0,MUS1NALo0,N/A,up,N/A,AREA 0 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo1,MUS1NALo1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo4,MUS1NALo4,N/A,up,N/A,AREA 4 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo8,MUS1NALo8,N/A,up,N/A,AREA 8 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo20,MUS1NALo20,N/A,up,N/A,AREA 20 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo25,MUS1NALo25,N/A,up,N/A,AREA 25 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo27,MUS1NALo27,N/A,up,N/A,AREA 27 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo29,MUS1NALo29,N/A,up,N/A,AREA 29 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo40,MUS1NALo40,N/A,up,N/A,AREA 40 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo52,MUS1NALo52,N/A,up,N/A,AREA 52 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo82,MUS1NALo82,N/A,up,N/A,AREA 82 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo85,MUS1NALo85,N/A,up,N/A,AREA 85 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo86,MUS1NALo86,N/A,up,N/A,AREA 86 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo87,MUS1NALo87,N/A,up,N/A,AREA 87 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo88,MUS1NALo88,N/A,up,N/A,AREA 88 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo90,MUS1NALo90,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo100,MUS1NALo100,N/A,up,N/A,AREA 100 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Lo157,MUS1NALo157,N/A,up,N/A,AREA 157 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Nu0,MUS1NANu0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Mg0/RP0/CPU0/0,MUS1NAMg0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Mg0/RP0/CPU0/1,MUS1NAMg0/RP0/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,PT0/RP0/CPU0/0,MUS1NAPT0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Mg0/RP1/CPU0/0,MUS1NAMg0/RP1/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,MUS1NA,N/A,Mg0/RP1/CPU0/1,MUS1NAMg0/RP1/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
 0-Crear en Inventario,IC1.HOR1,N/A,Eth-Trunk106,IC1.HOR1Eth-Trunk106,N/A,up,N/A,CNX:ENLACE:BEL1NA (100GE9/0/0 + 100GE9/0/1 + 100GE9/0/2 + 100GE9/0/3 + 100GE9/0/4),N/A,Falta_en_inventario
 0-Crear en Inventario,IC1.HOR1,N/A,Eth-Trunk107,IC1.HOR1Eth-Trunk107,N/A,up,N/A,CNX:ENLACE:BEL1NA (100GE9/1/6 + 100GE9/1/7 + 100GE9/1/8 + 100GE9/1/9 + 100GE9/1/10),N/A,Falta_en_inventario
 0-Crear en Inventario,IC1.HOR1,N/A,Eth-Trunk108,IC1.HOR1Eth-Trunk108,N/A,up,N/A,CNX:ENLACE:IRD1NA (100GE8/0/5 + 100GE8/0/6 + 100GE8/0/7 + 100GE8/0/8),N/A,Falta_en_inventario
@@ -21,3 +291,132 @@ shelfNetworkRole,NE,shelfHardware,interface,Recurso,portBandwidth,EstadoRed,Esta
 0-Crear en Inventario,IC1.SLO1,N/A,Eth-Trunk114,IC1.SLO1Eth-Trunk114,N/A,up,N/A,CNX:ENLACE:ROS7.HOR1 (100GE9/0/19 + 100GE9/1/0 + 100GE9/1/1),N/A,Falta_en_inventario
 0-Crear en Inventario,IC1.SLO1,N/A,Eth-Trunk115,IC1.SLO1Eth-Trunk115,N/A,up,N/A,CNX:ENLACE:ROS7.SLO1 (100GE2/1/4 + 100GE2/1/5 + 100GE2/1/6),N/A,Falta_en_inventario
 0-Crear en Inventario,IC1.SLO1,N/A,GE0/0/0,IC1.SLO1GE0/0/0,N/A,down,N/A,NaN,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,BE2,RSC1NABE2,N/A,down,N/A,A RSCGGC1SA Port-Channel 2 (Agrupa Hu0/0/0/2 y H0/3/0/2),N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,BE2.100,RSC1NABE2.100,N/A,down,N/A,VLAN GESTION DE RSCGGC1SA POR RSC1NA,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,BE100,RSC1NABE100,N/A,up,N/A,A RSCCDN01 (Agrupa Hu0/14/0/4 y Hu0/13/0/4),N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,BE101,RSC1NABE101,N/A,up,N/A,A RSCCDN02 (Agrupa Hu0/13/0/6 y Hu0/13/0/5),N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,BE102,RSC1NABE102,N/A,up,N/A,A IRDCDN01 (Agrupa Hu0/16/0/0 y Hu0/16/0/1),N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,BE103,RSC1NABE103,N/A,up,N/A,A IRDCDN02 (Agrupa Hu0/15/0/0 y Hu0/15/0/1),N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,BE104,RSC1NABE104,N/A,up,N/A,A CDNGW.RSC1,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,BE108,RSC1NABE108,N/A,up,N/A,CNX:ENLACE:IC1.SLO1 (Hu0/5/0/0 + Hu0/5/0/1 + Hu0/5/0/2 + Hu0/5/0/3 + Hu0/5/0/4 + Hu0/5/0/5 + Hu0/5/0/6 + Hu0/5/0/7),N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,BE109,RSC1NABE109,N/A,up,N/A,CNX:ENLACE:IRD1NA (Hu0/15/0/6 + Hu0/15/0/7 + Hu0/16/0/5 + Hu0/16/0/6),N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,BE113,RSC1NABE113,N/A,up,N/A,CNX:ENLACE:ROA1.ROS1 (Hu-0/0/0/0) Linea: 11005757,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,BE114,RSC1NABE114,N/A,up,N/A,CNX:ENLACE:ROA1.RON1(Te 0/10/0/16+Te 0/10/0/18+Te 0/11/0/6+Te 0/11/0/19+Te 0/11/0/8->ae22),N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,BE116,RSC1NABE116,N/A,up,N/A,CNX:ENLACE:CTE1NA (Hu0/17/0/0 + Hu0/17/0/1 + Hu0/17/0/2 + Hu0/17/0/3 + Hu0/17/0/4 + Hu0/17/0/5),N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,BE1020,RSC1NABE1020,N/A,down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo0,RSC1NALo0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo1,RSC1NALo1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo6,RSC1NALo6,N/A,up,N/A,Loopback Area 6,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo12,RSC1NALo12,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo17,RSC1NALo17,N/A,up,N/A,AREA 17 OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo19,RSC1NALo19,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo23,RSC1NALo23,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo30,RSC1NALo30,N/A,up,N/A,Loopback Area 30,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo36,RSC1NALo36,N/A,up,N/A,Loopback Area 36,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo37,RSC1NALo37,N/A,up,N/A,OSPF - AREA 37,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo47,RSC1NALo47,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo51,RSC1NALo51,N/A,up,N/A,OSPF - AREA 51,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo60,RSC1NALo60,N/A,up,N/A,Loopback Area 60,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo70,RSC1NALo70,N/A,up,N/A,AREA15 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo74,RSC1NALo74,N/A,up,N/A,Loopback Area 74,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo78,RSC1NALo78,N/A,up,N/A,AREA 78 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo79,RSC1NALo79,N/A,up,N/A,OSPF - AREA 79,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo81,RSC1NALo81,N/A,up,N/A,AREA 81 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo93,RSC1NALo93,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo96,RSC1NALo96,N/A,up,N/A,AREA 96 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo97,RSC1NALo97,N/A,up,N/A,AREA 97 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo160,RSC1NALo160,N/A,up,N/A,AREA160 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Lo167,RSC1NALo167,N/A,up,N/A,AREA167 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Nu0,RSC1NANu0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Mg0/RP0/CPU0/0,RSC1NAMg0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Mg0/RP0/CPU0/1,RSC1NAMg0/RP0/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,PT0/RP0/CPU0/0,RSC1NAPT0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Mg0/RP1/CPU0/0,RSC1NAMg0/RP1/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,RSC1NA,N/A,Mg0/RP1/CPU0/1,RSC1NAMg0/RP1/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE1,BEL1NABE1,N/A,up,N/A,Enlace 20G a BEL-SE-1,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE1.100,BEL1NABE1.100,N/A,up,N/A,CONEXION CDN ANEVIA - MGMT,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE1.102,BEL1NABE1.102,N/A,admin-down,N/A,VPNGESTION-EDGE-CABLE(linea15007536)Gest.Cable.(ExCDN),N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE1.103,BEL1NABE1.103,N/A,admin-down,N/A,VPNGESTION-EDGE-ANEVIA(linea15007536)Gest.Cable.(ExCDN),N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE1.104,BEL1NABE1.104,N/A,admin-down,N/A,VPNGESTION-EDGE-CABLE(linea15007731)Gest.Cable.(ExCDN),N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE1.105,BEL1NABE1.105,N/A,admin-down,N/A,VPNGESTION-EDGE-ANEVIA(linea15007731)Gest.Cable.(ExCDN),N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE1.200,BEL1NABE1.200,N/A,admin-down,N/A,CONEXION CDN ANEVIA - STREAMER BELGRANO OUT,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE2,BEL1NABE2,N/A,down,N/A,"Enlace 60G a FACEBOOK (Linea: 2810585, 2810587, 2810586, 2810588, 2814431, 2814432) FB:BR02",N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE3,BEL1NABE3,N/A,admin-down,N/A,PEERING 200G a FACEBOOK (Linea: 2836783 y 2840048) FB:BR04,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE4,BEL1NABE4,N/A,up,N/A,CNX:ENLACE:ROA1.CEN1 (Te0/10/0/17 + Te0/10/0/14 + Hu0/18/0/6),N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE5,BEL1NABE5,N/A,up,N/A,CNX:ENLACE:ROA1.RET1 (Te0/10/0/0 + Te0/10/0/13 + Te0/10/1/4 + Te0/10/1/9 + Te0/10/1/10 + Te0/10/1/11 + Te0/10/1/12 + Te0/10/1/13),N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE6,BEL1NABE6,N/A,up,N/A,CNX:ENLACE: Nodo-ROA1.VCR1 (Hu0/18/0/7 + Hu0/17/0/7) Linea 15009294,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE8,BEL1NABE8,N/A,up,N/A,CNX:ENLACE:ROA1.PIL1 (Te0/11/1/4+ Te0/11/1/5 + Te0/11/1/6 + Te0/11/1/7 + Te0/11/1/8),N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE10,BEL1NABE10,N/A,down,N/A,A BELGGC1SA Port-Channel 10,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE20,BEL1NABE20,N/A,admin-down,N/A,A BELGGC1SA Port-Channel 20,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE20.200,BEL1NABE20.200,N/A,admin-down,N/A,VLAN GESTION DE BELGGC1SA POR BEL1NA (En PO17 a MUN1NA),N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE30,BEL1NABE30,N/A,admin-down,N/A,Enlace 300G A CABLEVISION - PEERING NACIONAL - REFE 672262,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE50,BEL1NABE50,N/A,down,N/A,PEERING_NACIONAL_CV_200GB,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE100,BEL1NABE100,N/A,up,N/A,A BELCDN01 Agrupa Hu0/13/0/4 y Hu,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE101,BEL1NABE101,N/A,up,N/A,A BELCDN02 Agrupa Hu0/13/0/5 y Hu,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE102,BEL1NABE102,N/A,up,N/A,A MUNCDN01 Agrupa Hu0/13/0/7,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE103,BEL1NABE103,N/A,up,N/A,A MUNCDN02 Agrupa Hu0/14/0/7 y Hu0/5/0/1,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE104,BEL1NABE104,N/A,up,N/A,A BELCDN03 Agrupa Hu0/13/0/6 Hu0/14/0/6 Hu0/15/0/6,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE106,BEL1NABE106,N/A,up,N/A,CNX:ENLACE:IC1.HOR1 (Hu0/9/0/6 + Hu0/15/0/2 + Hu0/15/0/3 + Hu0/15/0/4 + Hu0/15/0/5),N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,BE107,BEL1NABE107,N/A,up,N/A,CNX:ENLACE:IC1.HOR1 (Hu0/17/0/2 + Hu0/17/0/3 + Hu0/17/0/4 + Hu0/17/0/5 + Hu0/17/0/6),N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo0,BEL1NALo0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo1,BEL1NALo1,N/A,up,N/A,AREA 1 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo2,BEL1NALo2,N/A,up,N/A,AREA 2 OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo3,BEL1NALo3,N/A,up,N/A,loopback Area 3,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo15,BEL1NALo15,N/A,up,N/A,AREA15 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo16,BEL1NALo16,N/A,up,N/A,loopback Area 16,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo26,BEL1NALo26,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo32,BEL1NALo32,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo33,BEL1NALo33,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo45,BEL1NALo45,N/A,up,N/A,loopback Area 45,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo63,BEL1NALo63,N/A,up,N/A,AREA63 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo64,BEL1NALo64,N/A,up,N/A,AREA 64 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo65,BEL1NALo65,N/A,up,N/A,AREA 65 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo68,BEL1NALo68,N/A,up,N/A,AREA68 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo69,BEL1NALo69,N/A,up,N/A,AREA 69 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo71,BEL1NALo71,N/A,up,N/A,AREA 71 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo72,BEL1NALo72,N/A,up,N/A,AREA 72 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo75,BEL1NALo75,N/A,up,N/A,AREA 75 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo94,BEL1NALo94,N/A,up,N/A,Loopback Area 94,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo158,BEL1NALo158,N/A,up,N/A,AREA158 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo159,BEL1NALo159,N/A,up,N/A,AREA 159 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo161,BEL1NALo161,N/A,up,N/A,AREA 161 - OSPF TNN1MU,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo333,BEL1NALo333,N/A,up,N/A,test2,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Lo1234,BEL1NALo1234,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Nu0,BEL1NANu0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Mg0/RP0/CPU0/0,BEL1NAMg0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Mg0/RP0/CPU0/1,BEL1NAMg0/RP0/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,PT0/RP0/CPU0/0,BEL1NAPT0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Mg0/RP1/CPU0/0,BEL1NAMg0/RP1/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Mg0/RP1/CPU0/1,BEL1NAMg0/RP1/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Te0/10/0/7.100,BEL1NATe0/10/0/7.100,N/A,up,N/A,CONEXION CDN CISCO - GESTION (Linea:15001765),N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Te0/10/0/7.101,BEL1NATe0/10/0/7.101,N/A,up,N/A,CONEXION CDN CISCO - IRIS (Linea:15001765),N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Te0/10/0/7.102,BEL1NATe0/10/0/7.102,N/A,up,N/A,CONEXION CDN CISCO - BASE DE DATOS (Linea:15001765),N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,BE10,CTE1NABE10,N/A,down,N/A,A CTEGGC1SA Port-Channel 10,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,BE10.100,CTE1NABE10.100,N/A,down,N/A,VLAN GESTION DE CTEGGC1SA POR CTE1NA,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,BE12,CTE1NABE12,N/A,down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,BE40,CTE1NABE40,N/A,up,N/A,Enlace 100G DWDM PZU3MU_G2/0/0 (Linea:11005049) - UPLINK AGN,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,BE100,CTE1NABE100,N/A,up,N/A,A CTECDN01 (Agrupa Hu0/17/0/0 y Hu0/17/0/1),N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,BE101,CTE1NABE101,N/A,up,N/A,A CTECDN02 (Agrupa Hu0/17/0/2 y Hu0/17/0/3),N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,BE102,CTE1NABE102,N/A,up,N/A,A RESCDN01 (Agrupa Hu0/19/0/0 y Hu0/19/0/1),N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,BE103,CTE1NABE103,N/A,admin-down,N/A,A CTECDN04 (Agrupa Hu0/17/0/6 y Hu0/17/0/7),N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,BE106,CTE1NABE106,N/A,up,N/A,A RESCDN02 (Agrupa Hu0/4/0/0 y Hu0/4/0/1),N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,BE116,CTE1NABE116,N/A,up,N/A,CNX:ENLACE:RSC1NA (Hu0/14/0/0 + Hu0/14/0/1 + Hu0/14/0/2 + Hu0/14/0/3 + Hu0/14/0/4 + Hu0/14/0/5),N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Lo0,CTE1NALo0,N/A,up,N/A,AREA 0 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Lo7,CTE1NALo7,N/A,up,N/A,Loopback area OSPF 7,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Lo8,CTE1NALo8,N/A,up,N/A,AREA 8 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Lo15,CTE1NALo15,N/A,up,N/A,AREA15 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Lo32,CTE1NALo32,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Lo69,CTE1NALo69,N/A,up,N/A,AREA 69 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Lo70,CTE1NALo70,N/A,up,N/A,AREA 70 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Lo72,CTE1NALo72,N/A,up,N/A,AREA 72 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Lo91,CTE1NALo91,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Lo156,CTE1NALo156,N/A,up,N/A,AREA156 - OSPF,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Nu0,CTE1NANu0,N/A,up,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Mg0/RP0/CPU0/0,CTE1NAMg0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Mg0/RP0/CPU0/1,CTE1NAMg0/RP0/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,PT0/RP0/CPU0/0,CTE1NAPT0/RP0/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Mg0/RP1/CPU0/0,CTE1NAMg0/RP1/CPU0/0,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,CTE1NA,N/A,Mg0/RP1/CPU0/1,CTE1NAMg0/RP1/CPU0/1,N/A,admin-down,N/A, ,N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Te0/10/0/7.104,BEL1NATe0/10/0/7.104,N/A,admin-down,N/A,CONEXION CDN CISCO - INTERNET (Linea:15001765),N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Te0/10/0/7.105,BEL1NATe0/10/0/7.105,N/A,up,N/A,CONEXION CDN CISCO - MGMT VDS-SM VDS-SB (Linea:15001765),N/A,Falta_en_inventario
+0-Crear en Inventario,BEL1NA,N/A,Te0/10/0/7.201,BEL1NATe0/10/0/7.201,N/A,up,N/A,CONEXION CDN ANEVIA - GESTION (Linea:15007535) OUT,N/A,Falta_en_inventario
