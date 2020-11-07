@@ -1,0 +1,20 @@
+  
+version: '3'
+
+services:
+  mkdocs:
+    container_name: mkdocs
+    image: polinux/mkdocs:1.1.0
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      LIVE_RELOAD_SUPPORT: 'true'
+      ADD_MODULES: 'fontawesome-markdown mkdocs-material'
+      FAST_MODE: 'true'
+      DOCS_DIRECTORY: '/mkdocs'
+      UPDATE_INTERVAL: 15
+      AUTO_UPDATE: 'true'
+    volumes:
+      - $HOME/.ssh/id_rsa:/root/.ssh/id_rsa
+      - ./mkdocs:/mkdocs

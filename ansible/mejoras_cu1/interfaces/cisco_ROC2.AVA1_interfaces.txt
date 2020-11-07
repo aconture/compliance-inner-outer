@@ -231,7 +231,7 @@ ROC2.AVA1|Te0/4/0/5/7|admin-down|admin-down|RESERVADO ANILLOS (HACIA SDH6)
 ROC2.AVA1|Te0/4/0/5/8|admin-down|admin-down|RESERVADO ANILLOS (HACIA SDH6)
 ROC2.AVA1|Te0/4/0/5/9|admin-down|admin-down|RESERVADO ANILLOS (HACIA SDH6)
 ROC2.AVA1|Te0/4/0/6/0|down|down| 
-ROC2.AVA1|Te0/4/0/6/1|up|up|TRK:ENLACE:ROA1.SAO1 (Te0/7/1/0) (WDM1.AVA1-Shelf 2-Slot 6-Cliente 2)
+ROC2.AVA1|Te0/4/0/6/1|down|down|TRK:ENLACE:ROA1.SAO1 (Te0/7/1/0) (WDM1.AVA1-Shelf 2-Slot 6-Cliente 2)
 ROC2.AVA1|Te0/4/0/6/2|up|up|TRK:ENLACE:ROA1.TAN1 (xe-5/3/1) (SDH7.AVA1-Slot 3-Cliente 2)
 ROC2.AVA1|Te0/4/0/6/3|up|up|TRK:ENLACE:ROA1.TAN1 (xe-8/2/0) (SDH7.AVA1-Slot 3-Cliente 3)
 ROC2.AVA1|Te0/4/0/6/4|up|up|TRK:ENLACE:ROA1.TAN1 (xe-8/2/1) (SDH7.AVA1-Slot 3-Cliente 4)
