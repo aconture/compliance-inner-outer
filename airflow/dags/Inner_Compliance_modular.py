@@ -164,7 +164,7 @@ def naming_ne(**context):
 
 #####################################################################
 
-def Caso1_ok_v2(**context):
+def Caso_ok_v2(**context):
 
     manual = """
     Esta funcion determina los registros correctamente sincronizados entre el NE y el inventario.
@@ -191,15 +191,17 @@ def Caso1_ok_v2(**context):
     df_ok = pd.DataFrame()
     df_complemento = pd.DataFrame()
 
+    #los valores que hacen True la condicion 'ok':
     struct = {'condiciones':
         [
             {'inv.portoperationalstate':'Active','ne.portoperationalstate':'up','ne.protocol':'up'},
+            {'inv.portoperationalstate':'Active','ne.portoperationalstate':'up','ne.protocol':'down'},
             {'inv.portoperationalstate':'Available','ne.portoperationalstate':'down','ne.protocol':'down'},
             {'inv.portoperationalstate':'Reserved','ne.portoperationalstate':'down','ne.protocol':'down'},
         ]
     }
 
-
+    #itero la base para cada condicion:
     for idx in range (0, len(struct['condiciones'])):
         #print (struct['condiciones'][idx]['ne.portoperationalstate'])
         df_iter = pd.read_sql_query("""select * from {0} WHERE concat IN
@@ -257,7 +259,7 @@ def Caso1_ok_v2(**context):
 
 #####################################################################
 
-def Caso2_revisar(**context):
+def Caso2_revisar_1(**context):
 
     manual = """
     Esta funcion determina los registros que hay que revisar entre el NE y el inventario, por tener estados inconsistentes.
@@ -270,54 +272,330 @@ def Caso2_revisar(**context):
     table_A = 'ne'
     table_B = 'par_inv_itf'
 
+    #los valores que hacen True la condicion 'revisar':
+    struct = {'condiciones':
+        [
+            {'inv.portoperationalstate':'Available','ne.portoperationalstate':'up','ne.protocol':'up'},
+            {'inv.portoperationalstate':'Available','ne.portoperationalstate':'up','ne.protocol':'down'},
+            {'inv.portoperationalstate':'Planned','ne.portoperationalstate':'up','ne.protocol':'up'},
+            {'inv.portoperationalstate':'Planned','ne.portoperationalstate':'up','ne.protocol':'down'},
+            {'inv.portoperationalstate':'Planned','ne.portoperationalstate':'down','ne.protocol':'down'},            
+            {'inv.portoperationalstate':'Undefined','ne.portoperationalstate':'up','ne.protocol':'up'},
+            {'inv.portoperationalstate':'Undefined','ne.portoperationalstate':'up','ne.protocol':'down'},            
+            {'inv.portoperationalstate':'Seems to be deleted','ne.portoperationalstate':'up','ne.protocol':'up'},
+            {'inv.portoperationalstate':'Seems to be deleted','ne.portoperationalstate':'up','ne.protocol':'down'},
+        ]
+    }
+
+    df_ok = pd.DataFrame()
+    df_complemento = pd.DataFrame()
+
     pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
     conn = pg_hook.get_conn()
 
-    #casos Revisar:
-    df_rev1 = pd.read_sql_query("""select * from {0} WHERE concat IN 
-                                (
-                                select concat from {0} a where portoperationalstate = 'up'
-                                INTERSECT
-                                select concat from {1} b where portoperationalstate IN ('Available', 'Planned', 'Reserved', 'Undefined', 'Seems to be deleted')
-                                )"""
-                                .format(table_A,table_B),con=conn)
 
-    df_rev2 = pd.read_sql_query("""select * from {0} WHERE concat IN 
-                                (
-                                select concat from {0} a where portoperationalstate = 'down'
-                                INTERSECT
-                                select concat from {1} b where portoperationalstate IN ('Active')
-                                )"""
-                                .format(table_A,table_B),con=conn)
+    #itero la base para cada condicion:
+    for idx in range (0, len(struct['condiciones'])):
+        #print (struct['condiciones'][idx]['ne.portoperationalstate'])
+        df_iter = pd.read_sql_query("""select * from {0} WHERE concat IN
+                                    (
+                                    select concat from {0} a where 
+                                        (portoperationalstate = \'{1}\' and protocol = \'{2}\')
+                                    INTERSECT
+                                    select concat from {3} b where portoperationalstate = \'{4}\'
+                                    )"""
+                                    .format(
+                                        table_A,
+                                        struct['condiciones'][idx]['ne.portoperationalstate'],
+                                        struct['condiciones'][idx]['ne.protocol'],
+                                        table_B,
+                                        struct['condiciones'][idx]['inv.portoperationalstate']),
+                                        con=conn)
 
-    df_rev1_complemento = pd.read_sql_query("""select * from {1} WHERE concat IN 
-                                (
-                                select concat from {0} a where portoperationalstate = 'up'
-                                INTERSECT
-                                select concat from {1} b where portoperationalstate IN ('Available', 'Planned', 'Reserved', 'Undefined', 'Seems to be deleted')
-                                )"""
-                                .format(table_A,table_B),con=conn)
+        df_ok = pd.concat([df_ok,df_iter])
+        logging.info ('Registros ok de la condicion {0}: {1}'.format(idx,len(df_iter)))
 
-    df_rev2_complemento = pd.read_sql_query("""select * from {1} WHERE concat IN 
-                                (
-                                select concat from {0} a where portoperationalstate = 'down'
-                                INTERSECT
-                                select concat from {1} b where portoperationalstate IN ('Active')
-                                )"""
-                                .format(table_A,table_B),con=conn)
+    #a los campos que traje con la table 'ne' agrego los campos que obtengo de la tabla de inventario
+    for idx in range (0, len(struct['condiciones'])):
+        #print (struct['condiciones'][idx]['ne.portoperationalstate'])
+        df_iter = pd.read_sql_query("""select * from {3} WHERE concat IN
+                                    (
+                                    select concat from {0} a where 
+                                        (portoperationalstate = \'{1}\' and protocol = \'{2}\')
+                                    INTERSECT
+                                    select concat from {3} b where portoperationalstate = \'{4}\'
+                                    )"""
+                                    .format(
+                                        table_A,
+                                        struct['condiciones'][idx]['ne.portoperationalstate'],
+                                        struct['condiciones'][idx]['ne.protocol'],
+                                        table_B,
+                                        struct['condiciones'][idx]['inv.portoperationalstate']),
+                                        con=conn)
 
-    df_rev1 = pd.merge(df_rev1,df_rev1_complemento, how='left', on='concat')
-    df_rev2 = pd.merge(df_rev2,df_rev2_complemento, how='left', on='concat')
+        df_complemento = pd.concat([df_complemento,df_iter])
 
-    df_rev = pd.concat ([df_rev1,df_rev2])
+    df_ok = pd.merge(df_ok,df_complemento, how='left', on='concat')
 
-    df_rev['EvEstado'] = 'revisar'
-    print (df_rev.columns)
-    df_rev = lib.teco_reports._format_reporte_compliance(df_rev)
+    df_ok['EvEstado'] = 'revisar_1'
+    #print (df_rev.columns)
+    df_rev = lib.teco_reports._format_reporte_compliance(df_ok)
 
     conn.close()
-    logging.info ('\n:::Registros a revisar: {}'.format(len(df_rev)))
-    df_rev.to_csv('reports/auxiliar/rev.csv', index=False)
+    logging.info ('\n:::Registros a revisar: {}'.format(len(df_ok)))
+    df_rev.to_csv('reports/auxiliar/rev_1.csv', index=False)
+
+
+#####################################################################
+
+def Caso2_revisar_2(**context):
+
+    manual = """
+    Esta funcion determina los registros que hay que revisar entre el NE y el inventario, por tener estados inconsistentes.
+    Args: 
+      none
+    Returns:
+      none
+    
+    nota aux: elementos variables: struct, nombre_estado, nombre_archivo_csv
+    """
+    table_A = 'ne'
+    table_B = 'par_inv_itf'
+
+    #los valores que hacen True la condicion 'revisar':
+    struct = {'condiciones':
+        [
+            {'inv.portoperationalstate':'Undefined','ne.portoperationalstate':'up','ne.protocol':'up'},
+            {'inv.portoperationalstate':'Seems to be deleted','ne.portoperationalstate':'down','ne.protocol':'down'},
+            {'inv.portoperationalstate':'Active','ne.portoperationalstate':'down','ne.protocol':'down'},            
+        ]
+    }
+
+    df_ok = pd.DataFrame()
+    df_complemento = pd.DataFrame()
+
+    pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
+    conn = pg_hook.get_conn()
+
+
+    #itero la base para cada condicion:
+    for idx in range (0, len(struct['condiciones'])):
+        #print (struct['condiciones'][idx]['ne.portoperationalstate'])
+        df_iter = pd.read_sql_query("""select * from {0} WHERE concat IN
+                                    (
+                                    select concat from {0} a where 
+                                        (portoperationalstate = \'{1}\' and protocol = \'{2}\')
+                                    INTERSECT
+                                    select concat from {3} b where portoperationalstate = \'{4}\'
+                                    )"""
+                                    .format(
+                                        table_A,
+                                        struct['condiciones'][idx]['ne.portoperationalstate'],
+                                        struct['condiciones'][idx]['ne.protocol'],
+                                        table_B,
+                                        struct['condiciones'][idx]['inv.portoperationalstate']),
+                                        con=conn)
+
+        df_ok = pd.concat([df_ok,df_iter])
+        logging.info ('Registros ok de la condicion {0}: {1}'.format(idx,len(df_iter)))
+
+    #a los campos que traje con la table 'ne' agrego los campos que obtengo de la tabla de inventario
+    for idx in range (0, len(struct['condiciones'])):
+        #print (struct['condiciones'][idx]['ne.portoperationalstate'])
+        df_iter = pd.read_sql_query("""select * from {3} WHERE concat IN
+                                    (
+                                    select concat from {0} a where 
+                                        (portoperationalstate = \'{1}\' and protocol = \'{2}\')
+                                    INTERSECT
+                                    select concat from {3} b where portoperationalstate = \'{4}\'
+                                    )"""
+                                    .format(
+                                        table_A,
+                                        struct['condiciones'][idx]['ne.portoperationalstate'],
+                                        struct['condiciones'][idx]['ne.protocol'],
+                                        table_B,
+                                        struct['condiciones'][idx]['inv.portoperationalstate']),
+                                        con=conn)
+
+        df_complemento = pd.concat([df_complemento,df_iter])
+
+    df_ok = pd.merge(df_ok,df_complemento, how='left', on='concat')
+
+    df_ok['EvEstado'] = 'revisar_1'
+    #print (df_rev.columns)
+    df_rev = lib.teco_reports._format_reporte_compliance(df_ok)
+
+    conn.close()
+    logging.info ('\n:::Registros a revisar: {}'.format(len(df_ok)))
+    df_rev.to_csv('reports/auxiliar/rev_2.csv', index=False)
+
+#####################################################################
+
+def Caso_ok_reserva(**context):
+
+    manual = """
+    Esta funcion determina los registros .
+    Args: 
+      none
+    Returns:
+      none
+    
+    nota aux: elementos variables: struct, nombre_estado, nombre_archivo_csv
+    """
+    table_A = 'ne'
+    table_B = 'par_inv_itf'
+
+    #los valores que hacen True la condicion 'revisar':
+    struct = {'condiciones':
+        [
+            {'inv.portoperationalstate':'Reserved','ne.portoperationalstate':'up','ne.protocol':'up'},
+            {'inv.portoperationalstate':'Reserved','ne.portoperationalstate':'up','ne.protocol':'down'},
+        ]
+    }
+
+    df_ok = pd.DataFrame()
+    df_complemento = pd.DataFrame()
+
+    pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
+    conn = pg_hook.get_conn()
+
+
+    #itero la base para cada condicion:
+    for idx in range (0, len(struct['condiciones'])):
+        #print (struct['condiciones'][idx]['ne.portoperationalstate'])
+        df_iter = pd.read_sql_query("""select * from {0} WHERE concat IN
+                                    (
+                                    select concat from {0} a where 
+                                        (portoperationalstate = \'{1}\' and protocol = \'{2}\')
+                                    INTERSECT
+                                    select concat from {3} b where portoperationalstate = \'{4}\'
+                                    )"""
+                                    .format(
+                                        table_A,
+                                        struct['condiciones'][idx]['ne.portoperationalstate'],
+                                        struct['condiciones'][idx]['ne.protocol'],
+                                        table_B,
+                                        struct['condiciones'][idx]['inv.portoperationalstate']),
+                                        con=conn)
+
+        df_ok = pd.concat([df_ok,df_iter])
+        logging.info ('Registros ok de la condicion {0}: {1}'.format(idx,len(df_iter)))
+
+    #a los campos que traje con la table 'ne' agrego los campos que obtengo de la tabla de inventario
+    for idx in range (0, len(struct['condiciones'])):
+        #print (struct['condiciones'][idx]['ne.portoperationalstate'])
+        df_iter = pd.read_sql_query("""select * from {3} WHERE concat IN
+                                    (
+                                    select concat from {0} a where 
+                                        (portoperationalstate = \'{1}\' and protocol = \'{2}\')
+                                    INTERSECT
+                                    select concat from {3} b where portoperationalstate = \'{4}\'
+                                    )"""
+                                    .format(
+                                        table_A,
+                                        struct['condiciones'][idx]['ne.portoperationalstate'],
+                                        struct['condiciones'][idx]['ne.protocol'],
+                                        table_B,
+                                        struct['condiciones'][idx]['inv.portoperationalstate']),
+                                        con=conn)
+
+        df_complemento = pd.concat([df_complemento,df_iter])
+
+    df_ok = pd.merge(df_ok,df_complemento, how='left', on='concat')
+
+    df_ok['EvEstado'] = 'ok_reserva'
+    #print (df_rev.columns)
+    df_rev = lib.teco_reports._format_reporte_compliance(df_ok)
+
+    conn.close()
+    logging.info ('\n:::Registros a revisar: {}'.format(len(df_ok)))
+    df_rev.to_csv('reports/auxiliar/ok_reserva.csv', index=False)
+
+#####################################################################
+
+def Caso_na(**context):
+
+    manual = """
+    Esta funcion determina los registros que tienen un estado N/A.
+    Args: 
+      none
+    Returns:
+      none
+    
+    nota aux: elementos variables: struct, nombre_estado, nombre_archivo_csv
+    """
+    table_A = 'ne'
+    table_B = 'par_inv_itf'
+
+    #los valores que hacen True la condicion 'revisar':
+    struct = {'condiciones':
+        [
+            {'inv.portoperationalstate':'Available','ne.portoperationalstate':'down','ne.protocol':'up'},
+            {'inv.portoperationalstate':'Planned','ne.portoperationalstate':'down','ne.protocol':'up'},
+            {'inv.portoperationalstate':'Reserved','ne.portoperationalstate':'down','ne.protocol':'up'},
+            {'inv.portoperationalstate':'Undefined','ne.portoperationalstate':'down','ne.protocol':'up'},
+            {'inv.portoperationalstate':'Seems to be deleted','ne.portoperationalstate':'down','ne.protocol':'up'},            
+            {'inv.portoperationalstate':'Active','ne.portoperationalstate':'down','ne.protocol':'up'},            
+        ]
+    }
+
+    df_ok = pd.DataFrame()
+    df_complemento = pd.DataFrame()
+
+    pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
+    conn = pg_hook.get_conn()
+
+
+    #itero la base para cada condicion:
+    for idx in range (0, len(struct['condiciones'])):
+        #print (struct['condiciones'][idx]['ne.portoperationalstate'])
+        df_iter = pd.read_sql_query("""select * from {0} WHERE concat IN
+                                    (
+                                    select concat from {0} a where 
+                                        (portoperationalstate = \'{1}\' and protocol = \'{2}\')
+                                    INTERSECT
+                                    select concat from {3} b where portoperationalstate = \'{4}\'
+                                    )"""
+                                    .format(
+                                        table_A,
+                                        struct['condiciones'][idx]['ne.portoperationalstate'],
+                                        struct['condiciones'][idx]['ne.protocol'],
+                                        table_B,
+                                        struct['condiciones'][idx]['inv.portoperationalstate']),
+                                        con=conn)
+
+        df_ok = pd.concat([df_ok,df_iter])
+        logging.info ('Registros ok de la condicion {0}: {1}'.format(idx,len(df_iter)))
+
+    #a los campos que traje con la table 'ne' agrego los campos que obtengo de la tabla de inventario
+    for idx in range (0, len(struct['condiciones'])):
+        #print (struct['condiciones'][idx]['ne.portoperationalstate'])
+        df_iter = pd.read_sql_query("""select * from {3} WHERE concat IN
+                                    (
+                                    select concat from {0} a where 
+                                        (portoperationalstate = \'{1}\' and protocol = \'{2}\')
+                                    INTERSECT
+                                    select concat from {3} b where portoperationalstate = \'{4}\'
+                                    )"""
+                                    .format(
+                                        table_A,
+                                        struct['condiciones'][idx]['ne.portoperationalstate'],
+                                        struct['condiciones'][idx]['ne.protocol'],
+                                        table_B,
+                                        struct['condiciones'][idx]['inv.portoperationalstate']),
+                                        con=conn)
+
+        df_complemento = pd.concat([df_complemento,df_iter])
+
+    df_ok = pd.merge(df_ok,df_complemento, how='left', on='concat')
+
+    df_ok['EvEstado'] = 'n_a'
+    #print (df_rev.columns)
+    df_rev = lib.teco_reports._format_reporte_compliance(df_ok)
+
+    conn.close()
+    logging.info ('\n:::Registros a revisar: {}'.format(len(df_ok)))
+    df_rev.to_csv('reports/auxiliar/na.csv', index=False)
 
 
 #####################################################################
@@ -377,7 +655,7 @@ def Caso3_ne_inv(**context):
 
 #####################################################################
 
-def Caso4_inv_ne(**context):
+def Caso_inv_ne(**context):
 
     manual = """
 
@@ -475,13 +753,13 @@ _adecuar_naming_ne = PythonOperator(
     dag=dag)
 
 _caso1 = PythonOperator(
-    task_id='Caso1_Registros_ok', 
-    python_callable=Caso1_ok_v2,
+    task_id='Registros_ok', 
+    python_callable=Caso_ok_v2,
     retries=1, dag=dag
     )
 _caso2 = PythonOperator(
-    task_id='Caso2_Revisar_Registros', 
-    python_callable=Caso2_revisar,
+    task_id='A_Revisar_Prioritarios', 
+    python_callable=Caso2_revisar_1,
     retries=1, dag=dag
     )
 
@@ -491,7 +769,24 @@ _caso3 = PythonOperator(
     retries=1, dag=dag
     )
 
-_caso4 = DummyOperator(task_id='Caso4_ExisteInv_NoExisteNE', retries=1, dag=dag)
+_caso4 = PythonOperator(
+    task_id='A_Revisar_menos_prioritarios', 
+    python_callable=Caso2_revisar_2,
+    retries=1, dag=dag
+    )
+
+_caso5 = PythonOperator(
+    task_id='ok_con_reserva', 
+    python_callable=Caso_ok_reserva,
+    retries=1, dag=dag
+    )
+
+
+_caso6 = PythonOperator(
+    task_id='estados_N-A', 
+    python_callable=Caso_na,
+    retries=1, dag=dag
+    )
 
 """
 _caso4 = PythonOperator(
@@ -499,7 +794,7 @@ _caso4 = PythonOperator(
     op_kwargs={    
     'role':'INNER CORE',
     },
-    python_callable=Caso4_inv_ne,
+    python_callable=Caso_inv_ne,
     retries=1, dag=dag
     )
 """
@@ -545,5 +840,9 @@ _init_reporting >> _caso2 >> _imprime_reporte
 _init_reporting >> _caso3 >> _imprime_reporte
 
 _init_reporting >> _caso4 >> _imprime_reporte
+
+_init_reporting >> _caso5 >> _imprime_reporte
+
+_init_reporting >> _caso6 >> _imprime_reporte
 
 _imprime_reporte >> _envia_mail1
