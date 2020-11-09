@@ -168,6 +168,13 @@ def Caso1_ok_v2(**context):
 
     manual = """
     Esta funcion determina los registros correctamente sincronizados entre el NE y el inventario.
+
+    Estados registrados como 'ok': 
+    (Inventario.portOperationalState, ne.portoperationalstate, ne.protocol)
+    Active	    up	    up|down
+    Available	down	down
+    Reserved	down	down
+
     Args: 
       none
     Returns:
@@ -181,57 +188,69 @@ def Caso1_ok_v2(**context):
     pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
     conn = pg_hook.get_conn()
 
-    #casos ok:
-    #estan en inventario y en NE, caso ok 1:
-    df_ok1 = pd.read_sql_query("""select * from {0} WHERE concat IN
-                                (
-                                select concat from {0} a where portoperationalstate = 'up'
-                                INTERSECT
-                                select concat from {1} b where portoperationalstate IN ('Active')
-                                )"""
-                                .format(table_A,table_B),con=conn)
+    df_ok = pd.DataFrame()
+    df_complemento = pd.DataFrame()
 
-    #estan en inventario y en NE, caso ok 2:
-    df_ok2 = pd.read_sql_query("""select * from {0} WHERE concat IN 
-                                (
-                                select concat from {0} a where portoperationalstate = 'down'
-                                INTERSECT
-                                select concat from {1} b where portoperationalstate NOT IN ('Active')
-                                )"""
-                                .format(table_A,table_B),con=conn)
+    struct = {'condiciones':
+        [
+            {'inv.portoperationalstate':'Active','ne.portoperationalstate':'up','ne.protocol':'up'},
+            {'inv.portoperationalstate':'Available','ne.portoperationalstate':'down','ne.protocol':'down'},
+            {'inv.portoperationalstate':'Reserved','ne.portoperationalstate':'down','ne.protocol':'down'},
+        ]
+    }
 
-    df_ok1_complemento = pd.read_sql_query("""select * from {1} WHERE concat IN
-                                (
-                                select concat from {0} a where portoperationalstate = 'up'
-                                INTERSECT
-                                select concat from {1} b where portoperationalstate IN ('Active')
-                                )"""
-                                .format(table_A,table_B),con=conn)
 
-    df_ok2_complemento = pd.read_sql_query("""select * from {1} WHERE concat IN 
-                                (
-                                select concat from {0} a where portoperationalstate = 'down'
-                                INTERSECT
-                                select concat from {1} b where portoperationalstate NOT IN ('Active')
-                                )"""
-                                .format(table_A,table_B),con=conn)
+    for idx in range (0, len(struct['condiciones'])):
+        #print (struct['condiciones'][idx]['ne.portoperationalstate'])
+        df_iter = pd.read_sql_query("""select * from {0} WHERE concat IN
+                                    (
+                                    select concat from {0} a where 
+                                        (portoperationalstate = \'{1}\' and protocol = \'{2}\')
+                                    INTERSECT
+                                    select concat from {3} b where portoperationalstate = \'{4}\'
+                                    )"""
+                                    .format(
+                                        table_A,
+                                        struct['condiciones'][idx]['ne.portoperationalstate'],
+                                        struct['condiciones'][idx]['ne.protocol'],
+                                        table_B,
+                                        struct['condiciones'][idx]['inv.portoperationalstate']),
+                                        con=conn)
 
-    df_ok2 = pd.merge(df_ok2,df_ok2_complemento, how='left', on='concat')
-    df_ok1 = pd.merge(df_ok1,df_ok1_complemento, how='left', on='concat')
+        df_ok = pd.concat([df_ok,df_iter])
+        logging.info ('Registros ok de la condicion {0}: {1}'.format(idx,len(df_iter)))
 
-    df_ok = pd.concat ([df_ok1,df_ok2])
+    #a los campos que traje con la table 'ne' agrego los campos que obtengo de la tabla de inventario
+    for idx in range (0, len(struct['condiciones'])):
+        #print (struct['condiciones'][idx]['ne.portoperationalstate'])
+        df_iter = pd.read_sql_query("""select * from {3} WHERE concat IN
+                                    (
+                                    select concat from {0} a where 
+                                        (portoperationalstate = \'{1}\' and protocol = \'{2}\')
+                                    INTERSECT
+                                    select concat from {3} b where portoperationalstate = \'{4}\'
+                                    )"""
+                                    .format(
+                                        table_A,
+                                        struct['condiciones'][idx]['ne.portoperationalstate'],
+                                        struct['condiciones'][idx]['ne.protocol'],
+                                        table_B,
+                                        struct['condiciones'][idx]['inv.portoperationalstate']),
+                                        con=conn)
+
+        df_complemento = pd.concat([df_complemento,df_iter])
+
+    df_ok = pd.merge(df_ok,df_complemento, how='left', on='concat')
 
     df_ok['EvEstado'] = 'ok'
+        
     df_ok = lib.teco_reports._format_reporte_compliance(df_ok)
 
     #print (df_ok.columns.ravel())
 
     conn.close()
     
-    logging.info ('\n:::Registros ok: {}'.format(len(df_ok)))
-
-    #impresiones:
-    print (len(df_ok))
+    logging.info ('\n:::Registros ok totales: {} \n'.format(len(df_ok)))
 
     df_ok.to_csv('reports/auxiliar/ok.csv', index=False)
     #df_all.to_json('prueba.json', orient='records', lines=True)
