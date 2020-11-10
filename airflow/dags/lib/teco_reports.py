@@ -33,7 +33,7 @@ def gen_excel(**context):
         abspath = os.path.join(os.getcwd(),dir,'auxiliar',nom_archivo)
         dataframe_aux = pd.read_csv(abspath,delimiter=',')
         dataframe = pd.concat ([dataframe,dataframe_aux],sort=False) #sort=False para evitar un warning de Pandas
-        dataframe.to_csv('reports/auxiliar/dump{0}.dump'.format(nom_archivo), index=True)
+        #dataframe.to_csv('reports/auxiliar/dump{0}.dump'.format(nom_archivo), index=True)
     
     # Generacion de la solapa Resumen
     data_resumen = dataframe.pivot_table(
@@ -56,15 +56,16 @@ def gen_excel(**context):
 
     data_resumen_dataframe.to_html('reports/auxiliar/resumen.html', index=False)
 
-    #Guardo los registos del pivot en una tabla que contiene el historico:
-    tabla = 'core_history'
-    #elimino para evitar registros duplicados de la misma fecha:
-    sql_delete = 'delete from core_history where fecha=\'{0}\''.format(f_ejecucion)
-    lib.teco_db._delete_cursor(sql_delete)
-    #registro el resumen en la tabla historico de la base de datos:
-    lista_columnas = ['NE', 'finv', 'ok', 'ok_reserva', 'revisar_1', 'fecha']
-    print (data_resumen)
-    lib.teco_db._insert_cursor (data_resumen_dataframe, tabla, lista_columnas)
+    # comento esta parta para hacerla via influxdb:
+    # #Guardo los registos del pivot en una tabla que contiene el historico:
+    # tabla = 'core_history'
+    # #elimino para evitar registros duplicados de la misma fecha:
+    # sql_delete = 'delete from core_history where fecha=\'{0}\''.format(f_ejecucion)
+    # lib.teco_db._delete_cursor(sql_delete)
+    # #registro el resumen en la tabla historico de la base de datos:
+    # lista_columnas = ['NE', 'finv', 'ok', 'ok_reserva', 'revisar_1', 'fecha']
+    # print (data_resumen)
+    # lib.teco_db._insert_cursor (data_resumen_dataframe, tabla, lista_columnas)
 
     #print (dataframe)
     archivo_rep = os.path.join(os.getcwd(),dir,'reporte.xlsx')        
