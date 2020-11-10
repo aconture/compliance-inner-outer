@@ -37,7 +37,7 @@ services:
             - statsd-exporter
         environment:
             - LOAD_EX=n
-            - EXECUTOR=Local
+            - EXECUTOR=Celery
             - POSTGRES_USER=airflow
             - POSTGRES_PASSWORD=airflow
             - POSTGRES_DB=airflow
@@ -46,7 +46,7 @@ services:
             - AIRFLOW__SCHEDULER__STATSD_PORT=8125
             - AIRFLOW__SCHEDULER__STATSD_PREFIX=airflow
             - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-            # - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@postgres:5432/airflow
+            - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@postgres:5432/airflow
             - AIRFLOW__CORE__FERNET_KEY=pMrhjIcqUNHMYRk_ZOBmMptWR6o1DahCXCKn5lEMpzM=
             - AIRFLOW__CORE__EXECUTOR=LocalExecutor
             - AIRFLOW__CORE__AIRFLOW_HOME=/usr/local/airflow/
@@ -129,7 +129,7 @@ services:
             - AIRFLOW__SCHEDULER__STATSD_PORT=8125
             - AIRFLOW__SCHEDULER__STATSD_PREFIX=airflow
             - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-            # - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@postgres:5432/airflow
+            - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@postgres:5432/airflow
             - AIRFLOW__CORE__FERNET_KEY=pMrhjIcqUNHMYRk_ZOBmMptWR6o1DahCXCKn5lEMpzM=
             - AIRFLOW__CORE__EXECUTOR=LocalExecutor
             - AIRFLOW__CORE__AIRFLOW_HOME=/usr/local/airflow/
@@ -146,34 +146,37 @@ services:
         #command: bash -c -u root "mkdir /etc/ansible && chmod +755 /etc/ansible"
         #command: bash -c -u root "mkdir /etc/ansible && chmod +755 /etc/ansible"
 
-    # worker:
-    #     container_name: airflow-worker
-    #     image: apache/airflow:1.10.12-python3.7
-    #     restart: always
-    #     depends_on:
-    #         - statsd-exporter
-    #         - postgres
-    #         - webserver
-    #     volumes:
-    #         - ./dags:/opt/airflow/dags
-    #     environment:
-    #         - EXECUTOR=Local
-    #         - POSTGRES_USER=airflow
-    #         - POSTGRES_PASSWORD=airflow
-    #         - POSTGRES_DB=airflow
-    #         - AIRFLOW__SCHEDULER__STATSD_ON=True
-    #         - AIRFLOW__SCHEDULER__STATSD_HOST=statsd-exporter
-    #         - AIRFLOW__SCHEDULER__STATSD_PORT=8125
-    #         - AIRFLOW__SCHEDULER__STATSD_PREFIX=airflow
-    #         - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-    #         # - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@postgres:5432/airflow
-    #         - AIRFLOW__CELERY__CELERY_RESULT_BACKEND=db+postgresql://airflow:airflow@postgres:5432/airflow
-    #         - AIRFLOW__CORE__FERNET_KEY=pMrhjIcqUNHMYRk_ZOBmMptWR6o1DahCXCKn5lEMpzM=
-    #         - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-    #         - AIRFLOW__CORE__AIRFLOW_HOME=/opt/airflow/
-    #         - AIRFLOW__CORE__LOAD_EXAMPLES=False
-    #         - AIRFLOW__CORE__LOAD_DEFAULT_CONNECTIONS=False
-    #     command: bash -c "sleep 30 && airflow worker"
+    worker:
+        container_name: airflow-worker
+        #image: apache/airflow:1.10.12-python3.7
+        build:
+            context: .
+            dockerfile: webserver/Dockerfile
+        restart: always
+        depends_on:
+            - statsd-exporter
+            - postgres
+            - webserver
+        volumes:
+            - ./airflow:/usr/local/airflow/:rw
+        environment:
+            - EXECUTOR=Celery
+            - POSTGRES_USER=airflow
+            - POSTGRES_PASSWORD=airflow
+            - POSTGRES_DB=airflow
+            - AIRFLOW__SCHEDULER__STATSD_ON=True
+            - AIRFLOW__SCHEDULER__STATSD_HOST=statsd-exporter
+            - AIRFLOW__SCHEDULER__STATSD_PORT=8125
+            - AIRFLOW__SCHEDULER__STATSD_PREFIX=airflow
+            - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+            - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@postgres:5432/airflow
+            - AIRFLOW__CELERY__CELERY_RESULT_BACKEND=db+postgresql://airflow:airflow@postgres:5432/airflow
+            - AIRFLOW__CORE__FERNET_KEY=pMrhjIcqUNHMYRk_ZOBmMptWR6o1DahCXCKn5lEMpzM=
+            - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+            - AIRFLOW__CORE__AIRFLOW_HOME=/opt/airflow/
+            - AIRFLOW__CORE__LOAD_EXAMPLES=False
+            - AIRFLOW__CORE__LOAD_DEFAULT_CONNECTIONS=False
+        command: bash -c "sleep 30 && airflow worker"
 
     statsd-exporter:
         image: prom/statsd-exporter
@@ -238,6 +241,33 @@ services:
             - /sys:/rootfs/sys:ro
             - /proc:/rootfs/proc:ro
             - /etc:/rootfs/etc:ro
+
+    mkdocs:
+        container_name: mkdocs
+        image: polinux/mkdocs:1.1.0
+        restart: always
+        ports:
+          - "8000:8000"
+        environment:
+          LIVE_RELOAD_SUPPORT: 'true'
+          ADD_MODULES: 'fontawesome-markdown mkdocs-material'
+          FAST_MODE: 'true'
+          DOCS_DIRECTORY: '/mkdocs'
+          UPDATE_INTERVAL: 15
+          AUTO_UPDATE: 'true'
+        volumes:
+          - $HOME/.ssh/id_rsa:/root/.ssh/id_rsa
+          - ./mkdocs:/mkdocs
+
+    web:
+      image: nginx
+      volumes:
+       - ./templates:/etc/nginx/templates
+      ports:
+       - "80:80"
+      environment:
+       - NGINX_HOST=webserver.infra.cablevision-labs.com.ar
+       - NGINX_PORT=80
     
 volumes:
     airflow-postgres-data:

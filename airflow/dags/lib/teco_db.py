@@ -124,7 +124,7 @@ def Load_inv(**context):
     # implementa BD:
     for nom_archivo in archivos:
         abspath = os.path.join(os.getcwd(),dir,nom_archivo)
-        print ('PPPPPPPPPPPPPPPPP',nom_archivo)
+        #print ('PPPPPPPPPPPPPPPPP',nom_archivo)
         try:
             logging.info ('\n::: Iniciando la carga.')
             #los argumentos: warn_bad_lines=True, error_bad_lines=False evitan error de '|' en campo de datos

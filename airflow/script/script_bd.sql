@@ -57,8 +57,10 @@ DROP TABLE core_history;
 
 CREATE TABLE public.core_history (
     ne character varying(30),
-	ok character varying(5),
-	revisar character varying(5),
+	ok integer,
+	ok_reserva integer,    
+	revisar integer,
+    n_a integer,
 	finv character varying(5),
 	fecha character varying(20)
 );

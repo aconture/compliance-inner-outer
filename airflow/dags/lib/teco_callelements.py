@@ -6,7 +6,7 @@ from time import sleep
 from datetime import datetime, timedelta
 import os
 import ansible_runner
-
+import json
 
 #####################################################################
 #####################################################################
@@ -98,7 +98,9 @@ def call_ansible(**context):
             print("Final status:")
             print("====================================")
             print("====================================")
-            print("La salida de ansible es: ",r.stats)   
+            print("La salida de ansible es: ",r.stats)
+            #ansibleprint = json.load(r.stats)
+            #print("SALIDA REDUCIDA: ", ansibleprint)   
 
         except:
             logging.error ('\n\n:::! Problema en la conexión al servidor remoto.\n')

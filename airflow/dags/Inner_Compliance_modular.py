@@ -142,6 +142,22 @@ def naming_ne(**context):
     
     """
 
+    whiteList = {'interfaces':
+        [
+            {'ne.interface':'100GE'},
+            {'ne.interface':'GE'},
+            {'ne.interface':'Hu'},
+            {'ne.interface':'Te'},
+        ]
+    }
+
+    blackList = {'interfaces':
+        [
+            {'ne.interface':'GE0/0/0'},
+        ]
+    }
+
+
     table_ = 'NE'
     table_dest = 'NE'
 
@@ -153,6 +169,16 @@ def naming_ne(**context):
 
     #Adecuaciones
     df_ne['concat'] = df_ne[['shelfname','interface']].agg(''.join, axis=1)
+    
+    df_ne_3 = pd.DataFrame()
+    for idx in range (0, len(whiteList['interfaces'])):
+        df_ne_2 = df_ne[df_ne['interface'].str.startswith(whiteList['interfaces'][idx]['ne.interface'])]
+        df_ne_3 = pd.concat([df_ne_3,df_ne_2])
+
+    for idx in range (0, len(blackList['interfaces'])):
+        df_ne_3 = df_ne_3[df_ne_3['interface'] != (blackList['interfaces'][idx]['ne.interface'])]
+
+    #print('POPOPOPO::::::::::::::::',df_ne['interface'])
 
     #init de la base destino
     sql_delete = 'DELETE FROM {}'.format(table_dest)
@@ -161,7 +187,7 @@ def naming_ne(**context):
 
     #populo la base destino
     columnas = df_ne.columns.ravel()
-    lib.teco_db._insert_cursor(df_ne,table_dest,columnas)
+    lib.teco_db._insert_cursor(df_ne_3,table_dest,columnas)
     
 
 #####################################################################

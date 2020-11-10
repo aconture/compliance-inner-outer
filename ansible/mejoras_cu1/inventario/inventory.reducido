@@ -1,9 +1,8 @@
 [OC]
-BEL1NA
+RSC1NA
 
 [IC]
 IC1.HOR1
-IC1.SLO1
 
 [IC:vars]
 vendor=HUAWEI
@@ -23,5 +22,7 @@ OC
 [EQUIPOS:vars]
 #ansible_password=c.H4rLY*Ec0
 #ansible_pasword=Pgolf1144
-ansible_password=FECO_ingelec02
-ansible_user=u579961
+#ansible_password=FECO_ingelec02
+#ansible_user=u579961
+ansible_password=c.H4rLY*Ec0
+ansible_user=x304372
