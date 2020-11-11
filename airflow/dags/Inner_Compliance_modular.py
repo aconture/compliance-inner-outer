@@ -226,6 +226,7 @@ def _logic_compl_inventario(struct, val_estado, file_output, f_ejecucion):
     
     table_A = 'ne'
     table_B = 'par_inv_itf'
+    dir_output = 'reports/auxiliar/'
 
     pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
     conn = pg_hook.get_conn()
@@ -288,7 +289,7 @@ def _logic_compl_inventario(struct, val_estado, file_output, f_ejecucion):
     #print ('POPOPOPOPPOPOOP*****************', f_ejecucion)
     #en este punto escribir en influx el valor de len(df_ok) + la fecha
 
-    file_output = 'reports/auxiliar/' + file_output
+    file_output = dir_output + file_output
     df_ok.to_csv(file_output, index=False)
     #df_all.to_json('prueba.json', orient='records', lines=True)
 
@@ -311,7 +312,6 @@ def Caso_ok_v2(**context):
       none
 
     """
-
 
     #los valores que hacen True la condicion 'ok':
     struct = {'condiciones':
