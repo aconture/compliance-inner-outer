@@ -131,8 +131,10 @@ def naming_inv(**context):
 def naming_ne(**context):
     
     manual = """
-    Esta funcion modifica el contenido de ciertos campos traidos desde los NE.
+    Esta funcion modifica el contenido de ciertos campos traidos desde los NE, y filtra los puertos lógicos, no deseados en el análisis.
+
     La lectura la realiza de la tabla NE.
+    
     El resultado lo guarda en la tabla NE.
 
     Args: 
@@ -157,7 +159,6 @@ def naming_ne(**context):
         ]
     }
 
-
     table_ = 'NE'
     table_dest = 'NE'
 
@@ -172,8 +173,8 @@ def naming_ne(**context):
     
     df_ne_3 = pd.DataFrame()
     for idx in range (0, len(whiteList['interfaces'])):
-        df_ne_2 = df_ne[df_ne['interface'].str.startswith(whiteList['interfaces'][idx]['ne.interface'])]
-        df_ne_3 = pd.concat([df_ne_3,df_ne_2])
+        df_aux = df_ne[df_ne['interface'].str.startswith(whiteList['interfaces'][idx]['ne.interface'])]
+        df_ne_3 = pd.concat([df_ne_3,df_aux])
 
     for idx in range (0, len(blackList['interfaces'])):
         df_ne_3 = df_ne_3[df_ne_3['interface'] != (blackList['interfaces'][idx]['ne.interface'])]
@@ -192,7 +193,7 @@ def naming_ne(**context):
 
 #####################################################################
 
-def _logic_compl_inventario(struct, val_estado, file_output):
+def _logic_compl_inventario(struct, val_estado, file_output, f_ejecucion):
     manual = """
     Esta funcion ejecuta las consultas a la base, con las condiciones que vienen en la estructura 'struct'.
     
@@ -232,16 +233,6 @@ def _logic_compl_inventario(struct, val_estado, file_output):
     df_ok = pd.DataFrame()
     df_complemento = pd.DataFrame()
 
-    #los valores que hacen True la condicion 'ok':
-    struct = {'condiciones':
-        [
-            {'inv.portoperationalstate':'Active','ne.portoperationalstate':'up','ne.protocol':'up'},
-            {'inv.portoperationalstate':'Active','ne.portoperationalstate':'up','ne.protocol':'down'},
-            {'inv.portoperationalstate':'Available','ne.portoperationalstate':'down','ne.protocol':'down'},
-            {'inv.portoperationalstate':'Reserved','ne.portoperationalstate':'down','ne.protocol':'down'},
-        ]
-    }
-
     #itero la base para cada condicion:
     for idx in range (0, len(struct['condiciones'])):
         #print (struct['condiciones'][idx]['ne.portoperationalstate'])
@@ -261,7 +252,7 @@ def _logic_compl_inventario(struct, val_estado, file_output):
                                         con=conn)
 
         df_ok = pd.concat([df_ok,df_iter])
-        logging.info ('Registros ok de la condicion {0}: {1}'.format(idx,len(df_iter)))
+        logging.info ('Registros Marcados \'{4}\' con la condicion | inv.{0} | ne.portoperationalstate.{1} | ne.protocol.{2}: {3}'.format(struct['condiciones'][idx]['inv.portoperationalstate'],struct['condiciones'][idx]['ne.portoperationalstate'],struct['condiciones'][idx]['ne.protocol'],len(df_iter), val_estado))
 
     #a los campos que traje con la table 'ne' agrego los campos que obtengo de la tabla de inventario
     for idx in range (0, len(struct['condiciones'])):
@@ -294,6 +285,8 @@ def _logic_compl_inventario(struct, val_estado, file_output):
     conn.close()
     
     logging.info ('\n:::Registros {0} totales: {1} \n'.format(val_estado,len(df_ok)))
+    #print ('POPOPOPOPPOPOOP*****************', f_ejecucion)
+    #en este punto escribir en influx el valor de len(df_ok) + la fecha
 
     file_output = 'reports/auxiliar/' + file_output
     df_ok.to_csv(file_output, index=False)
@@ -330,7 +323,9 @@ def Caso_ok_v2(**context):
         ]
     }
 
-    _logic_compl_inventario(struct,'ok','ok.csv')
+    f_ejecucion=context['ds']
+
+    _logic_compl_inventario(struct,'ok','ok.csv', f_ejecucion)
 
 #####################################################################
 
@@ -360,7 +355,8 @@ def Caso2_revisar_1(**context):
         ]
     }
 
-    _logic_compl_inventario(struct,'revisar_1','rev_1.csv')
+    f_ejecucion=context['ds']
+    _logic_compl_inventario(struct,'revisar_1','rev_1.csv',f_ejecucion)
 
 
 #####################################################################
@@ -386,7 +382,8 @@ def Caso2_revisar_2(**context):
     }
 
 
-    _logic_compl_inventario(struct,'revisar_2','rev_2.csv')
+    f_ejecucion=context['ds']
+    _logic_compl_inventario(struct,'revisar_2','rev_2.csv',f_ejecucion)
 
 
 #####################################################################
@@ -411,7 +408,8 @@ def Caso_ok_reserva(**context):
     }
 
 
-    _logic_compl_inventario(struct,'ok_reserva','ok_reserva.csv')
+    f_ejecucion=context['ds']
+    _logic_compl_inventario(struct,'ok_reserva','ok_reserva.csv',f_ejecucion)
 
 
 #####################################################################
@@ -439,8 +437,8 @@ def Caso_na(**context):
         ]
     }
 
-    _logic_compl_inventario(struct,'n_a','na.csv')
-
+    f_ejecucion=context['ds']
+    _logic_compl_inventario(struct,'n_a','na.csv',f_ejecucion)
 
 
 #####################################################################
