@@ -221,12 +221,18 @@ def _logic_compl_inventario(struct, val_estado, file_output, f_ejecucion):
       none
 
     """
+
+    ##prueba escritura en influx##
+    #from influxdb import InfluxDBClient
+    #client = InfluxDBClient(host='172.29.14.123', port=8086, username='admin', password='Welcome1')
+    #client.switch_database('influx_airflow')
     
+
     #nota aux: elementos variables: struct, nombre_estado, nombre_archivo_csv
     
     table_A = 'ne'
     table_B = 'par_inv_itf'
-    dir_output = 'reports/auxiliar/'
+    dir_output = '/usr/local/airflow/reports/auxiliar/'
 
     pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
     conn = pg_hook.get_conn()
@@ -286,12 +292,19 @@ def _logic_compl_inventario(struct, val_estado, file_output, f_ejecucion):
     conn.close()
     
     logging.info ('\n:::Registros {0} totales: {1} \n'.format(val_estado,len(df_ok)))
-    #print ('POPOPOPOPPOPOOP*****************', f_ejecucion)
+    
+   
+    #print ('EL ESTADO QUE ESTAMOS REGISTRANDO AHORA', val_estado)
+    #print ('CANTIDAD DE REGISTROS QUE MACHEAN CON EL ESTADO *****************', len(df_ok))
+
     #en este punto escribir en influx el valor de len(df_ok) + la fecha
+    
 
     file_output = dir_output + file_output
     df_ok.to_csv(file_output, index=False)
     #df_all.to_json('prueba.json', orient='records', lines=True)
+
+    
 
 #####################################################################
 
@@ -322,7 +335,7 @@ def Caso_ok_v2(**context):
             {'inv.portoperationalstate':'Reserved','ne.portoperationalstate':'down','ne.protocol':'down'},
         ]
     }
-
+    
     f_ejecucion=context['ds']
 
     _logic_compl_inventario(struct,'ok','ok.csv', f_ejecucion)
@@ -645,7 +658,7 @@ _caso4 = PythonOperator(
 _init_reporting = PythonOperator(
     task_id='Init_Reporting',
     op_kwargs={    
-    'dir':'reports',
+    'dir':'/usr/local/airflow/reports',
     },
     python_callable=lib.teco_reports.init_report,
     retries=1, dag=dag)
@@ -653,7 +666,7 @@ _init_reporting = PythonOperator(
 _imprime_reporte = PythonOperator(
     task_id='Genera_Reporte',
     op_kwargs={    
-    'dir':'reports',
+    'dir':'/usr/local/airflow/reports',
     },
     python_callable=lib.teco_reports.gen_excel,
     retries=1, dag=dag)
