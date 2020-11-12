@@ -62,7 +62,6 @@ def gen_excel(**context):
 
     data_resumen_dataframe.to_html('/usr/local/airflow/reports/auxiliar/resumen.html', index=False)
 
- 
     archivo_rep = os.path.join(os.getcwd(),dir,'reporte.xlsx')        
     try:
         with pd.ExcelWriter(archivo_rep,mode='a',engine='openpyxl', encoding="utf-8-sig") as escritor:

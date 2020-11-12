@@ -1,4 +1,5 @@
 # Automation
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOkRCRtWwpS2Do6YLvuMMPa8A6dvjlaOetQg&usqp=CAU)
 
 ## Introducción
 
@@ -22,7 +23,7 @@ Una vez dentro de la imagen que está corriendo, ejecutar lo siguiente: '# psql 
 
 #### Conexión a infra desde Ansible
 
-Test
+* Test
 
 ### Build and Test
 
@@ -40,8 +41,20 @@ User/Pass: telecom/telecom
 ### Repositorio GIT
 
 Disponiendo de un user y pass de GIT hub, se debe solicitar los respectivos permisos.
-https://github.com/aconture/compliance-inner-outer.git
+https://github.com/aconture/compliance-inner-outer.git. En este respositorio se puede tener diferentes branchs por lo cual se debera utilizar la ultima verisón disponible:
+
+
+
 
 A partir de eso, desde el directorio donde se va a desplegar el ambiente, ejecutar:
+git clone https://github.com/aconture/compliance-inner-outer.git
 
-git clone https://github.com/tuanavu/airflow-tutorial.git
+
+    test (){
+        prueba2 (test);
+
+}
+
+
+
+

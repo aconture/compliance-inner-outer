@@ -172,3 +172,30 @@ def Load_inv(**context):
         print (':::Archivo {0} - Registros: {1}'.format(file_ok[i],len_ok[i]))
         #pass
     print ('\n--------------------------------')
+
+
+####################################################################
+####################################################################
+#Completar función info de errores del ansible##
+
+def insert_ansible_failures(ansibleprintfailures):
+
+    manual = """ Insertar ansibleprintfailures en la tabla ansible_history """
+
+    pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
+    conn = pg_hook.get_conn()
+    pg_cursor = conn.cursor()
+
+    sql_delete = 'delete from ansible_history'
+    _delete_cursor(sql_delete)
+
+    for item in ansibleprintfailures:
+        sql = "INSERT INTO ansible_history(ne) VALUES(\'{0}\');".format(item)
+        pg_cursor.execute (sql)
+    conn.commit()
+    conn.close()
+
+
+
+
+

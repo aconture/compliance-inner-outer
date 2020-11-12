@@ -1,8 +1,10 @@
 [OC]
-ROC2.AVA1
+RSC1NA
 
 [IC]
 IC1.HOR1
+BUT1PB
+TUTIA3PB
 
 [IC:vars]
 vendor=HUAWEI

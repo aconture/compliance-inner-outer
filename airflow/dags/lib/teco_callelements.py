@@ -7,6 +7,7 @@ from datetime import datetime, timedelta
 import os
 import ansible_runner
 import json
+from lib.teco_db import *
 
 
 #####################################################################
@@ -115,16 +116,22 @@ def call_ansible(**context):
             print("====================================")
             print("====================================")
 
-            ansibleprint_raw = r.stats["failures"]
+            # if len(LansibleFairlure)==0:
+            #     logging.info ('\n\n:::! Ansible ejecutado correctamente para todos los elementos de red\n')
 
-            if ansibleprintfailures is None:
-                logging.info ('\n\n:::! Ansible ejecutado correctamente para todos los elementos de red\n')
-            else:
-                for ansibleprintfailures in ansibleprint_raw:
-                    print ("Las fallas de ejecución fueron las siguientes: ",ansibleprintfailures)
-                    #FUNCION BORRADO
-                    #ansiblefailures = teco_db.insert_ansible_failures(ansibleprintfailures)
-                    print ("Salida insert DB: ",ansiblefailures)
+            # LansibleFairlure=[]
+            # if ansibleprintfailures is None:
+            #     logging.info ('\n\n:::! Ansible ejecutado correctamente para todos los elementos de red\n')
+            # else:
+            #     for ansibleprintfailures in ansibleprint_raw:
+            #         print ("Las fallas de ejecución fueron las siguientes: ",ansibleprintfailures)
+            #         #FUNCION BORRADO
+            #         #ansiblefailures = teco_db.insert_ansible_failures(ansibleprintfailures)
+            #         #print ("Salida insert DB: ",ansiblefailures)
+            #         LansibleFairlure.append (ansibleprintfailures)
+
+            # logging.info (':::Elementos fallados'.format(LansibleFairlure))
+
 
         except:
             logging.error ('\n\n:::! Problema en la conexión al servidor remoto.\n')
@@ -132,6 +139,19 @@ def call_ansible(**context):
             print("====================================")
             print("La salida de ansible es: ",r.stats)  
             return -1
+
+        finally:
+            ansibleprint_raw = r.stats["failures"]
+            print ('ESTOY EJECUTANDO ANSIBLE::::::::::::::::::::::::::')
+            print ('EL ansibleprint_raw es ', ansibleprint_raw)
+
+            LansibleFairlure = []
+            for fairlureItem in ansibleprint_raw:
+                print (':::::::::::::::::::',fairlureItem)
+                LansibleFairlure.append (fairlureItem)
+            logging.info (':::Elementos fallados {0}'.format(LansibleFairlure))
+            insert_ansible_failures(LansibleFairlure)
+
     else:
         logging.info (':::Base de datos de NE ya actualizada, no es necesario actualizar.')
 

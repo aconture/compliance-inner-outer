@@ -19,3 +19,13 @@ datasources:
       connMaxLifetime: 14400  # Grafana v5.4+
       postgresVersion: 903 # 903=9.3, 904=9.4, 905=9.5, 906=9.6, 1000=10
       timescaledb: false
+
+  - name: influxdb
+    type: influxdb
+    database: influx_airflow
+    user: admin
+    url: http://172.29.14.123:8086
+    jsonData:
+      timeInterval: "15s"
+    secureJsonData:
+      password: Welcome1
