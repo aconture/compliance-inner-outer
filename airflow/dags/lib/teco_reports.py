@@ -93,48 +93,23 @@ def gen_excel(**context):
             "EvEstado" : '{}'.format(df['EvEstado'][idx])
         }
         fields = {
-            "cantidad":'{}'.format(df['cantidad'][idx])
+            "cantidad":(df['cantidad'][idx])
         }
 
         body = {
             "measurement": "core_history",
             "tags": tags,
             #"time":'2020-11-11T8:01:00Z',
-            "time": '{}'.format(datetime.now().strftime('%d/%m/%Y %H:%M:%S')),
+            "time": '{}'.format(datetime.now().strftime('%m/%d/%Y %H:%M:%S')),#el formato m-d-Y influy lo transforma en Y-m-d
             "fields": fields
         }
-        
-        
         data.append (body)
         
-
     pprint.pprint(data)
 
     client = InfluxDBClient(host='172.29.14.123', port=8086, username='admin', password='Welcome1')
-    client.create_database('test_contu')
-    client.switch_database('test_contu')
+    client.switch_database('influx_airflow')
     client.write_points(data)
-
-
-    """ Codigo PABLO:
-    salida_influx_raw = G1.to_json(orient='split')
-    salida_influx = json.loads(salida_influx_raw)
-
-    metrica = {
-        "measurement": "core_history",
-        "tags": salida_influx,
-        "time": "2020-11-11T8:01:00Z",
-        "fields": {
-            "duration": 132
-        }
-    }
-    
-    print ("salida de prueba: ",salida_influx)
-    print (type(salida_influx))
-    FIN codigo PABLO""" 
-       
-
-   
 
 
     # comento esta parta para hacerla via influxdb:

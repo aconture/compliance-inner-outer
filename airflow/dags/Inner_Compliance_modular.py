@@ -131,7 +131,7 @@ def naming_inv(**context):
 def naming_ne(**context):
     
     manual = """
-    Esta funcion modifica el contenido de ciertos campos traidos desde los NE, y filtra los puertos lógicos, no deseados en el análisis.
+    Esta funcion modifica el contenido de ciertos campos traidos desde los NE, se queda con los puertos indicados en 'whitelist' y filtra los puertos indicados en 'blacklist' no deseados en el análisis.
 
     La lectura la realiza de la tabla NE.
     
@@ -146,16 +146,17 @@ def naming_ne(**context):
 
     whiteList = {'interfaces':
         [
-            {'ne.interface':'100GE'},
-            {'ne.interface':'GE'},
-            {'ne.interface':'Hu'},
-            {'ne.interface':'Te'},
+            {'ne.startswith':'100GE'},
+            {'ne.startswith':'GE'},
+            {'ne.startswith':'Hu'},
+            {'ne.startswith':'Te'}
         ]
     }
 
-    blackList = {'interfaces':
+    blackList = {'excluir':
         [
-            {'ne.interface':'GE0/0/0'},
+            {'ne.regla':'GE0/0/0'},
+            {'ne.regla':'\.'} #atencion con caracteres regex tales como el punto '.' 
         ]
     }
 
@@ -171,15 +172,15 @@ def naming_ne(**context):
     #Adecuaciones
     df_ne['concat'] = df_ne[['shelfname','interface']].agg(''.join, axis=1)
     
+    #lista blanca
     df_ne_3 = pd.DataFrame()
     for idx in range (0, len(whiteList['interfaces'])):
-        df_aux = df_ne[df_ne['interface'].str.startswith(whiteList['interfaces'][idx]['ne.interface'])]
+        df_aux = df_ne[df_ne['interface'].str.startswith(whiteList['interfaces'][idx]['ne.startswith'])]
         df_ne_3 = pd.concat([df_ne_3,df_aux])
 
-    for idx in range (0, len(blackList['interfaces'])):
-        df_ne_3 = df_ne_3[df_ne_3['interface'] != (blackList['interfaces'][idx]['ne.interface'])]
-
-    #print('POPOPOPO::::::::::::::::',df_ne['interface'])
+    #lista negra
+    for idx in range (0, len(blackList['excluir'])):
+        df_ne_3 = df_ne_3[~df_ne_3['interface'].str.contains(blackList['excluir'][idx]['ne.regla'])] #atencion al negado '~' indica 'no contiene'
 
     #init de la base destino
     sql_delete = 'DELETE FROM {}'.format(table_dest)
@@ -222,14 +223,6 @@ def _logic_compl_inventario(struct, val_estado, file_output, f_ejecucion):
 
     """
 
-    ##prueba escritura en influx##
-    #from influxdb import InfluxDBClient
-    #client = InfluxDBClient(host='172.29.14.123', port=8086, username='admin', password='Welcome1')
-    #client.switch_database('influx_airflow')
-    
-
-    #nota aux: elementos variables: struct, nombre_estado, nombre_archivo_csv
-    
     table_A = 'ne'
     table_B = 'par_inv_itf'
     dir_output = '/usr/local/airflow/reports/auxiliar/'
@@ -333,6 +326,8 @@ def Caso_ok_v2(**context):
             {'inv.portoperationalstate':'Active','ne.portoperationalstate':'up','ne.protocol':'down'},
             {'inv.portoperationalstate':'Available','ne.portoperationalstate':'down','ne.protocol':'down'},
             {'inv.portoperationalstate':'Reserved','ne.portoperationalstate':'down','ne.protocol':'down'},
+            {'inv.portoperationalstate':'Available','ne.portoperationalstate':'admin-down','ne.protocol':'admin-down'},
+            {'inv.portoperationalstate':'Planned','ne.portoperationalstate':'admin-down','ne.protocol':'admin-down'}
         ]
     }
     
@@ -365,6 +360,8 @@ def Caso2_revisar_1(**context):
             {'inv.portoperationalstate':'Undefined','ne.portoperationalstate':'up','ne.protocol':'down'},            
             {'inv.portoperationalstate':'Seems to be deleted','ne.portoperationalstate':'up','ne.protocol':'up'},
             {'inv.portoperationalstate':'Seems to be deleted','ne.portoperationalstate':'up','ne.protocol':'down'},
+            {'inv.portoperationalstate':'Undefined','ne.portoperationalstate':'admin-down','ne.protocol':'admin-down'},
+            {'inv.portoperationalstate':'Seems to be deleted','ne.portoperationalstate':'admin-down','ne.protocol':'admin-down'}
         ]
     }
 
@@ -417,6 +414,8 @@ def Caso_ok_reserva(**context):
         [
             {'inv.portoperationalstate':'Reserved','ne.portoperationalstate':'up','ne.protocol':'up'},
             {'inv.portoperationalstate':'Reserved','ne.portoperationalstate':'up','ne.protocol':'down'},
+            {'inv.portoperationalstate':'Reserved','ne.portoperationalstate':'admin-down','ne.protocol':'admin-down'},
+            {'inv.portoperationalstate':'Active','ne.portoperationalstate':'admin-down','ne.protocol':'admin-down'}            
         ]
     }
 
