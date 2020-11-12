@@ -8,6 +8,7 @@ import os
 import ansible_runner
 import json
 
+
 #####################################################################
 #####################################################################
 
@@ -74,14 +75,23 @@ def call_ansible(**context):
         "host":"ip o hostname del ansible proxy"
         "user":"id del usuario existente en el ansible proxy"
         "pass":"pass del usuario en el ansible proxy"
+        "mock": True | False
+                True: usa información de NEs mockeada.
+                False: funcionamiento normal: ejecuta ansible para consultar la info en los NE
 
     """
     try:
         conn_id = context['connection']
+        mock = context['mock']
     except:
         logging.error ('\n\n:::! Error - Falta un argumento de llamada a esta funcion.')
         logging.error (manual)
         return -1
+
+    if mock:
+        os.system ('rm /usr/local/ansible/mejoras_cu1/interfaces/*.txt; cp -p /usr/local/ansible/mejoras_cu1/interfaces_mock/*.txt /usr/local/ansible/mejoras_cu1/interfaces/*.txt')
+        logging.info ('\n\n:::Salimos por mockeo...\n\n')
+        return
 
     update = _check_vigencia (**context)
 
@@ -99,8 +109,22 @@ def call_ansible(**context):
             print("====================================")
             print("====================================")
             print("La salida de ansible es: ",r.stats)
-            #ansibleprint = json.load(r.stats)
-            #print("SALIDA REDUCIDA: ", ansibleprint)   
+
+            print("====================================")
+            print("====================================")
+            print("====================================")
+            print("====================================")
+
+            ansibleprint_raw = r.stats["failures"]
+
+            if ansibleprintfailures is None:
+                logging.info ('\n\n:::! Ansible ejecutado correctamente para todos los elementos de red\n')
+            else:
+                for ansibleprintfailures in ansibleprint_raw:
+                    print ("Las fallas de ejecución fueron las siguientes: ",ansibleprintfailures)
+                    #FUNCION BORRADO
+                    #ansiblefailures = teco_db.insert_ansible_failures(ansibleprintfailures)
+                    print ("Salida insert DB: ",ansiblefailures)
 
         except:
             logging.error ('\n\n:::! Problema en la conexión al servidor remoto.\n')

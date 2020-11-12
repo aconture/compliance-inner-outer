@@ -1,0 +1,147 @@
+shelfname|interface|portoperationalstate|protocol|info1
+BUA1NA|BE20|admin-down|admin-down|A MUSGGC1SA Port-Channel 20
+BUA1NA|BE20.200|admin-down|admin-down|VLAN GESTION DE MUSGGC1SA POR BUA1NA
+BUA1NA|BE100|up|up|A MUSCDN01 (Agrupa Hu0/16/0/0 - Hu0/16/0/1)
+BUA1NA|BE101|up|up|A MUSCDN02 (Agrupa Hu0/17/0/0 - Hu0/17/0/1)
+BUA1NA|BE102|up|up|A MUSCDN03 (Agrupa Hu0/16/0/2 - Hu0/16/0/3)
+BUA1NA|BE103|up|up|A MUSCDN04 (Agrupa Hu0/17/0/2 - Hu0/17/0/3)
+BUA1NA|BE104|up|up|A BUACDN02 (Agrupa Hu0/16/0/5 - Hu0/18/0/5)
+BUA1NA|BE115|up|up|CNX:ENLACE:MUS1NA (Hu0/19/0/0 + Hu0/19/0/1 + Hu0/19/0/2 + Hu0/19/0/3)
+BUA1NA|BE116|up|up|CNX:ENLACE:COE1NA (Hu0/15/0/0 + Hu0/15/0/1 + Hu0/15/0/2 + Hu0/15/0/3)
+BUA1NA|BE117|up|up|CNX:ENLACE:RES1NA (Hu0/18/0/0 + Hu0/18/0/1 + Hu0/18/0/3)
+BUA1NA|Lo0|up|up|AREA O - OSPF
+BUA1NA|Lo4|up|up|AREA 4 - OSPF
+BUA1NA|Lo8|up|up|AREA 8 - OSPF
+BUA1NA|Lo39|up|up|AREA 39 - OSPF
+BUA1NA|Lo41|up|up|AREA 41 - OSPF
+BUA1NA|Lo49|up|up|AREA 49 - OSPF
+BUA1NA|Lo55|up|up|AREA 55 - OSPF
+BUA1NA|Lo84|up|up|AREA 84 - OSPF
+BUA1NA|Lo89|up|up|AREA 89 - OSPF
+BUA1NA|Lo90|up|up| 
+BUA1NA|Lo98|up|up|AREA 98 - OSPF
+BUA1NA|Lo1234|up|up| 
+BUA1NA|Nu0|up|up| 
+BUA1NA|Mg0/RP0/CPU0/0|admin-down|admin-down| 
+BUA1NA|Mg0/RP0/CPU0/1|admin-down|admin-down| 
+BUA1NA|PT0/RP0/CPU0/0|admin-down|admin-down| 
+BUA1NA|Mg0/RP1/CPU0/0|admin-down|admin-down| 
+BUA1NA|Mg0/RP1/CPU0/1|admin-down|admin-down| 
+BUA1NA|Te0/0/0/0|down|down|Enlace 10G NN A LRI1MB Te0/0/1/3 (Linea:13002750) - UPLINK BBIP
+BUA1NA|Te0/0/0/1|down|down|Enlace 10G NN A LRI1MB Te0/1/1/1 (Linea:13002751) - UPLINK BBI
+BUA1NA|Te0/0/0/2|down|down|Enlace 10G a CTM1MB Te0/1/0/0 (Linea:9005100) - UPLINK BBIP
+BUA1NA|Te0/0/0/3|down|down|Enlace 10G a CTM1MB Te0/0/1/1 (Linea:13003932) - UPLINK BBIP
+BUA1NA|Te0/0/0/4|up|up|Enlace 10G DWDM MET2MU_G3/1/0 (Linea:13006560) - UPLINK AGN
+BUA1NA|Te0/0/0/5|up|up|Enlace 10G a CCP1MB Te0/0/1/1 (Linea:13003934) - UPLINK BBIP
+BUA1NA|Te0/0/0/6|up|up|Enlace 10G FO JUD2MU_G5/1/0 (Linea:13006484) - UPLINK AGN
+BUA1NA|Te0/0/0/7|up|up|Enlace 10G DWDM JUD2MU_G5/1/1 (Linea:13006485) - UPLINK AGN
+BUA1NA|Te0/0/0/8|up|up|INT  FO  10G  ACN2MU  Gi5/1/0  13006488  OCORE-EDGE 
+BUA1NA|Te0/0/0/9|up|up|INT  FO  10G  ACN2MU  Gi5/1/1  13006489  OCORE-EDGE 
+BUA1NA|Te0/0/0/10|admin-down|admin-down| 
+BUA1NA|Te0/0/0/11|up|up|Enlace 10G DWDM MET2MU_G6/0/0 (Linea:13005767) - UPLINK AGN
+BUA1NA|Te0/0/0/12|up|up|Enlace 10G DWDM MET2MU_G8/0/1 (Linea:13005768) - UPLINK AGN
+BUA1NA|Te0/0/0/13|up|up|Enlace 10G a CCP1MB Te0/1/0/0 (Linea:9005078) - UPLINK BBIP
+BUA1NA|Te0/0/0/14|up|up|Enlace 10G FO BMO2MU_G5/1/0 (Linea:13006462) - UPLINK AGN
+BUA1NA|Te0/0/0/15|up|up|Enlace 10G FO BMO2MU_G5/1/1 (Linea:13006463) - UPLINK AGN
+BUA1NA|Te0/0/0/16|up|up|Enlace 10G TVJ2MU_Te0/4/1/0 (Linea:13006498) - UPLINK AGN
+BUA1NA|Te0/0/0/17|up|up|Enlace 10G TVJ2MU_Te0/4/1/1 (Linea:13006499) - UPLINK AGN
+BUA1NA|Te0/0/0/18|up|up|INT  FO  10G  MAN2MU  Te0/4/1/0  13006502  OCORE-EDGE 
+BUA1NA|Te0/0/0/19|up|up|INT  FO  10G  MAN2MU  Te0/4/1/1  13006503  OCORE-EDGE 
+BUA1NA|Te0/0/0/20|down|down|Enlace 10G a CTM1MB Te0/4/1/0 (Linea:9005175) - UPLINK BBIP
+BUA1NA|Te0/0/0/21|up|up|Enlace 10G DWDM SEZ1MU_G8/0/0 (Linea:13002092) - UPLINK AGN
+BUA1NA|Te0/0/0/22|up|up|Enlace 10G NN A SEZ1MU Te4/0/2 (Linea:9005112) - UPLINK BBI
+BUA1NA|Te0/0/0/23|up|up|Enlace 10G NN A SEZ1MU Te4/0/1 (Linea:9005089) - UPLINK BBI
+BUA1NA|Hu0/1/0/0|up|up|Enlace 100G NN A BUA1MB Hu0/3/0/1 (Linea:13002578) - UPLINK BBIP
+BUA1NA|Hu0/1/0/1|up|up|Enlace 100G NN A BGN1MB Hu0/5/0/0 (Linea:13002846) - UPLINK BBIP
+BUA1NA|Hu0/2/0/0|admin-down|admin-down|Enlace 100G A MUSGGC1SA 3/2 (Linea:13002310) - UPLINK BBIP
+BUA1NA|Hu0/2/0/1|admin-down|admin-down| 
+BUA1NA|Hu0/3/0/0|admin-down|admin-down|Enlace 100G NN A RES1NA Hu0/3/0/0 (Linea:13002848) (88BUA01-0/18/1) - UPLINK BBIP
+BUA1NA|Hu0/3/0/1|admin-down|admin-down|Enlace 100G A MUSGGC1SA 4/2 (Linea:13003420) - UPLINK BBIP
+BUA1NA|Hu0/4/0/0|admin-down|admin-down| 
+BUA1NA|Hu0/4/0/1|up|up|Enlace 100G NN A MUS1MB Hu0/3/0/0 (Linea:13005597) - UPLINK BBIP
+BUA1NA|Hu0/7/0/0|up|up|INT  FO  100G  BUA4MU  100Ge6/0/0  13006568  OCORE-EDGE 
+BUA1NA|Hu0/7/0/1|up|up|Enlace 100G DWDM CCP2MU_G6/0/0 (Linea:13007025) - UPLINK AGN
+BUA1NA|Hu0/8/0/0|admin-down|admin-down| 
+BUA1NA|Hu0/8/0/1|admin-down|admin-down| 
+BUA1NA|Hu0/8/0/2|admin-down|admin-down| 
+BUA1NA|Hu0/8/0/3|admin-down|admin-down| 
+BUA1NA|Hu0/9/0/0|admin-down|admin-down| 
+BUA1NA|Hu0/9/0/1|admin-down|admin-down| 
+BUA1NA|Te0/10/0/0|up|up|Enlace 10G DWDM LAF2MU_G8/0/1 (Linea:9005187) - UPLINK AGN
+BUA1NA|Te0/10/0/1|up|up|Enlace 10G a CCP1MB Te0/2/0/5 (Linea:13007023) - UPLINK BBIP
+BUA1NA|Te0/10/0/2|admin-down|admin-down| 
+BUA1NA|Te0/10/0/3|admin-down|admin-down| 
+BUA1NA|Te0/10/0/4|admin-down|admin-down| 
+BUA1NA|Te0/10/0/5|admin-down|admin-down| 
+BUA1NA|Te0/10/0/6|admin-down|admin-down| 
+BUA1NA|Te0/10/0/7|admin-down|admin-down| 
+BUA1NA|Te0/10/0/8|admin-down|admin-down| 
+BUA1NA|Te0/10/0/9|admin-down|admin-down| 
+BUA1NA|Te0/10/0/10|up|up|Enlace 10G a CCP1MB Te0/2/0/7 (Linea:13007022) - UPLINK BBIP
+BUA1NA|Te0/10/0/11|admin-down|admin-down| 
+BUA1NA|Te0/10/0/12|up|up|Enlace 10G DWDM CZE1MU_G1/0/1 (Linea:70001799) - UPLINK UPE
+BUA1NA|Te0/10/0/13|up|up|Enlace 10G FO TVJ2MU_G0/3/1/4 (Linea:13007297) - UPLINK AGN
+BUA1NA|Te0/10/0/14|up|up|Enlace 10G DWDM LAF2MU_G8/0/0 (Linea:13007301) - UPLINK AGN
+BUA1NA|Te0/10/0/15|admin-down|admin-down| 
+BUA1NA|Te0/10/0/16|admin-down|admin-down| 
+BUA1NA|Te0/10/0/17|up|up|Enlace 10G DWDM CHI2MU_G3/0/0 (Linea:70001805) - UPLINK AGN
+BUA1NA|Te0/10/0/18|admin-down|admin-down| 
+BUA1NA|Te0/10/0/19|admin-down|admin-down| 
+BUA1NA|Te0/10/0/20|admin-down|admin-down| 
+BUA1NA|Te0/10/0/21|admin-down|admin-down| 
+BUA1NA|Te0/10/0/22|admin-down|admin-down| 
+BUA1NA|Te0/10/0/23|admin-down|admin-down| 
+BUA1NA|Te0/10/0/24|admin-down|admin-down| 
+BUA1NA|Te0/10/0/25|admin-down|admin-down| 
+BUA1NA|Te0/10/0/26|admin-down|admin-down| 
+BUA1NA|Te0/10/0/27|admin-down|admin-down| 
+BUA1NA|Te0/10/0/28|admin-down|admin-down| 
+BUA1NA|Te0/10/0/29|admin-down|admin-down| 
+BUA1NA|Te0/10/0/30|admin-down|admin-down| 
+BUA1NA|Te0/10/0/31|admin-down|admin-down| 
+BUA1NA|Te0/10/0/32|admin-down|admin-down| 
+BUA1NA|Te0/10/0/33|admin-down|admin-down| 
+BUA1NA|Te0/10/0/34|admin-down|admin-down| 
+BUA1NA|Te0/10/0/35|admin-down|admin-down| 
+BUA1NA|Hu0/15/0/0|up|up|TRK:ENLACE:COE1NA (100GE0/15/0/0) Linea:13002845
+BUA1NA|Hu0/15/0/1|up|up|TRK:ENLACE:COE1NA (100GE0/15/0/1) Linea:13006953
+BUA1NA|Hu0/15/0/2|up|up|TRK:ENLACE:COE1NA (100GE0/15/0/2) Linea:13006954
+BUA1NA|Hu0/15/0/3|up|up|TRK:ENLACE:COE1NA (100GE0/15/0/3) (S8-004 88BUA01 0/20/1) Linea:15009165
+BUA1NA|Hu0/15/0/4|up|up|INT  FO  100G  KEN2MU  100Ge3/0/0  13007079  OCORE-EDGE 
+BUA1NA|Hu0/15/0/5|up|up|Enlace 10G FO UND2MU_G4/0/0 (Linea:13007090) - UPLINK AGN
+BUA1NA|Hu0/15/0/6|admin-down|admin-down| 
+BUA1NA|Hu0/15/0/7|admin-down|admin-down| 
+BUA1NA|Hu0/16/0/0|up|up|Enlace 100G a MUSCDN01 Hu0/0/1/2 - Linea:13006585 - UPLINK BBIP
+BUA1NA|Hu0/16/0/1|up|up|Enlace 100G a MUSCDN01 Hu0/0/1/3 - Linea:13006586 - UPLINK BBIP
+BUA1NA|Hu0/16/0/2|up|up|Enlace 100G a MUSCDN03 Hu0/0/1/2 - Linea:13006593 - UPLINK BBIP
+BUA1NA|Hu0/16/0/3|up|up|Enlace 100G a MUSCDN03 Hu0/0/1/3 - Linea:13006594 - UPLINK BBIP
+BUA1NA|Hu0/16/0/4|admin-down|admin-down| 
+BUA1NA|Hu0/16/0/5|up|up|Enlace 100G a BUACDN02 Hu0/0/1/0 - Linea:15007509 - UPLINK BBIP
+BUA1NA|Hu0/16/0/6|admin-down|admin-down|Enlace 100G RES1NA_G0/18/0/2 (Linea:11004937) (88BUA02-0/18/1) - UPLINK BBIP
+BUA1NA|Hu0/16/0/7|up|up|Enlace 100G a CTM1MB Hu0/4/0/0 (Linea:13007034) - UPLINK BBIP
+BUA1NA|Hu0/17/0/0|up|up|Enlace 100G a MUSCDN02 Hu0/0/1/2 - Linea:13006589 - UPLINK BBIP
+BUA1NA|Hu0/17/0/1|up|up|Enlace 100G a MUSCDN02 Hu0/0/1/3 - Linea:13006590 - UPLINK BBIP
+BUA1NA|Hu0/17/0/2|up|up|Enlace 100G a MUSCDN04 Hu0/0/1/2 - Linea:13006597 - UPLINK BBIP
+BUA1NA|Hu0/17/0/3|up|up|Enlace 100G a MUSCDN04 Hu0/0/1/3 - Linea:13006598 - UPLINK BBIP
+BUA1NA|Hu0/17/0/4|up|up|INT  FO  100G  MUS4MU  100Ge4/0/0  13006392  OCORE-EDGE 
+BUA1NA|Hu0/17/0/5|up|up|Enlace 100G FO YER2MU_G0/4/0/0 (Linea:13006491) - UPLINK AGN
+BUA1NA|Hu0/17/0/6|up|up|Enlace 100G VLU3MU_Hu0/5/0/0 (Linea:13006405) - UPLINK AGN
+BUA1NA|Hu0/17/0/7|up|up|INT  FO  100G  CYO2MU  100Ge5/0/0  13006505  OCORE-EDGE 
+BUA1NA|Hu0/18/0/0|up|up|TRK:ENLACE:RES1NA (100GE0/18/0/7) (88BUA01-0/18/1) Linea:13002848
+BUA1NA|Hu0/18/0/1|up|up|TRK:ENLACE:RES1NA (100GE0/18/0/3) (S8-004 88BUA01 0/16/1) Linea:11004936
+BUA1NA|Hu0/18/0/2|up|up|Enlace 100G a BGN1MB Hu0/18/0/2 (Linea:13006961) - UPLINK BBIP
+BUA1NA|Hu0/18/0/3|up|up|TRK:ENLACE:RES1NA (100GE0/18/0/2) (88BUA02-0/18/1) Linea:11004937
+BUA1NA|Hu0/18/0/4|down|down| 
+BUA1NA|Hu0/18/0/5|up|up|Enlace 100G a BUACDN02 Hu0/0/1/1 - Linea:15007525 - UPLINK BBIP
+BUA1NA|Hu0/18/0/6|up|up|Enlace 100G a LRI1MB Hu0/4/0/0 (Linea:13007076) - UPLINK BBIP
+BUA1NA|Hu0/18/0/7|up|up|Enlace 100G FO BUA3MU_G2/0/0 (Linea:13003762) - UPLINK AGN
+BUA1NA|Hu0/19/0/0|up|up|TRK:ENLACE:MUS1NA (100GE13/0/0) Linea:13005123
+BUA1NA|Hu0/19/0/1|up|up|TRK:ENLACE:MUS1NA (100GE13/0/1) Linea:15009166
+BUA1NA|Hu0/19/0/2|up|up|TRK:ENLACE:MUS1NA (100GE13/0/2) Linea:15009167
+BUA1NA|Hu0/19/0/3|up|up|TRK:ENLACE:MUS1NA (100GE13/0/3) Linea:15009168
+BUA1NA|Hu0/19/0/4|up|up|Enlace 100G FO MUS4MU_G3/0/1 (Linea:13007299) - UPLINK AGN
+BUA1NA|Hu0/19/0/5|up|up|Enlace 100G FO BUA3MU_G5/0/0 (Linea:13003760) - UPLINK AGN
+BUA1NA|Hu0/19/0/6|up|up|Enlace 100G FO MUS3MU_G7/0/0 (Linea:13007344) - UPLINK AGN
+BUA1NA|Hu0/19/0/7|up|up|Enlace 100G FO MUS3MU_G6/0/0 (Linea:13003763) - UPLINK AGN
+
+
