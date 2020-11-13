@@ -1,7 +1,4 @@
 shelfNetworkRole,NE,shelfHardware,interface,Recurso,portBandwidth,EstadoRed,EstadoLisy,DescRed,DescLisy,EvEstado
-OUTER CORE,RES1NA,Cisco-ASR-9922,Te0/0/0/2,RES1NATe0/0/0/2,Te,down,Seems to be deleted,Enlace 10G DWDM INC2MU_G (Linea:11004797) - UPLINK AGN,Enlace 10G DWDM INC2MU_G (Linea:11004797) - UPLINK AGN,revisar_2
-OUTER CORE,CTE1NA,Cisco-ASR-9922,Te0/0/0/8,CTE1NATe0/0/0/8,Te,down,Seems to be deleted,Enlace 10G NN FOR1MB Te0/1/0/0 (Linea:11001878) - UPLINK BBIP,Enlace 10G NN FOR1MB Te0/1/0/0 (Linea:11001878) - UPLINK BBIP,revisar_2
-OUTER CORE,CTE1NA,Cisco-ASR-9922,Te0/0/0/10,CTE1NATe0/0/0/10,Te,down,Seems to be deleted,Enlace 10G DWDM INC2MU_G (Linea:11004795) - UPLINK AGN,Enlace 10G DWDM INC2MU_G (Linea:11004795) - UPLINK AGN,revisar_2
 OUTER CORE,MUN1NA,Cisco-ASR-9922,Hu0/6/0/0,MUN1NAHu0/6/0/0,Hu,down,Seems to be deleted,Enlace 100G DWDM GICOG_Hu0/5/0/1 (Linea:15007787) - UPLINK BBIP,Enlace 100G DWDM GICOG_Hu0/5/0/1 (Linea:15007787) - UPLINK BBIP,revisar_2
 OUTER CORE,MUN1NA,Cisco-ASR-9922,Hu0/13/0/3,MUN1NAHu0/13/0/3,Hu,down,Seems to be deleted,Enlace 100G NN A GICOG Hu0/0/0/1 (Linea:15004829) - UPLINK BBIP,Enlace 100G NN A GICOG Hu0/0/0/1 (Linea:15004829) - UPLINK BBIP,revisar_2
 OUTER CORE,MUN1NA,Cisco-ASR-9922,Hu0/14/0/3,MUN1NAHu0/14/0/3,Hu,down,Seems to be deleted,Enlace 100G NN A GICOG Hu0/1/0/1 (Linea:9703142) - Vinculo 3 - UPLINK BBIP,Enlace 100G NN A GICOG Hu0/1/0/1 (Linea:9703142) - Vinculo 3 - UPLINK BBIP,revisar_2
@@ -27,7 +24,6 @@ OUTER CORE,BUA1NA,Cisco-ASR-9922,Te0/0/0/1,BUA1NATe0/0/0/1,Te,down,Seems to be d
 OUTER CORE,BUA1NA,Cisco-ASR-9922,Te0/0/0/2,BUA1NATe0/0/0/2,Te,down,Seems to be deleted,Enlace 10G a CTM1MB Te0/1/0/0 (Linea:9005100) - UPLINK BBIP,Enlace 10G a CTM1MB Te0/1/0/0 (Linea:9005100) - UPLINK BBIP,revisar_2
 OUTER CORE,BUA1NA,Cisco-ASR-9922,Te0/0/0/3,BUA1NATe0/0/0/3,Te,down,Seems to be deleted,Enlace 10G a CTM1MB Te0/0/1/1 (Linea:13003932) - UPLINK BBIP,Enlace 10G a CTM1MB Te0/0/1/1 (Linea:13003932) - UPLINK BBIP,revisar_2
 OUTER CORE,BUA1NA,Cisco-ASR-9922,Te0/0/0/20,BUA1NATe0/0/0/20,Te,down,Seems to be deleted,Enlace 10G a CTM1MB Te0/4/1/0 (Linea:9005175) - UPLINK BBIP,Enlace 10G a CTM1MB Te0/4/1/0 (Linea:9005175) - UPLINK BBIP,revisar_2
-OUTER CORE,ROC2.HOR1,Cisco-ASR-9922,Te0/7/0/6/3,ROC2.HOR1Te0/7/0/6/3,Te,down,Active,TRK:ENLACE:ROA1.CIP1 (xe-9/2/0) (SDH6.HOR1-Slot 13-Cliente 6),NaN,revisar_2
-OUTER CORE,ROC2.HOR1,Cisco-ASR-9922,Te0/7/0/6/4,ROC2.HOR1Te0/7/0/6/4,Te,down,Active,TRK:ENLACE:ROA1.CIP1 (xe-9/2/1) (SDH6.HOR1-Slot 13-Cliente 7),NaN,revisar_2
-OUTER CORE,ROC2.HOR1,Cisco-ASR-9922,Te0/7/0/6/5,ROC2.HOR1Te0/7/0/6/5,Te,down,Active,TRK:ENLACE:ROA1.CIP1 (xe-9/3/0) (SDH6.HOR1-Slot 13-Cliente 8),NaN,revisar_2
-OUTER CORE,ROC2.HOR1,Cisco-ASR-9922,Te0/8/0/7/6,ROC2.HOR1Te0/8/0/7/6,Te,down,Active,TRK:ENLACE:ROA1.SUA1(Te0/0/2/0) (SDH6.HOR1-Slot 13-Cliente 5),NaN,revisar_2
+OUTER CORE,RES1NA,Cisco-ASR-9922,Te0/0/0/2,RES1NATe0/0/0/2,Te,down,Seems to be deleted,Enlace 10G DWDM INC2MU_G (Linea:11004797) - UPLINK AGN,Enlace 10G DWDM INC2MU_G (Linea:11004797) - UPLINK AGN,revisar_2
+OUTER CORE,CTE1NA,Cisco-ASR-9922,Te0/0/0/8,CTE1NATe0/0/0/8,Te,down,Seems to be deleted,Enlace 10G NN FOR1MB Te0/1/0/0 (Linea:11001878) - UPLINK BBIP,Enlace 10G NN FOR1MB Te0/1/0/0 (Linea:11001878) - UPLINK BBIP,revisar_2
+OUTER CORE,CTE1NA,Cisco-ASR-9922,Te0/0/0/10,CTE1NATe0/0/0/10,Te,down,Seems to be deleted,Enlace 10G DWDM INC2MU_G (Linea:11004795) - UPLINK AGN,Enlace 10G DWDM INC2MU_G (Linea:11004795) - UPLINK AGN,revisar_2

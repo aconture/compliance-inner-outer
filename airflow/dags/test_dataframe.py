@@ -54,7 +54,7 @@ for idx in range (0, len(df)):
 pprint.pprint(data)
 
 
-client = InfluxDBClient(host='172.29.14.123', port=8086, username='admin', password='Welcome1')
+client = InfluxDBClient(host='influxdb', port=8086, username='admin', password='Welcome1')
 client.create_database('test_contu')
 client.switch_database('test_contu')
 # client.write_points([json_str])

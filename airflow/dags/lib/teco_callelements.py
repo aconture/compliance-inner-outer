@@ -90,7 +90,7 @@ def call_ansible(**context):
         return -1
 
     if mock:
-        os.system ('rm /usr/local/ansible/mejoras_cu1/interfaces/*.txt; cp -p /usr/local/ansible/mejoras_cu1/interfaces_mock/*.txt /usr/local/ansible/mejoras_cu1/interfaces/*.txt')
+        os.system ('rm /usr/local/ansible/mejoras_cu1/interfaces/*.txt; cp -p /usr/local/ansible/mejoras_cu1/interfaces_mock/*.txt /usr/local/ansible/mejoras_cu1/interfaces/')
         logging.info ('\n\n:::Salimos por mockeo...\n\n')
         return
 

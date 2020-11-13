@@ -98,7 +98,6 @@ def gen_excel(**context):
         body = {
             "measurement": "core_history",
             "tags": tags,
-            #"time":'2020-11-11T8:01:00Z',
             "time": '{}'.format(datetime.now().strftime('%m/%d/%Y %H:%M:%S')),#el formato m-d-Y influy lo transforma en Y-m-d
             "fields": fields
         }
@@ -106,22 +105,9 @@ def gen_excel(**context):
         
     pprint.pprint(data)
 
-    client = InfluxDBClient(host='172.29.14.123', port=8086, username='admin', password='Welcome1')
+    client = InfluxDBClient(host='influxdb', port=8086, username='admin', password='Welcome1')
     client.switch_database('influx_airflow')
     client.write_points(data)
-
-
-    # comento esta parta para hacerla via influxdb:
-    # #Guardo los registos del pivot en una tabla que contiene el historico:
-    # tabla = 'core_history'
-    # #elimino para evitar registros duplicados de la misma fecha:
-    # sql_delete = 'delete from core_history where fecha=\'{0}\''.format(f_ejecucion)
-    # lib.teco_db._delete_cursor(sql_delete)
-    # #registro el resumen en la tabla historico de la base de datos:
-    # lista_columnas = ['NE', 'finv', 'ok', 'ok_reserva', 'revisar_1', 'fecha']
-    # print (data_resumen)
-    # lib.teco_db._insert_cursor (data_resumen_dataframe, tabla, lista_columnas)
-
 
 
 #####################################################################

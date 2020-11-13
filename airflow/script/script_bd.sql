@@ -67,3 +67,11 @@ CREATE TABLE public.core_history (
 
 
 ALTER TABLE public.core_history OWNER TO airflow;
+
+DROP TABLE ansible_history;
+
+CREATE TABLE public.ansible_history (
+    ne character varying(30)
+);
+
+ALTER TABLE public.ansible_history OWNER TO airflow;

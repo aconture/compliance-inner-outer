@@ -1,7 +1,7 @@
 from influxdb import InfluxDBClient
 
 
-client = InfluxDBClient(host='172.29.14.123', port=8086, username='admin', password='Welcome1')
+client = InfluxDBClient(host='influxdb', port=8086, username='admin', password='Welcome1')
 
 
 json_body = [
