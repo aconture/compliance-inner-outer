@@ -20,7 +20,7 @@ RUN	pip install bottle==0.12.18 \
 	&& pip install openpyxl==3.0.3 \
         && pip install textfsm==1.1.0 \
         && pip install paramiko==2.7.1 \
-        && pip install influxdb
+        && pip install influxdb==5.3.1
         #&& pip install python-dev \
         #&& pip install ansible-runner==1.4.6
 
