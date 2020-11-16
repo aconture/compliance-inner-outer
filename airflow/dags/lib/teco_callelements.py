@@ -68,40 +68,83 @@ def call_ansible(**context):
     
     manual = """
 
-    Ejecutas ansible en el directorio remoto. 
+    Ejecuta ansible en el directorio remoto. 
     Si el directorio que contiene el resultado de ansible tiene la fecha actual, no se ejecuta ansible.
 
     Args: 
-      connection [text]: id de la conexion creada en airflow (Admin->Connections), donde:
-        "host":"ip o hostname del ansible proxy"
-        "user":"id del usuario existente en el ansible proxy"
-        "pass":"pass del usuario en el ansible proxy"
-        "mock": True | False
+        pbook_dir: [Text]
+            El directorio donde esta ubicado el plabook a ejecutar.
+
+        playbook: [Text]
+            El nombre del playbook a ejecutar.
+        
+        [inventory]: [text]
+            Inventario a utilizar.
+            Sobreescribe el inventario configurado en el script de ansible.
+
+        [init_output]: [text]
+            El path que se necesita limpiar antes de la ejecucion del playbook. Soporta wildcard (ej: *.txt).
+
+        [mock]: [True (default) | False]
+            Evita ejecutar el playbook de ansible, usando datos mockeados.
                 True: usa información de NEs mockeada.
                 False: funcionamiento normal: ejecuta ansible para consultar la info en los NE
 
+        [mock_source]: [Text]
+            La ubicación de los archivos que contienen la información para realizar el mock. 
+            Soporta wildcard (ej: *.txt)
+
+        [mock_dest]: [Text]
+            El directorio de destino de los archivos que contienen la información para realizar el mock. 
+            Es el directorio de trabajo de donde toma la información el caso de uso.
+
     """
     try:
-        conn_id = context['connection']
-        mock = context['mock']
+        pbook_dir = context['pbook_dir']
+        playbook = context['playbook']
     except:
         logging.error ('\n\n:::! Error - Falta un argumento de llamada a esta funcion.')
         logging.error (manual)
         return -1
 
+    try:
+        mock = context['mock']
+    except:
+        mock = True
+
     if mock:
-        os.system ('rm /usr/local/ansible/mejoras_cu1/interfaces/*.txt; cp -p /usr/local/ansible/mejoras_cu1/interfaces_mock/*.txt /usr/local/ansible/mejoras_cu1/interfaces/')
-        logging.info ('\n\n:::Salimos por mockeo...\n\n')
+        #os.system ('rm /usr/local/ansible/mejoras_cu1/interfaces/*.txt; cp -p /usr/local/ansible/mejoras_cu1/interfaces_mock/*.txt /usr/local/ansible/mejoras_cu1/interfaces/')
+        try:
+            init_output = context['init_output']
+            mock_source = context['mock_source']
+            mock_dest = context['mock_dest']
+            os.system ('rm {0}'.format(init_output))
+            os.system ('cp -p {0} {1}'.format(mock_source, mock_dest))
+            logging.info ('\n\n:::Salimos por mockeo...\n\n')
+        except:
+            logging.error ('Error al recuperar o ejecutar un parametro de mockeo. Ver manual:\n {0}'.format(manual))
+            raise ValueError ('Error en mockeo')
+        #os.system ('cp -p /usr/local/ansible/mejoras_cu1/interfaces_mock/*.txt /usr/local/ansible/mejoras_cu1/interfaces/')
+
         return
 
     update = _check_vigencia (**context)
-
     if (update):
         logging.info (':::La base de Network Element tiene fecha en el pasado. Ejecutando Ansible para actualizar.')
         try:
             #os.system ('rm /usr/local/ansible/mejoras_cu1/interfaces/*.txt; cd /usr/local/ansible/mejoras_cu1/yaml; ansible-playbook main.yaml')
-            os.system ('rm /usr/local/ansible/mejoras_cu1/interfaces/*.txt')
-            r = ansible_runner.run(private_data_dir='/usr/local/ansible/mejoras_cu1/yaml', playbook='main.yaml')
+            try:
+                init_output = context['init_output']
+                os.system ('rm {0}'.format(init_output))
+            except:
+                pass
+
+            try:
+                inventory = context['inventory']
+                r = ansible_runner.run(private_data_dir=pbook_dir, playbook=playbook, inventory=inventory)
+            except:
+                r = ansible_runner.run(private_data_dir=pbook_dir, playbook=playbook)
+
             print("{}: {}".format(r.status, r.rc))
             # successful: 0
             for each_host_event in r.events:
@@ -134,7 +177,8 @@ def call_ansible(**context):
 
 
         except:
-            logging.error ('\n\n:::! Problema en la conexión al servidor remoto.\n')
+            logging.error ('\n\n:::! Problema en la conexión a la Red.\n')
+            raise ValueError ('Error en la conexión a la Red')
             print("====================================")
             print("====================================")
             print("La salida de ansible es: ",r.stats)  

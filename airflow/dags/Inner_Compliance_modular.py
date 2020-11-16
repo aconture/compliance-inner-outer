@@ -555,8 +555,13 @@ _auto_ansible = PythonOperator(
     task_id='ejecuta_ansible', 
     python_callable=lib.teco_callelements.call_ansible,
     op_kwargs={
-        'connection':'ansible_proxy',
-        'mock':True
+        'pbook_dir':'/usr/local/ansible/mejoras_cu1/yaml',
+        'playbook':'main.yaml',
+        'init_output':'/usr/local/ansible/mejoras_cu1/interfaces/*.txt',
+        'inventory':'/usr/local/ansible/mejoras_cu1/inventario/inventory.reducido',
+        'mock':True,
+        'mock_source':'/usr/local/ansible/mejoras_cu1/interfaces_mock/*.txt',
+        'mock_dest':'/usr/local/ansible/mejoras_cu1/interfaces/'
         },
     dag=dag)
 
