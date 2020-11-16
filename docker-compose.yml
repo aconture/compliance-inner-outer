@@ -220,7 +220,7 @@ services:
         ports:
             - 8086:8086
         volumes:
-            - influxdb-volume:/vol01/Docker/monitoring
+            - ./influxdb:/var/lib/influxdb/data
         environment:
             - INFLUXDB_DB=telegraf
             - INFLUXDB_DB=influx_airflow
