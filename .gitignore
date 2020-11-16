@@ -19,4 +19,5 @@ airflow/remote-key.pub
 airflow/unittests.cfg
 ansible/mejoras_cu1/yaml/artifacts
 ansible/mejoras_cu1/interfaces/*.txt
+influxdb/
 prometheus/volume/

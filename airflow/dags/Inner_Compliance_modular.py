@@ -556,10 +556,6 @@ _auto_ansible = PythonOperator(
     python_callable=lib.teco_callelements.call_ansible,
     op_kwargs={
         'connection':'ansible_proxy',
-<<<<<<< HEAD
-=======
-        #'mock':False
->>>>>>> 1.4
         'mock':True
         },
     dag=dag)
