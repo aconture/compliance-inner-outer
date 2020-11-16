@@ -9,11 +9,14 @@ airflow/.ssh/
 airflow/.vscode-server/
 airflow/Inner/*.txt
 airflow/Inner/cu1/interfaces/*.txt
+airflow/reports/
 airflow/logs/
 airflow/dags/__pycache__
 airflow/dags/lib/__pycache__/
+airflow/dags/test/__pycache__/
 airflow/remote-key
 airflow/remote-key.pub
 airflow/unittests.cfg
 ansible/mejoras_cu1/yaml/artifacts
+ansible/mejoras_cu1/interfaces/*.txt
 prometheus/volume/
