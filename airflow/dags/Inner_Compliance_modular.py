@@ -3,6 +3,9 @@ from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.email_operator import EmailOperator
 from airflow.hooks import PostgresHook
+
+from teco_ansible.operators.tecoAnsibleOperator import tecoCallAnsible
+
 from time import sleep
 from datetime import datetime, timedelta
 import os
@@ -565,6 +568,20 @@ _auto_ansible = PythonOperator(
         },
     dag=dag)
 
+_auto_ansible_b = tecoCallAnsible(
+    task_id='ejec_ansible_operator', 
+    op_kwargs={
+        'pbook_dir':'/usr/local/ansible/mejoras_cu1/yaml',
+        'playbook':'main.yaml',
+        'init_output':'/usr/local/ansible/mejoras_cu1/interfaces/*.txt',
+        'inventory':'/usr/local/ansible/mejoras_cu1/inventario/inventory.reducido',
+        'mock':True,
+        'mock_source':'/usr/local/ansible/mejoras_cu1/interfaces_mock/*.txt',
+        'mock_dest':'/usr/local/ansible/mejoras_cu1/interfaces/'
+        },
+    dag=dag)
+
+
 _extrae_bd_NE = PythonOperator(
     task_id='trae_archivos', 
     python_callable=lib.teco_callelements.scp_files,
@@ -692,7 +709,7 @@ _envia_mail1 = EmailOperator(
 
 _extrae_bd_inventario >> _carga_inv_to_db >> _adecuar_naming_inv >> _init_reporting
 
-_auto_ansible >> _extrae_bd_NE >> _carga_ne_to_db >> _adecuar_naming_ne >> _init_reporting
+_auto_ansible >> _auto_ansible_b >> _extrae_bd_NE >> _carga_ne_to_db >> _adecuar_naming_ne >> _init_reporting
 
 _init_reporting >> _caso1 >> _imprime_reporte
 
