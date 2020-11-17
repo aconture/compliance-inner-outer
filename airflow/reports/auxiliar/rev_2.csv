@@ -1,4 +1,6 @@
 shelfNetworkRole,NE,shelfHardware,interface,Recurso,portBandwidth,EstadoRed,EstadoLisy,DescRed,DescLisy,EvEstado
+OUTER CORE,RSC1NA,Cisco-ASR-9922,Te0/11/0/0,RSC1NATe0/11/0/0,Te,down,Seems to be deleted,Enlace 10G DWDM SVD2MU_G4/1/0 (Linea:11004802) - UPLINK AGN,Enlace 10G DWDM SVD2MU_G4/1/0 (Linea:11004802) - UPLINK AGN,revisar_2
+OUTER CORE,RSC1NA,Cisco-ASR-9922,Te0/11/0/1,RSC1NATe0/11/0/1,Te,down,Seems to be deleted,Enlace 10G DWDM SVD2MU_G4/1/1 (Linea:11004803) - UPLINK AGN,Enlace 10G DWDM SVD2MU_G4/1/1 (Linea:11004803) - UPLINK AGN,revisar_2
 OUTER CORE,BEL1NA,Cisco-ASR-9922,Hu0/9/0/2,BEL1NAHu0/9/0/2,Hu,down,Seems to be deleted, ,NaN,revisar_2
 OUTER CORE,BEL1NA,Cisco-ASR-9922,Hu0/13/0/3,BEL1NAHu0/13/0/3,Hu,down,Seems to be deleted,Enlace 100G NN A GICOG Hu0/0/0/0 (Linea:9703141) - UPLINK BBIP,Enlace 100G NN A GICOG Hu0/0/0/0 (Linea:9703141) - UPLINK BBIP,revisar_2
 OUTER CORE,CTE1NA,Cisco-ASR-9922,Hu0/1/0/1,CTE1NAHu0/1/0/1,Hu,down,Seems to be deleted,Enlace 100G A CTEGGC1SA 3/1 (Linea:11002757) - UPLINK BBIP,Enlace 100G A CTEGGC1SA 3/1 (Linea:11002757) - UPLINK BBIP,revisar_2
@@ -25,5 +27,3 @@ OUTER CORE,MUN1NA,Cisco-ASR-9922,Te0/10/0/8,MUN1NATe0/10/0/8,Te,down,Seems to be
 OUTER CORE,MUS1NA,Cisco-ASR-9922,Te0/0/0/0,MUS1NATe0/0/0/0,Te,down,Seems to be deleted,Enlace 10G NN A SDE1MB Te0/1/0/0 (Linea:13001879) - UPLINK BBIP,Enlace 10G NN A SDE1MB Te0/1/0/0 (Linea:13001879) - UPLINK BBIP,revisar_2
 OUTER CORE,MUS1NA,Cisco-ASR-9922,Te0/0/0/1,MUS1NATe0/0/0/1,Te,down,Seems to be deleted,Enlace 10G NN A SDE1MB Te0/1/1/1 (Linea:13002755) - UPLINK BBIP,Enlace 10G NN A SDE1MB Te0/1/1/1 (Linea:13002755) - UPLINK BBIP,revisar_2
 OUTER CORE,RES1NA,Cisco-ASR-9922,Te0/0/0/2,RES1NATe0/0/0/2,Te,down,Seems to be deleted,Enlace 10G DWDM INC2MU_G (Linea:11004797) - UPLINK AGN,Enlace 10G DWDM INC2MU_G (Linea:11004797) - UPLINK AGN,revisar_2
-OUTER CORE,RSC1NA,Cisco-ASR-9922,Te0/11/0/0,RSC1NATe0/11/0/0,Te,down,Seems to be deleted,Enlace 10G DWDM SVD2MU_G4/1/0 (Linea:11004802) - UPLINK AGN,Enlace 10G DWDM SVD2MU_G4/1/0 (Linea:11004802) - UPLINK AGN,revisar_2
-OUTER CORE,RSC1NA,Cisco-ASR-9922,Te0/11/0/1,RSC1NATe0/11/0/1,Te,down,Seems to be deleted,Enlace 10G DWDM SVD2MU_G4/1/1 (Linea:11004803) - UPLINK AGN,Enlace 10G DWDM SVD2MU_G4/1/1 (Linea:11004803) - UPLINK AGN,revisar_2
