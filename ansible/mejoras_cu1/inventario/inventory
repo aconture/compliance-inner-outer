@@ -34,7 +34,5 @@ OC
 IC
 
 [EQUIPOS:vars]
-#ansible_password=c.H4rLY*Ec0
-#ansible_pasword=Pgolf1144
 ansible_password=c.H4rLY*Ec0
 ansible_user=x304372
