@@ -554,22 +554,8 @@ def Caso_inv_ne(**context):
 
 _extrae_bd_inventario = DummyOperator(task_id='Extrae_bd_inventario', retries=1, dag=dag)
 
-_auto_ansible = PythonOperator(
-    task_id='ejecuta_ansible', 
-    python_callable=lib.teco_callelements.call_ansible,
-    op_kwargs={
-        'pbook_dir':'/usr/local/ansible/mejoras_cu1/yaml',
-        'playbook':'main.yaml',
-        'init_output':'/usr/local/ansible/mejoras_cu1/interfaces/*.txt',
-        'inventory':'/usr/local/ansible/mejoras_cu1/inventario/inventory.reducido',
-        'mock':True,
-        'mock_source':'/usr/local/ansible/mejoras_cu1/interfaces_mock/*.txt',
-        'mock_dest':'/usr/local/ansible/mejoras_cu1/interfaces/'
-        },
-    dag=dag)
-
-_auto_ansible_b = tecoCallAnsible(
-    task_id='ejec_ansible_operator', 
+_auto_ansible = tecoCallAnsible(
+    task_id='exec_ansible', 
     op_kwargs={
         'pbook_dir':'/usr/local/ansible/mejoras_cu1/yaml',
         'playbook':'main.yaml',
@@ -709,7 +695,7 @@ _envia_mail1 = EmailOperator(
 
 _extrae_bd_inventario >> _carga_inv_to_db >> _adecuar_naming_inv >> _init_reporting
 
-_auto_ansible >> _auto_ansible_b >> _extrae_bd_NE >> _carga_ne_to_db >> _adecuar_naming_ne >> _init_reporting
+_auto_ansible >> _extrae_bd_NE >> _carga_ne_to_db >> _adecuar_naming_ne >> _init_reporting
 
 _init_reporting >> _caso1 >> _imprime_reporte
 
