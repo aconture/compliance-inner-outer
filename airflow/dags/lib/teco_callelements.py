@@ -52,6 +52,7 @@ def scp_files(**context):
             logging.info ('::: Inicializado el directorio local: {0}'.format(local_dir))
             
             logging.info ('::: Trayendo archivos del directorio ansible remoto:')
+            #uso os.popen para que me traiga el resultado del comando como string y poder mostrarlo con logging.info
             logging.info(os.popen('ls {0}'.format(remote_dir)).read())
             #os.system('sshpass -p {0} scp {1}@{2}:{3}*.txt {4}'.format(passw,user,host,remote_dir,local_dir))
             os.system('cp -p {0} {1}'.format(remote_dir,local_dir))
