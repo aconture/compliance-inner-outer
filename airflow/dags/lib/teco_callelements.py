@@ -23,11 +23,11 @@ def scp_files(**context):
         "user":"id del usuario existente en el ansible proxy"
         "pass":"pass del usuario en el ansible proxy"
       
-      local_dir [text]: path absoluto del directorio remoto.
+      dest_dir [text]: path absoluto del directorio destino.
         ej: '/usr/local/airflow/Inner/'
 
-      remote_dir [text]: path absoluto del directorio remoto.
-        ej: '/home/u123456/'
+      source_dir [text]: path absoluto origen de los archivos. 
+        ej: '/home/u123456/*.txt'
 
     Return:
       -1 si error
@@ -37,8 +37,8 @@ def scp_files(**context):
 
     try:
         conn_id = context['connection']
-        local_dir = context['local_dir']
-        remote_dir = context['remote_dir']
+        local_dir = context['dest_dir']
+        remote_dir = context['source_dir']
     except:
         logging.error ('\n\n:::! Error - Falta un argumento de llamada a esta funcion.\n')
         logging.error (manual)
@@ -49,12 +49,14 @@ def scp_files(**context):
     if (update):
         try:
             os.system('rm {}*.txt'.format(local_dir)) #Limpiamos directorio
-            logging.info ('::: Inicializado el directorio de *.txt local: {0}'.format(local_dir))
+            logging.info ('::: Inicializado el directorio local: {0}'.format(local_dir))
             
-            logging.info ('::: Trayendo archivos *.txt del directorio ansible remoto')
+            logging.info ('::: Trayendo archivos del directorio ansible remoto:')
+            logging.info(os.popen('ls {0}'.format(remote_dir)).read())
             #os.system('sshpass -p {0} scp {1}@{2}:{3}*.txt {4}'.format(passw,user,host,remote_dir,local_dir))
-            os.system('cp -p {0}*.txt {1}'.format(remote_dir,local_dir))
-            logging.info ('::: Archivos *.txt ansible copiados al directorio local')
+            os.system('cp -p {0} {1}'.format(remote_dir,local_dir))
+            logging.info ('::: Archivos ansible copiados al directorio local:')
+            logging.info(os.popen('ls -l {0}'.format(local_dir)).read())
         except:
             logging.error (':::! Problema en la conexión al servidor remoto.\n')
             return -1

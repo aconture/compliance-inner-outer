@@ -587,8 +587,8 @@ _extrae_bd_NE = PythonOperator(
     python_callable=lib.teco_callelements.scp_files,
     op_kwargs={
         'connection':'ansible_proxy',
-        'local_dir':'/usr/local/airflow/Inner/cu1/interfaces/',
-        'remote_dir':'/usr/local/ansible/mejoras_cu1/interfaces/'
+        'dest_dir':'/usr/local/airflow/Inner/cu1/interfaces/',
+        'source_dir':'/usr/local/ansible/mejoras_cu1/interfaces/*.txt'
         },
     dag=dag)
 
