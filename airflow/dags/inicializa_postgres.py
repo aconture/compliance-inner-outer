@@ -1,3 +1,9 @@
+"""
+Este DAG crea la estructura de las tablas para el compliance en la base de datos de postgres.
+Si las tablas existen se borran y crean nuevamente.
+Para la ejecución del DAG es necesario tener creada la conexión en Airflow prosgres_conn 
+"""
+
 from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
