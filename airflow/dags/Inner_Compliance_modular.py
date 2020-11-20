@@ -1,3 +1,21 @@
+"""
+Este DAG realiza el compliance de las interfaces de los equipos inner y outer
+contra el inventario.
+El archivo dump del inventario tiene que tener el nombre EthernetPortsByIpShelf.txt
+y se debe copiar en airflow\Inner\
+Los NE se declaran en el archivo inventory que está en el path 
+\ansible\mejoras_cu1\inventario\inventory
+El DAG tiene la posibilidad de no ir a los NE si la variable mock está en True.
+Como resultado del compliance se obtiene:
+- OK si coincide el estado de la interfaz en el NE e Inventario
+- OK_Reserva si la interfaz está UP en el NE y en reserva en el inventario
+- Revisar_1 si la interfaz está UP en el NE y en otro estado distinto a activo o en reserva 
+  en el inventario
+- Revisar_2 si la interfaz está DOWN en el NE y en otro estado distinto a activo o parece borrado 
+  en el inventario
+Estos resultados se envían por mail con un excel adjunto con el detalle del cruce.
+"""
+
 from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
