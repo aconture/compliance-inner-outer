@@ -1,8 +1,4 @@
-# docker exec -it <docker postgres> sh
-# psql -U airflow
-
-
-DROP TABLE par_inv_itf;
+DROP TABLE IF EXISTS par_inv_itf;
 
 CREATE TABLE public.par_inv_itf (
     shelfname character varying(50),
@@ -20,7 +16,7 @@ CREATE TABLE public.par_inv_itf (
 
 ALTER TABLE public.par_inv_itf OWNER TO airflow;
 
-DROP TABLE inv_itf;
+DROP TABLE IF EXISTS inv_itf;
 
 CREATE TABLE public.inv_itf (
     shelfname character varying(50),
@@ -38,7 +34,7 @@ CREATE TABLE public.inv_itf (
 ALTER TABLE public.inv_itf OWNER TO airflow;
 
 
-DROP TABLE ne;
+DROP TABLE IF EXISTS ne;
 
 CREATE TABLE public.ne (
     shelfname character varying(50),
@@ -53,7 +49,7 @@ CREATE TABLE public.ne (
 ALTER TABLE public.ne OWNER TO airflow;
 
 
-DROP TABLE core_history;
+DROP TABLE IF EXISTS core_history;
 
 CREATE TABLE public.core_history (
     ne character varying(30),
@@ -68,7 +64,7 @@ CREATE TABLE public.core_history (
 
 ALTER TABLE public.core_history OWNER TO airflow;
 
-DROP TABLE ansible_history;
+DROP TABLE IF EXISTS ansible_history;
 
 CREATE TABLE public.ansible_history (
     ne character varying(30)
