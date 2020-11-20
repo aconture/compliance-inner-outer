@@ -49,21 +49,6 @@ CREATE TABLE public.ne (
 ALTER TABLE public.ne OWNER TO airflow;
 
 
-DROP TABLE IF EXISTS core_history;
-
-CREATE TABLE public.core_history (
-    ne character varying(30),
-	ok integer,
-	ok_reserva integer,    
-	revisar integer,
-    n_a integer,
-	finv character varying(5),
-	fecha character varying(20)
-);
-
-
-ALTER TABLE public.core_history OWNER TO airflow;
-
 DROP TABLE IF EXISTS ansible_history;
 
 CREATE TABLE public.ansible_history (

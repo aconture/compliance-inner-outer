@@ -1,5 +1,5 @@
 """
-Este DAG crea la estructura de las tablas para el compliance en la base de datos de postgres.
+Este DAG crea la estructura de las tablas para el CU "Compliance_Inner_Outer" en la base de datos de postgres.
 Si las tablas existen se borran y crean nuevamente.
 Para la ejecución del DAG es necesario tener creada la conexión en Airflow prosgres_conn 
 """
@@ -13,7 +13,7 @@ from datetime import datetime, timedelta
 
 #arg
 default_args = {
-    'owner': 'Telecom in house Automation',
+    'owner': 'Compliance_Inner_Outer',
     'depends_on_past': False,
     'start_date': datetime(2020, 1, 1),
     'email': ['automation@teco.com.ar'],
@@ -28,7 +28,7 @@ default_args = {
 
 #dag
 dag = DAG(
-    dag_id='Inicaliza_Postgres', 
+    dag_id='InitDB_Compliance_Inner_Outer', 
     schedule_interval= None, 
     default_args=default_args
 )
