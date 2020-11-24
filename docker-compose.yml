@@ -232,8 +232,8 @@ services:
         image: telegraf
         container_name: telegraf
         restart: always
-        extra_hosts:
-            - "influxdb:127.0.0.1"
+        #extra_hosts:
+        #    - "influxdb:127.0.0.1"
         environment:
             HOST_PROC: /rootfs/proc
             HOST_SYS: /rootfs/sys
@@ -262,12 +262,12 @@ services:
 #          - $HOME/.ssh/id_rsa:/root/.ssh/id_rsa
 #          - ./mkdocs:/mkdocversion: '3'
 
-      sphinx:
+    sphinx:
         image: pardahlman/sphinx
         volumes:
           - ./docs:/docs
         ports:
-          - 8000:8000s
+          - 8000:8000
 
     web:
       image: nginx
