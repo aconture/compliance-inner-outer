@@ -13,7 +13,7 @@ from datetime import datetime
 
 def gen_excel(**context):
     
-    manual: """
+    """
 
     Esta funcion 
         -genera un archivo excel con el contenido de los 'n' archivos csv que lee en el directorio. Requiere que todos los archivos csv tengan los mismos campos.
@@ -115,7 +115,7 @@ def gen_excel(**context):
 
 def _cuerpo_mail():
     
-    manual: """
+    """
 
     Lee el resumen generado y almacenado en reports/auxiliar/ para usarlo en el cuerpo del mail de resultado de la operacion.
     

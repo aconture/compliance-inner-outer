@@ -9,7 +9,7 @@ import os
 
 def _insert_cursor(dataframe,tabla_postgres, lista_columnas):
     
-    manual = """
+    """
 
     Esta funcion inserta registros en la base postgres, usando un cursor.
     
@@ -41,7 +41,7 @@ def _insert_cursor(dataframe,tabla_postgres, lista_columnas):
 
 def _delete_cursor(sql_string):
     
-    manual = """
+    """
 
     Esta funcion borra registros en la base postgres, usando un cursor.
     
@@ -70,7 +70,7 @@ def _delete_cursor(sql_string):
 
 def Load_inv(**context):
     
-    manual = """
+    """
 
     Esta funcion carga los registros leidos del archivo indicado en la tarea, en la tabla de postgres indicada en la tarea.
     Previamente, inicializa la tabla indicada borrando todos sus registros.
@@ -180,7 +180,7 @@ def Load_inv(**context):
 
 def insert_ansible_failures(ansibleprintfailures):
 
-    manual = """ Insertar ansibleprintfailures en la tabla ansible_history """
+    """ Insertar ansibleprintfailures en la tabla ansible_history """
 
     pg_hook = PostgresHook(postgres_conn_id='postgres_conn', schema='airflow')
     conn = pg_hook.get_conn()
