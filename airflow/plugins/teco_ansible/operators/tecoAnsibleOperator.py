@@ -102,41 +102,45 @@ class tecoCallAnsible(BaseOperator):
                 for each_host_event in r.events:
                     print(each_host_event['event'])
                 print("Final status:")
-                print("====================================")
-                print("====================================")
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print (':::::::::::::::::::::::::SALIDA:::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
                 print("La salida de ansible es: ",r.stats)
 
-                print("====================================")
-                print("====================================")
-                print("====================================")
-                print("====================================")
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
                 
             except:
                 logging.error ('\n\n:::! Problema en la conexión a la Red.\n')
                 raise ValueError ('Error en la conexión a la Red')
-                print("====================================")
-                print("====================================")
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
                 print("La salida de ansible es: ",r.stats)  
                 return -1
 
             finally:
-                ansibleprint_raw = r.stats["failures"]
-                print ('ESTOY EJECUTANDO ANSIBLE::::::::::::::::::::::::::')
-                print ('EL ansibleprint_raw es ', ansibleprint_raw)
-                #LansibleProcessed = []
+                ansibleprint_raw_processed = r.stats["processed"]
+                ansibleprint_raw_failures = r.stats["failures"]
+                print ('Los procesados correctamente son: ', ansibleprint_raw_processed)
+                print ('Las fallas de ejecución son las siguientes: ', ansibleprint_raw_failures)               
+
                 LansibleFairlure = []
 
-                #for processedItem in ansibleprint_raw:
-                #    print (':::::::::::::::::::',processedItem)
-                #    if processedItem is None:
-                #        raise
+                if ansibleprint_raw_processed is None:
+                    logging.error ('\n\n:::! Por favor revisar inventario y conectividad de red !:::.\n')
+                    raise ValueError ('Error en la conexión a la Red')
+                else:
+                    for fairlureItem in ansibleprint_raw_failures:
+                        LansibleFairlure.append (fairlureItem)
+                    logging.info (':::Elementos fallados {0}'.format(LansibleFairlure))
+                    insert_ansible_failures(LansibleFairlure)
 
-                for fairlureItem in ansibleprint_raw:
-                    print ("Las fallas de ejecución son las siguientes: ")
-                    print (':::::::::::::::::::',fairlureItem)
-                    LansibleFairlure.append (fairlureItem)
-                logging.info (':::Elementos fallados {0}'.format(LansibleFairlure))
-                insert_ansible_failures(LansibleFairlure)
         else:
             logging.info (':::Base de datos de NE ya actualizada, no es necesario actualizar.')
 
