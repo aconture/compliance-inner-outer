@@ -9,5 +9,6 @@
     -Se acomodan los paths en el docker-compose.yml
     -Se acomoda permisos de escritura para el archivo telegraf.conf del docker telegraf
     -Se corrigen comentarios de las funciones
+    -Se corrige bug teco ansible para salidas en null. 
 
 

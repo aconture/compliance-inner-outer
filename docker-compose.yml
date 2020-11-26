@@ -223,8 +223,6 @@ services:
         image: telegraf
         container_name: telegraf
         restart: always
-        #extra_hosts:
-        #    - "influxdb:127.0.0.1"
         environment:
             HOST_PROC: /rootfs/proc
             HOST_SYS: /rootfs/sys

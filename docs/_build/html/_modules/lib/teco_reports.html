@@ -1,0 +1,359 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>lib.teco_reports &mdash; Automatizacion 1.5 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Automatizacion
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../docs_rst/modules.html">docs_py</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Automatizacion</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Module code</a> &raquo;</li>
+        
+      <li>lib.teco_reports</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for lib.teco_reports</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">openpyxl</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">lib.teco_db</span>
+<span class="kn">from</span> <span class="nn">airflow.hooks</span> <span class="k">import</span> <span class="n">PostgresHook</span>
+<span class="kn">from</span> <span class="nn">influxdb</span> <span class="k">import</span> <span class="n">InfluxDBClient</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">pprint</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="k">import</span> <span class="n">datetime</span>
+
+<span class="c1">#####################################################################</span>
+<span class="c1">#####################################################################</span>
+
+<div class="viewcode-block" id="gen_excel"><a class="viewcode-back" href="../../docs_rst/lib.html#lib.teco_reports.gen_excel">[docs]</a><span class="k">def</span> <span class="nf">gen_excel</span><span class="p">(</span><span class="o">**</span><span class="n">context</span><span class="p">):</span>
+    
+    <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">    Esta funcion </span>
+<span class="sd">        -genera un archivo excel con el contenido de los &#39;n&#39; archivos csv que lee en el directorio. Requiere que todos los archivos csv tengan los mismos campos.</span>
+<span class="sd">        Para que no repita el nombre de la solapa del excel, se debe invocar a la funcion init_report, que borra el excel que existe previamente.</span>
+
+<span class="sd">        -graba el resumen del resultado en una tabla historica en la base de datos.</span>
+<span class="sd">    </span>
+<span class="sd">    Args: </span>
+<span class="sd">      none</span>
+<span class="sd">    Returns:</span>
+<span class="sd">      none</span>
+<span class="sd">    </span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="nb">dir</span><span class="o">=</span><span class="n">context</span><span class="p">[</span><span class="s1">&#39;dir&#39;</span><span class="p">]</span>
+    <span class="c1">#archivos=os.listdir(os.path.join(os.getcwd(),dir,&#39;auxiliar&#39;))</span>
+    <span class="n">archivos</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">(),</span><span class="nb">dir</span><span class="p">,</span><span class="s1">&#39;auxiliar&#39;</span><span class="p">))</span> <span class="k">if</span> <span class="n">f</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;.csv&#39;</span><span class="p">)]</span>
+    
+    <span class="n">dataframe</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">nom_archivo</span> <span class="ow">in</span> <span class="n">archivos</span><span class="p">:</span>
+        <span class="n">abspath</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">(),</span><span class="nb">dir</span><span class="p">,</span><span class="s1">&#39;auxiliar&#39;</span><span class="p">,</span><span class="n">nom_archivo</span><span class="p">)</span>
+        <span class="n">dataframe_aux</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">abspath</span><span class="p">,</span><span class="n">delimiter</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
+        <span class="n">dataframe</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span> <span class="p">([</span><span class="n">dataframe</span><span class="p">,</span><span class="n">dataframe_aux</span><span class="p">],</span><span class="n">sort</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="c1">#sort=False para evitar un warning de Pandas</span>
+        <span class="c1">#dataframe.to_csv(&#39;reports/auxiliar/dump{0}.dump&#39;.format(nom_archivo), index=True)</span>
+        <span class="c1">#print (dataframe)</span>
+        
+ 
+    <span class="c1"># Generacion de la solapa Resumen</span>
+    <span class="n">data_resumen</span> <span class="o">=</span> <span class="n">dataframe</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span>
+		<span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;NE&#39;</span><span class="p">],</span>
+		<span class="n">columns</span><span class="o">=</span><span class="s1">&#39;EvEstado&#39;</span><span class="p">,</span>
+		<span class="n">aggfunc</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;EvEstado&#39;</span><span class="p">:</span><span class="s1">&#39;count&#39;</span><span class="p">},</span>
+		<span class="n">fill_value</span><span class="o">=</span><span class="mi">0</span>
+	<span class="p">)</span>    
+    <span class="n">data_resumen</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span>
+        <span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;NE&#39;</span><span class="p">],</span>
+        <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+        <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span>
+    <span class="p">)</span>
+
+    <span class="n">f_ejecucion</span><span class="o">=</span><span class="n">context</span><span class="p">[</span><span class="s1">&#39;ds&#39;</span><span class="p">]</span>
+
+    <span class="c1">#Convierto el pivot en dataframe y lo guardo en html para usarlo en el mail a enviar</span>
+    <span class="n">data_resumen_dataframe</span> <span class="o">=</span> <span class="n">data_resumen</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+    <span class="n">data_resumen_dataframe</span><span class="p">[</span><span class="s1">&#39;fecha&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">f_ejecucion</span>
+
+    <span class="n">data_resumen_dataframe</span><span class="o">.</span><span class="n">to_html</span><span class="p">(</span><span class="s1">&#39;/usr/local/airflow/reports/auxiliar/resumen.html&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="n">archivo_rep</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">(),</span><span class="nb">dir</span><span class="p">,</span><span class="s1">&#39;reporte.xlsx&#39;</span><span class="p">)</span>        
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">with</span> <span class="n">pd</span><span class="o">.</span><span class="n">ExcelWriter</span><span class="p">(</span><span class="n">archivo_rep</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;a&#39;</span><span class="p">,</span><span class="n">engine</span><span class="o">=</span><span class="s1">&#39;openpyxl&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8-sig&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">escritor</span><span class="p">:</span>
+            <span class="n">data_resumen</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="n">escritor</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s1">&#39;resumen&#39;</span><span class="p">)</span>
+            <span class="n">dataframe</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="n">escritor</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s1">&#39;crudo&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
+        <span class="k">with</span> <span class="n">pd</span><span class="o">.</span><span class="n">ExcelWriter</span><span class="p">(</span><span class="n">archivo_rep</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;n&#39;</span><span class="p">,</span><span class="n">engine</span><span class="o">=</span><span class="s1">&#39;openpyxl&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8-sig&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">escritor</span><span class="p">:</span>
+            <span class="n">data_resumen</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="n">escritor</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s1">&#39;resumen&#39;</span><span class="p">)</span>
+            <span class="n">dataframe</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="n">escritor</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s1">&#39;crudo&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="k">finally</span><span class="p">:</span>
+        <span class="n">escritor</span><span class="o">.</span><span class="n">save</span>
+
+    <span class="c1">#################################################################################</span>
+    <span class="c1">########## INI INFLUX</span>
+
+    <span class="c1">#genero el dataframe para escribir en la base INFLUX, tomo como base el df</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">dataframe</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;NE&#39;</span><span class="p">,</span> <span class="s1">&#39;EvEstado&#39;</span><span class="p">])[</span><span class="s1">&#39;EvEstado&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>        
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;cantidad&#39;</span><span class="p">)</span>
+
+    <span class="nb">print</span> <span class="p">(</span><span class="n">df</span><span class="p">)</span>
+
+    <span class="n">data</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">idx</span> <span class="ow">in</span> <span class="nb">range</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)):</span>
+        <span class="c1">#print(df[&#39;NE&#39;][idx])</span>
+        <span class="n">tags</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;ne&quot;</span><span class="p">:</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;NE&#39;</span><span class="p">][</span><span class="n">idx</span><span class="p">]),</span>
+            <span class="s2">&quot;EvEstado&quot;</span> <span class="p">:</span> <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;EvEstado&#39;</span><span class="p">][</span><span class="n">idx</span><span class="p">])</span>
+        <span class="p">}</span>
+        <span class="n">fields</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;cantidad&quot;</span><span class="p">:(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;cantidad&#39;</span><span class="p">][</span><span class="n">idx</span><span class="p">])</span>
+        <span class="p">}</span>
+
+        <span class="n">body</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;measurement&quot;</span><span class="p">:</span> <span class="s2">&quot;core_history&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;tags&quot;</span><span class="p">:</span> <span class="n">tags</span><span class="p">,</span>
+            <span class="s2">&quot;time&quot;</span><span class="p">:</span> <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%m/</span><span class="si">%d</span><span class="s1">/%Y %H:%M:%S&#39;</span><span class="p">)),</span><span class="c1">#el formato m-d-Y influy lo transforma en Y-m-d</span>
+            <span class="s2">&quot;fields&quot;</span><span class="p">:</span> <span class="n">fields</span>
+        <span class="p">}</span>
+        <span class="n">data</span><span class="o">.</span><span class="n">append</span> <span class="p">(</span><span class="n">body</span><span class="p">)</span>
+        
+    <span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+    <span class="n">client</span> <span class="o">=</span> <span class="n">InfluxDBClient</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s1">&#39;influxdb&#39;</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">8086</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="s1">&#39;admin&#39;</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">&#39;Welcome1&#39;</span><span class="p">)</span>
+    <span class="n">client</span><span class="o">.</span><span class="n">switch_database</span><span class="p">(</span><span class="s1">&#39;influx_airflow&#39;</span><span class="p">)</span>
+    <span class="n">client</span><span class="o">.</span><span class="n">write_points</span><span class="p">(</span><span class="n">data</span><span class="p">)</span></div>
+
+
+<span class="c1">#####################################################################</span>
+<span class="c1">#####################################################################</span>
+
+<span class="k">def</span> <span class="nf">_cuerpo_mail</span><span class="p">():</span>
+    
+    <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">    Lee el resumen generado y almacenado en reports/auxiliar/ para usarlo en el cuerpo del mail de resultado de la operacion.</span>
+<span class="sd">    </span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/usr/local/airflow/reports/auxiliar/resumen.html&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">html_string</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">close</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">html_string</span><span class="p">)</span>
+
+<span class="c1">#####################################################################</span>
+<span class="c1">#####################################################################</span>
+
+<div class="viewcode-block" id="init_report"><a class="viewcode-back" href="../../docs_rst/lib.html#lib.teco_reports.init_report">[docs]</a><span class="k">def</span> <span class="nf">init_report</span><span class="p">(</span><span class="o">**</span><span class="n">context</span><span class="p">):</span>
+    <span class="kn">import</span> <span class="nn">os</span>
+    <span class="nb">dir</span><span class="o">=</span><span class="n">context</span><span class="p">[</span><span class="s1">&#39;dir&#39;</span><span class="p">]</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;reports/reporte.xlsx&#39;</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
+        <span class="k">pass</span></div>
+
+<span class="c1">#####################################################################</span>
+<span class="c1">#####################################################################</span>
+
+<span class="k">def</span> <span class="nf">_format_reporte_compliance</span><span class="p">(</span><span class="n">dataframe</span><span class="p">):</span>
+    <span class="n">dataframe</span> <span class="o">=</span> <span class="n">dataframe</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span>
+      <span class="s1">&#39;portoperationalstate_x&#39;</span><span class="p">:</span><span class="s1">&#39;EstadoRed&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;portoperationalstate_y&#39;</span><span class="p">:</span> <span class="s1">&#39;EstadoLisy&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;info1&#39;</span><span class="p">:</span><span class="s1">&#39;DescRed&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;portinfo1&#39;</span><span class="p">:</span><span class="s1">&#39;DescLisy&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;shelfname_x&#39;</span><span class="p">:</span><span class="s1">&#39;NE&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;concat&#39;</span><span class="p">:</span><span class="s1">&#39;Recurso&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;shelfhardware&#39;</span><span class="p">:</span><span class="s1">&#39;shelfHardware&#39;</span><span class="p">,</span> <span class="c1">#en la bd de postgres esta en minuscula, y en el dump tiene una mayuscula</span>
+      <span class="s1">&#39;shelfnetworkrole&#39;</span><span class="p">:</span><span class="s1">&#39;shelfNetworkRole&#39;</span><span class="p">,</span> <span class="c1">#en la bd de postgres esta en minuscula, y en el dump tiene una mayuscula</span>
+      <span class="s1">&#39;portbandwidth&#39;</span><span class="p">:</span><span class="s1">&#39;portBandwidth&#39;</span>
+      <span class="p">})</span>
+    
+    <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;En el formateo:&#39;</span><span class="p">,</span><span class="n">dataframe</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+
+    <span class="n">dataframe</span> <span class="o">=</span> <span class="n">dataframe</span> <span class="p">[[</span>
+      <span class="s1">&#39;shelfNetworkRole&#39;</span><span class="p">,</span> <span class="c1">#tomado de Lisy</span>
+      <span class="s1">&#39;NE&#39;</span><span class="p">,</span> <span class="c1">#tomado del NE</span>
+      <span class="s1">&#39;shelfHardware&#39;</span><span class="p">,</span> <span class="c1">#tomado de Lisy</span>
+      <span class="s1">&#39;interface&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;Recurso&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;portBandwidth&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;EstadoRed&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;EstadoLisy&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;DescRed&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;DescLisy&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;EvEstado&#39;</span>
+    <span class="p">]]</span>
+    <span class="k">return</span><span class="p">(</span><span class="n">dataframe</span><span class="p">)</span>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, AT
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

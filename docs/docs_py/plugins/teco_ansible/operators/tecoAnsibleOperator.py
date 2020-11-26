@@ -123,16 +123,9 @@ class tecoCallAnsible(BaseOperator):
                 ansibleprint_raw = r.stats["failures"]
                 print ('ESTOY EJECUTANDO ANSIBLE::::::::::::::::::::::::::')
                 print ('EL ansibleprint_raw es ', ansibleprint_raw)
-                #LansibleProcessed = []
                 LansibleFairlure = []
 
-                #for processedItem in ansibleprint_raw:
-                #    print (':::::::::::::::::::',processedItem)
-                #    if processedItem is None:
-                #        raise
-
                 for fairlureItem in ansibleprint_raw:
-                    print ("Las fallas de ejecución son las siguientes: ")
                     print (':::::::::::::::::::',fairlureItem)
                     LansibleFairlure.append (fairlureItem)
                 logging.info (':::Elementos fallados {0}'.format(LansibleFairlure))
