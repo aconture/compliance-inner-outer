@@ -29,7 +29,7 @@ services:
         #image: apache/airflow:1.10.12-python3.7
         build:
             context: .
-            dockerfile: webserver/Dockerfile
+            dockerfile: dockerfiles/webserver/Dockerfile
         restart: always
         depends_on:
             - postgres
@@ -88,7 +88,7 @@ services:
         #image: apache/airflow:1.10.12-python3.7
         build:
             context: .
-            dockerfile: webserver/Dockerfile
+            dockerfile: dockerfiles/scheduler/Dockerfile
         restart: always
         depends_on:
             - statsd-exporter
@@ -137,22 +137,13 @@ services:
             - AIRFLOW__CORE__LOAD_EXAMPLES=False
             - AIRFLOW__CORE__LOAD_DEFAULT_CONNECTIONS=False
         command: bash -c "sleep 30 && airflow scheduler"
-        #command: bash -c -u root "apt-get update -yqq && apt-get upgrade -yqq"
-        #command: bash -c -u root "apt-get install -yqq --no-install-recommends iputils-ping openssh-server sshpass"
-        #command: bash -c -u root "apt-get purge --auto-remove -yqq $buildDeps && apt-get autoremove -yqq --purge && apt-get clean"
-        #command: bash -c -u root "pip install --upgrade pip"
-        #command: bash -c -u root "pip install ansible==2.9.11"
-        #command: bash -c -u root "pip install ansible-runner==1.4.6"
-        #command: bash -c -u root "pip install bottle==0.12.18 && pip install openpyxl==3.0.3"
-        #command: bash -c -u root "mkdir /etc/ansible && chmod +755 /etc/ansible"
-        #command: bash -c -u root "mkdir /etc/ansible && chmod +755 /etc/ansible"
 
     worker:
         container_name: airflow-worker
         #image: apache/airflow:1.10.12-python3.7
         build:
             context: .
-            dockerfile: webserver/Dockerfile
+            dockerfile: dockerfiles/webserver/Dockerfile
         restart: always
         depends_on:
             - statsd-exporter
@@ -232,18 +223,16 @@ services:
         image: telegraf
         container_name: telegraf
         restart: always
-        #extra_hosts:
-        #    - "influxdb:127.0.0.1"
         environment:
             HOST_PROC: /rootfs/proc
             HOST_SYS: /rootfs/sys
             HOST_ETC: /rootfs/etc
         volumes:
-            - ./telegraf.conf:/etc/telegraf/telegraf.conf:ro
-            - /var/run/docker.sock:/var/run/docker.sock:ro
-            - /sys:/rootfs/sys:ro
-            - /proc:/rootfs/proc:ro
-            - /etc:/rootfs/etc:ro
+            - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:rw
+            - /var/run/docker.sock:/var/run/docker.sock:rw
+            - /sys:/rootfs/sys:rw
+            - /proc:/rootfs/proc:rw
+            - /etc:/rootfs/etc:rw
 
 #    mkdocs:
 #        container_name: mkdocs

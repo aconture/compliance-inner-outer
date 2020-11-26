@@ -1,19 +1,12 @@
 from airflow.exceptions import AirflowException
 from airflow.operators import BaseOperator
 from airflow.utils.decorators import apply_defaults
-
-#my hook
-#from teco_ansible.hooks.teco_ansible_hook import AnsibleHook
-
-#my libs
 from lib.teco_db import *
-
 import logging
 import ansible_runner
 import os
-#from datetime import datetime
 
-#class LisyQueryRelationsOperator(BaseOperator):
+
 class tecoCallAnsible(BaseOperator):
     """
     Ejecuta ansible en el directorio remoto. 
@@ -79,9 +72,6 @@ class tecoCallAnsible(BaseOperator):
 
     def execute(self, **context):
         if self.mock:
-            # print ('\n\n')
-            # print (context)
-            # print ('\n\n')
             try:
                 os.system ('rm {0}'.format(self.init_output))
                 os.system ('cp -p {0} {1}'.format(self.mock_source, self.mock_dest))
@@ -133,8 +123,16 @@ class tecoCallAnsible(BaseOperator):
                 ansibleprint_raw = r.stats["failures"]
                 print ('ESTOY EJECUTANDO ANSIBLE::::::::::::::::::::::::::')
                 print ('EL ansibleprint_raw es ', ansibleprint_raw)
+                #LansibleProcessed = []
                 LansibleFairlure = []
+
+                #for processedItem in ansibleprint_raw:
+                #    print (':::::::::::::::::::',processedItem)
+                #    if processedItem is None:
+                #        raise
+
                 for fairlureItem in ansibleprint_raw:
+                    print ("Las fallas de ejecución son las siguientes: ")
                     print (':::::::::::::::::::',fairlureItem)
                     LansibleFairlure.append (fairlureItem)
                 logging.info (':::Elementos fallados {0}'.format(LansibleFairlure))
@@ -144,7 +142,9 @@ class tecoCallAnsible(BaseOperator):
 
 
     def _check_vigencia(self):
+        
         """
+        
         Chequea si el directorio esta actualizado. 
 
         args:
@@ -158,3 +158,4 @@ class tecoCallAnsible(BaseOperator):
         """        
         
         return True
+

@@ -15,7 +15,7 @@ from lib.teco_db import *
 
 def scp_files(**context):
     
-    manual = """
+    """
 
     Args: 
       connection [text]: id de la conexion creada en airflow (Admin->Connections), donde:
@@ -65,6 +65,8 @@ def scp_files(**context):
 
 #####################################################################
 #####################################################################
+
+## Codigo deprecado. Se combirtió a hook toda la función ##
 
 # def call_ansible(**context):
 
@@ -210,7 +212,8 @@ def scp_files(**context):
 
 def _check_vigencia(**context):
     
-    manual = """
+    """
+
     Chequea si el directorio esta actualizado. 
 
     args:
