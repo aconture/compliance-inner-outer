@@ -18,7 +18,3 @@ ansible_network_os=iosxr
 [EQUIPOS:children]
 IC
 OC
-
-#[EQUIPOS:vars]
-#ansible_password=c.H4rLY*Ec0
-#ansible_user=x304372

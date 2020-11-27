@@ -31,6 +31,3 @@ ansible_network_os=ce
 [EQUIPOS:children]
 OC
 IC
-
-[EQUIPOS:vars]
-ansible_password=FECO_ingelec02
