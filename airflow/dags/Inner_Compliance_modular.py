@@ -586,6 +586,7 @@ _auto_ansible = tecoCallAnsible(
     op_kwargs={
         'pbook_dir':'/usr/local/ansible/mejoras_cu1/yaml',
         'playbook':'main.yaml',
+        'connection':'credenciales_equipos',
         'init_output':'/usr/local/ansible/mejoras_cu1/interfaces/*.txt',
         'inventory':'/usr/local/ansible/mejoras_cu1/inventario/inventory.reducido',
         #'mock':True,

@@ -1,6 +1,7 @@
 from airflow.exceptions import AirflowException
 from airflow.operators import BaseOperator
 from airflow.utils.decorators import apply_defaults
+from airflow.hooks.base_hook import BaseHook
 from lib.teco_db import *
 import logging
 import ansible_runner
@@ -18,6 +19,9 @@ class tecoCallAnsible(BaseOperator):
 
         playbook: [Text]
             El nombre del playbook a ejecutar.
+
+        connection: [Text]
+            El nombre de la conexion de airflow desde donde se obtienen las credenciales
         
         [inventory]: [text]
             Inventario a utilizar.
@@ -49,8 +53,13 @@ class tecoCallAnsible(BaseOperator):
         super(tecoCallAnsible, self).__init__(*args, **context)
         
         try: #parametros obligatorios
+            conn=context['op_kwargs']['connection']
             self.pbook_dir = context['op_kwargs']['pbook_dir']
             self.playbook = context['op_kwargs']['playbook']
+            self.extravars = dict(
+                ansible_user=BaseHook.get_connection(conn).login,
+                ansible_password=BaseHook.get_connection(conn).password)
+
         except:
             logging.error ('\n\n:::! Error - Falta un argumento de llamada a esta funcion.')
             #logging.error (manual)
@@ -92,11 +101,10 @@ class tecoCallAnsible(BaseOperator):
                     os.system ('rm {0}'.format(self.init_output))
                 except:
                     pass
-
                 try:
-                    r = ansible_runner.run(private_data_dir=self.pbook_dir, playbook=self.playbook, inventory=self.inventory)
+                    r = ansible_runner.run(private_data_dir=self.pbook_dir, playbook=self.playbook, inventory=self.inventory, extravars=self.extravars)
                 except:
-                    r = ansible_runner.run(private_data_dir=self.pbook_dir, playbook=self.playbook)
+                    r = ansible_runner.run(private_data_dir=self.pbook_dir, playbook=self.playbook, extravars=self.extravars)
                 print("{}: {}".format(r.status, r.rc))
                 # successful: 0
                 for each_host_event in r.events:
