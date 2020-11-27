@@ -19,6 +19,6 @@ ansible_network_os=iosxr
 IC
 OC
 
-[EQUIPOS:vars]
-ansible_password=c.H4rLY*Ec0
-ansible_user=x304372
+#[EQUIPOS:vars]
+#ansible_password=c.H4rLY*Ec0
+#ansible_user=x304372

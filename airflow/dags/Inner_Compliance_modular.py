@@ -21,6 +21,7 @@ from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.email_operator import EmailOperator
 from airflow.hooks import PostgresHook
+from airflow.hooks.base_hook import BaseHook
 
 from teco_ansible.operators.tecoAnsibleOperator import tecoCallAnsible
 
@@ -586,6 +587,8 @@ _auto_ansible = tecoCallAnsible(
     op_kwargs={
         'pbook_dir':'/usr/local/ansible/mejoras_cu1/yaml',
         'playbook':'main.yaml',
+        'user':'{0}'.format(BaseHook.get_connection('credenciales_equipos').login),
+        'pass':'{0}'.format(BaseHook.get_connection('credenciales_equipos').password),
         'init_output':'/usr/local/ansible/mejoras_cu1/interfaces/*.txt',
         'inventory':'/usr/local/ansible/mejoras_cu1/inventario/inventory.reducido',
         #'mock':True,

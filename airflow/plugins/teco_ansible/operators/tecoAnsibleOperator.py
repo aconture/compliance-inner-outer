@@ -51,6 +51,7 @@ class tecoCallAnsible(BaseOperator):
         try: #parametros obligatorios
             self.pbook_dir = context['op_kwargs']['pbook_dir']
             self.playbook = context['op_kwargs']['playbook']
+            self.envvars = dict(ansible_user=context['op_kwargs']['user'], ansible_password=context['op_kwargs']['pass'])
         except:
             logging.error ('\n\n:::! Error - Falta un argumento de llamada a esta funcion.')
             #logging.error (manual)
@@ -94,7 +95,8 @@ class tecoCallAnsible(BaseOperator):
                     pass
 
                 try:
-                    r = ansible_runner.run(private_data_dir=self.pbook_dir, playbook=self.playbook, inventory=self.inventory)
+                    r = ansible_runner.run(private_data_dir=self.pbook_dir, playbook=self.playbook, inventory=self.inventory, extravars=self.envvars)
+                    print(self.envvars)
                 except:
                     r = ansible_runner.run(private_data_dir=self.pbook_dir, playbook=self.playbook)
                 print("{}: {}".format(r.status, r.rc))
