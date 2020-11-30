@@ -14,12 +14,16 @@ airflow/logs/
 airflow/dags/__pycache__
 airflow/dags/lib/__pycache__/
 airflow/dags/test/__pycache__/
+airflow/dags/inventario/__pycache__/
 airflow/remote-key
 airflow/remote-key.pub
 airflow/unittests.cfg
 airflow/plugins/teco_ansible/__pycache__/
 airflow/plugins/teco_ansible/hooks/__pycache__/
 airflow/plugins/teco_ansible/operators/__pycache__/
+airflow/plugins/lisy_plugin/__pycache__/
+airflow/plugins/lisy_plugin/hooks/__pycache__/
+airflow/plugins/lisy_plugin/operators/__pycache__/
 ansible/mejoras_cu1/yaml/artifacts
 ansible/mejoras_cu1/interfaces/*.txt
 influxdb/

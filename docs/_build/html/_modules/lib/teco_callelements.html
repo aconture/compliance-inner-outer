@@ -1,0 +1,428 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>lib.teco_callelements &mdash; Automatizacion 1.5 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Automatizacion
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../docs_rst/modules.html">docs_py</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Automatizacion</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Module code</a> &raquo;</li>
+        
+      <li>lib.teco_callelements</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for lib.teco_callelements</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">airflow.hooks.base_hook</span> <span class="k">import</span> <span class="n">BaseHook</span>
+<span class="kn">from</span> <span class="nn">airflow.hooks</span> <span class="k">import</span> <span class="n">PostgresHook</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">from</span> <span class="nn">time</span> <span class="k">import</span> <span class="n">sleep</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="k">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">ansible_runner</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">lib.teco_db</span> <span class="k">import</span> <span class="o">*</span>
+
+
+<span class="c1">#####################################################################</span>
+<span class="c1">#####################################################################</span>
+
+<div class="viewcode-block" id="scp_files"><a class="viewcode-back" href="../../docs_rst/lib.html#lib.teco_callelements.scp_files">[docs]</a><span class="k">def</span> <span class="nf">scp_files</span><span class="p">(</span><span class="o">**</span><span class="n">context</span><span class="p">):</span>
+    
+    <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">    Args: </span>
+<span class="sd">      connection [text]: id de la conexion creada en airflow (Admin-&gt;Connections), donde:</span>
+<span class="sd">        &quot;host&quot;:&quot;ip o hostname del ansible proxy&quot;</span>
+<span class="sd">        &quot;user&quot;:&quot;id del usuario existente en el ansible proxy&quot;</span>
+<span class="sd">        &quot;pass&quot;:&quot;pass del usuario en el ansible proxy&quot;</span>
+<span class="sd">      </span>
+<span class="sd">      dest_dir [text]: path absoluto del directorio destino.</span>
+<span class="sd">        ej: &#39;/usr/local/airflow/Inner/&#39;</span>
+
+<span class="sd">      source_dir [text]: path absoluto origen de los archivos. </span>
+<span class="sd">        ej: &#39;/home/u123456/*.txt&#39;</span>
+
+<span class="sd">    Return:</span>
+<span class="sd">      -1 si error</span>
+<span class="sd">      none si exitoso</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">conn_id</span> <span class="o">=</span> <span class="n">context</span><span class="p">[</span><span class="s1">&#39;connection&#39;</span><span class="p">]</span>
+        <span class="n">local_dir</span> <span class="o">=</span> <span class="n">context</span><span class="p">[</span><span class="s1">&#39;dest_dir&#39;</span><span class="p">]</span>
+        <span class="n">remote_dir</span> <span class="o">=</span> <span class="n">context</span><span class="p">[</span><span class="s1">&#39;source_dir&#39;</span><span class="p">]</span>
+    <span class="k">except</span><span class="p">:</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">error</span> <span class="p">(</span><span class="s1">&#39;</span><span class="se">\n\n</span><span class="s1">:::! Error - Falta un argumento de llamada a esta funcion.</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">error</span> <span class="p">(</span><span class="n">manual</span><span class="p">)</span>
+        <span class="k">return</span> <span class="o">-</span><span class="mi">1</span>
+
+    <span class="n">update</span> <span class="o">=</span> <span class="n">_check_vigencia</span> <span class="p">(</span><span class="o">**</span><span class="n">context</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">update</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">&#39;rm </span><span class="si">{}</span><span class="s1">*.txt&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">local_dir</span><span class="p">))</span> <span class="c1">#Limpiamos directorio</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">info</span> <span class="p">(</span><span class="s1">&#39;::: Inicializado el directorio local: </span><span class="si">{0}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">local_dir</span><span class="p">))</span>
+            
+            <span class="n">logging</span><span class="o">.</span><span class="n">info</span> <span class="p">(</span><span class="s1">&#39;::: Trayendo archivos del directorio ansible remoto:&#39;</span><span class="p">)</span>
+            <span class="c1">#uso os.popen para que me traiga el resultado del comando como string y poder mostrarlo con logging.info</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">popen</span><span class="p">(</span><span class="s1">&#39;ls </span><span class="si">{0}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">remote_dir</span><span class="p">))</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
+            <span class="c1">#os.system(&#39;sshpass -p {0} scp {1}@{2}:{3}*.txt {4}&#39;.format(passw,user,host,remote_dir,local_dir))</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">&#39;cp -p </span><span class="si">{0}</span><span class="s1"> </span><span class="si">{1}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">remote_dir</span><span class="p">,</span><span class="n">local_dir</span><span class="p">))</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">info</span> <span class="p">(</span><span class="s1">&#39;::: Archivos ansible copiados al directorio local:&#39;</span><span class="p">)</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">popen</span><span class="p">(</span><span class="s1">&#39;ls -l </span><span class="si">{0}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">local_dir</span><span class="p">))</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">error</span> <span class="p">(</span><span class="s1">&#39;:::! Problema en la conexión al servidor remoto.</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="o">-</span><span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">info</span> <span class="p">(</span><span class="s1">&#39;:::Base de datos de NE ya actualizada, no es necesario copiar.&#39;</span><span class="p">)</span></div>
+
+<span class="c1">#####################################################################</span>
+<span class="c1">#####################################################################</span>
+
+<span class="c1">## Codigo deprecado. Se combirtió a hook toda la función ##</span>
+
+<span class="c1"># def call_ansible(**context):</span>
+
+<span class="c1">#     print (&#39;:::ATENCION::: En breve dejaremos de usar esta funcion, y la reflejaremos en un operador.&#39;)</span>
+
+<span class="c1">#     manual = &quot;&quot;&quot;</span>
+
+<span class="c1">#     Ejecuta ansible en el directorio remoto. </span>
+<span class="c1">#     Si el directorio que contiene el resultado de ansible tiene la fecha actual, no se ejecuta ansible.</span>
+
+<span class="c1">#     Args: </span>
+<span class="c1">#         pbook_dir: [Text]</span>
+<span class="c1">#             El directorio donde esta ubicado el plabook a ejecutar.</span>
+
+<span class="c1">#         playbook: [Text]</span>
+<span class="c1">#             El nombre del playbook a ejecutar.</span>
+        
+<span class="c1">#         [inventory]: [text]</span>
+<span class="c1">#             Inventario a utilizar.</span>
+<span class="c1">#             Sobreescribe el inventario configurado en el script de ansible.</span>
+
+<span class="c1">#         [init_output]: [text]</span>
+<span class="c1">#             El path que se necesita limpiar antes de la ejecucion del playbook. Soporta wildcard (ej: *.txt).</span>
+
+<span class="c1">#         [mock]: [True (default) | False]</span>
+<span class="c1">#             Evita ejecutar el playbook de ansible, usando datos mockeados.</span>
+<span class="c1">#                 True: usa información de NEs mockeada.</span>
+<span class="c1">#                 False: funcionamiento normal: ejecuta ansible para consultar la info en los NE</span>
+
+<span class="c1">#         [mock_source]: [Text]</span>
+<span class="c1">#             La ubicación de los archivos que contienen la información para realizar el mock. </span>
+<span class="c1">#             Soporta wildcard (ej: *.txt)</span>
+
+<span class="c1">#         [mock_dest]: [Text]</span>
+<span class="c1">#             El directorio de destino de los archivos que contienen la información para realizar el mock. </span>
+<span class="c1">#             Es el directorio de trabajo de donde toma la información el caso de uso.</span>
+
+<span class="c1">#     &quot;&quot;&quot;</span>
+    
+<span class="c1">#     try:</span>
+<span class="c1">#         pbook_dir = context[&#39;pbook_dir&#39;]</span>
+<span class="c1">#         playbook = context[&#39;playbook&#39;]</span>
+<span class="c1">#     except:</span>
+<span class="c1">#         logging.error (&#39;\n\n:::! Error - Falta un argumento de llamada a esta funcion.&#39;)</span>
+<span class="c1">#         logging.error (manual)</span>
+<span class="c1">#         return -1</span>
+
+<span class="c1">#     try:</span>
+<span class="c1">#         mock = context[&#39;mock&#39;]</span>
+<span class="c1">#     except:</span>
+<span class="c1">#         mock = True</span>
+
+<span class="c1">#     if mock:</span>
+<span class="c1">#         #os.system (&#39;rm /usr/local/ansible/mejoras_cu1/interfaces/*.txt; cp -p /usr/local/ansible/mejoras_cu1/interfaces_mock/*.txt /usr/local/ansible/mejoras_cu1/interfaces/&#39;)</span>
+<span class="c1">#         try:</span>
+<span class="c1">#             init_output = context[&#39;init_output&#39;]</span>
+<span class="c1">#             mock_source = context[&#39;mock_source&#39;]</span>
+<span class="c1">#             mock_dest = context[&#39;mock_dest&#39;]</span>
+<span class="c1">#             os.system (&#39;rm {0}&#39;.format(init_output))</span>
+<span class="c1">#             os.system (&#39;cp -p {0} {1}&#39;.format(mock_source, mock_dest))</span>
+<span class="c1">#             logging.info (&#39;\n\n:::Salimos por mockeo...\n\n&#39;)</span>
+<span class="c1">#         except:</span>
+<span class="c1">#             logging.error (&#39;Error al recuperar o ejecutar un parametro de mockeo. Ver manual:\n {0}&#39;.format(manual))</span>
+<span class="c1">#             raise ValueError (&#39;Error en mockeo&#39;)</span>
+<span class="c1">#         #os.system (&#39;cp -p /usr/local/ansible/mejoras_cu1/interfaces_mock/*.txt /usr/local/ansible/mejoras_cu1/interfaces/&#39;)</span>
+
+<span class="c1">#         return</span>
+
+<span class="c1">#     update = _check_vigencia (**context)</span>
+<span class="c1">#     if (update):</span>
+<span class="c1">#         logging.info (&#39;:::La base de Network Element tiene fecha en el pasado. Ejecutando Ansible para actualizar.&#39;)</span>
+<span class="c1">#         try:</span>
+<span class="c1">#             #os.system (&#39;rm /usr/local/ansible/mejoras_cu1/interfaces/*.txt; cd /usr/local/ansible/mejoras_cu1/yaml; ansible-playbook main.yaml&#39;)</span>
+<span class="c1">#             try:</span>
+<span class="c1">#                 init_output = context[&#39;init_output&#39;]</span>
+<span class="c1">#                 os.system (&#39;rm {0}&#39;.format(init_output))</span>
+<span class="c1">#             except:</span>
+<span class="c1">#                 pass</span>
+
+<span class="c1">#             try:</span>
+<span class="c1">#                 inventory = context[&#39;inventory&#39;]</span>
+<span class="c1">#                 r = ansible_runner.run(private_data_dir=pbook_dir, playbook=playbook, inventory=inventory)</span>
+<span class="c1">#             except:</span>
+<span class="c1">#                 r = ansible_runner.run(private_data_dir=pbook_dir, playbook=playbook)</span>
+
+<span class="c1">#             print(&quot;{}: {}&quot;.format(r.status, r.rc))</span>
+<span class="c1">#             # successful: 0</span>
+<span class="c1">#             for each_host_event in r.events:</span>
+<span class="c1">#                 print(each_host_event[&#39;event&#39;])</span>
+<span class="c1">#             print(&quot;Final status:&quot;)</span>
+<span class="c1">#             print(&quot;====================================&quot;)</span>
+<span class="c1">#             print(&quot;====================================&quot;)</span>
+<span class="c1">#             print(&quot;La salida de ansible es: &quot;,r.stats)</span>
+
+<span class="c1">#             print(&quot;====================================&quot;)</span>
+<span class="c1">#             print(&quot;====================================&quot;)</span>
+<span class="c1">#             print(&quot;====================================&quot;)</span>
+<span class="c1">#             print(&quot;====================================&quot;)</span>
+
+<span class="c1">#             # if len(LansibleFairlure)==0:</span>
+<span class="c1">#             #     logging.info (&#39;\n\n:::! Ansible ejecutado correctamente para todos los elementos de red\n&#39;)</span>
+
+<span class="c1">#             # LansibleFairlure=[]</span>
+<span class="c1">#             # if ansibleprintfailures is None:</span>
+<span class="c1">#             #     logging.info (&#39;\n\n:::! Ansible ejecutado correctamente para todos los elementos de red\n&#39;)</span>
+<span class="c1">#             # else:</span>
+<span class="c1">#             #     for ansibleprintfailures in ansibleprint_raw:</span>
+<span class="c1">#             #         print (&quot;Las fallas de ejecución fueron las siguientes: &quot;,ansibleprintfailures)</span>
+<span class="c1">#             #         #FUNCION BORRADO</span>
+<span class="c1">#             #         #ansiblefailures = teco_db.insert_ansible_failures(ansibleprintfailures)</span>
+<span class="c1">#             #         #print (&quot;Salida insert DB: &quot;,ansiblefailures)</span>
+<span class="c1">#             #         LansibleFairlure.append (ansibleprintfailures)</span>
+
+<span class="c1">#             # logging.info (&#39;:::Elementos fallados&#39;.format(LansibleFairlure))</span>
+
+
+<span class="c1">#         except:</span>
+<span class="c1">#             logging.error (&#39;\n\n:::! Problema en la conexión a la Red.\n&#39;)</span>
+<span class="c1">#             raise ValueError (&#39;Error en la conexión a la Red&#39;)</span>
+<span class="c1">#             print(&quot;====================================&quot;)</span>
+<span class="c1">#             print(&quot;====================================&quot;)</span>
+<span class="c1">#             print(&quot;La salida de ansible es: &quot;,r.stats)  </span>
+<span class="c1">#             return -1</span>
+
+<span class="c1">#         finally:</span>
+<span class="c1">#             ansibleprint_raw = r.stats[&quot;failures&quot;]</span>
+<span class="c1">#             print (&#39;ESTOY EJECUTANDO ANSIBLE::::::::::::::::::::::::::&#39;)</span>
+<span class="c1">#             print (&#39;EL ansibleprint_raw es &#39;, ansibleprint_raw)</span>
+
+<span class="c1">#             LansibleFairlure = []</span>
+<span class="c1">#             for fairlureItem in ansibleprint_raw:</span>
+<span class="c1">#                 print (&#39;:::::::::::::::::::&#39;,fairlureItem)</span>
+<span class="c1">#                 LansibleFairlure.append (fairlureItem)</span>
+<span class="c1">#             logging.info (&#39;:::Elementos fallados {0}&#39;.format(LansibleFairlure))</span>
+<span class="c1">#             insert_ansible_failures(LansibleFairlure)</span>
+
+<span class="c1">#     else:</span>
+<span class="c1">#         logging.info (&#39;:::Base de datos de NE ya actualizada, no es necesario actualizar.&#39;)</span>
+
+
+<span class="c1">#####################################################################</span>
+<span class="c1">#####################################################################</span>
+
+<span class="k">def</span> <span class="nf">_check_vigencia</span><span class="p">(</span><span class="o">**</span><span class="n">context</span><span class="p">):</span>
+    
+    <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">    Chequea si el directorio esta actualizado. </span>
+
+<span class="sd">    args:</span>
+<span class="sd">    **context: necesario para determinar la fecha de ejecucion del flujo.</span>
+
+<span class="sd">    return:</span>
+<span class="sd">    True si la fecha de ejecucion del script es mas actual a la fecha de actualizacion del directorio, eso quiere decir que el directorio se debe actualizar.</span>
+
+<span class="sd">    False si la fecha de ejecucion del script es mas vieja a la fecha de actualizacion del directorio, eso quiere decir que el directorio se debe actualizar.</span>
+<span class="sd">    </span>
+<span class="sd">    &quot;&quot;&quot;</span>        
+
+    <span class="n">date_exec</span><span class="o">=</span><span class="n">context</span><span class="p">[</span><span class="s1">&#39;ds&#39;</span><span class="p">]</span> <span class="c1">#ds contiene la fecha de ejecucion del dag yyyy-mm-dd</span>
+    <span class="n">modTimesinceEpoc</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">getmtime</span><span class="p">(</span><span class="s1">&#39;/usr/local/airflow/Inner/cu1/interfaces&#39;</span><span class="p">)</span> <span class="c1">#fecha de ultima ejecucion del ansible</span>
+    <span class="n">modificationTime</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">fromtimestamp</span><span class="p">(</span><span class="n">modTimesinceEpoc</span><span class="p">)</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1">&#39;</span><span class="p">)</span>
+    
+    <span class="k">if</span> <span class="p">(</span><span class="n">date_exec</span> <span class="o">&gt;</span> <span class="n">modificationTime</span><span class="p">):</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">info</span> <span class="p">(</span><span class="s1">&#39;:::La informacion no esta vigente, tiene fecha en el pasado: </span><span class="si">{0}</span><span class="s1">.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">modificationTime</span><span class="p">))</span>
+        <span class="k">return</span> <span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">info</span> <span class="p">(</span><span class="s1">&#39;:::La informacion esta vigente, con fecha actual </span><span class="si">{0}</span><span class="s1">.</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">modificationTime</span><span class="p">))</span>
+        <span class="c1">#return (False)</span>
+        <span class="k">return</span> <span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, AT
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

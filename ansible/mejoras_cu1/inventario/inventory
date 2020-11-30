@@ -32,7 +32,3 @@ ansible_network_os=ce
 [EQUIPOS:children]
 OC
 IC
-
-[EQUIPOS:vars]
-ansible_password=c.H4rLY*Ec0
-ansible_user=x304372

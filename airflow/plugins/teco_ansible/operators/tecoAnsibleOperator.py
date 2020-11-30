@@ -1,19 +1,13 @@
 from airflow.exceptions import AirflowException
 from airflow.operators import BaseOperator
 from airflow.utils.decorators import apply_defaults
-
-#my hook
-#from teco_ansible.hooks.teco_ansible_hook import AnsibleHook
-
-#my libs
+from airflow.hooks.base_hook import BaseHook
 from lib.teco_db import *
-
 import logging
 import ansible_runner
 import os
-#from datetime import datetime
 
-#class LisyQueryRelationsOperator(BaseOperator):
+
 class tecoCallAnsible(BaseOperator):
     """
     Ejecuta ansible en el directorio remoto. 
@@ -25,6 +19,9 @@ class tecoCallAnsible(BaseOperator):
 
         playbook: [Text]
             El nombre del playbook a ejecutar.
+
+        connection: [Text]
+            El nombre de la conexion de airflow desde donde se obtienen las credenciales
         
         [inventory]: [text]
             Inventario a utilizar.
@@ -56,8 +53,13 @@ class tecoCallAnsible(BaseOperator):
         super(tecoCallAnsible, self).__init__(*args, **context)
         
         try: #parametros obligatorios
+            conn=context['op_kwargs']['connection']
             self.pbook_dir = context['op_kwargs']['pbook_dir']
             self.playbook = context['op_kwargs']['playbook']
+            self.extravars = dict(
+                ansible_user=BaseHook.get_connection(conn).login,
+                ansible_password=BaseHook.get_connection(conn).password)
+
         except:
             logging.error ('\n\n:::! Error - Falta un argumento de llamada a esta funcion.')
             #logging.error (manual)
@@ -79,9 +81,6 @@ class tecoCallAnsible(BaseOperator):
 
     def execute(self, **context):
         if self.mock:
-            # print ('\n\n')
-            # print (context)
-            # print ('\n\n')
             try:
                 os.system ('rm {0}'.format(self.init_output))
                 os.system ('cp -p {0} {1}'.format(self.mock_source, self.mock_dest))
@@ -102,49 +101,62 @@ class tecoCallAnsible(BaseOperator):
                     os.system ('rm {0}'.format(self.init_output))
                 except:
                     pass
-
                 try:
-                    r = ansible_runner.run(private_data_dir=self.pbook_dir, playbook=self.playbook, inventory=self.inventory)
+                    r = ansible_runner.run(private_data_dir=self.pbook_dir, playbook=self.playbook, inventory=self.inventory, extravars=self.extravars)
                 except:
-                    r = ansible_runner.run(private_data_dir=self.pbook_dir, playbook=self.playbook)
+                    r = ansible_runner.run(private_data_dir=self.pbook_dir, playbook=self.playbook, extravars=self.extravars)
                 print("{}: {}".format(r.status, r.rc))
                 # successful: 0
                 for each_host_event in r.events:
                     print(each_host_event['event'])
                 print("Final status:")
-                print("====================================")
-                print("====================================")
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print (':::::::::::::::::::::::::SALIDA:::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
                 print("La salida de ansible es: ",r.stats)
 
-                print("====================================")
-                print("====================================")
-                print("====================================")
-                print("====================================")
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
                 
             except:
                 logging.error ('\n\n:::! Problema en la conexión a la Red.\n')
                 raise ValueError ('Error en la conexión a la Red')
-                print("====================================")
-                print("====================================")
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+                print ('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
                 print("La salida de ansible es: ",r.stats)  
                 return -1
 
             finally:
-                ansibleprint_raw = r.stats["failures"]
-                print ('ESTOY EJECUTANDO ANSIBLE::::::::::::::::::::::::::')
-                print ('EL ansibleprint_raw es ', ansibleprint_raw)
+                ansibleprint_raw_processed = r.stats["processed"]
+                ansibleprint_raw_failures = r.stats["failures"]
+                print ('Los procesados correctamente son: ', ansibleprint_raw_processed)
+                print ('Las fallas de ejecución son las siguientes: ', ansibleprint_raw_failures)               
+
                 LansibleFairlure = []
-                for fairlureItem in ansibleprint_raw:
-                    print (':::::::::::::::::::',fairlureItem)
-                    LansibleFairlure.append (fairlureItem)
-                logging.info (':::Elementos fallados {0}'.format(LansibleFairlure))
-                insert_ansible_failures(LansibleFairlure)
+
+                if ansibleprint_raw_processed is None:
+                    logging.error ('\n\n:::! Por favor revisar inventario y conectividad de red !:::.\n')
+                    raise ValueError ('Error en la conexión a la Red')
+                else:
+                    for fairlureItem in ansibleprint_raw_failures:
+                        LansibleFairlure.append (fairlureItem)
+                    logging.info (':::Elementos fallados {0}'.format(LansibleFairlure))
+                    insert_ansible_failures(LansibleFairlure)
+
         else:
             logging.info (':::Base de datos de NE ya actualizada, no es necesario actualizar.')
 
 
     def _check_vigencia(self):
+        
         """
+        
         Chequea si el directorio esta actualizado. 
 
         args:
@@ -158,3 +170,4 @@ class tecoCallAnsible(BaseOperator):
         """        
         
         return True
+

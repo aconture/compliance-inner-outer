@@ -1,0 +1,279 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>lib package &mdash; Automatizacion 1.5 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Automatizacion
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">docs_py</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Automatizacion</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>lib package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/docs_rst/lib.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="lib-package">
+<h1>lib package<a class="headerlink" href="#lib-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-lib.teco_callelements">
+<span id="lib-teco-callelements-module"></span><h2>lib.teco_callelements module<a class="headerlink" href="#module-lib.teco_callelements" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="lib.teco_callelements.scp_files">
+<code class="descclassname">lib.teco_callelements.</code><code class="descname">scp_files</code><span class="sig-paren">(</span><em>**context</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/lib/teco_callelements.html#scp_files"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#lib.teco_callelements.scp_files" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>Args: </dt>
+<dd><dl class="first last docutils">
+<dt>connection [text]: id de la conexion creada en airflow (Admin-&gt;Connections), donde:</dt>
+<dd>“host”:”ip o hostname del ansible proxy”
+“user”:”id del usuario existente en el ansible proxy”
+“pass”:”pass del usuario en el ansible proxy”</dd>
+<dt>dest_dir [text]: path absoluto del directorio destino.</dt>
+<dd>ej: ‘/usr/local/airflow/Inner/’</dd>
+<dt>source_dir [text]: path absoluto origen de los archivos. </dt>
+<dd>ej: ‘/home/u123456/<a href="#id1"><span class="problematic" id="id2">*</span></a>.txt’</dd>
+</dl>
+</dd>
+<dt>Return:</dt>
+<dd>-1 si error
+none si exitoso</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-lib.teco_db">
+<span id="lib-teco-db-module"></span><h2>lib.teco_db module<a class="headerlink" href="#module-lib.teco_db" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="lib.teco_db.Load_inv">
+<code class="descclassname">lib.teco_db.</code><code class="descname">Load_inv</code><span class="sig-paren">(</span><em>**context</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/lib/teco_db.html#Load_inv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#lib.teco_db.Load_inv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Esta funcion carga los registros leidos del archivo indicado en la tarea, en la tabla de postgres indicada en la tarea.
+Previamente, inicializa la tabla indicada borrando todos sus registros.
+La tabla indicada tiene que estar previamente creada en la base de datos de destino.
+Args:</p>
+<blockquote>
+<div><p>dir [text]: directorio dentro del home de Airflow, donde se encuentra el archivo o el grupo de archivos a cargar. No debe incluir ‘/’ al final.
+role [text]: rol definido en el inventario. Si su valor = ‘*’, se cargan todos los roles leidos. El ‘rol’ es una propiedad del inventario.
+file [text]: archivo con la base a cargar. Si su valor = ‘*’, se cargan todos los archivos del directorio indicado.      
+table [text]: tabla de la base de datos que se debe cargar.    
+datatype [text]: tipo de dato que contiene el archivo que se va a importar en la base de datos:</p>
+<blockquote>
+<div>‘json’
+‘csv’</div></blockquote>
+</div></blockquote>
+<dl class="docutils">
+<dt>Returns:</dt>
+<dd>none</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="lib.teco_db.insert_ansible_failures">
+<code class="descclassname">lib.teco_db.</code><code class="descname">insert_ansible_failures</code><span class="sig-paren">(</span><em>ansibleprintfailures</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/lib/teco_db.html#insert_ansible_failures"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#lib.teco_db.insert_ansible_failures" title="Permalink to this definition">¶</a></dt>
+<dd><p>Insertar ansibleprintfailures en la tabla ansible_history</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-lib.teco_reports">
+<span id="lib-teco-reports-module"></span><h2>lib.teco_reports module<a class="headerlink" href="#module-lib.teco_reports" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="lib.teco_reports.gen_excel">
+<code class="descclassname">lib.teco_reports.</code><code class="descname">gen_excel</code><span class="sig-paren">(</span><em>**context</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/lib/teco_reports.html#gen_excel"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#lib.teco_reports.gen_excel" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>Esta funcion </dt>
+<dd><p class="first">-genera un archivo excel con el contenido de los ‘n’ archivos csv que lee en el directorio. Requiere que todos los archivos csv tengan los mismos campos.
+Para que no repita el nombre de la solapa del excel, se debe invocar a la funcion init_report, que borra el excel que existe previamente.</p>
+<p class="last">-graba el resumen del resultado en una tabla historica en la base de datos.</p>
+</dd>
+<dt>Args: </dt>
+<dd>none</dd>
+<dt>Returns:</dt>
+<dd>none</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="lib.teco_reports.init_report">
+<code class="descclassname">lib.teco_reports.</code><code class="descname">init_report</code><span class="sig-paren">(</span><em>**context</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/lib/teco_reports.html#init_report"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#lib.teco_reports.init_report" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-lib">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-lib" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, AT
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

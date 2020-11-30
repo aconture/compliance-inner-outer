@@ -70,7 +70,8 @@ dag = DAG(
 
 def naming_inv(**context):
     
-    manual = """
+    """
+
     Esta funcion modifica el contenido de ciertos campos traidos desde el inventario para que puedan ser comparados con el archivo que trae ansible desde el NE.
     La lectura la realiza de la tabla inv_itf.
     El resultado lo guarda en la tabla par_inv_itf. Esta tabla va a ser un subset de la tabla origen, que va atener solamente los registros que son comparados de acuerdo al 'networkrole'.
@@ -151,7 +152,8 @@ def naming_inv(**context):
 
 def naming_ne(**context):
     
-    manual = """
+    """
+
     Esta funcion modifica el contenido de ciertos campos traidos desde los NE, se queda con los puertos indicados en 'whitelist' y filtra los puertos indicados en 'blacklist' no deseados en el análisis.
 
     La lectura la realiza de la tabla NE.
@@ -216,7 +218,9 @@ def naming_ne(**context):
 #####################################################################
 
 def _logic_compl_inventario(struct, val_estado, file_output, f_ejecucion):
-    manual = """
+    
+    """
+    
     Esta funcion ejecuta las consultas a la base, con las condiciones que vienen en la estructura 'struct'.
     
     Escribe en la base el valor del campo 'ev_estado' con el valor indicado en 'val_estado'.
@@ -324,7 +328,8 @@ def _logic_compl_inventario(struct, val_estado, file_output, f_ejecucion):
 
 def Caso_ok_v2(**context):
 
-    manual = """
+    """
+
     Esta funcion determina los registros correctamente sincronizados entre el NE y el inventario.
 
     Estados registrados como 'ok': 
@@ -360,7 +365,8 @@ def Caso_ok_v2(**context):
 
 def Caso2_revisar_1(**context):
 
-    manual = """
+    """
+
     Esta funcion determina los registros que hay que revisar entre el NE y el inventario, por tener estados inconsistentes.
     Args: 
       none
@@ -394,7 +400,8 @@ def Caso2_revisar_1(**context):
 
 def Caso2_revisar_2(**context):
 
-    manual = """
+    """
+
     Esta funcion determina los registros que hay que revisar entre el NE y el inventario, por tener estados inconsistentes.
     Args: 
       none
@@ -421,7 +428,8 @@ def Caso2_revisar_2(**context):
 
 def Caso_ok_reserva(**context):
 
-    manual = """
+    """
+
     Esta funcion determina los registros que .
     Args: 
       none
@@ -449,7 +457,8 @@ def Caso_ok_reserva(**context):
 
 def Caso_na(**context):
 
-    manual = """
+    """
+
     Esta funcion determina los registros que tienen un estado N/A.
     Args: 
       none
@@ -478,7 +487,7 @@ def Caso_na(**context):
 
 def Caso3_ne_inv(**context):
 
-    manual = """
+    """
 
     Esta funcion determina los registros que existen en el NE y NO existen en el inventario.
     Args: 
@@ -533,7 +542,7 @@ def Caso3_ne_inv(**context):
 
 def Caso_inv_ne(**context):
 
-    manual = """
+    """
 
     Esta funcion determina los registros que existen en el Inventario y NO existen en el NE.
     Args: 
@@ -577,9 +586,11 @@ _auto_ansible = tecoCallAnsible(
     op_kwargs={
         'pbook_dir':'/usr/local/ansible/mejoras_cu1/yaml',
         'playbook':'main.yaml',
+        'connection':'credenciales_equipos',
         'init_output':'/usr/local/ansible/mejoras_cu1/interfaces/*.txt',
         'inventory':'/usr/local/ansible/mejoras_cu1/inventario/inventory.reducido',
         'mock':True,
+        #'mock':False,
         'mock_source':'/usr/local/ansible/mejoras_cu1/interfaces_mock/*.txt',
         'mock_dest':'/usr/local/ansible/mejoras_cu1/interfaces/'
         },
