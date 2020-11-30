@@ -276,23 +276,19 @@ class LisyQueryPort(BaseOperator):
         endpoint = 'port/'
 
         #armo el body:
-        identifier = {
-            "shelfname":"{0}".format(self.shelf_name),
-            "portInterfaceName":"{0}".format(self.port_id)
-        }
+        #body="{\r\n    \"identifier\": {\r\n        \"shelfName\": \"IC1.HOR1\",\r\n        \"portInterfaceName\": \"9/0/1\"\r\n    }\r\n}"
 
-        body = {
-            "identifier":identifier 
-        }
-
-        logging.info ('::::::::::::::::{0}'.format(body))
+        body =f'{{\r\n \"identifier\": {{\r\n \"shelfName\": \"{self.shelf_name}\",\r\n \"portInterfaceName\":\"{self.port_id}\" \r\n }} \r\n}}'
+        
+        #logging.info ('::::::::::::::::{0}'.format(body))
 
         vista,token = _endpoint_handler(self.hook, endpoint, 'POST', body)
 
         print ('\n\n\n&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')        
         logging.info ('Respuesta recibida desde Lisy:\n {0}'.format(pformat(vista)))
 
-        _to_jsonFile(self.dest_dir, vista, 'customQuery', self.shelf_name)
+        fileid = self.shelf_name + '_' + self.port_id
+        _to_jsonFile(self.dest_dir, vista, 'customQuery', fileid)
 
 
 ###########################################################################
@@ -341,7 +337,7 @@ class LisyCheckTokenOperator(BaseOperator):
 # Funciones comunes a todos los operadores
 #
 
-def _to_jsonFile(dest_dir, struct, endpoint, servid):
+def _to_jsonFile(dest_dir, struct, endpoint, fileid):
     """
     Guarda la estructura en un archivo json en el directorio seleccionado
 
@@ -354,13 +350,19 @@ def _to_jsonFile(dest_dir, struct, endpoint, servid):
         endpoint: 
             prefijo que se pone al archivo. Normalmente el nombre del endpoint que invoca el operador.
         
-        servid: 
-            el id del servicio invocado, se usa para dar nombre al archivo.
+        fileid: 
+            el id del nombre del archivo json que se guarda en dest_dir.
 
     """
     #file_name = self.file_name
     #tot_name = os.path.join(file_name)
-    file_url = dest_dir + endpoint + '_' + servid + '.json'
+    
+    #reemplazos de caracteres no validos para nombrar archivos:
+    fileid = fileid.replace('/','-')
+    fileid = fileid.replace('\\','-')
+
+    #escribo
+    file_url = dest_dir + endpoint + '_' + fileid + '.json'
     with open(file_url, 'w') as outputfile:
         json.dump(struct, outputfile)
     logging.info('::: Base almacenada en {}'.format(file_url))

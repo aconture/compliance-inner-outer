@@ -44,14 +44,16 @@ class LisyHook(BaseHook):
 
 
     def get_request(self, token, endpoint, tipo, body=None):
-        manual: """
+        """
 
         Esta funcion ejecuta el query en Lisy (condis).
         Necesita un token self.token
         
         Args:
+            token: el token recibido en el pedido de 'get_token
             tipo: GET, POST
             endpoint: el endpoint de la api rest de Lisy
+            body (opcional): si el request lleva body, este argumento lleva el contenido del body.
         Returns:
         
         """
@@ -93,9 +95,8 @@ class LisyHook(BaseHook):
         else:
             payload = body
         
-        #print ('EL PAYLOAD QUE LLEGA AL HOOK', payload)
-
         headers = {
+        'Content-Type': 'application/json',
         'Authorization': 'Bearer {0}'.format(self.token),
         'Cookie':'TS016d2cf6=0154ce2499fd2dd02f2c91cebc97efe857db1c7f91b61612598f800f9710a96f951fcca02cdbe66bc12bff1a7f9dc9e62d2d3f0d16'
         }
@@ -123,7 +124,7 @@ class LisyHook(BaseHook):
 
     def get_token (self,full=False):
 
-        manual: """
+        """
 
         Esta funcion obtiene el token entregado por Datapower, dadas las credenciales que se recuperan de las conexiones creadas, y leídas en __init__()
         
