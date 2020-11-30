@@ -589,8 +589,8 @@ _auto_ansible = tecoCallAnsible(
         'connection':'credenciales_equipos',
         'init_output':'/usr/local/ansible/mejoras_cu1/interfaces/*.txt',
         'inventory':'/usr/local/ansible/mejoras_cu1/inventario/inventory.reducido',
-        #'mock':True,
-        'mock':False,
+        'mock':True,
+        #'mock':False,
         'mock_source':'/usr/local/ansible/mejoras_cu1/interfaces_mock/*.txt',
         'mock_dest':'/usr/local/ansible/mejoras_cu1/interfaces/'
         },
