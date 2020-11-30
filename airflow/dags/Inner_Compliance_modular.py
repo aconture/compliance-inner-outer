@@ -703,7 +703,10 @@ _init_reporting = PythonOperator(
 _imprime_reporte = PythonOperator(
     task_id='Genera_Reporte',
     op_kwargs={    
-    'dir':'/usr/local/airflow/reports',
+    'dir':'/usr/local/airflow/reports', 
+    'file':'reporte.xlsx',
+    'dir_html':'/usr/local/airflow/reports/auxiliar/', 
+    'file_html':'resumen.html',
     },
     python_callable=lib.teco_reports.gen_excel,
     retries=1, dag=dag)
@@ -713,7 +716,7 @@ _envia_mail1 = EmailOperator(
     to="6b8581f6.teco.com.ar@amer.teams.ms",
     #to="c23383e8.teco.com.ar@amer.teams.ms", #canal teams de in-house
     subject="Compliance Inner&Outer - Resultado de Ejecucion {{ ds }}",
-    html_content=lib.teco_reports._cuerpo_mail(),
+    html_content=lib.teco_reports._cuerpo_mail('/usr/local/airflow/reports/auxiliar/','resumen.html'),
     files=["/usr/local/airflow/reports/reporte.xlsx"],
     dag=dag
 )

@@ -22,13 +22,19 @@ def gen_excel(**context):
         -graba el resumen del resultado en una tabla historica en la base de datos.
     
     Args: 
-      none
+      "dir":"path absoluto del directorio destino"
+      "file":"nombre del archivo del reporte"
+      "dir_html":"path absoluto del directorio destino del archivo html con el que luego se arma el email"
+      "file_html":"nombre del archivo html para armar email"
+       
     Returns:
       none
-    
     """
 
     dir=context['dir']
+    file=context['file']
+    dir_html=context['dir_html']
+    file_html=context['file_html']
     #archivos=os.listdir(os.path.join(os.getcwd(),dir,'auxiliar'))
     archivos = [f for f in os.listdir(os.path.join(os.getcwd(),dir,'auxiliar')) if f.endswith('.csv')]
     
@@ -60,9 +66,10 @@ def gen_excel(**context):
     data_resumen_dataframe = data_resumen.reset_index()
     data_resumen_dataframe['fecha'] = f_ejecucion
 
-    data_resumen_dataframe.to_html('/usr/local/airflow/reports/auxiliar/resumen.html', index=False)
+    data_resumen_dataframe.to_html(dir_html+file_html, index=False)
 
-    archivo_rep = os.path.join(os.getcwd(),dir,'reporte.xlsx')        
+    archivo_rep = os.path.join(os.getcwd(),dir,file) 
+      
     try:
         with pd.ExcelWriter(archivo_rep,mode='a',engine='openpyxl', encoding="utf-8-sig") as escritor:
             data_resumen.to_excel(escritor, sheet_name='resumen')
@@ -81,7 +88,7 @@ def gen_excel(**context):
     df = dataframe.groupby(['NE', 'EvEstado'])['EvEstado'].count()        
     df = df.reset_index(name='cantidad')
 
-    print (df)
+    #print (df)
 
     data = []
 
@@ -103,7 +110,7 @@ def gen_excel(**context):
         }
         data.append (body)
         
-    pprint.pprint(data)
+    #pprint.pprint(data)
 
     client = InfluxDBClient(host='influxdb', port=8086, username='admin', password='Welcome1')
     client.switch_database('influx_airflow')
@@ -113,15 +120,26 @@ def gen_excel(**context):
 #####################################################################
 #####################################################################
 
-def _cuerpo_mail():
+def _cuerpo_mail(dir1,file1):
     
     """
 
     Lee el resumen generado y almacenado en reports/auxiliar/ para usarlo en el cuerpo del mail de resultado de la operacion.
     
+    Args: 
+      "dir1":"path absoluto del directorio a buscar el archivo"
+      "file1":"archivo donde esta el resumen generado"
+    Returns:
+      none
     """
-
-    with open('/usr/local/airflow/reports/auxiliar/resumen.html', 'r') as f:
+    print(dir1)
+    print(file1)
+    #dir1=context['dir']
+    #file1=context['file']
+    #dir1_file1=dir1+file1
+    #print(dir1_file1)
+    #with open('/usr/local/airflow/reports/auxiliar/resumen.html', 'r') as f:
+    with open(dir1+file1, 'r') as f:
         html_string = f.read()
     f.close
     return (html_string)
