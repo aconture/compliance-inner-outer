@@ -1,7 +1,7 @@
 import openpyxl
 import pandas as pd
 import os
-import lib.teco_db
+from lib.teco_db import *
 from airflow.hooks import PostgresHook
 from influxdb import InfluxDBClient
 import json
@@ -112,9 +112,8 @@ def gen_excel(**context):
         
     #pprint.pprint(data)
 
-    client = InfluxDBClient(host='influxdb', port=8086, username='admin', password='Welcome1')
-    client.switch_database('influx_airflow')
-    client.write_points(data)
+    #Llama a función que inserta los datos en influx. Pasa como parametro el dataframe           
+    insert_influxdb(data)
 
 
 #####################################################################

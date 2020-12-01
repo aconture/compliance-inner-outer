@@ -3,6 +3,8 @@ from airflow.hooks import PostgresHook
 import pandas as pd
 import logging
 import os
+from influxdb import InfluxDBClient
+from airflow.hooks.base_hook import BaseHook
 
 #####################################################################
 #####################################################################
@@ -195,6 +197,43 @@ def insert_ansible_failures(ansibleprintfailures):
     conn.commit()
     conn.close()
 
+####################################################################
+####################################################################
+#Inserta resultado de ejecucion en influxdb#
+####################################################################
+####################################################################
+
+def insert_influxdb(data):
+
+    """ Insertar datos en la base de influx, recibe data que es una estructura que contiene
+    los tags, los fields y el body. Los parametros de la base influx lo obtiene de las variables
+    de conexion de airflow. En particular se llama influxdb_conn """
+
+    try: 
+        conn='influxdb_conn'
+        influxdb_user=BaseHook.get_connection(conn).login
+        influxdb_password=BaseHook.get_connection(conn).password
+        influxdb_host=BaseHook.get_connection(conn).host
+        influxdb_port=BaseHook.get_connection(conn).port
+        influxdb_database=BaseHook.get_connection(conn).schema
+    except:
+        logging.error ('\n\n:::! Error - Conexion.')
+        raise ValueError('Error de recupero de conexion')
+    
+    print ('influxdb_user: ' + influxdb_user)
+    print ('influxdb_password: ' + influxdb_password)
+    print ('influxdb_host: ' + influxdb_host)
+    print ('influxdb_port: ' + str(influxdb_port))
+    print ('influxdb_database: ' + influxdb_database)
+
+    client = InfluxDBClient(host=influxdb_host, port=influxdb_port, username=influxdb_user, password=influxdb_password)
+    client.switch_database(influxdb_database)
+    client.write_points(data)
+
+####################################################################
+####################################################################
+####################################################################
+####################################################################
 
 
 
