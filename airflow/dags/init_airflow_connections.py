@@ -60,7 +60,7 @@ t3 = BashOperator(
 
 t4 = BashOperator(
     task_id='Crea_conexion_MongoDB',
-    bash_command='airflow connections --add --conn_id mongodb_conn --conn_login admin --conn_port 27017 --conn_schema temporal --conn_host compliance-inner-outer_mongo_1 --conn_type mongo',
+    bash_command='airflow connections --add --conn_id mongodb_conn --conn_login admin --conn_port 27017 --conn_schema temporal --conn_host airflow-mongodb --conn_type mongo',
     dag=dag
     )
 
