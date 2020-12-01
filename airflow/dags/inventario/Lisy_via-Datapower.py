@@ -18,7 +18,7 @@ from lisy_plugin.operators.lisy_operator import LisyQueryCorporateService
 from lisy_plugin.operators.lisy_operator import LisyQueryCustom
 from lisy_plugin.operators.lisy_operator import LisyCheckTokenOperator
 from lisy_plugin.operators.lisy_operator import LisyQueryPort
-
+from lisy_plugin.operators.lisy_operator import LisyQueryVlan
 
 from datetime import datetime, timedelta
 import os
@@ -106,6 +106,18 @@ _q_port	= LisyQueryPort(
     dag=dag
 ) 
 
+_q_vlan	= LisyQueryVlan(
+    task_id='query_vlan', 
+    params={
+    },
+    pool_name = 'FOR1MB',
+    type = 'SVlan',
+    name = '1110',
+    dest_dir = '/usr/local/airflow/reports/Lisy/',
+    dag=dag
+) 
 
 
-t0 >> t1 >> _q_service >> _q_custom
+
+t0 >> t1 >> _q_service
+_q_port

@@ -22,7 +22,7 @@ class LisyQueryCorporateService(BaseOperator):
     Este operador navega el arbol de inventario a partir del ID DE SERVICIO.
 
         Args: 
-            servid: id del servicio
+            servid [Text]: id de la Referencia
             params [diccionario]: Set de Parametros opcionales. Puede ser diccionario vacio.
 
         Returns:
@@ -62,6 +62,7 @@ class LisyQueryCorporateService(BaseOperator):
         self.params = params
         self.servid = context['servid']
         self.dest_dir = context['dest_dir']
+        self.endpoint = 'corporateService/{0}'.format(self.servid)
 
     ###########################################################################
     def execute(self, **context):
@@ -77,8 +78,7 @@ class LisyQueryCorporateService(BaseOperator):
 
         """
         
-        endpoint = 'corporateService/{0}'.format(self.servid)
-        vista,token = _endpoint_handler(self.hook, endpoint)
+        vista,token = _endpoint_handler(self.hook, self.endpoint)
 
         print ('\n\n\n&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')        
         #print ()
@@ -206,9 +206,9 @@ class LisyQueryCorporateService(BaseOperator):
 
         logging.info ('::::::===> Salgo de la iteracion de {0}<==='.format(objeto))
 
+###########################################################################
+###########################################################################
 
-###########################################################################
-###########################################################################
 class LisyQueryCustom(BaseOperator):
     """
     Este operador accede a las queries custom.
@@ -234,28 +234,35 @@ class LisyQueryCustom(BaseOperator):
         self.params = params
         self.query_id = context['query_id']
         self.dest_dir = context['dest_dir']
+        self.endpoint = 'queries/{0}.json'.format(self.query_id)
 
     def execute(self, **context):
        
-        endpoint = 'queries/{0}.json'.format(self.query_id)
-        vista,token = _endpoint_handler(self.hook, endpoint)
+        vista,token = _endpoint_handler(self.hook, self.endpoint)
 
         print ('\n\n\n&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')        
         logging.info ('Respuesta recibida desde Lisy:\n {0}'.format(pformat(vista)))
-
+        
         _to_jsonFile(self.dest_dir, vista, 'customQuery', self.query_id)
 
 ###########################################################################
 ###########################################################################
 
-
 class LisyQueryPort(BaseOperator):
     """
+    Devuelve la informacion de los recursos asociados a un port.
 
         Args: 
+            Shelfname [Text]: id del shelf
+                Ej: IC1.HOR1
+            Port [Text]: 
+                Ej: '9/0/1'
+            dest_dir [Text]:
+                Directorio donde se almacena el archivo json con el resultado de la consulta.
+                Ej: '/usr/local/airflow/reports/Lisy/'
 
         Returns:
-            Escribe la estructura en json que devuelve la custom query.
+            Escribe la estructura en json que devuelve la consulta.
 
     """
     @apply_defaults
@@ -270,11 +277,10 @@ class LisyQueryPort(BaseOperator):
         self.port_id = context['port_id']
         self.shelf_name = context['shelf_name']        
         self.dest_dir = context['dest_dir']
+        self.endpoint = 'port/'
 
     def execute(self, **context):
        
-        endpoint = 'port/'
-
         #armo el body:
         #body="{\r\n    \"identifier\": {\r\n        \"shelfName\": \"IC1.HOR1\",\r\n        \"portInterfaceName\": \"9/0/1\"\r\n    }\r\n}"
 
@@ -282,14 +288,73 @@ class LisyQueryPort(BaseOperator):
         
         #logging.info ('::::::::::::::::{0}'.format(body))
 
-        vista,token = _endpoint_handler(self.hook, endpoint, 'POST', body)
+        vista,token = _endpoint_handler(self.hook, self.endpoint, 'POST', body)
 
         print ('\n\n\n&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')        
         logging.info ('Respuesta recibida desde Lisy:\n {0}'.format(pformat(vista)))
 
         fileid = self.shelf_name + '_' + self.port_id
-        _to_jsonFile(self.dest_dir, vista, 'customQuery', fileid)
+        _to_jsonFile(self.dest_dir, vista, 'QueryPort', fileid)
 
+###########################################################################
+###########################################################################
+
+class LisyQueryVlan(BaseOperator):
+    """
+    Devuelve la informacion de los recursos asociados a una VLAN.
+
+        Args: 
+            pool_name [Text] = 
+                Nombre del Pool de donde depende la VLAN. En caso que no sea único, el servicio devolverá el primero que encuentre con esos atributos.
+                Ej: 'ALF2MU'
+            
+            type [Text] = 'SVlan' | 'CVLan'. Parametro CASE SENSITIVE.
+                Tipo de vlan. 
+                Ej: 'SVlan'
+            
+            name [Text] = 
+                Nombre la de VLan.
+                Ej: '3990'
+            
+            dest_dir [Text]:
+                Directorio donde se almacena el archivo json con el resultado de la consulta.
+                Ej: '/usr/local/airflow/reports/Lisy/'
+
+        Returns:
+            Escribe la estructura en json que devuelve la consulta.
+
+    """
+    @apply_defaults
+    def __init__(
+        self, 
+        params,
+        *args, 
+        **context):
+        super(LisyQueryVlan, self).__init__(*args, **context)
+        self.hook = None
+        self.params = params
+        self.pool_name = context['pool_name']
+        self.type = context['type']        
+        self.name = context['name']
+        self.dest_dir = context['dest_dir']
+        self.endpoint = 'vlanbase/'
+
+    def execute(self, **context):
+       
+        #armo el body:
+
+        #payload="{\r\n\"identifier\": {\r\n   \"poolName\": \"ALF2MU\",\r\n   \"type\": \"SVlan\",\r\n   \"name\": \"3990\"\r\n   }\r\n}"
+        body =f'{{\r\n \"identifier\": {{\r\n \"poolName\": \"{self.pool_name}\",\r\n \"type\":\"{self.type}\", \r\n \"name\": \" {self.name}\"\r\n }} \r\n}}'
+        
+        #logging.info ('::::::::::::::::{0}'.format(body))
+
+        vista,token = _endpoint_handler(self.hook, self.endpoint, 'POST', body)
+
+        print ('\n\n\n&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')        
+        logging.info ('Respuesta recibida desde Lisy:\n {0}'.format(pformat(vista)))
+
+        fileid = self.pool_name + '_' + self.type + '_' + self.name
+        _to_jsonFile(self.dest_dir, vista, 'QueryVlan', fileid)
 
 ###########################################################################
 ###########################################################################

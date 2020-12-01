@@ -9,10 +9,11 @@ from lisy_plugin.operators.lisy_operator import LisyQueryCorporateService
 from lisy_plugin.operators.lisy_operator import LisyQueryCustom
 from lisy_plugin.operators.lisy_operator import LisyCheckTokenOperator
 from lisy_plugin.operators.lisy_operator import LisyQueryPort
+from lisy_plugin.operators.lisy_operator import LisyQueryVlan
 
 class LisyPlugin(AirflowPlugin):
     name = "LisyPlugin_v0"  # does not need to match the package name
-    operators = [LisyCheckTokenOperator, LisyQueryCorporateService, LisyQueryCustom, LisyQueryPort]
+    operators = [LisyCheckTokenOperator, LisyQueryCorporateService, LisyQueryCustom, LisyQueryPort, LisyQueryVlan]
     sensors = []
     hooks = [LisyHook]
     executors = []
