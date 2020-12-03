@@ -54,7 +54,6 @@ class LisyQueryCorporateService(BaseOperator):
     def __init__(
         self, 
         params,
-        #metodo,
         *args, 
         **context):
         super(LisyQueryCorporateService, self).__init__(*args, **context)
@@ -132,6 +131,8 @@ class LisyQueryCorporateService(BaseOperator):
         resultado["info1"]=vista['info1']
         resultado["ServiceState"]=serviceState[0]['userLabel']
         resultado["UsedPort"]=Port
+        #print ('0000000000000000000000000000000000000',vista['_self']['class'])
+        resultado["tipoServicio"]=vista['_self']['class']
                 
         logging.info ('\n\n:::Datos obtenidos:\n{0}'.format(pformat(resultado)))
 
