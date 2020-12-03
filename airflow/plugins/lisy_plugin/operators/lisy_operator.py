@@ -135,19 +135,25 @@ class LisyQueryCorporateService(BaseOperator):
         
         dn_cliente = ':'.join(dn_full[:len(dn_full)-1])
         endpoint = 'DNs/{0}'.format(dn_cliente)
-        razon_social = _endpoint_handler(self.hook,endpoint, 'GET', token=token)
+        razon_social,token = _endpoint_handler(self.hook,endpoint, 'GET', token=token)
 
         """
         ===> continuar el desarrollo de razon social aca:
-
-        if razon_social['_self']['Class'] != 'Customer':
+        """
+        for nivel,nombre in enumerate (dn_full):
+            print (nivel,nombre)
+        
+        
+        if razon_social['_self']['class'] != 'Customer':
             dn_cliente = ':'.join(dn_full[:len(dn_full)-2])
             endpoint = 'DNs/{0}'.format(dn_cliente)
             razon_social = _endpoint_handler(self.hook,endpoint, 'GET', token=token)
-        """
+        
 
         logging.info ('RAZON SOCIAL:\n{0}'.format(pformat(razon_social)))
-
+        """
+        FIN RAZON SOCIAL
+        """
 
         #Armado del json que integra todos los datos:
         resultado={}                
@@ -476,7 +482,7 @@ def _endpoint_handler(hook, endpoint, metodo='GET', body=None, token=None):
             Cuando se trata de una transaccion con multiples accesos, es posible que ya se cuente con el token. en ese caso al invocar a esta funcion, se le pasa el token con el que ya se cuenta.
             Si no se pasa el argumento token, la funcion gestiona un nuevo token.
 
-        returns:
+        returns: [Zip]
             vista:
                 es la estructura que recibida como respuesta desde la API
             
