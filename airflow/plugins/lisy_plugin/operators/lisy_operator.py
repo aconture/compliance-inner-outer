@@ -83,7 +83,7 @@ class LisyQueryCorporateService(BaseOperator):
         #print ()
         logging.info ('Respuesta recibida desde Lisy con los datos del servicio:\n {0}'.format(pformat(vista)))
 
-        #comienzo a pedir las iteraciones:
+        #comienzo a pedir las iteraciones para identificar los recursos de los puertos asignados:
         usedPortNames = self._iter_oops(vista, 'usedPortNames', token)
         serviceState = self._iter_oops(vista, 'state', token)
         
@@ -124,14 +124,38 @@ class LisyQueryCorporateService(BaseOperator):
         else:
             logging.info (':::El servicio no tiene interfaces asignadas')
 
-        #Armado del json:
+
+        #Comienzo a iterar para buscar la razon social del cliente
+        #Tengo que navegar a partir del 'dn' recibido, quitando el ultimo nivel
+        #Navego el DNs hasta que veo que ['_self']['Class']=='Customer', en ese momento llegué a la razon social
+        #Para navegar, voy restando un nivel al DNs recibido en ['_self']['dn'] de la consulta del corporateService, de esta manera:
+        #recibo: root:Pools:Customer Pools:Customers:Telecom Personal S.A.:439341:439341-1
+        #genero: root:Pools:Customer Pools:Customers:Telecom Personal S.A.:439341
+        dn_full = vista['_self']['dn'].split(':')
+        
+        dn_cliente = ':'.join(dn_full[:len(dn_full)-1])
+        endpoint = 'DNs/{0}'.format(dn_cliente)
+        razon_social = _endpoint_handler(self.hook,endpoint, 'GET', token=token)
+
+        """
+        ===> continuar el desarrollo de razon social aca:
+
+        if razon_social['_self']['Class'] != 'Customer':
+            dn_cliente = ':'.join(dn_full[:len(dn_full)-2])
+            endpoint = 'DNs/{0}'.format(dn_cliente)
+            razon_social = _endpoint_handler(self.hook,endpoint, 'GET', token=token)
+        """
+
+        logging.info ('RAZON SOCIAL:\n{0}'.format(pformat(razon_social)))
+
+
+        #Armado del json que integra todos los datos:
         resultado={}                
         resultado["idServicio"]=vista['name']
         resultado["userLabel"]=vista['userLabel']
         resultado["info1"]=vista['info1']
         resultado["ServiceState"]=serviceState[0]['userLabel']
         resultado["UsedPort"]=Port
-        #print ('0000000000000000000000000000000000000',vista['_self']['class'])
         resultado["tipoServicio"]=vista['_self']['class']
                 
         logging.info ('\n\n:::Datos obtenidos:\n{0}'.format(pformat(resultado)))
@@ -142,7 +166,8 @@ class LisyQueryCorporateService(BaseOperator):
     ###########################################################################
     def _iter_oops(self,vista,objeto, token):
         """
-        Esta función interactua con el árbol de cada recurso del inventario.
+        Esta función interactua con el árbol de cada recurso del inventario, usando el endpoint "/oops".
+
         Itera la 'vista' recibida buscando el 'objeto' indicado.
         
             vista: la estructura json que devolvio la respuesta desde Lisy.
@@ -435,12 +460,21 @@ def _to_jsonFile(dest_dir, struct, endpoint, fileid):
     #pprint.pprint(struct)
 
 
-def _endpoint_handler(hook, endpoint, metodo='GET', body=None):
+def _endpoint_handler(hook, endpoint, metodo='GET', body=None, token=None):
     """
     Llama al hook, ejecuta el endpoint recibido, y devuelve el resultado.
 
         endpoint:
             abc/xyz. Donde abc es el endpoint a ejecutar y xyz los parametros a pasar al endpoint.
+        
+        metodo: ['GET'|'POST']
+
+        body:
+            Hay endpoints que envian la informacion dentro de un body. En estos casos el body debe venir en el argumento 'body'.
+        
+        token:
+            Cuando se trata de una transaccion con multiples accesos, es posible que ya se cuente con el token. en ese caso al invocar a esta funcion, se le pasa el token con el que ya se cuenta.
+            Si no se pasa el argumento token, la funcion gestiona un nuevo token.
 
         returns:
             vista:
@@ -453,9 +487,10 @@ def _endpoint_handler(hook, endpoint, metodo='GET', body=None):
         hook = LisyHook()
 
     #solicitud del token
-    token = hook.get_token(full=True)
-    #logging.info (token['access_token'])
-    token = token['access_token']
+    if token is None:
+        token = hook.get_token(full=True)
+        #logging.info (token['access_token'])
+        token = token['access_token']
 
     trae = hook.get_request(token, endpoint, metodo, body)
 
